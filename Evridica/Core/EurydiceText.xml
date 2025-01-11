@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_SC_EURYDICE_NAME" Language="ru_RU">
+		<Text>Эвридика</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_EURYDICE_QUOTE" Language="ru_RU">
+		<Text>Эвридика, дочь Ирраса, посвящает этот храм Музам, благодарная за исполнение желания, дарованного ими в ответ на её молитвы.</Text>
+	</Row>
+	<!-- Посвящения Евклее -->
+	<Row Tag="LOC_AGENDA_SC_DEDICATIONS_EUCLEIA_NAME" Language="ru_RU">
+		<Text>Посвящения Евклее</Text>
+	</Row>
+	<Row Tag="LOC_AGENDA_SC_DEDICATIONS_EUCLEIA_DESCRIPTION" Language="ru_RU">
+		<Text>Предпочитает цивилизации с высоким производством веры и счастливыми гражданами. Недолюбливает цивилизации с низким производством веры и большой армией.</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_SC_DEDICATIONS_EUCLEIA_HAPPY_AND_FAITHFUL" Language="ru_RU">
+		<Text>(Ваши граждане счастливы, и у вас сильное производство веры.)</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_KUDO_LEADER_SC_EURYDICE_REASON_HAPPY_AND_FAITHFUL" Language="ru_RU">
+		<Text>Эвридика довольна, что ваш народ счастлив и набожен.</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_SC_DEDICATIONS_EUCLEIA_BIG_AND_SCARY" Language="ru_RU">
+		<Text>(У вас большая армия и слабое производство веры.)</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_WARNING_LEADER_SC_EURYDICE_REASON_BIG_AND_SCARY" Language="ru_RU">
+		<Text>Эвридика чувствует угрозу из-за вашей большой армии и безбожных путей.</Text>
+	</Row>
+	<!-- Домашний экран -->
+	<Row Tag="LOC_LOADING_INFO_LEADER_SC_EURYDICE" Language="ru_RU">
+		<Text>Да воспоют Музы твою славу, Эвридика, королева и хранительница Македонии. Судьба королевства в твоих руках: твои потомки обречены на великое будущее, но сталкиваются с серьёзными угрозами в настоящем. Есть те, кто стремится свергнуть тебя и твою семью; ты должна остановить их — любой ценой. Ищи союзников дома и за границей и будь смелой, ведь дух Евклеи горит в тебе ярким светом.</Text>
+	</Row>
+	<!-- Черты -->
+	<Row Tag="LOC_TRAIT_LEADER_SC_BROAD_JUSTICE_NAME" Language="ru_RU">
+		<Text>Широкая справедливость</Text>
+	</Row>
+	<Row Tag="LOC_TRAIT_LEADER_SC_BROAD_JUSTICE_DESCRIPTION" Language="ru_RU">
+		<Text>Ваши [ICON_Citizen] граждане производят на 15% больше лояльности за ход, а ваши города получают на 10% больше [ICON_Production] производства для юнитов за каждый имеющийся союз. Все здания кампусов дают +1 [ICON_Faith] веры, а все здания Святых мест дают +1 [ICON_Science] науки.</Text>
+	</Row>
+
+		<!-- Civiliopedia -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_EURYDICE_TITLE" Language="ru_RU">
+    <Text>Эвридика</Text>
+</Row>
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_EURYDICE_SUBTITLE" Language="ru_RU">
+    <Text>Королева Македонии</Text>
+</Row>
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_EURYDICE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+    <Text>Эвридика I была женой царя Аминты III. Считается, что она была лингестийского происхождения, хотя такие писатели, как Плутарх, утверждали, что она была иллирийкой. У Эвридики и Аминты было трое сыновей — Александр II, Пердикка III и Филипп II — все они стали царями Македонии. Она также была бабушкой Александра Великого.</Text>
+</Row>
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_EURYDICE_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+    <Text>Эвридика родилась между 410 и 404 годами до н.э. в семье знатного человека по имени Сиррас. Она вышла замуж за Аминту в возрасте около 20 лет, вероятно, в рамках дипломатической попытки установить мир между Македонией и её народом. Правление Аминты было бурным; греческие халкидцы захватили большую часть царства, включая Пеллу, пока Спарта не вмешалась. Тем не менее, Эвридике удалось вытеснить главную жену Аминты, Гигею, и стать царицей. Аминта III умер около 370 года до н.э., и вскоре царство столкнулось с серьезными трудностями. Первым на трон взошел её старший сын Александр II, но был убит через два года Птолемеем из Алороса. Благодаря соглашению, достигнутому фиванским государственным деятелем Пелопидом, некоторая независимость Македонии была сохранена, и Птолемей стал регентом для двух других сыновей Эвридики. Чтобы защитить их, Эвридика вышла замуж за Птолемея. Во время регентства Птолемея, знатный человек по имени Павсаний попытался захватить трон. Эвридика обратилась за помощью к афинскому генералу Ификрату, который изгнал Павсания. Смелый поступок Эвридики, вероятно, спас царство и был исключительным для женщины того времени. По этим и другим причинам её правление часто рассматривается как поворотный момент в роли женщин в Македонии.</Text>
+</Row>
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_EURYDICE_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+    <Text>Эвридика активно участвовала в государственных делах и культурной жизни Македонии. Считается, что она финансировала строительство храма, посвященного Евклее, женскому духу славы, в Вергине. Также предполагается, что она научилась читать и писать в поздние годы жизни — талант, который она считала даром Муз. Дата её смерти неизвестна, но считается, что она умерла между 365 и 359 годами до н.э., вероятно, до того, как её младший сын Филипп II взошел на трон. Однако Филипп и его потомки не забыли об Эвридике; её портрет-статуя была включена в состав Филиппеона в Олимпии, построенного в честь победы Филиппа в битве при Херонее в 338 году до н.э. Хотя о жизни Эвридики известно немного, её доблесть и храбрость пережили её. Эсхин считал её верным защитником своих сыновей, а Плутарх писал, что она была образцом для подражания в воспитании детей.</Text>
+</Row>
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_EURYDICE_CHAPTER_CAPSULE_BODY" Language="ru_RU">
+    <Text>Главные силы Эвридики заключаются в её отношениях с союзниками. Если вам удастся дипломатически изолировать её, её преимущества рассыплются. Однако будьте осторожны, несмотря на её оборонительный настрой, македонские войска всё ещё способны нанести серьёзный удар!</Text>
+</Row>
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_EURYDICE_CHAPTER_DETAILED_BODY" Language="ru_RU">
+    <Text>В роли Эвридики ваше главное преимущество открывается на среднем этапе древа гражданских технологий с открытием "Гражданская служба", которая разблокирует альянсы; получение этой технологии должно стать вашим приоритетом. До средневековой эпохи старайтесь устанавливать дружеские отношения с соседними цивилизациями, которые затем можно будет преобразовать в альянсы. Также рекомендуется попробовать развивать религию на ранних этапах игры; благодаря бонусной науке от зданий Священного места, акцент на ранней религии будет не таким обременительным, как для других лидеров.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Добро пожаловать, странник, в Македонию. Я Эвридика, королева этих земель и верная служительница богини Евклеи.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Хотите посетить один из наших городов? Приходите, проведите время в одном из наших многочисленных храмов! Возможно, боги улыбнутся вам.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Добрый жест — я отправлюсь немедленно, как только найду, кому оставить своих сыновей...</Text>
+</Row>
+<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Я хотел бы знать, где вас найти в случае чрезвычайной ситуации, и, конечно, я предложу вам взамен своё гостеприимство. Что скажете?</Text>
+</Row>
+<Row Tag="LOC_DIPLO_GREETING_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Ах, вы вернулись.</Text>
+</Row>
+
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Присутствие ваших войск здесь может помочь защитить от самозваных претендентов. Я согласна.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Ха! Чтобы вы могли посеять смуту в моих владениях? Я так не думаю!</Text>
+</Row>
+<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Боги благословили этот мир великой красотой. Прошу, позвольте моему народу безопасно пересечь ваши земли, чтобы они могли узреть творения божественных сил.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Разумеется! Да улыбнется Евклея этой дружбе.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Боюсь, что нет.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Некоторые люди видят в этом мире лишь уродство и хаос. Но я предпочитаю видеть красоту. И в дружбе есть красота, не так ли?</Text>
+</Row>
+<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Прекрасно!</Text>
+</Row>
+<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>О, возможно, я ошиблась. Мои извинения.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>В единстве — сила, которая обеспечит продолжение правления моей семьи. Присоединишься ли ты ко мне, хотя бы ради моих сыновей?</Text>
+</Row>
+<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Вы правите своими подданными с любовью родителя, и боги щедро одарили ваш народ за его веру. Я восхищаюсь вами.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Вы когда-нибудь задумывались о своих поступках? О своей угрожающей манере? О вашем безбожии? Вы дорого заплатите, когда боги явят свою волю.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Следите за тем, куда направляются ваши войска — я не колеблясь защищу Македонию и свою семью.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Отличное предложение.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Я не могу принять это.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Ваши угрозы меня не запугают. Македония устоит несмотря на вашу грубость.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Мир должен узнать о вашем безбожии, ведь мы обязаны объединиться против ваших военных провокаций. (Осуждает вас).</Text>
+</Row>
+<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_SC_BROAD_JUSTICE_STRONGER_FOUNDER" Language="ru_RU">
+    <Text>(У вас более сильная армия и низкое производство веры).</Text>
+</Row>
+<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Значит, до этого дошло. Вы оскверняете красоту этого мира своим насилием. Да даруют мне боги силу защититься от ваших агрессий.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>В этом мире... что-то не так. И это — вы. Вы падёте в грязь, как и ваши предшественники. Ваши мечты будут забыты, ваши ужасы — стёрты.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Македония приветствует прекращение вражды. Я молюсь, чтобы мир был долгим и процветающим.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Нет. Эти жестокие удовольствия ведут к жестоким последствиям.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Возможно, ещё есть шанс для прогресса, процветания, мира?</Text>
+</Row>
+<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Все, кого я любила, ушли. Боль, их утрата — это всё, что у меня осталось. Но я плачу не за себя; я скорблю о мире.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SC_EURYDICE_ANY" Language="ru_RU">
+    <Text>Все, кого я любила, ушли. Боль, их утрата — это всё, что у меня осталось. Но я плачу не за себя; я скорблю о мире.</Text>
+</Row>
+		
+	</LocalizedText>
+</GameData>
