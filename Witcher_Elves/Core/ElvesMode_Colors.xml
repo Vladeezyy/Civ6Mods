@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>	
+	<!--Replace Color-->
+	<PlayerColors>
+		<Update>
+			<Where Type="CIVILIZATION_BARBARIAN"/>
+			<Set>
+				<PrimaryColor>COLOR_STANDARD_GREEN_DK</PrimaryColor>
+				<SecondaryColor>COLOR_STANDARD_YELLOW_LT</SecondaryColor>
+			</Set>
+		</Update>
+	</PlayerColors>
+</GameData>

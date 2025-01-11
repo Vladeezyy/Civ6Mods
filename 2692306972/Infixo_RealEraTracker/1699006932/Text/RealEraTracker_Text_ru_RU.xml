@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_RET_WINDOW_TITLE" Language="ru_RU">
+			<Text>Трекер настоящей эпохи</Text>
+		</Replace>
+		<Replace Tag="LOC_RET_BUTTON_LABEL" Language="ru_RU">
+			<Text>Трекер эпохи</Text>
+		</Replace>
+		<Replace Tag="LOC_RET_WORLD" Language="ru_RU">
+			<Text>Мир</Text>
+		</Replace>
+		<Replace Tag="LOC_RET_REPEATABLE" Language="ru_RU">
+			<Text>Повторяемое</Text>
+		</Replace>
+		<Replace Tag="LOC_RET_FAVORED" Language="ru_RU">
+			<Text>Избранное</Text>
+		</Replace>
+		<Replace Tag="LOC_RET_COUNT" Language="ru_RU">
+			<Text>Считать</Text>
+		</Replace>
+		<Replace Tag="LOC_RET_CHECKBOX_HIDE_NOT_ACTIVE" Language="ru_RU">
+			<Text>Скрыть неактивное</Text>
+		</Replace>
+		<Replace Tag="LOC_RET_CHECKBOX_SHOW_ONLY_EARNED" Language="ru_RU">
+			<Text>Только полученные</Text>
+		</Replace>
+		<Replace Tag="LOC_RET_CHECKBOX_HIDE_NOT_AVAILABLE" Language="ru_RU">
+			<Text>Скрыть из разных эпох и недоступное сейчас</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

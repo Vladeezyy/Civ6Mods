@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+
+        <!-- New entries -->
+        <Replace Tag="LOC_MPH_TURN_IS_PROCESSED" Language="ru_RU">
+            <Text>ТЕКУЩИЙ ХОД ОБРАБАТЫВАЕТСЯ, ПОЖАЛУЙСТА ПОДОЖДИТЕ</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_MODCHECK_BUTTON_TOOLTIP" Language="ru_RU">
+            <Text>Проверьте версию модов, локально установленных на клиентах (Поддержка: BBS, BBG, MPH). [NEWLINE]Требуется предварительная загрузка MPH как на хосте, так и на клиенте.</Text>
+        </Replace>
+        <Replace Tag="CPL_SYNCTURN_NAME" Language="ru_RU">
+            <Text>Синхронизация ходов</Text>
+        </Replace>
+        <Replace Tag="CPL_SYNCTURN_DESC" Language="ru_RU">
+            <Text>Все игроки-люди начинают и заканчивают свой ход одновременно.</Text>
+        </Replace>
+        <Replace Tag="CPL_CWC_NAME" Language="ru_RU">
+            <Text>[COLOR_Civ6Red]Официальная CWC-игра[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="CPL_CWC_DESC" Language="ru_RU">
+            <Text>Установите параметры турнира Civ World Cup (CWC)</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_LAST_MOVED_NAME" Language="ru_RU">
+            <Text>Без подготовки</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_LAST_MOVED_DESCRIPTION" Language="ru_RU">
+            <Text>-20 [ICON_Strength] боевой мощи при атаке.</Text>
+        </Replace>
+        <Replace Tag="LOC_MOD_LAST_MOVED_DESCRIPTION" Language="ru_RU">
+            <Text>-20 [ICON_Strength] боевой мощи при атаке в первые секунды хода.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_ABILITY_LAST_MOVED_READY_NAME" Language="ru_RU">
+            <Text>Готов!</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_LAST_MOVED_READY_DESCRIPTION" Language="ru_RU">
+            <Text>Вы оправились от своего последнего действия.</Text>
+        </Replace>
+        <Replace Tag="CPL_FS_NAME" Language="ru_RU">
+            <Text>Соглашение о дружбе</Text>
+        </Replace>
+        <Replace Tag="CPL_FS_DESC" Language="ru_RU">
+            <Text>Определите максимальное количество формальных соглашений о союзе или дружбе для каждого игрока в игре (по умолчанию = 2).</Text>
+        </Replace>
+        <Replace Tag="CPL_CS_NAME" Language="ru_RU">
+            <Text>Захваченные города-государства</Text>
+        </Replace>
+        <Replace Tag="CPL_CS_DESC" Language="ru_RU">
+            <Text>Определите максимальное количество городов-государств, принадлежащих каждому игроку. Дополнительные города-государства, захваченные сверх предела, будут систематически разрушены (по умолчанию = 1)</Text>
+        </Replace>
+
+        <Replace Tag="CPL_IRONMAN_NAME" Language="ru_RU">
+            <Text>Железный человек</Text>
+        </Replace>
+        <Replace Tag="CPL_IRONMAN_DESC" Language="ru_RU">
+            <Text>Никаких уступок, бой насмерть! (По умолчанию = Выкл.)</Text>
+        </Replace>
+
+        <Replace Tag="CPL_NO_PINS_NAME" Language="ru_RU">
+            <Text>Без меток</Text>
+        </Replace>
+        <Replace Tag="CPL_NO_PINS_DESC" Language="ru_RU">
+            <Text>Удалите возможность использовать метки карты, чтобы уменьшить проблемы с производительностью (по умолчанию = Выкл.)</Text>
+        </Replace>
+
+        <Replace Tag="CPL_SUDDENDEATH_NAME" Language="ru_RU">
+            <Text>Внезапная смерть</Text>
+        </Replace>
+        <Replace Tag="CPL_SUDDENDEATH_DESC" Language="ru_RU">
+            <Text>Игроки с самыми низкими показателями постепенно выбывают один за другим! (По умолчанию = Выкл.)</Text>
+        </Replace>
+
+        <Replace Tag="CPL_FREECITY_STRONGER_NAME" Language="ru_RU">
+            <Text>Сильные вольные города</Text>
+        </Replace>
+        <Replace Tag="CPL_FREECITY_STRONGER_DESC" Language="ru_RU">
+            <Text>Вольные города быстрее возводят стены (по умолчанию = Выкл.)</Text>
+        </Replace>
+
+        <Replace Tag="CPL_LASTMOVE_OPT_NAME" Language="ru_RU">
+            <Text>Дебафф от последнего движения</Text>
+        </Replace>
+        <Replace Tag="CPL_LASTMOVE_OPT_DESC" Language="ru_RU">
+            <Text>Юниты, атакующие в течение последних 10 секунд, будут иметь дебафф в начале следующего хода, чтобы они также не могли двигаться первыми (по умолчанию = Выкл.)</Text>
+        </Replace>
+        <Replace Tag="CPL_FREECITY_OPT_NAME" Language="ru_RU">
+            <Text>Вольные города для бесполезных игроков</Text>
+        </Replace>
+        <Replace Tag="CPL_FREECITY_OPT_DESC" Language="ru_RU">
+            <Text>В FFA для бесполезных игроков города превратятся в свободные города, что позволит разорвать ранее существовавшие союзы / дружеские отношения (по умолчанию = Вкл.)</Text>
+        </Replace>
+
+
+        <Replace Tag="CPL_RULES_NAME" Language="ru_RU">
+            <Text>Правила лиги игроков Civ6</Text>
+        </Replace>
+        <Replace Tag="CPL_RULES_DESC" Language="ru_RU">
+            <Text>Применить правила CPL в игре с уступками, вето и т.д. (По умолчанию = Вкл.)</Text>
+        </Replace>
+
+        <Replace Tag="CPL_SMARTTIMER_NAME" Language="ru_RU">
+            <Text>Умный таймер</Text>
+        </Replace>
+        <Replace Tag="CPL_SMARTTIMER_DESC" Language="ru_RU">
+            <Text>Определять таймер игры динамически</Text>
+        </Replace>
+
+        <Replace Tag="CPL_TRADING_CITY_NAME" Language="ru_RU">
+            <Text>Торговля городами</Text>
+        </Replace>
+
+        <Replace Tag="CPL_TRADING_CITY_DESC" Language="ru_RU">
+            <Text>Разрешает игрокам торговать городами (по умолчанию = Выкл.)</Text>
+        </Replace>
+        <Replace Tag="CPL_TRADING_GOLD_NAME" Language="ru_RU">
+            <Text>Торговля золотом</Text>
+        </Replace>
+        <Replace Tag="CPL_TRADING_GOLD_DESC" Language="ru_RU">
+            <Text>Разрешает игрокам торговать золотом (по умолчанию = Вкл.)</Text>
+        </Replace>
+        <Replace Tag="CPL_TRADING_LUXURY_NAME" Language="ru_RU">
+            <Text>Торговля редкими ресурсами</Text>
+        </Replace>
+        <Replace Tag="CPL_TRADING_LUXURY_DESC" Language="ru_RU">
+            <Text>Разрешает игрокам торговать редкими ресурсами (по умолчанию = Вкл.)</Text>
+        </Replace>
+        <Replace Tag="CPL_TRADING_STRATEGIC_NAME" Language="ru_RU">
+            <Text>Торговля стратегическими ресурсами</Text>
+        </Replace>
+        <Replace Tag="CPL_TRADING_STRATEGIC_DESC" Language="ru_RU">
+            <Text>Разрешает игрокам торговать стратегическими ресурсами (по умолчанию = Вкл.)</Text>
+        </Replace>
+        <Replace Tag="CPL_TRADING_NONE_NAME" Language="ru_RU">
+            <Text>Запрещено</Text>
+        </Replace>
+        <Replace Tag="CPL_TRADING_NONE_DESC" Language="ru_RU">
+            <Text>Данный тип торговли будет запрещен в игре</Text>
+        </Replace>
+        <Replace Tag="CPL_TRADING_ALLOWED_NAME" Language="ru_RU">
+            <Text>Разрешено</Text>
+        </Replace>
+        <Replace Tag="CPL_TRADING_ALLOWED_DESC" Language="ru_RU">
+            <Text>Данный тип торговли будет разрешен в игре</Text>
+        </Replace>
+        <Replace Tag="CPL_TRADING_ALLIED_NAME" Language="ru_RU">
+            <Text>Только с союзниками</Text>
+        </Replace>
+        <Replace Tag="CPL_TRADING_ALLOWED_DESC" Language="ru_RU">
+            <Text>Этот тип торговли будет разрешен только в игре между союзниками.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_SETUP_ERROR_NO_BANNED_LEADERS" Language="ru_RU">
+            <Text>Запрещенный лидер</Text>
+        </Replace>
+        <Replace Tag="LOC_SETUP_ERROR_NO_RANDOM_LEADERS" Language="ru_RU">
+            <Text>Без случайного лидера</Text>
+        </Replace>
+
+        <Replace Tag="CPL_BAN_FORMAT_NAME" Language="ru_RU">
+            <Text>Бан лидеров</Text>
+        </Replace>
+        <Replace Tag="CPL_BAN_FORMAT_DESC" Language="ru_RU">
+            <Text>Удалить из игры определенных лидеров (по умолчанию = без случайного)</Text>
+        </Replace>
+        <Replace Tag="BAN_FORMAT_NOBAN_NAME" Language="ru_RU">
+            <Text>Никто</Text>
+        </Replace>
+        <Replace Tag="BAN_FORMAT_NOBAN_DESC" Language="ru_RU">
+            <Text>Никаких ограничений выбора, как в оригинальной игре</Text>
+        </Replace>
+        <Replace Tag="BAN_FORMAT_NORANDOM_NAME" Language="ru_RU">
+            <Text>Без случайных лидеров</Text>
+        </Replace>
+        <Replace Tag="BAN_FORMAT_NORANDOM_DESC" Language="ru_RU">
+            <Text>Игроки будут вынуждены выбрать лидера</Text>
+        </Replace>
+        <Replace Tag="BAN_FORMAT_6BANS_NAME" Language="ru_RU">
+            <Text>Неформальные 6 банов</Text>
+        </Replace>
+        <Replace Tag="BAN_FORMAT_6BANS_DESC" Language="ru_RU">
+            <Text>Хост сможет забанить 6 лидеров</Text>
+        </Replace>
+        <Replace Tag="BAN_FORMAT_TOURNAMENT_NAME" Language="ru_RU">
+            <Text>Турнир</Text>
+        </Replace>
+        <Replace Tag="BAN_FORMAT_TOURNAMENT_DESC" Language="ru_RU">
+            <Text>Баны и выбор игроков будут отображаться по порядку</Text>
+        </Replace>
+        <Replace Tag="BAN_FORMAT_VOTEDRAFT_NAME" Language="ru_RU">
+            <Text>Проект голосования</Text>
+        </Replace>
+        <Replace Tag="BAN_FORMAT_VOTEDRAFT_DESC" Language="ru_RU">
+            <Text>Игроки могут настроить игру на основе большинства голосов. [WIP]</Text>
+        </Replace>
+
+        <Replace Tag="CPL_BAN_01_NAME" Language="ru_RU">
+            <Text>Бан № 1</Text>
+        </Replace>
+        <Replace Tag="CPL_BAN_02_NAME" Language="ru_RU">
+            <Text>Бан № 2</Text>
+        </Replace>
+        <Replace Tag="CPL_BAN_03_NAME" Language="ru_RU">
+            <Text>Бан № 3</Text>
+        </Replace>
+        <Replace Tag="CPL_BAN_04_NAME" Language="ru_RU">
+            <Text>Бан № 4</Text>
+        </Replace>
+        <Replace Tag="CPL_BAN_05_NAME" Language="ru_RU">
+            <Text>Бан № 5</Text>
+        </Replace>
+        <Replace Tag="CPL_BAN_06_NAME" Language="ru_RU">
+            <Text>Бан № 6</Text>
+        </Replace>
+        <Replace Tag="CPL_BAN_DESC" Language="ru_RU">
+            <Text>Забанить лидера из списка</Text>
+        </Replace>
+        <Replace Tag="LOC_LEADER_NONE_NAME" Language="ru_RU">
+            <Text>Никто</Text>
+        </Replace>
+        <Replace Tag="LOC_BAN_OPTIONS" Language="ru_RU">
+            <Text>Настройки списка и банов</Text>
+        </Replace>
+        <Replace Tag="LOC_BAN_POOL_OPTIONS" Language="ru_RU">
+            <Text>Выбор карт</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_GAME_REFRESH_SEED_CONFIG" Language="ru_RU">
+            <Text>Обновить случайные числа</Text>
+        </Replace>
+        <Replace Tag="TIMER_DEFAULT_NAME" Language="ru_RU">
+            <Text>Подстраивающийся таймер</Text>
+        </Replace>
+        <Replace Tag="TIMER_DEFAULT_DESC" Language="ru_RU">
+            <Text>Масштабируется в зависимости от количества юнитов, городов, войн, типа игры, событий. Идеально для турниров. </Text>
+        </Replace>
+        <Replace Tag="TIMER_NONE_NAME" Language="ru_RU">
+            <Text>Выкл.</Text>
+        </Replace>
+        <Replace Tag="TIMER_NONE_DESC" Language="ru_RU">
+            <Text>Отключите lua Умного таймера, чтобы позволить работать таймеру базовой игры или таймеру на основе sql</Text>
+        </Replace>
+        <Replace Tag="TIMER_LEGE_NAME" Language="ru_RU">
+            <Text>Безумный</Text>
+        </Replace>
+        <Replace Tag="TIMER_LEGE_DESC" Language="ru_RU">
+            <Text>Сильное давление: таймер с 15 секундами на первые 15 ходов, 45 секундами до 70 хода и 75 секундами дальше.</Text>
+        </Replace>
+        <Replace Tag="TIMER_S1A1_NAME" Language="ru_RU">
+            <Text>Классический</Text>
+        </Replace>
+        <Replace Tag="TIMER_S1A1_DESC" Language="ru_RU">
+            <Text>Дубликат динамического таймера S1aL, подходит для случайной игры</Text>
+        </Replace>
+        <Replace Tag="TIMER_SEPHI_NAME" Language="ru_RU">
+            <Text>Умеренный</Text>
+        </Replace>
+        <Replace Tag="TIMER_SEPHI_DESC" Language="ru_RU">
+            <Text>Таймер Sephi: базовый уровень 30 секунд, затем 1 дополнительная секунда за ход</Text>
+        </Replace>
+        <Replace Tag="TIMER_CASUAL_NAME" Language="ru_RU">
+            <Text>Обычный</Text>
+        </Replace>
+        <Replace Tag="TIMER_CASUAL_DESC" Language="ru_RU">
+            <Text>Идеально для новичков или стримеров</Text>
+        </Replace>
+        <Replace Tag="FC_NOTHING_NAME" Language="ru_RU">
+            <Text>Ничего</Text>
+        </Replace>
+        <Replace Tag="FC_NOTHING_DESC" Language="ru_RU">
+            <Text>Дубликат динамического таймера S1aL</Text>
+        </Replace>
+        <Replace Tag="FC_FREE_NAME" Language="ru_RU">
+            <Text>Переход к вольным городам</Text>
+        </Replace>
+        <Replace Tag="FC_FREE_DESC" Language="ru_RU">
+            <Text>В ФФА города бесполезных игроков станут вольными</Text>
+        </Replace>
+        <Replace Tag="FC_RAZE_NAME" Language="ru_RU">
+            <Text>Разрушение городов</Text>
+        </Replace>
+        <Replace Tag="FC_RAZE_DESC" Language="ru_RU">
+            <Text>В ФФА города бесполезных игроков будут разрушены</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MPH_PLAYER_OPTIONS" Language="ru_RU">
+            <Text>MPH: ИГРОК</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_ADMIN_OPTIONS" Language="ru_RU">
+            <Text>MPH: АДМИНИСТРАТОР</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_OTHER_OPTIONS" Language="ru_RU">
+            <Text>ПОМОЩЬ В МУЛЬТИПЛЕЕРЕ: ДРУГИЕ КОМАНДЫ</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTEPANEL_TITLE_REMAP_TEXT" Language="ru_RU">
+            <Text>Голосование за перевыбор карты</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MPH_VOTEPANEL_TITLE_REMAP_ADMIN_TEXT" Language="ru_RU">
+            <Text>Голосование за перевыбор администратора</Text>
+        </Replace>
+		 <Replace Tag="LOC_MPH_VOTEPANEL_GAME_RANDOM_SEED" Language="ru_RU">
+            <Text>Модификатор случ. игры</Text>
+        </Replace>
+		<Replace Tag="LOC_MPH_VOTEPANEL_MAP_RANDOM_SEED" Language="ru_RU">
+            <Text>Модификатор случ. карты</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTEPANEL_LABEL_REMAP_TEXT" Language="ru_RU">
+            <Text>Было подано голосование за перезапуск игры с новым модификатором случ. карты.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTEPANEL_FEEDBACK_REMAP_DEFAULT_TEXT" Language="ru_RU">
+            <Text>Голосование пройдет, если за него проголосует простое большинство избирателей. [NEWLINE]Игроки в [COLOR_Grey] сером [ENDCOLOR] цвете не могут голосовать. [NEWLINE]Уже проголосовавшие игроки окрашены в [COLOR_Civ6Green] зеленый цвет [ENDCOLOR]. </Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTEPANEL_FEEDBACK_REMAP_PASS_TEXT" Language="ru_RU">
+            <Text>Большинство - "За". Большинство высказалось, игра автоматически перезапустится на новой карте после того, как хост подтвердит ее. [NEWLINE]Игроки в [COLOR_Civ6Green] зеленом [ENDCOLOR] проголосовали за. </Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTEPANEL_FEEDBACK_REMAP_FAIL_TEXT" Language="ru_RU">
+            <Text>Большинство - "Против". Большинство высказалось, игра продолжится на текущей карте. [NEWLINE]Игроки в [COLOR_Civ6Red] красном [ENDCOLOR] голосовали против.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTELEFT_BUTTON_1_REMAP_TEXT" Language="ru_RU">
+            <Text>ЗА</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTERIGHT_BUTTON_1_REMAP_TEXT" Language="ru_RU">
+            <Text>ПРОТИВ</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_CONFIRM_BUTTON_1_REMAP_TEXT" Language="ru_RU">
+            <Text>Ок</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_CONFIRM_BUTTON_HOST_REMAP_TEXT" Language="ru_RU">
+            <Text>Подтвердить</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_CONFIRM_BUTTON_HOST_REMAP_CANCEL_TEXT" Language="ru_RU">
+            <Text>Отмена</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_REMAPPANEL_LABEL_TEXT" Language="ru_RU">
+            <Text>Введите собственные начальные числа или оставьте поле пустым, чтобы перезапустить игру на новой карте. Игра должна быть [COLOR_Civ6Red] возобновлена [ENDCOLOR] на этом этапе, чтобы данные могли быть отправлены должным образом. Не волнуйтесь, игра автоматически остановится, чтобы избежать изменения состояния, поскольку игроки будут повторно синхронизироваться. </Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_REMAP_VOTE_TEXT" Language="ru_RU">
+            <Text>ПОВТОРНОЕ ГОЛОСОВАНИЕ</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_REMAP_VOTE_TOOLTIP" Language="ru_RU">
+            <Text>Выполните голосование простым большинством, чтобы перезапустить игру на новой карте.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_REMAP_ADMIN_TEXT" Language="ru_RU">
+            <Text>ОБНОВЛЕНИЕ АДМИНИСТРАТОРА</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_REMAP_ADMIN_TOOLTIP" Language="ru_RU">
+            <Text>Позволяет перезапустить игру с новыми случайными числами.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_IRR_VOTE_TEXT" Language="ru_RU">
+            <Text>НЕЗАВИСИМОЕ ГОЛОСОВАНИЕ</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DROP_TITLE_TEXT" Language="ru_RU">
+            <Text>Менеджер сетевой игры</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DROP_LABEL_TEXT" Language="ru_RU">
+            <Text>Следующий игрок (-и) отключился(-ись) от игры. Конфигурация игры замораживается.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DROP_HOST_BUTTON_TEXT" Language="ru_RU">
+            <Text>Передать управление ИИ</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DROP_HOST_WARNING_TEXT" Language="ru_RU">
+            <Text>[COLOR_Civ6Red] Если вы решите возобновить игру, на выброшенного игрока будет воздействовать ИИ, и его / ее юниты могут быть перемещены до того, как он / она снова подключится к игре. [ENDCOLOR] </Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DROP_NORMAL_BUTTON_TEXT" Language="ru_RU">
+            <Text>Понятно...</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_HELPER_BUTTON_TOOLTIP" Language="ru_RU">
+            <Text>Доступ к настраиваемым функциям MPH, таким как голосование за изменение карты и многое другое.</Text>
+        </Replace>
+        <Replace Tag="LOC_VICTORY_CONCEDE_NAME" Language="ru_RU">
+            <Text>ПОБЕДА</Text>
+        </Replace>
+        <Replace Tag="LOC_VICTORY_CONCEDE_TEXT" Language="ru_RU">
+            <Text>Все Ваши враги капитулировали!</Text>
+        </Replace>
+
+
+        <Replace Tag="LOC_DEFEAT_CONCEDE_NAME" Language="ru_RU">
+            <Text>КАПИТУЛЯЦИЯ</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DRAFT_RANDOM_TOOLTIP" Language="ru_RU">
+            <Text>ФФА: Первый забаненный/выбранный игрок выбирается случайно, затем продолжается в порядке слотов. [NEWLINE]Команды: Первый забаненный/выбранный игрок выбирается случайно, затем команды чередуются. </Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DRAFT_SLOT_TOOLTIP" Language="ru_RU">
+            <Text>FFA: бан/выбор в порядке слотов без учета наблюдателей. Сброс на каждой фазе. [NEWLINE]Команды: на карте запрещена выборка первой команды в слоте, а затем альтернативных. Затем бан/выбор в слотах. </Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DRAFT_CWC_TOOLTIP" Language="ru_RU">
+            <Text>[NEWLINE]Устаревший формат CWC: баны карт/лидеров начинаются с первого в слоте и чередуются в формате A / B / A / B / A / B. [NEWLINE]Выбор производится в соответствии с порядком слотов (должно быть A / B / B / A / A / B / A / B для 4v4).</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DRAFT_CWC_NEW_TOOLTIP" Language="ru_RU">
+            <Text>[NEWLINE]Официальный формат CWC: забаненные лидеры начинаются с первых в слоте и чередуются в формате A / B / A / B / A / B, затем B / A / B / A [NEWLINE]Выбор осуществляется в соответствии с порядком слотов (должно быть A / B / B / A, затем B / A / A / B для 4v4).</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MPH_SWAP_DISABLED_TITLE" Language="ru_RU">
+            <Text>НЕВОЗМОЖНО ИЗМЕНИТЬ НАСТРОЙКИ ИГРОКА</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_SWAP_DISABLED_TEXT" Language="ru_RU">
+            <Text>Вы не можете изменить порядок слотов на этом этапе проекта.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_SLOT_DISABLED_TITLE" Language="ru_RU">
+            <Text>НЕВОЗМОЖНО ИЗМЕНИТЬ НАСТРОЙКИ ИГРОКА</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_SLOT_DISABLED_TEXT" Language="ru_RU">
+            <Text>Вы не можете изменить порядок слотов на этом этапе проекта.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_SLOT_HOST_DISABLED_TEXT" Language="ru_RU">
+            <Text>Вы не можете изменить порядок слотов на этом этапе проекта. [NEWLINE]Измените тип проекта или сбросьте его, чтобы восстановить контроль над настройками игрока. </Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_ADD_DISABLED_TEXT" Language="ru_RU">
+            <Text>Вы не можете изменить порядок слотов на этом этапе проекта.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_ADD_HOST_DISABLED_TEXT" Language="ru_RU">
+            <Text>Вы не можете добавить нового игрока на этом этапе проекта. [NEWLINE]Измените тип проекта или сбросьте его, чтобы иметь возможность добавить нового игрока. </Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_KICK_DISABLED_TITLE" Language="ru_RU">
+            <Text>НЕВОЗМОЖНО ИЗМЕНИТЬ НАСТРОЙКИ ИГРОКА.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_KICK_DISABLED_TEXT" Language="ru_RU">
+            <Text>Вы не можете выгнать игрока на этом этапе проекта. [NEWLINE]Измените тип проекта или сбросьте проект, чтобы можно было выгнать этого игрока.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_0_TEXT" Language="ru_RU">
+            <Text>Драфт турнира: выберите ваши команды / слоты / наблюдателей</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_0_HINT_TEXT" Language="ru_RU">
+            <Text>Шаги: запретить карты - запретить 6 лидеров - выбрать лидеров 1 за 1 - начать игру / изменить слоты</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_0_HOST_HINT_TEXT" Language="ru_RU">
+            <Text>Выберите нужный вариант в настройках игры, затем нажмите «Запустить», чтобы начать проект. [NEWLINE]Вы можете в любой момент нажать «Сброс», чтобы повторно инициализировать проект, и «Пропустить», чтобы пропустить какой-либо шаг. [NEWLINE]Для этого мода требуется, чтобы все подписались в мастерской Steam, чтобы использовать расширенные функции настройки. Загрузки с хоста недостаточно. </Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTING_PHASE_0_TEXT" Language="ru_RU">
+            <Text>Проект голосования: выберите ваши команды / слоты / наблюдателей</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTING_PHASE_0_HINT_TEXT" Language="ru_RU">
+            <Text>Шаги: Настройки карты голосования - Запрет голосования за 6 лидеров - Выбор лидеров 1 к 1 - Начать игру / Сменить слоты</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTING_PHASE_0_HOST_HINT_TEXT" Language="ru_RU">
+            <Text>Выберите нужный вариант в настройках игры, затем нажмите «Запустить», чтобы начать проект. [NEWLINE]Вы можете в любой момент нажать «Сброс», чтобы повторно инициализировать проект, и «Пропустить», чтобы пропустить какой-либо шаг. [NEWLINE]Для этого мода требуется, чтобы каждый игрок подписался в мастерской Steam. Загрузки с хоста недостаточно.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_READY_WAITING_HOST_TEXT" Language="ru_RU">
+            <Text>ОЖИДАНИЕ ХОСТА</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_READY_LAUNCH_HOST_TEXT" Language="ru_RU">
+            <Text>НАЖМИТЕ ПУСК, ЧТОБЫ ЗАПУСТИТЬ ПРОЕКТ</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_0_PHASE_BUTTON_TEXT" Language="ru_RU">
+            <Text>[COLOR_Civ6Green]ЗАПУСТИТЬ[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_0_PHASE_BUTTON_NOT_READY_TEXT" Language="ru_RU">
+            <Text>[COLOR_Civ6Red]ЗАПУСТИТЬ[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTING_PHASE_0_PHASE_BUTTON_TEXT" Language="ru_RU">
+            <Text>ПУСК</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTING_PHASE_1_PHASE_BUTTON_TEXT" Language="ru_RU">
+            <Text>ПРОПУСТИТЬ</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_1_PHASE_BUTTON_TEXT" Language="ru_RU">
+            <Text>ПРОПУСТИТЬ</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_2_PHASE_BUTTON_TEXT" Language="ru_RU">
+            <Text>ПРОПУСТИТЬ</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_3_PHASE_BUTTON_TEXT" Language="ru_RU">
+            <Text>[COLOR_Civ6Green]РАЗБЛОКИРОВАТЬ[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTE_BUTTON" Language="ru_RU">
+            <Text>Отправить мои голоса</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTING_PHASE_11_TEXT" Language="ru_RU">
+            <Text>Выбор настроек карты</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTING_PHASE_11_HINT_TEXT" Language="ru_RU">
+            <Text>Выберите предпочтительные настройки карты, будут выбраны самые популярные варианты.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTING_PHASE_12_TEXT" Language="ru_RU">
+            <Text>Фаза бана лидеров</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_VOTING_PHASE_12_HINT_TEXT" Language="ru_RU">
+            <Text>Каждому игроку было предоставлено по 3 бана, чтобы исключить лидера из игры. [NEWLINE]Шесть лидеров, получивших наибольшее количество банов, будут удалены из фазы выбора.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_READY_WAITING_MAP_VOTE_TEXT" Language="ru_RU">
+            <Text>[COLOR_Civ6Red] ПОДТВЕРДИТЕ ВАШИ НАСТРОЙКИ КАРТЫ [ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_READY_WAITING_MAP_BAN_TEXT" Language="ru_RU">
+            <Text>[COLOR_Civ6Red] ПОДТВЕРДИТЕ ВАШ БАН КАРТЫ [ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_READY_WAITING_LEADER_BAN_TEXT" Language="ru_RU">
+            <Text>[COLOR_Civ6Red] ПОДТВЕРДИТЕ ВАШ БАН ЛИДЕРА [ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_READY_WAITING_LEADER_PICK_TEXT" Language="ru_RU">
+            <Text>[COLOR_Civ6Red] ПОЖАЛУЙСТА, ПОДТВЕРДИТЕ ВАШ ВЫБОР ЛИДЕРА [ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_READY_WAITING_MAP_BAN_FFA_TEXT" Language="ru_RU">
+            <Text>[COLOR_Civ6Green] ПОДОЖДИТЕ ИГРОКА ЗАВЕРШИТЬ БАН КАРТЫ[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_READY_WAITING_LEADER_BAN_FFA_TEXT" Language="ru_RU">
+            <Text>[COLOR_Civ6Green] ПОДОЖДИТЕ ИГРОКА ЗАВЕРШИТЬ БАН ЛИДЕРА[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_READY_WAITING_LEADER_PICK_FFA_TEXT" Language="ru_RU">
+            <Text>[COLOR_Civ6Green] ПОДОЖДИТЕ ИГРОКА ЗАВЕРШИТЬ БАН ЛИДЕРА [ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_READY_THANKS_TEXT" Language="ru_RU">
+            <Text>СПАСИБО</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_7_TEAM_TEXT" Language="ru_RU">
+            <Text>Команды: Фаза выбора банов</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_7_FFA_TEXT" Language="ru_RU">
+            <Text>ФФА: фаза выбора банов</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_7_TEAM_RAND_HINT_TEXT" Language="ru_RU">
+            <Text>Команды: Первый игрок каждой команды будет блокировать карту каждый раунд, пока в пуле карт не останется только одна карта. [NEWLINE]Команда, блокирующая первую, выбирается случайным образом.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_7_TEAM_SLOT_HINT_TEXT" Language="ru_RU">
+            <Text>Команды: Первый игрок каждой команды будет блокировать карту каждый раунд, пока в пуле карт не останется только одна карта. [NEWLINE]Команда, блокирующая первую, становится первой в слоте.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_7_FFA_RAND_HINT_TEXT" Language="ru_RU">
+            <Text>ФФА: игрок будет банить карту каждый раунд, пока в пуле карт не останется только одна карта. [NEWLINE]Первый игрок, заблокирующий первым, выбирается случайным образом.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_7_FFA_SLOT_HINT_TEXT" Language="ru_RU">
+            <Text>ФФА: игрок будет блокировать карту каждый раунд, пока в пуле карт не останется только одна карта. [NEWLINE]Блокировка начинается с первой в слоте.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_GAME_OPTIONS" Language="ru_RU">
+            <Text>Настройки карты и игры</Text>
+        </Replace>
+        <Replace Tag="LOC_SETUP_ERROR_NOT_DRAFTED_LEADERS" Language="ru_RU">
+            <Text>Исключенные лидеры</Text>
+        </Replace>
+        <Replace Tag="CPL_ANONYMOUS_NAME" Language="ru_RU">
+            <Text>Анонимная игра</Text>
+        </Replace>
+        <Replace Tag="CPL_ANONYMOUS_DESC" Language="ru_RU">
+            <Text>[WIP] Имена игроков не будут отображаться для обеспечения анонимности в лобби и во время игры.</Text>
+        </Replace>
+        <Replace Tag="CPL_NO_PM_NAME" Language="ru_RU">
+            <Text>Без личных сообщений</Text>
+        </Replace>
+        <Replace Tag="CPL_NO_PM_DESC" Language="ru_RU">
+            <Text>[WIP] Убрать возможность отправлять личные сообщения через игровой чат.</Text>
+        </Replace>
+        <Replace Tag="CPL_RESTRICTED_DRAFT_NAME" Language="ru_RU">
+            <Text>Ограниченный выбор лидеров проекта</Text>
+        </Replace>
+        <Replace Tag="CPL_RESTRICTED_DRAFT_DESC" Language="ru_RU">
+            <Text>[WIP] Предоставляет каждому игроку только 5 лидеров вместо полного выбора лидера.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_OBSERVER_SPECTATOR_TOOLTIP" Language="ru_RU">
+            <Text>Позволяет вам участвовать в качестве наблюдателя вместо реального игрока. Идеально подходит для кастинга.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_OBSERVER_PLAYER_TOOLTIP" Language="ru_RU">
+            <Text>Подтверждает, что вы участвуете в игре как игрок, а не как наблюдатель.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_OBSERVER_SPECTATOR_NAME" Language="ru_RU">
+            <Text>Играть в качестве наблюдателя</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_OBSERVER_PLAYER_NAME" Language="ru_RU">
+            <Text>Игратьк ак обычный игрок</Text>
+        </Replace>
+        <Replace Tag="LOC_SETUP_ERROR_NO_SPECTATOR_LEADERS" Language="ru_RU">
+            <Text>Не наблюдатель</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_RESET_BUTTON_TOOLTIP" Language="ru_RU">
+            <Text>Сбросьте свой проект, чтобы его переделать, если кто-то допустил ошибку.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_START_BUTTON_TOOLTIP" Language="ru_RU">
+            <Text>(Только для хоста) [NEWLINE]Немедленно запустить игру.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_LAUNCH_BUTTON_TOOLTIP" Language="ru_RU">
+            <Text>(Только для хоста) [NEWLINE]Запустить: начать проект [NEWLINE]Пропустить: перейти к следующему шагу [NEWLINE]Разблокировать: позволяет игрокам менять слоты перед началом игры </Text>
+        </Replace>
+
+        <Replace Tag="LOC_GAMESPEED_FAST_NAME" Language="ru_RU">
+            <Text>Онлайн+</Text>
+        </Replace>
+        <Replace Tag="LOC_GAMESPEED_FAST_HELP" Language="ru_RU">
+            <Text>Немного быстрее, чем сетевая скорость игры, что позволяет играть на стандартной эпохе / со стандартными ресурсами.</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_RETIME_TITLE" Language="ru_RU">
+            <Text>ИЗМЕНИТЬ ТАЙМЕР СМЕРТИ</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_RETIME_LABEL" Language="ru_RU">
+            <Text>Пожалуйста, введите, сколько секунд до того, как следующий игрок будет исключен? (например, 1200 = 20 минут)</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_RETIME_BOX" Language="ru_RU">
+            <Text>Оставшиеся секунды:</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_RETIME_BUTTON" Language="ru_RU">
+            <Text>Подтвердить</Text>
+        </Replace>
+        <Replace Tag="LOC_SUDDEN_DEATH_TOP_BOX" Language="ru_RU">
+            <Text>[ICON_TURN]Внезапная смерть:</Text>
+        </Replace>
+        <Replace Tag="LOC_GAMEMODE_SUDDEN_DEATH_NAME" Language="ru_RU">
+            <Text>Режим внезапной смерти</Text>
+        </Replace>
+        <Replace Tag="LOC_GAMEMODE_SUDDEN_DEATH_DESCRIPTION" Language="ru_RU">
+            <Text>Игроки постепенно выбывают в зависимости от их очков, поскольку часы неумолимо тикают ... Выдержать испытание временем приобрело совершенно новый смысл! </Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_RETIME_ADMIN_TEXT" Language="ru_RU">
+            <Text>РЕЖИМ ВНЕЗАПНОЙ СМЕРТИ</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_RETIME_ADMIN_TOOLTIP" Language="ru_RU">
+            <Text>Отрегулируйте оставшееся время до того, как игрок будет исключен.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DRAFT_TIMER_TOOLTIP" Language="ru_RU">
+            <Text>Каждая фаза проекта турнира будет иметь таймер: [NEWLINE]30 секунд для блокировки карты [NEWLINE]60 секунд для блокировки лидера [NEWLINE]90 секунд для выбора лидера [NEWLINE]По истечении таймера игрок проиграет его бан или заставляют играть за случайную цивилизацию.</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_RENAME_TITLE" Language="ru_RU">
+            <Text>ИЗМЕНИТЬ ИМЯ</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_RENAME_LABEL" Language="ru_RU">
+            <Text>Пожалуйста, введите ваше новое имя, оно также будет использоваться в игре.</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_RENAME_BOX" Language="ru_RU">
+            <Text>Имя:</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_RENAME_BUTTON" Language="ru_RU">
+            <Text>Подтвердите имя</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_EDIT_PLAYER_NAME_TT" Language="ru_RU">
+            <Text>Нажмите, чтобы изменить свое имя в этой игре.</Text>
+        </Replace>
+        <Replace Tag="LOC_GAMEMODE_ANONYMOUS_NAME" Language="ru_RU">
+            <Text>Режим анонимности</Text>
+        </Replace>
+        <Replace Tag="LOC_GAMEMODE_ANONYMOUS_DESCRIPTION" Language="ru_RU">
+            <Text>Все игроки анонимны! [NEWLINE]Больше никаких негласных соглашений.</Text>
+        </Replace>
+        <Replace Tag="LOC_GAMEMODE_LASTMOVE_NAME" Language="ru_RU">
+            <Text>Последний ход - режим первого хода</Text>
+        </Replace>
+        <Replace Tag="LOC_GAMEMODE_LASTMOVE_DESCRIPTION" Language="ru_RU">
+            <Text>Печально известный конец хода подошел к концу! [NEWLINE][NEWLINE]Если вы двигаетесь или атакуете в течение последних 15 секунд хода, ваше подразделение [COLOR_Civ6Red] становится неподготовленным [ENDCOLOR]. [NEWLINE][COLOR_Civ6Red] Неподготовленным [ENDCOLOR] юниты имеют штраф -20 [ICON_Strength] при атаке. [NEWLINE]Юнит остается [COLOR_Civ6Red] неподготовленным [ENDCOLOR] до тех пор, пока он не будет атакован или через 10 секунд в следующем игровом ходу. </Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_PHASE_BUTTON_TOOLTIP_ERROR" Language="ru_RU">
+            <Text>В данный момент проект не может быть запущен. Это могло произойти по следующим причинам: [NEWLINE]У игрока неправильная версия мода или он не подписался на мод. [NEWLINE]Хост все еще ожидает данных от других клиентов. (Не должно занимать более 10 секунд). </Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_PHASE_BUTTON_TOOLTIP" Language="ru_RU">
+            <Text>Щелкните, чтобы запустить проект.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_RESYNC_ADMIN_TEXT" Language="ru_RU">
+            <Text>ОБЩАЯ ПЕРЕСИНХРОНИЗАЦИЯ</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_RESYNC_ADMIN_TOOLTIP" Language="ru_RU">
+            <Text>Запускает автоматическую пересинхронизацию всех игроков с хостом. Хост не должен останавливать паузу во время этого процесса.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_PAUSE_COUNDOWN_TEXT" Language="ru_RU">
+            <Text>Обратный отсчет</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_PAUSE_COUNDOWN_LABEL_TEXT" Language="ru_RU">
+            <Text>Игра вот-вот возобновится!</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_FORCEEND_ADMIN_TEXT" Language="ru_RU">
+            <Text>ПРИНУДИТЕЛЬНЫЙ КОНЕЦ ХОДА</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_FORCEEND_ADMIN_TOOLTIP" Language="ru_RU">
+            <Text>Заставляет всех игроков закончить свой ход.</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_RESYNC_TITLE" Language="ru_RU">
+            <Text>ЗАПРОС ОБЩЕЙ ПЕРЕСИНХРОНИЗАЦИИ</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_RESYNC_LABEL" Language="ru_RU">
+            <Text>Все игроки будут повторно синхронизированы с хостом. Уверены ли вы?</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_RESYNC_BUTTON" Language="ru_RU">
+            <Text>Пересинхронизация</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_FORCEEND_TITLE" Language="ru_RU">
+            <Text>ПРИНУДИТЕЛЬНЫЙ КОНЕЦ ХОДА</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_FORCEEND_LABEL" Language="ru_RU">
+            <Text>На этом ход для всех игроков закончится. Уверены ли вы?</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_FORCEEND_BUTTON" Language="ru_RU">
+            <Text>Конец хода</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_UI_REFRESH_TEXT" Language="ru_RU">
+            <Text>СБРОС UI</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_UI_REFRESH_TOOLTIP" Language="ru_RU">
+            <Text>Жесткий сброс среды UI</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_UI_REFRESH_TITLE" Language="ru_RU">
+            <Text>Сброс UI</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_UI_REFRESH_LABEL" Language="ru_RU">
+            <Text>Вы уверены что хотите сбросить UI?</Text>
+        </Replace>
+        <Replace Tag="LOC_GAME_MENU_UI_REFRESH_BUTTON" Language="ru_RU">
+            <Text>Сбросить</Text>
+        </Replace>
+
+
+        <!--  Tournament Settings -->
+        <Replace Tag="LOC_MPH_TOURNAMENT_PARAMETERS_OPTIONS" Language="ru_RU">
+            <Text>Настройки турниров и проектов</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DRAFT_SLOT_ORDER_NAME" Language="ru_RU">
+            <Text>Тип проекта</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DRAFT_TIMER_NAME" Language="ru_RU">
+            <Text>Таймер проекта</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DRAFT_MAP_NAME" Language="ru_RU">
+            <Text>Выбор запрещенных карт</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DRAFT_SLOT_ORDER_DESC" Language="ru_RU">
+            <Text>Тип проекта</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DRAFT_TIMER_DESC" Language="ru_RU">
+            <Text>Снимите флажок, чтобы отключить таймер во время создания проекта</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DRAFT_MAP_DESC" Language="ru_RU">
+            <Text>Если выбран этот параметр, проект сначала начнется с этапа выбора карты с картами, включенными в пул карт.</Text>
+        </Replace>
+
+        <Replace Tag="DRAFT_NONE_NAME" Language="ru_RU">
+            <Text>Случайно</Text>
+        </Replace>
+        <Replace Tag="DRAFT_SLOT_NAME" Language="ru_RU">
+            <Text>Порядок слотов</Text>
+        </Replace>
+        <Replace Tag="DRAFT_4V4T_NAME" Language="ru_RU">
+            <Text>Команды 4v4 с 6 банами</Text>
+        </Replace>
+        <Replace Tag="DRAFT_CWCT_NAME" Language="ru_RU">
+            <Text>Чемпионат мира по цивилизации</Text>
+        </Replace>
+
+        <Replace Tag="DRAFT_NONE_DESC" Language="ru_RU">
+            <Text>Порядок проекта игрока будет выбран случайным образом</Text>
+        </Replace>
+        <Replace Tag="DRAFT_SLOT_DESC" Language="ru_RU">
+            <Text>Порядок выбора игроков будет соответствовать порядку слотов.</Text>
+        </Replace>
+        <Replace Tag="DRAFT_4V4T_DESC" Language="ru_RU">
+            <Text>Составление команды в два этапа с 6 банами лидеров</Text>
+        </Replace>
+        <Replace Tag="DRAFT_CWCT_DESC" Language="ru_RU">
+            <Text>Составление проекта в соответствии с требованиями киберспорта: 1) 6 банов 2) 4 выбора 3) 4 бана 4) оставшиеся выборы</Text>
+        </Replace>
+
+
+        <!--  Trading Settings -->
+        <Replace Tag="LOC_MPH_TRADING_PARAMETERS_OPTIONS" Language="ru_RU">
+            <Text>Настройки торговли и дипломатии</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MPH_FRIENDSHIP_NAME" Language="ru_RU">
+            <Text>Без деклараций о дружбе</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_FRIENDSHIP_DESC" Language="ru_RU">
+            <Text>Отметьте, чтобы убрать возможность объявить дружбу с другой цивилизацией.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_SURPRISE_WAR_NAME" Language="ru_RU">
+            <Text>Без внезапных войн</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_SURPRISE_WAR_DESC" Language="ru_RU">
+            <Text>Когда отмечено галочкой, игрокам нужно будет сначала осудить или воспользоваться поводом для войны, чтобы объявить войну.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_NO_TRADING_FAVOR_NAME" Language="ru_RU">
+            <Text>Без торговли дипл. очками влияния</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_NO_TRADING_GOLD_NAME" Language="ru_RU">
+            <Text>Без торговли золотом</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_NO_TRADING_STRATEGICS_NAME" Language="ru_RU">
+            <Text>Без торговли стратег. ресурсами</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_NO_TRADING_LUXURIES_NAME" Language="ru_RU">
+            <Text>Без торговли редкими ресурсами</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_NO_TRADING_AGREEMENTS_NAME" Language="ru_RU">
+            <Text>Без соглашений</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_NO_TRADING_CAPTIVES_NAME" Language="ru_RU">
+            <Text>Без торговли шпионами</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_NO_TRADING_CITIES_NAME" Language="ru_RU">
+            <Text>Без торговли городами</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_NO_TRADING_GREATWORKS_NAME" Language="ru_RU">
+            <Text>Без торговли великими шедеврами</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MPH_NO_TRADING_FAVOR_DESC" Language="ru_RU">
+            <Text>Отметьте, чтобы убрать возможность торговать дипломатическими очками влияния.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_NO_TRADING_GOLD_DESC" Language="ru_RU">
+            <Text>Отметьте, чтобы убрать из игры возможность торговать золотом.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_NO_TRADING_STRATEGICS_DESC" Language="ru_RU">
+            <Text>Отметьте, чтобы убрать из игры возможность торговать стратегическими ресурасми.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_NO_TRADING_LUXURIES_DESC" Language="ru_RU">
+            <Text>Отметьте, чтобы убрать из игры возможность торговать редкими ресурсами.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_NO_TRADING_AGREEMENTS_DESC" Language="ru_RU">
+            <Text>Отметьте, чтобы убрать из игры возможность устанавливать соглашения.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_NO_TRADING_CAPTIVES_DESC" Language="ru_RU">
+            <Text>Отметьте, чтобы убрать из игры возможность обменивать пленников.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_NO_TRADING_CITIES_DESC" Language="ru_RU">
+            <Text>Отметьте, чтобы убрать из игры возможность торговать городами.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_NO_TRADING_GREATWORKS_DESC" Language="ru_RU">
+            <Text>Отметьте, чтобы убрать из игры возможность торговать великими шедеврами.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MPH_DIPLOMATIC_DEAL_NAME" Language="ru_RU">
+            <Text>Без дипломатических сделок</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_DIPLOMATIC_DEAL_DESC" Language="ru_RU">
+            <Text>Уберите из игры возможность инициировать любые дипломатические сделки.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_ALLIANCE_MILITARY_NAME" Language="ru_RU">
+            <Text>Военный союз</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_ALLIANCE_MILITARY_DESC" Language="ru_RU">
+            <Text>Снимите отметку, чтобы убрать из игры возможность формировать военный союз.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_ALLIANCE_CULTURAL_NAME" Language="ru_RU">
+            <Text>Культурный союз</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_ALLIANCE_CULTURAL_DESC" Language="ru_RU">
+            <Text>Снимите отметку, чтобы убрать из игры возможность формировать культурный союз.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_ALLIANCE_ECONOMIC_NAME" Language="ru_RU">
+            <Text>Экономический союз</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_ALLIANCE_ECONOMIC_DESC" Language="ru_RU">
+            <Text>Снимите отметку, чтобы убрать из игры возможность формировать экономический союз.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_ALLIANCE_RELIGIOUS_NAME" Language="ru_RU">
+            <Text>Религиозный союз</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_ALLIANCE_RELIGIOUS_DESC" Language="ru_RU">
+            <Text>Снимите отметку, чтобы убрать из игры возможность формировать религиозный союз.</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_ALLIANCE_RESEARCH_NAME" Language="ru_RU">
+            <Text>Научный союз</Text>
+        </Replace>
+        <Replace Tag="LOC_MPH_ALLIANCE_RESEARCH_DESC" Language="ru_RU">
+            <Text>Снимите отметку, чтобы убрать из игры возможность формировать научный союз.</Text>
+        </Replace>
+        <Replace Tag="MPH_PRESET_NAME" Language="ru_RU">
+            <Text>Предварительные настройки</Text>
+        </Replace>
+        <Replace Tag="MPH_PRESET_NONE_NAME" Language="ru_RU">
+            <Text>Ничего</Text>
+        </Replace>
+        <Replace Tag="MPH_PRESET_CWC_NAME" Language="ru_RU">
+            <Text>[COLOR_Civ6Red]Официальная CWC-игра[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="MPH_PRESET_CPLFFA_NAME" Language="ru_RU">
+            <Text>ФФА CPL</Text>
+        </Replace>
+        <Replace Tag="MPH_PRESET_CIVFRTEAMER_NAME" Language="ru_RU">
+            <Text>Эскадрон CivFR</Text>
+        </Replace>
+		<Replace Tag="MPH_PRESET_NONE_DESC" Language="ru_RU">
+            <Text>Настройки по умолчанию</Text>
+        </Replace>
+        <Replace Tag="MPH_PRESET_CWC_DESC" Language="ru_RU">
+            <Text>Создание проекта и команд 4 на 4 </Text>
+        </Replace>
+        <Replace Tag="MPH_PRESET_CPLFFA_DESC" Language="ru_RU">
+            <Text>Типичные настройки лиги игроков Civ6 с обильными ресурсами</Text>
+        </Replace>
+        <Replace Tag="MPH_PRESET_CIVFRTEAMER_DESC" Language="ru_RU">
+            <Text>Типовые настройки CivFR для команд</Text>
+        </Replace>
+		
+    </LocalizedText>
+</GameData>

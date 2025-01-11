@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- KIEVAN_RUS_Uniques -->
+<!-- Author: Richard -->
+<!-- DateCreated: 3/9/2017 10:58:04 PM -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_MER_DRUZHINA" Kind="KIND_UNIT"/>
+	</Types>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_MER_DRUZHINA" ReplacesUnitType="UNIT_COURSER"/>
+	</UnitReplaces>	
+	<Units>
+		<Row UnitType="UNIT_MER_DRUZHINA"
+			 Cost="200" 
+			 Maintenance="3" 
+			 BaseMoves="5" 
+			 BaseSightRange="2" 
+			 ZoneOfControl="true" 
+			 Domain="DOMAIN_LAND" 
+			 Combat="44" 
+			 StrategicResource="RESOURCE_HORSES" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+			 PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY"
+			 AdvisorType="ADVISOR_CONQUEST" 
+			 Name="LOC_UNIT_MER_DRUZHINA_NAME" 
+			 Description="LOC_UNIT_MER_DRUZHINA_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" 
+			 MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" 
+			 TraitType="TRAIT_CIVILIZATION_UNIT_MER_DRUZHINA"
+			 PrereqTech="TECH_CASTLES"/>
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_MER_DRUZHINA" UpgradeUnit="UNIT_CAVALRY"/>
+	</UnitUpgrades>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_MER_DRUZHINA" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MER_DRUZHINA" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_MER_DRUZHINA" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_MER_DRUZHINA" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_MER_DRUZHINA" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<TypeTags>
+		<Row Type="UNIT_MER_DRUZHINA" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_MER_DRUZHINA" Tag="CLASS_MER_DRUZHINA"/>
+		<Row Type="ABILITY_MER_DRUZHINA" Tag="CLASS_MER_DRUZHINA"/>
+	</TypeTags>
+	<Tags>
+		<Row Tag="CLASS_MER_DRUZHINA" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<Types>
+		<Row Type="ABILITY_MER_DRUZHINA" Kind="KIND_ABILITY"/>
+	</Types>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_MER_DRUZHINA" Name="LOC_ABILITY_MER_DRUZHINA_NAME" Description="LOC_ABILITY_MER_DRUZHINA_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_MER_DRUZHINA" ModifierId="MER_DRUZHINA_NO_REDUCTION" />
+		<Row UnitAbilityType="ABILITY_MER_DRUZHINA" ModifierId="MER_DRUZHINA_STRENGTH" />
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row ModifierId="MER_DRUZHINA_NO_REDUCTION" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_NO_REDUCTION_DAMAGE" SubjectRequirementSetId="UNIT_ADJACENT_TO_GREAT_GENERAL_REQUIREMENTS"/>
+		<Row ModifierId="MER_DRUZHINA_STRENGTH" ModifierType="MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH" SubjectRequirementSetId="COSSACK_PLOT_IS_OWNER_OR_ADJACENT_REQUIREMENTS"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MER_DRUZHINA_NO_REDUCTION</ModifierId>
+			<Name>NoReduction</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>MER_DRUZHINA_STRENGTH</ModifierId>
+			<Name>Value</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="MER_DRUZHINA_STRENGTH" Context="Preview" Text="LOC_ABILITY_MER_DRUZHINA_STRENGTH_DESCRIPTION"/>
+		<Row ModifierId="MER_DRUZHINA_NO_REDUCTION" Context="Preview" Text="LOC_ABILITY_MER_DRUZHINA_NO_REDUCTION_DESCRIPTION"/>
+	</ModifierStrings>
+
+	<Types>
+		<Row Type="DISTRICT_MER_VECHE" Kind="KIND_DISTRICT"/>
+	</Types>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_MER_VECHE" ReplacesDistrictType="DISTRICT_GOVERNMENT"/>
+	</DistrictReplaces>
+	<Districts>
+		<Row DistrictType="DISTRICT_MER_VECHE"
+			 Name="LOC_DISTRICT_MER_VECHE_NAME" 
+			 Description="LOC_DISTRICT_MER_VECHE_DESCRIPTION" 
+			 PrereqCivic="CIVIC_STATE_WORKFORCE" 
+			 PlunderType="PLUNDER_CULTURE" 
+			 PlunderAmount="25" 
+			 AdvisorType="ADVISOR_GENERIC" 
+			 Cost="27"
+			 CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" 
+			 CostProgressionParam1="25" 
+			 Maintenance="1" 
+			 RequiresPlacement="true"
+			 RequiresPopulation="true"
+			 Aqueduct="false" 
+			 NoAdjacentCity="false" 
+			 InternalOnly="false"
+			 ZOC="false" 
+			 CaptureRemovesBuildings="false"
+			 CaptureRemovesCityDefenses="false" 
+			 CaptureRemovesDistrict="true"
+			 MilitaryDomain="NO_DOMAIN"
+			 CityStrengthModifier="2"
+			 TraitType="TRAIT_CIVILIZATION_DISTRICT_MER_VECHE"
+			 MaxPerPlayer="1"/>
+	</Districts>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_THEATER" YieldChangeId="Veche_Culture"/>
+		<Row DistrictType="DISTRICT_ACROPOLIS" YieldChangeId="Veche_Culture"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE" YieldChangeId="Veche_Faith"/>
+		<Row DistrictType="DISTRICT_LAVRA" YieldChangeId="Veche_Faith"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Veche_Gold"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="Veche_Gold"/>
+		<Row DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldChangeId="Veche_Gold"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="Veche_Production"/>
+		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="Veche_Production"/>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldChangeId="Veche_Science"/>
+	</District_Adjacencies>
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_MER_VECHE" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_MER_VECHE" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_MER_VECHE" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_MER_VECHE" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_MER_VECHE" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_MER_VECHE" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="2" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+	</District_TradeRouteYields>
+	<Adjacency_YieldChanges>
+		<Row ID="Veche_Culture" Description="LOC_DISTRICT_GOVERNMENT_CULTURE" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_MER_VECHE"/>
+		<Row ID="Veche_Faith" Description="LOC_DISTRICT_GOVERNMENT_FAITH" YieldType="YIELD_FAITH" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MER_VECHE"/>
+		<Row ID="Veche_Gold" Description="LOC_DISTRICT_GOVERNMENT_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MER_VECHE"/>
+		<Row ID="Veche_Production" Description="LOC_DISTRICT_GOVERNMENT_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_MER_VECHE"/>
+		<Row ID="Veche_Science" Description="LOC_DISTRICT_GOVERNMENT_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_MER_VECHE"/>
+	</Adjacency_YieldChanges>
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_MER_VECHE</DistrictType>
+			<ModifierId>GOVERNMENT_IDENTITY_PER_TURN_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_MER_VECHE</DistrictType>
+			<ModifierId>MER_VECHE_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_MER_VECHE</DistrictType>
+			<ModifierId>MER_VECHE_GRANT_LOYALTY_NEARBY_CITIES</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MER_VECHE_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ADJUST_GOVERNOR_POINTS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>PLAYER_HAS_MER_VECHE_DISTRICT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MER_VECHE_GRANT_LOYALTY_NEARBY_CITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>MER_VECHE_NEARBY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<GameModifiers>
+		<Row>
+			<ModifierId>MER_VECHE_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+		</Row>
+	</GameModifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MER_VECHE_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+			<Name>Delta</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MER_VECHE_GRANT_LOYALTY_NEARBY_CITIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MER_VECHE_DISTRICT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MER_VECHE_NEARBY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MER_VECHE_DISTRICT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_HAS_MER_VECHE_DISTRICT_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MER_VECHE_NEARBY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MER_VECHE_NEARBY</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>PLAYER_HAS_MER_VECHE_DISTRICT_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MER_VECHE_NEARBY</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>PLAYER_HAS_MER_VECHE_DISTRICT_REQUIREMENT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_MER_VECHE</Value>
+		</Row>
+		<Row>
+			<RequirementId>MER_VECHE_NEARBY</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_MER_VECHE</Value>
+		</Row>
+		<Row>
+			<RequirementId>MER_VECHE_NEARBY</RequirementId>
+			<Name>MinRange</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>MER_VECHE_NEARBY</RequirementId>
+			<Name>MaxRange</Name>
+			<Value>2</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

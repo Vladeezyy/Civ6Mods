@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HIMERIOS_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+      <Text>Византийская империя была морской державой. Несмотря на богатые владения в Анатолии, византийские императоры в обороне опирались на мощный флот. Особенно актуален он стал в эпоху, когда Византии пришлось считаться со стабильно растущим интересом арабов к Средиземноморью. В сознании современного человека эпоха Средневековья во многом ассоциируется с крестовыми походами, наземными битвами и осадами. Однако многочисленные арабо-византийские войны нередко велись именно на море, и умелые адмиралы встречались по обе стороны конфликта.</Text>
+    </Replace>
+    <Replace Tag="LOC_LEADER_TRAIT_WOLIN_DESCRIPTION" Language="ru_RU">
+      <Text>Победы наземных юнитов в бою с другими цивилизациями или городами-государствами дают очки [ICON_GreatGeneral] великих полководцев, а победы морских юнитов - очки [ICON_GreatAdmiral] великих адмиралов в размере 25% силы противника (на стандартной скорости).</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_WOLIN_NAVAL_UNITS_NAME" Language="ru_RU">
+      <Text>Очки великих адмиралов</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_WOLIN_NAVAL_UNITS_DESCRIPTION" Language="ru_RU">
+      <Text>Получает очки [ICON_GreatAdmiral] великих адмиралов в размере 25% от силы противника при победе над юнитом другой великой или малой цивилизации (на стандартной скорости). (Город-государство Волин)</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

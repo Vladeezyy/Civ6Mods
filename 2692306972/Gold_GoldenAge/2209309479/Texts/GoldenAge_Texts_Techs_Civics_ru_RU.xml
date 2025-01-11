@@ -1,0 +1,523 @@
+<GameData>
+    <LocalizedText>	
+	
+	<Replace Tag="LOC_TECH_ARCHERY_NAME" Language="ru_RU">
+           <Text>Охота|охоты|охоте|охоту|охотой|охоте</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	<!--尤里卡和激发-->
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_THE_WHEEL1" Language="ru_RU">
+      <Text>Постройте амбар.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_CHEMISTRY" Language="ru_RU">
+      <Text>Постройте кампус, который примыкает к руднику и имеет бонус от соседства не менее 4.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_RADIO" Language="ru_RU">
+      <Text>Получите великого музыканта.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_NUCLEAR_FISSION" Language="ru_RU">
+      <Text>Постройте два урановых рудника</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NUCLEAR_FISSION" Language="ru_RU">
+      <Text>Ваши ученые получили лучшее представление о радиоактивной энергии.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_ASTRONOMY" Language="ru_RU">
+      <Text>Постройте кампус, примыкающий к горам и имеющий бонус от соседства не менее 3.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_DIVINE_RIGHT" Language="ru_RU">
+      <Text>Постройте средневековые стены в 2 городах</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_SIEGE_TACTICS" Language="ru_RU">
+      <Text>Создайте 3 требушета.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_HORSEBACK_RIDING" Language="ru_RU">
+      <Text>Постройте 2 пастбища на лошодях.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_MILITARY_TACTICS" Language="ru_RU">
+      <Text>Получите великого генерала.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_STIRRUPS" Language="ru_RU">
+      <Text>Создатей 3 всадника.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_ENGINEERING" Language="ru_RU">
+      <Text>Постройте 2 водяные мельницы.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_CASTLES" Language="ru_RU">
+      <Text>Постройте древние стены в 2 городах.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_CONSTRUCTION" Language="ru_RU">
+      <Text>Постройте 2 монумента.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_BANKING" Language="ru_RU">
+      <Text>Постройте 2 рынка.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_GUILDS" Language="ru_RU">
+      <Text>Постройте 2 коммерческих центра.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_GUNPOWDER" Language="ru_RU">
+      <Text>Постройте 2 селитровых рудника.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_RIFLING" Language="ru_RU">
+      <Text>Создайте 3 стрелков-разведчиков.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_MILITARY_SCIENCE" Language="ru_RU">
+      <Text>Постройте 2 оружейни.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_PRINTING" Language="ru_RU">
+      <Text>Получите великого писателя.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_SCIENTIFIC_THEORY" Language="ru_RU">
+      <Text>Постройте 4 кампуса.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_MILITARY_ENGINEERING" Language="ru_RU">
+      <Text>постройте 2 акведука.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_MASS_PRODUCTION" Language="ru_RU">
+      <Text>Постройте 3 лесопилки.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_SHIPBUILDING" Language="ru_RU">
+      <Text>Создайте 2 галеры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_SQUARE_RIGGING" Language="ru_RU">
+      <Text>Получите великого адмирала.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_INDUSTRIALIZATION" Language="ru_RU">
+      <Text>Постройте 4 промышленные зоны.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_ARCHERY" Language="ru_RU">
+      <Text>Создайте 3 пращников.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_ELECTRICITY" Language="ru_RU">
+      <Text>Постройте 2 угольные электростанции.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_REFINING" Language="ru_RU">
+      <Text>Постройте 2 угольных рудника.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_STEEL" Language="ru_RU">
+      <Text>Постройте 2 дамбы.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_COMBUSTION" Language="ru_RU">
+      <Text>Постройте 2 канала.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_PLASTICS" Language="ru_RU">
+      <Text>Постройте 2 нефтяные скважины.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_GUIDANCE_SYSTEMS" Language="ru_RU">
+      <Text>Постройте 3 зенитные пушки.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_METAL_CASTING" Language="ru_RU">
+      <Text>Получите великого инженера.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_GAMES_RECREATION" Language="ru_RU">
+      <Text>Постройте 2 кампуса.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_MILITARY_TRAINING" Language="ru_RU">
+      <Text>Постройте 2 военных лагеря.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_MEDIEVAL_FAIRES" Language="ru_RU">
+      <Text>Поддерживайте 3 торговых пути</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_CIVIL_ENGINEERING" Language="ru_RU">
+      <Text>Постройте 6 различных специализированных районов.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_OPERA_BALLET" Language="ru_RU">
+      <Text>Постройте 2 художественных музея.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_SCORCHED_EARTH" Language="ru_RU">
+      <Text>Постройте 3 полевые пушки.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_COLONIALISM" Language="ru_RU">
+      <Text>Постройте 3 капера.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_NATURAL_HISTORY" Language="ru_RU">
+      <Text>Постройте 2 археологических музея.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_URBANIZATION" Language="ru_RU">
+      <Text>Вырастите город до 24 жителей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_IDEOLOGY" Language="ru_RU">
+      <Text>Вырастите город до 36 жителей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_MASS_MEDIA" Language="ru_RU">
+      <Text>Постройте 3 городских парка.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_NUCLEAR_PROGRAM" Language="ru_RU">
+      <Text>Получите союз 2 уровня.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_SUFFRAGE" Language="ru_RU">
+      <Text>Постройте 3 канализации.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_PROFESSIONAL_SPORTS" Language="ru_RU">
+      <Text>Постройте 3 развлекательных комплекса.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_COLD_WAR" Language="ru_RU">
+      <Text>Получите союз 3 уровня.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_SPACE_RACE" Language="ru_RU">
+      <Text>Постройте 2 космопорта.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_SOCIAL_MEDIA" Language="ru_RU">
+      <Text>Выратсите город до 48 жителей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_SYNTHETIC_MATERIALS" Language="ru_RU">
+      <Text>Постройте 2 алюминиевых рудника.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_NAVAL_TRADITION" Language="ru_RU">
+      <Text>Постройте 2 маяка.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_EXPLORATION" Language="ru_RU">
+      <Text>Постройте 3 каравеллы.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_ENVIRONMENTALISM" Language="ru_RU">
+      <Text>Постройте национальный парк.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_CORPORATE_LIBERTARIANISM" Language="ru_RU">
+      <Text>Постройте 3 лыжных курорта.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_SYNTHETIC_TECHNOCRACY" Language="ru_RU">
+      <Text>Постройте огромного боевого робота.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_DIGITAL_DEMOCRACY" Language="ru_RU">
+      <Text>Создайте 2 рок-группы.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_IRON_WORKING" Language="ru_RU">
+      <Text>Постройте 2 рудника.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_APPRENTICESHIP" Language="ru_RU">
+      <Text>постройте 2 железных рудника.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_CLASS_STRUGGLE" Language="ru_RU">
+      <Text>Доведите население вашей империи до 100 жителей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BOOST_TRIGGER_REPLACEABLE_PARTS" Language="ru_RU">
+      <Text>Создайте 3 линейных пехотинцев.</Text>
+    </Replace>
+	<!--科技与文化描述-->
+	
+	<Replace Tag="LOC_TECH_STEEL_DESCRIPTION" Language="ru_RU">
+      <Text>Открывает городские укрепления, автоматически дающие всем вашим городам по 400 ед. мощи при обороне и способность к дальнобойной атаке. Все предыдущие улучшения стен и осадные юниты поддержки становятся неэффективными.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION" Language="ru_RU">
+      <Text>Фермы улучшаются до механизированных хозяйств. +1 [ICON_Food] пищи за каждую соседнюю ферму.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_INDUSTRIALIZATION_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства руднику за каждые 2 соседних рудника. Открывает и позволяет убирать [ICON_RESOURCE_COAL] уголь.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_SANITATION_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_FOOD] пищи рыбному промыслу за каждые 2 соседних рыбных промысла.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_RIFLING_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства лесопилке за каждые 2 соседних лесопилки.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_IRON_WORKING_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства рудникам. Открывает и позволяет убирать [ICON_RESOURCE_IRON] железо. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_ANIMAL_HUSBANDRY_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет убирать [ICON_RESOURCE_CATTLE] скот, [ICON_RESOURCE_SHEEP] овец и [ICON_RESOURCE_DEER] оленей. Открывает и позволяет убирать [ICON_RESOURCE_HORSES] лошадей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_BRONZE_WORKING_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет вырубать джунгли.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_METAL_CASTING_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства рудникам.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_TECH_COMPOSITES_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства рудникам.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_GUNPOWDER_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота каменоломням.</Text>
+    </Replace>
+
+	
+	<Replace Tag="LOC_TECH_REFINING_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота для рудников и каменоломен. Открывает и позволяет убирать [ICON_RESOURCE_OIL] нефть.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_CONSTRUCTION_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства каменоломням.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_LASERS_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства каменоломням.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CIVIC_FEUDALISM_DESCRIPTION" Language="ru_RU">
+      <Text>Фермы дают +1 [ICON_Food] пищи за каждые 2 соседние фермы.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_HORSEBACK_RIDING_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота пастбищам.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_MASS_PRODUCTION_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Food] пищи пастбищам.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_RADIO_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота пастбищам.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_TECH_ROBOTICS_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота пастбищам.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_MILITARY_ENGINEERING_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строить лесопилки в джунглях. Открывает и позволяет убирать [ICON_RESOURCE_NITER] селитру.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CIVIC_GAMES_RECREATION_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота лагерям.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CIVIC_MERCANTILISM_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота лагерям.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CIVIC_MASS_MEDIA_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота лагерям.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_CIVIC_CAPITALISM_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота всем редким ресурсам. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CIVIC_GLOBALIZATION_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота лагерям.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_CURRENCY_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота плантациям. Позволяет убирать редкие ресурсы.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_BANKING_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота плантациям. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_CHEMISTRY_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Food] пищи плантациям. Открывает и позволяет убирать [ICON_RESOURCE_ALUMINUM] алюминий.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_NANOTECHNOLOGY_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота плантациям.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_ECONOMICS_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота коммерческим центрам и гаваням за соседство с каждым ресурсом.</Text>
+    </Replace>	
+    
+	<Replace Tag="LOC_TECH_SHIPBUILDING_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства рыбацким суднам. Позволяет всем наземным юнитам грузиться на корабли.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_CARTOGRAPHY_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства рыбацким суднам. Все морские и погруженные на корабли юниты могут перемещаться по клеткам океана.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_ELECTRICITY_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота рыбацким суднам. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_TELECOMMUNICATIONS_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота рыбацким суднам. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_BALLISTICS_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства лесопилкам. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_BUTTRESS_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Food] пищи клеткам пойм, которые соседствуют с такими же клетками.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_MILITARY_TACTICS_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства лесопилкам. </Text>
+    </Replace>		
+	
+	<Replace Tag="LOC_TECH_SYNTHETIC_MATERIALS_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства лесопилкам. </Text>
+    </Replace>
+    
+	<Replace Tag="LOC_TECH_ASTRONOMY_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_SCIENCE] науки кампусам от соседства с каждой клеткой гор.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CIVIC_NUCLEAR_PROGRAM_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_SCIENCE] науки кампусам от соседства с каждыми 2 клетками снега.</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_CIVIC_NATURAL_HISTORY_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строить районы на клетках леса и джунглей. Открывает [ICON_RESOURCE_ANTIQUITY_SITE] исторические места. Позволяет создавать археологов. +2 [ICON_Culture] культуры театральной площади, за соседство с каждой клеткой чуда природы.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CIVIC_THEOLOGY_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Faith] веры священному месту за соседство с каждыми двумя клетками лесов или джунглей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_SCIENTIFIC_THEORY_DESCRIPTION" Language="ru_RU">
+      <Text>Кампус получает бонус к [ICON_Science] науке от соседства с геотермальным полем, рифом, вулканической почвой и вулканом.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_ENGINEERING_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет [ICON_Citizen] горожанам работать на клетках гор. позволяет удалять все типы пойм.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_ADVANCED_FLIGHT_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_FOOD] пищи рыбному промыслу за кадоый соседний рыбный промысел.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CIVIC_CIVIL_ENGINEERING_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строить фермы на клетках пустыни и тундры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CIVIC_COLONIALISM_DESCRIPTION" Language="ru_RU">
+      <Text>Позвояет строить рыбный промысел на калетках океана.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_MILITARY_SCIENCE_DESCRIPTION" Language="ru_RU">
+      <Text>+1 заряд строителям.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CIVIC_URBANIZATION_DESCRIPTION" Language="ru_RU">
+      <Text>Дополнительно +1 доход от соседства района с районом тогоже типа.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_PLASTICS_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства всем буровым вышкам и платформам. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_NUCLEAR_FUSION_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства всем буровым вышкам и платформам.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_COMBINED_ARMS_DESCRIPTION" Language="ru_RU">
+      <Text>Открывает и позволяет убирать [ICON_RESOURCE_URANIUM] уран.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_TECH_STIRRUPS_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Food] фермам за каждый соседний лагерь, пастбище или плантацию. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_MACHINERY_DESCRIPTION" Language="ru_RU">
+      <Text>+1 заряд строителям.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_COMBUSTION_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Movement] к перемещению поселенцев, строителей и военных инженеров. Позволяет убирать лед, рифы и геотермальные поля.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_TECH_APPRENTICESHIP_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства лесам от соседства с другими лесами. +1 [ICON_Food] пищи джунглям от соседства с другими джунглями. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CIVIC_CONSERVATION_DESCRIPTION" Language="ru_RU">
+      <Text>Награда: 3 [ICON_Envoy] посла. Позволяет строить национальные парки и покупать натуралистов за [ICON_Faith] веру. [NEWLINE]Позволяет строителям сажать леса (вторичные).[NEWLINE]Получайте [ICON_TOURISM] туризм от стен.[NEWLINE]+1 ед. престижа для джунглей и +2 ед. престижа для болот, которые находятся на вашей территории.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CIVIC_MEDIEVAL_FAIRES_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота всем редким ресурсам.</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_CIVIC_SCORCHED_EARTH_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Science] науки всем стратегическим ресурсам.</Text>
+    </Replace>
+	
+	<Replace Tag="GA_LOC_TECH_PRINTING_DESCRIPTION" Language="ru_RU">
+      <Text>Все постулпения [ICON_Tourism] туризма от [ICON_GreatWork_Writing] великих литературных шедевров удваивается.</Text>
+    </Replace>
+
+	<Replace Tag="LOC_TECH_SEASTEADS_DESCRIPTION" Language="ru_RU">
+      <Text>Дает 1 очко дипломатической победы. Открывает повышение авианосца: СУПЕР АВИАНОСЕЦ.</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_ADVANCED_AI_DESCRIPTION" Language="ru_RU">
+      <Text>Открывает повышение «Огромного боевого робота»: «ПВО дроны»[NEWLINE]+100 [ICON_AntiAir_Large] к силе противовоздушной обороны. Разблокирует повышение авианосца: САМОЛЕТ-РАЗВЕДЧИК.</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_ADVANCED_POWER_CELLS_DESCRIPTION" Language="ru_RU">
+      <Text>Выбросы CO2 от юнитов снижены на 50%. Открывает повышение «Огромного боевого робота»: «Осадная лучевая пушка».[NEWLINE]Дальнобойные против городов и военных лагерей эффективнее на 100% и получают +30 [ICON_Ranged] к силе в дальнем бою. Открывает повышение авианосца: АНГАРНАЯ ПАЛУБА.</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_CYBERNETICS_DESCRIPTION" Language="ru_RU">
+      <Text>Открывает повышение «Огромонго боевого робота»: повышенная мобильность[NEWLINE]+3 к перемещению [ICON_Movement]. Может выполнить действие «Прыжок», чтобы пересечь горную местность. Открывает повышение авианосца: УСОВЕРШЕНСТВОВАННЫЕ ДВИГАТЕЛИ.</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_SMART_MATERIALS_DESCRIPTION" Language="ru_RU">
+      <Text>Открывает повышение «Огромонго боевого робота»: усиленная броня[NEWLINE]+10 [ICON_Strength] к боевой мощи при защите от наземных и морских юнитов. Открывает повышение авианосца: СКЛАДЫВАЮЩИЕСЯ КРЫЛЬЯ.</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_PREDICTIVE_SYSTEMS_DESCRIPTION" Language="ru_RU">
+      <Text>Открывает повышение авианосца: ПАЛУБНЫЕ ЭКИПАЖИ.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_GUIDANCE_SYSTEMS_DESCRIPTION" Language="ru_RU">
+      <Text>Открывает обновление авианосца: ВЗЛЕТНАЯ ПАЛУБА.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>	

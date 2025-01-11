@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="StrategicView_Sprite"/>
+	<m_PackageName text="StrategicView"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="DwarvenMineRevealed"/>
+			<m_ObjectName text="DwarvenMineRevealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DwarvenMineRevealedPillaged"/>
+			<m_ObjectName text="DwarvenMineRevealedPillaged"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DwarvenMineVisible"/>
+			<m_ObjectName text="DwarvenMineVisible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DwarvenMineVisiblePillaged"/>
+			<m_ObjectName text="DwarvenMineVisiblePillaged"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MeliteleRevealed"/>
+			<m_ObjectName text="MeliteleRevealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MeliteleRevealedConstruction"/>
+			<m_ObjectName text="MeliteleRevealedConstruction"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MeliteleRevealedPillaged"/>
+			<m_ObjectName text="MeliteleRevealedPillaged"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MeliteleVisible"/>
+			<m_ObjectName text="MeliteleVisible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MeliteleVisibleConstruction"/>
+			<m_ObjectName text="MeliteleVisibleConstruction"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MeliteleVisiblePillaged"/>
+			<m_ObjectName text="MeliteleVisiblePillaged"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4e2e54b5-aede-40fd-a57b-d2c924e1d114" version="1">
+  <Properties>
+    <Name>SeelingCat - Telesilla</Name>
+    <Description>Adds Telesilla as a playable leader for the Greek Civilization</Description>
+    <Created>1584672835</Created>
+    <Teaser>Adds Telesilla as a playable leader for the Greek Civilization</Teaser>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Telesilla_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Core/Telesilla_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>Core/Telesilla_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>Telesilla.dep</File>
+    </UpdateArt>
+    <UpdateColors id="UpdateColors">
+      <File>Core/Telesilla_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Telesilla_GameDefines.sql</File>
+      <File>Core/Telesilla_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Core/Telesilla_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Core/Telesilla_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Telesilla.dep</File>
+    </UpdateArt>
+    <UpdateColors id="UpdateColor">
+      <File>Core/Telesilla_Colors.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>Core/Telesilla_Colors.sql</File>
+    <File>Core/Telesilla_Config.sql</File>
+    <File>Core/Telesilla_GameDefines.sql</File>
+    <File>Core/Telesilla_Icons.xml</File>
+    <File>Core/Telesilla_ModSupport.sql</File>
+    <File>Core/Telesilla_Text.xml</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Telesilla.dep</File>
+  </Files>
+</Mod>

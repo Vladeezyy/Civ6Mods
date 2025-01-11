@@ -1,0 +1,67 @@
+-- UC_PRD_Text_MODE_Corporations
+-- Author: JNR
+--------------------------------------------------------------
+
+-- Information for translators: see information further below for instructions on how to help with translating this mod.
+
+-- Russian
+--------------------------------------------------------------
+INSERT OR REPLACE INTO LocalizedText
+		(Language, Gender, Plurality, Tag,														Text)
+VALUES	('ru_RU', 'masculine', '1', 'LOC_BUILDING_KEIRETSU_NAME_UC_JNR',						'Кэйрэцу|Кэйрэцу|Кэйрэцу|Кэйрэцу|Кэйрэцу|Кэйрэцу'),
+		('ru_RU', '', '', 'LOC_BUILDING_KEIRETSU_DESCRIPTION_UC_JNR',				'Уникальное здание Японии. +25% [ICON_Production] к производству городских проектов.[NEWLINE]Увеличивается накопление стратегических ресурсов на +20 (на стандартной скорости).[NEWLINE][NEWLINE]Внутренние [ICON_TradeRoute] торговые пути в этот город дают +1 [ICON_Production] производства.'),
+		('ru_RU', 'macsuline', '1', 'LOC_BUILDING_JNR_MODE_MACHINES_NAME',						'Машиностроительный завод|машиностроительного завода|машиностроительному заводу|машиностроительный завод|машиностроительным заводом|машиностроительном заводе'),
+		('ru_RU', '', '', 'LOC_BUILDING_JNR_MODE_MACHINES_DESCRIPTION',				'Бонус [ICON_Production] производства распространяется на все центры города в пределах 6 клеток, которые еще не имеют бонуса от здания, создающего продукт. [NEWLINE]Позволяет этому городу создавать продукты на основе [ICON_RESOURCE_JNR_MACHINES] машин: [NEWLINE]{LOC_PRODUCT_JNR_MACHINES_BONUS_DESCRIPTION}'),
+		('ru_RU', 'masculine', '1', 'LOC_BUILDING_JNR_MODE_FERTILIZERS_NAME',					'Завод удобрений|завода удобрений|заводу удобрений|завод удобрений|заводом удобрений|заводе удобрений'),
+		('ru_RU', '', '', 'LOC_BUILDING_JNR_MODE_FERTILIZERS_DESCRIPTION',			'Бонусы к производства [ICON_Production] и [ICON_Food] пищи распространяются на все центры города в пределах 6 клеток, у которых еще нет бонуса от здания, создающего продукт. [NEWLINE]Позволяет этому городу создавать продукты на основе [ICON_RESOURCE_JNR_FERTILIZERS] удобрений: [NEWLINE]{LOC_PRODUCT_JNR_FERTILIZERS_BONUS_DESCRIPTION}'),
+		('ru_RU', 'feminine', '1', 'LOC_BUILDING_JNR_MODE_ELECTRONICS_NAME',					'Фабрика электроники|фабрики электроники|фабрике электроники|фабрику электроники|фабрикой электроники|фабрике электроники'),
+		('ru_RU', '', '', 'LOC_BUILDING_JNR_MODE_ELECTRONICS_DESCRIPTION',			'Бонусы [ICON_Production] производства и [ICON_Science] науки распространяются на все центры города в пределах 6 клеток, которые еще не имеют бонуса от здания, создающего продукт. [NEWLINE]Позволяет этому городу создавать продукты на основе [ICON_RESOURCE_JNR_ELECTRONICS] электроники: [NEWLINE]{LOC_PRODUCT_JNR_ELECTRONICS_BONUS_DESCRIPTION}'),
+		('ru_RU', 'feminine', '1', 'LOC_BUILDING_JNR_MODE_SOUVENIRS_NAME',					'Сувенирная фабрика|сувенирной фабрики|сувенирнной фабрике|сувенирную фабрику|сувенирной фабрикой|сувенирной фабрике'),
+		('ru_RU', '', '', 'LOC_BUILDING_JNR_MODE_SOUVENIRS_DESCRIPTION',				'Бонусы [ICON_Production] производства и [ICON_Culture] культуры распространяются на все центры города в пределах 6 клеток, у которых еще нет бонуса от здания, создающего продукт. [NEWLINE]Позволяет этому городу создавать продукты на основе [ICON_RESOURCE_JNR_SOUVENIRS] сувениров: [NEWLINE]{LOC_PRODUCT_JNR_SOUVENIRS_BONUS_DESCRIPTION}'),
+		('ru_RU', 'masculine', '1', 'LOC_BUILDING_JNR_MODE_PHARMA_NAME',						'Фармацевтический завод|фармацевтического завода|фармацевтическому заводу|фармацевтический завод|фармацевтическим заводом|фармацевтическом заводе'),
+		('ru_RU', '', '', 'LOC_BUILDING_JNR_MODE_PHARMA_DESCRIPTION',				'Бонусы [ICON_Production] производсва и [ICON_Faith] веры распространяются на все центры города в пределах 6 клеток, у которых еще нет бонуса от здания, создающего продукт. [NEWLINE]Позволяет этому городу создавать продукты на основе [ICON_RESOURCE_JNR_PHARMA] фармацевтических препаратов: [NEWLINE]{LOC_PRODUCT_JNR_PHARMA_BONUS_DESCRIPTION}'),
+		('ru_RU', 'masculine', '1', 'LOC_BUILDING_JNR_MODE_PLASTICS_NAME',						'Полимерный завод|полимерного завода|полимерному заводу|полимерный завод|полимерным заводом|полимерном заводе'),
+		('ru_RU', '', '', 'LOC_BUILDING_JNR_MODE_PLASTICS_DESCRIPTION',				'Бонус [ICON_Production] производства и [ICON_Gold] золота распространяется на все центры города в пределах 6 клеток, для которых еще нет бонуса от здания, создающего продукт. [NEWLINE]Позволяет этому городу создавать продукты на основе [ICON_RESOURCE_JNR_PLASTICS] пластмасс: [NEWLINE]{LOC_PRODUCT_JNR_PLASTICS_BONUS_DESCRIPTION}'),
+		('ru_RU', 'masculine', '2', 'LOC_RESOURCE_JNR_MACHINES_NAME',							'Автомобили|автомобилей|автомобилям|автомобили|автомобилями|автомобилях'),
+		('ru_RU', 'neuter', '2', 'LOC_RESOURCE_JNR_FERTILIZERS_NAME',						'Удобрения|удобрений|удобрениям|удобрения|удобрениями|удобрениях'),
+		('ru_RU', 'feminine', '2', 'LOC_RESOURCE_JNR_ELECTRONICS_NAME',						'Электроника|электроники|электронике|электронику|электроникой|электронике'),
+		('ru_RU', 'masculine', '2', 'LOC_RESOURCE_JNR_SOUVENIRS_NAME',							'Сувениры|сувениров|сувенирам|сувениры|сувенирами|сувенирах'),
+		('ru_RU', 'masculine', '2', 'LOC_RESOURCE_JNR_PHARMA_NAME',							'Фармацевтические препараты|фармацевтических препаратов|фармацевтическим препаратам|фармацевтические препараты|фармацевтическими препаратами|фармацевтических препаратах'),
+		('ru_RU', 'feminine', '2', 'LOC_RESOURCE_JNR_PLASTICS_NAME',							'Пластмассы|пластмасс|пластмассам|пластмассы|пластмассами|пластмассах'),
+		('ru_RU', 'masculine', '2', 'LOC_RESOURCE_JNR_MACHINES__NAME',							'Автомобили|автомобилей|автомобилям|автомобили|автомобилями|автомобилях'),
+		('ru_RU', 'neuter', '2', 'LOC_RESOURCE_JNR_FERTILIZERS__NAME',						'Удобрения|удобрений|удобрениям|удобрения|удобрениями|удобрениях'),
+		('ru_RU', 'feminine', '2', 'LOC_RESOURCE_JNR_ELECTRONICS__NAME',						'Электроника|электроники|электронике|электронику|электроникой|электронике'),
+		('ru_RU', 'masculine', '2', 'LOC_RESOURCE_JNR_SOUVENIRS__NAME',						'Сувениры|сувениров|сувенирам|сувениры|сувенирами|сувенирах'),
+		('ru_RU', 'masculine', '2', 'LOC_RESOURCE_JNR_PHARMA__NAME',							'Фармацевтические препараты|фармацевтических препаратов|фармацевтическим препаратам|фармацевтические препараты|фармацевтическими препаратами|фармацевтических препаратах'),
+		('ru_RU', 'feminine', '2', 'LOC_RESOURCE_JNR_PLASTICS__NAME',							'Пластмассы|пластмасс|пластмассам|пластмассы|пластмассами|пластмассах'),
+		('ru_RU', '', '', 'LOC_GREATWORK_PRODUCT_JNR_MACHINES_X_NAME',				'Массовое производство автомобилей'),
+		('ru_RU', '', '', 'LOC_GREATWORK_PRODUCT_JNR_FERTILIZERS_X_NAME',			'Массовое производство удобрений'),
+		('ru_RU', '', '', 'LOC_GREATWORK_PRODUCT_JNR_ELECTRONICS_X_NAME',			'Массовое производство гаджетов'),
+		('ru_RU', '', '', 'LOC_GREATWORK_PRODUCT_JNR_SOUVENIRS_X_NAME',				'Массовое производство сувениров'),
+		('ru_RU', '', '', 'LOC_GREATWORK_PRODUCT_JNR_PHARMA_X_NAME',				'Массовое производство фармацевтики'),
+		('ru_RU', '', '', 'LOC_GREATWORK_PRODUCT_JNR_PLASTICS_X_NAME',				'Массовое производство пластиковых товаров'),
+		('ru_RU', '', '', 'LOC_PRODUCT_JNR_MACHINES_BONUS_DESCRIPTION',				'[NEWLINE]+1 [ICON_Production] производства всем улучшенным клеткам города.[NEWLINE]Требуется 30 [ICON_RESOURCE_IRON] железа для начала строительства.'),
+		('ru_RU', '', '', 'LOC_PRODUCT_JNR_FERTILIZERS_BONUS_DESCRIPTION',			'[NEWLINE]+2 [ICON_Food] пищи всем фермам города.[NEWLINE]Требуется 30 [ICON_RESOURCE_NITER] селитры, чтобы начать производство.'),
+		('ru_RU', '', '', 'LOC_PRODUCT_JNR_ELECTRONICS_BONUS_DESCRIPTION',			'[NEWLINE]+5% [ICON_Science] науки, [ICON_Culture] культуры и [ICON_Faith] веры в городе.[NEWLINE]НО: уровень вражеских шпионов действующих в этом городе повышается на.'),
+		('ru_RU', '', '', 'LOC_PRODUCT_JNR_SOUVENIRS_BONUS_DESCRIPTION',				'[NEWLINE]+25% [ICON_Tourism] давления туризма этого города по отношению к другим цивилизациям в эпохе нового времени.[NEWLINE]НО: -1 [ICON_AMENITIES] довольства в этом городе и -1 [ICON_AMENITIES] довольства от каждого района по соседству с чудом света в этом городе.'),
+		('ru_RU', '', '', 'LOC_PRODUCT_JNR_PHARMA_BONUS_DESCRIPTION',				'[NEWLINE]+0.5 [ICON_Food] пищи в ход за каждого [ICON_Citizen] горожанина.[NEWLINE]Здания третьего уровня в центре коммерции и гавани, а так же аэропорты в этом городе производят +1 очко [ICON_Favor] мирового влияния в ход.[NEWLINE]НО: [NEWLINE]-0.5 [ICON_Gold] золота в ход за каждого [ICON_Citizen] горожанина.'),
+		('ru_RU', '', '', 'LOC_PRODUCT_JNR_PLASTICS_BONUS_DESCRIPTION',				'[NEWLINE]+10 [ICON_Gold] золота от каждого пригорода в городе.[NEWLINE]НО: -2 престижа всем клеткам города.'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_MACHINES_NAME',			'[ICON_RESOURCE_JNR_MACHINES] Создать новый продукт (машиностроительный завод)'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_MACHINES_SHORT_NAME',		'[ICON_RESOURCE_JNR_MACHINES] Создать автомобильный продукт'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_MACHINES_DESCRIPTION',		'Создать новый продукт для всего мира на основе [ICON_RESOURCE_JNR_MACHINES] автомобилей.[NEWLINE]ПРЕДУПРЕЖДЕНИЕ: продукт будет немедленно утерян после создания, если в ваших городах нет свободных ячеек для продукта.{LOC_PRODUCT_JNR_MACHINES_BONUS_DESCRIPTION}'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_FERTILIZERS_NAME',			'[ICON_RESOURCE_JNR_FERTILIZERS] Создать новый продукт (завод удобрений)'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_FERTILIZERS_SHORT_NAME',	'[ICON_RESOURCE_JNR_FERTILIZERS] Создать новый продукт удобрений'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_FERTILIZERS_DESCRIPTION',	'Создать новый продукт для всего мира на основе [ICON_RESOURCE_JNR_FERTILIZERS] удобрений.[NEWLINE]ПРЕДУПРЕЖДЕНИЕ: продукт будет немедленно утерян после создания, если в ваших городах нет свободных ячеек для продукта.{LOC_PRODUCT_JNR_FERTILIZERS_BONUS_DESCRIPTION}'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_ELECTRONICS_NAME',			'[ICON_RESOURCE_JNR_ELECTRONICS] Создать новый продукт (фабрика электроники)'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_ELECTRONICS_SHORT_NAME',	'[ICON_RESOURCE_JNR_ELECTRONICS] Создать новый продукт электроники'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_ELECTRONICS_DESCRIPTION',	'Создать новый продукт для всего мира на основе [ICON_RESOURCE_JNR_ELECTRONICS] электроники.[NEWLINE]ПРЕДУПРЕЖДЕНИЕ: продукт будет немедленно утерян после создания, если в ваших городах нет свободных ячеек для продукта.{LOC_PRODUCT_JNR_ELECTRONICS_BONUS_DESCRIPTION}'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_SOUVENIRS_NAME',			'[ICON_RESOURCE_JNR_SOUVENIRS] Создать новый продукт (сувенирная фабрика)'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_SOUVENIRS_SHORT_NAME',		'[ICON_RESOURCE_JNR_SOUVENIRS] Создать новый продукт сувениров'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_SOUVENIRS_DESCRIPTION',	'Создать новый продукт для всего мира на основе [ICON_RESOURCE_JNR_SOUVENIRS] сувениров.[NEWLINE]ПРЕДУПРЕЖДЕНИЕ: продукт будет немедленно утерян после создания, если в ваших городах нет свободных ячеек для продукта.{LOC_PRODUCT_JNR_SOUVENIRS_BONUS_DESCRIPTION}'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_PHARMA_NAME',				'[ICON_RESOURCE_JNR_PHARMA] Создать новый продукт (фармацевтический завод)'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_PHARMA_SHORT_NAME',		'[ICON_RESOURCE_JNR_PHARMA] Создать новый фармацевтический продукт'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_PHARMA_DESCRIPTION',		'Создать новый продукт для всего мира на основе [ICON_RESOURCE_JNR_PHARMA] фармацевтических препаратов.[NEWLINE]ПРЕДУПРЕЖДЕНИЕ: продукт будет немедленно утерян после создания, если в ваших городах нет свободных ячеек для продукта.{LOC_PRODUCT_JNR_PHARMA_BONUS_DESCRIPTION}'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_PLASTICS_NAME',			'[ICON_RESOURCE_JNR_PLASTICS] Создать новый продукт (полимерный завод)'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_PLASTICS_SHORT_NAME',		'[ICON_RESOURCE_JNR_PLASTICS] Создать новый продукт пластиковых товаров'),
+		('ru_RU', '', '', 'LOC_PROJECT_CREATE_PRODUCT_JNR_PLASTICS_DESCRIPTION',		'Создать новый продукт для всего мира на основе [ICON_RESOURCE_JNR_PLASTICS] пластмасс.[NEWLINE]ПРЕДУПРЕЖДЕНИЕ: продукт будет немедленно утерян после создания, если в ваших городах нет свободных ячеек для продукта.{LOC_PRODUCT_JNR_PLASTICS_BONUS_DESCRIPTION}');
+--------------------------------------------------------------

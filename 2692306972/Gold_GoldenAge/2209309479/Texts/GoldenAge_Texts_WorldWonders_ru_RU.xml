@@ -1,0 +1,89 @@
+<GameData>
+    <LocalizedText>	    	
+	<!--世界奇观-->
+	
+	<Replace Tag="LOC_BUILDING_RUHR_VALLEY_DESCRIPTION" Language="ru_RU">
+      <Text>+20% [ICON_Production] производства в этом городе и +1 [ICON_Production] к производству за каждый рудник и каменоломню в этом городе. можно построить только у реки, прилегающей к промышленной зоне.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_EIFFEL_TOWER_DESCRIPTION" Language="ru_RU">
+      <Text>Все клетки вашей цивилизации получают +1 ед. престижа. Можно построить только на ровном участке, рядом с городским центром.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CHICHEN_ITZA_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Culture] культуры, +1 [ICON_Science] науки всем клеткам джунглей в вашей империи. Можно построить только джунглях.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_PETRA_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Food] пищи и +1 [ICON_Production] производства всем клеткам пустыни (кроме пойм) в вашей империи. Можно построить только в пустыни (без холмов) или в пустынной пойме.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_ST_BASILS_CATHEDRAL_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Food] пищи, +1 [ICON_Production] производства, и +1 [ICON_Culture] культуры всем клеткам тундры в вашей империи. Можно построить только on tundra.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_APADANA_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_ENVOY] посла после завершения чуда света (включая Ападану).[NEWLINE][NEWLINE]Можно построить только рядом со [ICON_CAPITAL] столицей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_SCIENCE] науки +1 [ICON_CULTURE] культуры всем клеткам побережья в вашей империи. [ICON_GREATENGINEER] Великие инженеры получают дополнительный заряд. Можно построить только рядом с гаванью.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_COLOSSUS_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_TradeRoute] доступных торговых пути. Дает 2 торговцев. Можно построить только на побережье рядом с сушей и гаванью.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" Language="ru_RU">
+      <Text>+1 очко [ICON_Movement] перемещения всем морским юнитам. [ICON_GREATMERCHANT] Великие торговцы получают дополнительный заряд.[NEWLINE][NEWLINE]Можно построить только клетке побережья рядом с сушей и гаванью с маяком.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_MACHU_PICCHU_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_SCIENCE] науки от {1_Num : plural 1?соседней горы; other?соседних гор;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_MACHU_PICCHU_FAITH" Language="ru_RU">
+      <Text>+{1_num} [ICON_FAITH] веры от {1_Num : plural 1?соседней горы; other?соседних гор;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_MACHU_PICCHU_DESCRIPTION" Language="ru_RU">
+      <Text>Клетки гор дают стандартный бонус за соседство с коммерческим центром, театральной площадью, кампусом, священным местом и промышленной зоной во всех городах.[NEWLINE][NEWLINE]Можно построить только на клетке горы, на которой нет вулкана.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_JEBEL_BARKAL_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Дает +2 [ICON_Faith] веры, +2 [ICON_SCIENCE] науки， +2 [ICON_Culture] культуры всем вашим городам в пределах 8 клеток.[NEWLINE][NEWLINE]Можно строить только на пустынной (холмистой) местности.</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="ru_RU">
+      <Text>Увеличивает рост населения на 20% во всех городах. Можно построить только рядом с рекой.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_HANGING_GARDENS_HERO_DESCRIPTION" Language="ru_RU">
+      <Text>Срок службы всех героев увеличен на 20% [ICON_Lifespan]. Увеличивает рост населения на 20% во всех городах. Можно построить только рядом с рекой.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_TAJ_MAHAL_DESCRIPTION" Language="ru_RU">
+      <Text>+1 очко к счету эпохи за каждый исторический момент, дающий не менее 2 очков, после постройки этого чуда света. +2 очка дипломатической победы после строительства. Можно построить только рядом с рекой.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_ORSZAGHAZ_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Favor] ед. мирового влияния за каждый город-государство, сюзереном которого вы являетесь. +2 очка дипломатической победы после строительства.[NEWLINE][NEWLINE]Можно построить только рядом с рекой.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CRISTO_REDENTOR_DESCRIPTION" Language="ru_RU">
+      <Text>[ICON_Tourism] Туризм от [ICON_GreatWork_Relic] реликвий и священных мест не уменьшается из-за цивилизаций, открывших соц. институт «Просвещение». +100% [ICON_Tourism] туризма морским курортам вашей цивилизации. +2 очка дипломатической победы после постройки.[NEWLINE][NEWLINE]Можно построить только на холмах.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GOLDEN_GATE_BRIDGE_DESCRIPTION" Language="ru_RU">
+      <Text>Сухопутные юниты могут пересекать без погружения на борт. Действует как современная дорога и создает современные дороги (если их нет) на клетках земли с обоих концов. Город получает +3 [ICON_Amenities] довольства. Все клетки в этом городе получают +2 ед. престижа. +100% [ICON_Tourism] туризма от улучшений и национальных парков в этом городе. [ICON_TradeRoute] Торговые пути, проходящие через него, могут увеличить количество [ICON_Gold] золота, которое они получают от районов в пункте назначения.[NEWLINE][NEWLINE]Можно построить только на клетке побережья. Мост должен пролегать прямо через клетку между двумя клетками суши прямо друг напротив друга. С левой и правой стороны моста должно быть хотя бы по одной клетке воды.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_HERMITAGE_DESCRIPTION" Language="ru_RU">
+      <Text>+6 [ICON_GreatWork_Landscape] ячеек для шедевров изобразительного искусства. Получите тематический бонус, когда все ячейки заполнены. Тематический бонус составляет 300% от дохода [ICON_Tourism] туризма и [ICON_Culture] культуры. Можно построить только у реки.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="ru_RU">
+      <Text>+4 [ICON_GreatWork_MUSIC] ячеек музыкальных шедевров. Получите тематический бонус, когда все ячейки заполнены. Тематический бонус составляет 400% от дохода [ICON_Tourism] туризма и [ICON_Culture] культуры. Можно построить только у реки.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

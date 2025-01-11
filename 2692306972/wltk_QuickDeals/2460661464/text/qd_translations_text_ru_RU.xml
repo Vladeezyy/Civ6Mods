@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        
+
+        <!-- ru_RU -->
+        <Replace Tag="LOC_QD_NAME" Language="ru_RU">
+            <Text>Быстрые сделки</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_SALE" Language="ru_RU">
+            <Text>Продать</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EXCHANGE" Language="ru_RU">
+            <Text>Обменять</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EACH" Language="ru_RU">
+            <Text>Каждому</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NO_AVAILABLE_DEAL" Language="ru_RU">
+            <Text>Нет доступных сделок.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NEW_DEALS_AVAILABLE" Language="ru_RU">
+            <Text>Доступны новые сделки.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_ALL_GOLD_HINT" Language="ru_RU">
+            <Text>Они предложили все имеющееся золото.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_BULK_ADD" Language="ru_RU">
+            <Text>[COLOR_Civ6Red]Удерживайте клавишу Ctrl, чтобы добавить еще.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_CONVERT_ALL" Language="ru_RU">
+            <Text>Щелкните правой кнопкой мыши, чтобы преобразовать все.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_YOU_NEED" Language="ru_RU">
+            <Text>Вам нужно</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_RATIO" Language="ru_RU">
+            <Text>Соотношение</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NOT_SUPPORTED_IN_MULTIPLAYER" Language="ru_RU">
+            <Text>Не поддерживается в многопользовательском режиме.</Text>
+        </Replace>
+
+        
+    </LocalizedText>
+</GameData>

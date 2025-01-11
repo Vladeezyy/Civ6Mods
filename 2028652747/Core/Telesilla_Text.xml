@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_SC_TELESILLA_NAME" Language="en_US">
+			<Text>Telesilla</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_TELESILLA_QUOTE" Language="en_US">
+			<Text>Now, girls, when Artemis was fleeing from Alpheus...</Text>
+		</Row>
+		<!-- Serve the Muses -->
+		<Row Tag="LOC_AGENDA_SC_SERVE_THE_MUSES_NAME" Language="en_US">
+			<Text>Serve the Muses</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SC_SERVE_THE_MUSES_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations that attract many Great People. Dislikes civilizations that attract few Great People.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_SC_SERVE_THE_MUSES_HAPPY_MUSES" Language="en_US">
+			<Text>(You have attacted many Great People.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SC_TELESILLA_REASON_HAPPY_MUSES" Language="en_US">
+			<Text>Telesilla is pleased to see that your civlization has produced so many great minds.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_SC_SERVE_THE_MUSES_CRAPPY_MUSES" Language="en_US">
+			<Text>(You have attracted few Great People.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SC_TELESILLA_REASON_CRAPPY_MUSES" Language="en_US">
+			<Text>Telesilla looks down upon you and your civilization, for it has produced very few great minds.</Text>
+		</Row>
+		<!-- DOM -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_SC_TELESILLA" Language="en_US">
+			<Text>Greetings Telesilla - devout servant of the Muses and celebrated defender of Argos. Blessed with the ability to weave words as well as Ariadne could work a loom, it is up to you to lead your fellow Argives through tragedy and triumph. Whether that means commanding a defense from the city walls or raising the spirits of your countrymen through your sun-loving songs, it is certain that your people are in good hands either way.</Text>
+		</Row>
+		<!-- Traits -->
+		<Row Tag="LOC_TRAIT_LEADER_SC_DEFENSE_OF_ARGOS_NAME" Language="en_US">
+			<Text>The Defense of Argos</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SC_DEFENSE_OF_ARGOS_DESCRIPTION" Language="en_US">
+			<Text>Walls produce +1 [ICON_GreatWriter] Great Writer Point and have a slot for a [ICON_GreatWork_Writing] Great Work of Writing. While at peace, Great Works of [ICON_GreatWork_Writing] Writing, [ICON_GreatWork_Portrait] Art, and [ICON_GreatWork_Music] Music produce +2 [ICON_Faith] Faith; while at war, they provide +2 [ICON_Production] Production. Units receive a [ICON_Strength] Combat Bonus when adjacent to a [ICON_GreatWriter] Great Writer or [ICON_GreatMusician] Great Musician.</Text>
+		</Row>
+		<Row Tag="LOC_SC_TELESILLA_GREAT_PERSON_STRENGTH_DESC" Language="en_US">
+			<Text>+{1_Amount} Combat Strength from inspiring Adjacent Great Person.</Text>
+		</Row>
+		
+		
+
+		<!-- Civiliopedia -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_TELESILLA_TITLE" Language="en_US">
+			<Text>Telesilla</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_TELESILLA_SUBTITLE" Language="en_US">
+			<Text>Poet and Defender of Argos</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_TELESILLA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Telesilla was an ancient Argive poet known for both her poetry and her leadership in the defense of the city of Argos against a Spartan attack.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_TELESILLA_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Little is known about Telesilla's life, with much of what we knowing coming from other writers who lived long after her. Pausanias writes that Telesilla was sickly, so she consulted the Pythia at the Oracle of Delphi. The Pythia told her to "serve the Muses" and thus Telsilla's career as a poet began. Almost none of her work remains extant, but she is known nonetheless as a renowned lyric poet, responsible for the invention of the metrical innovation known as the Telesillian Meter.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_TELESILLA_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>In the year 494 BCE, King Cleomenes of Sparta invaded Argolis. It is said that the Spartans killed many of the Argive hoplites at the Battle of Sepeia and the rest at the sanctuary of Argus outside the city, leaving Argos defenseless. As the Spartans approached the city, Telesilla rallied the Argive women and the remaining men of the city (slaves, farmers, or rural populace, depending on the interpretation) to Argos's walls. She oversaw the collection and distribution of arms to the defenders, and encouraged them to stand fast in the face of the intimidating Spartan army. The display of force was a success - depending on the source, the Spartans either retreated without a battle or after taking heavy losses.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_TELESILLA_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>What happened to Telesilla after the defense of Argos, unfortunately, is a mystery. The Argive population - spared the ignonimity of defeat - was grateful for Telesilla's leadership; they erected a statue in front of the Temple of Aphrodite depicting a woman holding a helmet in her hands and with books at her feet, said to honor the leadership of Telesilla and the other Argive women for their part in saving Argos from defeat at the hands of the Spartans. It was also said that, after the battle, the Argive women refused to go back to being subservient to the men of the city, with the social chaos possibly serving as the source of the festival of the Hybristica, in which wives would dress as men and berate their husbands.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_TELESILLA_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>What is known for certain is that Telesilla's contributions were not forgotten. Her work is recorded as being referenced as late as the second century CE and she was held up as a model of civic virtue for centuries after her death, proving that her achievements were among thsoe that would stand the test of time.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_TELESILLA_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Telesilla has a unique ability to translate defensive structures into Great People production and then channel that cultural output into military strength. You'll need to challenge her on both fronts to be successful against her.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SC_TELESILLA_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>As Telesilla, generating Great People should be your primary focus, particularly Great Writers. Fill up your Great Work Slots in peace time, but when your cities can no longer hold any more, send your Great Writers and Musicians off to inspire your troops to conquer some more room. Don't forget to build up your defenses back home as well - they'll help keep you safe and also add to your army of poets and wordsmiths to keep up the pressure on your rivals!</Text>
+		</Row>
+		<!-- Diplomacy -->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Welcome to Argos, traveller. I am Telesilla, a humble poet and citizen of this great city. May the Muses look kindly on our meeting this day.</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Won't you come and visit one of the towns of Argolis? They may not be as bustling as some of our neighbors', but what they lack in size they make up for in charm.</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>How kind! I'm sure this will be the spark for a new poem - should the Muses grant me their inspiration of course!</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Hmm... Our globe here - symbol of the great Muse Ourania - seems to not show your capital. Let's rectify this error, shall we? We can update yours accordingly as well if you'd like...</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SC_TELESILLA_HAPPY" Language="en_US">
+			<Text>Oh, you've arrived just as I've put the finishing touches on my latest poem. Care to listen?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SC_TELESILLA_UNHAPPY" Language="en_US">
+			<Text>Please state your business - I have other matters to attend to.</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>On behalf of Argos, I accept your delegation. We shall arrange a festival in honor of their arrival.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>The gates of Argos are closed to outsiders at this time.</Text>
+		</Row>
+		<!--AI Requests-->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>May I offer you a few small tokens of my goodwill? I have arranged to have some of Argolis's finest olives, melons, oranges sent to you - as well as an ornate shield like the ones our Hoplites wield. Did you know that its grip was designed here in Argos? It's true!</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Your men will be treated as guests here in Argos, you have my promise.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>I must decline - we cannot play host to your troops at this time.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Our brave troops have received their orders and request to pass through your lands. Will you agree to this?</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Outstanding! I, of course, accept - praise the Muses!</Text>
+		</Row>
+		<!--AI Rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Oh! I'm sorry, it's just that I'm... really busy - you know - with... the poems... So many poems...</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>The Muses provide inspiration to our world's finest minds, and you have in turn inspired in me feelings of amiability. I would most honored to be able to call you a friend.</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Oh, thank the Muses! How wonderful!</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Oh, I see. Well, perhaps I was too hasty in my offer...</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Did you know that I invented the word 'philhelias'? It means 'sun-loving': two words united to produce a new creation with special meaning; just imagine what our nations could create if united with such purpose. What say you?</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>My, my! Your civilization seems to overflow with talented minds. Clearly you have been blessed by the Muses themselves!</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Oh dear, it seems that your civilization is as bereft of genius as the desert is of rain. What a pity that your people do not receive the divine inspiration of the Muses...</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>I may not have the eyes of Argos Panoptes, but even I can see the provocations of your troops. Send them away at once.</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Agreed.</Text>
+		</Row>
+		<!-- AI Rejects Deal -->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>That is not possible.</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Your base language is frankly incomprehensible to me, but I gather that you mean to intimidate me? Ha! You'll have to do better than that!</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>I have pledged my life to serve the Muses - your destruction, dismissal, and denial of their work can no longer be ignored (Denounces You).</Text>
+		</Row>
+		
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>If you were a more learned person, I would have said that this could have been avoided, but I know that violence is all that someone like you is capable of. To arms, fellow Argives! Our city shall not fall!</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Are you perchance familiar with Melpomene? No? Allow me to educate you: she is the Muse of Tragedy, and that is surely what awaits your civilization after Argos is through with you.</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Wonderful - the flower of inspiration does not grow well in the unforgiving season of war.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Begging for clemency will not garner you mention in the annals of history. Clio rewards valor and you offer not but cowardice!</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>War is such an upleasant matter is it not? What say we put this all behind us?</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Despite my best efforts, Argos has fallen - it's temples and monuments in ruins. Who will serve the Muses now that I am gone? I weep for a world without their inspiration! Hardly a world at all...</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SC_TELESILLA_ANY" Language="en_US">
+			<Text>Despite my best efforts, Argos has fallen - it's temples and monuments in ruins. Who will serve the Muses now that I am gone? I weep for a world without their inspiration! Hardly a world at all...</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

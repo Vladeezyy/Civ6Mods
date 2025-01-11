@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1c72ec08-57c7-42e9-b644-4d1fd7b1e1f4" version="1">
+  <Properties>
+    <Name>[COLOR:Red]The Witcher[ENDCOLOR]: Hengfors League</Name>
+    <Description>The kingdoms of Caingorn, Malleore, Barefield and Creyden, members of the Hengfors League, will replace the city-states of Cintra, Lyria and Rivia in order to have 36 city-states, 6 per type, when playing with Calanthe and Meve in the game.[NEWLINE][NEWLINE]Their secondary bonuses, which you get when suzerain of other city-state types, are common with each other and they're designed to stack, increasing in effectiveness for each member of the league.[NEWLINE][NEWLINE]The Hengfors city-state is converted into Caingorn, and in order to have 6 city-states per type Sodden is changed to Cultural.</Description>
+    <Created>1696585633</Created>
+    <Teaser>Kingdoms of the Hengfors League from The Witcher universe</Teaser>
+    <Authors>iPlayGamesITA</Authors>
+    <SpecialThanks>The Civ VI Modding Helpline Discord Server, MC for the amazing template</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="d3f820cb-a250-4856-918e-7cab7601054d" title="The Witcher: Aedirn" />
+    <Mod id="8df6807c-2653-4fce-86f9-9a5f227ee0a5" title="The Witcher: Cintra" />
+    <Mod id="45376e50-40c6-46a9-8252-f04225a699b3" title="The Witcher: Kaedwen" />
+    <Mod id="38812eb2-59f1-4ca6-9134-70048566d938" title="The Witcher: Lyria &amp; Rivia" />
+    <Mod id="c3525630-be88-41ae-a7da-1459a0b18f53" title="The Witcher: Skellige" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="Expansion1">
+      <GameModeInUse>
+        <GameCoreInUse>Expansion1</GameCoreInUse>
+      </GameModeInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>Leader/Leader_Config.sql</File>
+      <File>Core/HengforsLeague_FrontEnd.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>Text/Civilization_Localisation.sql</File>
+      <File>Text/Civilization_it_IT.sql</File>
+      <File>Text/Civilization_pl_PL.sql</File>
+      <File>Text/Civilization_ru_RU.sql</File>
+      <File>Text/Civilization_ko_KR.sql</File>
+      <File>Text/Civilization_de_DE.sql</File>
+      <File>Text/Civilization_es_ES.sql</File>
+      <File>Text/Civilization_zh_Hans_CN.sql</File>
+    </UpdateText>
+    <UpdateColors id="NewAction">
+      <File>Leader/Leader_Colors.sql</File>
+    </UpdateColors>
+    <UpdateArt id="NewAction">
+      <File>Witcher_Hengfors_League.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="UpdateIcons">
+      <File>Core/NewIcons.sql</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>Core/Civilization_Config.sql</File>
+      <File>Leader/Leader_Core.sql</File>
+      <File>Leader/Leader_UA.sql</File>
+      <File>Core/HengforsLeague_RemoveData.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="NewAction">
+      <File>Leader/Leader_Colors.sql</File>
+    </UpdateColors>
+    <UpdateText id="NewAction">
+      <File>Text/Civilization_Localisation.sql</File>
+      <File>Text/Civilization_it_IT.sql</File>
+      <File>Text/Civilization_pl_PL.sql</File>
+      <File>Text/Civilization_ru_RU.sql</File>
+      <File>Text/Civilization_ko_KR.sql</File>
+      <File>Text/Civilization_de_DE.sql</File>
+      <File>Text/Civilization_es_ES.sql</File>
+      <File>Text/Civilization_zh_Hans_CN.sql</File>
+    </UpdateText>
+    <UpdateIcons id="NewIcons">
+      <File>Core/NewIcons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="NewAction">
+      <File>Witcher_Hengfors_League.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Core/Civilization_Config.sql</File>
+    <File>Core/HengforsLeague_FrontEnd.xml</File>
+    <File>Core/HengforsLeague_RemoveData.xml</File>
+    <File>Core/NewIcons.sql</File>
+    <File>Leader/Leader_Colors.sql</File>
+    <File>Leader/Leader_Config.sql</File>
+    <File>Leader/Leader_Core.sql</File>
+    <File>Leader/Leader_UA.sql</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CaingornLoyaltyOverlay</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CaingornLoyaltyPressure</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CreydenLoyaltyOverlay</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CreydenLoyaltyPressure</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_MalleoreLoyaltyOverlay</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_MalleoreLoyaltyPressure</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WoefieldLoyaltyOverlay</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WoefieldLoyaltyPressure</File>
+    <File>Platforms/MacOS/BLPs/UILensAsset.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CaingornLoyaltyOverlay</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CaingornLoyaltyPressure</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CreydenLoyaltyOverlay</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CreydenLoyaltyPressure</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_MalleoreLoyaltyOverlay</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_MalleoreLoyaltyPressure</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WoefieldLoyaltyOverlay</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WoefieldLoyaltyPressure</File>
+    <File>Platforms/Windows/BLPs/UILensAsset.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Text/Civilization_it_IT.sql</File>
+    <File>Text/Civilization_Localisation.sql</File>
+    <File>Text/Civilization_pl_PL.sql</File>
+    <File>Text/Civilization_ru_RU.sql</File>
+    <File>Witcher_Hengfors_League.Art.xml</File>
+    <File>Witcher_Hengfors_League.dep</File>
+    <File>XLPs/Atlas.xlp</File>
+    <File>XLPs/UILensAsset.xlp</File>
+  </Files>
+</Mod>

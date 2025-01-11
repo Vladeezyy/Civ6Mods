@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c6c62855-e22a-47b2-9c36-be0a8c09519e" version="3">
+  <Properties>
+    <Name>[COLOR:ResFaithLabelCS]6T[ENDCOLOR] - Enlightenment Government Expansion</Name>
+    <Description>Adds a new set of governments between medieval and modern tiers: Absolutist Monarchy, Noble Commonwealth, Revolutionary Republic. Legacy Policies of this tier are unlocked by building the Chancery.
+Civics unlock additional policy slot upgrades for certain governments to make for a smoother power progression.</Description>
+    <Created>1628086056</Created>
+    <Teaser>Adds a new government tier between medieval and modern tiers.</Teaser>
+    <Authors>JNR</Authors>
+    <SpecialThanks>JFD (Inspiration from RwF - Alternative Governments)</SpecialThanks>
+    <CompatibleVersions>2.0</CompatibleVersions>
+	<AffectsSavedGames>0</AffectsSavedGames>
+  </Properties>
+  <Dependencies>
+    <Mod id="3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0" title="6T - Era Expansion" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>1300</LoadOrder>
+      </Properties>
+      <File>Core/Gov_Tier5_Governments.sql</File>
+      <File>Core/Gov_Tier5_Slots.sql</File>
+      <File>Core/Gov_Tier5_Policies.sql</File>
+      <File>Core/Gov_Tier5_UnlockItems.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/Gov_Tier5_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/Gov_Tier5_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="Backgrounds">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>6T_Gov_Tier5.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Gameplay_Bonuses">
+      <Properties>
+        <LoadOrder>1301</LoadOrder>
+      </Properties>
+      <File>Core/Gov_Tier5_Bonuses_Absolutism.sql</File>
+      <File>Core/Gov_Tier5_Bonuses_Commonwealth.sql</File>
+      <File>Core/Gov_Tier5_Bonuses_Democracy.sql</File>
+      <File>Core/Gov_Tier5_Bonuses_Revolutionary.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_Boosts">
+      <Properties>
+        <LoadOrder>12013</LoadOrder>
+      </Properties>
+      <File>Core/Gov_Tier5_Boosts.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/UserInterface.artdef</File>
+    <File>Core/Gov_Tier5_Bonuses_Absolutism.sql</File>
+    <File>Core/Gov_Tier5_Bonuses_Commonwealth.sql</File>
+    <File>Core/Gov_Tier5_Bonuses_Democracy.sql</File>
+    <File>Core/Gov_Tier5_Bonuses_Revolutionary.sql</File>
+	<File>Core/Gov_Tier5_Boosts.sql</File>
+    <File>Core/Gov_Tier5_Governments.sql</File>
+    <File>Core/Gov_Tier5_Policies.sql</File>
+    <File>Core/Gov_Tier5_Slots.sql</File>
+    <File>Core/Gov_Tier5_UnlockItems.sql</File>
+    <File>Core/Gov_Tier5_Icons.sql</File>
+    <File>Core/Gov_Tier5_Text.sql</File>
+    <File>6T_Gov_Tier5.dep</File>
+    <File>Platforms/MacOS/BLPs/UI/UI_Government.blp</File>
+    <File>Platforms/Windows/BLPs/UI/UI_Government.blp</File>
+  </Files>
+</Mod>

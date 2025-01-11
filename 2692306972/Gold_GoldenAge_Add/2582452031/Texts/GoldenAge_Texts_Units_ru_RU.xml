@@ -1,0 +1,16 @@
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_SETTLER_DESCRIPTION" Language="ru_RU">
+			<Text>Может основывать новые города. Начальное население и клетки нового города будут расти с развитием игровой эпохи.[NEWLINE]Уменьшает население [ICON_Citizen] города на 1 после создания.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_THRUST_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Movement] к перемещению. +1 к дальности обзора.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_OBSERVATION_BALLOON_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит поддержки, имеющий широкий обзор (6 клеток) вне зависимости от рельефа местности. Может обнаруживать невидимые юниты в поле своего зрения.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DRONE_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит поддержки, имеющий широкий обзор (8 клеток) вне зависимости от рельефа местности. Может обнаруживать невидимые юниты в поле своего зрения.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

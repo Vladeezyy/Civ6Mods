@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="Landmark"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="IMP_KaedweniCamp"/>
+			<m_ObjectName text="IMP_KaedweniCamp"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_KaedweniCamp_Banner"/>
+			<m_ObjectName text="IMP_KaedweniCamp_Banner"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_KaedweniCamp_Shed_Flag"/>
+			<m_ObjectName text="IMP_KaedweniCamp_Shed_Flag"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_KaedweniCamp_Standard"/>
+			<m_ObjectName text="IMP_KaedweniCamp_Standard"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_KaedweniCamp_Tent"/>
+			<m_ObjectName text="IMP_KaedweniCamp_Tent"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_KaedweniCamp_Tower"/>
+			<m_ObjectName text="IMP_KaedweniCamp_Tower"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_KaedweniCamp_Wall"/>
+			<m_ObjectName text="IMP_KaedweniCamp_Wall"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_KaedweniCamp_Wall_End"/>
+			<m_ObjectName text="IMP_KaedweniCamp_Wall_End"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

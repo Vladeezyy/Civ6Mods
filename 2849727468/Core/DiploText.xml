@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DiploText -->
+<!-- Author: Richard -->
+<!-- DateCreated: 12/3/2017 6:10:28 PM -->
+<GameData>
+	<LocalizedText>
+	<!--Pedia-->
+		<Row Tag="LOC_CIVINFO_MER_KIEVAN_RUS_LOCATION" Language="ru_RU">
+			<Text>Киевская Русь</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_KIEVAN_RUS_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Киевская Русь была рыхлой федерацией восточнославянских племен в Европе с конца IX до середины XIII века при династии Рюриковичей. Современные народы Беларуси, России и Украины заявляют, что Киевская Русь является своими культурными предками, а Беларусь и Россия получили свои названия от этого. В наибольшей степени в середине XI века он простирался от Балтийского моря на севере до Черного моря на юге и от истоков Вислы на западе до Таманского полуострова на востоке, объединяя большую часть Востока. Славянские племена.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_KIEVAN_RUS_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>После столетий последовательного заселения кельтами, римлянами, германцами, западными славянами и аварами основание Киевской Руси было заложено в конце 9 века венгерским великим князем Арпадом при завоевании Карпатского бассейна. Его правнук Стефан I взошел на престол в 1000 году, превратив страну в христианское королевство. К 12 веку Киевская РУСЬ стала средней державой в западном мире, достигнув золотого века к 15 веку. После битвы при Мохаче в 1526 году и около 150 лет частичной османской оккупации (1541-1699) Киевская РУСЬ перешла под власть Габсбургов, а затем вместе с Австрией образовала великую державу Австро–Венгерскую империю.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_KIEVAN_RUS_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>Согласно российской историографии, первым правителем, который начал объединять восточнославянские земли в то, что стало известно как Киевская Русь, был князь Олег (882-912). Он расширил свой контроль от Новгорода на юг вдоль долины реки Днепр, чтобы защитить торговлю от хазарских вторжений с востока, и перенес свою столицу в более стратегически важный Киев. Святослав I (умер в 972 году) добился первого крупного расширения территориального контроля Киевской Руси, ведя завоевательную войну против хазар. Владимир Великий (980-1015) ввел христианство своим собственным крещением и своим указом распространил его на всех жителей Киева и за его пределами. Киевская Русь достигла наибольшего расцвета при Ярославе Мудром (1019-1054); вскоре после его смерти его сыновья собрали и издали свой первый письменный правовой кодекс "Правосудие Руси".</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_KIEVAN_RUS_CHAPTER_HISTORY_PARA_4" Language="ru_RU">
+			<Text>Государство пришло в упадок, начиная с конца 11 века и в течение 12 века, распавшись на различные соперничающие региональные державы. Он был еще более ослаблен экономическими факторами, такими как распад торговых связей Руси с Византией из-за упадка Константинополя и сопутствующего сокращения торговых путей через его территорию. Государство окончательно пало во время монгольского нашествия в 1240-х годах.</Text>
+		</Row>
+	<!--DOM-->
+	<Row Tag="LOC_LOADING_INFO_LEADER_MER_YAROSLAV" Language="ru_RU">
+		<Text>Воистину ты Мудр, великий князь Ярослав. Вы возглавляли Гонки через великие победы, заключали союзы с великими королевствами и строили прочные памятники. Ваше время снова пришло, так как ваш народ снова нуждается в лидере, который приведет его в грядущее будущее. Храбрые солдаты и мудрый совет готовы служить вам.</Text>
+	</Row>
+	<!--Agenda-->
+	<Row Tag="LOC_AGENDA_MER_THE_WISE_NAME" Language="ru_RU">
+		<Text>Мудрый правитель</Text>
+	</Row>
+	<Row Tag="LOC_AGENDA_MER_THE_WISE_DESCRIPTION" Language="ru_RU">
+		<Text>Любит цивилизации, которые заключают союзы и имеют высокий доход. Не любит тех, кто не создает альянсы и имеет низкий доход.</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_KUDOS_LEADER_MER_YAROSLAV_REASON_ALLIANCES" Language="ru_RU">
+		<Text>(Вы находитесь в союзе)</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_MODIFIER_MER_YAROSLAV_THE_WISE_ALLIANCES" Language="ru_RU">
+		<Text>Ярослав впечатлен вашим союзом.</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_WARNING_LEADER_MER_YAROSLAV_REASON_NO_ALLIANCES" Language="ru_RU">
+		<Text>(Вы не состоите в союзе)</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_MODIFIER_MER_YAROSLAV_THE_WISE_NO_ALLIANCES" Language="ru_RU">
+		<Text>Ярослав считает, что вам нужно больше союзников.</Text>
+	</Row>
+		<Row Tag="LOC_DIPLO_KUDOS_LEADER_MER_YAROSLAV_HIGH_INCOME" Language="ru_RU">
+			<Text>(У вас высокий доход)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_MER_YAROSLAV_THE_WISE_HIGH_INCOME" Language="ru_RU">
+			<Text>Ярослав впечатлен вашим доходом.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_MER_YAROSLAV_REASON_LOW_INCOME" Language="ru_RU">
+			<Text>(У вас низкий доход)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_MER_YAROSLAV_THE_WISE_LOW_INCOME" Language="ru_RU">
+			<Text>Ярослава не впечатлил ваш доход.</Text>
+		</Row>
+	<!--Civilopedia-->
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_YAROSLAV_TITLE" Language="ru_RU">
+		<Text>Ярослав Мудрый</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_YAROSLAV_SUBTITLE" Language="ru_RU">
+		<Text>Великий князь Киевский и Новгородский</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_YAROSLAV_QUOTE" Language="ru_RU">
+		<Text></Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_YAROSLAV_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Text>Ярослав Мудрый был трижды великим князем Великого Новгорода и Киева, объединив на время два княжества под своей властью. Сын Владимира Великого, первого христианского князя Новгорода, Ярослав был вице-регентом Новгорода во время смерти своего отца в 1015 году. Впоследствии его старший оставшийся в живых брат, Святополк I Киевский, убил трех других своих братьев и захватил власть в Киеве. Ярослав при активной поддержке новгородцев и помощи варяжских наемников победил Святополка и стал великим князем Киевским в 1019 году. При Ярославе была начата кодификация правовых обычаев и княжеских постановлений, и эта работа послужила основой для свода законов, получившего название "Русская правда". Во время его длительного правления Киевская Русь достигла зенита своего культурного расцвета и военной мощи.</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_YAROSLAV_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Text>В юности Ярослав был послан отцом править северными землями вокруг Ростова, но в 1010 году, как и подобает старшему наследнику престола, был переведен в Великий Новгород. Живя там, он основал город Ярославль (буквально "Ярославов") на реке Волге. Его отношения с отцом, по-видимому, были напряженными и только ухудшились после известия о том, что Владимир завещал киевский престол своему младшему сыну Борису. В 1014 году Ярослав отказался платить дань Киеву, и только смерть Владимира в июле 1015 года предотвратила войну. Оставляя в стороне законность притязаний Ярослава на киевский престол и его предполагаемую вину в убийстве своих братьев, Нестор Летописец и более поздние русские историки часто представляли его образцом добродетели, называя его "Мудрым". Менее привлекательная сторона его личности проявляется в том, что он пожизненно заключил в тюрьму своего младшего брата Судислава. Еще один брат, Мстислав Черниговский, чьи далекие владения граничили с Северным Кавказом и Черным морем, поспешил в Киев и, несмотря на подкрепление во главе с шурином Ярослава, шведским королем Анундом Якобом, нанес Ярославу тяжелое поражение в 1024 году. Затем Ярослав и Мстислав разделили Киевскую Русь между собой: территория, простиравшаяся слева от Днепра, со столицей в Чернигове, была передана Мстиславу до его смерти в 1036 году.</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_YAROSLAV_CHAPTER_CAPSULE_BODY" Language="ru_RU">
+		<Text>В своей внешней политике Ярослав опирался на скандинавский союз и пытался ослабить византийское влияние на Киев. В 1030 году он отвоевал Красную Русь у поляков и заключил союз с королем Казимиром I Восстановителем, скрепленный браком последнего с сестрой Ярослава Марией. В ходе другого успешного военного рейда в том же году он захватил Тарту, Эстония, и переименовал его в Юрьев (названный в честь Юрия, покровителя Ярослава) и заставил окружающий округ Уганди платить ежегодную дань. В 1043 году Ярослав совершил морской набег на Константинополь во главе со своим сыном Владимиром Новгородским и полководцем Вышатой. Хотя его флот потерпел поражение в русско–византийской войне (1043), Ярославу удалось завершить войну выгодным договором и престижной женитьбой своего сына Всеволода I Киевского на дочери императора. Было высказано предположение, что мир был настолько выгоден, потому что киевлянам удалось захватить ключевое византийское владение в Крыму, Херсонес.</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_YAROSLAV_CHAPTER_DETAILED_BODY" Language="ru_RU">
+		<Text>Ярослав полагается на союзы и торговлю для укрепления Киевской Руси.</Text>
+	</Row>
+	<!--Diplomacy-->
+	<!--FIRST MEET-->
+	<!--First AI line-->
+	<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Привет, мой друг! Я и народ Киевской Руси шлем вам свои самые сердечные приветствия. Я с нетерпением жду возможности познакомиться с вами поближе!</Text>
+	</Row>
+	<!--AI invitation to visit nearby City-->
+	<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Приезжайте, посетите мой соседний город! Я уверен, что вы останетесь довольны этим опытом, и мы будем рады видеть вас у себя!</Text>
+	</Row>
+	<!--AI accepts Human invitation-->
+	<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Да, да, мой друг! Я бы с удовольствием.</Text>
+	</Row>
+	<!--AI invitation to exchange Capital Information-->
+	<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Я уверен, что в вашей столице много таких людей, как я. Было бы здорово познакомиться с ними! Конечно, где находится ваша столица? Не могли бы вы поделиться этим со мной?</Text>
+	</Row>
+	<!--GREETINGS-->
+	<Row Tag="LOC_DIPLO_GREETING_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Да? Что я могу для вас сделать?</Text>
+	</Row>
+	<!--DELEGATION-->
+	<!--AI Accepts-->
+	<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Да, мой друг! Я с нетерпением жду встречи с ними и принятия их подарков!</Text>
+	</Row>
+	<!--AI Rejects-->
+	<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Мне очень жаль, но я не могу... Может быть, в другой раз?</Text>
+	</Row>
+	<!--AI Requests-->
+	<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Мой друг, делегация находится на пути в вашу столицу. Я думаю, вам понравится с ними познакомиться!</Text>
+	</Row>
+	<!--OPEN BORDERS-->
+	<!--AI accepts from human-->
+	<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Да, конечно!</Text>
+	</Row>
+	<!--AI rejects from human-->
+	<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Я бы с удовольствием принял это предложение, но не могу... Я искренне сожалею, правда.</Text>
+	</Row>
+	<!--AI requests from human-->
+	<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Ваши границы сейчас закрыты. Были бы вы готовы открыть их? Ха, ха, ха - ты видишь, что я там сделал? Нет? </Text>
+	</Row>
+	<!--DECLARE FRIENDSHIP-->
+	<!--AI accepts from human-->
+	<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Да, определенно! Теперь я могу называть тебя другом, и это тоже законно! Я рад больше, чем вы могли бы себе представить, поверьте мне.</Text>
+	</Row>
+	<!--AI Rejects from human-->
+	<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Извините, но иногда лучше просто быть друзьями в жизни, а не формально. Это делает вещи свободными, понимаешь? Еще раз, мне очень жаль, что я не смогла согласиться.</Text>
+	</Row>
+	<!--AI Requests friendship from human-->
+	<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Ты был мне большим другом. Может быть, мы могли бы сделать нашу дружбу официальной и формальной?</Text>
+	</Row>
+	<!--Human accepts AI requests, AI responds-->
+	<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Да, спасибо! Именно этого я и ожидал. Я бы протянул руку и пожал вам руку, но я немного простужен и не хочу, чтобы вы заболели - даже если я в перчатках. В любом случае, большое спасибо!</Text>
+	</Row>
+	<!--Human rejects AI requests, AI responds-->
+	<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Ну, это не очень любезно, не так ли?</Text>
+	</Row>
+	<!--ALLIANCE-->
+	<!--AI Requests an alliance from human-->
+	<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Мой друг, ты можешь себе представить, насколько замечательным был бы союз? Мир позавидовал бы величию и процветанию наших королевств. Мы могли бы защищать друг друга, но также и нападать на любого, кто встанет у нас на пути. И как я мог забыть - мы бы чуть не утонули в монетах! О, это радует! Будешь ли ты моим союзником, моим другом?</Text>
+	</Row>
+	<!--KUDOS & WARNINGS-->
+	<!--AI Kudos-->
+	<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Мой друг, ты великий человек и великий торговец. Хорошая работа!</Text>
+	</Row>
+	<!--AI Warnings-->
+	<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Я не хочу создавать никаких проблем, но вы не являетесь хорошим союзником и не используете свои деньги с умом. Это так разочаровывает.</Text>
+	</Row>
+	<!--AI warns player for border troops-->
+	<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Знаешь, ты заставляешь меня очень нервничать.</Text>
+	</Row>
+	<!--TRADE-->
+	<!--AI Accepts Deal-->
+	<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Да, да, конечно, мой друг!</Text>
+	</Row>
+	<!-- AI Rejects Deal -->
+	<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Ну, это не очень любезно, не так ли?</Text>
+	</Row>
+	<!--DENOUNCE-->
+	<!--From Human-->
+	<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Я не обязан терпеть такое оскорбление.</Text>
+	</Row>
+	<!--From AI-->
+	<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Мне неприятно так поступать с тобой, но... ты слишком много раз предавал моё доверие. У меня есть свои пределы. Настоящим вы осуждены. (Осуждает Вас).</Text>
+	</Row>
+	<!--Rationale-->
+	<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_MER_YAROSLAV_THE_WISE_NO_ALLIANCES" Language="ru_RU">
+		<Text>(У вас практически нет союзников)</Text>
+	</Row>
+	<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_MER_YAROSLAV_THE_WISE_LOW_INCOME" Language="ru_RU">
+		<Text>(У вас низкий доход)</Text>
+	</Row>
+	<!--DECLARE WAR-->
+	<!--Human Declares War-->
+	<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Это не очень любезно с вашей стороны. Я дам вам это знать - когда вы будете раздавлены, я буду хорошо относиться к вашим людям. </Text>
+	</Row>
+	<!--AI Declares War-->
+	<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Я ненавижу наживать врагов или делать что-то подобное, но ты как надоедливая пчела, которая пытается ужалить меня. Ты злишь и раздражаешь меня, а иногда причиняешь мне вред. Единственный способ избавиться от пчелы - это убить ее, поэтому настоящим я объявляю вам войну.</Text>
+	</Row>
+	<!--MAKE PEACE-->
+	<!--AI accepts from human-->
+	<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Да, мой друг! Я рад принять это.</Text>
+	</Row>
+	<!--AI refuses human-->
+	<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Нет, извините. Я не могу...</Text>
+	</Row>
+	<!--AI requests from human-->
+	<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Мой друг, давайте сложим оружие и возьмёмся за наши плуги и перья. Пришло время снова жить нормально.</Text>
+	</Row>
+	<!--DEFEAT-->
+	<!--AI is Defeated-->
+	<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Киев был в лучших руках при моём правлении, чем когда-либо будет в ваших.</Text>
+	</Row>
+	<!--Human is Defeated (will see this in hotseat)-->
+	<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_MER_YAROSLAV_ANY" Language="ru_RU">
+		<Text>Это действительно позор.</Text>
+	</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="cac375a0-c465-4ccf-9d8c-735c3c968560" version="1">
+  <Properties>
+    <Name>Sukritact's Great Blue Hole</Name>
+    <Description>Adds the Great Blue Hole as a Natural Wonder</Description>
+    <Created>1657450853</Created>
+    <Teaser>Adds the Great Blue Hole as a Natural Wonder</Teaser>
+    <Authors>Sukritact</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="ExpansionEnabled">
+      <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Core/Suk_GreatBlueHole_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="UpdateArt">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Sukritact's Great Blue Hole.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="UpdateIcons">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Core/Suk_GreatBlueHole_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Core/Suk_GreatBlueHole_Localisation.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Core/Suk_GreatBlueHole_Features.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="UpdateArt">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Sukritact's Great Blue Hole.dep</File>
+    </UpdateArt>
+    <UpdateText id="UpdateText">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Core/Suk_GreatBlueHole_Localisation.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="UpdateDatabase_XP1">
+      <Properties>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <Criteria>ExpansionEnabled</Criteria>
+      <File>Core/Suk_GreatBlueHole_Expansions.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="UpdateIcons">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Core/Suk_GreatBlueHole_Icons.sql</File>
+    </UpdateIcons>
+    <ImportFiles id="ImportFiles_AdjacencySupport">
+      <File>Lua/Suk_AdjacencyHandlerItem_GreatBlueHole.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Features.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/TerrainStyle.artdef</File>
+    <File>Core/Suk_GreatBlueHole_Config.sql</File>
+    <File>Core/Suk_GreatBlueHole_Expansions.sql</File>
+    <File>Core/Suk_GreatBlueHole_Features.sql</File>
+    <File>Core/Suk_GreatBlueHole_Icons.sql</File>
+    <File>Core/Suk_GreatBlueHole_Localisation.sql</File>
+    <File>Lua/Suk_AdjacencyHandlerItem_GreatBlueHole.lua</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases_Shared.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/BLOB_NWON_Suk_GreatBlueHole_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_FEATURE_Reef_Coral_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Suk_GreatBlueHole_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Reef_Fish_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Reef_Fish_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Reef_Fish_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_GreatBlueHole_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_GreatBlueHole_Decal_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/strategicview/strategicview_features.blp</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainAssetSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases_Shared.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/BLOB_NWON_Suk_GreatBlueHole_Decal_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_FEATURE_Reef_Coral_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Suk_GreatBlueHole_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Reef_Fish_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Reef_Fish_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Reef_Fish_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_GreatBlueHole_Decal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_GreatBlueHole_Decal_Decal_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_features.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainAssetSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Sukritact's Great Blue Hole.dep</File>
+  </Files>
+</Mod>

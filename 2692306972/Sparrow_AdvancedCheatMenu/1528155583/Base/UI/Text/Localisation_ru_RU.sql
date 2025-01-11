@@ -1,0 +1,48 @@
+--------------------------------------------------------------------------------------------------------------------------
+-- LocalisedText
+--------------------------------------------------------------------------------------------------------------------------
+INSERT OR REPLACE INTO LocalizedText
+		(Tag, 								Language,	Text)
+VALUES
+-- English US ------------------------------------------------------------------------------------------------------------
+		("LOC_CHEAT_MENU_ABOUT",  					"ru_RU",		"Чит-панель от [Sparrow]"),
+		("LOC_CHEAT_MENU_FREECITY",  				"ru_RU",		"Сделать вольным выбранный город"),
+		("LOC_CHEAT_EXPAND_MAX",  					"ru_RU",		"Скрыть Чит-панель"),
+		("LOC_CHEAT_COLLAPSE_MAX",  				"ru_RU",		"Раскрыть Чит-панель"),
+		("LOC_FORM_ARMY",  							"ru_RU",		"Сформировать армию/армаду из выбранного юнита"),
+		("LOC_FORM_CORPS",  						"ru_RU",		"Сформировать корпус/флот из выбранного юнита"),
+		("LOC_CHEAT_MENU_DIPLOMATIC_FAVOR", 		"ru_RU",		"Получить +100  очков мирового влияния"),
+		("LOC_CHEAT_MENU_HEADER",  					"ru_RU",		"ЧИТ-ПАНЕЛЬ"),
+		("LOC_CHEAT_TOGGLE_MENU",  					"ru_RU",		"Переключить Чит-панель"),
+		("LOC_CHEAT_ICON",  						"ru_RU",		"Чит-панель от Sparrow"),
+		("LOC_CHEAT_MENU_GOVPOINTS",  				"ru_RU",		"Получить +1 губернаторский титул"),
+		("LOC_CHEAT_MENU_CheatResourcesLux",  		"ru_RU",		"Получить от 1 до 3 единиц КАЖДОГО РЕДКОГО ресурса"),
+		("LOC_CHEAT_MENU_CheatResourcesStr",  		"ru_RU",		"Получить от 1 до 3 единиц КАЖДОГО СТРАТЕГИЧЕСКОГО ресурса"),
+		("LOC_CHEAT_MENU_CheatResourcesBonus",  	"ru_RU",		"Получить от 1 до 3 единиц КАЖДОГО БОНУСНОГО ресурса"),
+		("LOC_CHEAT_MENU_GOLD",  					"ru_RU",		"Получить +1000 [ICON_Gold]"),
+		("LOC_CHEAT_MENU_PRODUCTION",  				"ru_RU",		"Завершить текущее [ICON_Production] производство в выбранном городе"),
+		("LOC_CHEAT_MENU_SCIENCE",  				"ru_RU",		"Завершить текущее [ICON_Science] исследование технологии"),
+		("LOC_CHEAT_MENU_CULTURE",  				"ru_RU",		"Завершить текущее [ICON_Culture] исследование социального института"),
+		("LOC_CHEAT_MENU_FAITH",  					"ru_RU",		"Получить +1000 [ICON_Faith]"),
+		("LOC_CHEAT_MENU_ENVOY",  					"ru_RU",		"Получить +5 [ICON_Envoy] послов"),
+		("LOC_CHEAT_MENU_ERA",  					"ru_RU",		"Увеличить очки эпохи на +10"),
+		("LOC_CHEAT_MENU_ERAMINUS",  				"ru_RU",		"Уменьшить очки эпохи на -10"),
+		("LOC_CHEAT_MENU_MOVE",  					"ru_RU",		"Дать +5 к перемещению выбранному юниту"),
+		("LOC_CHEAT_MENU_XP",  						"ru_RU",		"Дать повышение выбранному юниту"),
+		("LOC_CHEAT_MENU_HEAL",  					"ru_RU",		"Вылечить выбранный юнит"),
+		("LOC_CHEAT_MENU_MOVES",  					"ru_RU",		"Восстановить очки перемещения юнита [ICON_Movement]"),
+		("LOC_CHEAT_MENU_DUPLICATE",  				"ru_RU",		"Удвоить выбранный юнит"),
+		("LOC_CHEAT_MENU_POP",  					"ru_RU",		"Получить +1 [ICON_Citizen] жителя в выбранном городе"),
+		("LOC_CHEAT_MENU_LOYALTY",  				"ru_RU",		"Получить +100 ед. лояльности в выбранном городе"),
+		("LOC_CHEAT_MENU_DESTROY",  				"ru_RU",		"Разрушить город"),
+		("LOC_CHEAT_MENU_CITYHEAL",  				"ru_RU",		"Починить городской центр и стены"),
+		("LOC_CHEAT_MENU_AllTECH",  				"ru_RU",		"Всё[ICON_Science]"),
+		("LOC_CHEAT_MENU_AllCIVIC",  				"ru_RU",		"Всё[ICON_Culture]"),
+		("LOC_CHEAT_MENU_AllTECH_TOOLTIP",  		"ru_RU",		"Завершить всё [ICON_Science]"),
+		("LOC_CHEAT_MENU_AllCIVIC_TOOLTIP",  		"ru_RU",		"Завершить всё [ICON_Culture]"),
+		("LOC_CHEAT_MENU_OBVS",  					"ru_RU",		"Открыть всю карту"),
+		("LOC_DESTROY_CITY_HEADER",  				"ru_RU",		"Снести выбранный город"),
+		("LOC_DESTROY_CITY_DISTRICTS_LABEL",  		"ru_RU",		"Метки:"),
+		("LOC_RAZE_CITY_EXPLANATION",				"ru_RU",		"Снесите город, очистив его, все районы и здания с карты."),
+		("LOC_KEEP_CITY_EXPLANATION",				"ru_RU",		"Держите этот город в своей империи."),
+		("LOC_DESTROY_CITY_LIBERATE_EXPLANATION",	"ru_RU",		"Освобождение города вернет его одному из предыдущих владельцев, возможно, вернув эту цивилизацию в игру.");

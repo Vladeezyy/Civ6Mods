@@ -1,0 +1,100 @@
+<GameData>
+    <LocalizedText>	
+	
+	<Replace Tag="LOC_POP_TEXT" Language="ru_RU">
+      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]в том числе {1_Num} от штрафа за номер города[ENDCOLOR]</Text>
+    </Replace>	
+	<!-- 城市扩建系统 -->
+	
+	<Replace Tag="LOC_BUILDING_CITYHALL_VILLAGE_NAME" Language="ru_RU">
+      <Text>Ратуша (Деревня)|ратуши (деревни)|ратуше (деревне)|ратушу (деревню)|ратушей (деревней)|ратуше (деревне)</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITYHALL_VILLAGE_DESCRIPTION" Language="ru_RU">
+      <Text>Это самый низкий уровень ратуши, который находится в обыкновенной деревне.[NEWLINE]Этот город получит самое суровое штраф за безумное расширение: [COLOR_RED]-4%* (общее количество городов в вашей цивилизации)[ENDCOLOR] к [ICON_Science] науке, [ICON_Culture] культуре, [ICON_Gold] золоту и [ICON_Faith] вере.[NEWLINE]Каждый [ICON_CITIZEN] горожанин дает +0,4 [ICON_Science] науки, [ICON_Culture] культуры и [ICON_Production] производства.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITYHALL_TOWN_NAME" Language="ru_RU">
+      <Text>Ратуша (Село)|ратуши (села)|ратуше (селе)|ратушу (село)|ратушей (селом)|ратуше (селе)</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITYHALL_TOWN_DESCRIPTION" Language="ru_RU">
+      <Text>Рост населения способствовал развитию деревни, формируются рынки и целое село. Благодаря этому ратуша может быть расширена.[NEWLINE]После улучшения до ратуши (села) этот город получит следующие эффекты:[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] меньше 10, он все равно получит самый серьезный штраф за безумное расширение: [COLOR_RED]-4%* (общее количество городов в вашей цивилизации)[ENDCOLOR] к [ICON_Science] науке, [ICON_Culture] культуре, [ICON_Gold] золоту и [ICON_Faith] вере.[NEWLINE] [ICON_Bullet]Если население [ICON_Citizen] НЕ меньше 10 жителей, штраф за безумное расширение в этом городе будет уменьшен до "[COLOR_RED]-3%[ENDCOLOR]".[NEWLINE][ICON_Bullet]Каждый [ICON_CITIZEN] горожанин дает +0,6 [ICON_Science] науки, [ICON_Culture] культуры и [ICON_Production] производства.[NEWLINE][ICON_Bullet]Производит небольшое [ICON_PressureUp] давление лояльности в близлежащие города, а также [ICON_PressureDown] лояльность в города других цивилизаций поблизости.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITYHALL_COUNTY_NAME" Language="ru_RU">
+      <Text>Ратуша (Уезд)|ратуши (уезда)|ратуше (уезду)|ратушу (уезд)|ратушей (уездом)|ратуше (уезде)</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITYHALL_COUNTY_DESCRIPTION" Language="ru_RU">
+      <Text>Процветание села привело к тому, что торговцы стали прибывать толпами и это привело к возникновению уезда.[NEWLINE]После улучшения до ратуши (уезда) этот город получитт следующие эффекты:[NEWLINE] [ICON_Bullet]Если население [ICON_Citizen] меньше 10 жителей, он все равно получит самый суровый штраф за безумное расширение: [COLOR_RED]-4%* (общее количество городов в вашей цивилизации)[ENDCOLOR] к [ICON_Science] науке, [ICON_Culture] культуре, [ICON_Gold] золоту и [ICON_Faith] вере.[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] НЕ меньше 10 жителей, штраф за безумное расширение в этом городе будет уменьшен до "[COLOR_RED]-3%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] НЕ меньше 20 жителей, штраф за безумное расширение в этом городе будет уменьшен до "[COLOR_RED]-2%*[ENDCOLOR]" .[NEWLINE][ICON_Bullet]Каждый горожанин [ICON_CITIZEN] дает +0,8 [ICON_Science] науки, [ICON_Culture] культуры и [ICON_Production] производства [NEWLINE][ICON_Bullet]Производит небольшое [ICON_PressureUp] давление лояльности в близлежащие города, а также [ICON_PressureDown] давление лояльности в города других цивилизаций поблизости.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITYHALL_CITY_NAME" Language="ru_RU">
+      <Text>Ратуша (Город)|ратуши (города)|ратуше (городу)|ратушу (горд)|ратушей (городом)|ратуше (городе)</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITYHALL_CITY_DESCRIPTION" Language="ru_RU">
+      <Text>Уезд продолжал неуклонно расширяться, а искры технологий вспыхивали и от столкновения многочисленных мыслей, ускорялось формирование ратуши более высокого уровня.[NEWLINE]После улучшения до ратуши (города) этот город получит следующее эффекты:[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] меньше 10, он все равно получит самый суровый штраф за безумное расширение: [COLOR_RED]-4%* (общее количество городов в вашей цивилизации)[ENDCOLOR] к [ICON_Science] науке, [ICON_Culture] культуре, [ICON_Gold] золоту и [ICON_Faith] вере.[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] НЕ меньше 10 жителей, штраф за безумное расширение в этом городе будет снижен до "[COLOR_RED]-3%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] НЕ меньше 20 жителей, штраф за безумное расширение в этом городе будет уменьшен до "[COLOR_RED]-2% *[ENDCOLOR]".[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] НЕ меньше 30 жителей, штрф за безумное расширение труд в этом городе будет уменьшен до "[COLOR_RED]-1%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]Каждый горожанин [ICON_CITIZEN] дает +1 [ICON_Science] науки, [ICON_Culture] культуры и [ICON_Production] производства.[NEWLINE][ICON_Bullet]Производит умеренное [ICON_PressureUp] давление лояльности в города поблизости, а также [ICON_PressureDown] давление лояльности в города других цивилизаций поблизости.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITYHALL_METROPOLIS_NAME" Language="ru_RU">
+      <Text>Ратуша (Мегаполис)|ратуши (мегаполиса)|ратуше (мегаполису)|ратушу (мегаполис)|ратушей (мегаполисом)|ратуше (мегаполисе)</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITYHALL_METROPOLIS_DESCRIPTION" Language="ru_RU">
+      <Text>Растущий город, несомненно, может создавать различные возможности, привлекая больше молодых людей к осуществлению мечты и реализации ценностей.[NEWLINE]После улучшения до ратуши (магаполиса) этот город получит следующие эффекты:[NEWLINE][ICON_Bullet]Если [ICON_Citizen] население меньше 10, он все равно получит самый суровый штраф за безумное расширение: [COLOR_RED]-4%* (общее количество городов в вашей цивилизации)[ENDCOLOR] к [ICON_Science] науке, [ICON_Culture] культуре, [ICON_Gold] золоту и [ICON_Faith] вере.[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] НЕ меньше 10 жителей, штраф за безумное расширение в этом городе будет уменьшен до "[COLOR_RED]-3%*[ENDCOLOR] ".[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] НЕ меньше 20 жителей, штраф за безумное расширение в этом городе будет уменьшен до "[COLOR_RED]-2%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]Если [ICON_Citizen] Население НЕ меньше 30, штраф за безумное расширение в этом городе будет уменьшен до "[COLOR_RED]-1%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] НЕ меньше 40 жителей, штраф за безумное расширение в этом городе будет снят![NEWLINE][ICON_Bullet]Каждый горожанин [ICON_CITIZEN] дает +1,2 [ICON_Science] науки, [ICON_Culture] культуры и [ICON_Production] производства.[NEWLINE][ICON_Bullet]Производит большое [ICON_PressureUp] давление лояльности на близлежащие города, а также [ICON_PressureDown] давление лояльности в города других цивилизаций поблизости.</Text>
+    </Replace>
+	
+		
+		<Replace Tag="LOC_PROJECT_VILLAGE_TOWN_NAME" Language="ru_RU">
+			<Text>Городское расширение (до села)</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_VILLAGE_TOWN_DESCRIPTION" Language="ru_RU">
+			<Text>Когда проект будет завершен, ратуша (деревня) этого города будет повышена до ратуши (села). +1 [ICON_HOUSING] жилье (от зданий) в этом городе.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_TOWN_COUNTY_NAME" Language="ru_RU">
+			<Text>Городское расширение (до уезда)</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_TOWN_COUNTY_DESCRIPTION" Language="ru_RU">
+			<Text>Когда проект будет завершен, ратуша (село) этого города будет повышена до ратуши (уезда). +2 [ICON_HOUSING] жилья (от зданий) в этом городе.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_COUNTY_CITY_NAME" Language="ru_RU">
+			<Text>Городское расширение (до города)</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_COUNTY_CITY_DESCRIPTION" Language="ru_RU">
+			<Text>Когда проект будет завершен, ратуша (уезд) этого города будет повышена до ратуши (города). +3 [ICON_HOUSING] жилья (от зданий) в этом городе.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_CITY_METROPOLIS_NAME" Language="ru_RU">
+			<Text>Городское расширение (до мегаполиса)</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_CITY_METROPOLIS_DESCRIPTION" Language="ru_RU">
+			<Text>Когда проект будет завершен, ратуша (город) этого города будет повышена до ратуши (мегаполиса). +4 [ICON_HOUSING] жилья (от зданий) в этом городе.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>	

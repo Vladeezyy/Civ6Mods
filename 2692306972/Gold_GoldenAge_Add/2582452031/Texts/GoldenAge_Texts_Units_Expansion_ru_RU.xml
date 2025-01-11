@@ -1,0 +1,217 @@
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_1_NAME" Language="ru_RU">
+			<Text>Чародейка|чародейки|чародейке|чародейку|чародейкой|чародейке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_2_NAME" Language="ru_RU">
+			<Text>Глушители радаров|глушителей радаров|глушителям радаров|глушителей радаров|глушителями радаров|глушителях радаров</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_1_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит поддержки. Дает невидимость всем вашим юнитам в пределах 1 клетки.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_2_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит поддержки. Дает невидимость всем вашим юнитам в пределах 2 клеток.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_1_NAME" Language="ru_RU">
+			<Text>Зелье невидимости</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_2_NAME" Language="ru_RU">
+			<Text>Экранирование сигнала</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTHED_NAME" Language="ru_RU">
+			<Text>Получить невидимость.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_1_DESCRIPTION" Language="ru_RU">
+			<Text>Дает невидимость всем вашим юнитам в пределах 1 клетки.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_2_DESCRIPTION" Language="ru_RU">
+			<Text>Дает невидимость всем вашим юнитам в пределах 2 клеток.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTHED_DESCRIPTION" Language="ru_RU">
+			<Text>Дает невидимость от юнита поддержки.(Чародейка или Глушители радаров)</Text>
+		</Replace>
+		<!--Firesupport units-->
+		<Replace Tag="LOC_PROMOTION_CLASS_FIRESUPPORT_NAME" Language="ru_RU">
+			<Text>Огневая поддержка|огневой поддержки|огневой поддержке|огневую поддержку|огневой поддержкой|огневой поддержке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT2_NAME" Language="ru_RU">
+			<Text>Конный лучник|конного лучника|конному лучнику|конного лучника|конным лучником|конном лучнике</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT3_NAME" Language="ru_RU">
+			<Text>Конный стрелок|конного стрелка|конному стрелку|конного стрелка|конным стрелком|конном стрелке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT4_NAME" Language="ru_RU">
+			<Text>Арбалетная кавалерия|арбалетной кавалерии|арбалетной кавалерие|арбалетную кавалерию|арбалетной кавалерией|арбалетной кавалерии</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT5_NAME" Language="ru_RU">
+			<Text>Всадник-аркебузир|всадника-аркебузира|всаднику-аркебузиру|всадника-аркебузира|всадником-аркебузиром|всаднике-аркебузире</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT6_NAME" Language="ru_RU">
+			<Text>Огнестрельная кавалерия|огнестрельной кавалерии|огнестрельной кавалерие|огнестрельную кавалерию|огнестрельной кавалерией|огнестрельной кавалерии</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT7_NAME" Language="ru_RU">
+			<Text>Самоходная гаубица|самоходной гаубицы|самоходной гаубице|самоходную гаубицу|самоходной гаубицей|самоходной гаубице</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT8_NAME" Language="ru_RU">
+			<Text>Самоходная артиллерия|самоходной артиллерии|самоходной артиллерие|самоходную артиллерию|самоходной артиллерией|самоходной артиллерие</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT2_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит ближнего боя эпохи античности, хорошо противостоит антикавалерийским юнитам. Обзор: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT3_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит ближнего боя эпохи средневековья, хорошо противостоит антикавалерийским юнитам. Обзор: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT4_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит ближнего боя эпохи возрождения, хорошо противостоит антикавалерийским юнитам. Обзор: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT5_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит ближнего боя промышленной эры, хорошо противостоит антикавалерийским юнитам. Обзор: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT6_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит ближнего боя эпохи нового времени, хорошо противостоит антикавалерийским юнитам. Обзор: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT7_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит ближнего боя эпохи атома, хорошо противостоит антикавалерийским юнитам. Обзор: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT8_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит ближнего боя информационной эры, хорошо противостоит антикавалерийским юнитам. Обзор: 2</Text>
+		</Replace>
+		<!--Firesupport units promotion-->
+		<Replace Tag="LOC_PROMOTION_FS_1_1_NAME" Language="ru_RU">
+			<Text>Чепрак|чепрака|чепраку|чепрака|чепраком|чепраке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_FS_1_1_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Movement] к перемещению. Игнорирует зону контроля.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_FS_1_3_NAME" Language="ru_RU">
+			<Text>Вторжение|вторжения|вторжению|вторжение|вторжением|вторжении</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_FS_1_3_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Strength] боевой мощи на вражеской территории. </Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_GA_PROMOTION_FS_1_3_TEXT" Language="ru_RU">
+			<Text>+{1_num} {LOC_PROMOTION_FS_1_3_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_FS_2_1_NAME" Language="ru_RU">
+			<Text>Огонь и маневр|огня и маневра|огню и маневру|огонь и маневр|огнем и маневром|огне и маневре</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_FS_2_1_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Movement] к перемещению. Может перемещаться после атаки.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_FS_3_1_NAME" Language="ru_RU">
+			<Text>Зона контроля|зоны контроля|зоне контроля|зону контроля|зоной контроля|зоне контроля</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_FS_3_1_DESCRIPTION" Language="ru_RU">
+			<Text>Расширяет зону контроля. +5 [ICON_Strength] боевой мощи при обороне атак юнитов ближнего боя. </Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_GA_PROMOTION_FS_3_1_TEXT" Language="ru_RU">
+			<Text>+{1_num} {LOC_PROMOTION_FS_3_1_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_FS_2_3_NAME" Language="ru_RU">
+			<Text>Вооруженный|вооруженного|вооруженному|вооруженного|вооруженным|вооруженном</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_FS_2_3_DESCRIPTION" Language="ru_RU">
+			<Text>+7 [ICON_Ranged] силы дальнего боя для соседних юнитов автоматического оружия. </Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_GA_PROMOTION_FS_2_3_TEXT" Language="ru_RU">
+			<Text>+{1_num} {LOC_PROMOTION_FS_2_3_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_FS_3_3_NAME" Language="ru_RU">
+			<Text>Зажигательные патроны|зажигательных патронов|зажигательным патронам|зажигательные патроны|зажигательными патронами|зажигательных патронах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_FS_3_3_DESCRIPTION" Language="ru_RU">
+			<Text>100% эффективности против обороны городов и районов. </Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_FS_4_2_NAME" Language="ru_RU">
+			<Text>Опытный стрелок|опытного стрелка|опытному стрелку|опытного стрелка|опытным стрелком|опытном стрелке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_FS_4_2_DESCRIPTION" Language="ru_RU">
+			<Text>+1 дополнительная атака в ход, если юнит не двигался.</Text>
+		</Replace>
+		<!--Ranged units-->
+		<Replace Tag="LOC_UNIT_SLINGER_DESCRIPTION" Language="ru_RU">
+			<Text>Дальнобойный юнит эпохи древнего мира, хорошо противостоит юнитам огневой поддержки. Обзор: 1</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARCHER_DESCRIPTION" Language="ru_RU">
+			<Text>Дальнобойный юнит эпохи античности, хорошо противостоит юнитам огневой поддержки. Обзор: 1</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CROSSBOWMAN_DESCRIPTION" Language="ru_RU">
+			<Text>Дальнобойный юнит эпохи средневековья, хорошо противостоит юнитам огневой поддержки. Обзор: 1</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CULVERIN_DESCRIPTION" Language="ru_RU">
+			<Text>Дальнобойный юнит эпохи возрождения, хорошо противостоит юнитам огневой поддержки. Обзор: 1</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIELD_CANNON_DESCRIPTION" Language="ru_RU">
+			<Text>Дальнобойный юнит промышленной эры, хорошо противостоит юнитам огневой поддержки. Обзор: 1</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HOWITZER_DESCRIPTION" Language="ru_RU">
+			<Text>Дальнобойный юнит эпохи нового времени, хорошо противостоит юнитам огневой поддержки. Обзор: 1</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION" Language="ru_RU">
+			<Text>Дальнобойный юнит эпохи атома, хорошо противостоит юнитам огневой поддержки. Обзор: 1</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MISSILE_VEHICLE_DESCRIPTION" Language="ru_RU">
+			<Text>Дальнобойный юнит информационной эры, хорошо противостоит юнитам огневой поддержки. Обзор: 1</Text>
+		</Replace>
+		<!--Recon units-->
+		<Replace Tag="LOC_UNIT_SCOUT_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит разведки эпохи древнего мира. Обзор: 3</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SKIRMISHER_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит разведки эпохи средневековья. Обзор: 4</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGER_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит разведки промышленной эры. Обзор: 5</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPEC_OPS_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит разведки эпохи атома. Обзор: 6 [NEWLINE][NEWLINE]Способность «десант» позволяет перемещаться с дружественной клетки на на территорию в пределах 7 клеток (12, если стартует с аэродрома или взлетно-посадочной полосы). Может атаковать юниты поддержки напрямую, без необходимости сначала уничтожать боевой юнит.</Text>
+		</Replace>
+		<!--克制-->
+		<Replace Tag="LOC_ABILITY_RANGE_MELEE_DESCRIPTION" Language="ru_RU">
+			<Text>+15 [ICON_Strength] боевой мощи против юнитов огневой поддержки.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_RANGE_MELEE_MODIFIER_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} силы против юнитов огневой поддержки.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FIRESUPPORT_MELEE_DESCRIPTION" Language="ru_RU">
+			<Text>+15 [ICON_Strength] боевой мощи против юнитов ближнего боя.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FIRESUPPORT_MELEE_MODIFIER_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} силы против юнитов ближнего боя.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

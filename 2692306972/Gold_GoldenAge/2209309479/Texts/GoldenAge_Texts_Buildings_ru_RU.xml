@@ -1,0 +1,187 @@
+<GameData>
+    <LocalizedText>	
+<!--建筑-->
+	
+    <Replace Tag="LOC_BUILDING_SHRINE_DESCRIPTION_HERO" Language="ru_RU">
+      <Text>Героические юниты, впервые или повторно призываемые в этом городе, получают +10% к [ICON_Lifespan] сроку жизни.</Text>
+    </Replace>	
+		<!--新建筑-->
+	
+	<Replace Tag="LOC_BUILDING_SCIENTIFIC_STATION_NAME" Language="ru_RU">
+      <Text>Научная станция|научной станции|научной станцие|научную станцию|научной станцией|научной станции</Text>
+	  <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_SCIENTIFIC_STATION_DESCRIPTION" Language="ru_RU">
+      <Text>+10% [ICON_SCIENCE] науки в этом городе.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_ARTISTS_ASSOCIATION_NAME" Language="ru_RU">
+      <Text>Ассоциация художников|ассоциации художников|ассоциацие художников|ассоциацию художников|ассоциацией художников|ассоциации художников</Text>
+	  <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_ARTISTS_ASSOCIATION_DESCRIPTION" Language="ru_RU">
+      <Text>+10% [ICON_Culture] культуры в этом городе.</Text>
+    </Replace>
+	
+		
+		<Replace Tag="LOC_BUILDING_WATER_MILL_NAME" Language="ru_RU">
+      <Text>Водяная мельница|водяной мельницы|водяной мельнице|водяную мельницу|водяной мельницей|водяной мельнице</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	<Replace Tag="LOC_BUILDING_WATER_MILL_DESCRIPTION" Language="ru_RU">
+      <Text>[ICON_RESOURCE_RICE] Рис и [ICON_RESOURCE_WHEAT] пшеница дают +1 [ICON_Food] пищи.</Text>
+    </Replace>	
+		
+	<Replace Tag="DLC_LOC_BUILDING_WATER_MILL_DESCRIPTION" Language="ru_RU">
+      <Text>[ICON_RESOURCE_RICE] Рис, [ICON_RESOURCE_WHEAT] пшеница и [ICON_RESOURCE_MAIZE] кукуруза дают +1 [ICON_Food] пищи.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_BUILDING_FOOD_MARKET_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Food] пищи всем типам бонусных ресурсов. Можно построить только один раз в городе, даже если в нем имеются несколько пригородов.</Text>
+    </Replace>
+		
+	<Replace Tag="LOC_BUILDING_SEWER_DESCRIPTION" Language="ru_RU">
+      <Text>Увеличивает рост города на 30%.</Text>
+    </Replace>	
+		
+	<Replace Tag="LOC_BUILDING_SHOPPING_MALL_DESCRIPTION" Language="ru_RU">
+      <Text>+10 [ICON_Tourism] ед. туризма. Можно построить только один раз в городе, даже если в нем имеются несколько пригородов.</Text>
+    </Replace>		
+	
+    
+	<Replace Tag="LOC_BUILDING_ARMORY_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Боевой опыт всех наземных юнитов, обученных в этом городе, увеличен на 25%.[NEWLINE]Запасы стратегических ресурсов увеличены на 20 (на стандартной скорости).</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_MILITARY_ACADEMY_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Боевой опыт всех наземных юнитов, обученных в этом городе, увеличен на 25%.[NEWLINE]Запасы стратегических ресурсов увеличены на 30 (на стандартной скорости).[NEWLINE]Позволяет создавать корпуса и армии напрямую. Стоимость обучения корпуса и армии снижена на 25%.</Text>
+    </Replace>	
+		
+		<Replace Tag="LOC_BUILDING_GRANARY_DESCRIPTION" Language="ru_RU">
+            <Text>[ICON_RESOURCE_SHEEP] Овцы, [ICON_RESOURCE_CATTLE] скот и [ICON_RESOURCE_DEER] олени дают +1 [ICON_Food] пищи. </Text>
+        </Replace>		
+	
+	
+	<Replace Tag="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION" Language="ru_RU">
+      <Text>Бонус [ICON_Culture] культуры распространяется на центр каждого города в пределах 6 клеток. Этот бонус применяется один раз к городу. [NEWLINE]+0,1 [ICON_Culture] культуры на [ICON_Citizen] горожанина в городе из-за более высокого уровня гуманистического развития.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_MUSEUM_ART_DESCRIPTION" Language="ru_RU">
+      <Text>Содержит [ICON_GreatWork_Landscape] великие шедевры изобразительного искусства. Нельзя строить в районе театральной площади, где уже есть археологический музей. Бонус [ICON_Culture] культуры распространяется на каждый центр города в пределах 4 клеток. Этот бонус применяется один раз к городу. [NEWLINE]+0,1 [ICON_Culture] культуры на [ICON_Citizen] горожанина в городе из-за более высокого уровня гуманистического развития.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION" Language="ru_RU">
+      <Text>Содержит [ICON_GreatWork_Artifact] артефакты. Нельзя строить в районе театральной площади, где уже есть художественный музей. Бонус [ICON_Culture] культуры распространяется на каждый центр города в пределах 4 клеток. Этот бонус применяется один раз к городу. [NEWLINE]+0,1 [ICON_Culture] культуры на [ICON_Citizen] горожанина в городе из-за более высокого уровня гуманистического развития.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION" Language="ru_RU">
+      <Text>+0,1 [ICON_Culture] культуры на [ICON_Citizen] горожанина в городе из-за более высокого уровня гуманистического развития.</Text>
+    </Replace>
+	<!--外交-->	
+	
+	<Replace Tag="LOC_BUILDING_CONSULATE_DESCRIPTION" Language="ru_RU">
+      <Text>+2 очка влияния в ход. Обеспечивает еще один уровень дипломатической видимости по отношению к другим цивилизациям. [NEWLINE]Дает +3 [ICON_ENVOY] послов. Дает возможность создать дополнительного шпиона.</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_BUILDING_CHANCERY_DESCRIPTION" Language="ru_RU">
+      <Text>+3 очка влияния в ход. Когда эта цивилизация захватывает или убивает вражеского шпиона, вы получаете 200 [ICON_Science] науки и 200 [ICON_Culture] культуры за каждый уровень вражеского шпиона.[NEWLINE]Награды: +3 [ICON_ENVOY] посла. Дает возможность создать дополнительного шпиона.</Text>
+    </Replace>
+	
+	<!--市政广场-->	
+	
+	<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Amenities] довольства и +2 ко всем типам дохода в городах с [ICON_Governor] губернатором, каждое повышение [ICON_Governor] губернатора дает бонус +2% ко всем типам дохода. [NEWLINE][COLOR_FLOAT_MILITARY]-3 лояльности в городах без [ICON_Governor] губернатора.[ENDCOLOR] [NEWLINE]Получите +1 [Icon_Governor] губернаторский титул.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="ru_RU">
+      <Text>Новые города получают бесплатного строителя и дополнительного [ICON_CITIZEN] жителя. Уменьшает на один уровень штрафа за безумное расширение для всех городов.[NEWLINE][COLOR_FLOAT_MILITARY]–1 [ICON_Housing] жилья во всех городах.[ENDCOLOR][NEWLINE]Получите +1 [Icon_Governor] губернаторский титул.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION" Language="ru_RU">
+      <Text>+2 ко всем видам дохода во всех захваченных городах. Захват вражеского города дает бонус 15% ко всем видам дохода во всех городах на 5 ходов. +1 [ICON_Amenities] довольство во всех городах, в состоянии войны с любой крупной цивилизацией.[NEWLINE][COLOR_FLOAT_MILITARY] -1 [ICON_Amenities] довольства для всех городах, в состоянии мира со всеми крупными цивилизациями.[ENDCOLOR][NEWLINE]Получите +1 [Icon_Governor] губернаторский титул.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GOV_SPIES_DESCRIPTION" Language="ru_RU">
+      <Text>+1 шпион и доступность шпионов.[NEWLINE]Уровень вражеского шпиона в ваших землях снижен на 1. Уровень ваших шпионов увеличивается на 1 для наступательных операций.[NEWLINE]Ваши шпионские юниты могут выбрать любое повышение.[NEWLINE][COLOR_FLOAT_MILITARY]-0,25 очков союза за ход.[ENDCOLOR][NEWLINE]Получите +1 [Icon_Governor] губернаторский титул.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GOV_FAITH_DESCRIPTION" Language="ru_RU">
+      <Text>Дает возможность покупать наземные боевые юниты и гражданские юниты за [ICON_Faith] веру.[NEWLINE]В этом городе снято двойное религиозное давление.[NEWLINE][COLOR_FLOAT_MILITARY]Стоимость покупки наземных юнитов увеличивается на 20 % в городе без религии или если у игрока нет основанной религии.[ENDCOLOR][NEWLINE]Получите +1 [Icon_Governor] губернаторский титул.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GOV_MILITARY_DESCRIPTION" Language="ru_RU">
+      <Text>Все юниты восстанавливают до 20 ед. здоровья, когда уничтожают вражеский юнит.[NEWLINE]Стоимость создания корпусов и армий снижена на 25%. Стоимость создания флотов и армад снижена на 25%.[NEWLINE]Получите +1 [Icon_Governor] губернаторский титул.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GOV_CULTURE_DESCRIPTION" Language="ru_RU">
+      <Text>Предоставляет 6 ячеек любых великих шедевров.[NEWLINE]+25% [ICON_TOURISM] ТУРИЗМА.[NEWLINE]Получите +1 [Icon_Governor] губернаторский титул.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GOV_CITYSTATES_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Дает +5 очков влияния и +5 очков [ICON_FAVOR] мирового влияния в ход.[NEWLINE]Мобилизация города-государства требует вполовину меньше [ICON_Gold] золота.[NEWLINE]Юниты городов-государств получают +5 [ICON_Strength] к боевой мощи, если вы являетесь сюзереном города-государства (включая мобилизованные юниты).[NEWLINE][COLOR_FLOAT_MILITARY]-1 очко [ICON_FAVOR] мирового влияния за каждый захваченный город, которым вы владеете.[ENDCOLOR][NEWLINE]Получите +1 [Icon_Governor] губернаторский титул.</Text>
+    </Replace>
+
+	
+	<Replace Tag="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>[ICON_Production] Производственный бонус этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от этого типа здания. </Text>
+    </Replace>
+	
+	
+	<Replace Tag="LOC_BUILDING_HYDROELECTRIC_DAM_DESCRIPTION" Language="ru_RU">
+      <Text>Дает городу +6 [ICON_Power] ед. электроэнергии от возобновляемых водных источников, а также +3 [ICON_Power] ед. электроэнергии другим городам в пределах 6 клеток.</Text>
+    </Replace>
+	    <!--娱乐设施-->
+	    
+		<Replace Tag="LOC_BUILDING_ARENA_EXPANSION1_DESCRIPTION" Language="ru_RU">
+            <Text>+3 [ICON_TOURISM] ед. туризма.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_BUILDING_ZOO_EXPANSION1_DESCRIPTION" Language="ru_RU">
+            <Text>Бонус [ICON_Amenities] довольства распространяются на каждый центр города в пределах 4 клеток. Этот бонус применяется один раз к городу. +6 [ICON_TOURISM] ед. туризма.</Text>
+        </Replace>		
+		
+		<Replace Tag="LOC_BUILDING_STADIUM_EXPANSION1_DESCRIPTION" Language="ru_RU">
+            <Text>Бонус [ICON_Amenities] довольства распространяются на каждый центр города в пределах 6 клеток. Этот бонус применяется один раз к городу. +9 [ICON_TOURISM] ед. туризма.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_BUILDING_FERRIS_WHEEL_DESCRIPTION" Language="ru_RU">
+            <Text>+3 [ICON_Tourism] ед. туризма.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_BUILDING_AQUARIUM_DESCRIPTION" Language="ru_RU">
+            <Text>Бонус [ICON_Amenities] довольства распространяются на каждый центр города в пределах 6 клеток. Этот бонус применяется один раз к городу. +6 [ICON_TOURISM] ед. туризма.</Text>
+        </Replace>
+        
+		<Replace Tag="LOC_BUILDING_AQUATICS_CENTER_DESCRIPTION" Language="ru_RU">
+            <Text>Бонус [ICON_Amenities] довольства распространяются на каждый центр города в пределах 8 клеток. Этот бонус применяется один раз к городу. +9 [ICON_TOURISM] ед. туризма.</Text>
+        </Replace>
+		<!--贸易路线-->
+		
+		<Replace Tag="LOC_BUILDING_BANK_DESCRIPTION" Language="ru_RU">
+            <Text>Бонус [ICON_Gold] золота этого здания распространяется на все центры городов в пределах 4 клеток, которые еще не имеют бонуса от этого типа здания. [NEWLINE]+1 [ICON_TradeRoute] торговый путь, если в городе проживает не менее 20 [ICON_Citizen] жителей.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION" Language="ru_RU">
+            <Text>Бонус [ICON_Gold] золота этого здания распространяется на все центры городов в пределах 6 клеток, которые еще не имеют бонуса от этого типа здания. [NEWLINE]+1 [ICON_TradeRoute] торговый путь, если в городе проживает не менее 40 жителей [ICON_Citizen].</Text>
+        </Replace>
+		<!--港口区-->
+	
+	<Replace Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>+25% к боевому опыту для всех морских юнитов, созданных в этом городе. +1 [ICON_Production] производства на всех клетках побережья этого города, +1 [ICON_Production] производства на клетках океана после исследования технологии «Электричество».</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_SEAPORT_DESCRIPTION" Language="ru_RU">
+      <Text>+25% к боевому опыту для всех морских юнитов, созданных в этом городе. Позволяет напрямую создавать флоты и армады. Стоимость обучения флотов и армад снижена на 25%. +2 [ICON_Gold] золота на всех клетках побережья и океана этого города.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>+25% к боевому опыту для всех морских юнитов, созданных в этом городе. +1 [ICON_Food] пищи на всех клетках побережья этого города, +1 [ICON_Food] пищи на клетках океана после исследования технологии «Электричество». +1 [ICON_TradeRoute] торговый путь, если в этом городе еще нет рынка.</Text>
+    </Replace>
+	
+    </LocalizedText>
+</GameData>

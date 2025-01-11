@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="HengforsLeagueAtlas200"/>
+			<m_ObjectName text="HengforsLeagueAtlas200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HengforsLeagueAtlas256"/>
+			<m_ObjectName text="HengforsLeagueAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HengforsLeagueAtlas30"/>
+			<m_ObjectName text="HengforsLeagueAtlas30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HengforsLeagueAtlas36"/>
+			<m_ObjectName text="HengforsLeagueAtlas36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HengforsLeagueAtlas44"/>
+			<m_ObjectName text="HengforsLeagueAtlas44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HengforsLeagueAtlas48"/>
+			<m_ObjectName text="HengforsLeagueAtlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HengforsLeagueAtlas50"/>
+			<m_ObjectName text="HengforsLeagueAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HengforsLeagueAtlas64"/>
+			<m_ObjectName text="HengforsLeagueAtlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HengforsLeagueAtlas80"/>
+			<m_ObjectName text="HengforsLeagueAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HengforsLeagueAtlas22"/>
+			<m_ObjectName text="HengforsLeagueAtlas22"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="MeveAtlas256"/>
+			<m_ObjectName text="MeveAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MeveAtlas32"/>
+			<m_ObjectName text="MeveAtlas32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MeveAtlas45"/>
+			<m_ObjectName text="MeveAtlas45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MeveAtlas48"/>
+			<m_ObjectName text="MeveAtlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MeveAtlas50"/>
+			<m_ObjectName text="MeveAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MeveAtlas55"/>
+			<m_ObjectName text="MeveAtlas55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MeveAtlas64"/>
+			<m_ObjectName text="MeveAtlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MeveAtlas80"/>
+			<m_ObjectName text="MeveAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LyriaRiviaUnitsAtlas200"/>
+			<m_ObjectName text="LyriaRiviaUnitsAtlas200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LyriaRiviaUnitsAtlas22"/>
+			<m_ObjectName text="LyriaRiviaUnitsAtlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LyriaRiviaUnitsAtlas256"/>
+			<m_ObjectName text="LyriaRiviaUnitsAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LyriaRiviaUnitsAtlas32"/>
+			<m_ObjectName text="LyriaRiviaUnitsAtlas32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LyriaRiviaUnitsAtlas38"/>
+			<m_ObjectName text="LyriaRiviaUnitsAtlas38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LyriaRiviaUnitsAtlas50"/>
+			<m_ObjectName text="LyriaRiviaUnitsAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LyriaRiviaUnitsAtlas70"/>
+			<m_ObjectName text="LyriaRiviaUnitsAtlas70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LyriaRiviaUnitsAtlas80"/>
+			<m_ObjectName text="LyriaRiviaUnitsAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LyriaRiviaUnitsAtlas95"/>
+			<m_ObjectName text="LyriaRiviaUnitsAtlas95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="VillaAtlas256"/>
+			<m_ObjectName text="VillaAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="VillaAtlas38"/>
+			<m_ObjectName text="VillaAtlas38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="VillaAtlas50"/>
+			<m_ObjectName text="VillaAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="VillaAtlas80"/>
+			<m_ObjectName text="VillaAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lyria_Rivia_icons_200"/>
+			<m_ObjectName text="Lyria_Rivia_icons_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lyria_Rivia_icons_22"/>
+			<m_ObjectName text="Lyria_Rivia_icons_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lyria_Rivia_icons_256"/>
+			<m_ObjectName text="Lyria_Rivia_icons_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lyria_Rivia_icons_30"/>
+			<m_ObjectName text="Lyria_Rivia_icons_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lyria_Rivia_icons_36"/>
+			<m_ObjectName text="Lyria_Rivia_icons_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lyria_Rivia_icons_44"/>
+			<m_ObjectName text="Lyria_Rivia_icons_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lyria_Rivia_icons_48"/>
+			<m_ObjectName text="Lyria_Rivia_icons_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lyria_Rivia_icons_50"/>
+			<m_ObjectName text="Lyria_Rivia_icons_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lyria_Rivia_icons_64"/>
+			<m_ObjectName text="Lyria_Rivia_icons_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lyria_Rivia_icons_80"/>
+			<m_ObjectName text="Lyria_Rivia_icons_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LyriaRivia_Arbalest_HistoricMoment"/>
+			<m_ObjectName text="LyriaRivia_Arbalest_HistoricMoment"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LyriaRivia_Villa_HistoricMoment"/>
+			<m_ObjectName text="LyriaRivia_Villa_HistoricMoment"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Meve_Unit_HistoricMoment"/>
+			<m_ObjectName text="Meve_Unit_HistoricMoment"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,465 @@
+<GameData>
+	<LocalizedText>
+		<!--Skalozubio Added-->
+		<Replace Tag="LOC_GOLDENAGE_NAME" Language="ru_RU">
+			<Text>[ICON_GLORY_SUPER_GOLDEN_AGE][COLOR_FLOAT_GOLD]GoldenAge· Дивный новый мир[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDENAGE_DESCRIPTION" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]GoldenAge· Дивный новый мир[ENDCOLOR] – это всеобъемлющий мод, который [COLOR:ResProductionLabelCS]перерабатывает и настраивает[ENDCOLOR] большую часть игрового контента:[NEWLINE][ICON_CheckSuccess][COLOR:ResCultureLabelCS]Переделывает[ENDCOLOR] все уникальные способности, уникальные юниты и уникальная здания цивилизаций и лидеров.[NEWLINE][ICON_CheckSuccess][COLOR:ResFaithLabelCS]Изменяет[ENDCOLOR] стоимость, эффекты и бонусы большинства районов, зданий, чудес света, юнитов, проектов и т. д.[NEWLINE][ICON_CheckSuccess][COLOR:ResMilitaryLabelCS]Изменяет [ENDCOLOR] пантеоны, религии, технологии, социальные институты, правительства, политические курсы/способности губернаторов, особенности ландшафта, ресурсы, механику энергопотребления и т.д.[NEWLINE][ICON_New]Добавлена ​​[COLOR_LIGHTBLUE]"славная и темная эпохи"[ENDCOLOR] для всех цивилизаций в соответствии с реальной историей.[NEWLINE][ICON_New]Добавлена ​​НОВАЯ уникальная [COLOR_GREEN]"региональная и культурная особенность"[ENDCOLOR] для каждой цивилизации. [NEWLINE][ICON_New]Добавлена ​​[COLOR_FLOAT_SCIENCE]«Механика городского уровня»[ENDCOLOR], чтобы поощрять игру высоких городов.[NEWLINE][ICON_New]Переработана [COLOR:Happiness]Городская система счастья[ENDCOLOR].[NEWLINE][ICON_New]Переработана [COLOR_FLOAT_DIPLOMATIC]сложность ИИ[ENDCOLOR]. Значительно усилены бонусы ИИ на каждом уровне.[NEWLINE]Однако это лишь верхушка айсберга……[NEWLINE]Civilization VI станет [COLOR:ButtonCS]совершенно новой игрой[ENDCOLOR] с [COLOR_FLOAT_GOLD]GoldenAge·Дивный новый мир[ENDCOLOR]!</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDENAGE_TEASER" Language="ru_RU">
+			<Text>[COLOR:ResFoodLabelCS]Переработана или изменена[ENDCOLOR] [COLOR:ResScienceLabelCS]большая часть игрового контента[ENDCOLOR] в Civilization VI, а также добавлено несколько [COLOR:DiplomaticLabelCS]новых механик[ENDCOLOR], чтобы сделать игру более интересной.</Text>
+		</Replace>
+		<!--Skalozubio Added-->
+		<Replace Tag="LOC_DIFFICULTY_SETTLER_NAME" Language="ru_RU">
+			<Text>Поселенец (Легко и просто)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_CHIEFTAIN_NAME" Language="ru_RU">
+			<Text>Вождь (Посложнее)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_WARLORD_NAME" Language="ru_RU">
+			<Text>Полководец (Не новичок!)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_PRINCE_NAME" Language="ru_RU">
+			<Text>Принц (Попытай удачу!)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_KING_NAME" Language="ru_RU">
+			<Text>Король (Аналог «Божества»)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_EMPEROR_NAME" Language="ru_RU">
+			<Text>Император (Боль и слава!)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_IMMORTAL_NAME" Language="ru_RU">
+			<Text>Бессмертный (Не сдавайся!)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_DEITY_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_MILITARY]Божество (Выживешь ли?)[ENDCOLOR]</Text>
+		</Replace>
+		<!--界面-->
+		<!--  -->
+		<!-- <Replace Tag="LOC_GAMESPEED_STANDARD_NAME" Language="ru_RU"> -->
+		<!-- <Text>[COLOR_FLOAT_CULTURE]Standard (recommended)[ENDCOLOR]</Text> -->
+		<!-- </Replace> -->
+		<Replace Tag="LOC_EXPANSION2_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_CULTURE]Дополнение: Gathering Storm (необходимо)[ENDCOLOR]</Text>
+		</Replace>
+		<!--游戏模式-->
+		<Replace Tag="LOC_GA_CITYLEVEL_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Улучшение городов и штраф за огромные империи[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITYLEVEL_DESCRIPTION" Language="ru_RU">
+			<Text>В этом режиме представлена механика расширения и улучшения городов. Все города получат здание — ратушу (деревню) после того, как они будут основаны. [COLOR_FLOAT_CULTURE]Ратушу можно повысить до более высокого уровня, завершив новые проекты по расширению городов, которые открываются в определенных социальных институтах. Схема улучшений для ратуши: деревня – село – уезд – город – мегаполис. По мере улучшения городов их демографический прирост и давление лояльности на окружающие города также увеличиваются.[ENDCOLOR][NEWLINE][NEWLINE]Огромные Римская, Монгольская и Советская империи в конце концов распались из-за отсутствия надлежащего управления. В этом режиме дикое расширение городов больше не является единственным способом завоевать божество. Вместо этого существует серьезный штраф за сумасшедшее расширение, и ключ к победе — сосредоточиться на развитии мегаполисов с большим населением. [COLOR_FLOAT_CULTURE]После того, как город достигнет определенного размера населения и уровня развития, штраф будет постепенно уменьшаться, пока полностью не исчезнет.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_EXTRA_TRAITS_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Региональные особенности и обычаи[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_EXTRA_TRAITS_DESCRIPTION" Language="ru_RU">
+			<Text>Этот режим добавляет новые возможности каждой цивилизации на основе их географического расположения и культурных обычаев. Новые функции [COLOR_FLOAT_CULTURE]добавят различные типы культурных захватов ко всем цивилизациям[ENDCOLOR], что приведет к еще большему количеству территориальных споров в мире. Добро пожаловать в мир культурных захватов! И не стесняйтесь их использовать для расширения своей империи![NEWLINE][NEWLINE]Новые функции также делают [COLOR_FLOAT_CULTURE] [ICON_Faith] веру более полезной и открывают больше возможностей для давления на лояльность[ENDCOLOR]. Игра становится интереснее.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_FRIEND_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Дар дружбы[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_FRIEND_DESCRIPTION" Language="ru_RU">
+			<Text>Когда эта функция включена, вы получите в подарок новую особенность в знак дружбы после заключения [COLOR_LIGHTBLUE]союза[ENDCOLOR] с другой цивилизацией. [COLOR_FLOAT_CULTURE]Дар дружбы можно просмотреть, наведя указатель на повестку дня первого лидера в интерфейсе дипломатии. Все дары можно просмотреть в цивилопедии - раздел «Лидеры и повестка дня» (выделено красным цветом).[ENDCOLOR][NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Пожалуйста, смотрите только первую повестку дня лидера в интерфейсе дипломатии и игнорируйте другие скрытые повестки.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_NATIONALWONDER_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Национальные чудеса света[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_NATIONALWONDER_DESCRIPTION" Language="ru_RU">
+			<Text>Этот режим добавляет [COLOR_FLOAT_GOLD]8 национальных чудес света (новые районы и здания)[ENDCOLOR]. [COLOR_FLOAT_CULTURE]Специализированные районы, примыкающие к соответствующему национальному району, получат огромный бонус за соседство.[ENDCOLOR] Эти новые элементы привнесут более интересное и разнообразное городское планирование и преоктирование размещения районов.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_WORLDWAR_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Мировая война[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_WORLDWAR_DESCRIPTION" Language="ru_RU">
+			<Text>Этот режим имитирует самую жестокую войну человечества, на основе двух исторических мировых войн. [COLOR_FLOAT_CULTURE]Все основные цивилизации объявят внезапную войну тем, кто не заключил декларацию о дружбе или союзе с ними, когда игра войдет в эпоху нового времени. После наступления эпохи атома, мировая война прекратится.[ENDCOLOR][NEWLINE][NEWLINE]Сможете ли вы провести свою империю через мировые войны с помощью дипломатии и тактики, чтобы стать сверхдержавой?</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_HISTORY_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Историческая эпоха[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_HISTORY_DESCRIPTION" Language="ru_RU">
+			<Text>В этом режиме добавлены новые механики: [ICON_GLORY_GOLDEN_AGE] славная эпоха (+15% для всех типов дохода) и [ICON_GLORY_DARK_AGE] темная эпоха (-15% для всех типов дохода), определяемые истинной историей каждой цивилизации. Об этой особой эпохе судят по вашим технологиям и социальным институтам в дереве исследвоаний. [COLOR_FLOAT_GOLD]Чтобы войти в [ICON_GLORY_GOLDEN_AGE] славную или [ICON_GLORY_DARK_AGE] темную эпоху, необходимо иметь хотя бы одну из технологий и социальных институтов этой конкретной эпохи. И требованием для выхода из такой эпохи является наличие хотя бы одной технологии и гражданского общества из следующей эпохи.[ENDCOLOR] [NEWLINE][NEWLINE]Это изменит темп игры каждой цивилизации. Вы можете планировать свое техническое и гражданское развитие, чтобы получать более длительные бонусы в [ICON_GLORY_GOLDEN_AGE] славной эпохе, а также сократить ужасную [ICON_GLORY_DARK_AGE] темную эпоху.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_TOTALWAR_NAME">
+			<Text>[COLOR_FLOAT_GOLD]Тотальная война[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_TOTALWAR_DESCRIPTION">
+			<Text>[COLOR_FLOAT_CULTURE]В этом режиме нет привычных осуждений. Осуждение означает объявление войны![ENDCOLOR] [COLOR_FLOAT_CULTURE] Игра сложнее, потому что ИИ обучает больше военных юнитов, чем обычно[ENDCOLOR]. Вы увидите неисчисляемые вражеские юниты, заполняющие все клетки карты. Как защититься от врагов, наступающих со всех сторон? Это новый и беспрецедентный вызов.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GOLDEN_APPEAL_NAME">
+			<Text>[COLOR_FLOAT_GOLD]Охрана окружающей среды[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_APPEAL_DESCRIPTION" Language="ru_RU">
+			<Text>В этом режиме добавлена новая механика: [COLOR_FLOAT_CULTURE]Престиж района повлияет на городское [ICON_Housing] жилье и [ICON_Amenities] довольство[ENDCOLOR], что позволит нам уделять больше внимания городскому планированию и охране окружающей среды.[NEWLINE][NEWLINE] Престиж клетки района:[NEWLINE]Потрясающий: +1 к [ICON_Amenities] довольству (также +1 к [ICON_Housing] жилью).[NEWLINE]Притягивающий: +1 к [ICON_Housing] жилью.[NEWLINE]Невзрачный: -1 [ICON_Housing] жилья. [NEWLINE]Отвратительный: -1 [ICON_Amenities] довольства (также -1 [ICON_Housing] жилья).</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MEGALOPOLIS_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Город-гигант[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MEGALOPOLIS_DESCRIPTION" Language="ru_RU">
+			<Text>Силиконовая долина, которая была заброшена более века назад, стала одним из самых современных исследовательских городов в мире, где в нескольких близлежащих городах строятся университеты и исследовательские базы, а также штаб-квартиры многих высокотехнологичных компаний. Более активное общение может ускорить развитие индустрии или отрасли. [COLOR_FLOAT_CULTURE]Если вы поместите специализированные районы одного типа из разных городов вместе (в форме треугольника или ромба), вы получите огромные бонусы за соседство районов.[ENDCOLOR][NEWLINE][NEWLINE] Сможете ли вы построить высокотехнологичный город-гигант в собственной цивилизации, такой как Силиконовая долина? Давайте тщательно спроектируем города и районы и создадим великую империю!</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_BUILDINGEXPANSION_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Расширенное строительство[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_BUILDINGEXPANSION_DESCRIPTION" Language="ru_RU">
+			<Text>На данный момент мы добавили 9 новых зданий в [COLOR_FLOAT_MILITARY]промышленной зоне[ENDCOLOR] и 9 новых зданий в районах [COLOR_FLOAT_MILITARY]кампуса[ENDCOLOR].[NEWLINE][NEWLINE]Спасибо JNR за возобновляемын источники энергии в качестве великих шедевров!</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MILITARYSERVICE_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Военная служба и отставка[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MILITARYSERVICE_DESCRIPTION" Language="ru_RU">
+			<Text>Этот игровой режим добавляет в войну новый ограничивающий фактор. Как и в реальном мире, большое городское население является основой увеличения армии и флота. Таким образом, всем [COLOR_FLOAT_MILITARY] военным юнитам потребуются как минимум наличие 2 граждан [ICON_Citizen] в городе перед обучением и само обучение поглотят 1 гражданина [ICON_Citizen] в этом городе.[ENDCOLOR] Этот бесстрашный легион состоит из самых храбрых и самых горячих кровей в вашей цивилизации. Обязательно приведите их к яркой победе! [NEWLINE][NEWLINE]Все войны в истории были трудоемкими и затратными, потери после которых нужно было восполнять восполнением населения и восстановлением городов. Независимо от победы или поражения, эти солдаты, которые никогда не оглядываются назад в поисках справедливости, заслуживают того, чтобы все люди вашей цивилизации приветствовали их с высочайшей вежливостью. Таким образом, [COLOR_FLOAT_MILITARY]все военные юниты могут пройти "отставку" в центре города, что добавит +1 к [ICON_Citizen] населению этого города.[ENDCOLOR] Сняв торжественную военную форму, у них есть шанс вернуться в свои родные города, крепко обнять своих возлюбленных, воссоединиться со своими родителями и продолжать вносить свой вклад в страну как граждане.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_WONDERVICTORY_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Победа чудесами[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_WONDERVICTORY_DESCRIPTION" Language="ru_RU">
+			<Text>[COLOR_FLOAT_CULTURE]После исследования социального института "Охрана природы", если в вашей империи есть хотя бы одно чудо света из каждой эпохи от древнего мира до атомной эры, вы сможете разблокировать и запустить проект "Прославление культурного наследия" в своем городе.[ENDCOLOR] С тех пор все больше и больше туристов со всего мира будут приезжать посмотреть на великолепные чудеса света, а ваши культурные ценности будут распространяться по всему миру. [COLOR_FLOAT_CULTURE]После исследования социального института "Культурная гегемония" вы можете запустить еще один проект в своем городе и одержать победу чудесами.[ENDCOLOR][NEWLINE][NEWLINE]Этот тип победы подходит для цивилизаций, доминирующих в культуре [ICON_Culture] и [ICON_Production] производстве, но слабых в [ICON_Science] науке, [ICON_Strength] военном деле и [ICON_Faith] религии. Выдержит ли великолепное зрелище, которое вы с таким трудом построили (или захватили), испытание временем? Установите культурное гсоподство и выиграйте игру!</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITYPOLICY_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Городские стратегии[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITYPOLICY_DESCRIPTION" Language="ru_RU">
+			<Text>Как правило, правительство формулирует политику и стратегию развития в соответствии с различным географическим положением и стратегическими преимуществами каждого города, чтобы максимизировать долгосрочные выгоды, которые город может принести стране. Например, Силиконовая долина, центр высоких технологий США и финансовая столица Нью-Йорк. [NEWLINE][NEWLINE]В этом режиме вы также можете применить стратегию к каждому городу [COLOR_FLOAT_CULTURE](начать или завершить стартегию города, запустив проект), что значительно увеличит один из преобладающих доходов города, но в то же время, немного уменьшите остальные пять типов доходности.[ENDCOLOR][NEWLINE][NEWLINE]Сможете ли вы превратить один из городов вашей империи в ведущий мировой научно-исследовательский центр, культурную столицу блестящих искусств или финансовый город, контролирует международную торговлю или промышленное сердце страны? Давайте подождем и увидим!</Text>
+		</Replace>
+		<!--天启-->
+		<Replace Tag="LOC_UNIT_SOOTHSAYER_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит поддержки, характерный для режима «Апокалипсис». Можно использовать действие «Учинить бедствие», чтобы начать случайное бедствие на клетках рядом с юнитом. Это действие уничтожит прорицателя, если у него больше нет зарядов. [NEWLINE][NEWLINE][COLOR_FLOAT_GOLD]Прорицатель теперь становится магическим юнитом, как волшебник или ведьма! Он может спровоцировать разрушительные стихийные бедствия, чтобы уничтожить ваших врагов.[ENDCOLOR][NEWLINE][ICON_Bullet] [COLOR:ResScienceLabelCS]Дьявольская снежная буря[ENDCOLOR] и [COLOR_FLOAT_GOLD]адская пыльная буря[ENDCOLOR]: намного дольше, чем обычные снежные и пыльные бури, могут уничтожить все, через что они проходят. Предупреждение: путь шторма всегда сложный. [NEWLINE][ICON_Bullet] [COLOR_FLOAT_MILITARY] Выброс лавы [ENDCOLOR]: уничтожает все в радиусе двух клеток от вулкана. [NEWLINE][ICON_Bullet] [COLOR_LIGHTBLUE] Ужасающие волны [ENDCOLOR]: уничтожают все, кроме реки. [NEWLINE][ICON_Bullet] [COLOR_FLOAT_MILITARY] Адское пламя [ENDCOLOR]: вызовите адский огонь в лесу, который долго горит и восстанавливается. Огонь быстро распространится на близлежащие клетки и приведет к гибели жителей близлежащего города! </Text>
+		</Replace>
+		<!--动荡时代-->
+		<Replace Tag="LOC_GAMEMODE_DRAMATICAGES_DESCRIPTION" Language="ru_RU">
+			<Text>Этот игровой режим делает темные и золотые века мощнее, чем когда-либо. Героические века удалены, и игроки могут находиться только в нормальном веке в первой эпохе. После этого они либо получат темный, либо золотой век.[NEWLINE][NEWLINE]Вместо устремлений игроки получают доступ к новым мощным социальным курсам в зависимости от их века. Политические курсы темного века возвращаются с обновленными мощными эффектами. Совершенно новые курсы доступны для тех, кто дожил до золотого века. Чтобы продолжать зарабатывать баллы эпохи, выполняйте исследования технологий и социальных институтов, получайте повышения боевых юнитов.[NEWLINE][NEWLINE]Темные века особенно опасны. Игроки в них сразу же потеряют часть своей империи - такие города станут вольными. [COLOR_FLOAT_GOLD]Независимо от уровня сложности, игрок и ИИ теряют равное количество (около 20%, как минимум 1 нестоличный город) городов в Темных веках. Вольные города не будут оказывать давление [ICON_PressureDown] на другие города, но присоединятся к соседней цивилизации с более высоким давлением [ICON_PressureUp].[ENDCOLOR][NEWLINE][NEWLINE][COLOR_FLOAT_GOLD]Настоятельно рекомендуется включить при игре с «GoldenAge - Дивный новый мир»![ENDCOLOR] </Text>
+		</Replace>
+		<!--高级设置-->
+		<Replace Language="ru_RU" Tag="LOC_GA_HEADER_NAME">
+			<Text>[COLOR_FLOAT_GOLD]Начало «GoldenAge - Дивный новый мир» [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_HEADER_DESCRIPTION">
+			<Text>Давайте построим великую империю с «GoldenAge - Дивный новый мир» и нажмем на «еще один ход»! [NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Спасибо за подписку! Не забывайте ставить лайки на странице мода в мастерской![ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_FOOTER_NAME">
+			<Text>[COLOR_FLOAT_GOLD]Конец «GoldenAge - Дивный новый мир»[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_FOOTER_DESCRIPTION">
+			<Text>Давайте построим великую империю с «GoldenAge - Дивный новый мир» и нажмем на «еще один ход»!  [NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Спасибо за подписку! Не забывайте ставить лайки на странице мода в мастерской![ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_OPTIONS_NAME">
+			<Text>[COLOR_FLOAT_CULTURE]Модули[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_OPTIONS_DESCRIPTION">
+			<Text>Используйте следующие настройки игровых модулей, чтобы значительно улучшить совместимость GoldenAge - Дивный новый мир» с другими модами. В общем, я бы не советовал вам этого делать, потому что все изменения в GoldenAge раскрывают лучшее друг в друге.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_CIVILIZATIONS_AND_LEADERS_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Цивилизации и лидеры[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_CIVILIZATIONS_AND_LEADERS_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения цивилизаций и лидеров, включая UA/UB/UD/UI/UU, в GoldenAge будут удалены. Таким образом, вы можете играть в GoldenAge вместе с другими модами, изменяющими цивилизации и лидеров. [NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Примечание. Описание характеристик и особенностей не изменится, пока вы не начнете новую игру.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_RELIGION_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Пантеоны и религии[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_RELIGION_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения пантеонов и религий будут удалены. Таким образом, вы можете играть в GoldenAge вместе с другими модами, изменяющими пантеоны и религии. </Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_POLICY_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Политика[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_POLICY_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения, связанные с правительством и политическими курсами будут удалены. [NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Примечание. Изменения в правилах темного века применяются только к игровому режиму "Драматичные века".[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_WARFARE_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Юниты[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOLDEN_WARFARE_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, то изменения, связанные с боевыми действиями и юнитами в GoldenAge, будут удалены, включая совершенно новые деревья продвижения юнитов, обзор, механику боевой мощи и штрафы.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_UNIT_EXPANSION_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Улучшение юнитов[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_UNIT_EXPANSION_DESCRIPTION" Language="ru_RU">
+			<Text>Добавляет новые наземные и морские юниты, чтобы в каждой игровой эпохе было хотя бы по одному юниту каждого класса повышения. Между тем, данные, связанные с юнитами, такие как боевая мощь и содержание, будут оптимизированы.[NEWLINE][NEWLINE] Поскольку слишком много новых художественных моделей увеличивают время загрузки и вызывают сбои игры, здесь мы использовали модели юнитов из оригинальной версии.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_TECH_CIVIC_NAME">
+			<Text>[COLOR_FLOAT_GOLD]Дерево технологий и соц. институтов[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_TECH_CIVIC_DESCRIPTION">
+			<Text>Если отключено, все изменения в дереве технологий и социальных институтов, их стоимости, а также изменения в [ICON_TechBoosted] озарениях и [ICON_CivicBoosted] вдохновениях будут удалены. Таким образом, вы можете играть с другими модами, которые реорганизуют дерево технологий и соц. институтов. [NEWLINE][NEWLINE]Однако вы столкнетесь с потерей новых текстов, которые я добавил в дерево технологий/социальных институтов, а некоторые старые тексты из оригинальной версии будут вводить в заблуждение. </Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_GOVERNOR_NAME">
+			<Text>[COLOR_FLOAT_GOLD][ICON_Governor] Губернаторы[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_GOVERNOR_DESCRIPTION">
+			<Text>Если отключено, все изменения [ICON_Governor] губернаторов будут удалены. </Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_GREATPERSON_NAME">
+			<Text>[COLOR_FLOAT_GOLD]Великие люди и шедевры[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_GREATPERSON_DESCRIPTION">
+			<Text>Если отключено, все изменения великих людей и шедевров будут удалены. </Text>
+		</Replace>
+		<Replace Tag="LOC_GA_WORLDWONDER_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Чудеса света[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_WORLDWONDER_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения чудес света от GoldenAge будут удалены. Таким образом, вы можете играть в GoldenAge вместе с другими модами, изменяющими или добавляющими чудеса света. </Text>
+		</Replace>
+		<Replace Tag="LOC_GA_NATURALWONDER_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Чудеса природы[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_NATURALWONDER_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения чудес природы в GoldenAge будут удалены. [NEWLINE][NEWLINE]Примечание: Вам не нужно отключать эти изменения, если вы используете мод [COLOR_FLOAT_MILITARY]Terra Mirabilis[ENDCOLOR], поскольку он прекрасно работает вместе с GoldenAge.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_BUILDING_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Здания[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_BUILDING_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения зданий от GoldenAge будут удалены.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_DISTRICT_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Районы[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_DISTRICT_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения районов от GoldenAge будут удалены.</Text>
+		</Replace>
+		<!--  -->
+		<!-- <Replace Tag="LOC_GA_SPECIALIST_NAME" Language="ru_RU"> -->
+		<!-- <Text>[COLOR_FLOAT_GOLD]Specialists[ENDCOLOR]</Text> -->
+		<!-- </Replace> -->
+		<!--  -->
+		<!-- <Replace Tag="LOC_GA_SPECIALIST_DESCRIPTION" Language="ru_RU"> -->
+		<!-- <Text>When disabled, all Specialists related changes in GoldenAge will be removed.</Text> -->
+		<!-- </Replace> -->
+		<Replace Tag="LOC_GA_IMPROVEMENT_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Улучшения[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_IMPROVEMENT_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения улучшений местности от GoldenAge будут удалены.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_ROUTE_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Торговые пути[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_ROUTE_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения торговых путей от GoldenAge будут удалены.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_PROJECT_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Проекты[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_PROJECT_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения проектов от GoldenAge будут удалены. В том числе новые проекты.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_RESOURCE_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Ресурсы[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_RESOURCE_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения ресурсов от GoldenAge будут удалены.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_FEATURETERRAIN_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Особенности ландшафта[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_FEATURETERRAIN_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения особенностей ландшафта в GoldenAge будут удалены. За исключением новой особенности ландшафта - тундровой речной поймы.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_GOVERNMENT_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Правительства[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_GOVERNMENT_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения правительств от GoldenAge будут удалены.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_RANDOMEVENTS_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Случайные события[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_RANDOMEVENTS_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения племенных поселений (а также мадений метеоритов) и природных катастроф (и режима апокалипсис) от GoldenAge будут удалены.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_DIPLOMATIC_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Дипломатия[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_DIPLOMATIC_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения дипломатии от GoldenAge будут удалены.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MAP_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Карта[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MAP_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения карты от GoldenAge будут удалены.[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Пожалуйста, отключайте данную опцию, когда используете сторонние карты.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_TALLPLAY_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Ядро игры[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_TALLPLAY_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения в ядре игры от GoldenAge будут удалены. Включая демографические бонусы, новые уровни довольства и прочие изменения, позволяющие играть в «высокие города».</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_AI_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]ИИ и сложности[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_AI_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения ИИ и сложностей от GoldenAge будут удалены.[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Игра будет скучной, если отключить эти параметры. Пожалуйста, принимайте решение осторожно.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITYSTATE_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Города-государства[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITYSTATE_DESCRIPTION" Language="ru_RU">
+			<Text>Если отключено, все изменения городов-государств от GoldenAge будут удалены.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_WMD_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Оружие массового поражения[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_WMD_DESCRIPTION" Language="ru_RU">
+			<Text>Добавляет 4 новых оружия массового поражения, включая ракеты, ядерные ракеты, водородные бомбы и нейтронные бомбы.[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Спасибо Searching за орбитальную адерную баллистическую ракету[ENDCOLOR]</Text>
+		</Replace>
+		<!--  -->
+		<!-- <Replace Tag="LOC_GA_UI_NAME" Language="ru_RU"> -->
+		<!-- <Text>UI</Text> -->
+		<!-- </Replace> -->
+		<!--  -->
+		<!-- <Replace Tag="LOC_GA_UI_DESCRIPTION" Language="ru_RU"> -->
+		<!-- <Text>This is just a button without any function. We will add corresponing contents into this option on March 25th.</Text> -->
+		<!-- </Replace> -->
+		<!--偏好-->
+		<Replace Language="ru_RU" Tag="LOC_GA_PREFERENCE_NAME">
+			<Text>[COLOR_FLOAT_CULTURE]Предпочтения[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_PREFERENCE_DESCRIPTION">
+			<Text>Включите следующие настройки в соответствии с вашими личными предпочтениями. Ваши выбор всегда будет учитываться. Вы увидите больше настроек в будущих обновлениях.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_COST_CIVIC_TECH_NAME" Language="ru_RU">
+			<Text>Темп игры</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_COST_CIVIC_TECH_100_NAME" Language="ru_RU">
+			<Text>100%</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_COST_CIVIC_TECH_100_DESCRIPTION" Language="ru_RU">
+			<Text>Более гибкие настройки стоимости технологий и социальных институтов. В отличие от настроек скорости игры, затраты на производство не меняются. В результате вам не нужно терпеть десятки ходов, чтобы строить или тренировать юниты в начале игры. Создан для игроков, которые хотят дольше оставаться в каждой эпохе и наслаждаться захватывающим эпическим опытом.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_COST_CIVIC_TECH_150_NAME" Language="ru_RU">
+			<Text>150%</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_COST_CIVIC_TECH_150_DESCRIPTION" Language="ru_RU">
+			<Text>Стоимость технологий и социальных институтов *150. Длина эпохи *150. (как на эпической скорости)</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_COST_CIVIC_TECH_200_NAME" Language="ru_RU">
+			<Text>200%</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_COST_CIVIC_TECH_200_DESCRIPTION" Language="ru_RU">
+			<Text>Стоимость технологий и социальных институтов *200. Длина эпохи *200.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_COST_CIVIC_TECH_300_NAME" Language="ru_RU">
+			<Text>300%</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_COST_CIVIC_TECH_300_DESCRIPTION" Language="ru_RU">
+			<Text>Стоимость технологий и социальных институтов *300. Длина эпохи *300. (как на марафоне)</Text>
+		</Replace>
+		<!--  -->
+		<!-- <Replace Tag="LOC_GA_COST_CIVIC_TECH_400_NAME" Language="ru_RU"> -->
+		<!-- <Text>400%</Text> -->
+		<!-- </Replace> -->
+		<!--  -->
+		<!-- <Replace Tag="LOC_GA_COST_CIVIC_TECH_400_DESCRIPTION" Language="ru_RU"> -->
+		<!-- <Text>Cost of Techs and Civics *400. Era length *400.</Text> -->
+		<!-- </Replace> -->
+		<!--  -->
+		<!-- <Replace Tag="LOC_GA_COST_CIVIC_TECH_500_NAME" Language="ru_RU"> -->
+		<!-- <Text>500%</Text> -->
+		<!-- </Replace> -->
+		<!--  -->
+		<!-- <Replace Tag="LOC_GA_COST_CIVIC_TECH_500_DESCRIPTION" Language="ru_RU"> -->
+		<!-- <Text>Cost of Techs and Civics *500. Era length *500.</Text> -->
+		<!-- </Replace> -->
+		<Replace Tag="LOC_GA_CITY_DISTANCE_NAME" Language="ru_RU">
+			<Text>Минимальная дистанция между городами</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITY_DISTANCE_2_NAME" Language="ru_RU">
+			<Text>2</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITY_DISTANCE_2_DESCRIPTION" Language="ru_RU">
+			<Text>Минимальное расстояние между городами равно 2, поэтому общее количество городов на карте будет значительно увеличено. Рекомендуется только для скриншотов.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITY_DISTANCE_3_NAME" Language="ru_RU">
+			<Text>3</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITY_DISTANCE_3_DESCRIPTION" Language="ru_RU">
+			<Text>Вы можете установить минимальное расстояние между городами в соответствии с вашими предпочтениями здесь. Этот параметр не влияет на правило, согласно которому горожане могут работать только в пределах трех клеток города.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITY_DISTANCE_4_NAME" Language="ru_RU">
+			<Text>4</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITY_DISTANCE_4_DESCRIPTION" Language="ru_RU">
+			<Text>Минимальное расстояние между городами равно 4, поэтому общее количество городов на карте будет уменьшено. Рекомендуется для игроков, которым не нравится управлять кучей городов в конце игры.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITY_DISTANCE_5_NAME" Language="ru_RU">
+			<Text>5</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITY_DISTANCE_5_DESCRIPTION" Language="ru_RU">
+			<Text>Минимальное расстояние между городами равно 5, поэтому общее количество городов на карте сильно уменьшится. Однако районное и городское планирование (режим города-гиганта) будет непрактичным.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_ERALIMIT_NAME" Language="ru_RU">
+			<Text>Ограничение игровой эпохи</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_ERALIMIT_20_NAME" Language="ru_RU">
+			<Text>20% (как в стандартной игре)</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_ERALIMIT_20_DESCRIPTION" Language="ru_RU">
+			<Text>Стоимость науки/культуры: +20%, когда исследуемая технология/социальный институт превышает текущую игровую эпоху, -20% стоимость науки/культуры, когда исследуемая технология/социальный институт отстает от текущей эпохи. Значение по умолчанию из базовой игры. Прогресс исследований в области технологий и гражданского общества будет намного опережать игровую эру и игровой календарь. Подходит для игроков, которые любят гонки, научные победы без войны и не любят медленный темп поздней игры.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_ERALIMIT_50_NAME" Language="ru_RU">
+			<Text>50%</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_ERALIMIT_50_DESCRIPTION" Language="ru_RU">
+			<Text>Стоимость науки/культуры: +50%, когда исследуемая технология/социальный институт превышает текущую игровую эпоху, -50% стоимость науки/культуры, когда исследуемая технология/социальный институт отстает от текущей эпохи. После многих тестов и полировки это оптимизированный темп игровой эпохи. Развитие технологий и гражданского общества в основном соответствовало игровой эпохе и игровому календарю.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_ERALIMIT_90_NAME" Language="ru_RU">
+			<Text>90%</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_ERALIMIT_90_DESCRIPTION" Language="ru_RU">
+			<Text>Стоимость науки/культуры: +90%, когда исследуемая технология/социальный институт превышает текущую игровую эпоху, -90% стоимость науки/культуры, когда исследуемая технология/социальный институт отстает от текущей эпохи. Эпоха игр сильно ограничила технические и гражданские исследования, и уже невозможно увидеть, как кто-то одерживает научную победу в индустриальную эпоху. Не нужно сильно нагромождать ценности науки и культуры. Время - лучшее лекарство.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_DEFENSIVEIMPROVEMENTS_NAME" Language="ru_RU">
+			<Text>Защитные улучшения</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_DEFENSIVEIMPROVEMENTS_DESCRIPTION" Language="ru_RU">
+			<Text>Добавьте в игру улучшения защиты, даже когда режим «защита от зомби» отключен.[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Требуется «New Frontier Pass» или DLC «Португалия».[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_CHEATING_NAME">
+			<Text>[COLOR_FLOAT_CULTURE]Читерство[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_GA_CHEATING_DESCRIPTION">
+			<Text>Обман не поощряется, но кто может остановить нас от погони за удовольствиями? </Text>
+		</Replace>
+		<Replace Tag="LOC_GA_AIBANWONDER_NAME" Language="ru_RU">
+			<Text>Запретить чудеса света для ИИ</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_AIBANWONDER_DESCRIPTION" Language="ru_RU">
+			<Text>Запретить ИИ строить любые чудеса света. Таким образом, все чудеса будут принадлежать вам. Наслаждайтесь!</Text>
+		</Replace>
+		<!--  -->
+		<!-- <Replace Tag="LOC_GA_NOPUNISHMENT_NAME" Language="ru_RU"> -->
+		<!-- <Text>No Crazy-expansion punishment</Text> -->
+		<!-- </Replace> -->
+		<!--  -->
+		<!-- <Replace Tag="LOC_GA_NOPUNISHMENT_DESCRIPTION" Language="ru_RU"> -->
+		<!-- <Text>When enable, no more Crazy-expansion punishment! I believe not all of you like this new rule. Then, expand your empire as much as you like!</Text> -->
+		<!-- </Replace> -->
+		<Replace Tag="LOC_GA_NOMINORWALL_NAME" Language="ru_RU">
+			<Text>Без стен у городов-государств</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_NOMINORWALL_DESCRIPTION" Language="ru_RU">
+			<Text>Нет бесплатной стены у городов-государств в начале игры. Предназначено для тех, кто любит завоевывать города-государства.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITYMOVER_NAME" Language="ru_RU">
+			<Text>Собрать и переместить весь город</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITYMOVER_DESCRIPTION" Language="ru_RU">
+			<Text>Разблокируйте новый проект «Собрать весь город!». Это создаст юнит «город на колесах». Этот юнит имеет неограниченные перемещения и может поселиться в лучшем месте. Районы и здания в этом городе будут скопированы, кроме чудес света. Район будет завершен сразу после того, как вы выберете место его размещения.[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Спасибо «City Mover» от alexandre.torres.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_UNITPILEUP_NAME" Language="ru_RU">
+			<Text>Совмещение юнитов</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_UNITPILEUP_DESCRIPTION" Language="ru_RU">
+			<Text>Игроки могут ставить по два юнит ана одну клетку! Более того, юниты дальнего боя могут захватить город с нулевыми очками здоровья.[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Спасибо Stakataka за «Совмещение юнитов от Dazz Aephiex»[ENDCOLOR]</Text>
+		</Replace>
+		<!--mod-CSE-->
+		<Replace Tag="LOC_CSE_FAVOR_CONSULAR_DESC" Language="ru_RU">
+			<Text>Если включено, консульские города-государства будут давать мировое влияние в качестве награды за послов. Если отключено, они будут давать лояльность. [COLOR_FLOAT_GOLD]Не выключайте, когда играете с модом GoldenAge.[ENDCOLOR]</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

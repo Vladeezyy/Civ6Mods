@@ -1,0 +1,122 @@
+<GameData>
+	<LocalizedText>
+		<!--大科学家-->
+		<!--ARYABHATA-->
+		<Replace Tag="LOC_GREATPERSON_ARYABHATA" Language="ru_RU">
+			<Text>Можно активировать в кампусе. +2 [ICON_Science] науки и +2 [ICON_CULTURE] культуры для всех соседних клеток, которые в данный момент находятся на территории вашей империи.</Text>
+		</Replace>
+		<!--HILDEGARD_OF_BINGEN-->
+		<Replace Tag="LOC_GREATPERSON_HILDEGARD_OF_BINGEN" Language="ru_RU">
+			<Text>Можно активировать в священном месте. +2 [ICON_Science] науки и +2 [ICON_CULTURE] культуры для всех соседних клеток, которые в данный момент находятся на территории вашей империи.</Text>
+		</Replace>
+		<!--JAMES_YOUNG-->
+		<Replace Tag="LOC_GREATPERSON_JAMES_YOUNG" Language="ru_RU">
+			<Text>Можно активировать в коммерческом центре. +2 [ICON_Science] науки и +2 [ICON_CULTURE] культуры для всех соседних клеток, которые в данный момент находятся на территории вашей империи.</Text>
+		</Replace>
+		<!--IBN_KHALDUN-->
+		<Replace Tag="LOC_GREATPERSON_IBN_KHALDUN" Language="ru_RU">
+			<Text>Можно активировать в театральной площади. +2 [ICON_Science] науки и +2 [ICON_CULTURE] культуры для всех соседних клеток, которые в данный момент находятся на территории вашей империи.</Text>
+		</Replace>
+		<!--EUCLID-->
+		<Replace Tag="LOC_GREATPERSON_EUCLID" Language="ru_RU">
+			<Text>Можно активировать в кампусе. +50% [ICON_SCIENCE] начного бонуса за соседство этого кампуса. </Text>
+		</Replace>
+		<!--ERWIN_SCHRODINGER-->
+		<Replace Tag="LOC_GREATPERSON_ERWIN_SCHRODINGER" Language="ru_RU">
+			<Text>Вызывает [ICON_TechBoosted] момент озарения для всех технологий эпохи атома.</Text>
+		</Replace>
+		<!--CARL_SAGAN-->
+		<Replace Tag="LOC_GREATPERSON_CARL_SAGAN" Language="ru_RU">
+			<Text>Вызывает [ICON_TechBoosted] момент озарения для всех технологий эпохи будущего.</Text>
+		</Replace>
+		<!--DMITRI_MENDELEEV-->
+		<Replace Tag="LOC_GREATPERSON_DMITRI_MENDELEEV" Language="ru_RU">
+			<Text>Открывает технологии «Переработка» и «Химия». </Text>
+		</Replace>
+		<!--EMILIE_DU_CHATELET-->
+		<Replace Tag="LOC_GREATPERSON_EMILIE_DU_CHATELET" Language="ru_RU">
+			<Text>Открывает случайную технологию и социальный институт. </Text>
+		</Replace>
+		<!--MARGARET_MEAD-->
+		<Replace Tag="LOC_GREATPERSON_MARGARET_MEAD" Language="ru_RU">
+			<Text>Открывает 2 случайные технологии и социальный институт. </Text>
+		</Replace>
+		<!--GALILEO_GALILEI-->
+		<Replace Tag="LOC_GREATPERSON_GALILEO_GALILEI" Language="ru_RU">
+			<Text>Дает 600 [ICON_Science] науки и 600 [ICON_CULTURE] культуры (на стандартной скорости) за каждую соседнюю клетку горы.</Text>
+		</Replace>
+		<!--MARY_LEAKEY-->
+		<Replace Tag="LOC_GREATPERSON_MARY_LEAKEY" Language="ru_RU">
+			<Text>Дает 1000 [ICON_Science] науки и 1000 [ICON_CULTURE] культуры (на стандартной скорости) за каждый [ICON_GreatWork_Artifact] артефакт в этом городе.</Text>
+		</Replace>
+		<!--JANAKI_AMMAL-->
+		<Replace Tag="LOC_GREATPERSON_JANAKI_AMMAL" Language="ru_RU">
+			<Text>Дает 1000 [ICON_Science] науки и 1000 [ICON_CULTURE] культуры за каждую клетку джунглей здесь или по соседству.</Text>
+		</Replace>
+		<!--CHARLES_DARWIN-->
+		<Replace Tag="LOC_GREATPERSON_CHARLES_DARWIN" Language="ru_RU">
+			<Text>Дает 1000 [ICON_Science] науки и 1000 [ICON_CULTURE] культуры (на стандартной скорости) за каждое чудо природы здесь или по соседству.</Text>
+		</Replace>
+		<!--大工程师-->
+		<!--ST_GEORGE-->
+		<Replace Tag="LOC_GREATPERSON_JAMES_OF_ST_GEORGE" Language="ru_RU">
+			<Text>Мгновеннос троит стены древности, средневековья и возрождения.</Text>
+		</Replace>
+		<!--LEONARDO_DA_VINCI-->
+		<Replace Tag="LOC_GREATPERSON_LEONARDO_DA_VINCI" Language="ru_RU">
+			<Text>+3 [ICON_PRODUCTION] производства всем зданиям промышленной зоны 1 уровня.</Text>
+		</Replace>
+		<!--JAMES_WATT-->
+		<Replace Tag="LOC_GREATPERSON_JAMES_WATT" Language="ru_RU">
+			<Text>+4 [ICON_PRODUCTION] производства всем зданиям промышленной зоны 2 уровня.</Text>
+		</Replace>
+		<!--SERGEI_KOROLEV-->
+		<Replace Tag="LOC_GREATPERSON_SERGEI_KOROLEV" Language="ru_RU">
+			<Text>+5 [ICON_PRODUCTION] производства всем зданиям промышленной зоны 3 уровня.</Text>
+		</Replace>
+		<!--BI_SHENG-->
+		<!--ADA_LOVELACE-->
+		<Replace Tag="LOC_GREATPERSON_BI_SHENG" Language="ru_RU">
+			<Text>Позволяет этому городу построить на один район больше, чем позволяет предел [ICON_Citizen] населения.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ADA_LOVELACE" Language="ru_RU">
+			<Text>Позволяет этому городу построить на один район больше, чем позволяет предел [ICON_Citizen] населения.</Text>
+		</Replace>
+		<!--NIKOLA_TESLA-->
+		<Replace Tag="LOC_GREATPERSON_NIKOLA_TESLA" Language="ru_RU">
+			<Text>Можно активировать в промышленной зоне. Региональные здания этого района действуют на 3 клетки дальше. Здания в этом районе дают +2 [ICON_Production] производства.</Text>
+		</Replace>
+		<!--ROBERT_GODDARD-->
+		<Replace Tag="LOC_GREATPERSON_ROBERT_GODDARD" Language="ru_RU">
+			<Text>Можно активировать в кампусе. Региональные здания этого района действуют на 3 клетки дальше. Здания в этом районе дают +2 [ICON_Science] к науке.</Text>
+		</Replace>
+		<!--ALVAR_AALTO-->
+		<Replace Tag="LOC_GREATPERSON_ALVAR_AALTO" Language="ru_RU">
+			<Text>Можно активировать в театральной площади. Региональные здания этого района действуют на 3 клетки дальше. Здания этого района дают +2 [ICON_CULTURE] культуры.</Text>
+		</Replace>
+		<!--SHAH_JAHAN-->
+		<Replace Tag="LOC_GREATPERSON_SHAH_JAHAN" Language="ru_RU">
+			<Text>Можно активировать в коммерческом центре. Региональные здания этого района действуют на 3 клетки дальше. Здания этого района дают +2 [ICON_Gold] золота.</Text>
+		</Replace>
+		<!--JOSEPH_PAXTON-->
+		<Replace Tag="LOC_GREATPERSON_JOSEPH_PAXTON" Language="ru_RU">
+			<Text>Можно активировать в развлекательном комплексе. Региональные здания этого района действуют на 3 клетки дальше. Здания этого района дают +1 [ICON_Amenities] довольства.</Text>
+		</Replace>
+		<!--IMHOTEP-->
+		<Replace Tag="LOC_GREATPERSON_IMHOTEP" Language="ru_RU">
+			<Text>Завершение промышленной зоны вызывает культурный захват.</Text>
+		</Replace>
+		<!--MIMAR_SINAN-->
+		<Replace Tag="LOC_GREATPERSON_MIMAR_SINAN" Language="ru_RU">
+			<Text>Можно активировать в промышленной зоне. +2 [ICON_Science] науки и +2 [ICON_CULTURE] культуры за все соседние клетки, которые в данный момент находятся на территории вашей империи.</Text>
+		</Replace>
+		<!--JANE_DREW-->
+		<Replace Tag="LOC_GREATPERSON_JANE_DREW" Language="ru_RU">
+			<Text>+4 [ICON_Housing] жилья и +2 [ICON_Amenities] доволсьтва в этом городе.</Text>
+		</Replace>
+		<!--JOHN_A_ROEBLING-->
+		<Replace Tag="LOC_GREATPERSON_JOHN_A_ROEBLING" Language="ru_RU">
+			<Text>+1 [ICON_Tourism] ед. туризма для всех клеток с особенностью ландшафта или чудом природы этого города.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

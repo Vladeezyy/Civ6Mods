@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5fe467d2-4cf2-4bfa-983d-9d4b7de034ad" version="1">
+  <Properties>
+    <Name>[COLOR:Red]The Witcher[ENDCOLOR]: Imperial Provinces</Name>
+    <Description>Further completes the collection of city-states from The Witcher universe with minor kingdoms that are now either vassals of Nilfgaard or one of their provinces.[NEWLINE][NEWLINE]The total number of city-states with all Witcher Mods active, including the Far Lands, becomes 36 (the same number as the base game), with Cintra, Lyria and Rivia included (33 without), which is also 6 city-states per type.</Description>
+    <Created>1696585609</Created>
+    <Teaser>Provinces and Vassals of the Nilfgaardian Empire from The Witcher universe</Teaser>
+    <Authors>iPlayGamesITA</Authors>
+    <SpecialThanks>The Civ VI Modding Helpline Discord Server, MC for the amazing template</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="Expansion1">
+      <GameModeInUse>
+        <GameCoreInUse>Expansion1</GameCoreInUse>
+      </GameModeInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>Leader/Leader_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>Text/Civilization_Localisation.sql</File>
+      <File>Text/Civilization_it_IT.sql</File>
+      <File>Text/Civilization_pl_PL.sql</File>
+      <File>Text/Civilization_ru_RU.sql</File>
+      <File>Text/Civilization_ko_KR.sql</File>
+      <File>Text/Civilization_de_DE.sql</File>
+      <File>Text/Civilization_es_ES.sql</File>
+      <File>Text/Civilization_zh_Hans_CN.sql</File>
+    </UpdateText>
+    <UpdateColors id="NewAction">
+      <File>Leader/Leader_Colors.sql</File>
+    </UpdateColors>
+    <UpdateArt id="NewAction">
+      <File>Witcher_Imperial_Provinces.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="UpdateIcons">
+      <File>Core/NewIcons.sql</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>Core/Civilization_Config.sql</File>
+      <File>Leader/Leader_Core.sql</File>
+      <File>Leader/Leader_UA.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="NewAction">
+      <File>Leader/Leader_Colors.sql</File>
+    </UpdateColors>
+    <UpdateText id="NewAction">
+      <File>Text/Civilization_Localisation.sql</File>
+      <File>Text/Civilization_it_IT.sql</File>
+      <File>Text/Civilization_pl_PL.sql</File>
+      <File>Text/Civilization_ru_RU.sql</File>
+      <File>Text/Civilization_ko_KR.sql</File>
+      <File>Text/Civilization_de_DE.sql</File>
+      <File>Text/Civilization_es_ES.sql</File>
+      <File>Text/Civilization_zh_Hans_CN.sql</File>
+    </UpdateText>
+    <UpdateIcons id="NewIcons">
+      <File>Core/NewIcons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="NewAction">
+      <File>Witcher_Imperial_Provinces.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Core/Civilization_Config.sql</File>
+    <File>Core/NewIcons.sql</File>
+    <File>Leader/Leader_Colors.sql</File>
+    <File>Leader/Leader_Config.sql</File>
+    <File>Leader/Leader_Core.sql</File>
+    <File>Leader/Leader_UA.sql</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DaerlanLoyaltyOverlay</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DaerlanLoyaltyPressure</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_EbbingLoyaltyOverlay</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_EbbingLoyaltyPressure</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_EtoliaLoyaltyOverlay</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_EtoliaLoyaltyPressure</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_GesoLoyaltyOverlay</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_GesoLoyaltyPressure</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_MagneLoyaltyOverlay</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_MagneLoyaltyPressure</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_MagTurgaLoyaltyOverlay</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_MagTurgaLoyaltyPressure</File>
+    <File>Platforms/MacOS/BLPs/UILensAsset.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DaerlanLoyaltyOverlay</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DaerlanLoyaltyPressure</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_EbbingLoyaltyOverlay</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_EbbingLoyaltyPressure</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_EtoliaLoyaltyOverlay</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_EtoliaLoyaltyPressure</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_GesoLoyaltyOverlay</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_GesoLoyaltyPressure</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_MagneLoyaltyOverlay</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_MagneLoyaltyPressure</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_MagTurgaLoyaltyOverlay</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_MagTurgaLoyaltyPressure</File>
+    <File>Platforms/Windows/BLPs/UILensAsset.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Text/Civilization_de_DE.sql</File>
+    <File>Text/Civilization_es_ES.sql</File>
+    <File>Text/Civilization_it_IT.sql</File>
+    <File>Text/Civilization_Localisation.sql</File>
+    <File>Text/Civilization_pl_PL.sql</File>
+    <File>Text/Civilization_ru_RU.sql</File>
+    <File>Text/Civilization_zh_Hans_CN.sql</File>
+    <File>Witcher_Imperial_Provinces.Art.xml</File>
+    <File>Witcher_Imperial_Provinces.dep</File>
+    <File>XLPs/Atlas.xlp</File>
+    <File>XLPs/UILensAsset.xlp</File>
+  </Files>
+</Mod>

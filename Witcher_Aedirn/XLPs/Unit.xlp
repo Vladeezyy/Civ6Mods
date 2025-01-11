@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="Unit"/>
+	<m_PackageName text="Unit"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Aedirn_Special_Forces_Armor"/>
+			<m_ObjectName text="Aedirn_Special_Forces_Armor"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Aedirn_Special_Forces_Bandana"/>
+			<m_ObjectName text="Aedirn_Special_Forces_Bandana"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Elven_Commando_Hat"/>
+			<m_ObjectName text="Elven_Commando_Hat"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Elven_Commando_Armor_A"/>
+			<m_ObjectName text="Elven_Commando_Armor_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Elven_Commando_Armor_B"/>
+			<m_ObjectName text="Elven_Commando_Armor_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Elven_Commando_Armor_C"/>
+			<m_ObjectName text="Elven_Commando_Armor_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Male_Elf_Full"/>
+			<m_ObjectName text="Male_Elf_Full"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Male_Elf_HandsElbow"/>
+			<m_ObjectName text="Male_Elf_HandsElbow"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Male_Elf_Head_01"/>
+			<m_ObjectName text="Male_Elf_Head_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Male_Elf_Head_02"/>
+			<m_ObjectName text="Male_Elf_Head_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Male_Elf_Head_03"/>
+			<m_ObjectName text="Male_Elf_Head_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Male_Elf_Hands"/>
+			<m_ObjectName text="Male_Elf_Hands"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Elven_Commando_Armor_D"/>
+			<m_ObjectName text="Elven_Commando_Armor_D"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

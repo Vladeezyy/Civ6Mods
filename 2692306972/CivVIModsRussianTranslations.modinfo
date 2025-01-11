@@ -1,0 +1,2645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1401d09e-64d8-11ec-90d6-0242ac120003" version="26">
+	<Properties>
+		<Name>Game and mods - [ICON_WHISPER] Russian translations</Name>
+		<Description>Переводы на русский язык для различных модов Civilization VI, а так же исправление неправильного официального перевода. [NEWLINE][NEWLINE]На данный момент более 50 модов переведены на русский. [NEWLINE][NEWLINE]Полный список модов и исправлений официального перевода можно найти на странице мастерской этого мода в Steam. В Civilization VI этот список, к сожалению, будет обрезан из-за его длины. [NEWLINE][NEWLINE][COLOR_RED]Для перевода некоторых модов потребуется перезапуск игры[ENDCOLOR]</Description>
+		<CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"/>
+		<Created>1699287177</Created>
+		<Teaser>Коллекция переводов на русский язык модов для Civilization VI. Исправление ошибок официального перевода.</Teaser>
+		<Authors>Skalozubio</Authors>
+		<SpecialThanks>H.Humpel for much help</SpecialThanks>
+		<Homepage>https://steamcommunity.com/id/skalozubio/</Homepage>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+	<References>
+		<Mod id="7ce74c28-41ba-4453-b3d1-d30ef8013887" title="Removable Districts"/>
+	</References>
+	<ActionCriteria>
+		<Criteria id="6T_GrandEras">
+			<ModInUse>3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>
+		</Criteria>
+		<Criteria id="6T_EnlightenmentGovernmentExpansion">
+			<ModInUse>c6c62855-e22a-47b2-9c36-be0a8c09519e</ModInUse>
+		</Criteria>
+		<Criteria id="6T_UnitExpansionInfantry">
+			<ModInUse>f572cc3a-e9a8-4af5-b3ee-d5e2cfb64ca8</ModInUse>
+		</Criteria>		
+		<Criteria id="6T_UnitExpansionCavalry">
+			<ModInUse>1f3a2faa-24e0-4a9b-80b3-3c8e5fb8478c</ModInUse>
+		</Criteria>			
+		<Criteria id="6T_UnitExpansionArtillery">
+			<ModInUse>9f552781-65a1-474a-9575-749f1717280e</ModInUse>
+		</Criteria>			
+		<Criteria id="6T_UnitExpansionNaval">
+			<ModInUse>c82bb934-e4c5-4669-a11c-610934cc2f0c</ModInUse>
+		</Criteria>			
+		<Criteria id="6T_UnitExpansionAir">
+			<ModInUse>32823673-0ef1-4465-9c37-76b64c6bf54b</ModInUse>
+		</Criteria>				
+		<Criteria id="6T_Sappers">
+			<ModInUse>e9c77c6d-5c14-4cc0-8246-7d178d2f5a0d</ModInUse>
+		</Criteria>			
+		
+		
+		
+		
+		
+		<Criteria id="AdvancedCheatMenu">
+			<ModInUse>f1e02dd3-6a94-47c4-a2d7-1d5219d8a40e</ModInUse>
+		</Criteria>
+		<Criteria id="AncientEgyptianPantheons">
+			<ModInUse>a7f26e08-378d-4b83-8df8-e672d93393fc</ModInUse>
+		</Criteria>
+		<Criteria id="BetterCoastalCities">
+			<ModInUse>7f55c3e9-93a9-41d6-8203-741f6a53d51d</ModInUse>
+		</Criteria>
+		<Criteria id="BetterCoastalCities_FrontEnd">
+			<ModIsEnabled>7f55c3e9-93a9-41d6-8203-741f6a53d51d</ModIsEnabled>
+		</Criteria>
+		<Criteria id="BetterReportScreenUI">
+			<ModInUse>6f2888d4-79dc-415f-a8ff-f9d81d7afb53</ModInUse>
+		</Criteria>
+		<Criteria id="CommunityQuickUserInterface">
+			<ModInUse>1d44b5e7-753e-405b-af24-5ee634ec8a01</ModInUse>
+		</Criteria>
+		<Criteria id="DetailedWonderReminder">
+			<ModInUse>48219711-51e7-4d25-bf91-0d557e754fd2</ModInUse>
+		</Criteria>		
+		<Criteria id="DistrictExpansionAqu">
+			<ModInUse>1373373a-f34d-4041-a0f8-49e2004e19a1</ModInUse>
+		</Criteria>
+		<Criteria id="DistrictExpansionAqu_FrontEnd">
+			<ModIsEnabled>1373373a-f34d-4041-a0f8-49e2004e19a1</ModIsEnabled>
+		</Criteria>
+		<Criteria id="DistrictExpansionCamp">
+			<ModInUse>7d1c74a2-2f3e-452c-8d3e-16b6e383ab9d</ModInUse>
+		</Criteria>
+		<Criteria id="DistrictExpansionCamp_FrontEnd">
+			<ModIsEnabled>7d1c74a2-2f3e-452c-8d3e-16b6e383ab9d</ModIsEnabled>
+		</Criteria>
+
+		<Criteria id="CreateYourPantheon">
+			<ModInUse>b85e61c0-26b7-4098-81ba-8566b8537dcb</ModInUse>
+		</Criteria>
+		<Criteria id="CreateYourPantheon_FrontEnd">
+			<ModIsEnabled>b85e61c0-26b7-4098-81ba-8566b8537dcb</ModIsEnabled>
+		</Criteria>
+
+		<Criteria id="DistrictExpansionCom">
+			<ModInUse>52c17bf1-d630-42c8-a2d6-f20d8e019993</ModInUse>
+		</Criteria>
+		<Criteria id="DistrictExpansionCom_FrontEnd">
+			<ModIsEnabled>52c17bf1-d630-42c8-a2d6-f20d8e019993</ModIsEnabled>
+		</Criteria>
+		<Criteria id="DistrictExpansionEnt">
+			<ModInUse>93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModInUse>
+		</Criteria>
+		<Criteria id="DistrictExpansionEnt_FrontEnd">
+			<ModIsEnabled>93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModIsEnabled>
+		</Criteria>
+		<Criteria id="DistrictExpansionGov">
+			<ModInUse>cf1615ca-1543-4c67-9da9-1d518f31c0e7</ModInUse>
+		</Criteria>
+		<Criteria id="DistrictExpansionInd">
+			<ModInUse>39c78c55-8c39-4f0d-b4c8-0097f6bcd87a</ModInUse>
+		</Criteria>
+		<Criteria id="DistrictExpansionInd_FrontEnd">
+			<ModIsEnabled>39c78c55-8c39-4f0d-b4c8-0097f6bcd87a</ModIsEnabled>
+		</Criteria>
+		<Criteria id="DistrictExpansionMil">
+			<ModInUse>72d77fd9-7d34-4539-97d9-f5c23de67814</ModInUse>
+		</Criteria>
+		<Criteria id="DistrictExpansionMil_FrontEnd">
+			<ModIsEnabled>72d77fd9-7d34-4539-97d9-f5c23de67814</ModIsEnabled>
+		</Criteria>
+		<Criteria id="DistrictExpansionRel">
+			<ModInUse>1047a269-38a8-4cee-b70a-a7681015eed7</ModInUse>
+		</Criteria>
+		<Criteria id="DistrictExpansionRel_FrontEnd">
+			<ModIsEnabled>1047a269-38a8-4cee-b70a-a7681015eed7</ModIsEnabled>
+		</Criteria>
+		<Criteria id="DistrictExpansionThr">
+			<ModInUse>ccd2f70b-2257-400f-bc59-9e1919f37473</ModInUse>
+		</Criteria>
+		<Criteria id="DistrictExpansionThr_FrontEnd">
+			<ModIsEnabled>ccd2f70b-2257-400f-bc59-9e1919f37473</ModIsEnabled>
+		</Criteria>
+		<Criteria id="DistrictExpansionNBH">
+			<ModInUse>cc42ab93-1a06-4095-b0a4-64ca2aab241a</ModInUse>
+		</Criteria>
+		<Criteria id="DistrictExpansionWor">
+			<ModInUse>8be477ae-8642-462d-bcad-768fda353127</ModInUse>
+		</Criteria>
+		<Criteria id="DistrictExpansionWor_FrontEnd">
+			<ModIsEnabled>8be477ae-8642-462d-bcad-768fda353127</ModIsEnabled>
+		</Criteria>
+		<Criteria id="EndgameMapReplay">
+			<ModInUse>da4f4000-53a0-4005-bb25-5354f781bef6</ModInUse>
+		</Criteria>
+		<Criteria id="EnhancedModManager">
+			<ModInUse>47dccacd-f1d0-4f25-bb02-deb2b528c833</ModInUse>
+		</Criteria>
+		<Criteria id="EnhancedModManager_FrontEnd">
+			<ModIsEnabled>47dccacd-f1d0-4f25-bb02-deb2b528c833</ModIsEnabled>
+		</Criteria>
+		<Criteria id="GoldenAge">
+			<ModInUse>236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+		</Criteria>
+		<Criteria id="GoldenAge_FrontEnd">
+			<ModIsEnabled>236af578-08bc-4278-ab57-c700ab3e1457</ModIsEnabled>
+		</Criteria>
+		<Criteria id="GoldenAge_ADD">
+			<ModInUse>a739fbf8-0b8d-40a3-8fd7-ddd8c8e2183b</ModInUse>
+		</Criteria>
+		<Criteria id="GoldenAge_ADD_FrontEnd">
+			<ModIsEnabled>a739fbf8-0b8d-40a3-8fd7-ddd8c8e2183b</ModIsEnabled>
+		</Criteria>
+		<Criteria id="GreatestCities">
+			<ModInUse>9ec7d842-9ca3-4c1b-893f-2672dcaca71f</ModInUse>
+		</Criteria>
+		<Criteria id="GreatWorksViewer">
+			<ModInUse>bcdbbbea-984f-474c-b921-6ea0be143600</ModInUse>
+		</Criteria>
+		<Criteria id="HappinessandGrowthIndicators">
+			<ModInUse>fba4a935-06f0-414b-973d-5ffcd80c6d0e</ModInUse>
+		</Criteria>
+		<Criteria id="MonopolyPlusCPA">
+			<ModInUse>a64e1c66-ce48-4d80-8225-47402db353aa</ModInUse>
+		</Criteria>
+		<Criteria id="MonopolyPlusTI">
+			<ModInUse>b248a322-3e2a-4a6a-830a-6b0d1f3435fc</ModInUse>
+		</Criteria>
+		<Criteria id="MoreMaritime">
+			<ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>
+		</Criteria>
+		<Criteria id="MultiplayerHelper">
+			<ModInUse>619ac86e-d99d-4bf3-b8f0-8c5b8c402176</ModInUse>
+		</Criteria>
+		<Criteria id="MultiplayerHelper_FrontEnd">
+			<ModIsEnabled>619ac86e-d99d-4bf3-b8f0-8c5b8c402176</ModIsEnabled>
+		</Criteria>
+		<Criteria id="NationalWonders">
+			<ModInUse>8719d97f-0db4-4c18-9863-82eb9b0c6175</ModInUse>
+		</Criteria>
+		<Criteria id="NationalWonders_EXP1">
+			<ModInUse>0fe4104b-80e1-434a-88fc-914ce2632944</ModInUse>
+		</Criteria>
+		<Criteria id="p0kiehlsBetterPantheons">
+			<ModInUse>0b52271c-8eb0-4f2e-9794-4aa6797de548</ModInUse>
+		</Criteria>
+		<Criteria id="LimeBridgeDistricts">
+			<ModInUse>ccf5951c-1090-4241-8c14-13ab6de30300</ModInUse>
+		</Criteria>
+		<Criteria id="ProjectMetropolis">
+			<ModInUse>16c2195a-13af-4032-920c-8de1d6858c6f</ModInUse>
+		</Criteria>
+		<Criteria id="ProjectMetropolis_FrontEnd">
+			<ModIsEnabled>16c2195a-13af-4032-920c-8de1d6858c6f</ModIsEnabled>
+		</Criteria>
+		<Criteria id="RealGovernorInspector">
+			<ModInUse>48F8BEFC-11AA-6F44-0030-09E989A2459F</ModInUse>
+		</Criteria>
+		<Criteria id="RealEraTracker">
+			<ModInUse>11B9FBBE-25BD-7E24-3909-67A060B2456C</ModInUse>
+		</Criteria>
+		<Criteria id="ReligionExpanded">
+			<ModInUse>c6775ded-6693-474a-ade5-b4c51d932bd8</ModInUse>
+		</Criteria>
+		<Criteria id="ReligionExpanded_Frontend">
+			<ModIsEnabled>c6775ded-6693-474a-ade5-b4c51d932bd8</ModIsEnabled>
+		</Criteria>
+		<Criteria id="RemovableDistricts">
+			<ModInUse>7ce74c28-41ba-4453-b3d1-d30ef8013887</ModInUse>
+		</Criteria>
+		<Criteria id="SukritactsGlobalRelations">
+			<ModInUse>d3375ed7-abb2-4480-be4c-33e61161b6d3</ModInUse>
+		</Criteria>
+		<Criteria id="SukritactsGlobalRelations_Frontend">
+			<ModIsEnabled>d3375ed7-abb2-4480-be4c-33e61161b6d3</ModIsEnabled>
+		</Criteria>
+		<Criteria id="SukritactsOceans">
+			<ModInUse>4922ba47-61e1-4b15-9281-db996b14522d</ModInUse>
+		</Criteria>
+		<Criteria id="SukritactsOceans_FrontEnd">
+			<ModIsEnabled>4922ba47-61e1-4b15-9281-db996b14522d</ModIsEnabled>
+		</Criteria>
+		<Criteria id="SukritactsSimpleUI">
+			<ModInUse>805cc499-c534-4e0a-bdce-32fb3c53ba38</ModInUse>
+		</Criteria>
+		<Criteria id="SukritactsSimpleUI_FrontEnd">
+			<ModIsEnabled>805cc499-c534-4e0a-bdce-32fb3c53ba38</ModIsEnabled>
+		</Criteria>
+		<Criteria id="SukritactsResources">
+			<ModInUse>37fdca0b-9275-4235-9c18-c7ec348f930e</ModInUse>
+		</Criteria>
+		<Criteria id="SukritactsTourismOverview">
+			<ModInUse>847dc17e-2042-4f28-a2dd-5a4b18625a71</ModInUse>
+		</Criteria>
+		<Criteria id="TechCivicProgressPlus">
+			<ModInUse>8446e6e9-7703-434d-ba10-0bd70a291d28</ModInUse>
+		</Criteria>
+		<Criteria id="TerraMirabilis">
+			<ModInUse>74c5c3d9-5408-4315-9e0a-b0c369f82bcd</ModInUse>
+		</Criteria>
+		<Criteria id="TerraMirabilis_FrontEnd">
+			<ModIsEnabled>74c5c3d9-5408-4315-9e0a-b0c369f82bcd</ModIsEnabled>
+		</Criteria>
+		<Criteria id="WhatDidIPromise">
+			<ModInUse>dc3dfc0d-e4e9-450c-8716-99c4e748d5f2</ModInUse>
+		</Criteria>
+		<Criteria id="Monopolies_Mode">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="UC">
+			<ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+			<!-- Golden Age -->
+			<ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+			<!-- Harmony in Diversity - UC Patch -->
+		</Criteria>
+		<Criteria id="CS_CSE_Ethiopia">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CSE_ETHIOPIA_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+			<!-- Golden Age -->
+			<ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+			<!-- Harmony in Diversity - UC Patch -->
+		</Criteria>
+		<Criteria id="CS_CSE">
+			<ModInUse>7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>
+			<!-- CIVITAS CSE -->
+			<ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+			<!-- Golden Age -->
+			<ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+			<!-- Harmony in Diversity - UC Patch -->
+		</Criteria>
+		<Criteria id="CS_Ethiopia">
+			<ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>
+			<!-- Ethiopia DLC -->
+			<ModInUse inverse="1">7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>
+			<!-- CIVITAS CSE -->
+			<ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+			<!-- Golden Age -->
+			<ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+			<!-- Harmony in Diversity - UC Patch -->
+		</Criteria>
+		<Criteria id="CS_GatheringStorm">
+			<ModInUse inverse="1">1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>
+			<!-- Ethiopia DLC -->
+			<ModInUse inverse="1">4af91b6e-fc1a-4789-9c22-d939baadec5d</ModInUse>
+			<!-- ReCiv CSB -->
+			<ModInUse inverse="1">7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>
+			<!-- CIVITAS CSE -->
+			<ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+			<!-- Golden Age -->
+			<ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+			<!-- Harmony in Diversity - UC Patch -->
+		</Criteria>
+		<Criteria id="CS_CSB">
+			<ModInUse inverse="1">1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>
+			<!-- Ethiopia DLC -->
+			<ModInUse>4af91b6e-fc1a-4789-9c22-d939baadec5d</ModInUse>
+			<!-- ReCiv CSB -->
+			<ModInUse inverse="1">7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>
+			<!-- CIVITAS CSE -->
+			<ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+			<!-- Golden Age -->
+			<ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+			<!-- Harmony in Diversity - UC Patch -->
+		</Criteria>
+		<Criteria id="MOD_CX">
+			<ModInUse>644fa20f-0686-4195-b71a-68ff3392daa7</ModInUse>
+			<!-- Civilizations Expanded -->
+			<ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+			<!-- Golden Age -->
+			<ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+			<!-- Harmony in Diversity - UC Patch -->
+		</Criteria>
+		<Criteria id="MOD_Suk_Khmer">
+			<ModInUse>0be03c78-49f0-473f-9865-6a5004994397</ModInUse>
+			<!-- Sukritact's Khmer Rework (Baray) -->
+			<ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+			<!-- Golden Age -->
+			<ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+			<!-- Harmony in Diversity - UC Patch -->
+		</Criteria>
+		<Criteria id="MOD_AmunRa">
+			<ModInUse>e7662efb-ce66-442f-a5f8-bc6593d8cb65</ModInUse>
+			<!-- Precinct of Amun-Ra -->
+			<ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+			<!-- Golden Age -->
+			<ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+			<!-- Harmony in Diversity - UC Patch -->
+		</Criteria>
+		<Criteria id="MOD_Suk_Oceans">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>
+				<!-- Sukritact's Oceans -->
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+			<!-- Golden Age -->
+			<ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+			<!-- Harmony in Diversity - UC Patch -->
+		</Criteria>
+		<Criteria id="MOD_MMSS">
+			<ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>
+			<!-- More Maritime: Seaside Sectors -->
+			<ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+			<!-- Golden Age -->
+			<ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+			<!-- Harmony in Diversity - UC Patch -->
+		</Criteria>
+		<Criteria id="MOD_RE">
+			<ModInUse>c6775ded-6693-474a-ade5-b4c51d932bd8</ModInUse>
+			<!-- Religion Expanded -->
+			<ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+			<!-- Golden Age -->
+			<ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+			<!-- Harmony in Diversity - UC Patch -->
+		</Criteria>
+		<Criteria id="XP1">
+			<GameCoreInUse>Expansion1</GameCoreInUse>
+		</Criteria>
+		<Criteria id="XP2">
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+		</Criteria>
+		<Criteria id="XP1 or XP2" any="1">
+			<GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
+		</Criteria>
+		<Criteria id="BetterLoadingScreen">
+			<ModInUse>38C7FAFB-58EB-0C14-7377-92A810E9860B</ModInUse>
+		</Criteria>
+		
+		<Criteria id="QuickDeals">
+			<ModInUse>5aceed03-8639-4a81-8cbf-03f54d543502</ModInUse>
+		</Criteria>		
+		
+		
+		
+		<Criteria id="BetterLoadingScreen_FrontEnd">
+			<ModIsEnabled>38C7FAFB-58EB-0C14-7377-92A810E9860B</ModIsEnabled>
+		</Criteria>
+		<Criteria id="NoBetterLoadingScreen">
+			<ModInUse inverse="1">38C7FAFB-58EB-0C14-7377-92A810E9860B</ModInUse>
+		</Criteria>
+		<Criteria id="NoBetterLoadingScreen_FrontEnd">
+			<ModIsEnabled inverse="1">38C7FAFB-58EB-0C14-7377-92A810E9860B</ModIsEnabled>
+		</Criteria>
+		<Criteria id="Expansion2">
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+		</Criteria>
+		<Criteria id="NoExpansion2">
+			<GameCoreInUse inverse="1">Expansion2</GameCoreInUse>
+		</Criteria>
+		<Criteria id="KublaiKhanVietnam" any="1">
+			<LeaderPlayable>Players:StandardPlayers::LEADER_LADY_TRIEU,Players:Expansion1_Players::LEADER_LADY_TRIEU,Players:Expansion2_Players::LEADER_LADY_TRIEU</LeaderPlayable>
+			<LeaderPlayable>Players:StandardPlayers::LEADER_KUBLAI_KHAN_CHINA,Players:Expansion1_Players::LEADER_KUBLAI_KHAN_CHINA,Players:Expansion2_Players::LEADER_KUBLAI_KHAN_CHINA</LeaderPlayable>
+			<LeaderPlayable>Players:Expansion1_Players::LEADER_KUBLAI_KHAN_MONGOLIA,Players:Expansion2_Players::LEADER_KUBLAI_KHAN_MONGOLIA</LeaderPlayable>
+			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+		<Criteria id="KublaiKhanVietnam_FrontEnd">
+			<ModIsEnabled>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModIsEnabled>
+		</Criteria>
+		<Criteria id="ByzantiumGaul_FrontEnd">
+			<ModIsEnabled>A1100FC4-70F2-4129-AC27-2A65A685ED08</ModIsEnabled>
+		</Criteria>
+		<Criteria id="Portugal_FrontEnd">
+			<ModIsEnabled>FFDF4E79-DEE2-47BB-919B-F5739106627A</ModIsEnabled>
+		</Criteria>
+		<Criteria id="VikingScenario_FrontEnd">
+			<ModIsEnabled>05698E46-1032-43C7-A40C-FA3D02858D2A</ModIsEnabled>
+		</Criteria>
+		<!-- GoldenAge Criterias -->
+		<Criteria id="WORLDWONDER">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_WORLDWONDER</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="NATURALWONDER">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_NATURALWONDER</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="POLICY">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>POLICY_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="RELIGION">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>RELIGION_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="Tech_Civic">
+			<ConfigurationValueMatches>
+				<ConfigurationId>GA_TECH_CIVIC</ConfigurationId>
+				<Group>Game</Group>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="Governors">
+			<ConfigurationValueMatches>
+				<ConfigurationId>GA_GOVERNOR</ConfigurationId>
+				<Group>Game</Group>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="Greatpersons">
+			<ConfigurationValueMatches>
+				<ConfigurationId>GA_GREATPERSON</ConfigurationId>
+				<Group>Game</Group>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="WARFARE">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>WARFARE_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="UNIT_EXPANSION_ON">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_UNIT_EXPANSION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse inverse="1">38a49494-5ec4-46ac-b01b-9629d96950f3</ModInUse>
+		</Criteria>
+		<Criteria id="BUILDING">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_BUILDING</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="DISTRICT">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_DISTRICT</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="IMPROVEMENT">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_IMPROVEMENT</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="PROJECT">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_PROJECT</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="GOVERNMENT">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_GOVERNMENT</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="WMD">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_WMD</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse inverse="1">d3ee498a-0063-40c8-9c9c-1dedb902f8c6</ModInUse>
+		</Criteria>
+		<Criteria id="BUILDINGEXPANSION">
+			<ConfigurationValueMatches>
+				<ConfigurationId>GA_BUILDINGEXPANSION</ConfigurationId>
+				<Group>Game</Group>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="CITYSTATE">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_CITYSTATE</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="CUSTOM_TRAITS">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>EXTRA_TRAITS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="WORLDWAR">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>WORLDWAR_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="HISTORY">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>HISTORY_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="FRIEND">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>FRIEND_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="TOTALWAR">
+			<ConfigurationValueMatches>
+				<ConfigurationId>GA_TOTALWAR</ConfigurationId>
+				<Group>Game</Group>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="CITYPOLICY">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_CITYPOLICY</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="CITYLEVEL">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_CITYLEVEL</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<!-- GoldenAge Criterias -->
+		<!-- GoldenAge ADD Criterias-->
+		<Criteria id="BUILDING_NEW">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_BUILDING_NEW</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="BUILDINGEXPANSION_NEW">
+			<ConfigurationValueMatches>
+				<ConfigurationId>GA_BUILDINGEXPANSION_NEW</ConfigurationId>
+				<Group>Game</Group>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="GA_CITYSTATE_NEW">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_CITYSTATE_NEW</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="SECRETSOCIETIES_GA_OFF">
+			<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_SECRETSOCIETIES</ConfigurationId>
+				<Value>0</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="SECRETSOCIETIES_GA_ON">
+			<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_SECRETSOCIETIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="DRAMATICAGES_GA_OFF">
+			<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_DRAMATICAGES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_DRAMATICAGES</ConfigurationId>
+				<Value>0</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="DRAMATICAGES_GA_ON">
+			<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_DRAMATICAGES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_DRAMATICAGES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="MONOPOLIES_GA_ON">
+			<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_MONOPOLIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="MEGALOPOLIS">
+			<ConfigurationValueMatches>
+				<ConfigurationId>GA_MEGALOPOLIS</ConfigurationId>
+				<Group>Game</Group>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="GA_CULTIVATION">
+			<ConfigurationValueMatches>
+				<ConfigurationId>GA_CULTIVATION</ConfigurationId>
+				<Group>Game</Group>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse inverse="1">ce74df9f-83c3-48f6-84a0-5c9628ac374b</ModInUse>
+		</Criteria>
+		<!-- GoldenAge ADD Criterias-->
+	</ActionCriteria>
+	<FrontEndActions>
+		<UpdateText id="GoldenAge_Text_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>19001</LoadOrder>
+			</Properties>
+			<Criteria>GoldenAge_FrontEnd</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Custom_Traits_ru_RU.sql</File>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Front_ru_RU.xml</File>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Major_ru_RU.sql</File>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Rise_Fall_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Text_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>21001</LoadOrder>
+			</Properties>
+			<Criteria>GoldenAge_ADD_FrontEnd</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Front_ru_RU.xml</File>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Major_ru_RU.sql</File>
+			<File>Gold_GoldenAge_Add/2582452031/Mod_Supprot/Leader_texts_ru_RU.sql</File>
+		</UpdateText>
+		<ImportFiles id="UpdateStyles_FrontEnd_ru_RU">
+			<File>UpdateStyles/Base/Assets/UI/Civ6_Styles.xml</File>
+		</ImportFiles>
+		<ImportFiles id="AdvancedSetup_FrontEnd_ru_RU">
+			<File>UpdateStyles/Base/Assets/UI/FrontEnd/AdvancedSetup.xml</File>
+		</ImportFiles>
+		<ImportFiles id="InitScreen_FrontEnd_ru_RU">
+			<File>UpdateStyles/Base/Assets/UI/FrontEnd/InitScreen.xml</File>
+		</ImportFiles>
+		<ImportFiles id="PopupDialog_FrontEnd_ru_RU">
+			<File>UpdateStyles/Base/Assets/UI/Popups/PopupDialog.xml</File>
+		</ImportFiles>
+		<ImportFiles id="LoadScreen_FrontEnd_ru_RU">
+			<Criteria>NoBetterLoadingScreen_FrontEnd</Criteria>
+			<File>UpdateStyles/Base/Assets/UI/FrontEnd/LoadScreen.xml</File>
+		</ImportFiles>
+		<ImportFiles id="Lobby_FrontEnd_ru_RU">
+			<File>UpdateStyles/Base/Assets/UI/FrontEnd/Multiplayer/Lobby.xml</File>
+		</ImportFiles>
+		<ImportFiles id="Mods_FrontEnd_ru_RU">
+			<File>UpdateStyles/Base/Assets/UI/FrontEnd/Mods.xml</File>
+		</ImportFiles>
+		<ImportFiles id="BetterLoadingScreen_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>2</LoadOrder>
+			</Properties>
+			<Criteria>BetterLoadingScreen_FrontEnd</Criteria>
+			<File>Infixo_BeterLoadingScreen/1579019534/UI/LoadScreen.xml</File>
+		</ImportFiles>
+		<ImportFiles id="EnhancedModManager_mods_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>20</LoadOrder>
+			</Properties>
+			<Criteria>EnhancedModManager_FrontEnd</Criteria>
+			<File>FinalFreak16_EnhancedModManager/1601259406/UI/mods.xml</File>
+		</ImportFiles>
+		<UpdateText id="BetterCoastalCities_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>50</LoadOrder>
+			</Properties>
+			<Criteria>BetterCoastalCities_FrontEnd</Criteria>
+			<File>p0kiehl_BetterCoastalCities/881541733/WaterTiles_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionAqu_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>610</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionAqu_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Aqueduct/2362219368/Text/UC_AQD_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionAqu_TextModSupport_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>800</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionAqu_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Aqueduct/2362219368/Text/ModSupport/UC_AQD_Text_Baray_ru_RU.sql</File>
+			<File>JNR_DistrictExpansion/Aqueduct/2362219368/Text/ModSupport/UC_AQD_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCamp_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>540</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCamp_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Campus/2112359835/Text/UC_CMP_Text_ru_RU.sql</File>
+		</UpdateText>
+		
+	
+		
+		<UpdateText id="CreateYourPantheon_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>200000</LoadOrder>
+			</Properties>
+			<Criteria>CreateYourPantheon_FrontEnd</Criteria>
+			<File>NeaBahaja_CreateYourPantheon/2990102039/CP_Text_Frontend_ru_RU.sql</File>
+		</UpdateText>	
+		
+		
+		<UpdateText id="DistrictExpansionCamp_TextModSupport_CX_Config_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>800</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCamp_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Campus/2112359835/Text/ModSupport/UC_CMP_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCom_ConfigText_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>520</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCom_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Commerce/2056401784/Text/UC_COM_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCom_TextModSupport_CX_Config_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>800</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCom_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Commerce/2056401784/Text/ModSupport/UC_COM_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionEnt_ConfigText_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>570</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionEnt_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Entertainment/2474028548/Text/UC_ENT_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionEnt_TextModSupport_CX_Config_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>800</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionEnt_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Entertainment/2474028548/Text/ModSupport/UC_ENT_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionInd_ConfigText_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>530</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionInd_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Industry/2402394695/Text/UC_PRD_Text_ru_RU.sql</File>
+			<File>JNR_DistrictExpansion/Industry/2402394695/Text/UC_PRD_Text_MODE_Corporations_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionInd_TextModSupport_CX_Config_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>800</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionInd_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Industry/2402394695/Text/ModSupport/UC_PRD_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionMil_ConfigText_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>510</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionMil_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Military/1839114973/Text/UC_MIL_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionMil_TextModSupport_CX_Config_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>800</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionMil_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Military/1839114973/Text/ModSupport/UC_MIL_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionRel_ConfigText_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>560</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionRel_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Religion/2333458984/Text/UC_REL_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionRel_TextModSupport_CX_Config_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>800</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionRel_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Religion/2333458984/Text/ModSupport/UC_REL_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionThr_ConfigText_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>550</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionThr_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Theater/2314657561/Text/UC_THR_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionThr_ConfigTextName_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>1100</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionThr_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Theater/2314657561/Text/UC_THR_Text_Name_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionThr_TextModSupport_CX_Config_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>550</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionThr_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Theater/2314657561/Text/ModSupport/UC_THR_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionWor_TextModSupport_CX_Config_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>600</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionWor_FrontEnd</Criteria>
+			<File>JNR_DistrictExpansion/Worship/2337885119/Text/ModSupport/UC_REL_Worship_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="EnhancedModManager_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>15</LoadOrder>
+			</Properties>
+			<Criteria>EnhancedModManager_FrontEnd</Criteria>
+			<File>FinalFreak16_EnhancedModManager/1601259406/localisation_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="MultiplayerHelper_FrontEnd_ru_RU">
+			<Criteria>MultiplayerHelper_FrontEnd</Criteria>
+			<File>DJackTheNarrator_MultiplayerHelper/2357532056/lang/Text_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="ProjectMetropolis_Frontend_ru_RU">
+			<Criteria>ProjectMetropolis_FrontEnd</Criteria>
+			<File>Furion1986_ProjectMetropolis/2427195031/PH_ConfigText_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="ReligionExpandedConfig_Text_FrontEnd">
+			<Properties>
+				<LoadOrder>5</LoadOrder>
+			</Properties>
+			<Criteria>ReligionExpanded_Frontend</Criteria>
+			<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Config_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="SukritactsGlobalRelations_FrontEnd_ru_RU">
+			<Criteria>SukritactsGlobalRelations_Frontend</Criteria>
+			<File>Sukritact_GlobalRelations/1753346735/Core/Localisation_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="SukritactsOceans_Frontend_ru_RU">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+			</Properties>
+			<Criteria>SukritactsOceans_FrontEnd</Criteria>
+			<File>Sukritact_Oceans/2542898147/Translations/Suk_Oceans_Localisation_RU_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="SukritactsSimpleUI_FrontEnd_ru_RU">
+			<Criteria>SukritactsSimpleUI_FrontEnd</Criteria>
+			<File>Sukritact_SimpleUI/939149009/Core/Localisation_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="TerraMirabilis_FrontEnd_ru_RU">
+			<Criteria>TerraMirabilis_FrontEnd</Criteria>
+			<File>ChimpanG_TerraMirabilis/1461463960/Core/Localisation/TM_Localisation_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslations_FrontEnd_ru_RU">
+			<File>VanillaUpdate/VanillaUpdate_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslationsAustralia_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+			</Properties>
+			<File>VanillaUpdate/Australia_Translations_ConfigText_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslationsByzantium_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+			</Properties>
+			<Criteria>ByzantiumGaul_FrontEnd</Criteria>
+			<File>VanillaUpdate/Byzantium_Gaul_Translations_ConfigText_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslationsKublai_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+			</Properties>
+			<Criteria>KublaiKhanVietnam_FrontEnd</Criteria>
+			<File>VanillaUpdate/KublaiKhan_Vietnam_Translations_ConfigText_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslationsPortugalConfigText_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+			</Properties>
+			<Criteria>Portugal_FrontEnd</Criteria>
+			<File>VanillaUpdate/Portugal_Translations_ConfigText_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslationsVikingsConfigText_FrontEnd_ru_RU">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+			</Properties>
+			<Criteria>VikingScenario_FrontEnd</Criteria>
+			<File>VanillaUpdate/VikingsScenario_Translations_ConfigText_ru_RU.xml</File>
+		</UpdateText>
+	</FrontEndActions>
+	<InGameActions>
+    <UpdateText id="6T_GrandEras_ru_RU">
+      <Properties>
+        <LoadOrder>150000</LoadOrder>
+      </Properties>
+	  <Criteria>6T_GrandEras</Criteria>
+      <File>JNR_6T/GrandEras/2769967307/Text/6T_Text_Boosts_ru_RU.sql</File>
+	  <File>JNR_6T/GrandEras/2769967307/Text/6T_Text_Config_ru_RU.sql</File>
+      <File>JNR_6T/GrandEras/2769967307/Text/6T_Text_Names_ru_RU.sql</File>
+	  <File>JNR_6T/GrandEras/2769967307/Text/6T_Text_Misc_ru_RU.sql</File>
+	  <File>JNR_6T/GrandEras/2769967307/Text/6T_Text_UnlockablesUI_ru_RU.xml</File>
+    </UpdateText>	
+    <UpdateText id="6T_EnlightenmentGovernmentExpansion_ru_RU">
+      <Properties>
+        <LoadOrder>150000</LoadOrder>
+      </Properties>
+	  <Criteria>6T_EnlightenmentGovernmentExpansion</Criteria>
+      <File>JNR_6T/EnlightenmentGovernments/2770023017/Core/Gov_Tier5_Text.sql</File>
+
+    </UpdateText>
+    <UpdateText id="6T_UnitExpansionInfantry_ru_RU">
+      <Properties>
+        <LoadOrder>150000</LoadOrder>
+      </Properties>
+	  <Criteria>6T_UnitExpansionInfantry</Criteria>
+      <File>JNR_6T/UnitExpansionInfantry/2793114339/Core/6TUE_Infantry_Text_ru_RU.sql</File>
+    </UpdateText>
+    <UpdateText id="6T_UnitExpansionCavalry_ru_RU">
+      <Properties>
+        <LoadOrder>150000</LoadOrder>
+      </Properties>
+	  <Criteria>6T_UnitExpansionCavalry</Criteria>
+      <File>JNR_6T/UnitExpansionCavalry/2793114662/Core/6TUE_Cavalry_Text_ru_RU.sql</File>
+    </UpdateText>	
+    <UpdateText id="6T_UnitExpansionArtillery_ru_RU">
+      <Properties>
+        <LoadOrder>150000</LoadOrder>
+      </Properties>
+	  <Criteria>6T_UnitExpansionArtillery</Criteria>
+      <File>JNR_6T/UnitExpansionArtillery/2793114889/Core/6TUE_Artillery_Text_ru_RU.sql</File>
+    </UpdateText>	
+    <UpdateText id="6T_UnitExpansionNaval_ru_RU">
+      <Properties>
+        <LoadOrder>150000</LoadOrder>
+      </Properties>
+	  <Criteria>6T_UnitExpansionNaval</Criteria>
+      <File>JNR_6T/UnitExpansionNaval/2793115058/Core/6TUE_Naval_Text_ru_RU.sql</File>
+    </UpdateText>	
+    <UpdateText id="6T_UnitExpansionAir_ru_RU">
+      <Properties>
+        <LoadOrder>150000</LoadOrder>
+      </Properties>
+	  <Criteria>6T_UnitExpansionAir</Criteria>
+      <File>JNR_6T/UnitExpansionAir/2793115197/Core/6TUE_Air_Text_ru_RU.sql</File>
+    </UpdateText>	
+    <UpdateText id="6T_Sappers_ru_RU">
+      <Properties>
+        <LoadOrder>150000</LoadOrder>
+      </Properties>
+	  <Criteria>6T_Sappers</Criteria>
+      <File>JNR_6T/Sappers/1822380055/MC_Sappers_Text_ru_RU.sql</File>
+    </UpdateText>		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<ImportFiles id="BetterLoadingScreen_ru_RU">
+			<Properties>
+				<LoadOrder>2</LoadOrder>
+			</Properties>
+			<Criteria>BetterLoadingScreen</Criteria>
+			<File>Infixo_BeterLoadingScreen/1579019534/UI/LoadScreen.xml</File>
+		</ImportFiles>
+		<ImportFiles id="LoadScreen_ru_RU">
+			<Criteria>NoBetterLoadingScreen</Criteria>
+			<File>UpdateStyles/Base/Assets/UI/FrontEnd/LoadScreen.xml</File>
+		</ImportFiles>
+		<ImportFiles id="DiplomacyActionView_ru_RU">
+			<Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Criteria>Expansion2</Criteria>
+			<File>UpdateStyles/DLC/Expansion2/UI/Replacements/DiplomacyActionView.xml</File>
+		</ImportFiles>
+		<ImportFiles id="GlobalResourcePopup_ru_RU">
+			<Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Criteria>KublaiKhanVietnam</Criteria>
+			<File>UpdateStyles/DLC/KublaiKhan_Vietnam/UI/Replacements/GlobalResourcePopup.xml</File>
+		</ImportFiles>
+		<ImportFiles id="CQUI_IMPORT_FILES_DIPLOMACYACTIONVIEW_ru_RU">
+			<Properties>
+				<LoadOrder>250</LoadOrder>
+				<Context>InGame</Context>
+			</Properties>
+			<Criteria>NoExpansion2</Criteria>
+			<Criteria>CommunityQuickUserInterface</Criteria>
+			<File>the_m4a_CQUI/2115302648/Assets/UI/diplomacyactionview.xml</File>
+		</ImportFiles>
+		<ImportFiles id="CQUI_IMPORT_FILES_EXP2_DIPLOMACYACTIONVIEW">
+			<Properties>
+				<LoadOrder>250</LoadOrder>
+				<Context>InGame</Context>
+			</Properties>
+			<Criteria>Expansion2</Criteria>
+			<Criteria>CommunityQuickUserInterface</Criteria>
+			<File>the_m4a_CQUI/2115302648/Assets/Expansion2/Replacements/diplomacyactionview.xml</File>
+		</ImportFiles>
+		<ImportFiles id="GreatestCities_lua_ru_RU">
+			<Properties>
+				<LoadOrder>1500</LoadOrder>
+			</Properties>
+			<Criteria>GreatestCities</Criteria>
+			<File>Technoluddite_GreatestCities/2494925002/GreatestCities.lua</File>
+		</ImportFiles>
+		<!--below UpdateTexts-->
+		<UpdateText id="AdvancedCheatMenu_ru_RU">
+			<Criteria>AdvancedCheatMenu</Criteria>
+			<File>Sparrow_AdvancedCheatMenu/1528155583/Base/UI/Text/Localisation_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="AncientEgyptianPantheons_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>AncientEgyptianPantheons</Criteria>
+			<File>p0kiehl_AncientEgyptianPantheons/1484935230/Core/EgyptianPantheon_Localisation_ru_RU.sql</File>
+		</UpdateText>
+		
+		<UpdateText id="QuickDeals_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>QuickDeals</Criteria>
+			<File>wltk_QuickDeals/2460661464/text/qd_translations_text_ru_RU.xml</File>
+		</UpdateText>		
+		
+		<UpdateText id="BetterCoastalCities_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>BetterCoastalCities</Criteria>
+			<File>p0kiehl_BetterCoastalCities/881541733/WaterTiles_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="BetterReportScreenUI_ru_RU">
+			<Criteria>BetterReportScreenUI</Criteria>
+			<File>Infixo_BetterReportScreen/1312585482/Text/BetterReportScreen_Text2_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="CommunityQuickUserInterface_ru_RU">
+			<Properties>
+				<LoadOrder>2000</LoadOrder>
+			</Properties>
+			<Criteria>CommunityQuickUserInterface</Criteria>
+			<File>the_m4a_CQUI/2115302648/Integrations/ML/Text/morelenses_text_ru_RU.xml</File>
+			<File>the_m4a_CQUI/2115302648/Assets/Text/cqui_text_settings_ru_ru_RU.xml</File>
+			<File>the_m4a_CQUI/2115302648/Integrations/BTS/Text/bts_text_ru_ru_RU.xml</File>
+		</UpdateText>
+		
+		<UpdateText id="DetailedWonderReminder_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>DetailedWonderReminder</Criteria>
+			<File>Konomi_DetailedWonderReminder/2794603014/Text/DetailedWonderReminder_ru_RU.sql</File>
+		</UpdateText>
+		
+		<UpdateText id="DistrictExpansionAqu_TextBase_ru_RU" criteria="UC">
+			<Properties>
+				<LoadOrder>910</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionAqu</Criteria>
+			<File>JNR_DistrictExpansion/Aqueduct/2362219368/Text/UC_AQD_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionAqu_TextModSupport_CX_ru_RU" criteria="MOD_CX">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionAqu</Criteria>
+			<File>JNR_DistrictExpansion/Aqueduct/2362219368/Text/ModSupport/UC_AQD_Text_Baray_ru_RU.sql</File>
+			<File>JNR_DistrictExpansion/Aqueduct/2362219368/Text/ModSupport/UC_AQD_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionAqu_TextModSupport_Suk_Khmer_ru_RU" criteria="MOD_Suk_Khmer">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionAqu</Criteria>
+			<File>JNR_DistrictExpansion/Aqueduct/2362219368/Text/ModSupport/UC_AQD_Text_Baray_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionAqu_TextModSupport_CSE_ru_RU">
+			<Properties>
+				<LoadOrder>912</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionAqu</Criteria>
+			<Criteria>CS_CSE</Criteria>
+			<File>JNR_DistrictExpansion/Aqueduct/2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Default_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="TextModSupport_CSE_Ethiopia_ru_RU" criteria="CS_CSE_Ethiopia">
+			<Properties>
+				<LoadOrder>913</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionAqu</Criteria>
+			<File>JNR_DistrictExpansion/Aqueduct/2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCamp_ru_RU">
+			<Properties>
+				<LoadOrder>840</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCamp</Criteria>
+			<Criteria>UC</Criteria>
+			<File>JNR_DistrictExpansion/Campus/2112359835/Text/UC_CMP_Text_ru_RU.sql</File>
+		</UpdateText>
+		
+		<UpdateText id="CreateYourPantheon_ru_RU">
+			<Properties>
+				<LoadOrder>200000</LoadOrder>
+			</Properties>
+			<Criteria>CreateYourPantheon</Criteria>
+			<File>NeaBahaja_CreateYourPantheon/2990102039/CP_Text_Pantheons_ru_RU.sql</File>
+		</UpdateText>		
+		
+		<UpdateText id="DistrictExpansionCamp_Ethiopia_ru_RU">
+			<Properties>
+				<LoadOrder>842</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCamp</Criteria>
+			<Criteria>CS_Ethiopia</Criteria>
+			<File>JNR_DistrictExpansion/Campus/2112359835/Text/UC_CMP_Text_CS_Ethiopia_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCamp_TextCS_ru_RU">
+			<Properties>
+				<LoadOrder>842</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCamp</Criteria>
+			<Criteria>CS_GatheringStorm</Criteria>
+			<File>JNR_DistrictExpansion/Campus/2112359835/Text/UC_CMP_Text_CS_GS_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCamp_TextModSupport_CSB_ru_RU">
+			<Properties>
+				<LoadOrder>842</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCamp</Criteria>
+			<Criteria>CS_CSB</Criteria>
+			<File>JNR_DistrictExpansion/Campus/2112359835/Text/ModSupport/UC_CMP_Text_CS_CSB_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCamp_TextModSupport_CSE_ru_RU">
+			<Properties>
+				<LoadOrder>842</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCamp</Criteria>
+			<Criteria>CS_CSE</Criteria>
+			<File>JNR_DistrictExpansion/Campus/2112359835/Text/ModSupport/UC_CMP_Text_CS_CSE_Default_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCamp_TextModSupport_CSE_Ethiopia_ru_RU">
+			<Properties>
+				<LoadOrder>843</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCamp</Criteria>
+			<Criteria>CS_CSE_Ethiopia</Criteria>
+			<File>JNR_DistrictExpansion/Campus/2112359835/Text/ModSupport/UC_CMP_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCamp_TextModSupport_CX_ru_RU">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCamp</Criteria>
+			<Criteria>MOD_CX</Criteria>
+			<File>JNR_DistrictExpansion/Campus/2112359835/Text/ModSupport/UC_CMP_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCamp_TextModSupport_RwF_ru_RU">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCamp</Criteria>
+			<Criteria>UC</Criteria>
+			<File>JNR_DistrictExpansion/Campus/2112359835/Text/ModSupport/UC_CMP_Text_RwF_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCom_TextBase_ru_RU">
+			<Properties>
+				<LoadOrder>820</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCom</Criteria>
+			<Criteria>UC</Criteria>
+			<File>JNR_DistrictExpansion/Commerce/2056401784/Text/UC_COM_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCom_TextCS_Ethiopia_ru_RU">
+			<Properties>
+				<LoadOrder>822</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCom</Criteria>
+			<Criteria>CS_Ethiopia</Criteria>
+			<File>JNR_DistrictExpansion/Commerce/2056401784/Text/UC_COM_Text_CS_Ethiopia_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCom_TextCS_ru_RU">
+			<Properties>
+				<LoadOrder>822</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCom</Criteria>
+			<Criteria>CS_GatheringStorm</Criteria>
+			<File>JNR_DistrictExpansion/Commerce/2056401784/Text/UC_COM_Text_CS_GS_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCom_TextModSupport_CSB_ru_RU">
+			<Properties>
+				<LoadOrder>822</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCom</Criteria>
+			<Criteria>CS_CSB</Criteria>
+			<File>JNR_DistrictExpansion/Commerce/2056401784/Text/ModSupport/UC_COM_Text_CS_CSB_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCom_TextModSupport_CSE_ru_RU">
+			<Properties>
+				<LoadOrder>822</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCom</Criteria>
+			<Criteria>CS_CSE</Criteria>
+			<File>JNR_DistrictExpansion/Commerce/2056401784/Text/ModSupport/UC_COM_Text_CS_CSE_Default_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCom_TextModSupport_CSE_Ethiopia_ru_RU">
+			<Properties>
+				<LoadOrder>823</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCom</Criteria>
+			<Criteria>CS_CSE_Ethiopia</Criteria>
+			<File>JNR_DistrictExpansion/Commerce/2056401784/Text/ModSupport/UC_COM_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCom_TextModSupport_CX_ru_RU">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCom</Criteria>
+			<Criteria>MOD_CX</Criteria>
+			<File>JNR_DistrictExpansion/Commerce/2056401784/Text/ModSupport/UC_COM_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCom_TextModSupport_MMSS_ru_RU">
+			<Properties>
+				<LoadOrder>1220</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCom</Criteria>
+			<Criteria>MOD_MMSS</Criteria>
+			<File>JNR_DistrictExpansion/Commerce/2056401784/Text/ModSupport/UC_COM_Text_MMSS_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionCom_TextModSupport_RwF_ru_RU">
+			<Properties>
+				<LoadOrder>900</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionCom</Criteria>
+			<Criteria>UC</Criteria>
+			<File>JNR_DistrictExpansion/Commerce/2056401784/Text/ModSupport/UC_COM_Text_RwF_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionEnt_TextBase_ru_RU">
+			<Properties>
+				<LoadOrder>870</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionEnt</Criteria>
+			<Criteria>UC</Criteria>
+			<File>JNR_DistrictExpansion/Entertainment/2474028548/Text/UC_ENT_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionEnt_TextName_ru_RU">
+			<Properties>
+				<LoadOrder>1600</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionEnt</Criteria>
+			<Criteria>UC</Criteria>
+			<File>JNR_DistrictExpansion/Entertainment/2474028548/Text/UC_ENT_Text_Name_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionEnt_TextModSupport_CSE_ru_RU">
+			<Properties>
+				<LoadOrder>872</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionEnt</Criteria>
+			<Criteria>CS_CSE</Criteria>
+			<File>JNR_DistrictExpansion/Entertainment/2474028548/Text/ModSupport/UC_ENT_Text_CS_CSE_Default_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionEnt_TextModSupport_CSE_Ethiopia_ru_RU">
+			<Properties>
+				<LoadOrder>873</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionEnt</Criteria>
+			<Criteria>CS_CSE_Ethiopia</Criteria>
+			<File>JNR_DistrictExpansion/Entertainment/2474028548/Text/ModSupport/UC_ENT_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionEnt_TextModSupport_CX_ru_RU">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionEnt</Criteria>
+			<Criteria>MOD_CX</Criteria>
+			<File>JNR_DistrictExpansion/Entertainment/2474028548/Text/ModSupport/UC_ENT_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionEnt_TextModSupport_Suk_Oceans_ru_RU">
+			<Properties>
+				<LoadOrder>873</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionEnt</Criteria>
+			<Criteria>MOD_Suk_Oceans</Criteria>
+			<File>JNR_DistrictExpansion/Entertainment/2474028548/Text/ModSupport/UC_ENT_Text_Suk_Oceans_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionGov_TextBase_ru_RU" criteria="UC">
+			<Properties>
+				<LoadOrder>801</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionGov</Criteria>
+			<File>JNR_DistrictExpansion/Government/1684556488/Text/UC_GOV_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionGov_CSE_Ethiopia_ru_RU" criteria="CS_CSE_Ethiopia">
+			<Properties>
+				<LoadOrder>901</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionGov</Criteria>
+			<File>JNR_DistrictExpansion/Government/1684556488/Text/ModSupport/UC_GOV_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionInd_TextBase_ru_RU">
+			<Properties>
+				<LoadOrder>830</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionInd</Criteria>
+			<Criteria>UC</Criteria>
+			<File>JNR_DistrictExpansion/Industry/2402394695/Text/UC_PRD_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionInd_TextModes_Corporations_ru_RU">
+			<Properties>
+				<LoadOrder>832</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionInd</Criteria>
+			<Criteria>Monopolies_Mode</Criteria>
+			<File>JNR_DistrictExpansion/Industry/2402394695/Text/UC_PRD_Text_MODE_Corporations_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionInd_TextCS_Ethiopia_ru_RU">
+			<Properties>
+				<LoadOrder>832</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionInd</Criteria>
+			<Criteria>CS_Ethiopia</Criteria>
+			<File>JNR_DistrictExpansion/Industry/2402394695/Text/UC_PRD_Text_CS_Ethiopia_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionInd_TextCS_ru_RU">
+			<Properties>
+				<LoadOrder>832</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionInd</Criteria>
+			<Criteria>CS_GatheringStorm</Criteria>
+			<File>JNR_DistrictExpansion/Industry/2402394695/Text/UC_PRD_Text_CS_GS_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionInd_TextModSupport_CSB_ru_RU">
+			<Properties>
+				<LoadOrder>832</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionInd</Criteria>
+			<Criteria>CS_CSB</Criteria>
+			<File>JNR_DistrictExpansion/Industry/2402394695/Text/ModSupport/UC_PRD_Text_CS_CSB_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionInd_TextModSupport_CSE_ru_RU">
+			<Properties>
+				<LoadOrder>832</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionInd</Criteria>
+			<Criteria>CS_CSE</Criteria>
+			<File>JNR_DistrictExpansion/Industry/2402394695/Text/ModSupport/UC_PRD_Text_CS_CSE_Default_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionInd_TextModSupport_CSE_Ethiopia_ru_RU">
+			<Properties>
+				<LoadOrder>833</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionInd</Criteria>
+			<Criteria>CS_CSE_Ethiopia</Criteria>
+			<File>JNR_DistrictExpansion/Industry/2402394695/Text/ModSupport/UC_PRD_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionInd_TextModSupport_CX_ru_RU">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionInd</Criteria>
+			<Criteria>MOD_CX</Criteria>
+			<File>JNR_DistrictExpansion/Industry/2402394695/Text/ModSupport/UC_PRD_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionMil_TextBase_ru_RU">
+			<Properties>
+				<LoadOrder>810</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionMil</Criteria>
+			<Criteria>UC</Criteria>
+			<File>JNR_DistrictExpansion/Military/1839114973/Text/UC_MIL_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionMil_TextCS_Ethiopia_ru_RU">
+			<Properties>
+				<LoadOrder>812</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionMil</Criteria>
+			<Criteria>CS_Ethiopia</Criteria>
+			<File>JNR_DistrictExpansion/Military/1839114973/Text/UC_MIL_Text_CS_Ethiopia_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionMil_TextCS_ru_RU">
+			<Properties>
+				<LoadOrder>812</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionMil</Criteria>
+			<Criteria>CS_GatheringStorm</Criteria>
+			<File>JNR_DistrictExpansion/Military/1839114973/Text/UC_MIL_Text_CS_GS_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionMil_TextModSupport_MMSS_ru_RU">
+			<Properties>
+				<LoadOrder>1210</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionMil</Criteria>
+			<Criteria>MOD_MMSS</Criteria>
+			<File>JNR_DistrictExpansion/Military/1839114973/Text/ModSupport/UC_MIL_Text_ARS_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionMil_TextModSupport_CSB_ru_RU">
+			<Properties>
+				<LoadOrder>812</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionMil</Criteria>
+			<Criteria>CS_CSB</Criteria>
+			<File>JNR_DistrictExpansion/Military/1839114973/Text/ModSupport/UC_MIL_Text_CS_CSB_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionMil_TextModSupport_CSE_ru_RU">
+			<Properties>
+				<LoadOrder>812</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionMil</Criteria>
+			<Criteria>CS_CSE</Criteria>
+			<File>JNR_DistrictExpansion/Military/1839114973/Text/ModSupport/UC_MIL_Text_CS_CSE_Default_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionMil_TextModSupport_CSE_Ethiopia_ru_RU">
+			<Properties>
+				<LoadOrder>813</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionMil</Criteria>
+			<Criteria>CS_CSE_Ethiopia</Criteria>
+			<File>JNR_DistrictExpansion/Military/1839114973/Text/ModSupport/UC_MIL_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionMil_TextModSupport_CX_ru_RU">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionMil</Criteria>
+			<Criteria>MOD_CX</Criteria>
+			<File>JNR_DistrictExpansion/Military/1839114973/Text/ModSupport/UC_MIL_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionMil_TextModSupport_WE_ru_RU">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionMil</Criteria>
+			<Criteria>MOD_WE</Criteria>
+			<File>JNR_DistrictExpansion/Military/1839114973/Text/ModSupport/UC_MIL_Text_WarfareExpanded_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionNBH_TextBase_ru_RU">
+			<Properties>
+				<LoadOrder>920</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionNBH</Criteria>
+			<Criteria>UC</Criteria>
+			<File>JNR_DistrictExpansion/Suburbs/2669325299/Text/UC_NBH_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionRel_TextBase_ru_RU">
+			<Properties>
+				<LoadOrder>860</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionRel</Criteria>
+			<Criteria>UC</Criteria>
+			<File>JNR_DistrictExpansion/Religion/2333458984/Text/UC_REL_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionRel_TextCS_Ethiopia_ru_RU">
+			<Properties>
+				<LoadOrder>862</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionRel</Criteria>
+			<Criteria>CS_Ethiopia</Criteria>
+			<File>JNR_DistrictExpansion/Religion/2333458984/Text/UC_REL_Text_CS_Ethiopia_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionRel_TextCS_ru_RU">
+			<Properties>
+				<LoadOrder>862</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionRel</Criteria>
+			<Criteria>CS_GatheringStorm</Criteria>
+			<File>JNR_DistrictExpansion/Religion/2333458984/Text/UC_REL_Text_CS_GS_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionRel_TextModSupport_AmunRa_ru_RU">
+			<Properties>
+				<LoadOrder>864</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionRel</Criteria>
+			<Criteria>MOD_AmunRa</Criteria>
+			<File>JNR_DistrictExpansion/Religion/2333458984/Text/ModSupport/UC_REL_Text_AmunRa_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionRel_TextModSupport_CSB_ru_RU">
+			<Properties>
+				<LoadOrder>862</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionRel</Criteria>
+			<Criteria>CS_CSB</Criteria>
+			<File>JNR_DistrictExpansion/Religion/2333458984/Text/ModSupport/UC_REL_Text_CS_CSB_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionRel_TextModSupport_CSE_ru_RU">
+			<Properties>
+				<LoadOrder>862</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionRel</Criteria>
+			<Criteria>CS_CSE</Criteria>
+			<File>JNR_DistrictExpansion/Religion/2333458984/Text/ModSupport/UC_REL_Text_CS_CSE_Default_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionRel_TextModSupport_CSE_Ethiopia_ru_RU">
+			<Properties>
+				<LoadOrder>863</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionRel</Criteria>
+			<Criteria>CS_CSE_Ethiopia</Criteria>
+			<File>JNR_DistrictExpansion/Religion/2333458984/Text/ModSupport/UC_REL_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionRel_TextModSupport_CX_ru_RU">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionRel</Criteria>
+			<Criteria>MOD_CX</Criteria>
+			<File>JNR_DistrictExpansion/Religion/2333458984/Text/ModSupport/UC_REL_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionRel_TextModSupport_RE_ru_RU">
+			<Properties>
+				<LoadOrder>862</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionRel</Criteria>
+			<Criteria>MOD_RE</Criteria>
+			<File>JNR_DistrictExpansion/Religion/2333458984/Text/ModSupport/UC_REL_Text_RE_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionRel_TextModSupport_RwF_ru_RU">
+			<Properties>
+				<LoadOrder>900</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionRel</Criteria>
+			<Criteria>UC</Criteria>
+			<File>JNR_DistrictExpansion/Religion/2333458984/Text/ModSupport/UC_REL_Text_RwF_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionThr_TextBase_ru_RU">
+			<Properties>
+				<LoadOrder>850</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionThr</Criteria>
+			<Criteria>UC</Criteria>
+			<File>JNR_DistrictExpansion/Theater/2314657561/Text/UC_THR_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionThr_TextCS_Ethiopia_ru_RU">
+			<Properties>
+				<LoadOrder>852</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionThr</Criteria>
+			<Criteria>CS_Ethiopia</Criteria>
+			<File>JNR_DistrictExpansion/Theater/2314657561/Text/UC_THR_Text_CS_Ethiopia_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionThr_TextCS_ru_RU">
+			<Properties>
+				<LoadOrder>852</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionThr</Criteria>
+			<Criteria>CS_GatheringStorm</Criteria>
+			<File>JNR_DistrictExpansion/Theater/2314657561/Text/UC_THR_Text_CS_GS_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionThr_TextName_ru_RU">
+			<Properties>
+				<LoadOrder>1400</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionThr</Criteria>
+			<Criteria>UC</Criteria>
+			<File>JNR_DistrictExpansion/Theater/2314657561/Text/UC_THR_Text_Name_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionThr_TextModSupport_CSB_ru_RU">
+			<Properties>
+				<LoadOrder>852</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionThr</Criteria>
+			<Criteria>CS_CSB</Criteria>
+			<File>JNR_DistrictExpansion/Theater/2314657561/Text/ModSupport/UC_THR_Text_CS_CSB_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionThr_TextModSupport_CSE_ru_RU">
+			<Properties>
+				<LoadOrder>852</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionThr</Criteria>
+			<Criteria>CS_CSE</Criteria>
+			<File>JNR_DistrictExpansion/Theater/2314657561/Text/ModSupport/UC_THR_Text_CS_CSE_Default_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionThr_TextModSupport_CSE_Ethiopia_ru_RU">
+			<Properties>
+				<LoadOrder>853</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionThr</Criteria>
+			<Criteria>CS_CSE_Ethiopia</Criteria>
+			<File>JNR_DistrictExpansion/Theater/2314657561/Text/ModSupport/UC_THR_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionThr_TextModSupport_CX_ru_RU">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionThr</Criteria>
+			<Criteria>MOD_CX</Criteria>
+			<File>JNR_DistrictExpansion/Theater/2314657561/Text/ModSupport/UC_THR_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionThr_TextModSupport_RwF_ru_RU">
+			<Properties>
+				<LoadOrder>1100</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionThr</Criteria>
+			<Criteria>UC</Criteria>
+			<File>JNR_DistrictExpansion/Theater/2314657561/Text/ModSupport/UC_THR_Text_RwF_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionWor_TextBase_ru_RU">
+			<Properties>
+				<LoadOrder>867</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionWor</Criteria>
+			<Criteria>UC</Criteria>
+			<File>JNR_DistrictExpansion/Worship/2337885119/Text/UC_REL_Worship_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionWor_TextModSupport_AmunRa_ru_RU">
+			<Properties>
+				<LoadOrder>869</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionWor</Criteria>
+			<Criteria>MOD_AmunRa</Criteria>
+			<File>JNR_DistrictExpansion/Worship/2337885119/Text/ModSupport/UC_REL_Worship_Text_AmunRa_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="DistrictExpansionWor_TextModSupport_CX_ru_RU">
+			<Properties>
+				<LoadOrder>800</LoadOrder>
+			</Properties>
+			<Criteria>DistrictExpansionWor</Criteria>
+			<Criteria>MOD_CX</Criteria>
+			<File>JNR_DistrictExpansion/Worship/2337885119/Text/ModSupport/UC_REL_Worship_Text_CX_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="EndgameMapReplay_ru_RU">
+			<Criteria>EndgameMapReplay</Criteria>
+			<File>Technoluddite_EndgameMapReplay/2656616965/Text/AKMH_Text_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="EnhancedModManager_ru_RU">
+			<Criteria>EnhancedModManager</Criteria>
+			<Properties>
+				<LoadOrder>15</LoadOrder>
+			</Properties>
+			<File>FinalFreak16_EnhancedModManager/1601259406/localisation_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="GreatestCities_ru_RU">
+			<Criteria>GreatestCities</Criteria>
+			<Properties>
+				<LoadOrder>1500</LoadOrder>
+			</Properties>
+			<File>Technoluddite_GreatestCities/2494925002/Text/AKGC_Text_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GreatWorksViewer_ru_RU">
+			<Criteria>GreatWorksViewer</Criteria>
+			<File>PeterSpjuth_GreatWorksViewer/1652106496/greatworksview_text_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="HappinessandGrowthIndicators_ru_RU">
+			<Criteria>HappinessandGrowthIndicators</Criteria>
+			<File>lockstep_HappinessAndGrowth/1332994668/HGI_Text_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="MonopolyPlusTI_Tycoonstext_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>MonopolyPlusTI</Criteria>
+			<Criteria>Monopolies_Mode</Criteria>
+			<File>Leugi_MonopolyPlus_TI/2479197624/Text/MonopolyPlus_TycoonsText_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="MonopolyPlusCPA_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>MonopolyPlusCPA</Criteria>
+			<Criteria>Monopolies_Mode</Criteria>
+			<File>Leugi_MonopolyPlus_CPA/2479195330/Text/MonopolyPlusAdjustments_GreatPeopleTexts_ru_RU.sql</File>
+			<File>Leugi_MonopolyPlus_CPA/2479195330/Text/MonopolyPlus_Texts_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="MonopolyPlusTI_JNR_ru_RU">
+			<Properties>
+				<LoadOrder>1000</LoadOrder>
+			</Properties>
+			<Criteria>MonopolyPlusTI</Criteria>
+			<File>Leugi_MonopolyPlus_TI/2479197624/Text/MonopolyPlus_JNRCompatibilityTexts_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="MonopolyPlusTI_Texts_ru_RU">
+			<Properties>
+				<LoadOrder>1000</LoadOrder>
+			</Properties>
+			<Criteria>MonopolyPlusTI</Criteria>
+			<File>Leugi_MonopolyPlus_TI/2479197624/Text/MonopolyPlust_UnitTexts_ru_RU.sql</File>
+			<File>Leugi_MonopolyPlus_TI/2479197624/Text/MonopolyPlus_GreatPeopleTexts_ru_RU.sql</File>
+			<File>Leugi_MonopolyPlus_TI/2479197624/Text/MonopolyPlus_ImprovementTexts_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="MoreMaritime_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>MoreMaritime</Criteria>
+			<File priority="250">Albro_More_Maritime_SS/2601169154/Text/Waterfront_EXP_Text_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="MultiplayerHelper_ru_RU">
+			<Criteria>MultiplayerHelper</Criteria>
+			<File>DJackTheNarrator_MultiplayerHelper/2357532056/lang/Text_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="NationalWonders_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>NationalWonders</Criteria>
+			<File priority="250">Albro_NationalWonders/2503076363/Text/NAT_WONDER_Text_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="NationalWonders_EXP1_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>NationalWonders_EXP1</Criteria>
+			<File priority="250">Albro_NationalWonders_EXP1/2612473657/Text/NAT_WONDER_Text_PACK_01_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="p0kiehlsBetterPantheons_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>p0kiehlsBetterPantheons</Criteria>
+			<File>p0kiehl_BetterPantheons/1720838435/Core/Localisation/Pantheons_Text_ru_RU.sql</File>
+			<File>p0kiehl_BetterPantheons/1720838435/Core/Localisation/ReligionExpanded_Pantheons_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="LimeBridgeDistricts_ru_RU">
+			<Criteria>LimeBridgeDistricts</Criteria>
+			<File>Lime_BridgeDistricts/2331527458/code/LimeBridges-Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="ProjectMetropolis_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>ProjectMetropolis</Criteria>
+			<File>Furion1986_ProjectMetropolis/2427195031/QuarterText_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="RealGovernorInspector_ru_RU">
+			<Criteria>RealGovernorInspector</Criteria>
+			<File>Infixo_RealGovernorInspector/2120647226/Text/GovernorInspector_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="RealEraTracker_ru_RU">
+			<Criteria>RealEraTracker</Criteria>
+			<File>Infixo_RealEraTracker/1699006932/Text/RealEraTracker_Text_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="ReligionExpandedConfig_Text">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>ReligionExpanded</Criteria>
+			<Properties>
+				<LoadOrder>5</LoadOrder>
+			</Properties>
+			<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Config_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="ReligionExpandedLocalisation_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>ReligionExpanded</Criteria>
+			<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Abilities_Text_ru_RU.sql</File>
+			<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Buildings_Text_ru_RU.sql</File>
+			<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Religion_Text_ru_RU.sql</File>
+			<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Updated_Buildings_Text_ru_RU.sql</File>
+			<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Updated_Religion_Text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="ReligionExpandedLocalisation_XP1_or_XP2_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>XP1 or XP2</Criteria>
+			<Criteria>ReligionExpanded</Criteria>
+			<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Religion_Text_XP1_or_XP2_ru_RU.sql</File>
+			<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Updated_Religion_Text_XP1_or_XP2_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="ReligionExpandedLocalisation_XP2_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>XP2</Criteria>
+			<Criteria>ReligionExpanded</Criteria>
+			<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Religion_Text_XP2_ru_RU.sql</File>
+			<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Updated_Religion_Text_XP2_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateDatabase id="RemovableDistricts_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>RemovableDistricts</Criteria>
+			<File>TC_RemovableDistricts/970184582/RemovableDistricts_localization_fix_ru_RU.sql</File>
+		</UpdateDatabase>
+		<UpdateText id="RemovableDistrictsText_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>RemovableDistricts</Criteria>
+			<File>TC_RemovableDistricts/970184582/RemovableDistricts_text_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="SukritactsGlobalRelations_ru_RU">
+			<Criteria>SukritactsGlobalRelations</Criteria>
+			<File>Sukritact_GlobalRelations/1753346735/Core/Localisation_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="SukritactsOceans_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>SukritactsOceans</Criteria>
+			<File>Sukritact_Oceans/2542898147/Translations/Suk_Oceans_Localisation_RU_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="SukritactsResources_Monopolies_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>SukritactsResources</Criteria>
+			<Criteria>Monopolies_Mode</Criteria>
+			<File priority="2">Sukritact_Resources/1150492115/Core/AlternateEconomy/Suk_AltEcon_Localisation_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="SukritactsSimpleUI_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>SukritactsSimpleUI</Criteria>
+			<File>Sukritact_SimpleUI/939149009/Core/Localisation_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="SukritactsResources_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>SukritactsResources</Criteria>
+			<File>Sukritact_Resources/1150492115/Core/Common/Suk_Resources_Localisation_ru_RU.sql</File>
+		</UpdateText>
+		
+		
+		
+		<UpdateText id="SukritactsTourismOverview_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>SukritactsTourismOverview</Criteria>
+			<File>Sukritact_TourismOverview/2953909938/Core/Localisation_ru_RU.sql</File>
+		</UpdateText>		
+		
+		
+		<UpdateText id="TechCivicProgressPlus_ru_RU">
+			<Properties>
+				<LoadOrder>5</LoadOrder>
+			</Properties>
+			<Criteria>TechCivicProgressPlus</Criteria>
+			<File>DeepLogic_TechsCivicsProgressPlus/2604740398/localization_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="TerraMirabilis_ru_RU">
+			<Properties>
+				<LoadOrder>750</LoadOrder>
+			</Properties>
+			<Criteria>TerraMirabilis</Criteria>
+			<File>ChimpanG_TerraMirabilis/1461463960/Core/Localisation/TM_Localisation_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslations_ru_RU">
+			<File>VanillaUpdate/VanillaUpdate_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslationsEXP1_ru_RU">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+			</Properties>
+			<File>VanillaUpdate/VanillaUpdExp1_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslationsEXP2_ru_RU">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+			</Properties>
+			<File>VanillaUpdate/VanillaUpdExp2_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslationsKublai_ru_RU">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+			</Properties>
+			<File>VanillaUpdate/KublaiKhan_Vietnam_Translations_Text_MODE_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslationsAustralia_ru_RU">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+			</Properties>
+			<File>VanillaUpdate/Australia_Translations_ConfigText_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslationsBabylon_ru_RU">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+			</Properties>
+			<File>VanillaUpdate/Babylon_Translations_Text_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslationsByzantium_ru_RU">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+			</Properties>
+			<File>VanillaUpdate/Byzantium_Gaul_Translations_ConfigText_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslationsEthiopia_ru_RU">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+			</Properties>
+			<File>VanillaUpdate/Ethiopia_Translations_Text_MODE_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslationsPortugal_ru_RU">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+			</Properties>
+			<File>VanillaUpdate/Portugal_Translations_Text_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="VanillaTranslationsVikings_ru_RU">
+			<Properties>
+				<LoadOrder>500</LoadOrder>
+			</Properties>
+			<File>VanillaUpdate/VikingsScenario_Translations_Text_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="WhatDidIPromise_ru_RU">
+			<Criteria>WhatDidIPromise</Criteria>
+			<File>Technoluddite_WhatDidIPromise/2581704421/Text/AKWDIP_Text_ru_RU.xml</File>
+		</UpdateText>
+		<!-- Golden Age ingame actions-->
+		<UpdateText id="GoldenAge_Mod_Supprot_ru_RU">
+			<Properties>
+				<LoadOrder>19901</LoadOrder>
+			</Properties>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Mod_Supprot/CIVITAS_City_States_Expanded_Texts_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Text_ru_RU">
+			<Properties>
+				<LoadOrder>19001</LoadOrder>
+			</Properties>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Background_ru_RU.xml</File>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Others_ru_RU.xml</File>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Pedia_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Worldwonder_ru_RU">
+			<Properties>
+				<LoadOrder>19201</LoadOrder>
+			</Properties>
+			<Criteria>WORLDWONDER</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_WorldWonders_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Naturalwonder_ru_RU">
+			<Properties>
+				<LoadOrder>19211</LoadOrder>
+			</Properties>
+			<Criteria>NATURALWONDER</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_NaturalWonders_ru_RU.xml</File>
+			<File>Gold_GoldenAge/2209309479/Mod_Supprot/Terra_Mirabilis_Texts_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Policy_ru_RU">
+			<Properties>
+				<LoadOrder>19221</LoadOrder>
+			</Properties>
+			<Criteria>POLICY</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Policies_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Pantheons_and_Religions_ru_RU">
+			<Properties>
+				<LoadOrder>19231</LoadOrder>
+			</Properties>
+			<Criteria>RELIGION</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Religious_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Tech_Civic_ru_RU">
+			<Properties>
+				<LoadOrder>19242</LoadOrder>
+			</Properties>
+			<Criteria>Tech_Civic</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Techs_Civics_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Governors_ru_RU">
+			<Properties>
+				<LoadOrder>19251</LoadOrder>
+			</Properties>
+			<Criteria>Governors</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Governors_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Greatpersons_ru_RU">
+			<Properties>
+				<LoadOrder>19262</LoadOrder>
+			</Properties>
+			<Criteria>Greatpersons</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_GreatPersons_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Warfare_ru_RU">
+			<Properties>
+				<LoadOrder>19272</LoadOrder>
+			</Properties>
+			<Criteria>WARFARE</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Units_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_UNIT_EXPANSION_ON_ru_RU">
+			<Properties>
+				<LoadOrder>19276</LoadOrder>
+			</Properties>
+			<Criteria>UNIT_EXPANSION_ON</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Units_Expansion_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Nationalwonder_ru_RU">
+			<Properties>
+				<LoadOrder>19282</LoadOrder>
+			</Properties>
+			<Criteria>NATIONALWONDER</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_NationalWonders_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Buildings_ru_RU">
+			<Properties>
+				<LoadOrder>19286</LoadOrder>
+			</Properties>
+			<Criteria>BUILDING</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Buildings_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Districts_ru_RU">
+			<Properties>
+				<LoadOrder>19293</LoadOrder>
+			</Properties>
+			<Criteria>DISTRICT</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Districts_ru_RU.xml</File>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_DistrictAdjacencies_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Improvements_ru_RU">
+			<Properties>
+				<LoadOrder>19302</LoadOrder>
+			</Properties>
+			<Criteria>IMPROVEMENT</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Improvements_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Projects_ru_RU">
+			<Properties>
+				<LoadOrder>19312</LoadOrder>
+			</Properties>
+			<Criteria>PROJECT</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Projects_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Governments_ru_RU">
+			<Properties>
+				<LoadOrder>19342</LoadOrder>
+			</Properties>
+			<Criteria>GOVERNMENT</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Governments_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_WMD_ru_RU">
+			<Properties>
+				<LoadOrder>19386</LoadOrder>
+			</Properties>
+			<Criteria>WMD</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_WMDs_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Buildingexpansion_ru_RU">
+			<Properties>
+				<LoadOrder>19391</LoadOrder>
+			</Properties>
+			<Criteria>BUILDINGEXPANSION</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Buildings_Expansion_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Citystate_ru_RU">
+			<Properties>
+				<LoadOrder>19397</LoadOrder>
+			</Properties>
+			<Criteria>CITYSTATE</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_CityStates_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Gameplay_Major_ru_RU">
+			<Properties>
+				<LoadOrder>19420</LoadOrder>
+			</Properties>
+			<Criteria>CIVILIZATIONS_AND_LEADERS</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Major_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Custom_Traits_ru_RU">
+			<Properties>
+				<LoadOrder>19711</LoadOrder>
+			</Properties>
+			<Criteria>CUSTOM_TRAITS</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Custom_Traits_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_WorldWar_ru_RU">
+			<Properties>
+				<LoadOrder>19732</LoadOrder>
+			</Properties>
+			<Criteria>WORLDWAR</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_WorldWar_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_History_ru_RU">
+			<Properties>
+				<LoadOrder>19742</LoadOrder>
+			</Properties>
+			<Criteria>HISTORY</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Rise_Fall_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_FriendBonuses_ru_RU">
+			<Properties>
+				<LoadOrder>19771</LoadOrder>
+			</Properties>
+			<Criteria>FRIEND</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_FriendBonuses_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Totalwar_ru_RU">
+			<Properties>
+				<LoadOrder>19783</LoadOrder>
+			</Properties>
+			<Criteria>TOTALWAR</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Totalwar_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Citypolicy_ru_RU">
+			<Properties>
+				<LoadOrder>19831</LoadOrder>
+			</Properties>
+			<Criteria>CITYPOLICY</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_CityPolicies_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_Citylevel_ru_RU">
+			<Properties>
+				<LoadOrder>19841</LoadOrder>
+			</Properties>
+			<Criteria>CITYLEVEL</Criteria>
+			<Criteria>GoldenAge</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_CityLevels_ru_RU.xml</File>
+		</UpdateText>
+		<!-- Golden age ingame actions-->
+		<!-- Golden Age ADD Ingame a ctions-->
+		<UpdateText id="GoldenAge_ADD_Text_ru_RU">
+			<Properties>
+				<LoadOrder>29001</LoadOrder>
+			</Properties>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Others_ru_RU.xml</File>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Pedia_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Greatpersons_ru_RU">
+			<Properties>
+				<LoadOrder>29262</LoadOrder>
+			</Properties>
+			<Criteria>Greatpersons</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_GreatPersons_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Warfare_ru_RU">
+			<Properties>
+				<LoadOrder>29272</LoadOrder>
+			</Properties>
+			<Criteria>WARFARE</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Units_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_UNIT_EXPANSION_ON_ru_RU">
+			<Properties>
+				<LoadOrder>29275</LoadOrder>
+			</Properties>
+			<Criteria>UNIT_EXPANSION_ON</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Units_Expansion_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Buildings_ru_RU">
+			<Properties>
+				<LoadOrder>29286</LoadOrder>
+			</Properties>
+			<Criteria>BUILDING_NEW</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Buildings_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Districts_ru_RU">
+			<Properties>
+				<LoadOrder>29293</LoadOrder>
+			</Properties>
+			<Criteria>DISTRICT</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Districts_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Improvements_ru_RU">
+			<Properties>
+				<LoadOrder>29302</LoadOrder>
+			</Properties>
+			<Criteria>IMPROVEMENT</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Improvements_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Governments_ru_RU">
+			<Properties>
+				<LoadOrder>29342</LoadOrder>
+			</Properties>
+			<Criteria>GOVERNMENT</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Governments_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Buildingexpansion_ru_RU">
+			<Properties>
+				<LoadOrder>29385</LoadOrder>
+			</Properties>
+			<Criteria>BUILDINGEXPANSION_NEW</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Buildings_Expansion_ru_RU.xml</File>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Buildings_Expansion_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Tech_Civic_ru_RU">
+			<Properties>
+				<LoadOrder>29388</LoadOrder>
+			</Properties>
+			<Criteria>Tech_Civic</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Techs_Civics_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Citystate_ru_RU">
+			<Properties>
+				<LoadOrder>29392</LoadOrder>
+			</Properties>
+			<Criteria>GA_CITYSTATE_NEW</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_CityStates_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Projects_ru_RU">
+			<Properties>
+				<LoadOrder>29395</LoadOrder>
+			</Properties>
+			<Criteria>PROJECT</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Projects_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Gameplay_Major_ru_RU">
+			<Properties>
+				<LoadOrder>29420</LoadOrder>
+			</Properties>
+			<Criteria>CIVILIZATIONS_AND_LEADERS</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Major_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Secretsocieties_mode_ru_RU">
+			<Properties>
+				<LoadOrder>29570</LoadOrder>
+			</Properties>
+			<Criteria>SECRETSOCIETIES_GA_OFF</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Secretsocieties_off_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Secretsocieties_mode_ru_RU">
+			<Properties>
+				<LoadOrder>29571</LoadOrder>
+			</Properties>
+			<Criteria>SECRETSOCIETIES_GA_ON</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Secretsocieties_on_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Dramaticages_mode_ru_RU">
+			<Properties>
+				<LoadOrder>29602</LoadOrder>
+			</Properties>
+			<Criteria>DRAMATICAGES_GA_OFF</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_DramaticAges_off_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Dramaticages_mode_ru_RU">
+			<Properties>
+				<LoadOrder>29603</LoadOrder>
+			</Properties>
+			<Criteria>DRAMATICAGES_GA_ON</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_DramaticAges_on_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Monopolies_mode_ru_RU">
+			<Properties>
+				<LoadOrder>29605</LoadOrder>
+			</Properties>
+			<Criteria>MONOPOLIES_GA_ON</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Monopolies_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Megalopolis_ru_RU">
+			<Properties>
+				<LoadOrder>29791</LoadOrder>
+			</Properties>
+			<Criteria>MEGALOPOLIS</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Megalopolis_ru_RU.xml</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_GA_CULTIVATION_ru_RU">
+			<Properties>
+				<LoadOrder>29850</LoadOrder>
+			</Properties>
+			<Criteria>GA_CULTIVATION</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Cultivations_ru_RU.sql</File>
+		</UpdateText>
+		<UpdateText id="GoldenAge_ADD_Worldwonder_ru_RU">
+			<Properties>
+				<LoadOrder>29860</LoadOrder>
+			</Properties>
+			<Criteria>WORLDWONDER</Criteria>
+			<Criteria>GoldenAge_ADD</Criteria>
+			<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_WorldWonders_ru_RU.xml</File>
+		</UpdateText>
+		<!-- Golden Age ADD Ingame a ctions-->
+	</InGameActions>
+	<Files>
+		<!-- <File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Natural_Wonders_ru_RU.sql</File>	 -->
+		<File>Albro_More_Maritime_SS/2601169154/Text/Waterfront_EXP_Text_ru_RU.xml</File>
+		<File>Albro_NationalWonders/2503076363/Text/NAT_WONDER_Text_ru_RU.xml</File>
+		<File>Albro_NationalWonders_EXP1/2612473657/Text/NAT_WONDER_Text_PACK_01_ru_RU.xml</File>
+		<File>ChimpanG_TerraMirabilis/1461463960/Core/Localisation/TM_Localisation_ru_RU.sql</File>
+		<File>DJackTheNarrator_MultiplayerHelper/2357532056/lang/Text_RU.xml</File>
+		<File>Konomi_DetailedWonderReminder/2794603014/Text/DetailedWonderReminder_ru_RU.sql</File>
+		<File>DeepLogic_TechsCivicsProgressPlus/2604740398/localization_ru_RU.sql</File>
+		<File>FinalFreak16_EnhancedModManager/1601259406/UI/mods.xml</File>
+		<File>FinalFreak16_EnhancedModManager/1601259406/localisation_ru_RU.sql</File>
+		<File>Furion1986_ProjectMetropolis/2427195031/PH_ConfigText_ru_RU.xml</File>
+		<File>Furion1986_ProjectMetropolis/2427195031/QuarterText_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Mod_Supprot/CIVITAS_City_States_Expanded_Texts_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Mod_Supprot/Renewable_Energy_Complexity_Texts_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Mod_Supprot/Terra_Mirabilis_Texts_ru_RU.sql</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Background_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Buildings_Expansion_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Buildings_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_CityLevels_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_CityPolicies_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_CityStates_ru_RU.sql</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Custom_Traits_ru_RU.sql</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Custom_Traits_ru_RU.sql</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_DistrictAdjacencies_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Districts_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_FriendBonuses_ru_RU.sql</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Front_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Front_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Governments_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Governors_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_GreatPersons_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Improvements_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Major_ru_RU.sql</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Major_ru_RU.sql</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_NationalWonders_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_NaturalWonders_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Others_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Pedia_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Policies_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Projects_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Religious_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Rise_Fall_ru_RU.sql</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Rise_Fall_ru_RU.sql</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Techs_Civics_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Totalwar_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Units_Expansion_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_Units_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_WMDs_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_WorldWar_ru_RU.xml</File>
+		<File>Gold_GoldenAge/2209309479/Texts/GoldenAge_Texts_WorldWonders_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Mod_Supprot/Leader_texts_ru_RU.sql</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Buildings_Expansion_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Buildings_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_CityStates_ru_RU.sql</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Cultivations_ru_RU.sql</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Districts_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_DramaticAges_off_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_DramaticAges_on_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Front_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Governments_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_GreatPersons_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Improvements_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Major_ru_RU.sql</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Megalopolis_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Monopolies_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Others_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Pedia_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Projects_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Secretsocieties_off_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Secretsocieties_on_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Techs_Civics_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Units_Expansion_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_Units_ru_RU.xml</File>
+		<File>Gold_GoldenAge_Add/2582452031/Texts/GoldenAge_Texts_WorldWonders_ru_RU.xml</File>
+		<File>Infixo_BeterLoadingScreen/1579019534/UI/LoadScreen.xml</File>
+		<File>Infixo_BetterReportScreen/1312585482/Text/BetterReportScreen_Text2_ru_RU.xml</File>
+		<File>Infixo_RealGovernorInspector/2120647226/Text/GovernorInspector_ru_RU.xml</File>
+		<File>Infixo_RealEraTracker/1699006932/Text/RealEraTracker_Text_ru_RU.xml</File>
+		      <File>JNR_6T/GrandEras/2769967307/Text/6T_Text_Boosts_ru_RU.sql</File>
+			  <File>JNR_6T/EnlightenmentGovernments/2770023017/Core/Gov_Tier5_Text.sql</File>
+			  <File>JNR_6T/UnitExpansionInfantry/2793114339/Core/6TUE_Infantry_Text_ru_RU.sql</File>
+			  <File>JNR_6T/UnitExpansionCavalry/2793114662/Core/6TUE_Cavalry_Text_ru_RU.sql</File>
+				<File>JNR_6T/UnitExpansionArtillery/2793114889/Core/6TUE_Artillery_Text_ru_RU.sql</File>
+				<File>JNR_6T/UnitExpansionNaval/2793115058/Core/6TUE_Naval_Text_ru_RU.sql</File>    
+
+      <File>JNR_6T/UnitExpansionAir/2793115197/Core/6TUE_Air_Text_ru_RU.sql</File>	
+
+      <File>JNR_6T/Sappers/1822380055/MC_Sappers_Text_ru_RU.sql</File>
+	  
+		<File>JNR_DistrictExpansion/Aqueduct/2362219368/Text/ModSupport/UC_AQD_Text_Baray_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Aqueduct/2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Default_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Aqueduct/2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Aqueduct/2362219368/Text/ModSupport/UC_AQD_Text_CX_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Aqueduct/2362219368/Text/UC_AQD_Text_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Campus/2112359835/Text/ModSupport/UC_CMP_Text_CS_CSB_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Campus/2112359835/Text/ModSupport/UC_CMP_Text_CS_CSE_Default_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Campus/2112359835/Text/ModSupport/UC_CMP_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Campus/2112359835/Text/ModSupport/UC_CMP_Text_CX_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Campus/2112359835/Text/ModSupport/UC_CMP_Text_RwF_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Campus/2112359835/Text/UC_CMP_Text_CS_Ethiopia_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Campus/2112359835/Text/UC_CMP_Text_CS_GS_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Campus/2112359835/Text/UC_CMP_Text_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Commerce/2056401784/Text/ModSupport/UC_COM_Text_CS_CSB_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Commerce/2056401784/Text/ModSupport/UC_COM_Text_CS_CSE_Default_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Commerce/2056401784/Text/ModSupport/UC_COM_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Commerce/2056401784/Text/ModSupport/UC_COM_Text_CX_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Commerce/2056401784/Text/ModSupport/UC_COM_Text_MMSS_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Commerce/2056401784/Text/ModSupport/UC_COM_Text_RwF_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Commerce/2056401784/Text/UC_COM_Text_CS_Ethiopia_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Commerce/2056401784/Text/UC_COM_Text_CS_GS_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Commerce/2056401784/Text/UC_COM_Text_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Entertainment/2474028548/Text/ModSupport/UC_ENT_Text_CS_CSE_Default_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Entertainment/2474028548/Text/ModSupport/UC_ENT_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Entertainment/2474028548/Text/ModSupport/UC_ENT_Text_CX_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Entertainment/2474028548/Text/ModSupport/UC_ENT_Text_Suk_Oceans_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Entertainment/2474028548/Text/UC_ENT_Text_Name_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Entertainment/2474028548/Text/UC_ENT_Text_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Government/1684556488/Text/ModSupport/UC_GOV_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Government/1684556488/Text/UC_GOV_Text_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Industry/2402394695/Text/ModSupport/UC_PRD_Text_CS_CSB_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Industry/2402394695/Text/ModSupport/UC_PRD_Text_CS_CSE_Default_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Industry/2402394695/Text/ModSupport/UC_PRD_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Industry/2402394695/Text/ModSupport/UC_PRD_Text_CX_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Industry/2402394695/Text/UC_PRD_Text_CS_Ethiopia_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Industry/2402394695/Text/UC_PRD_Text_CS_GS_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Industry/2402394695/Text/UC_PRD_Text_MODE_Corporations_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Industry/2402394695/Text/UC_PRD_Text_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Military/1839114973/Text/ModSupport/UC_MIL_Text_ARS_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Military/1839114973/Text/ModSupport/UC_MIL_Text_CS_CSB_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Military/1839114973/Text/ModSupport/UC_MIL_Text_CS_CSE_Default_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Military/1839114973/Text/ModSupport/UC_MIL_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Military/1839114973/Text/ModSupport/UC_MIL_Text_CX_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Military/1839114973/Text/ModSupport/UC_MIL_Text_WarfareExpanded_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Military/1839114973/Text/UC_MIL_Text_CS_Ethiopia_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Military/1839114973/Text/UC_MIL_Text_CS_GS_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Military/1839114973/Text/UC_MIL_Text_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Religion/2333458984/Text/ModSupport/UC_REL_Text_AmunRa_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Religion/2333458984/Text/ModSupport/UC_REL_Text_CS_CSB_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Religion/2333458984/Text/ModSupport/UC_REL_Text_CS_CSE_Default_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Religion/2333458984/Text/ModSupport/UC_REL_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Religion/2333458984/Text/ModSupport/UC_REL_Text_CX_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Religion/2333458984/Text/ModSupport/UC_REL_Text_RE_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Religion/2333458984/Text/ModSupport/UC_REL_Text_RwF_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Religion/2333458984/Text/UC_REL_Text_CS_Ethiopia_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Religion/2333458984/Text/UC_REL_Text_CS_GS_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Religion/2333458984/Text/UC_REL_Text_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Suburbs/2669325299/Text/UC_NBH_Text_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Theater/2314657561/Text/ModSupport/UC_THR_Text_CS_CSB_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Theater/2314657561/Text/ModSupport/UC_THR_Text_CS_CSE_Default_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Theater/2314657561/Text/ModSupport/UC_THR_Text_CS_CSE_Ethiopia_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Theater/2314657561/Text/ModSupport/UC_THR_Text_CX_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Theater/2314657561/Text/ModSupport/UC_THR_Text_RwF_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Theater/2314657561/Text/UC_THR_Text_CS_Ethiopia_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Theater/2314657561/Text/UC_THR_Text_CS_GS_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Theater/2314657561/Text/UC_THR_Text_Name_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Theater/2314657561/Text/UC_THR_Text_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Worship/2337885119/Text/ModSupport/UC_REL_Worship_Text_AmunRa_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Worship/2337885119/Text/ModSupport/UC_REL_Worship_Text_CX_ru_RU.sql</File>
+		<File>JNR_DistrictExpansion/Worship/2337885119/Text/UC_REL_Worship_Text_ru_RU.sql</File>
+
+	  <File>JNR_6T/GrandEras/2769967307/Text/6T_Text_Config_ru_RU.sql</File>
+      <File>JNR_6T/GrandEras/2769967307/Text/6T_Text_Names_ru_RU.sql</File>
+	  <File>JNR_6T/GrandEras/2769967307/Text/6T_Text_Misc_ru_RU.sql</File>
+	  <File>JNR_6T/GrandEras/2769967307/Text/6T_Text_UnlockablesUI_ru_RU.xml</File>
+		<File>Leugi_MonopolyPlus_CPA/2479195330/Text/MonopolyPlusAdjustments_GreatPeopleTexts_ru_RU.sql</File>
+		<File>Leugi_MonopolyPlus_CPA/2479195330/Text/MonopolyPlus_Texts_ru_RU.sql</File>
+		<File>Leugi_MonopolyPlus_TI/2479197624/Text/MonopolyPlus_GreatPeopleTexts_ru_RU.sql</File>
+		<File>Leugi_MonopolyPlus_TI/2479197624/Text/MonopolyPlus_ImprovementTexts_ru_RU.sql</File>
+		<File>Leugi_MonopolyPlus_TI/2479197624/Text/MonopolyPlus_JNRCompatibilityTexts_ru_RU.sql</File>
+		<File>Leugi_MonopolyPlus_TI/2479197624/Text/MonopolyPlus_TycoonsText_ru_RU.sql</File>
+		<File>Leugi_MonopolyPlus_TI/2479197624/Text/MonopolyPlust_UnitTexts_ru_RU.sql</File>
+		<File>Lime_BridgeDistricts/2331527458/code/LimeBridges-Text_ru_RU.sql</File>
+		<File>NeaBahaja_CreateYourPantheon/2990102039/CP_Text_Frontend_ru_RU.sql</File>
+		<File>NeaBahaja_CreateYourPantheon/2990102039/CP_Text_Pantheons_ru_RU.sql</File>
+		<File>PeterSpjuth_GreatWorksViewer/1652106496/greatworksview_text_ru_RU.xml</File>
+		<File>Sparrow_AdvancedCheatMenu/1528155583/Base/UI/Text/Localisation_ru_RU.sql</File>
+		<File>Sukritact_GlobalRelations/1753346735/Core/Localisation_ru_RU.sql</File>
+		<File>Sukritact_Oceans/2542898147/Translations/Suk_Oceans_Localisation_RU_ru_RU.sql</File>
+		<File>Sukritact_Resources/1150492115/Core/AlternateEconomy/Suk_AltEcon_Localisation_ru_RU.sql</File>
+		<File>Sukritact_Resources/1150492115/Core/Common/Suk_Resources_Localisation_ru_RU.sql</File>
+		<File>Sukritact_SimpleUI/939149009/Core/Localisation_ru_RU.sql</File>
+		<File>Sukritact_TourismOverview/2953909938/Core/Localisation_ru_RU.sql</File>
+		<File>TC_RemovableDistricts/970184582/RemovableDistricts_localization_fix_ru_RU.sql</File>
+		<File>TC_RemovableDistricts/970184582/RemovableDistricts_text_ru_RU.sql</File>
+		<File>Technoluddite_EndgameMapReplay/2656616965/Text/AKMH_Text_ru_RU.xml</File>
+		<File>Technoluddite_GreatestCities/2494925002/GreatestCities.lua</File>
+		<File>Technoluddite_GreatestCities/2494925002/Text/AKGC_Text_ru_RU.xml</File>
+		<File>Technoluddite_WhatDidIPromise/2581704421/Text/AKWDIP_Text_ru_RU.xml</File>
+		<File>UpdateStyles/Base/Assets/UI/Civ6_Styles.xml</File>
+		<File>UpdateStyles/Base/Assets/UI/FrontEnd/AdvancedSetup.xml</File>
+		<File>UpdateStyles/Base/Assets/UI/FrontEnd/InitScreen.xml</File>
+		<File>UpdateStyles/Base/Assets/UI/FrontEnd/LoadScreen.xml</File>
+		<File>UpdateStyles/Base/Assets/UI/FrontEnd/Mods.xml</File>
+		<File>UpdateStyles/Base/Assets/UI/FrontEnd/Multiplayer/Lobby.xml</File>
+		<File>UpdateStyles/Base/Assets/UI/Popups/PopupDialog.xml</File>
+		<File>UpdateStyles/DLC/Expansion2/UI/Replacements/DiplomacyActionView.xml</File>
+		<File>UpdateStyles/DLC/KublaiKhan_Vietnam/UI/Replacements/GlobalResourcePopup.xml</File>
+		<File>VanillaUpdate/Australia_Translations_ConfigText_ru_RU.xml</File>
+		<File>VanillaUpdate/Babylon_Translations_Text_ru_RU.xml</File>
+		<File>VanillaUpdate/Byzantium_Gaul_Translations_ConfigText_ru_RU.xml</File>
+		<File>VanillaUpdate/Ethiopia_Translations_Text_MODE_ru_RU.xml</File>
+		<File>VanillaUpdate/KublaiKhan_Vietnam_Translations_ConfigText_ru_RU.xml</File>
+		<File>VanillaUpdate/KublaiKhan_Vietnam_Translations_Text_MODE_ru_RU.xml</File>
+		<File>VanillaUpdate/Portugal_Translations_ConfigText_ru_RU.xml</File>
+		<File>VanillaUpdate/Portugal_Translations_Text_ru_RU.xml</File>
+		<File>VanillaUpdate/VanillaUpdExp1_ru_RU.xml</File>
+		<File>VanillaUpdate/VanillaUpdExp2_ru_RU.xml</File>
+		<File>VanillaUpdate/VanillaUpdate_ru_RU.xml</File>
+		<File>VanillaUpdate/VikingsScenario_Translations_ConfigText_ru_RU.xml</File>
+		<File>VanillaUpdate/VikingsScenario_Translations_Text_ru_RU.xml</File>
+		<File>lockstep_HappinessAndGrowth/1332994668/HGI_Text_ru_RU.xml</File>
+		<File>p0kiehl_AncientEgyptianPantheons/1484935230/Core/EgyptianPantheon_Localisation_ru_RU.sql</File>
+		<File>p0kiehl_BetterCoastalCities/881541733/WaterTiles_Text_ru_RU.sql</File>
+		<File>p0kiehl_BetterPantheons/1720838435/Core/Localisation/Pantheons_Text_ru_RU.sql</File>
+		<File>p0kiehl_BetterPantheons/1720838435/Core/Localisation/ReligionExpanded_Pantheons_Text_ru_RU.sql</File>
+		<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Abilities_Text_ru_RU.sql</File>
+		<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Buildings_Text_ru_RU.sql</File>
+		<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Config_Text_ru_RU.sql</File>
+		<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Religion_Text_XP1_or_XP2_ru_RU.sql</File>
+		<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Religion_Text_XP2_ru_RU.sql</File>
+		<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Religion_Text_ru_RU.sql</File>
+		<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Updated_Buildings_Text_ru_RU.sql</File>
+		<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Updated_Religion_Text_XP1_or_XP2_ru_RU.sql</File>
+		<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Updated_Religion_Text_XP2_ru_RU.sql</File>
+		<File>p0kiehl_ReligionExpanded/1178185727/Core/Localisation/Updated_Religion_Text_ru_RU.sql</File>
+		<File>the_m4a_CQUI/2115302648/Assets/Expansion2/Replacements/diplomacyactionview.xml</File>
+		<File>the_m4a_CQUI/2115302648/Assets/Text/cqui_text_settings_ru_ru_RU.xml</File>
+		<File>the_m4a_CQUI/2115302648/Assets/UI/diplomacyactionview.xml</File>
+		<File>the_m4a_CQUI/2115302648/Integrations/BTS/Text/bts_text_ru_ru_RU.xml</File>
+		<File>the_m4a_CQUI/2115302648/Integrations/ML/Text/morelenses_text_ru_RU.xml</File>
+		<File>wltk_QuickDeals/2460661464/text/qd_translations_text_ru_RU.xml</File>
+		<File>README.md</File>
+	</Files>
+	
+
+	
+</Mod>
+
+
+

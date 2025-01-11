@@ -1,0 +1,94 @@
+<GameData>
+    <LocalizedText>	
+	<!--核武器-->
+	
+	<Replace Tag="LOC_PROJECT_BUILD_NUCLEAR_DEVICE_DESCRIPTION" Language="ru_RU">
+      <Text>Добавляет ядерное устройство в арсенал вашей империи. Дальность 10. Радиус взрыва: 1 клетка. Уничтожение всего в пределах досягаемости взрыва и создание радиоактивного излучения. Требуется 30 [ICON_Resource_Uranium] ед. урана. Обслуживание стоит 100 [ICON_Gold] золота.</Text>
+    </Replace>
+    
+    <Replace Tag="LOC_PROJECT_BUILD_THERMONUCLEAR_DEVICE_DESCRIPTION" Language="ru_RU">
+      <Text>Добавляет термоядерное устройство в арсенал вашей империи. Дальность 12. Радиус взрыва: 2 клетки. Уничтожение всего в пределах досягаемости взрыва и создание радиоактивного излучения. Требуется 40 [ICON_Resource_Uranium] ед.  урана. Обслуживание стоит 150 [ICON_Gold] золота.</Text>
+    </Replace>	
+		
+	
+    <Replace Tag="LOC_PROJECT_OPERATION_IVY_DESCRIPTION" Language="ru_RU">
+      <Text>Откройте доступ к этому проекту после завершения проекта «Манхэттен». Позволяет создавать термоядерное устройство и ядерную ракету.</Text>
+    </Replace>	
+	
+	
+    <Replace Tag="LOC_PROJECT_OPERATION_CASTLE_NAME" Language="ru_RU">
+      <Text>Операция «Дворец»|операции «Дворец»|операции «Дворец»|операцию «Дворец»|операцией «Дворец»|операции «Дворец»</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>	
+	
+    <Replace Tag="LOC_PROJECT_OPERATION_CASTLE_DESCRIPTION" Language="ru_RU">
+      <Text>Откройте доступ к этому проекту после завершения операции "Иви". Позволяет создавать водородную бомбу и нейтронную бомбу.</Text>
+    </Replace>	
+	
+    <Replace Tag="LOC_PROJECT_BUILD_KUZKINE_MET_NAME" Language="ru_RU">
+      <Text>Создание водородной бомбы</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Replace>	
+	
+    <Replace Tag="LOC_PROJECT_BUILD_KUZKINE_MET_DESCRIPTION" Language="ru_RU">
+      <Text>Добавляет водородную бомбу в арсенал вашей империи. Дальность 15. Радиус взрыва 3 клетки. Уничтожение всего в пределах досягаемости взрыва и создание радиоактивного излучения. Требуется 60 [ICON_Resource_Uranium] ед. урана. Обслуживание стоит 250 [ICON_Gold] золота.</Text>
+    </Replace>	
+	
+    <Replace Tag="LOC_WMD_KUZKINE_MET_NAME" Language="ru_RU">
+      <Text>Водородная бомба|водородную бомбу|водородной бомбы|водородную бомбу|водородной бомбой|водородной бомбе</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>	
+	
+    <Replace Tag="LOC_PROJECT_BUILD_CASTLE_BRAVO_NAME" Language="ru_RU">
+      <Text>Создание нейтронной бомбы</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Replace>	
+	
+    <Replace Tag="LOC_PROJECT_BUILD_CASTLE_BRAVO_DESCRIPTION" Language="ru_RU">
+      <Text>Добавляет нейтронную бомбу в арсенал вашей империи. Дальность — 15. Радиус взрыва — 4 клетки. В основном используется для ударов по юнитам и населению городов. Не производит ядерного излучения и не наносит урона улучшениям, зданиям и районам. Требуется 50 [ICON_Resource_Uranium] ед. урана. Обслуживание стоит 200 [ICON_Gold] золота.</Text>
+    </Replace>	
+	
+    <Replace Tag="LOC_WMD_CASTLE_BRAVO_NAME" Language="ru_RU">
+      <Text>Нейтронная бомба|нейтронную бомбу|нейтронной бомбы|нейтронную бомбу|нейтронной бомбой|нейтронной бомбе</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>	
+	
+    <Replace Tag="LOC_PROJECT_BUILD_R36_ORB_NAME" Language="ru_RU">
+      <Text>Создание ядерной ракеты</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Replace>	
+	
+    <Replace Tag="LOC_PROJECT_BUILD_R36_ORB_DESCRIPTION" Language="ru_RU">
+      <Text>Добавляет ядерную ракету в арсенал вашей империи. Дальность удара может охватывать весь мир. Радиус взрыва составляет 1 клетку. Уничтожение всего в пределах досягаемости взрыва и создание радиоактивного излучения. Требуется 40 [ICON_Resource_Uranium] ед. урана. Обслуживание стоит 150 [ICON_Gold] золота.</Text>
+    </Replace>	
+	
+    <Replace Tag="LOC_WMD_R36_ORB_NAME" Language="ru_RU">
+      <Text>Ядерная ракета|ядерной ракеты|ядерной ракете|ядерную ракету|ядерной ракетой|ядерной ракете</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+    <Replace Tag="LOC_CREATE_BASE_MISSILE_NAME" Language="ru_RU">
+      <Text>Создание ракеты</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Replace>	
+	
+    <Replace Tag="LOC_CREATE_BASE_MISSILE_DESCRIPTION" Language="ru_RU">
+      <Text>Добавляет ракету в арсенал вашей империи. Дальность — 20. Атакует только в целевую клетку, уничтожая все на этой клетке. Требуется 30 [ICON_Resource_Aluminum] ед. алюминия. Обслуживание стоит 50 [ICON_Gold] золота.</Text>
+    </Replace>	
+	
+    <Replace Tag="LOC_WMD_MISSILE_BASE_NAME" Language="ru_RU">
+      <Text>Ракета|ракеты|ракете|ракету|ракетой|ракете</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>  		
+    </Replace>
+	</LocalizedText>
+</GameData>	
+		  

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+	<Parameters>
+		<Update>
+			<Where ParameterId="GameMode_BarbarianClans"/>
+			<Set>
+				<Name>LOC_GAMEMODE_ELVES_NAME</Name>
+				<Description>LOC_GAMEMODE_ELVES_DESCRIPTION</Description>
+			</Set>
+		</Update>
+	</Parameters>
+	
+	<GameModeItems>
+		<Update>
+			<Where GameModeType="GAMEMODE_BARBARIAN_CLANS"/>
+			<Set>
+				<Name>LOC_GAMEMODE_ELVES_NAME</Name>
+				<Description>LOC_GAMEMODE_ELVES_DESCRIPTION</Description>
+				<Portrait>GAMEMODE_ELVES.dds</Portrait>
+				<Icon>ICON_GAMEMODE_ELVES</Icon>
+			</Set>
+		</Update>
+	</GameModeItems>
+	
+	<!--Mode-based Player Overrides (Aedirn Special Forces)-->
+	<GameModePlayerItemOverrides>
+		<Row GameModeType="GAMEMODE_BARBARIAN_CLANS" Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_IPG_AEDIRN" LeaderType="LEADER_IPG_DEMAVEND" Type="UNIT_AEDIRNIAN_SPECIAL_FORCES" Description="LOC_TRAIT_AEDIRNIAN_SPECIAL_FORCES_MODE_DESCRIPTION"/>
+	</GameModePlayerItemOverrides>
+	
+	<PlayerItemOverrideQueries>
+		<Row QueryId="ElvesModePlayerItemOverrides"/>
+	</PlayerItemOverrideQueries>
+	
+	<Queries>
+		<Row QueryId="ElvesModePlayerItemOverrides" SQL="SELECT * FROM GameModePlayerItemOverrides WHERE GameModeType = 'GAMEMODE_BARBARIAN_CLANS'"/>
+	</Queries>
+	
+	<QueryCriteria>
+		<Row QueryId="ElvesModePlayerItemOverrides" ConfigurationGroup="Game" ConfigurationId="GAMEMODE_BARBARIAN_CLANS" Operator="Equals" ConfigurationValue="1"/>
+	</QueryCriteria>
+</GameInfo>

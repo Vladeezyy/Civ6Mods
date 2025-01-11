@@ -1,0 +1,123 @@
+<GameData>
+    <LocalizedText>	
+	<!--自然奇观-->
+	
+	<Replace Tag="LOC_FEATURE_BARRIER_REEF_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы, которое можно найти на прибрежной территории. Дает +4 [ICON_Food] пищи и +4 [ICON_Science] науки.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_CLIFFS_DOVER_XP2_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы. Появляется со скалами рядом с водой и дает +3 [ICON_CULTURE] культуры, +2 [ICON_FOOD] пищи и +3 [ICON_GOLD] золота.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_CRATER_LAKE_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы. Выглядит как озеро и дает пресную воду. +4 [ICON_SCIENCE] науки, +4 [ICON_Faith] веры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_DEAD_SEA_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы. Выглядит как озеро. Не дает пресную воду. Дает +3 [ICON_Culture] культуры и +3 [ICON_Faith] веры. Юниты полностью исцеляются, если они лечатся в течение одного хода рядом с Мертвым морем.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_PANTANAL_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы. Появляется как болото. Дает +3 [ICON_Food] пищи, +3 [ICON_Culture] культуры и +2 [ICON_Faith] веры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_EYE_OF_THE_SAHARA_XP2_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы. Дает +4 [ICON_PRODUCTION] производства и +4 [ICON_SCIENCE] науки.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_LAKE_RETBA_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы. Появляется как озеро. Не дает пресную воду. Дает +4 [ICON_Gold] золота и +4 [ICON_Culture] культуры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_UBSUNUR_HOLLOW_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы. Появляется как болото. Дает +4 [ICON_Food] пищи и +4 [ICON_Faith] веры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_CHOCOLATEHILLS_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы. Дает +3 [ICON_Food] пищи, +3 [ICON_PRODUCTION] производства, +2 [ICON_Culture] культуры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_GOBUSTAN_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы. Дает +3 [ICON_SCIENCE] науки, +3 [ICON_Culture] культуры, и +2 [ICON_PRODUCTION] производства.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_WHITEDESERT_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы. Дает +4 [ICON_Gold] золота, +2 [ICON_SCIENCE] науки, и +2 [ICON_Culture] культуры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_FOUNTAIN_OF_YOUTH_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы. Обуспечивает пресной водой. Дает +3 [ICON_Food] пищи и +3 [ICON_Faith] веры. Сухопутные боевые юниты, проходящие через него, получают способность «Живая вода» (+10 ед. исцеления на любой территории).</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_FEATURE_HA_LONG_BAY_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы. Дает +3 [ICON_Food] пищи и +3 [ICON_PRODUCTION] производства. +15 [ICON_Strength] боевой мощи при обороне на этой клетке.</Text>
+    </Replace>
+	
+	
+	
+	<Replace Tag="LOC_FEATURE_EVEREST_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы на три непроходимые клетки. Дает +2 [ICON_Faith] веры соседним клеткам. Религиозные юниты, которые прошли рядом с горой Эверест, игнорируют холмы до конца игры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_GALAPAGOS_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы на две непроходимые клетки. Соседние клетки получают +2 [ICON_SCIENCE] науки, +1 [ICON_Food] пищи.</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_FEATURE_PIOPIOTAHI_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы на три непроходимые клетки. Соседние клетки получают +2 [ICON_Culture] культуры и +1 [ICON_GOLD] золота.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_TSINGY_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы на одну непроходимую клетку. Соседние клетки получают +1 [ICON_Culture] культуры, +1 [ICON_SCIENCE] науки, и +1 [ICON_GOLD] золота.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION" Language="ru_RU">
+      <Text>Сухопутные боевые юниты, заходящие на соседние клетки, получают способность «Копье Финна» (+5 боевой мощи). Соседние клетки получают +1 [ICON_Culture] культуры и +1 [ICON_PRODUCTION] производства.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_LYSEFJORDEN_DESCRIPTION" Language="ru_RU">
+      <Text>Морские боевые юниты, которые входят в соседние клетки, получают повышение. Соседние клетки получают +1 [ICON_PRODUCTION] производства и +1 [ICON_SCIENCE] науки.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_ULURU_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы на одну непроходимую клетку. Соседние клетки получают +2 [ICON_Culture] культуры и +1 [ICON_Faith] веры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_DELICATE_ARCH_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы на одну непроходимую клетку. Соседние клетки получают +1 [ICON_Culture] культуры, +1 [ICON_GOLD] золота, и +1 [ICON_Faith] веры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_MATTERHORN_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы на одну непроходимую клетку. Дает +1 [ICON_Faith] веры и +1 [ICON_PRODUCTION] производства соседним клеткам. Наземные боевые юниты, прошедшие рядом с Маттерхорном, игнорируют холмы до конца игры и получают +3 [ICON_Strength] к боевой мощи, сражаясь на холмах.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_RORAIMA_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы на четыре непроходимые клетки. Появляется как гора. Соседние клетки получают +1 [ICON_Faith] веры и +2 [ICON_SCIENCE] науки.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_ZHANGYE_DANXIA_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы на три непроходимые клетки. Соседние клетки получают +1 [ICON_Culture] культуры и +1 [ICON_SCIENCE] науки. Дает 2 очка [ICON_GREATGENERAL] великих генералов и 2 очка [ICON_GREATMERCHANT] великих торговцев, если у вас есть хотя бы одна из этих клеток.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_IKKIL_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы на одну непроходимую клетку. Соседние клетки получают +1 [ICON_Food] пищи и +1 [ICON_PRODUCTION] производства. +50% [ICON_PRODUCTION] к производству чудес и районов на соседних клетках. Дает пресную воду.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_DEVILSTOWER_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы на одну непроходимую клетку. Соседние клетки получают +2 [ICON_Faith] веры и +1 [ICON_PRODUCTION] производства.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_PAMUKKALE_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы на две непроходимые клетки. Обеспечивает пресной водой. Соседние клетки получают +3 [ICON_Culture] культуры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_VESUVIUS_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы на одну непроходимую клетку. Появляется как a Volcano и Дает +2 [ICON_PRODUCTION] производства соседним клеткам. При извержении дает высокую урожайность соседним клеткам, но приводит к большим потерям [ICON_Citizen] населения. Всегда активен.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_PAITITI_DESCRIPTION" Language="ru_RU">
+      <Text>Чудо природы на три непроходимые клетки. Дает +3 [ICON_GOLD] золота соседним клеткам. Город, владеющий клеткой, получает +4 [ICON_GOLD] золота за исходящие международные [ICON_TradeRoute] торговые пути.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

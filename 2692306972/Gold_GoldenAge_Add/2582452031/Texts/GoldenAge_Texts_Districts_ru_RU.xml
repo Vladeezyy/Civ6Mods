@@ -1,0 +1,13 @@
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="ru_RU">
+			<Text>Район для морской деятельности в вашем городе, дальность атаки обороны равна 1. Также убирает штраф [ICON_Movement] к перемещению за посадку и высадку на эту клетку и с нее. Можно построить на побережье или озере, примыкающем к суше. Невозможно построить на рифе.[NEWLINE]-1 ед. престижа.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_DESCRIPTION" Language="ru_RU">
+			<Text>Район промышленной деятельности в вашем городе.[NEWLINE]-1 ед. престижа.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENCAMPMENT_DESCRIPTION" Language="ru_RU">
+			<Text>Район в вашем городе для военных объектов, дальность атаки обороны равна 1.[NEWLINE][NEWLINE]+1 [ICON_Housing] жилье, если находится рядом с фермой.[NEWLINE]+1 [ICON_Housing] жилье, если находится рядом с пастбищем.[NEWLINE] +1 [ICON_Housing] жилье рядом с плантацией.[NEWLINE]+1 [ICON_Housing] жилье рядом с лагерем.[NEWLINE]+1 [ICON_Housing] жилье рядом с каналом.[NEWLINE]+1 [ICON_Housing] жилье рядом с  аэродромом.[NEWLINE]+1 [ICON_Housing] жилье рядом с правительственной площадью.[NEWLINE]+1 [ICON_Housing] жилье рядом с лагерем. (Требуется игровой режим «Город-гигант»)[NEWLINE]+3 [ICON_Housing] жилья рядом с национальным военным лагерем.[NEWLINE][NEWLINE]-1 ед. престижа.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

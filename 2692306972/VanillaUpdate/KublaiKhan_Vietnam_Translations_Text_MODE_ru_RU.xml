@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+	<Replace Tag="LOC_IMPROVEMENT_INDUSTRY_NAME" Language="ru_RU">
+      <Text>Предприятие|предприятия|предприятию|предприятие|предприятием|предприятии</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_INDUSTRY_TYPE_NAME" Language="ru_RU">
+      <Text>Предприятие {1_Resource[2]}|предприятия {1_Resource[2]}|предприятию {1_Resource[2]}|предприятие {1_Resource[2]}|предприятием {1_Resource[2]}|предприятии {1_Resource[2]}</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_CONTENT_TITLE" Language="ru_RU">
+      <Text>Предприятия, монополии и корпорации</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_WELCOME_PARA_1" Language="ru_RU">
+      <Text>Редкие ресурсы — это хорошо, но вы можете извлечь из них еще больше прибыли. Режим «Монополии и корпорации» позволяет организовывать на основе редких ресурсов предприятия, которые дают те или иные бонусы в зависимости от конкретного ресурса, а также основывать корпорации для повышения эффективности производств, создавать уникальные продукты — бренды, играющие роль экономического наследия, и, наконец, устанавливать монополии. Этот режим влияет на все эпохи, но самое главное начинается в более поздние периоды игры.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_INDUSTRIES_TITLE" Language="ru_RU">
+      <Text>Запуск предприятия</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_INDUSTRIES_PARA_1" Language="ru_RU">
+      <Text>Улучшив два источника одного и того же редкого ресурса и открыв технологию Деньги, цивилизация сможет запустить предприятие по производству такого ресурса. Это делает строитель на любой улучшенной клетке данного ресурса. В каждом городе единовременно может быть только одно предприятие.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_INDUSTRIES_PARA_2" Language="ru_RU">
+      <Text>Помимо очков великого торговца, предприятие также дает своему городу определенные бонусы в зависимости от типа ресурса, который они улучшают:[NEWLINE][ICON_BULLET] Алмазы: +25% [ICON_Gold] золота.[NEWLINE][ICON_BULLET] Вино: +20% [ICON_Culture] культуры.[NEWLINE][ICON_BULLET] Гипс: +30% к [ICON_Production] строительству зданий.[NEWLINE][ICON_BULLET] Жемчуг: +25% [ICON_Faith] веры.[NEWLINE][ICON_BULLET] Какао: +20% роста и +3 [ICON_Housing] жилья.[NEWLINE][ICON_BULLET] Киты: +30% к [ICON_Production] производству военных юнитов.[NEWLINE][ICON_BULLET] Кофе: +20% [ICON_Culture] культуры.[NEWLINE][ICON_BULLET] Краска: +25% [ICON_Faith] веры.[NEWLINE][ICON_BULLET] Ладан: +25% [ICON_Faith] веры.[NEWLINE][ICON_BULLET] Мед: +20% роста и +3 [ICON_Housing] жилья.[NEWLINE][ICON_BULLET] Меха: +30% к [ICON_Production] производству гражданских юнитов.[NEWLINE][ICON_BULLET] Мрамор: +30% к [ICON_Production] строительству зданий.[NEWLINE][ICON_BULLET] Нефрит: +25% [ICON_Gold] золота.[NEWLINE][ICON_BULLET] Оливки: +30% к [ICON_Production] производству гражданских юнитов.[NEWLINE][ICON_BULLET] Пряности: +20% [ICON_Science] культуры.[NEWLINE][ICON_BULLET] Ртуть: +15% [ICON_Science] науки.[NEWLINE][ICON_BULLET] Сахар: +20% роста и +3 [ICON_Housing] жилья.[NEWLINE][ICON_BULLET] Серебро: +25% [ICON_Gold] золота.[NEWLINE][ICON_BULLET] Слоновая кость: +30% к [ICON_Production] производству военных юнитов.[NEWLINE][ICON_BULLET] Соль: +20% роста и +3 [ICON_Housing] жилья.[NEWLINE][ICON_BULLET] Табак: +30% к [ICON_Production] производству военных юнитов.[NEWLINE][ICON_BULLET] Трюфели: +25% [ICON_Gold] золота.[NEWLINE][ICON_BULLET] Хлопок: +30% к [ICON_Production] производству военных юнитов.[NEWLINE][ICON_BULLET] Цитрусы: +30% к [ICON_Production] производству военных юнитов.[NEWLINE][ICON_BULLET] Чай: +15% [ICON_Science] науки.[NEWLINE][ICON_BULLET] Черепахи: +15% [ICON_Science] науки.[NEWLINE][ICON_BULLET] Шелк: +20% [ICON_Culture] культуры.[NEWLINE][ICON_BULLET] Янтарь: +25% [ICON_Faith] веры.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_CORPORATIONS_PARA_1" Language="ru_RU">
+      <Text>После открытия технологии экономики, присвоения не менее трех источников одного редкого ресурса и открытия предприятия приходит время основать корпорацию. Возводит ее не строитель, а великий торговец, который после создания корпорации уходит на покой. Корпорации можно строить только на клетках с предприятием. Корпорации дают двойной бонус предприятиям соответствующего ресурса в своем родном городе. Вы можете назвать корпорацию как захотите или воспользоваться автоматическим генератором названий.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_PRODUCTS_PARA_1" Language="ru_RU">
+      <Text>Основав корпорацию, связанную с определенным ресурсом, вы можете создать уникальный продукт — бренд. Продукты функционируют как наследие, но хранятся они не в музеях, а в новых ячейках для шедевров на биржах и в морских портах. После размещения продукты дают своему новому городу выгоды предприятия, в том числе бонус, который дают связанные с ними редкие ресурсы. Продукт можно переместить в любой город с подходящей ячейкой для шедевров.</Text>
+    </Replace>
+    <Replace Tag="LOC_TERM_INDUSTRY" Language="ru_RU">
+      <Text>Предприятие</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_CURRENCY_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет открывать предприятия.</Text>
+    </Replace>
+    <Replace Tag="LOC_NOTIFICATION_INDUSTRY_OPPORTUNITY_MESSAGE" Language="ru_RU">
+      <Text>Возможность для предприятия</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_INDUSTRY_DESCRIPTION" Language="ru_RU">
+      <Text>Предприятие, эксплуатирующее тот или иной редкий ресурс. Приносит уникальную пользу своему городу, а также +1 очко [ICON_GreatMerchant] великих торговцев.</Text>
+    </Replace>
+    <Replace Tag="LOC_MOMENT_FIRST_INDUSTRY" Language="ru_RU">
+      <Text>Появление первого предприятия</Text>
+    </Replace>
+    <Replace Tag="LOC_MOMENT_FIRST_INDUSTRY_DESCRIPTION" Language="ru_RU">
+      <Text>Вы открыли свое первое предприятие. </Text>
+    </Replace>
+    <Replace Tag="LOC_MOMENT_FIRST_INDUSTRY_INSTANCE_DESCRIPTION" Language="ru_RU">
+      <Text> Пора запускать конвейер! Вы открыли предприятие, способное обеспечить массовый и бесперебойный выпуск товаров! </Text>
+    </Replace>
+    <Replace Tag="LOC_MOMENT_FIRST_INDUSTRY_IN_WORLD" Language="ru_RU">
+      <Text>Первое в мире предприятие</Text>
+    </Replace>
+    <Replace Tag="LOC_MOMENT_FIRST_INDUSTRY_IN_WORLD_DESCRIPTION" Language="ru_RU">
+      <Text>В мире появилось первое предприятие. </Text>
+    </Replace>
+    <Replace Tag="LOC_MOMENT_FIRST_INDUSTRY_IN_WORLD_INSTANCE_DESCRIPTION" Language="ru_RU">
+      <Text>Вы стали первым лидером, сумевшим запустить собственное предприятие. Теперь вы сможете создавать товары еще быстрее и эффективнее. </Text>
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_FIRST_TIME_MONOPOLIES" Language="ru_RU">
+      <Text>Рынок — это новое поле боя! В режиме «Монополии и корпорации» вы сможете извлекать выгоду, контролируя и улучшая редкие ресурсы. Используйте собственные ресурсы в предприятии и устанавливайте монополию, чтобы извлекать сверхприбыль. Создавайте могущественные корпорации и распространяйте свое влияние на другие цивилизации. Чтобы захватить мир, меч больше не нужен!</Text>
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_INDUSTRY_OPPORTUNITY_B" Language="ru_RU">
+      <Text>Открытие денег подарило нам новое средство обмена. Теперь мы можем создать предприятие и наладить производство улучшенных редких ресурсов. Для этого необходимо улучшить не менее двух единиц редкого ресурса на нашей территории.</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITY_HOUSING_FROM_GREATWORKS" Language="ru_RU">
+      <Text>Жилье от предприятий, корпораций и продуктов:</Text>
+    </Replace>
+    <Replace Tag="LOC_NOTIFICATION_INDUSTRY_OPPORTUNITY_SUMMARY" Language="ru_RU">
+      <Text>Вы улучшили {1_num} ед. {2_ResourceIcon} {3_Resource[2]} и можете открыть предприятие.</Text>
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_INDUSTRY_INTRO" Language="ru_RU">
+      <Text>Если мы улучшим еще одну ед. {1_ResourceIcon} {2_Resource[2]}, то сможем запустить предприятие! Город, в котором откроется предприятие, получит бонус в виде значительной скидки на стоимость производства или дополнительную продукцию.</Text>
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_INDUSTRY_OPPORTUNITY_A" Language="ru_RU">
+      <Text>Мы улучшили еще одну ед. {1_ResourceIcon} {2_Resource[2]} и можем запустить предприятие. Для этого необходимо дать соответствующее задание строителю.</Text>
+    </Replace>
+    <Replace Tag="LOC_TUTORIAL_CORPORATION_OPPORTUNITY_A" Language="ru_RU">
+      <Text>Мы монополизировали {1_ResourceIcon} {2_Resource[4]} и можем повысить предприятие до корпорации. Это позволит нам создавать продукцию и поставлять ее другим цивилизациям.</Text>
+	</Replace>		  
+  </LocalizedText>
+</GameData>

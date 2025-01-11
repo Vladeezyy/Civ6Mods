@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_BUILDING_ZOO_EXPANSION1_DESCRIPTION" Language="ru_RU">
+      <Text>Бонус к [ICON_Amenities] довольству распространяется на все центры городов в пределах 6 клеток. Бонус активируется в городах один раз и не увеличивается за такие же здания в пределах 6 клеток. +1 [ICON_SCIENCE] науки за каждую клетку с джунглями или болотом в этом городе.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_CIVIL_PRESTIGE_DESCRIPTION" Language="ru_RU">
+      <Text>Действующие [ICON_GOVERNOR] губернаторы получившие повышение дают +1 [ICON_Amenities] довольства и +2 [ICON_Housing] жилья.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_CULTURE_BOMB_TRIGGER_INDUSTRIAL_ZONE" Language="ru_RU">
+      <Text>Постройка промышленной зоны в любом городе производит культурный захват соседних клеток.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_TOQUI_COMBAT_BUFF_VS_GOLDEN_AGE_DESCRIPTION" Language="ru_RU">
+      <Text>+10 [ICON_Strength] к боевой мощи против вольных городов и цивилизаций, переживающих золотой век.[NEWLINE]</Text>
+    </Replace>
+    <Replace Tag="LOC_MOMENT_UNIT_KILLED_ASSISTED_BY_ADMIRAL_DESCRIPTION" Language="ru_RU">
+      <Text>Один из ваших [ICON_GreatAdmiral] великих адмиралов одержал первую победу над вражеским юнитом.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

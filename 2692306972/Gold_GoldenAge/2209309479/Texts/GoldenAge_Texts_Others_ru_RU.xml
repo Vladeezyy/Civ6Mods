@@ -1,0 +1,306 @@
+<GameData>
+    <LocalizedText>		
+	
+	
+	<!--lua-->	
+	
+	<Replace Tag="LOC_POP_TEXT" Language="ru_RU">
+      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]Режим оценки города отключен[ENDCOLOR]</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_ERA_TEXT" Language="ru_RU">
+      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]Режим исторических эпох отключен[ENDCOLOR]</Text>
+    </Replace>		
+	
+	<Replace Tag="LOC_CITYPOLICY_TEXT" Language="ru_RU">
+      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]Режим городских политик отключен[ENDCOLOR]</Text>
+    </Replace>	
+	
+
+	<!--界面-->	
+	
+	<Replace Tag="LOC_HUD_CITY_HOUSING_FROM_CIVICS" Language="ru_RU">
+      <Text>ЖИЛЬЕ ОТ ОСОБЕННОСТЕЙ:</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_C8S_SAT_POWER_REQUIREMENT_MISC" Language="ru_RU">
+		<Text>Разное</Text>
+	</Replace>	
+	
+	
+	<Replace Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP" Language="ru_RU">
+      <Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) от повышений губернатора ([ICON_Governor] губернатор с {1} {1 : plural 1?повышением; other?повышениями;})</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_WORLD_RANKINGS_CULTURE_VICTORY_DETAILS" Language="ru_RU">
+      <Text>Чтобы добиться [COLOR:ResCultureLabelCS]КУЛЬТУРНОЙ[ENDCOLOR] победы, вы должны стать [COLOR:ResCultureLabelCS]КУЛЬТУРНО ДОМИНИРУЮЩИМ[ENDCOLOR] над всеми другими цивилизациями. Доминирование в культуре происходит, когда вы привлекаете в свою цивилизацию больше [COLOR:ResCultureLabelCS]ТУРИСТОВ[ENDCOLOR], чем другая цивилизация с наибольшим количеством [COLOR:ResCultureLabelCS]ВНУТРЕННИХ ТУРИСТОВ[ENDCOLOR].[NEWLINE][NEWLINE]Производство большого количества [ICON_Culture] культуры увеличивает количество внутренних туристов (150 [ICON_Culture] культуры на 1 внутреннего туриста). Создание большого количества [ICON_Tourism] туризма увеличивает посещаемость туристов из других цивилизаций ((150*количество игроков) [ICON_Tourism] туризма на 1 приезжего туриста).</Text>
+    </Replace>
+	<!--宜居度-->	
+	
+	<Replace Tag="LOC_HUD_CITY_STATUS_HELL" Language="ru_RU">
+      <Text>[COLOR:StatBadCS]Ужас[ENDCOLOR]</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_HAPPINESS_HELL_NAME" Language="ru_RU">
+      <Text>Ужас</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_HUD_CITY_STATUS_REVOLT" Language="ru_RU">
+      <Text>[COLOR:StatBadCS]Бунт[ENDCOLOR]</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_HAPPINESS_REVOLT_NAME" Language="ru_RU">
+      <Text>Бунт</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_HUD_CITY_STATUS_UNREST" Language="ru_RU">
+      <Text>[COLOR:StatBadCS]Беспорядки[ENDCOLOR]</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_HAPPINESS_UNREST_NAME" Language="ru_RU">
+      <Text>Беспорядки</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_HUD_CITY_STATUS_FURIOUS" Language="ru_RU">
+      <Text>[COLOR:StatBadCS]Ярость[ENDCOLOR]</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_HAPPINESS_FURIOUS_NAME" Language="ru_RU">
+      <Text>Ярость</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_HUD_CITY_STATUS_JOYOUS" Language="ru_RU">
+      <Text>Счастье</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_HAPPINESS_JOYOUS_NAME" Language="ru_RU">
+      <Text>Счастье</Text>
+    </Replace>		
+	
+	<Replace Tag="LOC_HUD_CITY_STATUS_ELATED" Language="ru_RU">
+      <Text>Вострог</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_HAPPINESS_ELATED_NAME" Language="ru_RU">
+      <Text>Восторг</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_HUD_CITY_STATUS_UTOPIC" Language="ru_RU">
+      <Text>Утопия</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_HAPPINESS_UTOPIC_NAME" Language="ru_RU">
+      <Text>Утопия</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_HUD_CITY_STATUS_HEAVEN" Language="ru_RU">
+      <Text>Рай</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_HAPPINESS_HEAVEN_NAME" Language="ru_RU">
+      <Text>Рай</Text>
+    </Replace>
+	<!--时代-->	
+	
+	<Replace Tag="LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT" Language="ru_RU">
+      <Text>Вы находитесь в [ICON_GLORY_SUPER_GOLDEN_AGE] героическом веке этой игровой эпохи![NEWLINE][NEWLINE][ICON_BULLET]Каждый из ваших [ICON_Citizen] горожан оказывает 1,3 лояльности в своем городе. Это давление также влияет на другие города в пределах 9 клеток, но на 10% менее эффективно с каждой клеткой от центра города. Будет легче поддерживать лояльность в своих городах и оказывать давление лояльностью на города других цивилизаций.</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT" Language="ru_RU">
+      <Text>Вы находитесь в [ICON_GLORY_GOLDEN_AGE] золотом веке этой игровой эпохи![NEWLINE][NEWLINE][ICON_BULLET]Каждый из ваших [ICON_Citizen] горожан оказывает 1,3 лояльности в своем городе. Это давление также влияет на другие города в пределах 9 клеток, но на 10% менее эффективно с каждой клеткой от центра города. Будет легче поддерживать лояльность в своих городах и оказывать давление лояльностью на города других цивилизаций.</Text>
+    </Replace>
+    
+    <Replace Tag="LOC_ERA_TT_HAVE_DARK_AGE_EFFECT" Language="ru_RU">
+      <Text>Вы находитесь в [ICON_GLORY_DARK_AGE] темном веке этой игровой эпохи.[NEWLINE][NEWLINE][ICON_BULLET]Каждый из ваших [ICON_Citizen] горожан оказывает 0,7 лояльности в своем городе. Это давление также влияет на другие города в пределах 9 клеток, но на 10% менее эффективно с каждой клеткой от центра города. Будет сложнее поддерживать лояльность в своих городах, и еще труднее повлиять на лояльность близлежащих иностранных городов.[NEWLINE][NEWLINE][ICON_BULLET]Вы можете проводить мощную темную политику в своем правительстве, но это может повлечь за собой высокую цену. [NEWLINE][NEWLINE][ICON_BULLET]Если вы не находитесь в прошлой эпохе и заработали достаточно очков эпохи для золотого века в следующей игровой эпохе, вместо этого вы войдете в героическую эпоху и сможете совершить несколько устремлений, чтобы получить множество мощных бонусов.</Text>
+    </Replace>	
+	
+	
+	<Replace Tag="LOC_DIPLOACTION_DENOUNCE_DESCRIPTION" Language="ru_RU">
+      <Text>Используется, чтобы официально заявить о своем недовольстве этой силой. Официальное объявление войны (с поводом для войны или без него) может последовать после 3 последующих ходов.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DIPLOACTION_DECLARE_FORMAL_WAR_DESCRIPTION" Language="ru_RU">
+      <Text>Используется для объявления войны игроку, который осудил вас или которого осудили вы как минимум 3 хода назад. Нет ограничений на то, какие города вы можете захватить.</Text>
+    </Replace>
+	
+    	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_OWLS_OF_MINERVA_2_DESCRIPTION" Language="ru_RU">
+      <Text>Открывается в эпохе античности. Позволяет строить здание «Золотое хранилище», мощную замену банка.</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_OWLS_OF_MINERVA_3_DESCRIPTION" Language="ru_RU">
+      <Text>Открывается в эпохе возрождения. +1 универсальная ячейка политических курсов. +2 доступных шпиона. Ваши города получают +4 лояльности в ход и +1 [ICON_Amenities] довольства, когда ваш шпион находится на их территории.</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_OWLS_OF_MINERVA_4_DESCRIPTION" Language="ru_RU">
+      <Text>Открывается в эпохе нового времени. Каждый ход вы получаете 3% от [ICON_Gold] золота в казне в качестве дохода. Всякий раз, когда наступательная шпионская миссия прошла успешно, вы также получаете половину [ICON_Science] науки, [ICON_Culture] культуры, [ICON_Gold] золота и [ICON_Faith] веры, которые целевой город заработал за этот ход.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_1_DESCRIPTION" Language="ru_RU">
+      <Text>Открывается при обнаружении чуда природы. Отображает ресурс лей-линии на карте. Лей-линии дают большой бонус к соседству всем специализированным районам.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_2_DESCRIPTION" Language="ru_RU">
+      <Text>Открывается в эпохе античности. Позволяет строить здание «Общество алхимиков», мощную замену университету.</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_3_DESCRIPTION" Language="ru_RU">
+      <Text>Открывается в эпохе возрождения. За каждого нанятого вами [ICON_GreatPerson] великого человека лей-линии получают +2 к доходу, равному типу района этого [ICON_GreatPerson] великого человека. [ICON_GreatAdmiral] Великие адмиралы и [ICON_GreatGeneral] великие полководцы дают +2 [ICON_Science] науки.</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_4_DESCRIPTION" Language="ru_RU">
+      <Text>Открывается в эпохе нового времени. Открывает «Оккультные исследования», городской проект, который дает [ICON_GOLD] золото, пока он активен. По завершении он дает [ICON_GreatPerson] очки великих людей и [ICON_SCIENCE] науку за каждую лей-линию в городе.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_VOIDSINGERS_2_DESCRIPTION" Language="ru_RU">
+      <Text>Открывается в эпохе античности. Города получают [ICON_Gold] золото, [ICON_Science] науку и [ICON_Culture] культуру в ход, равные 20% их [ICON_Faith] веры за ход.</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_VOIDSINGERS_3_DESCRIPTION" Language="ru_RU">
+      <Text>Открывается в эпохе возрождения. Открывает юнит «Воспевающие пустоту». Этот юнит приобретается за [ICON_Faith] веру и использует заряды для снижения лояльности в чужих городах и создания [ICON_GreatWork_Relic] реликвий пустоты.</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_VOIDSINGERS_4_DESCRIPTION" Language="ru_RU">
+      <Text>Открывается в эпохе нового времени. Открывает «Темный призыв», городской проект, который дает много [ICON_Faith] веры во время выполнения, а после завершения увеличивает количество урона лояльности, наносимого культистами.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_SANGUINE_PACT_2_DESCRIPTION" Language="ru_RU">
+      <Text>Открывается в эпохе античности. Предоставляет юнит вампиров в вашей [ICON_Capital] столице и позволяет вашим вампирам строить замки вампиров (максимум два на империю).</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_SANGUINE_PACT_3_DESCRIPTION" Language="ru_RU">
+      <Text>Открывается в эпохе возрождения. Предоставляет юнит вампиров в вашей [ICON_Capital] столице. Увеличивает максимальное количество построек замков вампиров до трех. Ваши вампиры теперь запугивают соседние вражеские юниты, снижая их [ICON_Strength] боевую мощь на 5. Грабеж теперь стоит вампирам 1 [ICON_Movement] перемещение.</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_SANGUINE_PACT_4_DESCRIPTION" Language="ru_RU">
+      <Text>Открывается в эпохе нового времени. Предоставляет юнит вампиров в вашей [ICON_Capital] столице. Увеличивает максимальное количество построек замков вампиров до четырех. Юниты в пределах одной клетки от ваших замков вампиров теперь могут перебрасываться по воздуху на любую другую клетку рядом с одним из ваших замков вампиров.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_ALCHEMICAL_SOCIETY_DESCRIPTION" Language="ru_RU">
+      <Text>Уникально для герметического ордена, заменяет университет. Этот кампус генерирует [ICON_Gold] золото, равное его бонусу [ICON_Science] науки от соседства. [NEWLINE]Бонус [ICON_PRODUCTION] производства и [ICON_SCIENCE] науки распространяется на каждый центр города в пределах 4 клеток. Этот бонус применяется один раз к городу. [NEWLINE]+0,1 [ICON_SCIENCE] науки на каждого [ICON_Citizen] жителя города благодаря улучшенному образованию.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GILDED_VAULT_DESCRIPTION" Language="ru_RU">
+      <Text>Уникально для общества совы минервы, заменяет банк. Этот коммерческий центр генерирует [ICON_CULTURE] культуру, равную его бонусу [ICON_Gold] золота от соседства. [NEWLINE]Бонус [ICON_Gold] золота распространяется на все центры городов в пределах 4 клеток, которые еще не имеют бонуса от этого типа зданий. [NEWLINE]+1 [ICON_TradeRoute], если в городе есть ратуша (уезд) или здание ратуши более высокого уровня.</Text>
+    </Replace>
+	
+	<!--流星雨-->	
+	
+	<Replace Tag="LOC_METEOR_CIVIC_DESCRIPTION" Language="ru_RU">
+      <Text>[COLOR_FLOAT_CULTURE]Бесплатный социальный институт![ENDCOLOR]</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_METEOR_TECH_DESCRIPTION" Language="ru_RU">
+      <Text>[COLOR_FLOAT_CULTURE]Бесплатная технология![ENDCOLOR]</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_METEOR_RELIC_DESCRIPTION" Language="ru_RU">
+      <Text>[COLOR_FLOAT_CULTURE]Бесплатная [ICON_GreatWork_Relic] реликвия![ENDCOLOR]</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_METEOR_ADD_POP_DESCRIPTION" Language="ru_RU">
+      <Text>[COLOR_FLOAT_CULTURE]Найдены 2 [ICON_Citizen] жителя![ENDCOLOR]</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_METEOR_GOVERNOR_TITLE_DESCRIPTION" Language="ru_RU">
+      <Text>[COLOR_FLOAT_CULTURE]Бесплатный [ICON_Governor] титул губернатора![ENDCOLOR]</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_METEOR_ENVOYS_DESCRIPTION" Language="ru_RU">
+      <Text>[COLOR_FLOAT_CULTURE]Бесплатный [ICON_Envoy] посол![ENDCOLOR]</Text>
+    </Replace>
+	<!--地貌-->
+	
+	<Replace Tag="LOC_FEATURE_FLOODPLAINS_TUNDRA_NAME" Language="ru_RU">
+      <Text>Тундровая пойма|тундровой поймы|тундровой пойме|тундровую пойму|тундровой поймой|тундровой пойме</Text>
+	  <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_FEATURE_FLOODPLAINS_TUNDRA_DESCRIPTION" Language="ru_RU">
+      <Text>В отличие от других типов пойм, вы не можете построить ферму на поймах тундры, пока не изучите социальный институт «Строительная инженерия». </Text>
+    </Replace>
+	<!--服役与退役-->
+	
+	<Replace Tag="LOC_MODE_UNIT_RETIREMENT" Language="ru_RU">
+      <Text>Отставка</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_MODE_UNIT_RETIREMENT_SUCCESS" Language="ru_RU">
+      <Text>Счастлив вернуться домой!</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_MODE_UNIT_RETIREMENT_CITY_WARNING" Language="ru_RU">
+      <Text>Должен подать в отставку в городе!</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_MODE_UNIT_RETIREMENT_HOUSING_WARNING" Language="ru_RU">
+      <Text>Нет [ICON_Housing] жилья!</Text>
+    </Replace>
+	<!--英雄-->
+	
+	<Replace Tag="LOC_ABILITY_ARTHUR_AOE_NAME" Language="ru_RU">
+      <Text>Вдохновение короля Артура</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_ABILITY_ARTHUR_AOE_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Movement] очко перемещения всем боевым юнитам в пределах 2 клеток. (Не суммируется со способностью великого полководца)</Text>
+    </Replace>
+
+	
+	<Replace Tag="LOC_UNIT_HERO_ARTHUR_DESCRIPTION" Language="ru_RU">
+      <Text>Король и основатель рыцарей круглого стола, известный своей добродетелью и благородством.[NEWLINE][NEWLINE]Вдохновение короля Артура: +1 [ICON_Movement] очко перемещения всем боевым юнитам в пределах 2 клеток.</Text>
+    </Replace>
+	<!--防御改良设施-->
+	
+    
+    
+    
+	
+    
+    
+    
+	<Replace Tag="LOC_IMPROVEMENT_ANCIENT_TOWER_DEFENSE_NAME" Language="ru_RU">
+      <Text>Баррикада</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MODERN_TOWER_DEFENSE_NAME" Language="ru_RU">
+      <Text>Усиленная баррикада</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_ANCIENT_TRAP_DEFENSE_NAME" Language="ru_RU">
+      <Text>Ловушка</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MODERN_TRAP_DEFENSE_NAME" Language="ru_RU">
+      <Text>Улучшенная ловушка</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_ANCIENT_TOWER_DEFENSE_DESC" Language="ru_RU">
+      <Text>Необрабатываемое улучшение ранних эпох. Создает зону контроля и наносит небольшой урон вражеским юнитам, проходящим по этой или соседним клеткам. Доступно после открытия военной инженерии, возводится строителем. Не блокирует перемещение через клетку.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MODERN_TOWER_DEFENSE_DESC" Language="ru_RU">
+      <Text>Необрабатываемое улучшение поздних эпох. Создает зону контроля и наносит средний урон вражеским юнитам, проходящим по этой или соседним клеткам. Доступно после открытия нарезных стволов, возводится военным инженером. Не блокирует перемещение через клетку.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_ANCIENT_TRAP_DEFENSE_DESC" Language="ru_RU">
+      <Text>Необрабатываемое улучшение ранних эпох. Наносит средний урон проходящим по этой клетке вражеским юнитам и обнуляет их очки перемещения. Доступно после открытия строительства, возводится строителем. Не блокирует перемещение через клетку.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MODERN_TRAP_DEFENSE_DESC" Language="ru_RU">
+      <Text>Необрабатываемое улучшение поздних эпох. Наносит значительный урон проходящим по этой клетке вражеским юнитам и обнуляет их очки перемещения. Доступно после открытия баллистики, возводится военным инженером. Не блокирует перемещение через клетку.</Text>
+    </Replace>
+	<!--奇观胜利-->
+	
+	<Replace Tag="LOC_GA_VICTORY_WONDER_NAME" Language="ru_RU">
+      <Text>Победа чудесами</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GA_VICTORY_WONDER_DESCRIPTION" Language="ru_RU">
+      <Text>После изучения социального института "Охрана природы", если в вашей империи есть [COLOR_FLOAT_CULTURE]по крайней мере одно чудо света каждой эпохи от древнего мира до эпохи атома, вы сможете разблокировать и запустить проект "Прославление культурного наследия" в своем городе.[ENDCOLOR] С тех пор все больше и больше туристов со всего мира будут приезжать посмотреть на величественные чудеса света, а ваши культурные ценности будут экспортироваться по всему миру. [COLOR_FLOAT_CULTURE]После исследования социального института "Культурная гегемония" вы можете запустить еще один проект в своем городе и одержать победу чудесами.[ENDCOLOR][NEWLINE][NEWLINE]Этот тип победы подходит для цивилизаций, доминирующих в культуре [ICON_Culture] и [ICON_Production] производстве, но слаб в [ICON_Science] науке, [ICON_Strength] военном деле и [ICON_Faith] религии. Выдержит ли великолепное зрелище, которое вы с таким трудом построили (или захватили) испытание временем? установите культурную гегемонию и выиграйте игру!</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GA_VICTORY_WONDER_TEXT" Language="ru_RU">
+      <Text>Из наших скромных начинаний много веков назад вы создали цивилизацию, которая выдержала испытание временем. Хотя вокруг нас возникают и рушатся бесчисленные цивилизации, мы не просто выживаем - мы процветаем.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GA_PROJECT_WONDER_VICTORY1_NAME" Language="ru_RU">
+      <Text>прославление культурного наследия</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GA_PROJECT_WONDER_VICTORY1_DESC" Language="ru_RU">
+      <Text>Если в вашей империи есть хотя бы одно чудо света из каждой эпохи от древнего мира до эпохи атома, вы можете запустить этот проект в своем городе и разблокировать проект «Культурное господство чудес света» по завершении. Это был первый шаг к победе над чудом света.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GA_PROJECT_WONDER_VICTORY2_NAME" Language="ru_RU">
+      <Text>культурное господство чудес света</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GA_PROJECT_WONDER_VICTORY2_DESC" Language="ru_RU">
+      <Text>Влияние чудес света вашей империи оказал огромное влияние на культурные ценности во всем мире. Вы выиграете победой чудесами после завершения этого проекта.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>	
+	

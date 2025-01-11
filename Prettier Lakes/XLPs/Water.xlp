@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="Water"/>
+	<m_PackageName text="Water"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Water/DeadSea"/>
+			<m_ObjectName text="Water/DeadSea"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Water/Lake"/>
+			<m_ObjectName text="Water/Lake"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Water/Oasis"/>
+			<m_ObjectName text="Water/Oasis"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Water/Opaque"/>
+			<m_ObjectName text="Water/Opaque"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Water/River"/>
+			<m_ObjectName text="Water/River"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Water/RiverSource"/>
+			<m_ObjectName text="Water/RiverSource"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Water/OldLake"/>
+			<m_ObjectName text="Water/OldLake"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Water/MotlatseRiver"/>
+			<m_ObjectName text="Water/MotlatseRiver"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>

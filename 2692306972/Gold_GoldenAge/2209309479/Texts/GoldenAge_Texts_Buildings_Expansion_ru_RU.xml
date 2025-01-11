@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+<LocalizedText>
+	
+    <Replace Tag="LOC_BUILDING_WORKSHOP_NAME" Language="ru_RU">
+      <Text>Лесопильная мастерская|лесопильной мастерской|лесопильной мастерской|лесопильную мастерскую|лесопильной мастерской|лесопильной мастерской</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>	
+    
+    <Replace Tag="LOC_BUILDING_STONEMASON_NAME" Language="ru_RU">
+      <Text>Мастерская каменщика|мастерской каменщика|мастерской каменщика|мастерскую каменщика|мастерской каменщика|мастерской каменщика</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>	
+    
+    <Replace Tag="LOC_BUILDING_SMELTERY_NAME" Language="ru_RU">
+      <Text>Плавльная мастерская|плавильной мастерской|плавильной мастерской|плавильную мастерскую|плавильной мастерской|плавильной мастерской</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>	
+    
+    <Replace Tag="LOC_BUILDING_FACTORY_NAME" Language="ru_RU">
+      <Text>Фабрика осветителей|фабрики осветителей|фабрике осветителей|фабрику осветителей|фабрикой осветителей|фабрике осветителей</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>	
+    
+    <Replace Tag="LOC_BUILDING_RAWMATERIAL_NAME" Language="ru_RU">
+      <Text>Сырьевая фабрика|сырьевой фабрики|сырьевой фабрики|сырьевую фабрику|сырьевой фабрики|сырьевой фабрике</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>	
+    
+    <Replace Tag="LOC_BUILDING_FABRICATION_NAME" Language="ru_RU">
+      <Text>Военная фабрика|военной фабрики|военной фабрике|военную фабрику|военной фабрикой|военной фабрике</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>	
+
+     
+    <Replace Tag="LOC_BUILDING_ASSEMBLYLINE_NAME" Language="ru_RU">
+      <Text>Конвейерная фабрика|конвейерной фабрики|конвейерной фабрике|конвейерную фабрику|конвейерной фабрикой|конвейерной фабрике</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>  
+     
+    <Replace Tag="LOC_BUILDING_AUTOMATED_NAME" Language="ru_RU">
+      <Text>Автоматизированная фабрика|автоматизированной фабрики|автоматизированной фабрике|автоматизированную фабрику|автоматизированной фабрикой|автоматизированной фабрике</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>  
+
+    
+    <Replace Tag="LOC_BUILDING_WORKSHOP_DESCRIPTION" Language="ru_RU">
+      <Text>Каждая лесопилка в городе увеличивает [ICON_Production] производство этого здания на 1. Дает еще +1 [ICON_Production] к производству, если к этому зданию прилегает лесопилка.</Text>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_STONEMASON_DESCRIPTION" Language="ru_RU">
+      <Text>Каждая каменоломня в городе дает этому зданию +1 [ICON_Production] производства. Дает еще +2 [ICON_Production] производства, если каменоломня находится рядом с этим зданием.</Text>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_SMELTERY_DESCRIPTION" Language="ru_RU">
+      <Text>Каждый рудник в городе дает этому зданию +1 [ICON_Production] производства. Дает еще +1 [ICON_Production] производства, если рудник находится рядом с этим зданием.</Text>
+    </Replace>  
+    
+    <Replace Tag="LOC_GAEXP_BUILDING_FACTORY_DESCRIPTION" Language="ru_RU">
+      <Text>Каждый улучшенный редкий ресурс в пределах 2 клеток от промышленной зоны дает +1 [ICON_Production] производства для всех осветительных фабрик в империи.[NEWLINE][COLOR_FLOAT_MILITARY]Отраслевое соревнование: каждая осветительная фабрика расходует -1 [ICON_Gold] золота у всех осветительных фабрик.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от этого здания.</Text>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_RAWMATERIAL_DESCRIPTION" Language="ru_RU">
+      <Text>Каждый улучшенный стратегический ресурс в пределах 2 клеток от промышленной зоны дает +1 [ICON_Production] производства для всех сырьевых фабрик в империи.[NEWLINE][COLOR_FLOAT_MILITARY]Отраслевое соревнование: каждая сырьевая фабрика расходует -1 [ICON_Gold] золота у всех сырьевых фабрик.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры городов в пределах 4 клеток, которые еще не имеют бонуса от этого здания.</Text>
+    </Replace>  
+    
+	<Replace Tag="LOC_BUILDING_FABRICATION_DESCRIPTION" Language="ru_RU">
+      <Text>Каждый лагерь, гавань и аэродром в пределах 2 клеток от промышленной зоны дают +1 [ICON_Production] производства для всех военных заводов в империи.[NEWLINE][COLOR_FLOAT_MILITARY]Отраслевое соревнование: каждый военный завод расходует -1 [ICON_Gold] золота у всех военных заводов.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от этого здания.</Text>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION" Language="ru_RU">
+      <Text>Автоматически преобразует любое количество угля [ICON_RESOURCE_COAL] в электроэнергию [ICON_Power] для городов в пределах 6 клеток, которым он нужен каждый ход, по курсу:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_COAL] ед. угля [ICON_PowerRight] 6 [ICON_Power] ед. электроэнергии[NEWLINE][ICON_Bullet]Тяжелые выбросы CO2 в атмосферу.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры городов в пределах 6 клеток, которые еще не имеют бонуса от здания электростанции. </Text>
+    </Replace>
+      
+  <Replace Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION" Language="ru_RU">
+      <Text>Автоматически преоьразует любое количество [ICON_RESOURCE_OIL] нефти в [ICON_Power] электроэнергию для городов в пределах 6 клеток, которым она нужна каждый ход, по курсу:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_OIL] ед. нефти [ICON_PowerRight] 8 [ICON_Power] ед. электроэнергии[NEWLINE][ICON_Bullet]Умеренный выброс CO2 в атмосферу[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры городов в пределах 6 клеток, которые еще не имеют бонуса от здания электростанции.</Text>
+    </Replace>  
+  
+  <Replace Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Автоматически превращает любое количество [ICON_RESOURCE_URANIUM] урана в [ICON_Power] электроэнергию для городов в пределах 6 клеток, которым она нужна каждый ход, по курсу:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_URANIUM] ед. урана [ICON_PowerRight] 10 [ICON_Power] ед. электроэнергии[NEWLINE][ICON_Bullet]Минимальные выбросы CO2 в атмосферу[NEWLINE]С течением времени после постройки атомной электростанции возрастает вероятность возникновения ядерной аварии. [NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры городов в пределах 6 клеток, которые еще не имеют бонуса от здания электростанции. </Text>
+  </Replace> 
+    
+    <Replace Tag="LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_NAME" Language="ru_RU">
+      <Text>Электростанция возобновляемых источников энергии|электростанции возобновляемых источников энергии|электростанцие возобновляемых источников энергии|электростанцию возобновляемых источников энергии|электростанцией возобновляемых источников энергии|электростанции возобновляемых источников энергии</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>	  
+    </Replace>  
+      	 
+	<Replace Tag="LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_DESCRIPTION" Language="ru_RU">
+		<Text>Автоматически преобразует любое количество [ICON_RESOURCE_JNR_BATTERY_CHARGE] возобновляемой энергии в [ICON_Power] электроэнергию для городов в пределах 6 клеток, которым она нужна каждый ход, по курсу:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_JNR_BATTERY_CHARGE] ед. возобновляемой энергии [ICON_PowerRight] 8 [ICON_Power] ед. электроэнергии[NEWLINE][ICON_Bullet]Отсутствует выброс CO2 в атмосферу.[NEWLINE][NEWLINE]Базовый доход этого здания  распространяется на все центры городов в пределах 6 клеток, которые еще не имеют бонуса от здания электростанции.</Text>
+	</Replace> 	
+	
+    <Replace Tag="LOC_BUILDING_ASSEMBLYLINE_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства на [ICON_Citizen] горожанина в городе.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 8 клеток, которые еще не имеют бонуса от здания промышленной зоны 4 уровня.</Text>
+    </Replace>  
+     
+    <Replace Tag="LOC_BUILDING_AUTOMATED_DESCRIPTION" Language="ru_RU">
+      <Text>Специалисты обеспечивают двойное производство [ICON_Production].[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 8 клеток, которые еще не имеют бонуса от здания промышленной зоны 4 уровня.</Text>
+    </Replace>  
+	
+    <Replace Tag="LOC_BUILDING_JNR_RENEWABLE_COLLECTION_NAME" Language="ru_RU">
+      <Text>Центр сбора возобновляемой энергии|центра сбора возобновляемой энергии|центру сбора возобновляемой энергии|чентр сбора возобновляемой энергии|центром сбора возобновляемой энергии|центре сбора возобновляемой энергии</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>  
+      	 
+	<Replace Tag="LOC_BUILDING_JNR_RENEWABLE_COLLECTION_DESCRIPTION" Language="ru_RU">
+		<Text>Все улучшения возобновляемой энергии в этом городе дают +1 [ICON_RESOURCE_JNR_BATTERY_CHARGE] ед. возобновляемой энергии, но -2 [ICON_Power] электроэнергии от этих улучшений. [NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 8 клеток, которые еще не имеют бонуса от здания промышленной зоны уровня 4.</Text>
+	</Replace> 
+		
+		<Replace Tag="LOC_RESOURCE_JNR_BATTERY_CHARGE_NAME" Language="ru_RU">
+			<Text>Возобновляемая электроэнергия|возобновляемой электроэнергии|возобновляемой электроэнергии|возобновляемую электроэнергию|возобновляемой электроэнергией|возобновляемой электроэнергии</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_PROJECT_JNR_CONVERT_REACTOR_TO_BATTERY" Language="ru_RU">
+			<Text>Преобразовать реактор в возобновляемый</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_CONVERT_REACTOR_TO_BATTERY_SHORT_NAME" Language="ru_RU">
+			<Text>Преобразовать реактор в возобновляемый</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_JNR_CONVERT_REACTOR_TO_BATTERY_DESCRIPTION" Language="ru_RU">
+			<Text>Преобразовать реактор в {LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_NAME[4]}.[NEWLINE][NEWLINE]{LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_NAME}:[NEWLINE]{LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_DESCRIPTION}</Text>
+		</Replace>
+		
+	
+    <Replace Tag="LOC_BUILDING_ALCHEMY_HOUSE_NAME" Language="ru_RU">
+      <Text>Исследовательская станция|исследовательской станции|исследовательской станции|исследовательскую станцию|исследовательской станцией|исследовательской станцие</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_OBSERVATORY_NAME" Language="ru_RU">
+      <Text>Обсерватория|обсерватории|обсерваторие|обсерваторию|обсерваторией|обсерватории</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_PUBLIC_SCHOOL_NAME" Language="ru_RU">
+      <Text>Средняя школа|средней школы|средней школе|среднюю школу|средней школой|средней школе</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_ACADEMIC_EXCHANGE_NAME" Language="ru_RU">
+      <Text>Академическая биржа|академической биржи|академической бирже|академическую биржу|академической биржей|академической бирже</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace> 
+	
+    <Replace Tag="LOC_BUILDING_RESEARCH_LAB_NAME" Language="ru_RU">
+      <Text>Морская лаборатория|морской лаборатории|морской лабораторие|морскую лабораторию|морской лабораторией|морской лаборатории</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace> 
+    
+    <Replace Tag="LOC_BUILDING_BIOLOGY_LAB_NAME" Language="ru_RU">
+      <Text>Биологическая лаборатория|биологической лаборатории|биологической лабораторие|биологическую лабораторию|биологической лабораторией|биологической лаборатории</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_CHEMISTRY_LAB_NAME" Language="ru_RU">
+      <Text>Химическая лаборатория|химической лаборатории|химической лабораторие|химическую лабораторию|химической лабораторией|химической лаборатории</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_GIANT_TELESCOPE_NAME" Language="ru_RU">
+      <Text>Гигантский телескоп|гигантского телескопа|гигантскому телескопу|гигантский телескоп|гигантским телескопом|гигатском телескопе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_HADRON_COLLIDER_NAME" Language="ru_RU">
+      <Text>Адронный коллайдер|адронного коллайдера|адронному коллайдеру|адронный коллайдер|адронным коллайдером|адронном коллайдере</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_SUPER_COMPUTER_NAME" Language="ru_RU">
+      <Text>Суперкомпьютер|суперкомпьютера|суперкомпьютеру|суперкомпьютер|суперкомпьютером|суперкомпьютере</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>  
+	
+	
+    <Replace Tag="LOC_BUILDING_LIBRARY_DESCRIPTION" Language="ru_RU">
+      <Text>Дополнительно +2 [ICON_Science] науки за каждую эпоху с момента постройки или последнего ремонта.</Text>
+    </Replace>  
+	
+    <Replace Tag="LOC_BUILDING_ALCHEMY_HOUSE_DESCRIPTION" Language="ru_RU">
+      <Text>Каждая особенность ландшафта в этом городе дает +1 [ICON_Science] к науке для этого здания.</Text>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_OBSERVATORY_DESCRIPTION" Language="ru_RU">
+      <Text>Клетки гор в этом городе дают +2 [ICON_Science] науки для этого здания.</Text>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_PUBLIC_SCHOOL_DESCRIPTION" Language="ru_RU">
+      <Text>+0,5 [ICON_Science] науки за [ICON_Citizen] горожанина в городе.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от здания кампуса 2 уровня.</Text>
+    </Replace>  
+	
+	<Replace Tag="LOC_BUILDING_UNIVERSITY_DESCRIPTION" Language="ru_RU">
+      <Text>Получает бонус [ICON_Science] науки, эквивалентный доходу [ICON_Science] науки за соседство камуса.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от здания 2-го уровня кампуса.</Text>
+    </Replace>
+    
+    <Replace Tag="LOC_BUILDING_ACADEMIC_EXCHANGE_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Science] науки от всех внутренних торговых путей. +2 [ICON_Science] науки от всех международных торговых путей.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры городов в пределах 4 клеток, которые еще не имеют бонуса от здания кампуса уровня 2.</Text>
+    </Replace>  
+	
+    <Replace Tag="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION" Language="ru_RU">
+      <Text>Каждый улучшенный морской ресурс (рыбацкие суда и морские нефтяные вышки) в пределах 3 клеток от кампуса дает +1 [ICON_Science] науки для всех морских лабораторий в империи. [NEWLINE][COLOR_FLOAT_MILITARY]Отраслевое соревнование: каждая морская лаборатория расуходует -1 [ICON_Gold] золота у всех морских лабораторий.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры городов в пределах 6 клеток, которые еще не имеют бонус от здания кампуса 3 уровня.</Text>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_BIOLOGY_LAB_DESCRIPTION" Language="ru_RU">
+      <Text>Каждый улучшенный наземный животный ресурс (ферма, пастбище, плантация и лагерь) в пределах 3 клеток от кампуса дает +1 [ICON_Science] науки для всех биологических лабораторий в империи. [NEWLINE][COLOR_FLOAT_MILITARY]Отраслевое соревнование: каждой биологической лаборатории расходует -1 [ICON_Gold] золото у всех биологических лабораторий.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 6 клеток, на которых еще нет бонус от здания кампуса 3 уровня.</Text>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_CHEMISTRY_LAB_DESCRIPTION" Language="ru_RU">
+      <Text>Каждый улучшенный наземный неживой ресурс (рудник, каменоломня и нефтяная вышка) в пределах 3 клеток от кампуса дает +1 [ICON_Science] науки для всех химических лабораторий в империи. [NEWLINE][COLOR_FLOAT_MILITARY]Отраслевое соревнование: каждая химическая лаборатория расходует -1 [ICON_Gold] золото у всех химических лабораторий.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 6 клеток, на которых еще нет бонус от здания кампуса уровня 3.</Text>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_GIANT_TELESCOPE_DESCRIPTION" Language="ru_RU">
+      <Text>+50% [ICON_Production] к производству всех космических проектов в вашей империи. [NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 8 клеток, которые еще не имеют бонуса от здания кампуса 4 уровня.</Text>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_HADRON_COLLIDER_DESCRIPTION" Language="ru_RU">
+      <Text>+50% [ICON_Production] к производству всех проектов оружия массового поражения в вашей империи. [NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 8 клеток, которые еще не имеют бонуса от здания кампуса 4 уровня.</Text>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_SUPER_COMPUTER_DESCRIPTION" Language="ru_RU">
+      <Text>+15% [ICON_Production] к производству всех проектов в вашей империи. [NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 8 клеток, которые еще не имеют бонуса от здания кампуса 4 уровня.</Text>
+    </Replace>
+	
+	
+    <Replace Tag="LOC_BUILDING_ALCHEMICAL_SOCIETY_DESCRIPTION" Language="ru_RU">
+      <Text>Уникально для герметического ордена, заменяет университет. Бонус [ICON_Science] науки и [ICON_Gold] золота равен бонусу соседства кампуса.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от кампуса 2 уровня. </Text>
+    </Replace>
+    
+    <Replace Tag="LOC_BUILDING_MADRASA_DESCRIPTION" Language="ru_RU">
+     <Text>Уникальное здание Аравии. Бонус [ICON_Science] науки и [ICON_Faith] веры равен бонусу соседства кампуса.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от кампуса 2 уровня.</Text>
+    </Replace>  
+    
+    <Replace Tag="LOC_BUILDING_NAVIGATION_SCHOOL_DESCRIPTION" Language="ru_RU">
+     <Text>Уникальное здание Португалии. +0,5 [ICON_Science] науки за каждого [ICON_Citizen] горожанина в городе. +25% [ICON_PRODUCTION] к производству  морских юнитов в этом городе. +1 [ICON_SCiENCE] науки за каждые две клетки побережья или озера в этом городе. +1 очко [ICON_GreatAdmiral] великого адмирала и +1 [ICON_GreatScientist] великого ученого в ход. [NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от здания кампуса 2 уровня.</Text>
+    </Replace> 
+</LocalizedText>
+</GameData>

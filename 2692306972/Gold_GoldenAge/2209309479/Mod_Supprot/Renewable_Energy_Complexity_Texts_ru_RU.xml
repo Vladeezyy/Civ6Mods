@@ -1,0 +1,30 @@
+<GameData>
+  <LocalizedText>	
+ <!-- Renewable Energy Complexity     -->
+        	 
+	  <Replace Tag="LOC_BUILDING_HYDROELECTRIC_DAM_DESCRIPTION_JNR_REC" Language="ru_RU">
+			<Text>Provides the city +6 [ICON_Power] Power from renewable water sources, also +3 [ICON_Power] Power for other cities within 6 tiles.[NEWLINE][ICON_Bullet]Extra +3 [ICON_Power] Power per turn when the Computers technology is researched.[NEWLINE]If a Battery Substation building is present in this city, the extra [ICON_Power] Power bonuses from Technology will be granted as [ICON_RESOURCE_JNR_BATTERY_CHARGE] Renewable Battery Charges instead.</Text>
+	  </Replace>
+	    	 
+	  <Replace Tag="LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_DESCRIPTION" Language="ru_RU">
+			<Text>Automatically converts any amount of [ICON_RESOURCE_JNR_BATTERY_CHARGE] Renewable Battery Charges into [ICON_Power] Power for cities within 6 tiles that need it each turn, at the rate of:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_JNR_BATTERY_CHARGE] Renewable Battery Charges [ICON_PowerRight] 1 [ICON_Power] Power[NEWLINE][ICON_Bullet]No CO2 into the atmosphere[NEWLINE]Its [ICON_Production] Production bonus is extended to all City Centers within 6 tiles that do not already have a bonus from a Power Plant building.</Text>
+	  </Replace>
+	    	
+	  <Replace Tag="LOC_IMPROVEMENT_GEOTHERMAL_PLANT_DESCRIPTION_JNR_REC" Language="ru_RU">
+			<Text>Unlocks the Builder ability to construct a Geothermal Plant.[NEWLINE][NEWLINE]Provides +2 [ICON_Power] Power per turn from renewable geothermal sources.[NEWLINE][ICON_Bullet]Extra +2 [ICON_Gold] Gold and +2 [ICON_Power] Power per turn if built on a Geothermal Fissure or Marsh (biomass energy).[NEWLINE][ICON_Bullet]Extra +1 [ICON_Power] Power per turn if it is adjacent to another Geothermal Plant.[NEWLINE][ICON_Bullet]Extra +1 [ICON_Power] Power per turn when the Offworld Mission technology is researched.[NEWLINE]If a Battery Substatio buildingn is present in this city, the extra [ICON_Power] Power bonuses from Terrain and Technology will be granted as [ICON_RESOURCE_JNR_BATTERY_CHARGE] Renewable Battery Charges instead.[NEWLINE]Must be built on a Geothermal Fissure, Marsh, or Volcanic Soil.</Text>
+	  </Replace> 
+	    	
+	  <Replace Tag="LOC_IMPROVEMENT_SOLAR_FARM_DESCRIPTION_JNR_REC" Language="ru_RU">
+			<Text>Unlocks the Builder ability to construct a Solar Farm.[NEWLINE][NEWLINE]Provides +2 [ICON_Power] Power per turn from renewable solar sources.[NEWLINE][ICON_Bullet]Extra +2 [ICON_Gold] Gold and +1 [ICON_Power] Power per turn if built on Desert.[NEWLINE][ICON_Bullet]Extra +1 [ICON_Power] Power per turn if it is adjacent to another Solar Farm.[NEWLINE][ICON_Bullet]Extra +1 [ICON_Power] Power per turn when the Predictive Systems technology is reseached.[NEWLINE]If a Battery Substatio buildingn is present in this city, the extra [ICON_Power] Power bonuses from Terrain and Technology will be granted as [ICON_RESOURCE_JNR_BATTERY_CHARGE] Renewable Battery Charges instead.[NEWLINE]Must be built on flat terrain.[NEWLINE]Requires the Advanced Power Cells technology to be built on Tundra or Snow terrain.</Text>
+	  </Replace> 
+	    	
+	  <Replace Tag="LOC_IMPROVEMENT_WIND_FARM_DESCRIPTION_JNR_REC" Language="ru_RU">
+			<Text>Unlocks the Builder ability to construct a Wind Farm.[NEWLINE][NEWLINE]Provides +2 [ICON_Power] Power per turn from renewable wind sources.[NEWLINE][ICON_Bullet]Extra +2 [ICON_Gold] Gold and +1 [ICON_Power] Power per turn if built adjacent to coast.[NEWLINE][ICON_Bullet]Extra +1 [ICON_Power] Power per turn if it is adjacent to another Wind Farm.[NEWLINE][ICON_Bullet]Extra +1 [ICON_Power] Power per turn when the Composites technology is researched.[NEWLINE]If a Battery Substatio buildingn is present in this city, the extra [ICON_Power] Power bonuses from Terrain and Technology will be granted as [ICON_RESOURCE_JNR_BATTERY_CHARGE] Renewable Battery Charges instead.[NEWLINE]Must be built on Hills terrain.</Text>
+	  </Replace> 
+	    	
+	  <Replace Tag="LOC_IMPROVEMENT_OFFSHORE_WIND_FARM_DESCRIPTION_JNR_REC" Language="ru_RU">
+			<Text>Unlocks the Builder ability to construct an Offshore Wind Farm.[NEWLINE][NEWLINE]Provides +2 [ICON_Power] Power per turn from renewable wind sources.[NEWLINE][ICON_Bullet]Extra +2 [ICON_Gold] Gold and +1 [ICON_Power] Power per turn if built on Ocean.[NEWLINE][ICON_Bullet]Extra +1 [ICON_Power] Power per turn if it is adjacent to another Offshore Wind Farm.[NEWLINE][ICON_Bullet]Extra +1 [ICON_Power] Power per turn when the Predictive Systems technology is reseached.[NEWLINE]If a Battery Substatio buildingn is present in this city, the extra [ICON_Power] Power bonuses from Terrain and Technology will be granted as [ICON_RESOURCE_JNR_BATTERY_CHARGE] Renewable Battery Charges instead.[NEWLINE]Must be built on Coast, Lake, or Ocean terrain.[NEWLINE]Requires the Seasteads technology to be built on Ocean terrain.</Text>
+	  </Replace>
+	  
+  </LocalizedText>	
+</GameData>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!--Corporation Product Names by Retheri(HGVhGVxJY4Cz2xD0)-->
+    <Row Tag="LOC_GREATWORK_PRODUCT_LAPIS_1_NAME" Language="en_US">
+      <Text>Klein Blue</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_LAPIS_2_NAME" Language="en_US">
+      <Text>Emperor's Ultramarine</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_LAPIS_3_NAME" Language="en_US">
+      <Text>Azure Rememberance Pigments</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_LAPIS_4_NAME" Language="en_US">
+      <Text>Princess Zahra Gemstone</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_LAPIS_5_NAME" Language="en_US">
+      <Text>Draco Electricus Dice</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_PLATINUM_1_NAME" Language="en_US">
+      <Text>Swan Song Jewelry Design</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_PLATINUM_2_NAME" Language="en_US">
+      <Text>Prima Materia Petrochemicals</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_PLATINUM_3_NAME" Language="en_US">
+      <Text>Gallilei Laboratory Equipment</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_PLATINUM_4_NAME" Language="en_US">
+      <Text>Adams' Catalyst</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_PLATINUM_5_NAME" Language="en_US">
+      <Text>Kilogramme des Archives</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_RUBY_1_NAME" Language="en_US">
+      <Text>Black Prince's Ruby</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_RUBY_2_NAME" Language="en_US">
+      <Text>Liberty Bell</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_RUBY_3_NAME" Language="en_US">
+      <Text>Neelanjali</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_RUBY_4_NAME" Language="en_US">
+      <Text>Magic Mirror Synthetic Gems</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_RUBY_5_NAME" Language="en_US">
+      <Text>Blorg's Bane Laser Device</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SANDALWOOD_1_NAME" Language="en_US">
+      <Text>Kusumapura Wood Art</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SANDALWOOD_2_NAME" Language="en_US">
+      <Text>Floral Reminiscence Fragrance</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SANDALWOOD_3_NAME" Language="en_US">
+      <Text>Mo Li Hua Cosmetics</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SANDALWOOD_4_NAME" Language="en_US">
+      <Text>Goose Pear Pavilion</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SANDALWOOD_5_NAME" Language="en_US">
+      <Text>Bee&Bloom Sandalwood Soap</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_MAPLE_1_NAME" Language="en_US">
+      <Text>Nordland Maple Syrup</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_MAPLE_2_NAME" Language="en_US">
+      <Text>Little Baby's Ice Cream</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_MAPLE_3_NAME" Language="en_US">
+      <Text>Bandari Musical Instruments</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_MAPLE_4_NAME" Language="en_US">
+      <Text>Free Wanderer Baseball Bat</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_MAPLE_5_NAME" Language="en_US">
+      <Text>Tennessee Whiskey</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_POPPIES_1_NAME" Language="en_US">
+      <Text>Laudanum</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_POPPIES_2_NAME" Language="en_US">
+      <Text>Dolantin</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_POPPIES_3_NAME" Language="en_US">
+      <Text>Nature Seeds Salad Oil</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_POPPIES_4_NAME" Language="en_US">
+      <Text>Everspring Artificial Flowers</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_POPPIES_5_NAME" Language="en_US">
+      <Text>Four Seasons Horticultural Supplies</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_CAVIAR_1_NAME" Language="en_US">
+      <Text>Atlantic Chef</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_CAVIAR_2_NAME" Language="en_US">
+      <Text>Tsar Peter's Select</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_CAVIAR_3_NAME" Language="en_US">
+      <Text>Frosister Caviar</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_CAVIAR_4_NAME" Language="en_US">
+      <Text>Admiral's Fishery</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_CAVIAR_5_NAME" Language="en_US">
+      <Text>Beluga Queen</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_CORAL_1_NAME" Language="en_US">
+      <Text>Barnacle Bay Aquascaping</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_CORAL_2_NAME" Language="en_US">
+      <Text>Ultrablue Aquarium Supplies</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_CORAL_3_NAME" Language="en_US">
+      <Text>Little Mermaid Dive Center</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_CORAL_4_NAME" Language="en_US">
+      <Text>Lemuria Nautical Artifacts</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_CORAL_5_NAME" Language="en_US">
+      <Text>Praval Bhasma</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_BAMBOO_1_NAME" Language="en_US">
+      <Text>Red Riding Hood Buskets</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_BAMBOO_2_NAME" Language="en_US">
+      <Text>Panda Chef Chopsticks</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_BAMBOO_3_NAME" Language="en_US">
+      <Text>Bamboo Pi Tissue</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_BAMBOO_4_NAME" Language="en_US">
+      <Text>MNG Printing Paper</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_BAMBOO_5_NAME" Language="en_US">
+      <Text>Xian Zhu Li</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_EBONY_1_NAME" Language="en_US">
+      <Text>MrM Woods</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_EBONY_2_NAME" Language="en_US">
+      <Text>Emanuel Moor Pianoforte</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_EBONY_3_NAME" Language="en_US">
+      <Text>Staunton Chess</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_EBONY_4_NAME" Language="en_US">
+      <Text>Yuejianglou Furniture</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_EBONY_5_NAME" Language="en_US">
+      <Text>Rising Star Guitar</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SAKURA_1_NAME" Language="en_US">
+      <Text>Somei-yoshino</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SAKURA_2_NAME" Language="en_US">
+      <Text>Kawazu-zakura</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SAKURA_3_NAME" Language="en_US">
+      <Text>Prunus Kanzan</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SAKURA_4_NAME" Language="en_US">
+      <Text>Quri-Cola Cherry</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SAKURA_5_NAME" Language="en_US">
+      <Text>2nd Factory Sakura Soda</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_CASHMERE_1_NAME" Language="en_US">
+      <Text>Reginae Fashion</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_CASHMERE_2_NAME" Language="en_US">
+      <Text>The Little Scarf Girl</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_CASHMERE_3_NAME" Language="en_US">
+      <Text>Antarctican Thermal Underwear</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_CASHMERE_4_NAME" Language="en_US">
+      <Text>Huanian Needlepoint</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_CASHMERE_5_NAME" Language="en_US">
+      <Text>Kitten Sibling Yarn</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_TRAVERTINE_1_NAME" Language="en_US">
+      <Text>Pyramid Masonry</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_TRAVERTINE_2_NAME" Language="en_US">
+      <Text>Gaia Architectural Design</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_TRAVERTINE_3_NAME" Language="en_US">
+      <Text>Grian & Greg Construction</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_TRAVERTINE_4_NAME" Language="en_US">
+      <Text>Laurel Garden Real Estate</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_TRAVERTINE_5_NAME" Language="en_US">
+      <Text>Bawei Shihuihua</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_ALABASTER_1_NAME" Language="en_US">
+      <Text>Julius Sculptures</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_ALABASTER_2_NAME" Language="en_US">
+      <Text>Chisel & Bits Relief</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_ALABASTER_3_NAME" Language="en_US">
+      <Text>Clay Commune Home Decor</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_ALABASTER_4_NAME" Language="en_US">
+      <Text>Hanbaiyu</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_ALABASTER_5_NAME" Language="en_US">
+      <Text>Seven Dwarfs Plaster Doll</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_GOLD2_1_NAME" Language="en_US">
+      <Text>King Fook Seng</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_GOLD2_2_NAME" Language="en_US">
+      <Text>El Dorado Jewelry</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_GOLD2_3_NAME" Language="en_US">
+      <Text>Venus Electronics</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_GOLD2_4_NAME" Language="en_US">
+      <Text>Wiener Philharmoniker</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_GOLD2_5_NAME" Language="en_US">
+      <Text>Schlag Metal</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SPONGE_1_NAME" Language="en_US">
+      <Text>Adrestia Natural Sponge</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SPONGE_2_NAME" Language="en_US">
+      <Text>Senor Clean Mop</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SPONGE_3_NAME" Language="en_US">
+      <Text>Q-Magic Konjac Sponge</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SPONGE_4_NAME" Language="en_US">
+      <Text>Stag Door Mattress</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SPONGE_5_NAME" Language="en_US">
+      <Text>SpongeBob SquarePants</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SEA_URCHIN_1_NAME" Language="en_US">
+      <Text>Ru Yi Fang</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SEA_URCHIN_2_NAME" Language="en_US">
+      <Text>Obra Dinn Seafood Restaurant</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SEA_URCHIN_3_NAME" Language="en_US">
+      <Text>Fei Long Ting</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SEA_URCHIN_4_NAME" Language="en_US">
+      <Text>Kraken's Belly</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SEA_URCHIN_5_NAME" Language="en_US">
+      <Text>Ambrose Restaurant</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_ORCA_1_NAME" Language="en_US">
+      <Text>S.E.A. Aquarium</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_ORCA_2_NAME" Language="en_US">
+      <Text>Oceanografic</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_ORCA_3_NAME" Language="en_US">
+      <Text>Changlong Ocean Kingdom</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_ORCA_4_NAME" Language="en_US">
+      <Text>AquaDom Sea Life</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_ORCA_5_NAME" Language="en_US">
+      <Text>The Lost Chambers Aquarium</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_WOLF_1_NAME" Language="en_US">
+      <Text>Chihuahua</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_WOLF_2_NAME" Language="en_US">
+      <Text>Great Dane</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_WOLF_3_NAME" Language="en_US">
+      <Text>Husky</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_WOLF_4_NAME" Language="en_US">
+      <Text>Dalmatian</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_WOLF_5_NAME" Language="en_US">
+      <Text>Himalayan Mastiff</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_TIGER_1_NAME" Language="en_US">
+      <Text>Loro Parque</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_TIGER_2_NAME" Language="en_US">
+      <Text>Temaiken</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_TIGER_3_NAME" Language="en_US">
+      <Text>Pairi Daiza</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_TIGER_4_NAME" Language="en_US">
+      <Text>Ueno Zoo</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_TIGER_5_NAME" Language="en_US">
+      <Text>Zoo La Palmyre</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_LION_1_NAME" Language="en_US">
+      <Text>Wombwell's Traveling Menagerie</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_LION_2_NAME" Language="en_US">
+      <Text>Barnum & Bailey Greatest Show</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_LION_3_NAME" Language="en_US">
+      <Text>Cirque Medrano</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_LION_4_NAME" Language="en_US">
+      <Text>Al G. Barnes Circus</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_LION_5_NAME" Language="en_US">
+      <Text>Great Noon International Circus</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_TOXINS_1_NAME" Language="en_US">
+      <Text>Botulinum Toxin</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_TOXINS_2_NAME" Language="en_US">
+      <Text>Penicillin</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_TOXINS_3_NAME" Language="en_US">
+      <Text>Paclitaxel</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_TOXINS_4_NAME" Language="en_US">
+      <Text>Trisenox</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_TOXINS_5_NAME" Language="en_US">
+      <Text>Vancomycin</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SAFFRON_1_NAME" Language="en_US">
+      <Text>Khosrow Saffron</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SAFFRON_2_NAME" Language="en_US">
+      <Text>Fu Yuan Tang Saffron</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SAFFRON_3_NAME" Language="en_US">
+      <Text>Scarlet Red Saffron</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SAFFRON_4_NAME" Language="en_US">
+      <Text>Althameri Saffron</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_SAFFRON_5_NAME" Language="en_US">
+      <Text>Kivu Gourmet Saffron</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_STRAWBERRY_1_NAME" Language="en_US">
+      <Text>Pagoda Fresh Fruits</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_STRAWBERRY_2_NAME" Language="en_US">
+      <Text>Three Hamsters Dried Strawberry</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_STRAWBERRY_3_NAME" Language="en_US">
+      <Text>Cupid Strawberry Jam</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_STRAWBERRY_4_NAME" Language="en_US">
+      <Text>Anna Orchard Juice</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_PRODUCT_STRAWBERRY_5_NAME" Language="en_US">
+      <Text>Meltybliss Strawberry Chocolate</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

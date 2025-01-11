@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		
+		<Row Name="ICON_ATLAS_LEADERS_SC_EURYDICE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SC_EURYDICE_32.dds"/>
+		<Row Name="ICON_ATLAS_LEADERS_SC_EURYDICE" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SC_EURYDICE_45.dds"/>
+		<Row Name="ICON_ATLAS_LEADERS_SC_EURYDICE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SC_EURYDICE_50.dds"/>
+		<Row Name="ICON_ATLAS_LEADERS_SC_EURYDICE" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SC_EURYDICE_55.dds"/>
+		<Row Name="ICON_ATLAS_LEADERS_SC_EURYDICE" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SC_EURYDICE_64.dds"/>
+		<Row Name="ICON_ATLAS_LEADERS_SC_EURYDICE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SC_EURYDICE_80.dds"/>
+		<Row Name="ICON_ATLAS_LEADERS_SC_EURYDICE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SC_EURYDICE_256.dds"/>
+		
+	</IconTextureAtlases>
+	<IconDefinitions>
+		
+		<Row Name="ICON_LEADER_SC_EURYDICE" Atlas="ICON_ATLAS_LEADERS_SC_EURYDICE" Index="0"/>
+		
+	</IconDefinitions>
+</GameData>

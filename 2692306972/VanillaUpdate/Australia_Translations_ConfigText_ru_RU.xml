@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_TRAIT_CIVILIZATION_LAND_DOWN_UNDER_DESCRIPTION" Language="ru_RU">
+      <Text>+3 [ICON_Housing] жилья в прибрежных городах. Пастбища активируют культурный захват. +1 бонус соседства от кампусов, центров коммерции, священных мест и театральных площадей на клетках с притягивающим престижем, +3 – на клетках с потрясающим престижем. </Text>
+    </Replace>		  
+  </LocalizedText>
+</GameData>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="SkelligeAtlas200"/>
+			<m_ObjectName text="SkelligeAtlas200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SkelligeAtlas22"/>
+			<m_ObjectName text="SkelligeAtlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SkelligeAtlas256"/>
+			<m_ObjectName text="SkelligeAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SkelligeAtlas30"/>
+			<m_ObjectName text="SkelligeAtlas30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SkelligeAtlas36"/>
+			<m_ObjectName text="SkelligeAtlas36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SkelligeAtlas44"/>
+			<m_ObjectName text="SkelligeAtlas44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SkelligeAtlas48"/>
+			<m_ObjectName text="SkelligeAtlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SkelligeAtlas50"/>
+			<m_ObjectName text="SkelligeAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SkelligeAtlas64"/>
+			<m_ObjectName text="SkelligeAtlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SkelligeAtlas80"/>
+			<m_ObjectName text="SkelligeAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SmugglersAtlas256"/>
+			<m_ObjectName text="SmugglersAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SmugglersAtlas38"/>
+			<m_ObjectName text="SmugglersAtlas38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SmugglersAtlas50"/>
+			<m_ObjectName text="SmugglersAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SmugglersAtlas80"/>
+			<m_ObjectName text="SmugglersAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DrakkarAtlas200"/>
+			<m_ObjectName text="DrakkarAtlas200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DrakkarAtlas22"/>
+			<m_ObjectName text="DrakkarAtlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DrakkarAtlas256"/>
+			<m_ObjectName text="DrakkarAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DrakkarAtlas32"/>
+			<m_ObjectName text="DrakkarAtlas32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DrakkarAtlas38"/>
+			<m_ObjectName text="DrakkarAtlas38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DrakkarAtlas50"/>
+			<m_ObjectName text="DrakkarAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DrakkarAtlas70"/>
+			<m_ObjectName text="DrakkarAtlas70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DrakkarAtlas80"/>
+			<m_ObjectName text="DrakkarAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DrakkarAtlas95"/>
+			<m_ObjectName text="DrakkarAtlas95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BranAtlas256"/>
+			<m_ObjectName text="BranAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BranAtlas32"/>
+			<m_ObjectName text="BranAtlas32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BranAtlas45"/>
+			<m_ObjectName text="BranAtlas45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BranAtlas48"/>
+			<m_ObjectName text="BranAtlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BranAtlas50"/>
+			<m_ObjectName text="BranAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BranAtlas55"/>
+			<m_ObjectName text="BranAtlas55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BranAtlas64"/>
+			<m_ObjectName text="BranAtlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BranAtlas80"/>
+			<m_ObjectName text="BranAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FreyaAtlas100"/>
+			<m_ObjectName text="FreyaAtlas100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FreyaAtlas22"/>
+			<m_ObjectName text="FreyaAtlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FreyaAtlas270"/>
+			<m_ObjectName text="FreyaAtlas270"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FreyaAtlas50"/>
+			<m_ObjectName text="FreyaAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Religion_Freya"/>
+			<m_ObjectName text="HM_Religion_Freya"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Religion_Svalblod"/>
+			<m_ObjectName text="HM_Religion_Svalblod"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SvalblodAtlas100"/>
+			<m_ObjectName text="SvalblodAtlas100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SvalblodAtlas22"/>
+			<m_ObjectName text="SvalblodAtlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SvalblodAtlas270"/>
+			<m_ObjectName text="SvalblodAtlas270"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SvalblodAtlas50"/>
+			<m_ObjectName text="SvalblodAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Skellige_Coastal_Fortress_Historic"/>
+			<m_ObjectName text="Skellige_Coastal_Fortress_Historic"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Skellige_Drakkar_Historic"/>
+			<m_ObjectName text="Skellige_Drakkar_Historic"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

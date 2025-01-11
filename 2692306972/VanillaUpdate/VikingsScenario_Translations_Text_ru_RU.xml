@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_BOOST_TRIGGER_SCENARIO_SHIPBUILDING" Language="ru_RU">
+      <Text>Получите великого адмирала.</Text>
+    </Replace>
+    <Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SCENARIO_SHIPBUILDING" Language="ru_RU">
+      <Text>Великий адмирал вдохновил ваш народ на изучение новых методов кораблестроения.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_GREAT_ADMIRAL_POINTS_DESCRIPTION" Language="ru_RU">
+      <Text>+10 очков великих адмиралов за каждый уничтоженный юнит.</Text>
+    </Replace>
+    <Replace Tag="LOC_VIKING_SCENARIO_SCORING_DESCRIPTION1" Language="ru_RU">
+      <Text>Нельзя разрушать города. Торговцев и адмиралов нельзя перемещать из города в город. Очки победы присуждаются следующим образом:[NEWLINE][ICON_Bullet]Империя: {1_CityVP} ОП за город. {2_PopVP} ОП за население.[NEWLINE][ICON_Bullet]Престиж: {3_GPVP} ОП за каждого полученного великого человека.[NEWLINE][ICON_Bullet]Торговля: {4_TradeVP} ОП за доступный торговый путь.[NEWLINE][ICON_Bullet]Разграбление: {5_PillageVP} ОП за разграбленную клетку.</Text>
+    </Replace>
+    <Replace Tag="LOC_VIKING_SCENARIO_SCORING_DESCRIPTION2" Language="ru_RU">
+      <Text>[NEWLINE][ICON_Bullet]Винланд: {1_VinlandA} ОП за первую активацию великого адмирала рядом с Винландом, {2_VinlandB} – за вторую, {3_VinlandC} – за третью, {4_VinlandD} – за последующие.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION" Language="ru_RU">
+      <Text>Юниты получают +3 [ICON_Strength] к боевой мощи или [ICON_Religion] к религиозной силе за каждый обращенный в религию Византии священный город (включая священный город самой Византии). Византия распространяет свою религию на ближайшие города, когда побеждает вражеский юнит. Дает +1 очко [ICON_GreatProphet] великого пророка от городов со священным местом.</Text>
+    </Replace>	  
+  </LocalizedText>
+</GameData>

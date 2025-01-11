@@ -1,0 +1,25 @@
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_PROJECT_HORSES_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>Расходует 100 [ICON_PRODUCTION] производства и преобразует 30 [ICON_RESOURCE_HORSES] ед. лошадей в 200 [ICON_GOLD] золота. Требуется наличие здания коммерческого центра 1-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_IRON_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>Расходует 200 [ICON_PRODUCTION] производства и преобразует 30 [ICON_RESOURCE_IRON] ед. железа в 400 [ICON_GOLD] золота. Требуется наличие здания коммерческого центра 1-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NITER_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>Расходует 300 [ICON_PRODUCTION] производства и преобразует 30 [ICON_RESOURCE_NITER] ед. селитры в 600 [ICON_GOLD] золота.Требуется наличие здания коммерческого центра 2-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_COAL_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>Расходует 400 [ICON_PRODUCTION] производства и преобразует 30 [ICON_RESOURCE_COAL] ед. угля в 800 [ICON_GOLD] золота. Требуется наличие здания коммерческого центра 2-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_OIL_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>Расходует 500 [ICON_PRODUCTION] производства и преобразует 30 [ICON_RESOURCE_OIL] ед. нефти в 1000 [ICON_GOLD] золота. Требуется наличие здания коммерческого центра 3-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ALUMINUM_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>Расходует 600 [ICON_PRODUCTION] производства и преобразует 30 [ICON_RESOURCE_ALUMINUM] ед. алюминия в 1200 [ICON_GOLD] золота. Требуется наличие здания коммерческого центра 3-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_URANIUM_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>Расходует 700 [ICON_PRODUCTION] производства и преобразует 30 [ICON_RESOURCE_URANIUM] ед. урана в 1400 [ICON_GOLD] золота. Требуется наличие здания коммерческого центра 4-го уровня.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

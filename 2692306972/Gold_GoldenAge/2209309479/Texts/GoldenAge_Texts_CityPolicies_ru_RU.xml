@@ -1,0 +1,91 @@
+<GameData>
+    <LocalizedText>	
+<!--城市内政-->
+	
+	<Replace Tag="LOC_CITYPOLICY_TEXT" Language="ru_RU">
+      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]в том числе {1_Num} от городских политик[ENDCOLOR]</Text>
+    </Replace>	
+	
+	
+	
+	<Replace Tag="LOC_BUILDING_CITIPOLICY_NONE_NAME" Language="ru_RU">
+      <Text>Без городских политик</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITIPOLICY_YIELD_SCIENCE_NAME" Language="ru_RU">
+      <Text>Городская политика - концентрация на науке</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITIPOLICY_YIELD_SCIENCE_DESCRIPTION" Language="ru_RU">
+      <Text>+20% [ICON_Science] науки, -5% [ICON_Food] пищи, [ICON_Production] производства, [ICON_Culture] культуры, [ICON_Gold] золота и [ICON_Faith] веры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITIPOLICY_YIELD_CULTURE_NAME" Language="ru_RU">
+      <Text>Городская политика - концентрация на культуре</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITIPOLICY_YIELD_CULTURE_DESCRIPTION" Language="ru_RU">
+      <Text>+20% [ICON_Culture] культуры, -5% [ICON_Food] пищи, [ICON_Production] производства, [ICON_Science] науки, [ICON_Gold] золота и [ICON_Faith] веры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITIPOLICY_YIELD_FOOD_NAME" Language="ru_RU">
+      <Text>Городская политика - концентрация на пище</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITIPOLICY_YIELD_FOOD_DESCRIPTION" Language="ru_RU">
+      <Text>+20% [ICON_Food] пищи, -5% [ICON_Culture] культуры, [ICON_Production] производства, [ICON_Science] науки, [ICON_Gold] золота и [ICON_Faith] веры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITIPOLICY_YIELD_PRODUCTION_NAME" Language="ru_RU">
+      <Text>Городская политика - концентрация на производстве</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITIPOLICY_YIELD_PRODUCTION_DESCRIPTION" Language="ru_RU">
+      <Text>+20% [ICON_Production] производства, -5% [ICON_Culture] культуры, [ICON_Food] пищи, [ICON_Science] науки, [ICON_Gold] золота и [ICON_Faith] веры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITIPOLICY_YIELD_GOLD_NAME" Language="ru_RU">
+      <Text>Городская политика - концентрация на экономике</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITIPOLICY_YIELD_GOLD_DESCRIPTION" Language="ru_RU">
+      <Text>+20% [ICON_Gold] золота, -5% [ICON_Culture] культуры, [ICON_Food] пищи, [ICON_Science] науки, [ICON_Production] производства и [ICON_Faith] веры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITIPOLICY_YIELD_FAITH_NAME" Language="ru_RU">
+      <Text>Городская политика - концентрация на вере</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_CITIPOLICY_YIELD_FAITH_DESCRIPTION" Language="ru_RU">
+      <Text>+20% [ICON_Faith] веры, -5% [ICON_Culture] культуры, [ICON_Food] пищи, [ICON_Science] науки, [ICON_Production] производства и [ICON_Gold] золота.</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_PROJECT_CITIPOLICY_TO_NONE_NAME" Language="ru_RU">
+      <Text>Остановить текущую городкую политику</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_PROJECT_CITIPOLICY_NONE_TO_YIELD_SCIENCE_NAME" Language="ru_RU">
+      <Text>Городская политика - концентрация на науке</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_PROJECT_CITIPOLICY_NONE_TO_YIELD_CULTURE_NAME" Language="ru_RU">
+      <Text>Городская политика - концентрация на культуре</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_PROJECT_CITIPOLICY_NONE_TO_YIELD_FOOD_NAME" Language="ru_RU">
+      <Text>Городская политика - концентрация на Food</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_PROJECT_CITIPOLICY_NONE_TO_YIELD_PRODUCTION_NAME" Language="ru_RU">
+      <Text>Городская политика - концентрация на производстве</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_PROJECT_CITIPOLICY_NONE_TO_YIELD_GOLD_NAME" Language="ru_RU">
+      <Text>Городская политика - концентрация на экономике</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_PROJECT_CITIPOLICY_NONE_TO_YIELD_FAITH_NAME" Language="ru_RU">
+      <Text>Городская политика - концентрация на вере</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>	

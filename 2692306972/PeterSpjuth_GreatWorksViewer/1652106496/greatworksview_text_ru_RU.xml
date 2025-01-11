@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_GREATWORKSVIEW_ORDER_BY_TYPE"     Language="ru_RU"> <Text>По типу</Text>                              </Replace>
+    <Replace Tag="LOC_GREATWORKSVIEW_ORDER_BY_TYPE_TT"  Language="ru_RU"> <Text>Упорядочить по типу здания</Text>  </Replace>
+    <Replace Tag="LOC_GREATWORKSVIEW_ORIG_ORDER"        Language="ru_RU"> <Text>По городам</Text>                             </Replace>
+    <Replace Tag="LOC_GREATWORKSVIEW_ORIG_ORDER_TT"     Language="ru_RU"> <Text>Упорядочить по городам</Text>    </Replace>
+    <Replace Tag="LOC_GREATWORKSVIEW_ALLOWY"            Language="ru_RU"> <Text>Разрешить Y</Text>                              </Replace>
+    <Replace Tag="LOC_GREATWORKSVIEW_ALLOWY_TT"         Language="ru_RU"> <Text>Разрешить окну расширяться по вертикали</Text>    </Replace>
+    <Replace Tag="LOC_GREATWORKSVIEW_DISALLOWY"         Language="ru_RU"> <Text>Запретить Y</Text>                           </Replace>
+    <Replace Tag="LOC_GREATWORKSVIEW_DISALLOWY_TT"      Language="ru_RU"> <Text>Запретить окну расширяться по вертикали</Text>                </Replace>
+    <Replace Tag="LOC_GREATWORKSVIEW_ART"               Language="ru_RU"> <Text>Худож.</Text>                                  </Replace> 
+    <Replace Tag="LOC_GREATWORKSVIEW_ART_TT"            Language="ru_RU"> <Text>Показать места с ячейками для шедевров изобразительного искусства</Text>        </Replace> 
+    <Replace Tag="LOC_GREATWORKSVIEW_ARTIFACT"          Language="ru_RU"> <Text>Артефакты</Text>                             </Replace> 
+    <Replace Tag="LOC_GREATWORKSVIEW_ARTIFACT_TT"       Language="ru_RU"> <Text>Показать места с ячейками для артефактов</Text>   </Replace> 
+    <Replace Tag="LOC_GREATWORKSVIEW_MUSIC"             Language="ru_RU"> <Text>Музыка</Text>                                </Replace> 
+    <Replace Tag="LOC_GREATWORKSVIEW_MUSIC_TT"          Language="ru_RU"> <Text>Показать места с ячейками для музыкальных шедевров</Text>      </Replace> 
+    <Replace Tag="LOC_GREATWORKSVIEW_RELIC"             Language="ru_RU"> <Text>Реликвии</Text>                                </Replace> 
+    <Replace Tag="LOC_GREATWORKSVIEW_RELIC_TT"          Language="ru_RU"> <Text>Показать места с ячейками для религиозных реликвий</Text>      </Replace> 
+    <Replace Tag="LOC_GREATWORKSVIEW_WRITING"           Language="ru_RU"> <Text>Литерат.</Text>                              </Replace> 
+    <Replace Tag="LOC_GREATWORKSVIEW_WRITING_TT"        Language="ru_RU"> <Text>Показать места с ячейками для литературных шедевров</Text>    </Replace>
+    <Replace Tag="LOC_CUI_GWV_THEMING_HELPER"           Language="ru_RU"> <Text>Тематика</Text>                              </Replace>
+    <Replace Tag="LOC_CUI_GWV_THEMING_HELPER_TOOLTIP"   Language="ru_RU"> <Text>Выберите три великих шедевра/артефакта одного цвета и разных номеров, чтобы сделать шедевры тематическими.</Text>  </Replace>
+  </LocalizedText>
+</GameData>

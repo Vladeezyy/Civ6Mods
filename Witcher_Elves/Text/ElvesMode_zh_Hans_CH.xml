@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!--Aedirn Special Forces-->
+		<Replace Language="zh_Hans_CH" Tag="LOC_TRAIT_AEDIRNIAN_SPECIAL_FORCES_MODE_DESCRIPTION">
+			<Text>亚甸特色中世纪侦察单位，取代散兵。 具有远程攻击能力，[ICON_RANGE]攻击距离为2，并拥有区域控制。可以直接攻击支援单位，而无需首先消除战斗单位。 与松鼠党和城邦战斗时+7 [icon_strength]战斗力和 +50％的战斗经验。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_ABILITY_AEDIRNIAN_STRENGTH_MODE_NAME">
+			<Text>对抗松鼠党和城邦单位时战斗力更强。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_ABILITY_AEDIRNIAN_XP_MODE_NAME">
+			<Text>对抗松鼠党和城邦单位时获得更多战斗经验值。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_ABILITY_AEDIRNIAN_STRENGTH_MODE_DESCRIPTION">
+			<Text>对抗松鼠党和城邦单位+7 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_ABILITY_AEDIRNIAN_XP_MODE_DESCRIPTION">
+			<Text>与松鼠党和城邦单位战斗获得+50% 经验值。</Text>
+		</Replace>
+		<!--New Scoiatael units-->
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNIT_ELVES_HORSE_ARCHER_NAME">
+			<Text>精灵弓骑手</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNIT_ELVES_HORSE_ARCHER_DESCRIPTION">
+			<Text>远古时代的松鼠党弓骑手。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNIT_ELVES_ARCHER_NAME">
+			<Text>精灵弓箭手</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNIT_ELVES_ARCHER_DESCRIPTION">
+			<Text>远古时代松鼠党远程攻击单位，远程攻击 [ICON_Range] 距离为2。只能被相邻单位发现。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNIT_ELVES_DRYAD_NAME">
+			<Text>树精游侠</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNIT_ELVES_DRYAD_DESCRIPTION">
+			<Text>远古时代松鼠党远程攻击单位，远程攻击 [ICON_Range] 距离为2。无视地貌带来的 [ICON_Movement] 移动力消耗。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNIT_ELVES_CHARIOT_NAME">
+			<Text>矮人战车</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNIT_ELVES_CHARIOT_DESCRIPTION">
+			<Text>远古时代松鼠党近战单位，在开放地形开始回合时获得额外+1 [ICON_Movement] 移动力。 与敌方城市相邻时，近战单位（包括自己），对城墙输出全额伤害。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNIT_ELVES_WARRIOR_NAME">
+			<Text>矮人勇士</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNIT_ELVES_WARRIOR_DESCRIPTION">
+			<Text>中世纪时代松鼠党近战单位， [ICON_Movement] 移动力只有1。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNIT_ELVES_ELEPHANT_NAME">
+			<Text>战象</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNIT_ELVES_ELEPHANT_DESCRIPTION">
+			<Text>中世纪松鼠党重骑兵单位。</Text>
+		</Replace>
+		<!--Unit Abilities-->
+		<Replace Language="zh_Hans_CH" Tag="LOC_ABILITY_ELVES_DRYAD_DESCRIPTION">
+			<Text>在森林或雨林中不受 [ICON_Movement] 移动力或视野减益。</Text>
+		</Replace>
+
+		<!--REPLACEMENTS-->
+		<Replace Language="zh_Hans_CH" Tag="LOC_BELIEF_INITIATION_RITES_EXPANSION2_DESCRIPTION">
+			<Text>清除松鼠党哨站时+50 [ICON_Faith] 信仰值。清除松鼠党哨站的单位恢复全部生命值。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BOOST_TRIGGER_MILITARY_TRADITION">
+			<Text>清除松鼠党哨站。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_NAME">
+			<Text>摧毁5个单元格以内的松鼠党哨站</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_DESCRIPTION">
+			<Text>在城市5个单元格以内摧毁一个 [ICON_Elves] 松鼠党哨站。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_GAME_NO_BARBARIANS">
+			<Text>无松鼠党</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIANS_HAVE_LEARNED_OF_YOUR_PRESENCE">
+			<Text>松鼠党已知道您的存在。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_HUD_BARBARIAN_SPOTTED_YOUR_CITY">
+			<Text>松鼠党已发现您的城市！</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_HUD_BARBARIAN_SPOTTED_CITY">
+			<Text>松鼠党已发现{1_CivName}的城市。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_COMBAT_PREVIEW_BONUS_VS_BARBARIANS">
+			<Text>+{1_Value}对战松鼠党优势</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITOPERATION_CONVERT_BARBARIANS_DESCRIPTION">
+			<Text>松鼠党归顺</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_ACTIVATE_GREAT_PERSON_REQUIRES_ADJACENT_BARBARIAN_UNIT">
+			<Text>必须靠近一个松鼠党单位。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_CHOOSE_ARTIFACT_EXPLANATION_BARBARIAN_CAMP">
+			<Text>您的考古学家{1_UnitName}发现了被{2_ActingCiv}驱散的松鼠党营地遗址。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_HUD_REPORTS_FILTER_BARBARIAN">
+			<Text>[ICON_GOSSIP_BARBARIAN] 松鼠党</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BOOST_TRIGGER_BRONZE_WORKING">
+			<Text>击杀3个松鼠党单位。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BOOST_TRIGGER_LONGDESC_BRONZE_WORKING">
+			<Text>和松鼠党的战争让你渴望更强大的武器。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_AGENDA_BARBARIAN_LOVER_NAME">
+			<Text>非人种族联盟</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_AGENDA_BARBARIAN_LOVER_DESCRIPTION">
+			<Text>同情松鼠党。讨厌摧毁松鼠党哨站所的文明。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_AGENDA_CIVILIZED_DESCRIPTION">
+			<Text>讨厌松鼠党。喜欢清除松鼠党哨站所的文明。讨厌对松鼠党哨站所视而不见的文明。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_CIVILIZATION_BARBARIAN_NAME">
+			<Text>松鼠党</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_IMPROVEMENT_BARBARIAN_CAMP_NAME">
+			<Text>松鼠党哨站</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_IMPROVEMENT_BARBARIAN_CAMP_DESCRIPTION">
+			<Text>创建额外的松鼠党。摧毁后将奖励 [ICON_Gold] 金币。-1魅力。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_CIVILIZATION_BARBARIAN_DESCRIPTION">
+			<Text>松鼠党</Text>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_CIVILIZATION_BARBARIAN_ADJECTIVE">
+			<Text>松鼠党的</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BONUS_AGAINST_BARBS_DESCRIPTION">
+			<Text>反松鼠党加成</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_TRADITION">
+			<Text>您的士兵希望您对松鼠党哨站所取得的胜利是一长串军事胜利的开始。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_POLICY_DISCIPLINE_DESCRIPTION">
+			<Text>同松鼠党战斗时，+5 [ICON_Strength] 单位战斗力。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_BARBARIANS_SIGHTED_MESSAGE">
+			<Text>松鼠党靠近</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_BARBARIANS_SIGHTED_SUMMARY">
+			<Text>我们发现野蛮人正在接近我们的城市{1_CityName}。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_MESSAGE">
+			<Text>出现新松鼠党哨站所</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_SUMMARY">
+			<Text>流言称一个新的松鼠党部落已迁至附近区域。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_PROMOTION_HEATHEN_CONVERSION_NAME">
+			<Text>精灵信仰转变</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_PROMOTION_HEATHEN_CONVERSION_DESCRIPTION">
+			<Text>使用传教次数，能让附近所有松鼠党信奉您的宗教。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_GREATPERSON_ACTION_USAGE_ADJACENT_BARBARIAN_UNIT">
+			<Text>靠近松鼠党单位激活。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_GREATPERSON_BOUDICA_ACTIVE">
+			<Text>把相邻松鼠党转到您的控制之下。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS">
+			<Text>一直以来，松鼠党对我们大家都是麻烦。非常感谢您的帮助！</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS">
+			<Text>您怎能让那些松鼠党在您国土附近胡作非为？</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_ANY_ANY">
+			<Text>抱歉，我们只是在寻求与一些非人种族搏斗。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_GOSSIP_BARBARIAN_INVASION_STARTED">
+			<Text>{1_CivName}的{2_CityName}正面临松鼠党入侵。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_GOSSIP_BARBARIAN_RAID_STARTED">
+			<Text>{1_CivName}的{2_CityName}正面临松鼠党扫荡。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_HOF_GRAPH_PLAYER_BARBARIAN_CAMPS">
+			<Text>摧毁松鼠党营地数</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_HOF_GRAPH_PLAYER_BARBARIAN_KILLS">
+			<Text>击杀松鼠党数</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_HOF_STAT_BARBARIANS_KILLED">
+			<Text>击杀松鼠党数</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_HOF_STAT_BARBARIAN_CAMPS">
+			<Text>摧毁松鼠党营地数</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_ATTACKS_BARBARIANS">
+			<Text>他们很高兴看到您清理松鼠党营地</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_IGNORES_BARBARIANS">
+			<Text>他们讨厌不清理松鼠党的文明</Text>
+		</Replace>
+		<!--<Replace Language="zh_Hans_CH" Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_BARBARIAN_CAMP_CHAPTER_HISTORY_PARA_1">
+			<Text>Historically, barbarians came in two types: those who wandered about and those that settled down. The latter became “civilized” and built cities, empires and such. The former plagued the latter, raiding the borders and upsetting the empire’s citizens. Generally organized along tribal lines, these barbarians – far from the “noble savage” stereotype, most of them really were brutal, cruel and warlike – were nomads, establishing temporary outposts from which to attack civilization and each other as well. When the fun of all that rampaging wore off, or when an organized army showed up and thrashed them, the surviving barbarians would pack up and move on, to establish another outpost sometime later somewhere else. Since it was generally a good idea – if one were a barbarian – not to be easily found by the civilized, the outposts over time were located in more inaccessible (and defensible) places … until, of course, there were no such places left.</Text>
+		</Replace>-->
+		<Replace Language="zh_Hans_CH" Tag="LOC_NAVAL_UNIT_KILL_DEDICATION_NOTIFICATION">
+			<Text>你摧毁了一个非松鼠党海军单位。</Text>
+		</Replace>
+		<!-- <Replace Language="zh_Hans_CH" Tag="LOC_PEDIA_CONCEPTS_PAGE_PRIDE_MOMENTS_1_CHAPTER_CONTENT_PARA_1">
+			<Text>Historic Moments are significant events that happen throughout the history of the game, ranging from being the first to choose a new form of government, to building a Unique Unit, to discovering Natural Wonders. There are dozens of these Historic Moments through the course of the game, representing world-first and player first achievements. These moments differ through the eras. For example, clearing a Scoia'tael Camp in the Ancient Era is an important milestone, but clearing one in the Modern Era won't even merit acknowledgement. You can view your Historic Moments at any time in your game by clicking on the History Timeline in the upper left toolbar. [NEWLINE][NEWLINE]Each Historic Moment adds towards your Era Score for the era, which is the measure of whether you will rise into a Golden Age or sink into a Dark Age in the next era. If you are gaining lots of Historic Moments in an era, it means you are likely to go into a Golden Age in the next era. If you are the first player in the world to get a Historic Moment, you will earn more Era Score points. </Text>
+		</Replace> -->
+		<!-- <Replace Language="zh_Hans_CH" Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_6">
+			<Text>Hic Sunt Dracones: Gain +3 Era Score each time you discover a new Continent or natural wonder. Gain +1 Era Score each time you kill a non-Scoia'tael naval unit in combat. If chosen at the start of a Golden Age, +3 starting [ICON_Citizen] Population for cities settled on a different continent than your first city. +2 [ICON_Movement] Movement for naval and embarked units. +2 Loyalty per turn for cities not on your original [ICON_Capital] Capital's continent. Renaissance through Modern Era.</Text>
+		</Replace> -->
+		<!-- <Replace Language="zh_Hans_CH" Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_9">
+			<Text>To Arms!: Gain +1 Era Score each time you kill a non-Scoia'tael Corps in combat and +2 Era Score each time you kill a non-Scoia'tael Army in combat. If chosen at the start of a Golden Age, unlocks a special Casus Belli which gives 75% less warmonger penalties than formal war and can be used immediately after Denouncing the target. +15% [ICON_Production] Production towards military units. Industrial through Atomic Era.</Text>
+		</Replace> -->
+		<!-- <Replace Language="zh_Hans_CH" Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_13">
+			<Text>Automaton Warfare: Gain +1 Era Score each time you kill a non-Scoia'tael unit with a Giant Death Robot. If chosen at the start of a Golden Age, gain a Giant Death Robot in your capital. Receive 3 [ICON_Resource_Uranium] Uranium per turn. [ICON_Resource_Uranium] Uranium mines accumulate +1 more resource per turn. Information and Future Era.</Text>
+		</Replace> -->
+		<Replace Language="zh_Hans_CH" Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_NON_BARBARIAN_UNIT_SEA_KILLS">
+			<Text>着力点加成：击杀非松鼠党海军单位的数量（每个+{1_ScoreIncrement}）</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_GAME_ERA_POPUP_DARK_AGE_DESCRIPTION">
+			<Text>黑暗时代可能始于中世纪，会对较大或欠发达的文明构成挑战。所有城市-1 [ICON_Amenities] 宜居度并-50%发展速度。如果玩家在下个时代中再次进入黑暗时代，其半数城市将变为废墟，成为松鼠党营地。[NEWLINE]此时代中这些玩家已进入黑暗时代：</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED">
+			<Text>松鼠党营地被摧毁</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED_DESCRIPTION">
+			<Text>一个单位已经将一个恼人的松鼠党营地夷为平地，此地区重归和平。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED_INSTANCE_DESCRIPTION">
+			<Text>我方军队摧毁了一个松鼠党营地，阻碍文明发展的威胁已清除。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED_NEAR_YOUR_CITY_DESCRIPTION">
+			<Text>您城市6个单元格内的一座松鼠党营地已被一个单位摧毁。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED_NEAR_YOUR_CITY_INSTANCE_DESCRIPTION">
+			<Text>松鼠党已被驱除。{CityName}城外的危机解除</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_NORMAL_AGE">
+			<Text>“此处有龙”着力点加成：[NEWLINE]每发现1个新大陆或自然奇观+3时代得分。在战斗中每击杀1个非松鼠党海军单位+1时代得分。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_DARK_AGE">
+			<Text>“此处有龙”着力点加成：[NEWLINE]每发现1个新大陆或自然奇观+3时代得分。在战斗中每击杀1个非松鼠党海军单位+1时代得分。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_NORMAL_AGE">
+			<Text>“全民皆兵”着力点加成：[NEWLINE]在战斗中每击杀1个非松鼠党军团+1时代得分、每击杀1个非松鼠党军队+2时代得分。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_DARK_AGE">
+			<Text>“全民皆兵”着力点加成：[NEWLINE]在战斗中每击杀1个非松鼠党军团+1时代得分、每击杀1个非松鼠党军队+2时代得分。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_NON_BARBARIAN_UNITS_KILLED_BY_GDR">
+			<Text>着力点加成：末日机甲击杀的非松鼠党单位（每个+{1_ScoreIncrement}）</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_GDR_KILL_OPPONENT_NOTIFICATION">
+			<Text>您用末日机甲摧毁了1个非松鼠党单位。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_NORMAL_AGE">
+			<Text>“机器人大战”着力点加成：[NEWLINE]每用末日机甲击杀1个非松鼠党单位便+1时代得分。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_DARK_AGE">
+			<Text>“机器人大战”着力点加成：[NEWLINE]每用末日机甲击杀1个非松鼠党单位便+1时代得分。</Text>
+		</Replace>
+		
+		<!--ADDITIONS-->
+		<Replace Language="zh_Hans_CH" Tag="LOC_GAMEMODE_ELVES_NAME">
+			<Text>巫师：松鼠党Mode</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_GAMEMODE_ELVES_DESCRIPTION">
+			<Text>该mode用巫师宇宙里的松鼠党替换松鼠党，需要拥有松鼠党突击队模式的DLC。</Text>
+		</Replace>
+		<!--Clan names-->
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_1">
+			<Text>布罗瓦尔.霍格</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_2">
+			<Text>亚尔潘.齐格林</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_3">
+			<Text>卓尔坦.齐瓦</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_4">
+			<Text>芒罗.布吕伊</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_5">
+			<Text>保利.达尔伯格</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_6">
+			<Text>珀西瓦尔.舒滕巴赫</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_1">
+			<Text>艾思娜</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_2">
+			<Text>莫丽恩</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_3">
+			<Text>法芙</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_4">
+			<Text>邓卡</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_5">
+			<Text>奥克温</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_6">
+			<Text>阿格莱斯</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_1">
+			<Text>巴克莱.艾尔斯</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_2">
+			<Text>丹尼斯.克莱默</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_3">
+			<Text>菲吉斯.梅卢卓</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_4">
+			<Text>加博.齐格林</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_5">
+			<Text>谢尔顿.斯卡格斯</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_6">
+			<Text>泽维尔.莫兰</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_1">
+			<Text>爱黎瑞恩</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_2">
+			<Text>席朗.伊斯尼蓝</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_3">
+			<Text>哈托里</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_4">
+			<Text>艾尔丹恩</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_5">
+			<Text>费拉万卓列</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_6">
+			<Text>伊欧菲斯</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_1">
+			<Text>菲斯奈特</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_2">
+			<Text>米尔瓦</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_3">
+			<Text>帕夫科.盖尔</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_4">
+			<Text>萨琪亚</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_5">
+			<Text>法兰西丝卡.芬达贝</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_6">
+			<Text>希姆莱斯.芬达贝</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_1">
+			<Text>伊森格林.法欧提亚娜</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_2">
+			<Text>希鲁</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_3">
+			<Text>托露薇尔</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_4">
+			<Text>瓦纳丁</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_5">
+			<Text>韦诺西尔</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_6">
+			<Text>亚伊文</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_NAVAL_1">
+			<Text>布雷恩</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_NAVAL_2">
+			<Text>玛莱娜</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_NAVAL_3">
+			<Text>科林</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_NAVAL_4">
+			<Text>达娜.蜜德碧</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_NAVAL_5">
+			<Text>艾达.艾敏</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_NAVAL_6">
+			<Text>茜尔莎</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_TYPE_MELEE_OPEN">
+			<Text>矮人战车突击队</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_TYPE_MELEE_FOREST">
+			<Text>树精游侠突击队</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_TYPE_MELEE_HILLS">
+			<Text>矮人勇士突击队</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_TYPE_CAVALRY_OPEN">
+			<Text>弓骑手突击队</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_TYPE_CAVALRY_JUNGLE">
+			<Text>战象突击队</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_TYPE_CAVALRY_CHARIOT">
+			<Text>精灵弓箭手突击队</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_CLAN_TYPE_NAVAL">
+			<Text>海军突击队</Text>
+		</Replace>
+		<!--Unit Actions-->
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_DISPERSE_DESCRIPTION">
+			<Text>肃清突击队</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_RAID_DESCRIPTION">
+			<Text>扫荡突击队</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_RAID_HELP">
+			<Text>获得{1_GoldAmount}点 [ICON_GOLD] 金币。哨站将保持完好无损，此突击队将损失{2_ProgressAmount}点城邦转变点数。每{3_Turns}回合即可对突击队进行扫荡。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_HIRE_DESCRIPTION">
+			<Text>雇佣突击队</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_HIRE_HELP">
+			<Text>花费{1_GoldAmount}点 [ICON_Gold] 金币从此突击队雇佣一名{4_UnitName}单位。此单位将在本回合出现在城市{5_CityName}附近。此突击队将获得{2_ProgressAmount}点城邦转变点数。每{3_Turns}回合即可对突击队进行雇佣。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_RANSOM_HELP">
+			<Text>花费{1_GoldAmount}点 [ICON_Gold] 金币来赎回被俘的{2_UnitName}。此突击队将损失城邦转变点数。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_BRIBE_DESCRIPTION">
+			<Text>贿赂突击队</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_BRIBE_HELP">
+			<Text>花费{1_GoldAmount}点 [ICON_Gold] 金币，让此突击队在{2_Turns}回合内无法侵扰您的城市。此突击队将获得{3_ProgressAmount}点城邦转变点数。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_INCITE_DESCRIPTION">
+			<Text>煽动突击队</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_INCITE_HELP">
+			<Text>花费{1_GoldAmount}点 [ICON_Gold] 金币来鼓动此突击队对{4_CivName}发起侵扰。此突击队将损失{2_ProgressAmount}点城邦转变点数。每{3_Turns}回合即可对突击队进行煽动。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_INCITE_HELP_GENERIC">
+			<Text>花费[ICON_Gold] 金币来鼓动此突击队对附近的其他文明或城邦发起侵扰。此突击队将损失{1_ProgressAmount}点城邦转变点数。每{2_Turns}回合即可对突击队进行煽动。</Text>
+		</Replace>
+		<!--Unit Action Result Strings-->
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_FAILURE_CLANS_NOT_ON_CAMP">
+			<Text>必须处于松鼠党哨站上。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_FAILURE_CLANS_RECENTLY_RAIDED">
+			<Text>{1_Turns}回合内无法再次扫荡此突击队。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_FAILURE_CLANS_RECENTLY_HIRED">
+			<Text>{1_Turns}回合内无法再次雇佣此突击队。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_FAILURE_CLANS_RECENTLY_INCITED">
+			<Text>{1_Turns}回合内无法再次煽动此突击队。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_OPERATION_FAILURE_HAS_NOT_MET_INCITE_TARGET">
+			<Text>我们尚未遇到此突击队知晓的任何其他文明。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_UNITCOMMAND_FAILURE_CLANS_ACTIVE_BRIBE">
+			<Text>此突击队已被贿赂，剩余{1_Turns}回合。</Text>
+		</Replace>
+		<!--UI-->
+		<Replace Language="zh_Hans_CH" Tag="LOC_TOOLTIP_BARBARIAN_CLAN_NAME">
+			<Text>{1_ClanName}突击队</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_STATUS_INCITED_BY_YOU">
+			<Text>您已煽动此突击队攻击{1_playerName}。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_STATUS_INCITED_AGAINST_YOU">
+			<Text>{1_playerName}煽动此突击队对您发起了攻击。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_BARBARIAN_STATUS_INCITED_AGAINST_YOU_UNKNOWN">
+			<Text>一个未知文明煽动此突击队对您发起了攻击。</Text>
+		</Replace>
+		<!--Notifications-->
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_CONVERTED_TO_CITY_STATE_MESSAGE">
+			<Text>突击队已转变为城邦</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_CONVERTED_TO_CITY_STATE_SUMMARY">
+			<Text>松鼠党突击队“{1_ClanName}”建立了一个新城邦！他们现在名为“{2_CivName}”。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_HIRED_MESSAGE">
+			<Text>已雇佣松鼠党</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_HIRED_SUMMARY">
+			<Text>{1_PlayerName}从松鼠党突击队“{2_ClanName}”处雇佣了军事单位。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_UNIT_RANSOMED_MESSAGE">
+			<Text>已向松鼠党支付赎金</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_UNIT_RANSOMED_SUMMARY">
+			<Text>{1_PlayerName}已向松鼠党突击队“{2_ClanName}”赎回本方单位{3_UnitName}。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_BRIBED_MESSAGE">
+			<Text>已贿赂松鼠党</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_BRIBED_SUMMARY">
+			<Text>我们的城市将在{2_NumTurns}回合内免遭松鼠党突击队“{1_ClanName}”的侵扰。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_BRIBE_EXPIRED_MESSAGE">
+			<Text>松鼠党贿赂已失效</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_BRIBE_EXPIRED_SUMMARY">
+			<Text>我们对松鼠党突击队“{1_ClanName}”进行的免侵扰贿赂已失效！</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_INCITED_MESSAGE">
+			<Text>已煽动松鼠党</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_INCITED_AGAINST_CIV_SUMMARY">
+			<Text>我们已煽动松鼠党突击队“{1_ClanName}”对{2_CivName}进行侵扰！</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_INCITED_BY_UNKNOWN_SUMMARY">
+			<Text>一个未知文明已煽动松鼠党突击队“{1_ClanName}”对我们进行侵扰！</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_INCITED_BY_CIV_SUMMARY">
+			<Text>{1_CivName}已煽动松鼠党突击队“{2_ClanName}”对我们进行侵扰！</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_RAID_REPRISAL_UNIT_MOVED_SUMMARY">
+			<Text>对松鼠党突击队“{2_ClanName}”进行扫荡后，我方单位{1_UnitName}遭到报复攻击，被迫逃离。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_RAID_REPRISAL_UNIT_KILLED_SUMMARY">
+			<Text>对松鼠党突击队“{2_ClanName}”进行扫荡后，我方单位{1_UnitName}受困于报复攻击并遭到击杀。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_DISPERSED_MESSAGE">
+			<Text>已肃清突击队</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_NOTIFICATION_CLAN_DISPERSED_SUMMARY">
+			<Text>{1_ClanName}突击队已遭摧毁！</Text>
+		</Replace>
+		<!--Treat With Tribe Text-->		
+		<Replace Language="zh_Hans_CH" Tag="LOC_TRIBE_BANNER_TREAT_WITH_TRIBE_TT">
+			<Text>点击处理与{1_ClanName}相关的事务。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_TREAT_WITH_TRIBE_POPUP_TITLE">
+			<Text>处理松鼠党事务</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CH" Tag="LOC_TREAT_WITH_NAMED_CLAN">
+			<Text>与{1_ClanName}突击队接洽</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

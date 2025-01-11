@@ -1,0 +1,94 @@
+<GameData>
+    <LocalizedText>		
+    <!--大科学家-->	
+	<!--ARYABHATA-->	
+	
+	<Replace Tag="LOC_GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS" Language="ru_RU">
+      <Text>Активирует все [ICON_TechBoosted] озарения и [ICON_CivicBoosted] вдохновения эпохи античности.</Text>
+    </Replace>
+	<!--EUCLID-->	
+	
+	<Replace Tag="LOC_GREATPERSON_EUCLID_ACTIVE" Language="ru_RU">
+      <Text>Открывает технологию «Математика». +100% бонуса [ICON_SCIENCE] науки за соседство для этого кампуса.</Text>
+    </Replace>
+	<!--ZHANG_HENG-->	
+	
+	<Replace Tag="LOC_GOLDEN_ZHANG_HENG_CAMPUS_CULTURE" Language="ru_RU">
+      <Text>Бонус соседства [ICON_SCIENCE] науки этого кампуса дает столко же [ICON_CULTURE] культуру.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GREATPERSON_1MEDIEVALRENAISSANCETECHBOOST" Language="ru_RU">
+      <Text>Активирует [ICON_TechBoosted] озарения для 3 случайных технологий и [ICON_CivicBoosted] вдохновения для 3 случайных социальных институтов эпохи возрождения.</Text>
+    </Replace>
+	<!--OMAR_KHAYYAM-->	
+	
+	<Replace Tag="LOC_GREATPERSON_OMAR_KHAYYAM_ACTIVE" Language="ru_RU">
+      <Text>Бонус [ICON_CULTURE] культуры от соседства этой театральной площади также дает [ICON_SCIENCE] науку.</Text>
+    </Replace>
+	<!--HYPATIA-->	
+	
+	<Replace Tag="LOC_GOLDEN_HYPATIA" Language="ru_RU">
+      <Text>+3 [ICON_Science] науки всем зданиям кампуса 1 уровня.</Text>
+    </Replace>
+	<!--ISAAC_NEWTON-->	
+	
+	<Replace Tag="LOC_GOLDEN_ISAAC_NEWTON" Language="ru_RU">
+      <Text>+4 [ICON_Science] науки всем зданиям кампуса 2 уровня</Text>
+    </Replace>
+	<!--ALBERT_EINSTEIN-->	
+	
+	<Replace Tag="LOC_GOLDEN_ALBERT_EINSTEIN" Language="ru_RU">
+      <Text>+5 [ICON_Science] науки всем зданиям кампуса 3 уровня</Text>
+    </Replace>
+	<!--GALILEO_GALILEI-->	
+	
+	<Replace Tag="LOC_GREATPERSON_GALILEO_GALILEI_ACTIVE" Language="ru_RU">
+      <Text>Дает 1000 [ICON_Science] науки (на стандартной скорости) за каждую соседнюю гору.</Text>
+    </Replace>
+	
+	
+	<Replace Tag="LOC_GOLDEN_JAMES_YOUNG" Language="ru_RU">
+      <Text>Бонус [ICON_Gold] от соседства в этом коммерческом районе также дает науку [ICON_SCIENCE].</Text>
+    </Replace>
+	<!--CHARLES_DARWIN-->	
+	
+	<Replace Tag="LOC_GREATPERSON_CHARLES_DARWIN_ACTIVE" Language="ru_RU">
+      <Text>Дает 1200 [ICON_Science] науки и 1200 [ICON_Culture] культуры (на стандартной скорости) за каждую клетку чуда природы здесь или рядом.</Text>
+    </Replace>
+	<!--DMITRI_MENDELEEV-->	
+	
+	<Replace Tag="LOC_GREATPERSON_DMITRI_MENDELEEV_ACTIVE" Language="ru_RU">
+      <Text>Открывает технологию «Химия». Активирует [ICON_TechBoosted] озарения для 3 случайных технологий и [ICON_CivicBoosted] вдохновения для 3 случайных социальных институтов промыщленной эры или эпохи нового времени.</Text>
+    </Replace>
+	<!--ALAN_TURING-->	
+	
+	<Replace Tag="LOC_GREATPERSON_ALAN_TURING_ACTIVE" Language="ru_RU">
+      <Text>Открывает технологию «Компьютеры». Активирует ICON_TechBoosted] озарения для 3 случайных технологий и [ICON_CivicBoosted] вдохновения для 3 случайных социальных институтов эпохи нового времени или эпохи атома.</Text>
+    </Replace>
+	<!--  -->
+
+	
+	<Replace Tag="LOC_GREATPERSON_3ATOMICINFORMATIONTECHBOOSTS" Language="ru_RU">
+      <Text>Открывает технологию «Ядерный синтез». Активирует [ICON_TechBoosted] озарения для 3 случайных технологий и [ICON_CivicBoosted] вдохновения для 3 случайных социальных институтов эпохи атома или информационной эры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GREAT_PERSON_GRANT_LOTSO_SCIENCE" Language="ru_RU">
+      <Text>Дает 8000 [ICON_SCIENCE] науки и [ICON_CULTURE] культуры (на стандартной скорости).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GREATPERSON_ADJACENT_RAINFOREST_SCIENCE" Language="ru_RU">
+      <Text>Дает {Amount} [ICON_Science] науки и [ICON_CULTURE] культуры за каждую клетку джунглей здесь или рядом.</Text>
+    </Replace>
+	<!--大工程师-->	
+	<!--LEONARDO_DA_VINCI-->	
+	
+	<Replace Tag="LOC_GREATPERSON_LEONARDO_DA_VINCI_ACTIVE" Language="ru_RU">
+      <Text>+2 [ICON_CULTURE] культуры всем соседним клеткам, которые в настоящее время находятся на территории вашей империи.</Text>
+    </Replace>
+	<!--JAMES_WATT-->
+	
+	<Replace Tag="LOC_GREATPERSON_JAMES_WATT_ACTIVE" Language="ru_RU">
+      <Text>+2 [ICON_Science] науки всем соседним клеткам, которые в настоящее время находятся на территории вашей империи..</Text>
+    </Replace>	
+	</LocalizedText>
+</GameData>

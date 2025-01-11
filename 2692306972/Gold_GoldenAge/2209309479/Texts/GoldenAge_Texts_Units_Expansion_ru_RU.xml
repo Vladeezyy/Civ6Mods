@@ -1,0 +1,394 @@
+<GameData>
+	<LocalizedText>
+<!--Melee units-->
+		
+	    <Replace Tag="LOC_UNIT_WARRIOR_DESCRIPTION" Language="ru_RU">
+            <Text>Юнит ближнего боя эпохи древнего мира. Хорошо противостоит антикавалерийским юнитам. Обзор: 1</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_SWORDSMAN_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит ближнего боя эпохи античности. Хорошо противостоит антикавалерийским юнитам. Обзор: 1</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_MAN_AT_ARMS_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит ближнего боя эпохи средневековья. Хорошо противостоит антикавалерийским юнитам. Обзор: 1</Text>
+        </Replace>
+		 
+	     <Replace Tag="LOC_UNIT_MUSKETMAN_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит ближнего боя эпохи возрождения. Хорошо противостоит антикавалерийским юнитам. Обзор: 1</Text>
+        </Replace>
+		
+	      <Replace Tag="LOC_UNIT_LINE_INFANTRY_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит ближнего боя промышленной эры. Хорошо противостоит антикавалерийским юнитам. Обзор: 1</Text>
+        </Replace>
+		
+	      <Replace Tag="LOC_UNIT_INFANTRY_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит ближнего боя эпохи нового времени. Хорошо противостоит антикавалерийским юнитам. Обзор: 1</Text>
+        </Replace>
+		
+	      <Replace Tag="LOC_UNIT_ELITE_INFANTRY_NAME" Language="ru_RU">
+          <Text>Элитная пехота|элитной пехоты|элитной пехоте|элитную пехоту|элитной пехотой|элитной пехоте</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	      <Replace Tag="LOC_UNIT_ELITE_INFANTRY_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит ближнего боя эпохи атома. Хорошо противостоит антикавалерийским юнитам. Обзор: 1</Text>
+        </Replace>
+		 
+	      <Replace Tag="LOC_UNIT_MECHANIZED_INFANTRY_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит ближнего боя информационной эры. Хорошо противостоит антикавалерийским юнитам. Обзор: 1</Text>
+       </Replace>
+	   
+	   <!--Anti-Cavalry units-->
+		
+	    <Replace Tag="LOC_UNIT_SPEARMAN_DESCRIPTION" Language="ru_RU">
+          <Text>Антикавалерийский юнит эпохи древнего мира. Хорошо противостоит юнитам кавалерии. Обзор: 1</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_HEAVY_INFANTRY_NAME" Language="ru_RU">
+          <Text>Копейщик со щитом|копейщика со щитом|копейщику со щитом|копейщика со щитом|копейщиком со щитом|копейщике со щитом</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_HEAVY_INFANTRY_DESCRIPTION" Language="ru_RU">
+          <Text>Антикавалерийский юнит эпохи античности. Хорошо противостоит юнитам кавалерии. Обзор: 1</Text>
+        </Replace>
+		
+	     <Replace Tag="LOC_UNIT_PIKEMAN_DESCRIPTION" Language="ru_RU">
+          <Text>Антикавалерийский юнит эпохи средневековья. Хорошо противостоит юнитам кавалерии. Обзор: 1</Text>
+        </Replace>
+		
+	      <Replace Tag="LOC_UNIT_PIKE_AND_SHOT_DESCRIPTION" Language="ru_RU">
+          <Text>Антикавалерийский юнит эпохи возрождения. Хорошо противостоит юнитам кавалерии. Обзор: 1</Text>
+       </Replace>		
+		
+	     <Replace Tag="LOC_UNIT_ARQUEBUSIER_NAME" Language="ru_RU">
+          <Text>Арекбузир|аркебузира|аркебузиру|аркебузира|аркебузиром|аркебузире</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	     <Replace Tag="LOC_UNIT_ARQUEBUSIER_DESCRIPTION" Language="ru_RU">
+          <Text>Антикавалерийский юнит промышленной эры. Хорошо противостоит юнитам кавалерии. Обзор: 1</Text>
+        </Replace>		
+		
+	    <Replace Tag="LOC_UNIT_AT_CREW_DESCRIPTION" Language="ru_RU">
+          <Text>Антикавалерийский юнит эпохи нового времени. Хорошо противостоит юнитам кавалерии. Обзор: 1</Text>
+        </Replace>
+	   
+	      <Replace Tag="LOC_UNIT_MODERN_AT_DESCRIPTION" Language="ru_RU">
+          <Text>Антикавалерийский юнит эпохи атома. Хорошо противостоит юнитам кавалерии. Обзор: 1</Text>
+       </Replace>
+	   
+	    <Replace Tag="LOC_UNIT_UNIT_AT_MISSILE_NAME" Language="ru_RU">
+          <Text>Противотанковая ракета|противотанковой ракеты|противотанковой ракете|противотанковую ракету|противотанковой ракете|противотанковой ракете</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_AT_MISSILE_DESCRIPTION" Language="ru_RU">
+          <Text>Антикавалерийский юнит информационной эры. Хорошо противостоит юнитам кавалерии. Обзор: 1</Text>
+        </Replace>
+			   	   
+	   <!--Ranged units-->
+		
+	    <Replace Tag="LOC_UNIT_SLINGER_DESCRIPTION" Language="ru_RU">
+          <Text>Дальнобойный юнит эпохи древнего мира. Хорошо противостоит юнитам ближнего боя. Обзор: 1</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_ARCHER_DESCRIPTION" Language="ru_RU">
+          <Text>Дальнобойный юнит эпохи античности. Хорошо противостоит юнитам ближнего боя. Обзор: 1</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_CROSSBOWMAN_DESCRIPTION" Language="ru_RU">
+          <Text>Дальнобойный юнит эпохи средневековья. Хорошо противостоит юнитам ближнего боя. Обзор: 1</Text>
+        </Replace>		
+		
+	    <Replace Tag="LOC_UNIT_CULVERIN_NAME" Language="ru_RU">
+          <Text>Кулевринер|кульверинера|кульверинеру|кульверинера|кульверинером|кульверинере</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_CULVERIN_DESCRIPTION" Language="ru_RU">
+          <Text>Дальнобойный юнит эпохи возрождения. Хорошо противостоит юнитам ближнего боя. Обзор: 1</Text>
+        </Replace>		
+		
+	     <Replace Tag="LOC_UNIT_FIELD_CANNON_DESCRIPTION" Language="ru_RU">
+          <Text>Дальнобойный юнит промышленной эры. Хорошо противостоит юнитам ближнего боя. Обзор: 1</Text>
+        </Replace>	
+		
+	     <Replace Tag="LOC_UNIT_HOWITZER_NAME" Language="ru_RU">
+          <Text>Гаубица|гаубицы|гаубице|гаубицу|гаубицей|гаубице</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	     <Replace Tag="LOC_UNIT_HOWITZER_DESCRIPTION" Language="ru_RU">
+          <Text>Дальнобойный юнит эпохи нового времени. Хорошо противостоит юнитам ближнего боя. Обзор: 1</Text>
+        </Replace>
+		
+	      <Replace Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION" Language="ru_RU">
+          <Text>Дальнобойный юнит эпохи атома. Хорошо противостоит юнитам ближнего боя. Обзор: 1</Text>
+       </Replace>
+	   
+	     <Replace Tag="LOC_UNIT_MISSILE_VEHICLE_NAME" Language="ru_RU">
+          <Text>Ракетный комплекс|ракетного комплекса|ракетному комплексу|ракетный комплекс|ракетным комплексом|ракетном комплексе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	     <Replace Tag="LOC_UNIT_MISSILE_VEHICLE_DESCRIPTION" Language="ru_RU">
+          <Text>Дальнобойный юнит информационной эры. Хорошо противостоит юнитам ближнего боя. Обзор: 1</Text>
+        </Replace>
+	   
+	   <!--Light Cavalry units-->
+		
+	    <Replace Tag="LOC_UNIT_HORSEMAN_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит легкой кавалерии эпохи античности. Хорошо противостоит осадным юнитам. Обзор: 2</Text>
+        </Replace>
+		
+	       <Replace Tag="LOC_UNIT_COURSER_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит легкой кавалерии эпохи средневековья. Хорошо противостоит осадным юнитам. Обзор: 2</Text>
+       </Replace>	   
+	   
+	     <Replace Tag="LOC_UNIT_DRAGOON_NAME" Language="ru_RU">
+          <Text>Драгуны|драгунов|драгунам|драгунов|драгунами|драгунах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+        </Replace>
+		
+	     <Replace Tag="LOC_UNIT_DRAGOON_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит легкой кавалерии эпохи возрождения. Хорошо противостоит осадным юнитам. Обзор: 2</Text>
+        </Replace>		
+		
+	     <Replace Tag="LOC_UNIT_CAVALRY_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит легкой кавалерии промышленной эры. Хорошо противостоит осадным юнитам. Обзор: 2</Text>
+        </Replace>
+		
+	     <Replace Tag="LOC_UNIT_CARABINIER_NAME" Language="ru_RU">
+          <Text>Карабинеры|карабинеров|карабинерам|карабинеров|карабинерами|карабинерах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+        </Replace>
+		
+	     <Replace Tag="LOC_UNIT_CARABINIER_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит легкой кавалерии эпохи нового времени. Хорошо противостоит осадным юнитам. Обзор: 2</Text>
+        </Replace>
+		
+	      <Replace Tag="LOC_UNIT_HELICOPTER_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит легкой кавалерии эпохи атома. Хорошо противостоит осадным юнитам. Обзор: 2</Text>
+       </Replace>
+	   
+	     <Replace Tag="LOC_UNIT_SUPER_HELICOPTER_NAME" Language="ru_RU">
+          <Text>Супер-вертолет|супер-вертолета|супер-вертолету|супер-вертолет|супер-вертолетом|супер-вертолете</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+		<Replace Tag="LOC_UNIT_SUPER_HELICOPTER_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит легкой кавалерии информационной эры. Хорошо противостоит осадным юнитам. Обзор: 2</Text>
+        </Replace>
+	   	   
+	   <!--Heavy Cavalry units-->
+		
+	    <Replace Tag="LOC_UNIT_HEAVY_CHARIOT_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит тяжелой кавалерии эпохи древнего мира. Хорошо противостоит дальнобойным юнитам. Обзор: 2[NEWLINE][NEWLINE]Дает 1 бонусное очко [ICON_Movement] перемещения, если начинает ход на открытой местности, без лесов, джунглей или холмов.</Text>
+        </Replace>		
+		
+	    <Replace Tag="LOC_UNIT_ARMORED_HORSEMAN_NAME" Language="ru_RU">
+          <Text>Бронированный всадник|бронированного всадника|бронированному всаднику|бронированного всадника|бронированным всадником|бронированном всаднике</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_ARMORED_HORSEMAN_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит тяжелой кавалерии эпохи античности. Хорошо противостоит дальнобойным юнитам. Обзор: 2</Text>
+        </Replace>		
+		
+	    <Replace Tag="LOC_UNIT_KNIGHT_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит тяжелой кавалерии эпохи средневековья. Хорошо противостоит дальнобойным юнитам. Обзор: 2</Text>
+        </Replace>		
+		
+	    <Replace Tag="LOC_UNIT_REITER_NAME" Language="ru_RU">
+          <Text>Рейтары|рейтаров|рейтарам|рейтаров|рейтарами|рейтарах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_REITER_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит тяжелой кавалерии эпохи возрождения. Хорошо противостоит дальнобойным юнитам. Обзор: 2</Text>
+        </Replace>		
+		
+	        <Replace Tag="LOC_UNIT_CUIRASSIER_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит тяжелой кавалерии промышленной эры. Хорошо противостоит дальнобойным юнитам. Обзор: 2</Text>
+       </Replace>	
+	   
+	      <Replace Tag="LOC_UNIT_LANDSHIP_NAME" Language="ru_RU">
+          <Text>Тяжелый танк|тяжелого танка|тяжелому танку|тяжелый танк|тяжелым танком|тяжелом танке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+       </Replace>
+	   
+	      <Replace Tag="LOC_UNIT_LANDSHIP_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит тяжелой кавалерии эпохи нового времени, игнорирующий зону контроля. Хорошо противостоит дальнобойным юнитам. Обзор: 2</Text>
+       </Replace>
+	   
+	      <Replace Tag="LOC_UNIT_TANK_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит тяжелой кавалерии эпохи атома, игнорирующий зону контроля. Хорошо противостоит дальнобойным юнитам. Обзор: 2</Text>
+       </Replace>
+	   
+	      <Replace Tag="LOC_UNIT_MODERN_ARMOR_DESCRIPTION" Language="ru_RU">
+          <Text>Юнит тяжелой кавалерии информационной эры. Хорошо противостоит дальнобойным юнитам. Обзор: 2</Text>
+       </Replace>
+	      
+	   <!--Siege units-->
+	    
+	    <Replace Tag="LOC_UNIT_CATAPULT_DESCRIPTION" Language="ru_RU">
+          <Text>Осадной юнит эпохи античности. Идеален для атаки городов. Обзор: 1 [NEWLINE][NEWLINE]Не может двигаться и атаковать в один и тот же ход, если не начинает ход с более чем 3 очками перемещения (пр.: великий полководец, логистика) или не имеют повышения «Опытная команда».
+		  </Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_TREBUCHET_DESCRIPTION" Language="ru_RU">
+          <Text>Осадной юнит эпохи средневековья. Идеален для атаки городов. Обзор: 1 [NEWLINE][NEWLINE]Не может двигаться и атаковать в один и тот же ход, если не начинает ход с более чем 3 очками перемещения (пр.: великий полководец, логистика) или не имеют повышения «Опытная команда».</Text>
+        </Replace>
+		
+	     <Replace Tag="LOC_UNIT_BOMBARD_DESCRIPTION" Language="ru_RU">
+          <Text>Осадной юнит эпохи возрождения. Идеален для атаки городов. Обзор: 1 [NEWLINE][NEWLINE]Не может двигаться и атаковать в один и тот же ход, если не начинает ход с более чем 3 очками перемещения (пр.: великий полководец, логистика) или не имеют повышения «Опытная команда».</Text>
+        </Replace>
+		
+	      <Replace Tag="LOC_UNIT_RIFLED_CANNON_NAME" Language="ru_RU">
+          <Text>Нарезная пушка|нарезной пушки|нарезной пушке|нарезную пушку|нарезной пушкой|нарезной пушке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+       </Replace>
+	   
+	      <Replace Tag="LOC_UNIT_RIFLED_CANNON_DESCRIPTION" Language="ru_RU">
+          <Text>Осадной юнит промышленной эры. Идеален для атаки городов. Обзор: 1 [NEWLINE][NEWLINE]Не может двигаться и атаковать в один и тот же ход, если не начинает ход с более чем 3 очками перемещения (пр.: великий полководец, логистика) или не имеют повышения «Опытная команда».</Text>
+       </Replace>
+		
+	      <Replace Tag="LOC_UNIT_ARTILLERY_DESCRIPTION" Language="ru_RU">
+          <Text>Осадной юнит эпохи нового времени. Идеален для атаки городов. Обзор: 1 [NEWLINE][NEWLINE]Не может двигаться и атаковать в один и тот же ход, если не начинает ход с более чем 3 очками перемещения (пр.: великий полководец, логистика) или не имеют повышения «Опытная команда».</Text>
+       </Replace>
+	   
+	      <Replace Tag="LOC_UNIT_ATOMIC_ARTILLERY_NAME" Language="ru_RU">
+          <Text>Атомная артиллерия|атомной артиллерии|атомной артиллерии|атомную артиллерию|атомной артиллерией|атомной артиллерии</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+       </Replace>
+	   
+	      <Replace Tag="LOC_UNIT_ATOMIC_ARTILLERY_DESCRIPTION" Language="ru_RU">
+          <Text>Осадной юнит эпохи атома. Идеален для атаки городов. Обзор: 1 [NEWLINE][NEWLINE]Не может двигаться и атаковать в один и тот же ход, если не начинает ход с более чем 3 очками перемещения (пр.: великий полководец, логистика) или не имеют повышения «Опытная команда».</Text>
+       </Replace>
+	   
+	      <Replace Tag="LOC_UNIT_ROCKET_ARTILLERY_DESCRIPTION" Language="ru_RU">
+          <Text>Осадной юнит информационной эры. Идеален для атаки городов. Обзор: 1 [NEWLINE][NEWLINE]Не может двигаться и атаковать в один и тот же ход, если не начинает ход с более чем 3 очками перемещения (пр.: великий полководец, логистика) или не имеют повышения «Опытная команда».</Text>
+       </Replace>
+	<!--NAVAL_MELEE-->	
+		
+	    <Replace Tag="LOC_UNIT_LEMBOS_NAME" Language="ru_RU">
+          <Text>Парусное судно|парусного судна|парусному судну|парусное судно|парусным судном|парусном судне</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_COG_NAME" Language="ru_RU">
+          <Text>Каракка|каракки|каракке|каракку|караккой|каракке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_TORPEDO_GUNBOAT_NAME" Language="ru_RU">
+          <Text>Торпедная лодка|торпедной лодки|торпедной лодке|торпедную лодку|торпедной лодкой|торпедной лодке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_MISSILE_FRIGATE_NAME" Language="ru_RU">
+          <Text>Ракетный фрегат|ракетного фрегата|ракетному фрегату|ракетный фрегат|ракетным фрегатом|ракетном фрегате</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_GALLEY_DESCRIPTION" Language="ru_RU">
+          <Text>Морской юнит ближнего боя эпохи древнего мира.</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_LEMBOS_DESCRIPTION" Language="ru_RU">
+          <Text>Морской юнит ближнего боя эпохи античности.</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_COG_DESCRIPTION" Language="ru_RU">
+          <Text>Морской юнит ближнего боя эпохи средневековья.</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_CARAVEL_DESCRIPTION" Language="ru_RU">
+          <Text>Морской юнит ближнего боя эпохи возрождения.</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_IRONCLAD_DESCRIPTION" Language="ru_RU">
+          <Text>Морской юнит ближнего боя промышленной эры.</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_TORPEDO_GUNBOAT_DESCRIPTION" Language="ru_RU">
+          <Text>Морской юнит ближнего боя эпохи нового времени.</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_DESTROYER_DESCRIPTION" Language="ru_RU">
+          <Text>Морской юнит ближнего боя эпохи атома.</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_MISSILE_FRIGATE_DESCRIPTION" Language="ru_RU">
+          <Text>Морской юнит ближнего боя информационной эры.</Text>
+        </Replace>
+	<!--NAVAL_RANGED-->	
+		
+	    <Replace Tag="LOC_UNIT_GALLEASS_NAME" Language="ru_RU">
+          <Text>Галеас|галеаса|галеасу|галеас|галеасом|галеасе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_ARMORED_CRUISER_NAME" Language="ru_RU">
+          <Text>Парусный линкор|паруского линкора|парусному линкору|парусный линкор|парусным линкором|парусном линкоре</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_BATTLECRUISER_NAME" Language="ru_RU">
+          <Text>Дредноут|дредноута|дредноуту|дредноут|дредноутом|дредноуте</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_QUADRIREME_DESCRIPTION" Language="ru_RU">
+          <Text>Морской юнит дальнего боя эпохи античности.</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_GALLEASS_DESCRIPTION" Language="ru_RU">
+          <Text>Морской юнит дальнего боя эпохи средневековья.</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_FRIGATE_DESCRIPTION" Language="ru_RU">
+          <Text>Морской юнит дальнего боя эпохи возрождения.</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_ARMORED_CRUISER_DESCRIPTION" Language="ru_RU">
+          <Text>Морской юнит дальнего боя промышленной эры.</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_BATTLESHIP_DESCRIPTION" Language="ru_RU">
+          <Text>Морской юнит дальнего боя эпохи нового времени.</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_BATTLECRUISER_DESCRIPTION" Language="ru_RU">
+          <Text>Морской юнит дальнего боя эпохи атома.</Text>
+        </Replace>
+		
+	    <Replace Tag="LOC_UNIT_MISSILE_CRUISER_DESCRIPTION" Language="ru_RU">
+          <Text>Морской юнит дальнего боя информационной эры.</Text>
+        </Replace>
+	</LocalizedText>
+</GameData>

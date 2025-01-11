@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UILensAsset"/>
+	<m_PackageName text="UILensAsset"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LyriaRiviaLoyaltyOverlay"/>
+			<m_ObjectName text="LyriaRiviaLoyaltyOverlay"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LyriaRiviaLoyaltyPressure"/>
+			<m_ObjectName text="LyriaRiviaLoyaltyPressure"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AngrenLoyaltyOverlay"/>
+			<m_ObjectName text="AngrenLoyaltyOverlay"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AngrenLoyaltyPressure"/>
+			<m_ObjectName text="AngrenLoyaltyPressure"/>
+		</Element>
+		<Element>
+			<m_EntryID text="VerdenLoyaltyOverlay"/>
+			<m_ObjectName text="VerdenLoyaltyOverlay"/>
+		</Element>
+		<Element>
+			<m_EntryID text="VerdenLoyaltyPressure"/>
+			<m_ObjectName text="VerdenLoyaltyPressure"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BruggeLoyaltyOverlay"/>
+			<m_ObjectName text="BruggeLoyaltyOverlay"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BruggeLoyaltyPressure"/>
+			<m_ObjectName text="BruggeLoyaltyPressure"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

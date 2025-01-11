@@ -1,0 +1,29 @@
+<GameData>
+	<LocalizedText>
+		<!--世界奇观-->
+		<Replace Tag="LOC_BUILDING_APADANA_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_ENVOY] посол, когда вы построили чудо, включая Ападану.[NEWLINE][NEWLINE]Можно построить только рядом с вашей [ICON_CAPITAL] столицей.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="ru_RU">
+			<Text>Увеличивает рост городов на 20%. Новые клетки присоединяются на 20% быстрее. (Когда включен режим «Герои») Продолжительность жизни всех юнитов-героев увеличивается на 20% [ICON_Lifespan]. Можно построить только рядом с рекой.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TEMPLE_ARTEMIS_DESCRIPTION" Language="ru_RU">
+			<Text>Каждый лагерь, пастбище и плантация в пределах 4 клеток от этого чуда света дает +1 [ICON_AMENITIES] довольства и +1 [ICON_Housing] жилья. Можно построить только рядом с лагерем.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION" Language="ru_RU">
+			<Text>+2 [ICON_Science] науки и +2 [ICON_Culture] культуры всем болотам в вашей империи. +1 [ICON_Production] производства всем поймам в вашей империи.[NEWLINE][NEWLINE]можно построить только на пойме или болоте.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION" Language="ru_RU">
+			<Text>Клетки поймы вдоль реки, в которой находится Большой бассейн, теперь невосприимчивы к урону от наводнения (хотя бонусы [ICON_Food] пищи и [ICON_Production] производства от наводнения снижаются на 50%). Клетки пойм, принадлежащие вашей империи, получают +1 [ICON_Faith] веры за каждое наводнение.[NEWLINE][NEWLINE]Можно построить только на клетке поймы.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PYRAMIDS_DESCRIPTION" Language="ru_RU">
+			<Text>+1 к заряду и +1 [ICON_MOVEMENT] к перемещению для всех строителей. (При включенном режиме «Выращивание ресурсов») +1 к заряду и +1 [ICON_MOVEMENT] к перемеещнию для всех фермеров, рыбаков, пастухов и шахтеров. Должен быть построен в пустыне (включая поймы пустыни) без холмов.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STONEHENGE_DESCRIPTION" Language="ru_RU">
+			<Text>Бесплатно предоставляет [ICON_GreatProphet] великого пророка. [ICON_GreatProphet] Великий пророк может основать религию в Стоунхендже вместо священного места. Религиозное давление от этого города на 100% сильнее и на 50% дальше. можно построить только рядом с [ICON_RESOURCE_STONE] камнем и на равнине.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="ru_RU">
+			<Text>Оживление героев и найм великих людей стоит на 20% меньше [ICON_Faith] веры. Районы в вашей империи дают +1 [ICON_GreatPerson] очко великого человека своего типа (например, очки великого писателя, художника и музыканта в театральной площади). Можно построить только на холмах.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

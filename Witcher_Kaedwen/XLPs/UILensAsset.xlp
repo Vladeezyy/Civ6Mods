@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UILensAsset"/>
+	<m_PackageName text="UILensAsset"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="KaedwenLoyaltyOverlay"/>
+			<m_ObjectName text="KaedwenLoyaltyOverlay"/>
+		</Element>
+		<Element>
+			<m_EntryID text="KaedwenLoyaltyPressure"/>
+			<m_ObjectName text="KaedwenLoyaltyPressure"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HengforsLoyaltyOverlay"/>
+			<m_ObjectName text="HengforsLoyaltyOverlay"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HengforsLoyaltyPressure"/>
+			<m_ObjectName text="HengforsLoyaltyPressure"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionKreveOverlay"/>
+			<m_ObjectName text="ReligionKreveOverlay"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionKrevePressure"/>
+			<m_ObjectName text="ReligionKrevePressure"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

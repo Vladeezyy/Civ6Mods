@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<CityStates>
+		<Delete CivilizationType="CIVILIZATION_IPG_CINTRA_MINOR"/>
+		<Delete CivilizationType="CIVILIZATION_IPG_LYRIA_MINOR"/>
+		<Delete CivilizationType="CIVILIZATION_IPG_RIVIA_MINOR"/>
+		<Delete CivilizationType="CIVILIZATION_IPG_HENGFORS_MINOR"/>
+	</CityStates>
+</GameInfo>

@@ -1,0 +1,352 @@
+<GameData>
+    <LocalizedText>	
+	<!--国家奇观-->
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_LIBRARY_NAME" Language="ru_RU">
+      <Text>Национальная библиотека|национальной библиотеки|национальной библиотеке|национальную библиотеку|национальной библиотекой|национальной библиотеке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_LIBRARY_DESCRIPTION" Language="ru_RU">
+      <Text>Дополнительно +10 [ICON_SCIENCE] науки для этого здания. Этот бонус снижается на 1 [ICON_SCIENCE] науки за каждый дополнительный город в вашей империи (минимум до +4 [ICON_SCIENCE] науки).</Text> 
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_UNIVERSITY_NAME" Language="ru_RU">
+      <Text>Национальный университет|национального университета|национальному университету|национальный университет|национальным университетом|национальном университете</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_UNIVERSITY_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_SCIENCE] науки за каждого жителя этого города. Этот бонус снижается на 0,2 [ICON_SCIENCE] науки за жителя за каждый дополнительный город в вашей империи (минимум до +0,4 [ICON_SCIENCE] науки на жителя).</Text> 
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_RESEARCH_LAB_NAME" Language="ru_RU">
+      <Text>Национальая лаборатория|национальной лаборатории|национальной лабораторие|национальную лабораторию|национальной лабораторией|национальной лаборатории</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_RESEARCH_LAB_DESCRIPTION" Language="ru_RU">
+      <Text>+60% [ICON_SCIENCE] науки в этом городе. Этот бонус снижается на 4% [ICON_SCIENCE] науки за каждый дополнительный город в вашей империи (минимум до +16% [ICON_SCIENCE] науки).</Text> 
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_MARKET_NAME" Language="ru_RU">
+      <Text>Национальный рынок|национального рынка|национальному рынку|национальный рынок|национальным рынком|национальном рынке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_MARKET_DESCRIPTION" Language="ru_RU">
+      <Text>Дополнительно +10 [ICON_Gold] золота для этого здания. Этот бонус снижается на 1 [ICON_Gold] золото за каждый дополнительный город в вашей империи (минимум до +4 [ICON_Gold] золота).</Text> 
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_BANK_NAME" Language="ru_RU">
+      <Text>Национальный банк|национального банка|национальному банку|национальный банк|национальным банком|национальном банке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_BANK_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Gold] золота за каждого жителя в этом городе. Этот бонус снижается на 0,2 [ICON_Gold] золота за жителя за каждый дополнительный город в вашей империи (минимум до +0,4 [ICON_Gold] золота на жителя).</Text> 
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_STOCK_EXCHANGE_NAME" Language="ru_RU">
+      <Text>Национальная биржа|национальной биржи|национальной бирже|национальную биржу|национальной биржей|национальной бирже</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_STOCK_EXCHANGE_DESCRIPTION" Language="ru_RU">
+      <Text>+60% [ICON_Gold] золота в этом городе. Этот бонус снижается на 4% [ICON_Gold] золота за каждый дополнительный город в вашей империи (минимум до +16% [ICON_Gold] золота).</Text> 
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_WORKSHOP_NAME" Language="ru_RU">
+      <Text>Национальная мастерская|национальной мастерской|национальной мастерской|национальную мастерскую|национальной мастерской|национальной мастерской</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_WORKSHOP_DESCRIPTION" Language="ru_RU">
+      <Text>Дополнительно +10 [ICON_Production] производства для этого здания. Этот бонус снижается на 1 [ICON_Production] производство за каждый дополнительный город в вашей империи (минимум до +4 [ICON_Production] производства).</Text> 
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_FACTORY_NAME" Language="ru_RU">
+      <Text>Национальная фабрика|национальной фабрики|национальной фабрике|национальную фабрику|национальной фабрикой|национальной фабрике</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_FACTORY_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Production] производства за каждого жителя в этом городе. Этот бонус снижается на 0,2 [ICON_Production] производства за жителя за каждый дополнительный город в вашей империи (минимум до +0,4 [ICON_Production] производства за жителя).</Text> 
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_POWER_STATION_NAME" Language="ru_RU">
+      <Text>Национальная электростанция|национальной электростанции|национальной электростанции|национальную электростанцию|национальной электростанцией|национальной электростанции</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_POWER_STATION_DESCRIPTION" Language="ru_RU">
+      <Text>+60% [ICON_Production] производства в этом городе. Этот бонус снижается на 4% производства [ICON_Production] за каждый дополнительный город в вашей империи (минимум до +16% производства [ICON_Production]).</Text> 
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_SHRINE_NAME" Language="ru_RU">
+      <Text>Национальное святилище|национального святилища|национальному святилищу|национальное святилище|национальным святилищем|национальном святилище</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_SHRINE_DESCRIPTION" Language="ru_RU">
+      <Text>Дополнительно +10 [ICON_Faith] веры для этого здания. Этот бонус снижается на 1 [ICON_Faith] веру за каждый дополнительный город в вашей империи (минимум до +4 [ICON_Faith] веры).</Text> 
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_TEMPLE_NAME" Language="ru_RU">
+      <Text>Национальный храм|национального храма|национальному храму|национальный храм|национальным храмом|национальном храме</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_TEMPLE_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Faith] веры за каждого жителя в этом городе. Этот бонус снижается на 0,2 [ICON_Faith] веры за жителя за каждый дополнительный город в вашей империи (минимум до +0,4 [ICON_Faith] веры на жителя).</Text> 
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_CATHEDRAL_NAME" Language="ru_RU">
+      <Text>Национальный собор|национального собора|национальному собору|национальный собор|национальным собором|национальном соборе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_CATHEDRAL_DESCRIPTION" Language="ru_RU">
+      <Text>+60% [ICON_Faith] веры в этом городе. Этот бонус снижается на 4% [ICON_Faith] веры за каждый дополнительный город в вашей империи (минимум до +16% [ICON_Faith] веры).</Text> 
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_AMPHITHEATER_NAME" Language="ru_RU">
+      <Text>Национальный амфитеатр|национального амфитеатра|национальному амфитеатру|национальный амфитеатр|национальным амфитеатром|национальном амфитеатре</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_AMPHITHEATER_DESCRIPTION" Language="ru_RU">
+      <Text>Дополнительно +10 [ICON_Culture] культуры для этого здания. Этот бонус снижается на 1 [ICON_Culture] культуры за каждый дополнительный город в вашей империи (минимум до +4 [ICON_Culture] культуры).</Text> 
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_MUSEUM_NAME" Language="ru_RU">
+      <Text>Национальный музей|национального музея|национальному музею|национальный музей|национальным музеем|национальном музее</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_MUSEUM_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Culture] культуры за каждого жителя в этом городе. Этот бонус снижается на 0,2 [ICON_Culture] культуры за жителя за каждый дополнительный город в вашей империи (минимум до +0,4 [ICON_Culture] культуры на жителя).</Text> 
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_BROADCAST_CENTER_NAME" Language="ru_RU">
+      <Text>Национальный центр вещания|национального центра вещания|национальному центру вещания|национальный центр вещания|национальным центре вещания|национальном центре вещания</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_BROADCAST_CENTER_DESCRIPTION" Language="ru_RU">
+      <Text>+60% [ICON_Culture] культуры в этом городе. Этот бонус снижается на 4% [ICON_Culture] культуры за каждый дополнительный город в вашей империи (минимум до +16% [ICON_Culture] культуры).</Text> 
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_BARRACKS_NAME" Language="ru_RU">
+      <Text>Нацоинальные казармы|национальных казарм|национальным казармам|национальные казармы|национальными казармами|национальных казармах</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_BARRACKS_DESCRIPTION" Language="ru_RU">
+      <Text>Запасы стратегических ресурсов увеличены на +10. +5 [ICON_RESOURCE_HORSES] лошадей и [ICON_RESOURCE_IRON] железа за ход (на стандартной скорости) после исследования технологии, открывающей эти ресурсы. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_ARMORY_NAME" Language="ru_RU">
+      <Text>Национальная оружейная|национальной оружейной|национальной оружейной|национальную оружейную|национальной оружейной|национальной оружейной</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_ARMORY_DESCRIPTION" Language="ru_RU">
+      <Text>Запасы стратегических ресурсов увеличены на +20. +5 [ICON_RESOURCE_NITER] селитры и [ICON_RESOURCE_COAL] угля за ход (на стандартной скорости) после исследования технологии, открывающей эти ресурсы. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_MILITARY_ACADEMY_NAME" Language="ru_RU">
+      <Text>Национальая военная академия|национальной военной академии|национальнойвоенной академии|национальную военную академию|национальной военной академией|национальной военной академии</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_MILITARY_ACADEMY_DESCRIPTION" Language="ru_RU">
+      <Text>Запасы стратегических ресурсов увеличены на +30. +5 [ICON_RESOURCE_ALUMINUM] алюминия, [ICON_RESOURCE_OIL] нефти и [ICON_RESOURCE_URANIUM] урана за ход (на стандартной скорости) после исследования технологии, открывающей эти ресурсы.</Text>
+    </Replace>			
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_ARENA_NAME" Language="ru_RU">
+      <Text>Национальая арена|национальной арены|национальной арене|национальную арену|национальной ареной|национальной арене</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_ARENA_DESCRIPTION" Language="ru_RU">
+      <Text>+10% к росту города.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_ZOO_NAME" Language="ru_RU">
+      <Text>Национальный зоопарк|национального зоопарка|национальному зоопарку|национальный зоопарк|национальным зоопарком|национальном зоопарке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_ZOO_DESCRIPTION" Language="ru_RU">
+      <Text>+20% к росту города.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_STADIUM_NAME" Language="ru_RU">
+      <Text>Национальный стадион|национального стадиона|национальному стадиону|национальный стадион|национальным стадионом|национальном стадионе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_STADIUM_DESCRIPTION" Language="ru_RU">
+      <Text>+30% к росту города.</Text>
+    </Replace>	
+	
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_LIGHTHOUSE_NAME" Language="ru_RU">
+      <Text>Национальный маяк|национального маяка|национальному маяку|национальный маяк|национальным маяком|национальном маяке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_LIGHTHOUSE_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Food] пищи на всех клетках побережья для этого города, +1 [ICON_Food] пищи на клетках океана после исследования технологии «Электричество». +1 [ICON_TradeRoute] доступный торговый путь. +1 [ICON_Gold] золота за [ICON_TradeRoute] торговые пути, которые начинаются из этого города.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_SHIPYARD_NAME" Language="ru_RU">
+      <Text>Национальная верфь|национальной верфи|национальной верфи|национальная верфь|национальной верфью|национальной верфи</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_SHIPYARD_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Production] производства на всех клетках побережья для этого города, +1 [ICON_Production] производства на клетках океана после исследования технологии «Электричество». +1 [ICON_TradeRoute] доступный торговый путь. +2 [ICON_Gold] золота за [ICON_TradeRoute] торговые пути, которые начинаются из этого города.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_SEAPORT_NAME" Language="ru_RU">
+      <Text>Национальный морской порт|национального морского порта|национальному морскому порту|национальный морской порт|национальным морским портом|национальном морском порте</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_SEAPORT_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Gold] золота на всех клетках побережья и океана этого города. +1 [ICON_TradeRoute] доступный торговый путь. +3 [ICON Gold] золота за [ICON_TradeRoute] торговые пути, которые начинаются из этого города.</Text>
+    </Replace>	
+	
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_CAMPUS_NAME" Language="ru_RU">
+      <Text>Национальный кампус|национального кампуса|национальному кампусу|национальный кампус|национальным кампусом|национальном кампусе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_CAMPUS_DESCRIPTION" Language="ru_RU">
+      <Text>Национальное чудо, которое можно построить только один раз в каждой цивилизации, не может находиться в том же городе, что и другие типы национальных чудес.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HOLY_SITE_NAME" Language="ru_RU">
+      <Text>Национальное священное место|национального священного места|национальному священному месту|национальное священное место|национальным священным местом|национальном священном месте</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HOLY_SITE_DESCRIPTION" Language="ru_RU">
+      <Text>Национальное чудо, которое можно построить только один раз в каждой цивилизации, не может находиться в том же городе, что и другие типы национальных чудес.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_COMMERCIAL_HUB_NAME" Language="ru_RU">
+      <Text>Национальный центр коммерции|национального центра коммерции|национальному центру коммерции|национальный центр коммерции|национальным центром коммерции|национальном центре коммерции</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_COMMERCIAL_HUB_DESCRIPTION" Language="ru_RU">
+      <Text>Национальное чудо, которое можно построить только один раз в каждой цивилизации, не может находиться в том же городе, что и другие типы национальных чудес.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_THEATER_NAME" Language="ru_RU">
+      <Text>Национальная театральная площадь|национальной театральной площади|национальной театральной площади|национальную театральную площадь|национальной театральной площадью|национальной театральной площади</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_THEATER_DESCRIPTION" Language="ru_RU">
+      <Text>Национальное чудо, которое можно построить только один раз в каждой цивилизации, не может находиться в том же городе, что и другие типы национальных чудес.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_INDUSTRIAL_ZONE_NAME" Language="ru_RU">
+      <Text>Национальная промышленная зона|национальной промышленной зоны|национальной промышленной зоне|национальную промышленную зону|национальной промышленной зоной|национальной промышленной зоне</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_INDUSTRIAL_ZONE_DESCRIPTION" Language="ru_RU">
+      <Text>Национальное чудо, которое можно построить только один раз в каждой цивилизации, не может находиться в том же городе, что и другие типы национальных чудес.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENCAMPMENT_NAME" Language="ru_RU">
+      <Text>Национальный военный лагерь|национального военного лагеря|национальному военному лагерю|национальный военный лагерь|национальным военным лагерем|национальном военном лагере</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENCAMPMENT_DESCRIPTION" Language="ru_RU">
+      <Text>Национальное чудо, может быть построено только один раз в каждой цивилизации, не может находиться в том же городе, что и другие типы национальных чудес, дальность атаки обороны равна 2.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENTERTAINMENT_COMPLEX_NAME" Language="ru_RU">
+      <Text>Национальный развлекательный комплекс|национального развлекательного комплекса|национальному развлекательному комплексу|национальный развлекательный комплекс|национальным развлекательным комплексом|национальном развлекательном комплексе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENTERTAINMENT_COMPLEX_DESCRIPTION" Language="ru_RU">
+      <Text>Национальное чудо, которое можно построить только один раз в каждой цивилизации, не может находиться в том же городе, что и другие типы национальных чудес.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HARBOR_NAME" Language="ru_RU">
+      <Text>Национальая гавань|национальной гавани|национальной гавани|национальную гавань|национальной гаванью|национальной гавани</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HARBOR_DESCRIPTION" Language="ru_RU">
+      <Text>Национальное чудо, может быть построено только один раз в каждой цивилизации, не может находиться в том же городе, что и другие типы национальных чудес, дальность атаки обороны равна 2.</Text>
+    </Replace>
+	
+	
+	<Replace Tag="LOC_NATIONAL_COMMERCIAL_HUB_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседства с национальным коммерческим центром.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_NATIONAL_HARBOR_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседства с национальной гаванью.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_NATIONAL_THEATER_CULTURE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Culture] культуры от соседства с национальной театральной площадью.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_NATIONAL_HOLY_SITE_FAITH" Language="ru_RU">
+      <Text>+{1_num} [ICON_Faith] веры от соседства с национальным священным местом.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_NATIONAL_CAMPUS_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Science] науки от соседства с национальным кампусом.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_NATIONAL_INDUSTRIAL_ZONE_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от соседства с национальной промышленной зоной.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

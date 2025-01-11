@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+		<!--Aedirn Special Forces-->
+		<Replace Language="it_IT" Tag="LOC_TRAIT_AEDIRNIAN_SPECIAL_FORCES_MODE_DESCRIPTION">
+			<Text>Unità da ricognizione esclusiva dell''Aedirn di epoca medievale che sostituisce lo Schermagliatore. Ha un [ICON_Range] Raggio di attaco di 2 ed esercita una Zona di Controllo. Può attaccare le unità di supporto in formazione direttamente, senza dover prima eliminare le unità militari. +7 alla [ICON_Strength] Forza e +50% all''esperienza ottenuta contro le unità Scoia'tael e delle città-stato.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_ABILITY_AEDIRNIAN_STRENGTH_MODE_NAME">
+			<Text>Più forte contro unità di Scoia'tael e città-stato.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_ABILITY_AEDIRNIAN_XP_MODE_NAME">
+			<Text>Ottiene più esperienza contro unità di Scoia'tael e città-stato.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_ABILITY_AEDIRNIAN_STRENGTH_MODE_DESCRIPTION">
+			<Text>+7 alla [ICON_Strength] Forza contro unità di Scoia'tael e città-stato.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_ABILITY_AEDIRNIAN_XP_MODE_DESCRIPTION">
+			<Text>+50% esperienza ottenuta contro unità di Scoia'tael e città-stato.</Text>
+		</Replace>
+		<!--New Scoiatael units-->
+		<Replace Language="it_IT" Tag="LOC_UNIT_ELVES_HORSE_ARCHER_NAME">
+      		<Text>Arciere elfico a cavallo|un Arciere elfico a cavallo|dal tuo Arciere elfico a cavallo|al tuo Arciere elfico a cavallo|il tuo Arciere elfico a cavallo|da un Arciere elfico a cavallo</Text>
+      		<Gender>masculine</Gender>
+      		<Plurality>1</Plurality>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNIT_ELVES_HORSE_ARCHER_DESCRIPTION">
+			<Text>Arciere a cavallo di epoca antica degli Scoia'tael.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNIT_ELVES_ARCHER_NAME">
+      		<Text>Arciere elfico|un Arciere elfico|dal tuo Arciere elfico|al tuo Arciere elfico|il tuo Arciere elfico|da un Arciere elfico</Text>
+      		<Gender>masculine</Gender>
+      		<Plurality>1</Plurality>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNIT_ELVES_ARCHER_DESCRIPTION">
+		    <Text>Unità di epoca antica a distanza degli Scoia'tael con un [ICON_Range] raggio di tiro di 2. Può essere vista solo da unità adiacenti.</Text>
+			</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNIT_ELVES_DRYAD_NAME">
+			<Text>Driade Ranger|una Driade Ranger|dalla tua Driade Ranger|alla tua Driade Ranger|la tua Driade Ranger|da una Driade Ranger</Text>
+			<Gender>feminine</Gender>
+      		<Plurality>1</Plurality>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNIT_ELVES_DRYAD_DESCRIPTION">
+		    <Text>Unità di epoca antica a distanza degli Scoia'tael con un [ICON_Range] raggio di tiro di 2. Può vedere attraverso caselle di bosco e foresta pluviale e muoversi su di esse senza penalità al [ICON_Movement] movimento.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNIT_ELVES_CHARIOT_NAME">
+			<Text>Carro nanico|un Carro nanico|dal tuo Carro nanico|al tuo Carro nanico|il tuo Carro nanico|da un Carro nanico</Text>
+			<Gender>masculine</Gender>
+      		<Plurality>1</Plurality>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNIT_ELVES_CHARIOT_DESCRIPTION">
+			<Text>Unità di epoca antica da mischia degli Scoia'tael con 1 punto [ICON_Movement] movimento extra se parte da una casella pianeggiante. Quando si trova adiacente a una città, le unità da mischia (inclusa se stessa) che attaccano le mura infliggono il 100% del danno.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNIT_ELVES_WARRIOR_NAME">
+			<Text>Guerriero nanico|un Guerriero nanico|dal tuo Guerriero nanico|al tuo Guerriero nanico|il tuo Guerriero nanico|da un Guerriero nanico</Text>
+			<Gender>masculine</Gender>
+      		<Plurality>1</Plurality>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNIT_ELVES_WARRIOR_DESCRIPTION">
+			<Text>Unità di epoca medievale da mischia degli Scoia'tael con solo 1 punto [ICON_Movement] movimento.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNIT_ELVES_ELEPHANT_NAME">
+			<Text>Elefante da guerra|un Elefante da guerra|dal tuo Elefante da guerra|al tuo Elefante da guerra|il tuo Elefante da guerra|da un Elefante da guerra</Text>
+			<Gender>masculine</Gender>
+      		<Plurality>1</Plurality>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNIT_ELVES_ELEPHANT_DESCRIPTION">
+			<Text>Unità di cavalleria pesante di epoca medievale degli Scoia'tael.</Text>
+		</Replace>
+		<!--Unit Abilities-->
+		<Replace Language="it_IT" Tag="LOC_ABILITY_ELVES_DRYAD_DESCRIPTION">
+			<Text>Non subisce penalità alla visuale e al [ICON_Movement] movimento dalle caselle di bosco e foresta pluviale.</Text>
+		</Replace>
+
+		<!--REPLACEMENTS-->
+		<Replace Language="it_IT" Tag="LOC_BELIEF_INITIATION_RITES_EXPANSION2_DESCRIPTION">
+      <Text>+50 [ICON_Faith] Fede per ogni Avamposto Scoia'tael disperso. L'unità che disperde l'Avamposto guarisce +100 PF.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BOOST_TRIGGER_MILITARY_TRADITION">
+      		<Text>Disperdi un Avamposto Scoia'tael.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_NAME">
+      		<Text>Disperdi un Avamposto Scoia'tael entro 5 caselle</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_QUEST_CLEAR_BARBARIAN_CAMP_DESCRIPTION">
+      		<Text>Disperdi un [ICON_Elves] Avamposto barbarico entro 5 caselle dalla città.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_GAME_NO_BARBARIANS">
+			<Text>Niente Scoia'tael</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIANS_HAVE_LEARNED_OF_YOUR_PRESENCE">
+      		<Text>Gli Scoia'tael hanno notato la tua presenza.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_HUD_BARBARIAN_SPOTTED_YOUR_CITY">
+      		<Text>Gli Scoia'tael hanno avvistato la tua città!</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_HUD_BARBARIAN_SPOTTED_CITY">
+			<Text>Gli Scoia'tael hanno avvistato una città {1_CivName[2]}.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_COMBAT_PREVIEW_BONUS_VS_BARBARIANS">
+			<Text>+{1_Value} vantaggio contro gli Scoia'tael</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITOPERATION_CONVERT_BARBARIANS_DESCRIPTION">
+			<Text>Converti Scoia'tael</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_ACTIVATE_GREAT_PERSON_REQUIRES_ADJACENT_BARBARIAN_UNIT">
+			<Text>Dev'essere vicino a un'unità di Scoia'tael.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_CHOOSE_ARTIFACT_EXPLANATION_BARBARIAN_CAMP">
+			<Text>Il tuo Archeologo {1_UnitName} ha trovato i resti di un Avamposto Scoia'tael disperso {2_ActingCiv[5]}.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_HUD_REPORTS_FILTER_BARBARIAN">
+			<Text>[ICON_GOSSIP_BARBARIAN] Scoia'tael</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BOOST_TRIGGER_BRONZE_WORKING">
+			<Text>Uccidi 3 Scoia'tael.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BOOST_TRIGGER_LONGDESC_BRONZE_WORKING">
+			<Text>La tua lotta con gli Scoia'tael ha evidenziato la necessità di sviluppare armi più potenti.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_AGENDA_BARBARIAN_LOVER_NAME">
+			<Text>Amante dei non-umani</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_AGENDA_BARBARIAN_LOVER_DESCRIPTION">
+			<Text>Simpatizza con gli Scoia'tael. Non ama le civiltà che distruggono gli avamposti degli Scoia'tael.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_AGENDA_CIVILIZED_DESCRIPTION">
+			<Text>Odia gli Scoia'tael. Apprezza le civiltà che distruggono gli Avamposti Scoia'tael. Non ama le civiltà che ignorano gli Avamposti Scoia'tael.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_CIVILIZATION_BARBARIAN_NAME">
+      		<Text>Scoia'tael|degli Scoia'tael|agli Scoia'tael|gli Scoia'tael|dagli Scoia'tael</Text>
+      		<Gender>masculine</Gender>
+      		<Plurality>2</Plurality>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_IMPROVEMENT_BARBARIAN_CAMP_NAME">
+      		<Text>Avamposto Scoia'tael|l'Avamposto Scoia'tael|un Avamposto Scoia'tael</Text>
+      		<Gender>masculine</Gender>
+      		<Plurality>1</Plurality>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_IMPROVEMENT_BARBARIAN_CAMP_DESCRIPTION">
+			<Text>Crea nuovi Scoia'tael. Premio in [ICON_Gold] Oro se distrutto. -1 Appeal.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_CIVILIZATION_BARBARIAN_DESCRIPTION">
+      		<Text>Scoia'tael|degli Scoia'tael|agli Scoia'tael|gli Scoia'tael|dagli Scoia'tael</Text>
+      		<Gender>masculine</Gender>
+      		<Plurality>2</Plurality>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_CIVILIZATION_BARBARIAN_ADJECTIVE">
+      		<Text>Scoia'tael|Scoia'tael|Scoia'tael|Scoia'tael</Text>
+      		<Gender>masculine|feminine|masculine|feminine</Gender>
+      		<Plurality>1|1|2|2</Plurality>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BONUS_AGAINST_BARBS_DESCRIPTION">
+			<Text>Bonus contro Scoia'tael.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_TRADITION">
+			<Text>I tuoi soldati sperano che la vittoria sull'Avamposto Scoia'tael sia l'inizio di una lunga serie di successi militari.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_POLICY_DISCIPLINE_DESCRIPTION">
+			<Text>+5 [ICON_Strength] Forza di combattimento delle unità quando affronti gli Scoia'tael.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_BARBARIANS_SIGHTED_MESSAGE">
+			<Text>Gli Scoia'tael si avvicinano</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_BARBARIANS_SIGHTED_SUMMARY">
+			<Text>Abbiamo avvistato degli Scoia'tael che si avvicinavano alla nostra città di {1_CityName}.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_MESSAGE">
+			<Text>Nuovo Avamposto Scoia'tael</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_NEW_BARBARIAN_CAMP_SUMMARY">
+			<Text>Abbiamo ricevuto la notizia che un nuovo commando di Scoia'tael si è installato in una regione vicina.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_PROMOTION_HEATHEN_CONVERSION_NAME">
+			<Text>Conversione degli Elfi</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_PROMOTION_HEATHEN_CONVERSION_DESCRIPTION">
+			<Text>Può convertire tutti gli Scoia'tael adiacenti e farli passare dalla tua parte spendendo una carica religiosa.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_GREATPERSON_ACTION_USAGE_ADJACENT_BARBARIAN_UNIT">
+			<Text>Si attiva vicino alle unità Scoia'tael.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_GREATPERSON_BOUDICA_ACTIVE">
+			<Text>Converte le unità Scoia'tael adiacenti alla tua fazione e le pone sotto il tuo controllo.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS">
+			<Text>Questi Scoia'tael ci stavano tormentando. Mille grazie per il vostro aiuto!</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS">
+			<Text>Come puoi permettere che quegli Scoia'tael imperversino così vicino a casa tua?</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_ANY_ANY">
+			<Text>Chiedo scusa, stavamo solo cercando un po' di non-umani da tormentare.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_GOSSIP_BARBARIAN_INVASION_STARTED">
+			<Text>{1_CivName[4]} {1: plural 1?deve;other?devono;} affrontare un'invasione di Scoia'tael vicino alla città di {2_CityName}.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_GOSSIP_BARBARIAN_RAID_STARTED">
+			<Text>{1_CivName[4]} {1: plural 1?deve;other?devono;} affrontare un'incursione di Scoia'tael vicino alla città di {2_CityName}.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_HOF_GRAPH_PLAYER_BARBARIAN_CAMPS">
+			<Text>Avamposti Scoia'tael distrutti</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_HOF_GRAPH_PLAYER_BARBARIAN_KILLS">
+			<Text>Scoia'tael uccisi</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_HOF_STAT_BARBARIANS_KILLED">
+			<Text>Scoia'tael uccisi</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_HOF_STAT_BARBARIAN_CAMPS">
+			<Text>Avamposti Scoia'tael distrutti</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_ATTACKS_BARBARIANS">
+			<Text>Sono contenti di vedere che stai distruggendo gli Avamposti Scoia'tael</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_IGNORES_BARBARIANS">
+			<Text>Non amano le civiltà che non distruggono gli Avamposti Scoia'tael</Text>
+		</Replace>
+		<!--<Replace Language="it_IT" Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_BARBARIAN_CAMP_CHAPTER_HISTORY_PARA_1">
+			<Text>Historically, barbarians came in two types: those who wandered about and those that settled down. The latter became “civilized” and built cities, empires and such. The former plagued the latter, raiding the borders and upsetting the empire’s citizens. Generally organized along tribal lines, these barbarians – far from the “noble savage” stereotype, most of them really were brutal, cruel and warlike – were nomads, establishing temporary outposts from which to attack civilization and each other as well. When the fun of all that rampaging wore off, or when an organized army showed up and thrashed them, the surviving barbarians would pack up and move on, to establish another outpost sometime later somewhere else. Since it was generally a good idea – if one were a barbarian – not to be easily found by the civilized, the outposts over time were located in more inaccessible (and defensible) places … until, of course, there were no such places left.</Text>
+		</Replace>-->
+		<Replace Language="it_IT" Tag="LOC_NAVAL_UNIT_KILL_DEDICATION_NOTIFICATION">
+			<Text>Hai distrutto un'unità navale non Scoia'tael.</Text>
+		</Replace>
+		<!-- <Replace Language="it_IT" Tag="LOC_PEDIA_CONCEPTS_PAGE_PRIDE_MOMENTS_1_CHAPTER_CONTENT_PARA_1">
+			<Text>I Momenti storici sono eventi significativi che si verificano nel corso della partita, come la scelta della prima forma di governo, la costruzione di un'unità esclusiva, la scoperta di una meraviglia naturale. Durante la partita si verificheranno decine di questi Momenti storici, che rappresenteranno di volta in volta un record per il giocatore o "prime" mondiali assolute. Gli eventi rilevanti sono diversi a seconda dell'epoca: così, la distruzione di un Avamposto barbarico in epoca antica è un'impresa notevole, mentre in epoca moderna non merita neppure di essere menzionata. Puoi rivedere i tuoi Momenti storici ogni volta che vuoi cliccando sulla Cronologia storica, nella barra degli strumenti in alto a sinistra. [NEWLINE][NEWLINE]Ogni Momento storico contribuisce al tuo Punteggio Epoca, che determina se nell'epoca successiva entrerai in un'Età dell'oro o precipiterai in un'Età oscura. Se in un'epoca guadagni molti Momenti storici, è probabile che nella successiva entrerai in un'Età dell'oro. Se sei il primo giocatore al mondo a ottenere un Momento storico, il tuo Punteggio Epoca avrà un ulteriore incremento. </Text>
+		</Replace> -->
+		<!-- <Replace Language="it_IT" Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_6">
+			<Text>Hic Sunt Dracones: Gain +3 Era Score each time you discover a new Continent or natural wonder. Gain +1 Era Score each time you kill a non-Scoia'tael naval unit in combat. If chosen at the start of a Golden Age, +3 starting [ICON_Citizen] Population for cities settled on a different continent than your first city. +2 [ICON_Movement] Movement for naval and embarked units. +2 Loyalty per turn for cities not on your original [ICON_Capital] Capital's continent. Renaissance through Modern Era.</Text>
+		</Replace> -->
+		<!-- <Replace Language="it_IT" Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_9">
+			<Text>To Arms!: Gain +1 Era Score each time you kill a non-Scoia'tael Corps in combat and +2 Era Score each time you kill a non-Scoia'tael Army in combat. If chosen at the start of a Golden Age, unlocks a special Casus Belli which gives 75% less warmonger penalties than formal war and can be used immediately after Denouncing the target. +15% [ICON_Production] Production towards military units. Industrial through Atomic Era.</Text>
+		</Replace> -->
+		<!-- <Replace Language="it_IT" Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_13">
+			<Text>Automaton Warfare: Gain +1 Era Score each time you kill a non-Scoia'tael unit with a Giant Death Robot. If chosen at the start of a Golden Age, gain a Giant Death Robot in your capital. Receive 3 [ICON_Resource_Uranium] Uranium per turn. [ICON_Resource_Uranium] Uranium mines accumulate +1 more resource per turn. Information and Future Era.</Text>
+		</Replace> -->
+		<Replace Language="it_IT" Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_NON_BARBARIAN_UNIT_SEA_KILLS">
+			<Text>Bonus Dedizione: Unità navali non Scoia'tael uccise (+{1_ScoreIncrement} per ciascuna)</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_GAME_ERA_POPUP_DARK_AGE_DESCRIPTION">
+			<Text>Le Età oscure si possono verificare a partire dall'epoca medievale e rappresentano un grave problema per le civiltà grandi e poco sviluppate. -1 [ICON_Amenities] Attrattiva e -50% alla crescita di tutte le città. Se un giocatore ottiene un'altra Età oscura nell'epoca successiva, metà delle sue città cadono in rovina e diventano Avamposti Scoia'tael.[NEWLINE]Questi giocatori sono entrati in un'Età oscura in quest'epoca:</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED">
+			<Text>Avamposto Scoia'tael distrutto</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED_DESCRIPTION">
+			<Text>Un Avamposto Scoia'tael ostile è stato raso al suolo da un'unità, portando la pace nella regione.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED_INSTANCE_DESCRIPTION">
+			<Text>Le nostre forze hanno spazzato via un Avamposto Scoia'tael: una minaccia per la nostra civiltà è stata eliminata.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED_NEAR_YOUR_CITY_DESCRIPTION">
+			<Text>Un Avamposto Scoia'tael ostile entro 6 caselle da una delle tue città è stato distrutto da un'unità.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_MOMENT_BARBARIAN_CAMP_DESTROYED_NEAR_YOUR_CITY_INSTANCE_DESCRIPTION">
+			<Text>Il pericolo che si avvicinava alla città di {CityName} è stato sconfitto! Gli Scoia'tael sono stati scacciati.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_NORMAL_AGE">
+			<Text>Bonus Dedizione Hic Sunt Dracones:[NEWLINE]+3 Punteggio Epoca ogni volta che scopri un nuovo continente o una Meraviglia naturale. +1 Punteggio Epoca ogni volta che uccidi un'unità navale non Scoia'tael.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_DARK_AGE">
+			<Text>Bonus Dedizione Hic Sunt Dracones:[NEWLINE]+3 Punteggio Epoca ogni volta che scopri un nuovo continente o una Meraviglia naturale. +1 Punteggio Epoca ogni volta che uccidi un'unità navale non Scoia'tael.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_NORMAL_AGE">
+			<Text>Bonus Dedizione Alle armi!:[NEWLINE]Guadagni +1 Punteggio Epoca ogni volta che uccidi un Corpo nemico non Scoia'tael e +2 Punteggio Epoca ogni volta che uccidi un Esercito nemico non Scoia'tael.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_DARK_AGE">
+			<Text>Bonus Dedizione Alle armi!:[NEWLINE]Guadagni +1 Punteggio Epoca ogni volta che uccidi un Corpo nemico non Scoia'tael e +2 Punteggio Epoca ogni volta che uccidi un Esercito nemico non Scoia'tael.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_NON_BARBARIAN_UNITS_KILLED_BY_GDR">
+			<Text>Bonus Dedizione: Unità non Scoia'tael uccise da Robot Giganti della Morte (+{1_ScoreIncrement} per ciascuna)</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_GDR_KILL_OPPONENT_NOTIFICATION">
+			<Text>Hai distrutto un'unità non Scoia'tael con un Robot Gigante della Morte.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_NORMAL_AGE">
+			<Text>Bonus Dedizione Guerra di automi:[NEWLINE]Guadagni +1 Punteggio Epoca ogni volta che uccidi un'unità non Scoia'tael con un Robot Gigante della Morte.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_DARK_AGE">
+			<Text>Bonus Dedizione Guerra di automi:[NEWLINE]Guadagni +1 Punteggio Epoca ogni volta che uccidi un'unità non Scoia'tael con un Robot Gigante della Morte.</Text>
+		</Replace>
+		
+		<!--ADDITIONS-->
+		<Replace Language="it_IT" Tag="LOC_GAMEMODE_ELVES_NAME">
+			<Text>The Witcher: Modalità Scoia'tael</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_GAMEMODE_ELVES_DESCRIPTION">
+			<Text>Questa modalità di gioco sostituisce i Barbari con gli Scoia'tael dall'universo di The Witcher, usando le funzionalità dalla Modalità Clan di barbari.</Text>
+		</Replace>
+		<!--Clan names-->
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_1">
+			<Text>Brouver Hoog</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_2">
+			<Text>Yarpen Zigrin</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_3">
+			<Text>Zoltan Chivay</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_4">
+			<Text>Munro Bruys</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_5">
+			<Text>Paulie Dahlberg</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_OPEN_6">
+			<Text>Percival Schuttenbach</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_1">
+			<Text>Eithné</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_2">
+			<Text>Morenn</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_3">
+			<Text>Fauve</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_4">
+			<Text>Dunca</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_5">
+			<Text>Aucwenn</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_FOREST_6">
+			<Text>Aglaïs</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_1">
+			<Text>Barclay Els</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_2">
+			<Text>Dennis Cranmer</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_3">
+			<Text>Figgis Merluzzo</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_4">
+			<Text>Gabor Zigrin</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_5">
+			<Text>Sheldon Skaggs</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_MELEE_HILLS_6">
+			<Text>Xavier Moran</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_1">
+			<Text>Aelirenn</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_2">
+			<Text>Ciaran aep Easnillen</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_3">
+			<Text>Éibhear Hattori</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_4">
+			<Text>Eldain</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_5">
+			<Text>Filavandrel aén Fidháil</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_OPEN_6">
+			<Text>Iorveth</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_1">
+			<Text>Freixenet</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_2">
+			<Text>Milva</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_3">
+			<Text>Pavko Gale</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_4">
+			<Text>Saskia</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_5">
+			<Text>Francesca Findabair</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_JUNGLE_6">
+			<Text>Simlas Finn aep Dabairr</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_1">
+			<Text>Isengrim Faoiltiarna</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_2">
+			<Text>Schirrú</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_3">
+			<Text>Toruviel</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_4">
+			<Text>Vanadáin</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_5">
+			<Text>Vernossiel</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_CAVALRY_CHARIOT_6">
+			<Text>Yaevinn</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_NAVAL_1">
+			<Text>Braenn</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_NAVAL_2">
+			<Text>Malena</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_NAVAL_3">
+			<Text>Telianyn aep Collen</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_NAVAL_4">
+			<Text>Dana Méadbh</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_NAVAL_5">
+			<Text>Ida Emean aep Sivney</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_NAVAL_6">
+			<Text>Sirssa</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_TYPE_MELEE_OPEN">
+			<Text>Commando con Carri nanici</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_TYPE_MELEE_FOREST">
+			<Text>Commando con Driadi Ranger</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_TYPE_MELEE_HILLS">
+			<Text>Commando con Guerrieri nanici</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_TYPE_CAVALRY_OPEN">
+			<Text>Commando con Arcieri elfici a cavallo</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_TYPE_CAVALRY_JUNGLE">
+			<Text>Commando con Elefanti da guerra</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_TYPE_CAVALRY_CHARIOT">
+			<Text>Commando con Arcieri elfici</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_CLAN_TYPE_NAVAL">
+			<Text>Commando con unità navali</Text>
+		</Replace>
+		<!--Unit Actions-->
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_DISPERSE_DESCRIPTION">
+			<Text>Disperdi Commando</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_RAID_DESCRIPTION">
+			<Text>Assalta Avamposto del Commando</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_RAID_HELP">
+			<Text>Guadagni {1_GoldAmount} [ICON_GOLD] Oro. L'Avamposto resterà intatto e perderà {2_ProgressAmount} punti per la conversione in città-stato. Può essere assaltato una volta ogni {3_Turns} turni.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_HIRE_DESCRIPTION">
+			<Text>Assolda Commando</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_HIRE_HELP">
+			<Text>Spendi {1_GoldAmount} [ICON_Gold] Oro per assoldare un'unità {4_UnitName} da questo Commando. L'unità apparirà vicino alla città di {5_CityName} in questo stesso turno. Il Commando otterrà {2_ProgressAmount} punti per la conversione in città-stato. Può essere assoldato una volta ogni {3_Turns} turni.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_RANSOM_HELP">
+			<Text>Spendi {1_GoldAmount} [ICON_Gold] Oro per riscattare la tua unità {2_UnitName} catturata. Il Commando perderà una parte dei suoi progressi verso la conversione in città-stato.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_BRIBE_DESCRIPTION">
+			<Text>Corrompi Commando</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_BRIBE_HELP">
+			<Text>Spendi {1_GoldAmount} [ICON_Gold] Oro per impedire che questo Commando attacchi le tue città per {2_Turns} turni. Il Commando otterrà {3_ProgressAmount} punti per la conversione in città-stato.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_INCITE_DESCRIPTION">
+			<Text>Incita Commando</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_INCITE_HELP">
+			<Text>Spendi {1_GoldAmount} [ICON_Gold] Oro per spingere questo Commando ad attaccare {4_CivName[4]}. Il Commando perderà {2_ProgressAmount} punti per la conversione in città-stato. Può essere incitato una volta ogni {3_Turns} turni.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_TREAT_WITH_CLAN_INCITE_HELP_GENERIC">
+			<Text>Spendi [ICON_Gold] Oro per spingere questo Commando ad attaccare un'altra civiltà o città-stato vicina. Il Commando perderà {1_ProgressAmount} punti per la conversione in città-stato. Può essere incitato una volta ogni {2_Turns} turni.</Text>
+		</Replace>
+		<!--Unit Action Result Strings-->
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_FAILURE_CLANS_NOT_ON_CAMP">
+			<Text>Deve trovarsi su un Avamposto Scoia'tael.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_FAILURE_CLANS_RECENTLY_RAIDED">
+			<Text>Questo Avamposto non può essere assaltato ancora per {1_Turns} {1_Turns: plural 1?turno; other?turni;}.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_FAILURE_CLANS_RECENTLY_HIRED">
+			<Text>Questo Commando non può essere assoldato ancora per {1_Turns} {1_Turns: plural 1?turno; other?turni;}.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_FAILURE_CLANS_RECENTLY_INCITED">
+			<Text>Questo Commando non può essere incitato ancora per {1_Turns} {1_Turns: plural 1?turno; other?turni;}.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_OPERATION_FAILURE_HAS_NOT_MET_INCITE_TARGET">
+			<Text>Non abbiamo ancora incontrato un'altra civiltà nota a questo Commando.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_UNITCOMMAND_FAILURE_CLANS_ACTIVE_BRIBE">
+			<Text>Questo Commando è già stato corrotto per {1_Turns} {1_Turns: plural 1?turno; other?turni;}.</Text>
+		</Replace>
+		<!--UI-->
+		<Replace Language="it_IT" Tag="LOC_TOOLTIP_BARBARIAN_CLAN_NAME">
+			<Text>Commando di {1_ClanName}</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_STATUS_INCITED_BY_YOU">
+     		<Text>Hai Incitato questo Commando contro {1_playerName[4]}.</Text>
+     		<Gender>	[XLOC_BLANK_STRING]</Gender>
+     		<Plurality>	[XLOC_BLANK_STRING]</Plurality>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_STATUS_INCITED_AGAINST_YOU">
+      		<Text>Questo Commando è stato Incitato contro di te {1_playerName[5]}.</Text>
+      		<Gender>	[XLOC_BLANK_STRING]</Gender>
+      		<Plurality>	[XLOC_BLANK_STRING]</Plurality>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_BARBARIAN_STATUS_INCITED_AGAINST_YOU_UNKNOWN">
+     		<Text>Questo Commando è stato Incitato contro di te da una civiltà sconosciuta.</Text>
+     		<Gender>	[XLOC_BLANK_STRING]</Gender>
+     		<Plurality>	[XLOC_BLANK_STRING]</Plurality>
+		</Replace>
+		<!--Notifications-->
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_CONVERTED_TO_CITY_STATE_MESSAGE">
+			<Text>Un Commando ha fondato una città-stato</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_CONVERTED_TO_CITY_STATE_SUMMARY">
+			<Text>Il Commando Scoia'tael di {1_ClanName} ha dato vita a una nuova città-stato! Il suo nome è {2_CivName}.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_HIRED_MESSAGE">
+			<Text>Scoia'tael assoldati</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_HIRED_SUMMARY">
+			<Text>{1_PlayerName[4]} {1: plural 1?ha;other?hanno;} assoldato unità militari dal Commando Scoia'tael di {2_ClanName}.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_UNIT_RANSOMED_MESSAGE">
+			<Text>Riscatto pagato agli Scoia'tael</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_UNIT_RANSOMED_SUMMARY">
+			<Text>{1_PlayerName[4]} {1: plural 1?ha;other?hanno;} pagato un riscatto al Commando Scoia'tael di {2_ClanName} per liberare la {1: plural 1?sua;other?loro;} unità {3_UnitName}.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_BRIBED_MESSAGE">
+			<Text>Scoia'tael corrotti</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_BRIBED_SUMMARY">
+			<Text>Le nostre città sono protette dal Commando Scoia'tael di {1_ClanName} per {2_NumTurns} turni.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_BRIBE_EXPIRED_MESSAGE">
+			<Text>Corruzione Scoia'tael scaduta</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_BRIBE_EXPIRED_SUMMARY">
+			<Text>La Corruzione che ci protegge dal Commando Scoia'tael di {1_ClanName} è scaduta!</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_INCITED_MESSAGE">
+			<Text>Scoia'tael incitati</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_INCITED_AGAINST_CIV_SUMMARY">
+			<Text>Abbiamo incitato il Commando Scoia'tael di {1_ClanName} contro {2_CivName[4]}!</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_INCITED_BY_UNKNOWN_SUMMARY">
+			<Text>Una civiltà sconosciuta ha incitato il Commando Scoia'tael di {1_ClanName} contro di noi!</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_INCITED_BY_CIV_SUMMARY">
+			<Text>{1_CivName[4]} {1: plural 1?ha;other?hanno;} incitato il Commando Scoia'tael di {2_ClanName} contro di noi!</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_RAID_REPRISAL_UNIT_MOVED_SUMMARY">
+			<Text>La nostra unità {1_UnitName} è stata obbligata a fuggire da un attacco di rappresaglia in seguito al nostro assalto contro il Commando Scoia'tael di {2_ClanName}.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_RAID_REPRISAL_UNIT_KILLED_SUMMARY">
+			<Text>La nostra unità {1_UnitName} è stata intrappolata e uccisa in un attacco di rappresaglia in seguito al nostro assalto contro il Commando Scoia'tael di {2_ClanName}.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_DISPERSED_MESSAGE">
+			<Text>Commando disperso</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_NOTIFICATION_CLAN_DISPERSED_SUMMARY">
+			<Text>Il Commando di {1_ClanName} è stato distrutto!</Text>
+		</Replace>
+		<!--Treat With Tribe Text-->		
+		<Replace Language="it_IT" Tag="LOC_TRIBE_BANNER_TREAT_WITH_TRIBE_TT">
+			<Text>Clicca per trattare con il Commando di {1_ClanName}.</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_TREAT_WITH_TRIBE_POPUP_TITLE">
+			<Text>Tratta con gli Scoia'tael</Text>
+		</Replace>
+		<Replace Language="it_IT" Tag="LOC_TREAT_WITH_NAMED_CLAN">
+			<Text>Tratta con il Commando di {1_ClanName}</Text>
+		</Replace>
+
+    </LocalizedText>
+</GameData>

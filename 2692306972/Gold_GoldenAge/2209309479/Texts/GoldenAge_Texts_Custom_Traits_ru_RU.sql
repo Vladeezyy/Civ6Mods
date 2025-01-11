@@ -1,0 +1,594 @@
+INSERT
+       OR REPLACE
+INTO
+       LocalizedText
+       (Tag
+            , Language
+            , Text
+       )
+       VALUES
+       ("LOC_GOLDEN_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "Религиозные и культурные особенности"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_NORTH_AMERICA_DESC"
+            ,"ru_RU"
+            , "Северная Америка: можно покупать здания в кампусах за веру. Пожалуйста, ознакомьтесь с эффектом лояльности в цивилопедии."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WEST_ASIA_DESC"
+            ,"ru_RU"
+            , "Западная Азия: можно купить постройки в военных лагерях за веру. Пожалуйста, ознакомьтесь с эффектом лояльности в цивилопедии."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_LATIN_AMERICA_DESC"
+            ,"ru_RU"
+            , "Латинская Америка: можно покупать здания в аквапарках и развлекательных комплексах за веру. Пожалуйста, ознакомьтесь с эффектом лояльности в цивилопедии."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_EAST_ASIA_DESC"
+            ,"ru_RU"
+            , "Восточная Азия: можно покупать здания в театральных площадях за веру. Пожалуйста, ознакомьтесь с эффектом лояльности в цивилопедии."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_SOUTHEAST_ASIA_OCEANIA_DESC"
+            ,"ru_RU"
+            , "Юго-восточная Азия и океания: можно покупать здания в гаванях за веру. Пожалуйста, ознакомьтесь с эффектом лояльности в цивилопедии."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WESTERN_NORTHERN_EUROPE_DESC"
+            ,"ru_RU"
+            , "Западная и северная Европа: можно покупать здания в промышленных зонах за веру. Пожалуйста, ознакомьтесь с эффектом лояльности в цивилопедии."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_CENTRAL_EASTERN_EUROPE_DESC"
+            ,"ru_RU"
+            , "Центральная и восточная Европа: можно покупать здания в священных местах за веру. Пожалуйста, ознакомьтесь с эффектом лояльности в цивилопедии."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_MEDITERRANEAN_DESC"
+            ,"ru_RU"
+            , "Средиземноморье: можно покупать здания в коммерческих центрах за веру. Пожалуйста, ознакомьтесь с эффектом лояльности в цивилопедии."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_AFRICA_DESC"
+            ,"ru_RU"
+            , "Африка: можно покупать здания в центре города за веру. Пожалуйста, ознакомьтесь с эффектом лояльности в цивилопедии."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_CULTURAL_FARMING_DESC"
+            ,"ru_RU"
+            , "Речная цивилизация: Престиж поймы увеличена с -1 до 0. Строительство фермы производит культурный захват."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_CULTURAL_ANIMAL_HUSBANDRY_DESC"
+            ,"ru_RU"
+            , "Кочевая цивилизация: +3 [ICON_Housing] жилья для городов, в которых еще нет пресной воды. Строительство пастбища производит культурный захват."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_CULTURAL_HUNTING_GATHERING_DESC"
+            ,"ru_RU"
+            , "Тропическая цивилизация: Престиж джунглей увеличен с -1 до 0. Строительство лагеря производит культурный захват."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_CULTURAL_LUMBERING_DESC"
+            ,"ru_RU"
+            , "Лесная цивилизация: +2 [ICON_Housing] жилья в городах, примыкающих к лесу. Строительство лесопилки производит культурный захват."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_CULTURAL_PLANTING_DESC"
+            ,"ru_RU"
+            , "Плантаторская цивилизация: +2 [ICON_Housing] жилья в городах, построенных на клетках редких ресурсов. Строительство плантации производит культурный захват."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_CULTURAL_FISHING_DESC"
+            ,"ru_RU"
+            , "Морская цивилизация: +3 [ICON Housing] жилья в прибрежных городах. Строительство рабацкого судна производит культурный захват."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_CULTURAL_MINING_DESC"
+            ,"ru_RU"
+            , "Высокогорная цивилизация: +2 [ICON_Housing] жилья в городах, построенных на холмах. Строительство каменоломни производит культурный захват."
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_AMERICA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_ARABIA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_BRAZIL_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_CHINA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_EGYPT_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_ENGLAND_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_FRANCE_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_GERMANY_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_GREECE_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_INDIA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_JAPAN_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_KONGO_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_NORWAY_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_ROME_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_RUSSIA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_SCYTHIA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_SPAIN_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_SUMERIA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_CREE_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_KOREA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_GEORGIA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_MAPUCHE_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_MONGOLIA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_NETHERLANDS_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_SCOTLAND_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_ZULU_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_CANADA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_HUNGARY_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_INCA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_MALI_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_MAORI_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_OTTOMAN_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_PHOENICIA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_SWEDEN_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_AUSTRALIA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_AZTEC_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_KHMER_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_INDONESIA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_NUBIA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_MACEDON_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_PERSIA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_POLAND_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_MAYA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_GRAN_COLOMBIA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_ETHIOPIA_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_BYZANTIUM_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_GAUL_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_BABYLON_STK_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_VIETNAM_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_PORTUGAL_CUSTOM_FEATURES_NAME"
+            ,"ru_RU"
+            , "{LOC_GOLDEN_CUSTOM_FEATURES_NAME}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_AMERICA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_NORTH_AMERICA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FARMING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_ARABIA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WEST_ASIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_ANIMAL_HUSBANDRY_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_BRAZIL_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_LATIN_AMERICA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_HUNTING_GATHERING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_CHINA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_EAST_ASIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FARMING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_EGYPT_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_AFRICA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FARMING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_ENGLAND_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WESTERN_NORTHERN_EUROPE_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FISHING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_FRANCE_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WESTERN_NORTHERN_EUROPE_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_PLANTING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_GERMANY_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_CENTRAL_EASTERN_EUROPE_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_PLANTING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_GREECE_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_MEDITERRANEAN_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_PLANTING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_INDIA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_SOUTHEAST_ASIA_OCEANIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FARMING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_JAPAN_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_EAST_ASIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FISHING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_KONGO_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_AFRICA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_HUNTING_GATHERING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_NORWAY_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WESTERN_NORTHERN_EUROPE_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_LUMBERING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_ROME_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_MEDITERRANEAN_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_PLANTING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_RUSSIA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_CENTRAL_EASTERN_EUROPE_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_LUMBERING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_SCYTHIA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WEST_ASIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_ANIMAL_HUSBANDRY_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_SPAIN_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_MEDITERRANEAN_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FISHING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_SUMERIA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WEST_ASIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FARMING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_CREE_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_NORTH_AMERICA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_LUMBERING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_KOREA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_EAST_ASIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FARMING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_GEORGIA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_CENTRAL_EASTERN_EUROPE_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_MINING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_MAPUCHE_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_LATIN_AMERICA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_MINING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_MONGOLIA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_EAST_ASIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_ANIMAL_HUSBANDRY_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_NETHERLANDS_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WESTERN_NORTHERN_EUROPE_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FISHING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_SCOTLAND_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WESTERN_NORTHERN_EUROPE_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FISHING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_ZULU_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_AFRICA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_ANIMAL_HUSBANDRY_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_CANADA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_NORTH_AMERICA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_LUMBERING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_HUNGARY_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_CENTRAL_EASTERN_EUROPE_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_ANIMAL_HUSBANDRY_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_INCA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_LATIN_AMERICA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_MINING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_MALI_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_AFRICA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_MINING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_MAORI_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_SOUTHEAST_ASIA_OCEANIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_HUNTING_GATHERING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_OTTOMAN_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WEST_ASIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_MINING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_PHOENICIA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_MEDITERRANEAN_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FISHING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_SWEDEN_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WESTERN_NORTHERN_EUROPE_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_LUMBERING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_AUSTRALIA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_SOUTHEAST_ASIA_OCEANIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_ANIMAL_HUSBANDRY_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_AZTEC_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_LATIN_AMERICA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_PLANTING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_KHMER_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_SOUTHEAST_ASIA_OCEANIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_HUNTING_GATHERING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_INDONESIA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_SOUTHEAST_ASIA_OCEANIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FISHING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_NUBIA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_AFRICA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FARMING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_MACEDON_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_MEDITERRANEAN_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_ANIMAL_HUSBANDRY_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_PERSIA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WEST_ASIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_MINING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_POLAND_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_CENTRAL_EASTERN_EUROPE_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_PLANTING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_MAYA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_LATIN_AMERICA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_PLANTING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_GRAN_COLOMBIA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_LATIN_AMERICA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_HUNTING_GATHERING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_ETHIOPIA_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_AFRICA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_PLANTING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_BYZANTIUM_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_MEDITERRANEAN_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_MINING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_GAUL_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WESTERN_NORTHERN_EUROPE_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_MINING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_BABYLON_STK_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WEST_ASIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FARMING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_VIETNAM_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_SOUTHEAST_ASIA_OCEANIA_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_HUNTING_GATHERING_DESC}"
+       )
+     ,
+        ("LOC_GOLDEN_CIVILIZATION_PORTUGAL_CUSTOM_FEATURES_DESCRIPTION"
+            ,"ru_RU"
+            , "[ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_REGIONAL_TRAIT_WESTERN_NORTHERN_EUROPE_DESC}[NEWLINE][ICON_Bullet]{LOC_GOLDEN_CIVILIZATION_CULTURAL_FISHING_DESC}"
+       )
+;

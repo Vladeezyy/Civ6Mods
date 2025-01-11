@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Elves_MODE_icon"/>
+			<m_ObjectName text="Elves_MODE_icon"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GAMEMODE_ELVES"/>
+			<m_ObjectName text="GAMEMODE_ELVES"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Elves_Notifications_100"/>
+			<m_ObjectName text="Elves_Notifications_100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Elves_Notifications_40"/>
+			<m_ObjectName text="Elves_Notifications_40"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ElvesMODE_Atlas128"/>
+			<m_ObjectName text="ElvesMODE_Atlas128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ElvesMODE_Atlas200"/>
+			<m_ObjectName text="ElvesMODE_Atlas200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ElvesMODE_Atlas256"/>
+			<m_ObjectName text="ElvesMODE_Atlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ElvesMODE_Atlas30"/>
+			<m_ObjectName text="ElvesMODE_Atlas30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ElvesMODE_Atlas32"/>
+			<m_ObjectName text="ElvesMODE_Atlas32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ElvesMODE_Atlas36"/>
+			<m_ObjectName text="ElvesMODE_Atlas36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ElvesMODE_Atlas44"/>
+			<m_ObjectName text="ElvesMODE_Atlas44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ElvesMODE_Atlas45"/>
+			<m_ObjectName text="ElvesMODE_Atlas45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ElvesMODE_Atlas48"/>
+			<m_ObjectName text="ElvesMODE_Atlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ElvesMODE_Atlas50"/>
+			<m_ObjectName text="ElvesMODE_Atlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ElvesMODE_Atlas64"/>
+			<m_ObjectName text="ElvesMODE_Atlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ElvesMODE_Atlas80"/>
+			<m_ObjectName text="ElvesMODE_Atlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Elves_Fonticon22"/>
+			<m_ObjectName text="Elves_Fonticon22"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

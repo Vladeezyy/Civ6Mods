@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!--Aedirn-->
+	<Traits>
+		<Update>
+			<Where TraitType="TRAIT_CIVILIZATION_AEDIRNIAN_SPECIAL_FORCES"/>
+			<Set>
+				<Description>LOC_TRAIT_AEDIRNIAN_SPECIAL_FORCES_MODE_DESCRIPTION</Description>
+			</Set>
+		</Update>
+	</Traits>
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_AEDIRNIAN_SPECIAL_FORCES"/>
+			<Set>
+				<Description>LOC_TRAIT_AEDIRNIAN_SPECIAL_FORCES_MODE_DESCRIPTION</Description>
+			</Set>
+		</Update>
+	</Units>
+	<UnitAbilities>
+		<Update>
+			<Where UnitAbilityType="ABILITY_AEDIRNIAN_STRENGTH"/>
+			<Set>
+				<Name>LOC_ABILITY_AEDIRNIAN_STRENGTH_MODE_NAME</Name>
+				<Description>LOC_ABILITY_AEDIRNIAN_STRENGTH_MODE_DESCRIPTION</Description>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitAbilityType="ABILITY_AEDIRNIAN_XP"/>
+			<Set>
+				<Name>LOC_ABILITY_AEDIRNIAN_XP_MODE_NAME</Name>
+				<Description>LOC_ABILITY_AEDIRNIAN_XP_MODE_DESCRIPTION</Description>
+			</Set>
+		</Update>
+	</UnitAbilities>
+	<ModifierStrings>
+		<Update>
+			<Where ModifierId="AEDIRNIAN_STRENGTH_AGAINST_BARBARIANS_CITY_STATES"/>
+			<Set>
+				<Text>+{1_Amount} {LOC_ABILITY_AEDIRNIAN_STRENGTH_MODE_NAME}</Text>
+			</Set>
+		</Update>
+	</ModifierStrings>
+	
+	<!--Barbarian units-->
+	<Units>
+		<!--Remove-->
+		<Delete UnitType="UNIT_BARBARIAN_HORSEMAN"/>
+		<Delete UnitType="UNIT_BARBARIAN_HORSE_ARCHER"/>
+	</Units>
+
+	<Types>
+		<!--Units-->
+		<Row Type="UNIT_ELVES_HORSE_ARCHER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_ELVES_ARCHER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_ELVES_DRYAD" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_ELVES_CHARIOT" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_ELVES_WARRIOR" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_ELVES_ELEPHANT" Kind="KIND_UNIT"/>
+		<!--Abilities-->
+		<Row Type="ABILITY_ELVES_DRYAD" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<Tags>
+		<Row Tag="CLASS_ELVES_HORSE_ARCHER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_ELVES_ARCHER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_ELVES_DRYAD" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_ELVES_CHARIOT" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_ELVES_WARRIOR" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_ELVES_ELEPHANT" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+
+	<TypeTags>
+		<!--Units-->
+		<Row Type="UNIT_ELVES_HORSE_ARCHER" Tag="CLASS_ELVES_HORSE_ARCHER"/>
+		<Row Type="UNIT_ELVES_HORSE_ARCHER" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="UNIT_ELVES_HORSE_ARCHER" Tag="CLASS_MOBILE_RANGED"/>
+		<Row Type="UNIT_ELVES_ARCHER" Tag="CLASS_ELVES_ARCHER"/>
+		<Row Type="UNIT_ELVES_ARCHER" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_ELVES_ARCHER" Tag="CLASS_STEALTH"/>
+		<Row Type="UNIT_ELVES_DRYAD" Tag="CLASS_ELVES_DRYAD"/>
+		<Row Type="UNIT_ELVES_DRYAD" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_ELVES_CHARIOT" Tag="CLASS_ELVES_CHARIOT"/>
+		<Row Type="UNIT_ELVES_CHARIOT" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="UNIT_ELVES_CHARIOT" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_ELVES_WARRIOR" Tag="CLASS_ELVES_WARRIOR"/>
+		<Row Type="UNIT_ELVES_WARRIOR" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_ELVES_ELEPHANT" Tag="CLASS_ELVES_ELEPHANT"/>
+		<Row Type="UNIT_ELVES_ELEPHANT" Tag="CLASS_HEAVY_CAVALRY"/>
+		<!--Abilities-->
+		<Row Type="ABILITY_ELVES_DRYAD" Tag="CLASS_ELVES_DRYAD"/>
+		<Row Type="ABILITY_ENABLE_WALL_ATTACK_PROMOTION_CLASS" Tag="CLASS_ELVES_CHARIOT"/> <!--existing ability-->
+	</TypeTags>
+
+	<Units>
+		<Row UnitType="UNIT_ELVES_HORSE_ARCHER" Cost="35" Maintenance="1" BaseMoves="3" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="10" RangedCombat="15" Range="1" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_ELVES_HORSE_ARCHER_NAME" Description="LOC_UNIT_ELVES_HORSE_ARCHER_DESCRIPTION" PurchaseYield="YIELD_GOLD" TraitType="TRAIT_BARBARIAN"/>
+		<Row UnitType="UNIT_ELVES_ARCHER" Cost="60" Maintenance="1" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="15" RangedCombat="23" Range="2" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_ELVES_ARCHER_NAME" Description="LOC_UNIT_ELVES_ARCHER_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_BALLISTICS" PrereqTech="TECH_ARCHERY" TraitType="TRAIT_BARBARIAN"/>
+		<Row UnitType="UNIT_ELVES_DRYAD" Cost="50" Maintenance="1" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="15" RangedCombat="23" Range="2" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_ELVES_DRYAD_NAME" Description="LOC_UNIT_ELVES_DRYAD_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_BALLISTICS" PrereqTech="TECH_ARCHERY" TraitType="TRAIT_BARBARIAN"/>
+		<Row UnitType="UNIT_ELVES_CHARIOT" Cost="120" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="30" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_ELVES_CHARIOT_NAME" Description="LOC_UNIT_ELVES_CHARIOT_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_STEEL" PrereqTech="TECH_ENGINEERING" TraitType="TRAIT_BARBARIAN"/>
+		<Row UnitType="UNIT_ELVES_WARRIOR" Cost="160" Maintenance="3" BaseMoves="1" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="42" StrategicResource="RESOURCE_IRON" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_ELVES_WARRIOR_NAME" Description="LOC_UNIT_ELVES_WARRIOR_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_APPRENTICESHIP" TraitType="TRAIT_BARBARIAN"/>
+		<Row UnitType="UNIT_ELVES_ELEPHANT" Cost="180" Maintenance="3" BaseMoves="2" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="50" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_ELVES_ELEPHANT_NAME" Description="LOC_UNIT_ELVES_ELEPHANT_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_COMBUSTION" TraitType="TRAIT_BARBARIAN" PrereqTech="TECH_STIRRUPS"/>
+	</Units>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_ELVES_DRYAD" Name="LOC_UNIT_ELVES_DRYAD_NAME" Description="LOC_ABILITY_ELVES_DRYAD_DESCRIPTION" Permanent="1"/>
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_ELVES_DRYAD" ModifierId="ELVES_DRYAD_IGNORE_FEATURES"/>
+		<Row UnitAbilityType="ABILITY_ELVES_DRYAD" ModifierId="ELVES_DRYAD_SEE_THROUGH_FEATURES"/>
+	</UnitAbilityModifiers>
+
+	<Modifiers>
+		<Row ModifierId="ELVES_DRYAD_IGNORE_FEATURES" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST"/>
+		<Row ModifierId="ELVES_DRYAD_SEE_THROUGH_FEATURES" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_SEE_THROUGH_FEATURES"/>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="ELVES_DRYAD_IGNORE_FEATURES" Name="Ignore" Value="1"/>
+		<Row ModifierId="ELVES_DRYAD_IGNORE_FEATURES" Name="Type" Value="FOREST"/>
+		<Row ModifierId="ELVES_DRYAD_SEE_THROUGH_FEATURES" Name="CanSee" Value="1"/>
+	</ModifierArguments>
+	
+	<UnitAiInfos>
+		<Row UnitType="UNIT_ELVES_HORSE_ARCHER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_ELVES_HORSE_ARCHER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_ELVES_HORSE_ARCHER" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_ELVES_HORSE_ARCHER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_ELVES_HORSE_ARCHER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_ELVES_ARCHER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_ELVES_ARCHER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_ELVES_ARCHER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_ELVES_DRYAD" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_ELVES_DRYAD" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_ELVES_DRYAD" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_ELVES_CHARIOT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_ELVES_CHARIOT" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_ELVES_CHARIOT" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+		<Row UnitType="UNIT_ELVES_CHARIOT" AiType="UNITTYPE_SIEGE_ALL"/>
+		<Row UnitType="UNIT_ELVES_CHARIOT" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_ELVES_WARRIOR" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_ELVES_WARRIOR" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_ELVES_WARRIOR" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_ELVES_WARRIOR" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_ELVES_ELEPHANT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_ELVES_ELEPHANT" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_ELVES_ELEPHANT" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_ELVES_ELEPHANT" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<BarbarianTribe_ExtraUnits>
+		<Row TribeType="TRIBE_CLAN_MELEE_OPEN" UnitType="UNIT_ELVES_CHARIOT" Number="1"/>
+		<Row TribeType="TRIBE_CLAN_MELEE_FOREST" UnitType="UNIT_ELVES_DRYAD" Number="1"/>
+		<Row TribeType="TRIBE_CLAN_MELEE_HILLS" UnitType="UNIT_ELVES_WARRIOR" Number="1"/>
+		<Row TribeType="TRIBE_CLAN_CAVALRY_OPEN" UnitType="UNIT_ELVES_HORSE_ARCHER" Number="1"/>
+		<Row TribeType="TRIBE_CLAN_CAVALRY_JUNGLE" UnitType="UNIT_ELVES_ELEPHANT" Number="1"/>
+		<Row TribeType="TRIBE_CLAN_CAVALRY_CHARIOT" UnitType="UNIT_ELVES_ARCHER" Number="1"/>
+	</BarbarianTribe_ExtraUnits>
+	
+	<!--CIVILOPEDIA-->
+	<CivilopediaPageLayouts>
+		<Delete PageLayoutId="BarbarianClanType"/>
+	</CivilopediaPageLayouts>
+</GameData>
