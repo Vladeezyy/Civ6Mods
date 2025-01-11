@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+<LocalizedText>
+	<Row Tag="LOC_AKGC_AWARD_HIGHEST_CulturePT" Text="Самый культурный город ({1} [ICON_CULTURE] за ход)" Language="ru_RU" />
+<Row Tag="LOC_AKGC_AWARD_HIGHEST_Defense" Text="Лучше всего защищённый город ({1} [ICON_STRENGTH])" Language="ru_RU" />
+<Row Tag="LOC_AKGC_AWARD_HIGHEST_FaithPT" Text="Самый набожный город ({1} [ICON_FAITH] за ход)" Language="ru_RU" />
+<Row Tag="LOC_AKGC_AWARD_HIGHEST_GoldPT" Text="Самый богатый город ({1} [ICON_GOLD] за ход)" Language="ru_RU" />
+<Row Tag="LOC_AKGC_AWARD_HIGHEST_Happiness" Text="Самый счастливый город (+{1} [ICON_AMENITIES])" Language="ru_RU" />
+<Row Tag="LOC_AKGC_AWARD_HIGHEST_Population" Text="Самый населённый город ({1} [ICON_CITIZEN])" Language="ru_RU" />
+<Row Tag="LOC_AKGC_AWARD_HIGHEST_ProductionPT" Text="Самый индустриальный город ({1} [ICON_PRODUCTION] за ход)" Language="ru_RU" />
+<Row Tag="LOC_AKGC_AWARD_HIGHEST_SciencePT" Text="Самый образованный город ({1} [ICON_SCIENCE] за ход)" Language="ru_RU" />
+<Row Tag="LOC_AKGC_BUTTON_OPTIONS_TT" Text="Настройки" Language="ru_RU" />
+<Row Tag="LOC_AKGC_BUTTON_SETTINGSCANCEL" Text="Отмена" Language="ru_RU" />
+<Row Tag="LOC_AKGC_BUTTON_SETTINGSRESET" Text="Сбросить" Language="ru_RU" />
+<Row Tag="LOC_AKGC_BUTTON_SETTINGSSAVE" Text="Сохранить" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CAPITALCITY_TT" Text="Столица {1_civ}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITIES_BUTTON" Text="Величайшие города" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITIES_TAB_EMPIRE" Text="Империя" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITIES_TAB_WONDERS" Text="Чудеса" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITIES_TAB_WORLD" Text="Мир" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITIES_TITLE" Text="Величайшие города мира" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITIES_TITLE_HISTORIC" Text="Величайшие города {2_era} по версии {1_author}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITYFOUNDED" Text="{1_civ}{2_occupied}, основан в {3_year}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITYFOUNDEDBYSOMEONEELSE" Text="{1_civ}{2_occupied}, основан в {3_year} цивилизацией {4_origciv}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITYFOUNDEDUNKNOWN" Text="{1_civ}{2_occupied}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITYOCCUPIED" Text=" (Оккупирован)" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITYRAZED" Text=" УНИЧТОЖЕН" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITY_HISTORY_CAPTURED" Text="{1_year}: Захвачен цивилизацией {2_civ}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITY_HISTORY_DEFECTED" Text="{1_year}: Перешёл к {2_civ}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITY_HISTORY_FOUNDED" Text="{1_year}: Город {2_city} основан цивилизацией {3_civ}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITY_HISTORY_FOUNDEDONRUINS" Text="{1_year}: Город {2_city} основан цивилизацией {3_civ} на руинах города {4_oldcity}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITY_HISTORY_LIBERATEDBY" Text="{1_year}: Освобождён цивилизацией {2_civ}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITY_HISTORY_OCCUPIED" Text="{1_year}: Оккупирован цивилизацией {2_civ}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITY_HISTORY_RAZED" Text="{1_year}: Разрушен цивилизацией {2_civ}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITY_HISTORY_RENAMED" Text="{1_year}: Переименован в {2_name}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITY_HISTORY_RETURNEDTO" Text="{1_year}: Возвращён цивилизации {2_civ}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITY_HISTORY_TRADED" Text="{1_year}: Передан цивилизации {2_civ}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_CITY_HISTORY_UNKNOWN" Text="{1_year}: Неизвестное событие {2_name}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_COL_CITY" Text="Город" Language="ru_RU" />
+<Row Tag="LOC_AKGC_COL_DATEBUILT" Text="Дата основания" Language="ru_RU" />
+<Row Tag="LOC_AKGC_COL_LOCATION" Text="Расположение" Language="ru_RU" />
+<Row Tag="LOC_AKGC_COL_OWNER" Text="Владелец" Language="ru_RU" />
+<Row Tag="LOC_AKGC_COL_POPULATION" Text="Население" Language="ru_RU" />
+<Row Tag="LOC_AKGC_COL_RANK" Text="Ранг" Language="ru_RU" />
+<Row Tag="LOC_AKGC_COL_SPECIAL" Text="Особенности" Language="ru_RU" />
+<Row Tag="LOC_AKGC_COL_WONDER" Text="Название" Language="ru_RU" />
+<Row Tag="LOC_AKGC_COL_WONDERS" Text="Чудеса" Language="ru_RU" />
+<Row Tag="LOC_AKGC_DEFAULTOPTIONS_NOTIFICATION_HEADER" Text="Напоминание о параметрах Великих городов" Language="ru_RU" />
+<Row Tag="LOC_AKGC_DEFAULTOPTIONS_NOTIFICATION_TEXT_OFF" Text="[NEWLINE]Вы можете открыть настройки, нажав здесь или на иконку шестерёнки в левом верхнем углу окна Великих городов.[NEWLINE][NEWLINE]Награды за величие городов не обнаружены: Награды за конец эпохи [COLOR_RED]отключены[ENDCOLOR].[NEWLINE]" Language="ru_RU" />
+<Row Tag="LOC_AKGC_DEFAULTOPTIONS_NOTIFICATION_TEXT_ON" Text="[NEWLINE]Вы можете открыть настройки, нажав здесь или на иконку шестерёнки в левом верхнем углу окна Великих городов.[NEWLINE][NEWLINE]Награды за величие городов обнаружены: Награды за конец эпохи [COLOR_GREEN]включены[ENDCOLOR].[NEWLINE]" Language="ru_RU" />
+<Row Tag="LOC_AKGC_ENDOFERARANK_NOTIFICATION_HEADER" Text="Величайшие города {1_era}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_SCORE_TOTAL" Text="{1_score} Всего" Language="ru_RU" />
+<Row Tag="LOC_AKGC_UNKNOWN_AUTHOR" Text="Неизвестный учёный" Language="ru_RU" />
+<Row Tag="LOC_AKGC_WONDER_BUILTBY" Text="Построен цивилизацией {1_civ}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_WONDER_DESTROYED" Text="УНИЧТОЖЕН[NEWLINE]цивилизацией {1_civ}[NEWLINE]{2_date}" Language="ru_RU" />
+<Row Tag="LOC_AKGC_WONDER_UNDERCONSTRUCTION" Text="В процессе[NEWLINE]строительства" Language="ru_RU" />
+</LocalizedText>
+
+</GameData>
