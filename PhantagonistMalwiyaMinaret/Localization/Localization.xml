@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_PHANTA_MALWIYA_MINARET_NAME" Language="ru_RU">
+			<Text>Минарет Малвия</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MALWIYA_MINARET_DESCRIPTION" Language="ru_RU">
+			<Text>Города в пределах 9 клеток получают +10% [ICON_Faith] Веры и +10% [ICON_Production] Производства. Предоставляет Апостола при завершении строительства или одного из уникальных проектов этого чуда. Должен быть построен на равнинной или пустынной местности рядом с центром города, при условии, что вы основали Религию.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MALWIYA_MINARET_QUOTE" Language="ru_RU">
+			<Text>«Аль-Мутаваккиль также построил великую кафедральную мечеть и потратил огромные средства на неё, сделав минарет настолько высоким, что голоса муэдзинов легко слышны, а минарет виден на большом расстоянии.»[NEWLINE]– Аль-Баладхури, Книга Завоеваний</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_MALWIYA_MINARET_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Аль-Мутаваккиль, десятый халиф Аббасидской династии, посвятил значительные усилия и ресурсы строительству своей столицы Самарры, включая Великую мечеть Самарры и её знаковый минарет Малвия. Завершённый в 851 году, минарет получил название «Малвия» («ракушка») за свою спиралевидную форму и высоту 52 метра. Внешняя спиральная рампа позволяет муэдзинам подниматься наверх, чтобы совершать азан (призыв к молитве). Рампа настолько широка, что, по легенде, аль-Мутаваккиль мог подняться по ней верхом на осле. Хотя аль-Мутаваккиль построил минарет Малвия вместе с самой большой мечетью своего времени, и халиф, и мечеть пострадали от времени. Аль-Мутаваккиль был убит тюркскими стражами, поддержанными его сыном, что стало началом анархии в Самарре, а Великая мечеть Самарры была разрушена при вторжении Хулагу-хана, оставив только внешние стены и минарет Малвия, которые до сих пор находятся в Ираке.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_FIRST_NAME" Language="ru_RU">
+			<Text>Спиральное восхождение (1)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_FIRST_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет [ICON_Faith] Веры, равное 20% производства этого города, и +100% религиозного давления каждый ход. Завершение этого проекта предоставляет Апостола, а города в пределах 7 клеток от минарета Малвия получают +10% [ICON_Faith] Веры и +10% [ICON_Production] Производства (суммируется с другими бонусами).</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_SECOND_NAME" Language="ru_RU">
+			<Text>Спиральное восхождение (2)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_SECOND_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет [ICON_Faith] Веры, равное 40% производства этого города, и +200% религиозного давления каждый ход. Завершение этого проекта предоставляет Апостола, а города в пределах 5 клеток от минарета Малвия получают +10% [ICON_Faith] Веры и +10% [ICON_Production] Производства (суммируется с другими бонусами). [NEWLINE][NEWLINE]Накопленные бонусы:[NEWLINE]Города в пределах 9 клеток получают +10% [ICON_Faith] Веры и +10% [ICON_Production] Производства.[NEWLINE]Города в пределах 7 клеток получают дополнительные +10% [ICON_Faith] Веры и +10% [ICON_Production] Производства.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_THIRD_NAME" Language="ru_RU">
+			<Text>Спиральное восхождение (3)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_THIRD_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет [ICON_Faith] Веры, равное 60% производства этого города, и +300% религиозного давления каждый ход. Завершение этого проекта предоставляет Апостола, а города в пределах 3 клеток от минарета Малвия получают +10% [ICON_Faith] Веры и +10% [ICON_Production] Производства (суммируется с другими бонусами). [NEWLINE][NEWLINE]Накопленные бонусы:[NEWLINE]Города в пределах 9 клеток получают +10% [ICON_Faith] Веры и +10% [ICON_Production] Производства.[NEWLINE]Города в пределах 7 клеток получают дополнительные +10% [ICON_Faith] Веры и +10% [ICON_Production] Производства.[NEWLINE]Города в пределах 5 клеток получают дополнительные +10% [ICON_Faith] Веры и +10% [ICON_Production] Производства.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_REPEAT_NAME" Language="ru_RU">
+			<Text>Вознесённый азан</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_REPEAT_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет [ICON_Faith] Веру, равную 100% производства этого города, и +500% религиозного давления каждый ход. Завершение этого проекта предоставляет Апостола. Этот проект можно повторять. [NEWLINE][NEWLINE]Накопленные бонусы:[NEWLINE]Города в пределах 9 клеток получают +10% [ICON_Faith] Веры и +10% [ICON_Production] Производства.[NEWLINE]Города в пределах 7 клеток получают дополнительные +10% [ICON_Faith] Веры и +10% [ICON_Production] Производства.[NEWLINE]Города в пределах 5 клеток получают дополнительные +10% [ICON_Faith] Веры и +10% [ICON_Production] Производства.[NEWLINE]Города в пределах 3 клеток получают дополнительные +10% [ICON_Faith] Веры и +10% [ICON_Production] Производства.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_MALWIYA_MINARET_NAME" Language="zh_Hans_CN">
+			<Text>螺旋宣礼塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MALWIYA_MINARET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>9单元格内的城市获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力（与其他加成叠加）。完成此奇观或其特色项目时获得1个使徒。必须建造在相邻城市中心的平坦平原或平坦沙漠上，此外你必须事先已创立宗教。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MALWIYA_MINARET_QUOTE" Language="zh_Hans_CN">
+			<Text>穆塔瓦基勒亦修建了一座壮丽堂皇的大清真寺，为其一掷千金，将宣礼塔建得如此挺拔高耸，使穆安津的声音响彻远近，在许多帕勒桑以外就能看见这座宣礼塔。[NEWLINE]——白拉左里，《征服诸国史》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_MALWIYA_MINARET_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>穆塔瓦基勒，阿拔斯王朝的第十位哈里发，投放大量人力物力以建设他的首都萨迈拉，包括萨迈拉大清真寺及其象征螺旋宣礼塔。这座尖塔于851年竣工，因其高52米的螺旋锥形结构而被称为“马尔维亚”（“蜗牛壳”）。宣礼塔外部的螺旋形坡道让穆安津能攀登塔顶进行宣礼（召唤使徒进行礼拜）。坡道如此宽阔，据说穆塔瓦基勒曾骑驴登上宣礼塔。儘管穆塔瓦基勒建造了螺旋宣礼塔和当时世上最大的清真寺，哈里发和清真寺均受时光摧残。穆塔瓦基勒被儿子支持的突厥卫队暗杀，导致了萨迈拉无政府时期，而萨迈拉大清真寺则因旭烈兀入侵严重破坏，仅留下外牆和螺旋宣礼塔站立于今日的伊拉克。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_FIRST_NAME" Language="zh_Hans_CN">
+			<Text>螺旋登顶 (1)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_FIRST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供等同城市生产力20%的 [ICON_Faith] 信仰值和+100%宗教压力。完成此项目时获得1个使徒，位于螺旋宣礼塔7单元格内的城市获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力（与其他加成叠加）。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_SECOND_NAME" Language="zh_Hans_CN">
+			<Text>螺旋登顶 (2)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_SECOND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供等同城市生产力40%的 [ICON_Faith] 信仰值和+200%宗教压力。完成此项目时获得1个使徒，位于螺旋宣礼塔5单元格内的城市获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力（与其他加成叠加）。[NEWLINE][NEWLINE]已累积加成：[NEWLINE]位于螺旋宣礼塔9单元格内的城市获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力。[NEWLINE]位于螺旋宣礼塔7单元格内的城市额外获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_THIRD_NAME" Language="zh_Hans_CN">
+			<Text>螺旋登顶 (3)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_THIRD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供等同城市生产力60%的 [ICON_Faith] 信仰值和+300%宗教压力。完成此项目时获得1个使徒，位于螺旋宣礼塔3单元格内的城市获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力（与其他加成叠加）。[NEWLINE][NEWLINE]已累积加成：[NEWLINE]位于螺旋宣礼塔9单元格内的城市获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力。[NEWLINE]位于螺旋宣礼塔7单元格内的城市额外获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力。[NEWLINE]位于螺旋宣礼塔5单元格内的城市额外获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_FOURTH_NAME" Language="zh_Hans_CN">
+			<Text>螺旋登顶 (4)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_FOURTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供等同城市生产力80%的 [ICON_Faith] 信仰值和+400%宗教压力。完成此项目时获得1个使徒，位于螺旋宣礼塔1单元格内的城市获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力（与其他加成叠加）。[NEWLINE][NEWLINE]已累积加成：[NEWLINE]位于螺旋宣礼塔9单元格内的城市获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力。[NEWLINE]位于螺旋宣礼塔7单元格内的城市额外获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力。[NEWLINE]位于螺旋宣礼塔5单元格内的城市额外获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力。[NEWLINE]位于螺旋宣礼塔3单元格内的城市额外获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_REPEAT_NAME" Language="zh_Hans_CN">
+			<Text>登顶宣礼</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_REPEAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供等同城市生产力100%的 [ICON_Faith] 信仰值和+500%宗教压力。完成此项目时获得1个使徒。可重复进行此项目。[NEWLINE][NEWLINE]已累积加成：[NEWLINE]位于螺旋宣礼塔9单元格内的城市获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力。[NEWLINE]位于螺旋宣礼塔7单元格内的城市额外获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力。[NEWLINE]位于螺旋宣礼塔5单元格内的城市额外获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力。[NEWLINE]位于螺旋宣礼塔3单元格内的城市额外获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力。[NEWLINE]位于螺旋宣礼塔3单元格内的城市额外获得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生产力。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_MALWIYA_MINARET_NAME" Language="zh_Hant_HK">
+			<Text>螺旋宣禮塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MALWIYA_MINARET_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>9單元格內的城市獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力（與其他加成疊加）。完成此奇觀或其特色項目時獲得1個使徒。必須建造在相鄰城市中心的平坦平原或平坦沙漠上，此外你必須事先已創立宗教。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MALWIYA_MINARET_QUOTE" Language="zh_Hant_HK">
+			<Text>「穆塔瓦基勒亦修建了一座壯麗堂皇的大清真寺，為其一擲千金，將宣禮塔建得如此挺拔高聳，使穆安津的聲音響徹遠近，在許多帕勒桑以外就能看見這座宣禮塔。」[NEWLINE]——白拉左里，《征服諸國史》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_MALWIYA_MINARET_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>穆塔瓦基勒，阿拔斯王朝的第十位哈里發，投放大量人力物力以建設他的首都薩邁拉，包括薩邁拉大清真寺及其象徵螺旋宣禮塔。這座尖塔於851年竣工，因其高52米的螺旋錐形結構而被稱為「馬爾維亞」（「蝸牛殼」）。宣禮塔外部的螺旋形坡道讓穆安津能攀登塔頂進行宣禮（召喚使徒進行禮拜）。坡道如此寬闊，據說穆塔瓦基勒曾騎驢登上宣禮塔。儘管穆塔瓦基勒建造了螺旋宣禮塔和當時世上最大的清真寺，哈里發和清真寺均受時光摧殘。穆塔瓦基勒被兒子支持的突厥衛隊暗殺，導致了薩邁拉無政府時期，而薩邁拉大清真寺則因旭烈兀入侵嚴重破壞，僅留下外牆和螺旋宣禮塔站立於今日的伊拉克。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_FIRST_NAME" Language="zh_Hant_HK">
+			<Text>螺旋登頂 (1)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_FIRST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>提供等同城市生產力20%的 [ICON_Faith] 信仰值和+100%宗教壓力。完成此項目時獲得1個使徒，位於螺旋宣禮塔7單元格內的城市獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力（與其他加成疊加）。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_SECOND_NAME" Language="zh_Hant_HK">
+			<Text>螺旋登頂 (2)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_SECOND_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>提供等同城市生產力40%的 [ICON_Faith] 信仰值和+200%宗教壓力。完成此項目時獲得1個使徒，位於螺旋宣禮塔5單元格內的城市獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力（與其他加成疊加）。[NEWLINE][NEWLINE]已累積加成：[NEWLINE]位於螺旋宣禮塔9單元格內的城市獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力。[NEWLINE]位於螺旋宣禮塔7單元格內的城市額外獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_THIRD_NAME" Language="zh_Hant_HK">
+			<Text>螺旋登頂 (3)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_THIRD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>提供等同城市生產力60%的 [ICON_Faith] 信仰值和+300%宗教壓力。完成此項目時獲得1個使徒，位於螺旋宣禮塔3單元格內的城市獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力（與其他加成疊加）。[NEWLINE][NEWLINE]已累積加成：[NEWLINE]位於螺旋宣禮塔9單元格內的城市獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力。[NEWLINE]位於螺旋宣禮塔7單元格內的城市額外獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力。[NEWLINE]位於螺旋宣禮塔5單元格內的城市額外獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_FOURTH_NAME" Language="zh_Hant_HK">
+			<Text>螺旋登頂 (4)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_FOURTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>提供等同城市生產力80%的 [ICON_Faith] 信仰值和+400%宗教壓力。完成此項目時獲得1個使徒，位於螺旋宣禮塔1單元格內的城市獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力（與其他加成疊加）。[NEWLINE][NEWLINE]已累積加成：[NEWLINE]位於螺旋宣禮塔9單元格內的城市獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力。[NEWLINE]位於螺旋宣禮塔7單元格內的城市額外獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力。[NEWLINE]位於螺旋宣禮塔5單元格內的城市額外獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力。[NEWLINE]位於螺旋宣禮塔3單元格內的城市額外獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_REPEAT_NAME" Language="zh_Hant_HK">
+			<Text>登頂宣禮</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_REPEAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>提供等同城市生產力100%的 [ICON_Faith] 信仰值和+500%宗教壓力。完成此項目時獲得1個使徒。可重覆進行此項目。[NEWLINE][NEWLINE]已累積加成：[NEWLINE]位於螺旋宣禮塔9單元格內的城市獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力。[NEWLINE]位於螺旋宣禮塔7單元格內的城市額外獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力。[NEWLINE]位於螺旋宣禮塔5單元格內的城市額外獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力。[NEWLINE]位於螺旋宣禮塔3單元格內的城市額外獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力。[NEWLINE]位於螺旋宣禮塔3單元格內的城市額外獲得+10% [ICON_Faith] 信仰值和+10% [ICON_Production] 生產力。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_MALWIYA_MINARET_NAME" Language="ja_JP">
+			<Text>マルウィヤ・ミナレット</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MALWIYA_MINARET_DESCRIPTION" Language="ja_JP">
+			<Text>9タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%。この遺産を完成させた時またはその固有プロジェクトのいずれかを完成させた時、使徒1つを得る。都心に隣接した平らな平原または平らな砂漠にのみ建設可能。宗教を創始している必要がある。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MALWIYA_MINARET_QUOTE" Language="ja_JP">
+			<Text>「ムタワッキルはまた、壮麗な大モスクを建設し、そのために大金を投じて、あまりにも高いミナレットを築き上げた故、ムアンジンの声は遠くまで聞こえ、はるか何パラサングも離れたところからもそのミナレットの姿を見ることができた。」[NEWLINE]– バラドゥリ、『キタブ・フトゥ・アル・ブルダン』</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_MALWIYA_MINARET_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>アッバース朝の10代目カリフ、ムタワッキルは首都サーマッラーを建設するために巨額の労力と資源を捧げ、そのなかにはサーマッラーの大モスクとその象徴であるマルウィヤ・ミナレットが含まれている。851年に完成したミナレットは、高さ52mの螺旋状の円錐形をしていることから「マルウィヤ」（「カタツムリの殻」）と呼ばれるようになった。外側の螺旋に巻いた通路は、ムアンジンが塔に登ってアザーン（礼拝への呼び掛け）ができる。この通路はかなり幅が広く、ムタワッキルは驢馬の背中に乗って上まで登ったと言われている。ムタワッキルはマルウィヤ・ミナレットとともに当時最大のモスクを建てたが、カリフもモスクも時間の経過とともに壊滅した。ムタワッキルは息子が密約したチュルク人の衛兵によって殺され、サーマッラーの無政府状態を引き起こし、サーマッラーの大モスクはフレグの侵攻によって壊滅し、今では外壁とマルウィヤ・ミナレットだけがイラクに残されている。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_FIRST_NAME" Language="ja_JP">
+			<Text>螺旋なる登頂 (1)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_FIRST_DESCRIPTION" Language="ja_JP">
+			<Text>都市の生産力の20%に等しい [ICON_Faith] 信仰力をもたらし、+100%の宗教的圧力が毎ターン得られる。このプロジェクトを完成させた時、使徒1つを得て、マルウィヤ・ミナレットの7タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%（他のボーナスと合算される）。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_SECOND_NAME" Language="ja_JP">
+			<Text>螺旋なる登頂 (2)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_SECOND_DESCRIPTION" Language="ja_JP">
+			<Text>都市の生産力の40%に等しい [ICON_Faith] 信仰力をもたらし、+200%の宗教的圧力が毎ターン得られる。このプロジェクトを完成させた時、使徒1つを得て、マルウィヤ・ミナレットの5タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%（他のボーナスと合算される）。[NEWLINE][NEWLINE]累積したボーナス：[NEWLINE]マルウィヤ・ミナレットの9タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%。[NEWLINE]さらに、マルウィヤ・ミナレットの7タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_THIRD_NAME" Language="ja_JP">
+			<Text>螺旋なる登頂 (3)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_THIRD_DESCRIPTION" Language="ja_JP">
+			<Text>都市の生産力の60%に等しい [ICON_Faith] 信仰力をもたらし、+300%の宗教的圧力が毎ターン得られる。このプロジェクトを完成させた時、使徒1つを得て、マルウィヤ・ミナレットの3タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%（他のボーナスと合算される）。[NEWLINE][NEWLINE]累積したボーナス：[NEWLINE]マルウィヤ・ミナレットの9タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%。[NEWLINE]さらに、マルウィヤ・ミナレットの7タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%。[NEWLINE]さらに、マルウィヤ・ミナレットの5タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_FOURTH_NAME" Language="ja_JP">
+			<Text>螺旋なる登頂 (4)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_FOURTH_DESCRIPTION" Language="ja_JP">
+			<Text>都市の生産力の80%に等しい [ICON_Faith] 信仰力をもたらし、+400%の宗教的圧力が毎ターン得られる。このプロジェクトを完成させた時、使徒1つを得て、マルウィヤ・ミナレットの1タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%（他のボーナスと合算される）。[NEWLINE][NEWLINE]累積したボーナス：[NEWLINE]マルウィヤ・ミナレットの9タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%。[NEWLINE]さらに、マルウィヤ・ミナレットの7タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%。[NEWLINE]さらに、マルウィヤ・ミナレットの3タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%。[NEWLINE]さらに、マルウィヤ・ミナレットの3タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_REPEAT_NAME" Language="ja_JP">
+			<Text>登頂したアザーン</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_MALWIYA_MINARET_REPEAT_DESCRIPTION" Language="ja_JP">
+			<Text>都市の生産力の100%に等しい [ICON_Faith] 信仰力をもたらし、+500%の宗教的圧力が毎ターン得られる。このプロジェクトを完成させた時、使徒1つを得る。このプロジェクトは繰り返し可能。[NEWLINE][NEWLINE]累積したボーナス：[NEWLINE]マルウィヤ・ミナレットの9タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%。[NEWLINE]さらに、マルウィヤ・ミナレットの7タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%。[NEWLINE]さらに、マルウィヤ・ミナレットの3タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%。[NEWLINE]さらに、マルウィヤ・ミナレットの3タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%。[NEWLINE]さらに、マルウィヤ・ミナレットの1タイル以内にある都市の [ICON_Faith] 信仰力+10%、 [ICON_Production] 生産力+10%。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

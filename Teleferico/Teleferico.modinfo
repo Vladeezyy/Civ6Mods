@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7e96ada3-e748-4a6a-8d17-482dfa88572b" version="1">
+  <Properties>
+    <Name>El Alto (World Wonder)</Name>
+    <Description>El Alto is a world wonder unlocking at Synthetic Materials which has to be placed on a mountain. When built, all districts in your empire that are next to a mountain provide +2 Housing, +1 Amenity, and +5% population growth to their respective city.[NEWLINE][NEWLINE]The city of El Alto ("The High") is the second-largest city in Bolivia and a former district of La Paz, above which it is located on a plateau that was previously inhabited by the Aymara people. El Alto began as a rail terminal for La Paz and developed into a large industrial area, eventually becoming home to the highest airport in the world. The steep sides make rail or road based public transit on a direct route unfeasible and the two cities are now linked with the world''s largest cable car public transit system "Mi Teleférico", following similar solutions all along the Andean mountains. El Alto has become famous for its extravagant neo-Andean architecture style, which characterizes the colorful chalets of a new class of wealthy indigenous Aymara entrepreneurs who have flocked to El Alto to engage in trade and other commercial actitivies. Neo-Andean (or Neo-Tiwanacotan) architecture combines indigeous influences such as shapes and patterns from the ancient city of Tiwanaku and colors from Aymara clothing with modernist constructions of glass and concrete. Recently, they have also become known abroad as "transformer houses" due to incorporating a broader range of themes, drawing even from contemporary fiction. The houses often incorporate ballrooms and other amenities for large events and other social gatherings and even attract tourists from around the world.[NEWLINE][NEWLINE]Credit to Leugi for the neo-Andean buildings from his City Styles mod.</Description>
+    <Created>1712247678</Created>
+    <Teaser>Adds El Alto as a world wonder.</Teaser>
+    <Authors>JNR</Authors>
+    <SpecialThanks>Leugi (Neo-Andean buildings)</SpecialThanks>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/Teleferico_Buildings.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/Teleferico_Text.sql</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <File>Teleferico.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Icons">
+      <File>Core/Teleferico_Icons.sql</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Core/Teleferico_Buildings.sql</File>
+    <File>Core/Teleferico_Icons.sql</File>
+    <File>Core/Teleferico_Text.sql</File>
+    <File>Teleferico.dep</File>
+  </Files>
+</Mod>

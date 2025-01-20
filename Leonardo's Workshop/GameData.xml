@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 3/26/2024 8:15:39 PM -->
+<GameData>
+	<Traits>
+		<Row TraitType="TRAIT_DAVINCI_UNIT"/>
+	</Traits>
+	<Types>
+		<Row Type="UNIT_DAVINCI_TANK" Kind="KIND_UNIT"/>
+		<Row Type="TRAIT_DAVINCI_UNIT" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_DAVINCI_TANK" Kind="KIND_ABILITY"/>
+		<Row Type="UNIT_DAVINCI_OBSERVATION_BALLOON" Kind="KIND_UNIT"/>
+		<Row Type="BUILDING_LEONARDOS_WORKSHOP" Kind="KIND_BUILDING"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_DAVINCI_TANK" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_DAVINCI_TANK" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="UNIT_DAVINCI_TANK" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_DAVINCI_TANK" Tag="CLASS_DAVINCI_TANK"/>
+		<Row Type="UNIT_DAVINCI_TANK" Tag="CLASS_ALL_ERAS"/>
+		<Row Type="ABILITY_DAVINCI_TANK" Tag="CLASS_DAVINCI_TANK"/>
+		<Row Type="UNIT_DAVINCI_OBSERVATION_BALLOON" Tag="CLASS_OBSERVATION"/>
+		<Row Type="UNIT_DAVINCI_OBSERVATION_BALLOON" Tag="CLASS_SUPPORT"/>
+		<Row Type="UNIT_DAVINCI_OBSERVATION_BALLOON" Tag="CLASS_ALL_ERAS"/>
+	</TypeTags>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_DAVINCI_TANK" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_DAVINCI_TANK" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_DAVINCI_TANK" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_DAVINCI_TANK" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_DAVINCI_OBSERVATION_BALLOON" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+	</UnitAiInfos>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_DAVINCI_TANK" Name="LOC_ABILITY_DAVINCI_TANK_NAME" Description="LOC_ABILITY_DAVINCI_TANK_NAME" />
+	</UnitAbilities>
+	<Buildings>
+		<Row BuildingType="BUILDING_LEONARDOS_WORKSHOP" Name="LOC_BUILDING_LEONARDOS_WORKSHOP_NAME" Description="LOC_BUILDING_LEONARDOS_WORKSHOP_DESCRIPTION"
+			 PrereqCivic="CIVIC_HUMANISM" Cost="920" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE" AdvisorType="ADVISOR_TECHNOLOGY"  MaxWorldInstances="1" IsWonder="true"
+			 RequiresPlacement="true" ObsoleteEra="ERA_MODERN" Quote="LOC_BUILDING_LEONARDOS_WORKSHOP_QUOTE_1" QuoteAudio="Play_BUILDING_LEONARDOS_WORKSHOP_Quote_1"/>
+	</Buildings>
+	<Units>
+		<Row UnitType="UNIT_DAVINCI_TANK" Cost="230" Maintenance="4" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="65" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_DAVINCI_TANK_NAME" Description="LOC_UNIT_DAVINCI_TANK_DESCRIPTION" PurchaseYield="YIELD_GOLD"
+		     TraitType="TRAIT_DAVINCI_UNIT"/>
+		<Row UnitType="UNIT_DAVINCI_OBSERVATION_BALLOON" Cost="140" Maintenance="2" BaseMoves="2" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" 
+			 FormationClass="FORMATION_CLASS_SUPPORT" PromotionClass="PROMOTION_CLASS_SUPPORT" AdvisorType="ADVISOR_CONQUEST" 
+			 Name="LOC_UNIT_DAVINCI_OBSERVATION_BALLOON_NAME" Description="LOC_UNIT_DAVINCI_OBSERVATION_BALLOON_DESCRIPTION" PurchaseYield="YIELD_GOLD" TraitType="TRAIT_DAVINCI_UNIT"/>
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_DAVINCI_TANK" UpgradeUnit="UNIT_TANK"/>
+		<Row Unit="UNIT_DAVINCI_OBSERVATION_BALLOON" UpgradeUnit="UNIT_DRONE"/>
+	</UnitUpgrades>
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_DAVINCI_TANK" PrereqBuilding="BUILDING_LEONARDOS_WORKSHOP"/>
+		<Row Unit="UNIT_DAVINCI_OBSERVATION_BALLOON" PrereqBuilding="BUILDING_LEONARDOS_WORKSHOP"/>
+	</Unit_BuildingPrereqs>
+	<Units_XP2>
+		<Row UnitType="UNIT_DAVINCI_OBSERVATION_BALLOON" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+	</Units_XP2>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_LEONARDOS_WORKSHOP</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNIT_DAVINCI_TANK</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LEONARDOS_WORKSHOP</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNIT_DAVINCI_OBSERVATION_BALLOON</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LEONARDOS_WORKSHOP</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNLOCK_UNIT_DAVINCI_TANK</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LEONARDOS_WORKSHOP</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNLOCK_UNIT_DAVINCI_OBSERVATION_BALLOON</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_DAVINCI_TANK</UnitAbilityType>
+			<ModifierId>MODIFIER_ABILITY_DAVINCI_TANK</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNIT_DAVINCI_TANK</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNIT_DAVINCI_OBSERVATION_BALLOON</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNLOCK_UNIT_DAVINCI_TANK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_UNIT_BUILD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNLOCK_UNIT_DAVINCI_OBSERVATION_BALLOON</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_UNIT_BUILD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_DAVINCI_TANK</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>NAGAO_RANGED_DEFENSE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNIT_DAVINCI_TANK</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNIT_DAVINCI_TANK</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNIT_DAVINCI_TANK</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_DAVINCI_TANK</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNIT_DAVINCI_OBSERVATION_BALLOON</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNIT_DAVINCI_OBSERVATION_BALLOON</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNIT_DAVINCI_OBSERVATION_BALLOON</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_DAVINCI_OBSERVATION_BALLOON</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNLOCK_UNIT_DAVINCI_TANK</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_DAVINCI_TANK</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_UNLOCK_UNIT_DAVINCI_OBSERVATION_BALLOON</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_DAVINCI_OBSERVATION_BALLOON</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_LEONARDOS_WORKSHOP_PRODUCTION</ModifierId>
+			<Name>KeepOverflow</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_DAVINCI_TANK</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>LEONARDOS_WORKSHOP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>LEONARDOS_WORKSHOP</RequirementSetId>
+			<RequirementId>REQ_LEONARDOS_WORKSHOP</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_LEONARDOS_WORKSHOP</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_LEONARDOS_WORKSHOP</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_LEONARDOS_WORKSHOP</Value>
+		</Row>
+	</RequirementArguments>
+	<ModifierStrings>
+		<Row ModifierId="MODIFIER_ABILITY_DAVINCI_TANK" Context="Preview" Text="LOC_MODIFIER_ABILITY_DAVINCI_TANK"/>
+	</ModifierStrings>
+	<!-- *************** Custom ModifierType *************** -->
+	<Types>
+		<Row Type="MODIFIER_LEONARDOS_WORKSHOP_CITY_GRANT_PRODUCTION_IN_CITY" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_LEONARDOS_WORKSHOP_CITY_GRANT_PRODUCTION_IN_CITY</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_GRANT_PRODUCTION_IN_CITY</EffectType>
+		</Row>
+	</DynamicModifiers>
+</GameData>

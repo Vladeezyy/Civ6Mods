@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="hulao"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="hulao_Wall"/>
+			<m_ObjectName text="hulao_Wall"/>
+		</Element>
+		<Element>
+			<m_EntryID text="hulao_halfwall"/>
+			<m_ObjectName text="hulao_halfwall"/>
+		</Element>
+		<Element>
+			<m_EntryID text="hulao_tower"/>
+			<m_ObjectName text="hulao_tower"/>
+		</Element>
+		<Element>
+			<m_EntryID text="hulao_tower_a"/>
+			<m_ObjectName text="hulao_tower_a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="hulao_Wall_end"/>
+			<m_ObjectName text="hulao_Wall_end"/>
+		</Element>
+		<Element>
+			<m_EntryID text="hulao_Wall_gate"/>
+			<m_ObjectName text="hulao_Wall_gate"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

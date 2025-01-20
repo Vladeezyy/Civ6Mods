@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- text -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 3/13/2024 11:53:01 AM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_CODE_OF_HAMMURABI_NAME" Language="ru_RU">
+			<Text>Кодекс Хаммурапи</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CODE_OF_HAMMURABI_DESCRIPTION" Language="ru_RU">
+			<Text>Получите звание [ICON_Governor] Губернатора. Удваивает бонусы, предоставляемые [ICON_Governor] Губернатором, находящимся в этом городе. Должен быть построен на пойме реки.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CODE_OF_HAMMURABI_QUOTE" Language="ru_RU">
+			<Text>«Тогда Ану и Бел призвали по имени меня, Хаммурапи, возвышенного князя, который боялся Бога, чтобы утвердить правило справедливости в земле, уничтожить нечестивцев и злодеев; чтобы сильный не причинял вреда слабому, чтобы я правил черноголовыми людьми, как Шамаш, и освещал землю, содействуя благополучию человечества.»[NEWLINE]- Кодекс Хаммурапи</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_CODE_OF_HAMMURABI_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Базальтовая стела, раскопанная в XX веке, предоставила неоценимые сведения о законах и жизни XVIII века до н.э. На вершине стелы изображен вавилонский царь Хаммурапи вместе с Шамашем, богом солнца и справедливости. Под этим изображением вырезан Кодекс Хаммурапи — самый хорошо сохранившийся и организованный юридический текст Древнего Ближнего Востока (и считавшийся самым древним сводом законов до открытия более ранних, таких как Кодекс Ур-Намму). Кодекс Хаммурапи описывает широкий спектр действий, считавшихся преступлениями, с подробным изложением того, как каждое преступление должно наказываться (в основном следуя принципу «око за око»). Стела сейчас хранится в Лувре, а ее копии находятся в таких важных местах, как штаб-квартира ООН, как дань духу законов и общества, созданных нашими предшественниками.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_CODE_OF_HAMMURABI_NAME" Language="zh_Hans_CN">
+			<Text>汉谟拉比法典</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CODE_OF_HAMMURABI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得1个 [ICON_Governor] 总督头衔。就职于此城市的 [ICON_Governor] 总督能力翻倍。必须建在泛滥平原上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CODE_OF_HAMMURABI_QUOTE" Language="zh_Hans_CN">
+			<Text>就在彼时，为了百姓的福祉，安努和柏尔呼召我名，并授命于我，汉谟拉比，虔敬畏神之王，为使公义彰显于大地，使奸恶尽除，强不凌弱，使我如沙马什般升起临于黔首之民，光耀天下。[NEWLINE]——《汉谟拉比法典》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_CODE_OF_HAMMURABI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>20世纪出土的一块玄武岩石碑，揭露了关于公元前18世纪的法律和生活，为我们提供了难以估量的启示。这块石碑的顶部刻有巴比伦国王汉谟拉比与太阳神和正义之神沙玛什的形象。石碑下方凋刻着《汉谟拉比法典》，这是古代近东地区保存最完好、条理最清晰的法律文本（在《乌尔-纳谟法典》等更古老的法典被发现之前，更一直被认为是人类最古老的法典）。《汉谟拉比法典》描绘了各种当时被视为犯罪的行为，并钜细无遗地描述了犯下每种罪行应受到的惩罚（大部分遵循「以眼还眼」的原则）。这块石碑现存于卢浮宫博物馆，也有许多复制品被置于联合国总部等重要场所，以纪念我们的先人所建立的法律和社会精神。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CODE_OF_HAMMURABI_NAME" Language="zh_Hant_HK">
+			<Text>漢謨拉比法典</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CODE_OF_HAMMURABI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>獲得1個 [ICON_Governor] 總督頭銜。就職於此城市的 [ICON_Governor] 總督能力翻倍。必須建在泛濫平原上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CODE_OF_HAMMURABI_QUOTE" Language="zh_Hant_HK">
+			<Text>「就在彼時，為了百姓的福祉，安努與柏爾呼召我名，並授命於我，漢謨拉比，虔敬畏神之王，為使公義彰顯於大地，使奸惡盡除，強不淩弱，使我如沙馬什般升起臨於黔首之民，光耀天下。」[NEWLINE]——《漢謨拉比法典》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_CODE_OF_HAMMURABI_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>20世紀出土的一塊玄武岩石碑，揭露了關於公元前18世紀的法律和生活，為我們提供了難以估量的啟示。這塊石碑的頂部刻有巴比倫國王漢謨拉比與太陽神和正義之神沙瑪什的形象。石碑下方雕刻著《漢謨拉比法典》，這是古代近東地區保存最完好、條理最清晰的法律文本（在《烏爾-納謨法典》等更古老的法典被發現之前，更一直被認為是人類最古老的法典）。《漢謨拉比法典》描繪了各種當時被視為犯罪的行為，並鉅細無遺地描述了犯下每種罪行應受到的懲罰（大部分遵循「以眼還眼」的原則）。這塊石碑現存於盧浮宮博物館，也有許多複制品被置於聯合國總部等重要場所，以紀念我們的先人所建立的法律和社會精神。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CODE_OF_HAMMURABI_NAME" Language="ja_JP">
+			<Text>ハンムラビ法典</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CODE_OF_HAMMURABI_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Governor] 総督の称号を1つ得る。この都市にいる [ICON_Governor] 総督が提供するボーナスが倍増する。氾濫原にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CODE_OF_HAMMURABI_QUOTE" Language="ja_JP">
+			<Text>「そして、アヌとベルは私を、神を畏敬する高貴な王ハンムラビの名を呼び、この地に正しき統治をもたらし、悪人と罪人を滅ぼし、強者が弱者を害することのないように、私が黒い頭の民を治め、シャマシュのようにこの地を照らし、人々の幸福を増進するようにと命じた。」[NEWLINE]- 『ハンムラビ法典』</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_CODE_OF_HAMMURABI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>20世紀に発掘された一枚の玄武岩の石碑は、紀元前18世紀の法律と生活について計り知れない洞察を与えてくれた。石碑の上部には、バビロニアのハンムラビ王と太陽と正義の神シャマシュの像が描かれている。その下には、ハンムラビ法典が刻まれている。ハンムラビ法典は、古代近東で最も保存状態がよく、最もよく整理された法文書である（ウル＝ナンム法典のようなもっと古い法典が発見されるまでは、最も古い法典と考えられていた）。ハンムラビ法典には、当時犯罪とみなされていた行為が幅広く描かれ、各々の犯罪がどのように罰せられるべきかが詳細に記述されている（その多くは「目には目を」の原則に従っている）。この石碑は現在、ルーヴル美術館に保管されており、また先人たちが築いた法と社会の精神への敬意を表して、国連本部のような重要な場所に多くのレプリカが置かれている。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

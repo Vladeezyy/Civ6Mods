@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4046106967	Play_CODE_OF_HAMMURABI_QUOTE_1			\Music\Play_CODE_OF_HAMMURABI_QUOTE_1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	195692372	965021116-1-208 00_00_24-00_00_47	C:\Users\maple\Documents\WwiseProjects\BUILDING_CODE_OF_HAMMURABI\.cache\Windows\SFX\965021116-1-208 00_00_24-00_00_47_EE79F7FB.wem		\Interactive Music Hierarchy\Default Work Unit_01\Playlist music\New Music Segment\965021116-1-208 00_00_24-00_00_47		385929
+

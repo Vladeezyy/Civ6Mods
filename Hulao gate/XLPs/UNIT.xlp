@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="Unit"/>
+	<m_PackageName text="UNIT"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LuBu_Lance"/>
+			<m_ObjectName text="LuBu_Lance"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LuBuHair"/>
+			<m_ObjectName text="LuBuHair"/>
+		</Element>
+		<Element>
+			<m_EntryID text="lubu_Armor_b"/>
+			<m_ObjectName text="lubu_Armor_b"/>
+		</Element>
+		<Element>
+			<m_EntryID text="lubu_armor"/>
+			<m_ObjectName text="lubu_armor"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

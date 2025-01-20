@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 3/1/2024 1:19:43 PM -->
+<GameData>
+	<Kinds>
+		<Row Kind="KIND_LUBUCLASS"/>
+	</Kinds>
+	<Types>
+		<Row Type="BUILDING_HULAO_GATE" Kind="KIND_BUILDING"/>
+		<Row Type="UNIT_HULAO_LUBU" Kind="KIND_UNIT"/>
+		<Row Type="TRAIT_UNIT_HULAO_LUBU" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_HULAO_LUBU" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HULAO_LUBU_DEBUFF" Kind="KIND_ABILITY"/>
+	</Types>
+	<Traits>
+		<Row TraitType="TRAIT_UNIT_HULAO_LUBU"/>
+	</Traits>
+	<Buildings>
+		<Row BuildingType="BUILDING_HULAO_GATE" Name="LOC_BUILDING_HULAO_GATE_NAME" Description="LOC_BUILDING_HULAO_GATE_DESCRIPTION"
+			 PrereqCivic="CIVIC_DEFENSIVE_TACTICS" Cost="400" AdvisorType="ADVISOR_TECHNOLOGY"  MaxWorldInstances="1" IsWonder="true" DefenseModifier="4" GrantFortification="2" 
+			 RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE"  RequiresRiver="true" AdjacentToMountain="true" Quote="LOC_BUILDING_HULAO_GATE_QUOTE" QuoteAudio=""/>
+	</Buildings>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_HULAO_GATE" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_HULAO_LUBU" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HULAO_LUBU" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HULAO_LUBU" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HULAO_LUBU" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<Tags>
+		<Row Tag="CLASS_HULAO_LUBU" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_HULAO_LUBU" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_HULAO_LUBU" Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_HULAO_LUBU" Tag="CLASS_HULAO_LUBU"/>
+		<Row Type="ABILITY_HULAO_LUBU" Tag="CLASS_HULAO_LUBU"/>
+		<Row Type="ABILITY_HULAO_LUBU_DEBUFF" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_HULAO_LUBU_DEBUFF" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_HULAO_LUBU_DEBUFF" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_HULAO_LUBU_DEBUFF" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_HULAO_LUBU_DEBUFF" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_HULAO_LUBU_DEBUFF" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_HULAO_LUBU_DEBUFF" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_HULAO_LUBU_DEBUFF" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_HULAO_LUBU_DEBUFF" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_HULAO_LUBU_DEBUFF" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_HULAO_LUBU_DEBUFF" Tag="CLASS_NAVAL_CARRIER"/>
+		<Row Type="ABILITY_HULAO_LUBU_DEBUFF" Tag="CLASS_AIRCRAFT"/>
+		<Row Type="ABILITY_HULAO_LUBU_DEBUFF" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_HULAO_LUBU_DEBUFF" Tag="CLASS_LANDCIVILIAN"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_HULAO_LUBU" Name="LOC_ABILITY_HULAO_LUBU_NAME" Description="LOC_ABILITY_HULAO_LUBU_NAME"/>
+		<Row UnitAbilityType="ABILITY_HULAO_LUBU_DEBUFF" Name="LOC_ABILITY_HULAO_LUBU_DEBUFF_NAME" Description="LOC_ABILITY_HULAO_LUBU_DEBUFF_NAME" Inactive="true"/>
+	</UnitAbilities>
+	<Units>
+		<Row UnitType="UNIT_HULAO_LUBU" UseMaxMeleeTrainedStrength="true" Cost="150" Maintenance="2" BaseMoves="5" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="25"
+		  FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HULAO_LUBU_NAME" Description="LOC_UNIT_HULAO_LUBU_DESCRIPTION"
+		PurchaseYield="YIELD_GOLD"  CanRetreatWhenCaptured="True" TraitType="TRAIT_UNIT_HULAO_LUBU"/>
+	</Units>
+	<UnitRetreats_XP1>
+		<Row UnitRetreatType="UNIT_RETREAT_VAMPIRE_TO_CAPITAL" UnitType="UNIT_HULAO_LUBU" BuildingType="BUILDING_PALACE"/>
+	</UnitRetreats_XP1>
+	<TypeProperties>
+		<Row Type="UNIT_HULAO_LUBU" Name="IGNORE_PLAYER_STAT_MAX_STRENGTH" Value="true"/>
+	</TypeProperties>
+	<ModifierStrings>
+		<Row ModifierId="MODIFIER_ABILITY_HULAO_LUBU_DEBUFF_B" Context="Preview" Text="LOC_MODIFIER_ABILITY_HULAO_LUBU_DEBUFF_B_DESCRIPTION"/>
+	</ModifierStrings>
+	<!-- *************** Custom ModifierType *************** -->
+	<Types>
+		<Row Kind="KIND_MODIFIER" Type="MODIFIER_HULAO_CITY_GRANT_BUILDING_IN_CITY_IGNORE"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_HULAO_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_GRANT_BUILDING_IN_CITY_IGNORE</EffectType>
+		</Row>
+	</DynamicModifiers>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_HULAO_GATE</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_A</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HULAO_GATE</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_B</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HULAO_GATE</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_C</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HULAO_GATE</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_D</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HULAO_GATE</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_E</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_A</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_UNIT_BUILD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_B</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>True</RunOnce>
+			<Permanent>True</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_C</ModifierId>
+			<ModifierType>MODIFIER_HULAO_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<RunOnce>True</RunOnce>
+			<Permanent>True</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_D</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_E</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_A</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_HULAO_LUBU</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_B</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_B</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_B</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_HULAO_LUBU</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_C</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WALLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_D</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_D</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENCAMPMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_E</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_HULAO_GATE_E</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENCAMPMENT</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!-- ABILITY -->
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_HULAO_LUBU</UnitAbilityType>
+			<ModifierId>MODIFIER_ABILITY_HULAO_LUBU_A</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HULAO_LUBU</UnitAbilityType>
+			<ModifierId>MODIFIER_ABILITY_HULAO_LUBU_B</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HULAO_LUBU_DEBUFF</UnitAbilityType>
+			<ModifierId>MODIFIER_ABILITY_HULAO_LUBU_DEBUFF_A</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HULAO_LUBU_DEBUFF</UnitAbilityType>
+			<ModifierId>MODIFIER_ABILITY_HULAO_LUBU_DEBUFF_B</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_HULAO_LUBU_A</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_BUILD_DISABLED</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_HULAO_LUBU_B</ModifierId>
+			<ModifierType>MODIFIER_ALL_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>HULAO_LUBU_1</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_HULAO_LUBU_DEBUFF_A</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_HULAO_LUBU_DEBUFF_B</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_HULAO_LUBU_A</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_HULAO_LUBU</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_HULAO_LUBU_B</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_HULAO_LUBU_DEBUFF</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_HULAO_LUBU_DEBUFF_A</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_HULAO_LUBU_DEBUFF_B</ModifierId>
+			<Name>Amount</Name>
+			<Value>-10</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>HULAO_LUBU_1</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>HULAO_LUBU_1</RequirementSetId>
+			<RequirementId>REQ_HULAO_LUBU_1</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_HULAO_LUBU_1</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER_AT_WAR</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_HULAO_LUBU_1</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQ_HULAO_LUBU_1</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

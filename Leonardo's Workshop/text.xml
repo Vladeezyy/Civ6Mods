@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- text -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 3/27/2024 8:41:14 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_ABILITY_DAVINCI_TANK_NAME" Language="ru_RU">
+			<Text>Закаленная броня: +10 [ICON_Strength] боевой силы при защите от дальних атак</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_ABILITY_DAVINCI_TANK" Language="ru_RU">
+			<Text>+10 Закаленная броня</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LEONARDOS_WORKSHOP_NAME" Language="ru_RU">
+			<Text>Мастерская Леонардо</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LEONARDOS_WORKSHOP_DESCRIPTION" Language="ru_RU">
+			<Text>Открывает доступ к Танку Леонардо и Винтовому вертолету Леонардо и предоставляет по одному из этих юнитов. +2 [ICON_GreatPerson] очка великих личностей всех типов. Активация [ICON_GreatPerson] великой личности добавляет +1 [ICON_Production] производства к мастерской Леонардо. Должна быть построена рядом с районом Промышленная зона.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LEONARDOS_WORKSHOP_QUOTE_1" Language="ru_RU">
+			<Text>«Большая птица впервые взлетит к солнцу, паря над великим горой Чечери, наполняя вселенную чудом и славой.»[NEWLINE]– Леонардо да Винчи</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_TANK_NAME" Language="ru_RU">
+			<Text>Танк Леонардо</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_TANK_DESCRIPTION" Language="ru_RU">
+			<Text>Боевой юнит, уникальный для цивилизации с чудом Мастерская Леонардо. +10 [ICON_Strength] боевой силы при защите от дальних атак.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_OBSERVATION_BALLOON_NAME" Language="ru_RU">
+			<Text>Винтовой вертолет Леонардо</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_OBSERVATION_BALLOON_DESCRIPTION" Language="ru_RU">
+			<Text>Поддерживающий юнит, уникальный для цивилизации с чудом Мастерская Леонардо. Увеличивает радиус атаки осадных юнитов на 1 клетку в пределах 1 клетки.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LEONARDOS_WORKSHOP_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Леонардо да Винчи был одним из самых известных художников итальянского Возрождения. Среди его самых известных работ - «Мона Лиза» и «Тайная вечеря». Хотя Леонардо да Винчи известен своими произведениями искусства, он также был выдающимся наблюдателем и изобретателем. В его тетрадях сохранились идеи десятков изобретений, многие из которых опережали свое время на века. Среди них были проекты таких устройств, как подвесные мосты, строительное оборудование, парашюты и даже вертолеты. Его научные и технические рисунки стали основой для разработки многих современных устройств.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DAVINCI_TANK_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Леонардо изобрел бронемашину, которую можно описать как предшественника современного танка, способную двигаться в любом направлении и вооруженную большим количеством орудий. Танк, который по конструкции требовал трех-четырех человек для управления, использовался для запугивания и рассеивания вражеских сил. Орудия танка были установлены на вращающейся платформе, способной стрелять на 360 градусов. Весь танк был покрыт защитным корпусом, усиленным наклонными металлическими пластинами для лучшего отражения вражеского огня. Наблюдательная башня на вершине танка координировала стрельбу и движение танка.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DAVINCI_OBSERVATION_BALLOON_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>В конце XIX века в Миланской библиотеке в Италии была найдена воображаемая схема вертолета, нарисованная Леонардо да Винчи в 1475 году. Это была огромная спираль, сделанная из льняной ткани с пропиткой, напоминающая гигантский винт. Она вращалась на пружинной тяге и при достижении определенной скорости поднимала корпус в воздух. Пилот стоял на шасси и тянул трос, чтобы изменить направление полета.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_ABILITY_DAVINCI_TANK_NAME" Language="zh_Hans_CN">
+			<Text>加固装甲：防御远程攻击时+10 [ICON_Strength] 战斗力</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_ABILITY_DAVINCI_TANK" Language="zh_Hans_CN">
+			<Text>加固装甲+10 [ICON_Strength]</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LEONARDOS_WORKSHOP_NAME" Language="zh_Hans_CN">
+			<Text>达·芬奇工坊</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LEONARDOS_WORKSHOP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁并免费获得1个达·芬奇坦克和达·芬奇旋翼机。+2所有类型的 [ICON_GreatPerson] 伟人点数，激活一位 [ICON_GreatPerson] 伟人的隐退能力时为达·芬奇工坊+1 [ICON_Production] 生产力。需要相邻工业区。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LEONARDOS_WORKSHOP_QUOTE_1" Language="zh_Hans_CN">
+			<Text>鸟之头筹者，将迎日而升，其翼划过奇奇里山。奇迹同荣耀，是以盈于宇宙！[NEWLINE]——列奥纳多·达·芬奇 </Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_TANK_NAME" Language="zh_Hans_CN">
+			<Text>达·芬奇坦克</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_TANK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>达·芬奇工坊特色单位。防御远程攻击时+10 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_OBSERVATION_BALLOON_NAME" Language="zh_Hans_CN">
+			<Text>达·芬奇旋翼机</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_OBSERVATION_BALLOON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>达·芬奇工坊特色单位。为1单元格内的攻城类单位+1 [ICON_Range] 射程。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LEONARDOS_WORKSHOP_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>列奥纳多·达·芬奇是意大利文艺复兴时期最著名的画家之一。他最著名的作品包括《蒙娜丽莎》和《最后的晚餐》。虽然达芬奇以其艺术而闻名，但他也是一位多才多艺的观察家和设计师。在他的速写本中保存着数十项发明的想法，其中许多发明比他们的时代提前了几个世纪。这些包括吊桥、建筑设备、降落伞甚至直升机等设备的设计。他的科学和技术图纸成为许多现代设备发展的基础。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DAVINCI_TANK_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>列奥纳多发明的装甲车作为现代坦克的前身，能够向任意方向移动，装备有大量的火炮。这辆坦克根据设计需要三到四人才能驾驶，用于恐吓、驱散敌方部队。坦克的火炮被安装在可以旋转的环形平台上，能够360度开火。整辆坦克罩有保护外壳，用来加强外壳的倾斜金属板能够更好地弹开敌军火力。坦克顶上有一个观察塔，能够协调火炮开火以及坦克行驶。 </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DAVINCI_OBSERVATION_BALLOON_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>19世纪末，在意大利的米兰图书馆发现了达芬奇在1475年画的一张关于直升机的想象图。这是一个用上浆亚麻布制成的巨大螺旋体，看上去好象一个巨大的螺丝钉。它以弹簧为动力旋转，当达到一定转速时，就会把机体带到空中。驾驶员站在底盘上，拉动钢丝绳，以改变飞行方向。</Text>
+		</Row>
+许多银骑士陪同葛温前往原初火炉，而其余的则留下来守卫亚诺尔隆德和太阳公主葛温艾薇雅的幻影。在洛斯里克时代，这些骑士仍然在亚诺尔隆德保护这座宏伟的城市。然而，鉴于他们与深渊大教堂并肩作战，他们有可能被洗脑，或者他们背叛了葛温德林，因为他们现在正在与他们很久以前发誓要保护的城市的入侵者并肩作战。
+		<Row Tag="LOC_ABILITY_DAVINCI_TANK_NAME" Language="zh_Hant_HK">
+			<Text>加固裝甲：防御遠程攻擊時+10 [ICON_Strength] 戰鬥力</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_ABILITY_DAVINCI_TANK" Language="zh_Hant_HK">
+			<Text>加固裝甲+10 [ICON_Strength]</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LEONARDOS_WORKSHOP_NAME" Language="zh_Hant_HK">
+			<Text>達文西工坊</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LEONARDOS_WORKSHOP_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>解鎖並免費獲得1個達文西坦克和達文西旋翼機。+2所有類型的 [ICON_GreatPerson] 偉人點數，激活一位 [ICON_GreatPerson] 偉人的隱退能力時為達文西工坊提供+1 [ICON_Production] 生產力。需要相鄰工業區。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LEONARDOS_WORKSHOP_QUOTE_1" Language="zh_Hant_HK">
+			<Text>「鳥之頭籌者，將迎日而升，其翼劃過奇奇里山。奇跡同榮耀，是以盈於宇宙！」[NEWLINE]——列奧納多·達文西 </Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_TANK_NAME" Language="zh_Hant_HK">
+			<Text>達文西坦克</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_TANK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>達文西工坊特色單位。防御遠程攻擊時+10 [ICON_Strength] 戰鬥力。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_OBSERVATION_BALLOON_NAME" Language="zh_Hant_HK">
+			<Text>達文西旋翼機</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_OBSERVATION_BALLOON_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>達文西工坊特色單位。為1單元格內的攻城類單位+1 [ICON_Range] 射程。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LEONARDOS_WORKSHOP_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>李奧納多·達·文西是意大利文藝復興時期最著名的畫家之一。他最著名的作品包括《蒙娜麗莎》和《最後的晚餐》。雖然達芬奇以其藝術而聞名，但他也是一位多才多藝的觀察家和設計師。在他的速寫本中保存着數十項發明的想法，其中許多發明比他們的時代提前了幾個世紀。這些包括吊橋、建築設備、降落傘甚至直升機等設備的設計。他的科學和技術圖紙成為許多現代設備發展的基礎。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DAVINCI_TANK_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>李奧納多發明的裝甲車作為現代坦克的前身，能夠向任意方向移動，裝備有大量的火炮。這輛坦克根據設計需要三到四人才能駕駛，用於恐嚇、驅散敵方部隊。坦克的火炮被安裝在可以旋轉的環形平台上，能夠360度開火。整輛坦克罩有保護外殼，用來加強外殼的傾斜金屬板能夠更好地彈開敵軍火力。坦克頂上有一個觀察塔，能夠協調火炮開火以及坦克行駛。 </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DAVINCI_OBSERVATION_BALLOON_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>19世紀末，在意大利的米蘭圖書館發現了達文西在1475年畫的一張關於直升機的想象圖。這是一個用上漿亞麻布制成的巨大螺旋體，看上去好象一個巨大的螺絲釘。它以彈簧為動力旋轉，當達到一定轉速時，就會把機體帶到空中。駕駛員站在底盤上，拉動鋼絲繩，以改變飛行方向。</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_DAVINCI_TANK_NAME" Language="ja_JP">
+			<Text>強化アーマー：長距離攻撃に対して [ICON_Strength] 戦闘力+10。</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_ABILITY_DAVINCI_TANK" Language="ja_JP">
+			<Text>+10 強化アーマー</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LEONARDOS_WORKSHOP_NAME" Language="ja_JP">
+			<Text>レオナルド・ダ・ヴィンチの工房</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LEONARDOS_WORKSHOP_DESCRIPTION" Language="ja_JP">
+			<Text>レオナルド・ダ・ヴィンチの円形戦車とレオナルド・ダ・ヴィンチの空気ねじを生產できるようになり、それぞれ1ユニットを得る。すべての種類の [ICON_GreatPerson] 偉人ポイント+2。 [ICON_GreatPerson] 偉人を発動させると、レオナルド・ダ・ヴィンチの工房+1 [ICON_Production] 生產力。工業地帯に隣接した土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LEONARDOS_WORKSHOP_QUOTE_1" Language="ja_JP">
+			<Text>「太陽を目指した原初の鳥は、大いなるチェチェリ山をも席巻し、世界を奇跡と栄光に満たす」[NEWLINE]- レオナルド・ダ・ヴィンチ</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_TANK_NAME" Language="ja_JP">
+			<Text>レオナルド・ダ・ヴィンチの円形戦車</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_TANK_DESCRIPTION" Language="ja_JP">
+			<Text>レオナルド・ダ・ヴィンチの工房固有の近接戦闘ユニット。長距離攻撃に対して [ICON_Strength] 戦闘力+10。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_OBSERVATION_BALLOON_NAME" Language="ja_JP">
+			<Text>レオナルド・ダ・ヴィンチの空気ねじ</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAVINCI_OBSERVATION_BALLOON_DESCRIPTION" Language="ja_JP">
+			<Text>レオナルド・ダ・ヴィンチの工房固有の支援ユニット。1タイル以内にいる攻囲クラスユニットの [ICON_Range] 射程+1。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LEONARDOS_WORKSHOP_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>レオナルド・ダ・ヴィンチはイタリア・ルネサンス期を代表する画家である。彼の最も有名な作品には「モナ・リザ」や「最後の晩餐」などがある。レオナルド・ダ・ヴィンチは芸術家として知られているが、優れた観察者でありデザイナーでもあった。彼のスケッチブックには、何十もの発明のアイデアが保存されており、その多くは時代を何世紀も先取りしていた。その中には、吊り橋、建設機械、パラシュート、ヘリコプターなどのデザインも含まれていた。彼の科学的かつ技術的な図面は、多くの近代的な装置の開発の基礎となった。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DAVINCI_TANK_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>レオナルドが発明した装甲車は、現代の戦車の先駆けとも言えるもので、あらゆる方向に移動でき、多数の砲で武装していた。この戦車は設計上、3～4人で運転する必要があり、敵軍を恐怖に陥れ、退散させるために使用された。戦車の砲は、360度射撃可能な回転円形プラットフォームに搭載されていた。戦車全体は防御殻で覆われ、傾斜した金属板で補強され、敵の砲火をよりよくそらすことができた。戦車上部の観測塔が、砲の発射と戦車の動きを調整する。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DAVINCI_OBSERVATION_BALLOON_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>19世紀後半、レオナルド・ダ・ヴィンチが1475年に描いたヘリコプターの想像図がイタリアのミラノ図書館で発見された。それは巨大なねじのように見えるサイジング麻でできた巨大な螺旋体だった。バネの力で回転し、一定の速度に達すると体を空中に浮かせる。パイロットは台車の上に立ち、ワイヤーロープを引いて飛行方向を変える。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

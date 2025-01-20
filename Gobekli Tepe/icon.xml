@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- icon -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 4/15/2024 7:18:52 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_BUILDING_JD_GOBEKLI" IconSize="32" Filename="ICON_BUILDING_JD_GOBEKLI_32"/>
+		<Row Name="ATLAS_ICON_BUILDING_JD_GOBEKLI" IconSize="38" Filename="ICON_BUILDING_JD_GOBEKLI_38"/>
+		<Row Name="ATLAS_ICON_BUILDING_JD_GOBEKLI" IconSize="50" Filename="ICON_BUILDING_JD_GOBEKLI_50"/>
+		<Row Name="ATLAS_ICON_BUILDING_JD_GOBEKLI" IconSize="80" Filename="ICON_BUILDING_JD_GOBEKLI_80"/>
+		<Row Name="ATLAS_ICON_BUILDING_JD_GOBEKLI" IconSize="128" Filename="ICON_BUILDING_JD_GOBEKLI_128"/>
+		<Row Name="ATLAS_ICON_BUILDING_JD_GOBEKLI" IconSize="256" Filename="ICON_BUILDING_JD_GOBEKLI_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_JD_GOBEKLI" Atlas="ATLAS_ICON_BUILDING_JD_GOBEKLI" Index="0"/>
+	</IconDefinitions>
+</GameData>

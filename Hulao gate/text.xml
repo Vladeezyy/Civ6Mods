@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- text -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 3/1/2024 1:25:42 PM -->
+<GameData>
+	<LocalizedText>
+
+
+		<Row Tag="LOC_BUILDING_HULAO_GATE_NAME" Language="ru_RU">
+			<Text>Проход Хулао</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HULAO_GATE_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет уникальный юнит Люй Бу и бесплатные Древние стены во всех городах. +20% [ICON_Production] Производства к районам Лагерь и их зданиям. Обеспечивает те же защитные бонусы, что и улучшение Форт. Должен быть построен рядом с Горами и рекой.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HULAO_GATE_QUOTE" Language="ru_RU">
+			<Text>«Природный барьер разделяет земли, творение за гранью человеческого понимания.[NEWLINE]В месте слияния трёх Цзиней, преграда над подъёмом Рек.[NEWLINE]Снег оставался на увядшей траве, ветер сдувал сломанные сорняки.[NEWLINE]Созерцая старое поле битвы, размышляя о том, что приносит война.»[NEWLINE]- Сыма Гуан, Проход Хулао</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HULAO_LUBU_NAME" Language="ru_RU">
+			<Text>Устрашение: Соседние вражеские юниты получают -10 [ICON_Strength] боевой мощи и +2 [ICON_Movement] движения.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HULAO_LUBU_DEBUFF_NAME" Language="ru_RU">
+			<Text>Устрашён: -10 [ICON_Strength] боевой мощи и +2 [ICON_Movement] движения.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HULAO_LUBU_NAME" Language="ru_RU">
+			<Text>Люй Бу</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HULAO_LUBU_DESCRIPTION" Language="ru_RU">
+			<Text>Боевой юнит, уникальный для цивилизации с чудом света Проход Хулао. Соседние вражеские юниты получают -10 [ICON_Strength] боевой мощи и +2 [ICON_Movement] движения. Имеет базовую [ICON_Strength] боевую мощь, равную самому сильному юниту, произведённому вашими городами. При смерти отступает с 1 HP в [ICON_Capital] столицу. Только один юнит одновременно.</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_ABILITY_HULAO_LUBU_DEBUFF_B_DESCRIPTION" Language="ru_RU">
+			<Text>-10 Устрашён Люй Бу</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HULAO_GATE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Проход Хулао — древний горный проход в Сишуе, провинция Хэнань. Название Хулао («Тигриная клетка») произошло, как говорят, из легенд, что царь Му из династии Чжоу держал там тигров. С горой Сун на юге и рекой Хуанхэ на севере этот горный проход был стратегической точкой Центральных равнин и являлся объектом конфликтов с древних времён. Во времена периода Весны и Осени герцог Чжуан из Чжэна отказался передать земли Чжи своему младшему брату, так как Чжи (позже известный как Проход Хулао) был стратегическим укреплением. Во время периода Шестнадцати царств проход Хулао использовался как ключевой военный пункт, сыгравший роль в многочисленных исторических событиях. Он также известен из романа "Троецарствие" как место, где Люй Бу сражался против троих героев.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HULAO_LUBU_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Люй Бу был одним из самых грозных генералов эпохи Троецарствия, известным своим военным мастерством и предательской натурой. Он получил прозвище «Летающий генерал» за своё искусство стрельбы из лука на коне. Первоначально он служил Дину Юаню, но был подкуплен Дун Чжо и убил своего наставника, поклявшись в верности новому господину. Однако его изменчивость и жадность привели к множеству предательств и враждебности со стороны всех фракций. Его судьба закончилась пленением и казнью Цао Цао после осады города Сяпи.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_HULAO_GATE_NAME" Language="zh_Hans_CN">
+			<Text>虎牢关</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HULAO_GATE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁并提供1名特色单位吕布。为当前所有城市提供远古城墙。建造军营和军营中的建筑时+20% [ICON_Production] 生产力。提供同堡垒改良设施一样的防御加成。必须同时相邻山脉和河流。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HULAO_GATE_QUOTE" Language="zh_Hans_CN">
+			<Text>天险限西东，难知造化功。[NEWLINE]路邀三晋会，势压两河雄。[NEWLINE]余雪沾枯草，惊飚卷断蓬。[NEWLINE]徒观争战处，今古索然空。[NEWLINE]——《虎牢关》，司马光</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HULAO_LUBU_NAME" Language="zh_Hans_CN">
+			<Text>破胆：相邻的敌方单位[ICON_Strength]战斗力-10，[ICON_Movement] 移动力+2。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HULAO_LUBU_DEBUFF_NAME" Language="zh_Hans_CN">
+			<Text>吓破胆：[ICON_Strength]战斗力-10，[ICON_Movement] 移动力+2</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HULAO_LUBU_NAME" Language="zh_Hans_CN">
+			<Text>吕布</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HULAO_LUBU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>虎牢关特色单位。与其相邻的敌方单位[ICON_Strength]战斗力-10，[ICON_Movement] 移动力+2。其基础 [ICON_Strength] 战斗力等于城市曾生产之最强单位的战斗力，被击杀时将保留1点体力值，撤退至 [ICON_Capital] 首都。同一时间只能拥有一个。</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_ABILITY_HULAO_LUBU_DEBUFF_B_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>吓破胆-10</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HULAO_GATE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>虎牢关是一座位于河南汜水的古代关隘，名字来源于周穆王在此地饲养猛虎的传说。这座关隘南连嵩山，北濒黄河，控制中原要道，所以自古就是兵家必争之地。在春秋时期，郑庄公的母亲要求他将制地封给弟弟公子段，郑庄公因此地险要拒绝，制地即后来的虎牢关。在十六国时期，前燕以割让虎牢为条件向前秦求援，在战争结束后食言，大秦天王苻坚即派遣王猛率兵消灭前燕。在隋末时期，李世民更在虎牢关之战以三千五百骑兵击败王世充和窦建德的十一万联军，奠定了唐朝统一天下的基础。不过虎牢关最为人津津乐道的是《三国演义》的情节：董卓麾下猛将吕布接连阵斩各路将领，与刘备、关羽和张飞三人激烈战斗。然而，虎牢关三英战吕布和汜水关温酒斩华雄一样纯属虚构（事实上，虎牢关和汜水关是同一座关隘的两个名称）。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HULAO_LUBU_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>吕布是三国时期的猛将，以绝伦武艺和反复无常广为人知，世人以其善于骑射称他为“飞将”。他最初是丁原的部下，后来受董卓利诱背叛并杀死丁原，与董卓誓为父子。吕布在联军讨董中为董卓而战，后来二人交恶，吕布与董卓侍女有染，心怀不安，受王允拉拢暗杀董卓（《三国演义》将此演绎为王允义女貂蝉施展离间计）。吕布自成势力，游走各路军阀之间，曾受刘备邀请协助防守徐州，却趁刘备与袁术夺取徐州。在袁术攻打刘备时，吕布曾展示辕门射戟的绝技，威震袁术将兵使其退军。不过，吕布的反复无常让他成为各地势力的眼中钉。公元197年，曹操联合刘备围困吕布于下邳，吕布被部下反叛，最终被曹操处死。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_HULAO_GATE_NAME" Language="zh_Hant_HK">
+			<Text>虎牢關</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HULAO_GATE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>解鎖並提供1名特色單位呂布。為當前所有城市提供遠古城墻。建造軍營和軍營中的建築時+20% [ICON_Production] 生產力。提供同堡壘改良設施一樣的防御加成。必須同時相鄰山脈和河流。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HULAO_GATE_QUOTE" Language="zh_Hant_HK">
+			<Text>「天險限西東，難知造化功。[NEWLINE]路邀三晉會，勢壓兩河雄。[NEWLINE]餘雪沾枯草，驚飈卷斷蓬。[NEWLINE]徒觀爭戰處，今古索然空。」[NEWLINE]——《虎牢關》，司馬光</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HULAO_LUBU_NAME" Language="zh_Hant_HK">
+			<Text>破膽：相鄰的敵方單位[ICON_Strength]戰鬥力-10，[ICON_Movement] 移動力+2。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HULAO_LUBU_DEBUFF_NAME" Language="zh_Hant_HK">
+			<Text>嚇破膽：[ICON_Strength]戰鬥力-10，[ICON_Movement] 移動力+2</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HULAO_LUBU_NAME" Language="zh_Hant_HK">
+			<Text>呂布</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HULAO_LUBU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>虎牢關特色單位。與其相鄰的敵方單位[ICON_Strength]戰鬥力-10，[ICON_Movement] 移動力+2。其基礎 [ICON_Strength] 戰鬥力等於城市曾生產之最強單位的戰鬥力，被擊殺時將保留1點體力值，撤退至 [ICON_Capital] 首都。同一時間只能擁有一個。</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_ABILITY_HULAO_LUBU_DEBUFF_B_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>嚇破膽-10</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HULAO_GATE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>虎牢關是一座位於河南汜水的古代關隘，名字來源於周穆王在此地飼養猛虎的傳說。這座關隘南連嵩山，北瀕黃河，控制中原要道，所以自古就是兵家必爭之地。在春秋時期，鄭莊公的母親要求他將制地封給弟弟公子段，鄭莊公因此地險要拒絕，制地即後來的虎牢關。在十六國時期，前燕以割讓虎牢為條件向前秦求援，在戰爭結束後食言，大秦天王苻堅即派遣王猛率兵消滅前燕。在隋末時期，李世民更在虎牢關之戰以三千五百騎兵擊敗王世充和竇建德的十一萬聯軍，奠定了唐朝統一天下的基礎。不過虎牢關最為人津津樂道的是《三國演義》的情節：董卓麾下猛將呂布接連陣斬各路將領，與劉備、關羽和張飛三人激烈戰鬥。然而，虎牢關三英戰呂布和汜水關溫酒斬華雄一樣純屬虛構（事實上，虎牢關和汜水關是同一座關隘的兩個名稱）。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HULAO_LUBU_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>呂布是三國時期的猛將，以絕倫武藝和反覆無常廣為人知，世人以其善於騎射稱他為「飛將」。他最初是丁原的部下，後來受董卓利誘背叛並殺死丁原，與董卓誓為父子。呂布在聯軍討董中為董卓而戰，後來二人交惡，呂布與董卓侍女有染，心懷不安，受王允拉攏暗殺董卓（《三國演義》將此演繹為王允義女貂蟬施展離間計）。呂布自成勢力，遊走各路軍閥之間，曾受劉備邀請協助防守徐州，卻趁劉備與袁術奪取徐州。在袁術攻打劉備時，呂布曾展示轅門射戟的絕技，威震袁術將兵使其退軍。不過，呂布的反覆無常讓他成為各地勢力的眼中釘。公元197年，曹操聯合劉備圍困呂布於下邳，呂布被部下反叛，最終被曹操處死。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_HULAO_GATE_NAME" Language="ja_JP">
+			<Text>虎牢関</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HULAO_GATE_DESCRIPTION" Language="ja_JP">
+			<Text>固有ユニット呂布を得る。すべての都市に無償の太古の防壁。兵営とその建造物に対する [ICON_Production] 生産力+20%。要塞と同じ防御力ボーナスを得る。山岳に隣接した川の隣にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HULAO_GATE_QUOTE" Language="ja_JP">
+			<Text>「天険は西と東に限り、造化の功を知ることは難しい。[NEWLINE]道は三晋を邀え会わせ、二河の雄の勢を壓える。[NEWLINE]残雪が枯れ草を染め、驚飆が断たれた蓬を巻く。[NEWLINE]徒然なるままに争い戦いを観れ、今と古は索然たる空なり。」[NEWLINE]- 司馬光、《虎牢関》</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HULAO_LUBU_NAME" Language="ja_JP">
+			<Text>威圧：隣接する敵ユニットの [ICON_Strength] 戦闘力-10、 [ICON_Movement] 移動力+2。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HULAO_LUBU_DEBUFF_NAME" Language="ja_JP">
+			<Text>威圧された： [ICON_Strength] 戦闘力-10、 [ICON_Movement] 移動力+2。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HULAO_LUBU_NAME" Language="ja_JP">
+			<Text>呂布</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HULAO_LUBU_DESCRIPTION" Language="ja_JP">
+			<Text>虎牢関固有の戦闘ユニット。隣接する敵ユニットの [ICON_Strength] 戦闘力-10、 [ICON_Movement] 移動力+2。自文明の都市が産出できる最強のユニットと同じ基本 [ICON_Strength] 戦闘力を有する。倒されると [ICON_Capital] 首都にHP1の状態で退却する。</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_ABILITY_HULAO_LUBU_DEBUFF_B_DESCRIPTION" Language="ja_JP">
+			<Text>-10 呂布に威圧された</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HULAO_GATE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>虎牢関は河南汜水にある古代の関所であり、周の穆王がここで猛虎を飼っていたという伝説にちなんで名づけられた。この関所は、南の嵩山と北の黄河を結び、中原の要路を支配しているため、古来より兵士たちの激しい戦いの場であった。春秋時代、鄭の荘公の母は、弟の段公段に後に虎牢関と呼ばれる制の土地を与えるよう求めたが、荘公はその土地が要所であることを理由に拒否した。 十六国時代、前燕は虎牢の割譲を条件に前秦に助けを求めたが、戦争が終わった後約束を破り、大秦天王・苻堅は王猛に軍を率いて前燕を滅ぼさせた。隋末、李世民は虎牢関の戦いで王世忠と竇建徳の11万の連合軍を3500騎で破り、唐統一の基礎を築いた。しかし、虎牢関は『三国志演義』の筋書きで最もよく記憶されている。董卓の指揮下にある猛将・呂布がさまざまな武将を殺し、劉備、関羽、張飛ら三人を相手に激戦を繰り広げる。しかし、虎牢関の呂布と三人の戦いは、華雄が汜水で関羽に倒された話と同じように架空の話である（実際、虎牢関と汜水関は同じ関所の二つの名前である）。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HULAO_LUBU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>呂布は三国時代の猛将で、卓越した武芸と反骨の精神で広く知られ、騎射の腕前から「飛将」と呼ばれた。当初は丁原の部下だったが、後に董卓に誘われて丁原を裏切り殺害、父子であることを誓った。呂布は董卓のために連合軍と戦ったが、後に二人は不仲になった。 呂布は董卓の女中と関係を持ち、動揺した彼は王允から董卓暗殺を依頼された（『三国志』では、王允の義娘である貂蝉にくさびを打つための謀略と解釈されている）。呂布は獨立勢力となり、様々な軍閥を渡り歩く。劉備に招かれて徐州防衛に協力したが、劉備と袁術の戦いの隙をついて徐州を占領した。袁術が劉備を攻撃したとき、呂布は100歩先の戟を射る技を披露し、袁術の将兵に衝撃を与えて退却させた。しかし、呂布の反骨は、さまざまな勢力の棘となった。西暦197年、曹操と劉備は呂布を下邳で包囲し、彼は部下に反逆された後、曹操によって処刑された。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

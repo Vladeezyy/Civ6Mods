@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Text -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:16 PM -->
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_BUILDING_TAIPEI101_NAME">
+			<Text>Тайбэй 101</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAIPEI101_DESCRIPTION">
+			<Text>[ICON_TradeRoute] Торговые пути из этого города получают +5 [ICON_Culture] Культуры. +10 [ICON_Gold] Золота за каждый [ICON_TradeRoute] Торговый путь в этот город, а также +5 [ICON_Gold] Золота для города назначения. Коммерческие районы предоставляют +1 [ICON_TradeRoute] Торговый путь и 1 бесплатного торговца. Должен быть построен на равнинной местности рядом с коммерческим районом с фондовой биржей.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAIPEI101_QUOTE">
+			<Text>«Увидеть мир через цветок, увидеть Татхагату через Тайвань; Каждый Тайвань — это мир; каждый шаг — к будущему.» [NEWLINE] - Explore 101</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAIPEI101_CHAPTER_HISTORY_PARA_1">
+			<Text>Тайбэй 101, ранее известный как Тайбэйский мировой финансовый центр, — это небоскреб в Тайбэе, Тайвань. Он принадлежит корпорации Taipei Financial Center Corporation. Официально здание было классифицировано как самое высокое в мире с момента открытия 31 декабря 2004 года (к празднованию Нового года). Однако Бурдж-Халифа превзошел Тайбэй 101 в 2009 году. После завершения строительства оно стало первым небоскребом в мире, превысившим высоту в полкилометра (около 0,3 мили). По состоянию на 2023 год Тайбэй 101 является самым высоким зданием на Тайване и одиннадцатым по высоте зданием в мире.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAIPEI101_CHAPTER_HISTORY_PARA_2">
+			<Text>Постмодернистский архитектурный стиль Тайбэй 101 сочетает традиционную азиатскую эстетику с современной конструкцией, выполненной из промышленных материалов. Дизайн включает в себя ряд особенностей, позволяющих зданию выдерживать землетрясения Тихоокеанского огненного кольца и тропические шторма региона. Башня содержит офисы, рестораны, магазины, а также закрытые и открытые смотровые площадки. К башне примыкает многоуровневый торговый центр с самым большим в мире символом жуйи на фасаде.</Text>
+		</Replace>
+
+	</BaseGameText>
+
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_TAIPEI101_NAME" Language="zh_Hant_HK">
+			<Text>台北101</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAIPEI101_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>從此城市出發的 [ICON_TradeRoute] 貿易路線 +5 [ICON_Culture] 文化值；每條通往此城市的 [ICON_TradeRoute] 貿易路線 +10 [ICON_Gold] 金幣，來源城市 +5 [ICON_Gold] 金幣。每個商業中心提供+1 [ICON_TradeRoute] 貿易路線容量和1個免費的商人單位。必須建造在相鄰商業中心區域（須建有證卷交易所）的平坦地形上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAIPEI101_QUOTE" Language="zh_Hant_HK">
+			<Text>「一花一世界，一台一如來，台台皆世界，步步是未來」[NEWLINE]——探索101</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAIPEI101_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>台北101是位於臺灣臺北市信義區的超高層摩天大樓，樓高508公尺，地上101層、地下5層。於2004年12月31日落成至2010年1月4日是世界第一高樓。目前是台灣第一高樓，以及臺灣唯一高度超過500公尺、樓層超過100層的建築物。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAIPEI101_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>台北101由建築師李祖原設計，採用了後現代主義建築風格，並在採用工業材料等現代結構的同時喚起傳統的亞洲美學。其建築物的設計結合了許多特點，使該結構能夠抵禦環太平洋火山帶的地震和影響臺灣的熱帶氣旋氣候。塔樓則設有辦公室、餐廳、商店、觀景台及戶外觀景步道提供民眾使用，並擁有全球次重、全球唯二開放給遊客觀賞的巨型阻尼器為其特色，塔樓旁則設有一座多層購物中心，該購物中心擁有世界上最大的如意符號作為外部元素。此外該建築也配屬超高速電梯設施，能夠以60公里/小時的速度運行。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAIPEI101_NAME" Language="zh_Hans_CN">
+			<Text>台北101</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAIPEI101_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从此城市出发的 [ICON_TradeRoute] 贸易路线 +5 [ICON_Culture] 文化值；每条通往此城市的 [ICON_TradeRoute] 贸易路线 +10 [ICON_Gold] 金币，来源城市 +5 [ICON_Gold] 金币。每个商业中心提供+1 [ICON_TradeRoute] 贸易路线容量和1个免费的商人单位。必须建造在相邻商业中心区域（须建有证卷交易所）的平坦地形上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAIPEI101_QUOTE" Language="zh_Hans_CN">
+			<Text>一花一世界，一台一如来，台台皆世界，步步是未来[NEWLINE]——探索101</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAIPEI101_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>台北101大楼，前名台北国际金融中心（Taipei Financial Center），又名台北101、台北金融大楼，位于中国台湾省台北市信义区金融贸易区中心，其东临信义广场，北依信义21号公园，西近富士洋行，南靠台北捷运信义线。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAIPEI101_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>台北101大楼，主要由台北金融大楼股份有限公司规划，并由建筑师李祖原与王重平设计，以数字8作为设计单元，每8层楼为一个结构单元，建筑面内斜7度，彼此接续、层层相叠，构筑整体；外观为多节式结构，达到防灾防风效果，每8层形成一组自主构成的空间，化解高层建筑引起之气流对地面造成的风场效应，并用绿化植栽区区隔，墙体为透明隔热帷幕玻璃。台北101大楼基桩由382根钢筋混凝土构成，外围由8根钢筋柱组成，并在大楼内设置调谐质块阻尼器，以达到防震的效果。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAIPEI101_NAME" Language="ja_JP">
+			<Text>台北101</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAIPEI101_DESCRIPTION" Language="ja_JP">
+			<Text>この都市を起点とするの [ICON_TradeRoute] 交易路の [ICON_Culture] 文化力+5；この都市につづく [ICON_TradeRoute] 交易路1つにつき [ICON_Gold] ゴールド+10、相手に [ICON_Gold] ゴールド+5。すべての商業ハブーに [ICON_TradeRoute] 交易路の数+1、交易商を無償で1つ得る。証券取引所が存在する商業ハブ区域に隣接した平らな土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAIPEI101_QUOTE" Language="ja_JP">
+			<Text>「一つの花は一つの世界、一つの台は一つの如來、台々は皆世界なり、歩々は未来になる。」[NEWLINE]――101を探索</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAIPEI101_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>台北101（タイペイいちまるいち）は、台湾台北市信義区にある超高層ビル。地上101階建てで、名前はこれに由来する。高さは509.2mで、地下は5階まである。 建設段階の名称は台北国際金融センター（たいほくこくさいきんゆうセンター、中国語: 臺北國際金融中心）。7年間の工期を経て、2004年に世界一の超高層建築物として竣工した。台湾の著名な建築家である李祖原が設計し、施工は熊谷組を中心としたJVにより行われた。総工費は約600億元。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAIPEI101_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>509.2メートルという高さは2007年7月にブルジュ・ハリーファに抜かれるまでは、完成建築物としては世界一高いものだった。全面ガラス張りの近代的建築ながら、輪郭は伝統的な宝塔と竹の節がイメージされている。また、環境設計や安全を踏まえ設計された。例えば、この外面のガラスは8トントラックが乗っても耐え得るほどの強靱さをほこり、さらに、紫外線や熱量を2/3カットする性能を持ち併せ、内部が暖まるのを防ぎ冷暖房を効きやすくしている。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAIPEI101_NAME" Language="ru_RU">
+			<Text>Тайбэй 101|Тайбэя 101|Тайбэю 101|Тайбэй 101|Тайбэем 101|Тайбэе 101</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAIPEI101_DESCRIPTION" Language="ru_RU">
+			<Text>Ваши [ICON_TradeRoute] торговые пути из этого города получают +5 [ICON_Culture] культуры. +10 [ICON_Gold] золота за каждый международный [ICON_TradeRoute] торговый путь, идущий в этот город. +5 [ICON_Gold] золота от внутренних [ICON_TradeRoute] торговых путей, идущих в этот город. Каждый центр коммерции увеличивает лимит [ICON_TradeRoute] торговых путей на 1.[NEWLINE][NEWLINE]Любой юнит значительно увеличивает радиус обзора, пока находится на клетке с этим чудом.[NEWLINE][NEWLINE]Можно построить только на равнинных клетках, рядом должен быть центр коммерции, содержащий биржу.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAIPEI101_QUOTE" Language="ru_RU">
+			<Text>«Вечером яркие огни, которые излучает здание, подобны маяку, освещающему ночное небо Тайбэя и открывающему городу дорогу к славе».[NEWLINE]— Концепция дизайна</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAIPEI101_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Тайбэй 101, ранее известный как Всемирный финансовый центр Тайбэя, является небоскребом в Тайбэе, Тайвань. Он принадлежит корпорации «Taipei Financial Center Corporation». Здание было официально признано самым высоким в мире с момента его открытия 31 декабря 2004 года (как раз к празднованию Нового года). Однако в 2009 году Бурдж-Халифа превзошел Тайбэй 101. После завершения строительства он стал первым в мире небоскребом, высота которого превысила полкилометра (около 0,3 мили). По состоянию на 2023 год Тайбэй 101 является самым высоким зданием на Тайване и одиннадцатым по высоте зданием в мире.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAIPEI101_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Тайбэй 101, выполненный в стиле постмодернизма, является воплощением традиционной азиатской эстетики в современном здании, построенном с использованием промышленных материалов. Его дизайн включает в себя ряд особенностей, которые позволяют зданию противостоять землетрясениям Тихоокеанского огненного кольца и тропическим штормам региона. В башне расположены офисы, рестораны и магазины, а также крытые и открытые обсерватории. К башне примыкает многоуровневый торговый центр, на фасаде которого изображен самый большой в мире символ руи.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

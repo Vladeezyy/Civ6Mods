@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Core -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:36:54 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_TAIPEI101"			Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_TAIPEI101"	Name="LOC_BUILDING_TAIPEI101_NAME" Description="LOC_BUILDING_TAIPEI101_DESCRIPTION" PrereqTech="TECH_COMPUTERS" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB" Cost="1620" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Entertainment="2" ObsoleteEra="ERA_INFORMATION" Quote="LOC_BUILDING_TAIPEI101_QUOTE"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_TAIPEI101"		PrereqBuilding="BUILDING_STOCK_EXCHANGE"/>
+	</BuildingPrereqs>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_TAIPEI101"	TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_TAIPEI101"	TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_TAIPEI101"	TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_TAIPEI101"	TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_TAIPEI101"	TerrainType="TERRAIN_DESERT"/>
+	</Building_ValidTerrains>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_TAIPEI101"	YieldType="YIELD_GOLD"		YieldChange="10"/>
+		<Row BuildingType="BUILDING_TAIPEI101"	YieldType="YIELD_CULTURE"	YieldChange="5"/>
+	</Building_YieldChanges>
+<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_TAIPEI101"	GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="5"/>
+</Building_GreatPersonPoints>
+</GameData>

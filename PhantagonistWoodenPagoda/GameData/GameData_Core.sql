@@ -1,0 +1,135 @@
+--------------------
+-- Basics
+--------------------
+
+INSERT INTO Types
+		(Type,									Kind)
+VALUES	('BUILDING_PHANTA_WOODEN_PAGODA',	'KIND_BUILDING');
+
+
+INSERT INTO Buildings
+		(BuildingType,
+		Name,
+		Description,
+		PrereqTech,
+		Cost,
+		AdvisorType,
+		MaxWorldInstances,
+		IsWonder,
+		RequiresPlacement,
+		AdjacentImprovement,
+		ObsoleteEra,
+		Quote)
+VALUES	('BUILDING_PHANTA_WOODEN_PAGODA',
+		'LOC_BUILDING_PHANTA_WOODEN_PAGODA_NAME',
+		'LOC_BUILDING_PHANTA_WOODEN_PAGODA_DESCRIPTION',
+		'TECH_BUTTRESS',
+		710,
+		'ADVISOR_GENERIC',
+		1,
+		1,
+		1,
+		'IMPROVEMENT_LUMBER_MILL',
+		'ERA_INDUSTRIAL',
+		'LOC_BUILDING_PHANTA_WOODEN_PAGODA_QUOTE');
+
+INSERT INTO Building_GreatPersonPoints
+		(BuildingType,						GreatPersonClassType,				PointsPerTurn)
+VALUES	('BUILDING_PHANTA_WOODEN_PAGODA',	'GREAT_PERSON_CLASS_ENGINEER',		2);
+
+INSERT INTO Building_YieldChanges 
+		(BuildingType,						YieldType,			YieldChange)
+VALUES	('BUILDING_PHANTA_WOODEN_PAGODA',	'YIELD_FAITH',		2);
+
+INSERT INTO Building_GreatWorks
+		(BuildingType,						GreatWorkSlotType,			NumSlots)
+VALUES	('BUILDING_PHANTA_WOODEN_PAGODA',	'GREATWORKSLOT_RELIC',		2);
+
+
+--------------------
+-- Bonuses
+--------------------
+
+--==== 1: Grants a Great Engineer
+
+INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES 
+('BUILDING_PHANTA_WOODEN_PAGODA', 'MODFEAT_PHANTA_WOODEN_PAGODA_GRANT_ENGINEER');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_PHANTA_WOODEN_PAGODA_GRANT_ENGINEER', 'MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY', 1, 1, 0, NULL, NULL);
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_PHANTA_WOODEN_PAGODA_GRANT_ENGINEER', 'Amount', '1'), 
+('MODFEAT_PHANTA_WOODEN_PAGODA_GRANT_ENGINEER', 'GreatPersonClassType', 'GREAT_PERSON_CLASS_ENGINEER');
+
+--==== 2: Wonder Production Boost
+
+-- Custom ModifierType
+
+INSERT INTO Types (Type, Kind) VALUES 
+('MODTYPE_PHANTA_WOODEN_PAGODA_OWNER_PLAYER_ATTACH_MODIFIER', 'KIND_MODIFIER');
+
+INSERT INTO DynamicModifiers (ModifierType, CollectionType, EffectType) VALUES 
+('MODTYPE_PHANTA_WOODEN_PAGODA_OWNER_PLAYER_ATTACH_MODIFIER', 'COLLECTION_OWNER_PLAYER', 'EFFECT_ATTACH_MODIFIER');
+
+-- RequirementSets
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES 
+('REQSET_PHANTA_WOODEN_PAGODA_GREAT_ENGINEER', 'REQUIREMENTSET_TEST_ALL');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES 
+('REQSET_PHANTA_WOODEN_PAGODA_GREAT_ENGINEER', 'REQ_PHANTA_WOODEN_PAGODA_GREAT_ENGINEER');
+
+-- Requirements
+
+INSERT INTO Requirements (RequirementId, RequirementType) VALUES 
+('REQ_PHANTA_WOODEN_PAGODA_GREAT_ENGINEER', 'REQUIREMENT_UNIT_TYPE_MATCHES');
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES 
+('REQ_PHANTA_WOODEN_PAGODA_GREAT_ENGINEER', 'UnitType', 'UNIT_GREAT_ENGINEER');
+
+-----------
+-----------
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_PHANTA_WOODEN_PAGODA_WONDER_PRODUCTION_BONUS', 'MODIFIER_PLAYER_CITIES_ADJUST_WONDER_PRODUCTION', 0, 0, 0, 'REQSET_PHANTA_WOODEN_PAGODA_PLAYER_HAS_WOODEN_PAGODA', NULL);
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_PHANTA_WOODEN_PAGODA_WONDER_PRODUCTION_BONUS', 'Amount', '5');
+
+-- RequirementSets
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES 
+('REQSET_PHANTA_WOODEN_PAGODA_PLAYER_HAS_WOODEN_PAGODA', 'REQUIREMENTSET_TEST_ALL');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES 
+('REQSET_PHANTA_WOODEN_PAGODA_PLAYER_HAS_WOODEN_PAGODA', 'REQ_PHANTA_WOODEN_PAGODA_PLAYER_HAS_WOODEN_PAGODA');
+
+-- Requirements
+
+INSERT INTO Requirements (RequirementId, RequirementType) VALUES 
+('REQ_PHANTA_WOODEN_PAGODA_PLAYER_HAS_WOODEN_PAGODA', 'REQUIREMENT_PLAYER_HAS_BUILDING');
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES 
+('REQ_PHANTA_WOODEN_PAGODA_PLAYER_HAS_WOODEN_PAGODA', 'BuildingType', 'BUILDING_PHANTA_WOODEN_PAGODA');
+
+-----------
+-----------
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId, SubjectStackLimit) VALUES 
+('MODFEAT_PHANTA_WOODEN_PAGODA_WONDER_PRODUCTION_BONUS_OWNER_PLAYER_ATTACH_MODIFIER', 'MODTYPE_PHANTA_WOODEN_PAGODA_OWNER_PLAYER_ATTACH_MODIFIER', 0, 0, 0, NULL, NULL, 10);
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_PHANTA_WOODEN_PAGODA_WONDER_PRODUCTION_BONUS_OWNER_PLAYER_ATTACH_MODIFIER', 'ModifierId', 'MODFEAT_PHANTA_WOODEN_PAGODA_WONDER_PRODUCTION_BONUS');
+
+-----------
+-----------
+
+INSERT INTO GameModifiers (ModifierId) VALUES 
+('MODFEAT_PHANTA_WOODEN_PAGODA_WONDER_PRODUCTION_BONUS_UNIT_ATTACH_MODIFIER');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_PHANTA_WOODEN_PAGODA_WONDER_PRODUCTION_BONUS_UNIT_ATTACH_MODIFIER', 'MODIFIER_ALL_UNITS_ATTACH_MODIFIER', 0, 1, 0, NULL, 'REQSET_PHANTA_WOODEN_PAGODA_GREAT_ENGINEER');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_PHANTA_WOODEN_PAGODA_WONDER_PRODUCTION_BONUS_UNIT_ATTACH_MODIFIER', 'ModifierId', 'MODFEAT_PHANTA_WOODEN_PAGODA_WONDER_PRODUCTION_BONUS_OWNER_PLAYER_ATTACH_MODIFIER');

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_BUILDING_PHANTA_WOODEN_PAGODA_NAME" Language="ru_RU">
+			<Text>Пагода храма Фогун</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_WOODEN_PAGODA_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет бесплатного [ICON_GreatEngineer] Великого инженера. Все города получают +5% [ICON_Production] Производства к строительству чудес света за каждого [ICON_GreatEngineer] Великого инженера, максимум +50%. Должна быть построена рядом с улучшением Лесопилка.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_WOODEN_PAGODA_QUOTE" Language="ru_RU">
+			<Text>«Эта пятиярусная пагода возвышается над равнинами на высоте около двухсот футов и в ясный день видна с двадцати миль. Я наблюдал ее мерцающее отражение на фоне заката, пока оно не превратилось в силуэт, отдавая дань уважения этой встрече с пагодой.»[NEWLINE]– Лян Сычэн</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_WOODEN_PAGODA_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Пагода Шакьямуни в храме Фогун является старейшим сохранившимся деревянным зданием в Китае, датируемым 1056 годом, временами правления династии Ляо, возглавляемой киданями. Также известная как Деревянная пагода уезда Ин, эта пагода была полностью построена из древесины с использованием соединений шип-паз без единого гвоздя. Снаружи пагода имеет пять ярусов, но внутри насчитывает девять уровней, усиленных конструкциями на основе кронштейнов (известных в Китае как доугун). Внутри пагоды хранятся многочисленные буддийские статуи, свитки (как рукописные, так и напечатанные подвижным шрифтом) и реликвии, включая два зуба Будды. Благодаря тщательно продуманной конструкции пагода Шакьямуни храма Фогун выдержала множество природных катастроф, включая землетрясения. Она считается классическим примером китайской деревянной архитектуры и предоставляет ценные данные для изучения истории китайского зодчества.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_WOODEN_PAGODA_NAME" Language="zh_Hans_CN">
+			<Text>佛宫寺释迦塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_WOODEN_PAGODA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>免费获得一个 [ICON_GreatEngineer] 大工程师。每获得一个 [ICON_GreatEngineer] 大工程师，所有城市建造奇观获得+5% [ICON_Production] 生产力，最多+50%。必须建造在相邻伐木场改良设施的单元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_WOODEN_PAGODA_QUOTE" Language="zh_Hans_CN">
+			<Text>这座五层的宝塔从四周原野上拔地而起，高约二百英尺，天晴时分从二十英里外就能看到。由夕阳返照中见其闪烁，一直看到它成了剪影，那算是我对于这塔的拜见礼。[NEWLINE]——梁思成</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_WOODEN_PAGODA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>佛宫寺释迦塔是中国现存最古老的木制建筑，建造时间可以追溯到公元1056年契丹辽朝时期。这座建筑亦被称为应县木塔，全塔上下没有用到一颗铁钉，纯以木材构件榫卯咬合建成。木塔明为五层，实则九层，每层以斗拱加固。这座宝塔藏有大量佛像、佛经卷轴（手写和活字印刷皆有）和佛教宝物，包括两枚佛牙舍利。佛宫寺释迦塔以其精妙建造的结构历经多次自然灾害而不倒（尤以地震为甚），被视为中国木制建筑的经典作品，为后世探究中国建筑史提供启示。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_WOODEN_PAGODA_NAME" Language="zh_Hant_HK">
+			<Text>佛宮寺釋迦塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_WOODEN_PAGODA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>免費獲得一個 [ICON_GreatEngineer] 大工程師。每獲得一個 [ICON_GreatEngineer] 大工程師，所有城市建造奇觀獲得+5% [ICON_Production] 生產力，最多+50%。必須建造在相鄰伐木場改良設施的單元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_WOODEN_PAGODA_QUOTE" Language="zh_Hant_HK">
+			<Text>「這座五層的寶塔從四周原野上拔地而起，高約二百英尺，天晴時分從二十英里外就能看到。由夕陽返照中見其閃爍，一直看到它成了剪影，那算是我對於這塔的拜見禮。」[NEWLINE]——梁思成</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_WOODEN_PAGODA_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>佛宮寺釋迦塔是中國現存最古老的木製建築，建造時間可以追溯到公元1056年契丹遼朝時期。這座建築亦被稱為應縣木塔，全塔上下沒有用到一顆鐵釘，純以木材構件榫卯咬合建成。木塔明為五層，實則九層，每層以斗拱加固。這座寶塔藏有大量佛像、佛經卷軸（手寫和活字印刷皆有）和佛教寶物，包括兩枚佛牙舍利。佛宮寺釋迦塔以其精妙建造的結構歷經多次自然災害而不倒（尤以地震為甚），被視為中國木製建築的經典作品，為後世探究中國建築史提供啟示。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_WOODEN_PAGODA_NAME" Language="ja_JP">
+			<Text>仏宮寺釈迦塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_WOODEN_PAGODA_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_GreatEngineer] 大技術者を無料で1人得る。獲得した [ICON_GreatEngineer] 大技術者1つにつき、すべての都市の遺産に対する [ICON_Production] 生産力+5%（最大＋50％）。製材所に隣接するタイルにのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_WOODEN_PAGODA_QUOTE" Language="ja_JP">
+			<Text>「この五重の宝塔は周囲の荒野から聳え立ち、その高さは約200フィート、晴れた日には20マイル先からも見ることができる。夕日の戻り光の中で煌めき、シルエットになるまで沈んでいくのを眺める。この塔に対する私の拝礼のようなものだった。」[NEWLINE]– 梁思成</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_WOODEN_PAGODA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>仏宮寺の釈迦塔は、中国現存最古の木造建築で、契丹人が主導した遼王朝時代の1056年に遡る。応県木塔としても知られるこの塔は、釘を一本も使わず、完全にほぞ継ぎで組み合わされた材木で建てられている。外観は5層だが、実際には9層あり、斗拱で補強されている。この塔には多くの仏像、巻物（手書きか活字印刷）、そして二つの仏牙舎利を含む仏教の遺物が納められていた。緻密な設計による構造によって、仏宮寺釈迦塔は多くの自然災害（特に地震）に耐え、中国の木造建築の古典的な例として見られ、中国建築史の研究に知見を与えてくれた。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

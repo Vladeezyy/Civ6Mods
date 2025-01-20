@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ae59cfe0-2c85-4ceb-87a7-8cd359c726f5" version="1">
+  <Properties>
+    <Name>Gobekli Tepe</Name>
+    <Description>Gobekli Tepe wonder</Description>
+    <Created>1717638850</Created>
+    <Teaser>Gobekli Tepe</Teaser>
+    <Authors>Jidong</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateText id="ConfigText">
+      <Properties>
+        <LoadOrder>5</LoadOrder>
+      </Properties>
+      <File>FrontEnd_WonderFilter.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>1145144</LoadOrder>
+      </Properties>
+      <File>wonder.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Gobekli Tepe.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>FrontEnd_WonderFilter.sql</File>
+    <File>Gobekli Tepe.dep</File>
+    <File>icon.xml</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_ENT_Cobblestone_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Stonehenge_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Cobblestone_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Cobblestone_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Cobblestone_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Ground_L</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Gobekli_Tepe_empty</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Stonehenge_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Stonehenge_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Stonehenge_N1</File>
+    <File>Platforms/MacOS/BLPs/TileBase.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_ENT_Cobblestone_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Stonehenge_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Cobblestone_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Cobblestone_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Cobblestone_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Ground_L</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Gobekli_Tepe_empty</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Stonehenge_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Stonehenge_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Stonehenge_N1</File>
+    <File>Platforms/Windows/BLPs/TileBase.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>text.xml</File>
+    <File>wonder.xml</File>
+    <File>XLPs/TileBase.xlp</File>
+    <File>XLPs/WonderMovie.xlp</File>
+  </Files>
+</Mod>

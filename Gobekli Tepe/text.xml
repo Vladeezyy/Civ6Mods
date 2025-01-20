@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- text -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 4/15/2024 7:18:45 PM -->
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_BUILDING_JD_GOBEKLI_NAME" Language="ru_RU">
+			<Text>Гёбекли-Тепе</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_GOBEKLI_DESCRIPTION" Language="ru_RU">
+			<Text>Бонусные ресурсы получают +1 [ICON_Faith] Веры и +1 к своим бонусным доходам (+2 для [ICON_Gold] Золота). Должен быть построен на Холмах рядом с улучшением Пастбище.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_GOBEKLI_QUOTE" Language="ru_RU">
+			<Text>«Я думаю, здесь мы сталкиваемся с самым ранним изображением богов. У них нет глаз, ртов, лиц. Но у них есть руки и кисти. Они творцы.»[NEWLINE]– Клаус Шмидт</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JD_GOBEKLI_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Гёбекли-Тепе — это неолитический памятник, возможно, старейшее религиозное место в мире. Он расположен на окраине города Шанлыурфа, Турция («Гёбекли» происходит от турецкого слова «пузатый»), и был открыт только в 1960-х годах. Гёбекли-Тепе состоит из множества монолитных столбов, стоящих в каменных кругах, украшенных мотивами в виде изображений животных и богов. Этот памятник свидетельствует о том, как человечество вышло из последнего Ледникового периода, чтобы начать создавать инструменты из камня и кремня, формируя ранние цивилизации и религиозные культы.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_JD_GOBEKLI_NAME" Language="zh_Hans_CN">
+			<Text>哥贝克力石阵</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_GOBEKLI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>加成资源+1 [ICON_Faith] 信仰，并根据对应的类型+1对应产出（ [ICON_Gold] 金币为+2）。必须建造在相邻牧场改良设施的丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_GOBEKLI_QUOTE" Language="zh_Hans_CN">
+			<Text>我想我们在此地得以面见最早的神明形象。祂们没有眼睛、没有嘴巴、没有面容。但他们有臂膀，有双手。祂们是造物者。[NEWLINE]——克劳斯·施密特</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JD_GOBEKLI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>哥贝克力石阵是一处新石器时期遗蹟，也可能是世界上最古老的宗教场所。它位于土耳其尚勒乌尔法市近郊（“哥贝克力”来自土耳其语“大肚子”），在1960年代才被发现。哥贝克力石阵中众多独石巨柱林立于圆环中，石柱上雕刻了动物和神明的形象。这座遗址见证了人类走出上一个冰河时期，以石块和燧石打造工具，形成了早期的文明与宗教崇拜。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_JD_GOBEKLI_NAME" Language="zh_Hant_HK">
+			<Text>哥貝克力石陣</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_GOBEKLI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>加成資源+1 [ICON_Faith] 信仰，並根據對應的類型+1對應產出（ [ICON_Gold]  金幣為+2）。必須建造在相鄰牧場改良設施的丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_GOBEKLI_QUOTE" Language="zh_Hant_HK">
+			<Text>「我想我們在此地得以面見最早的神明形象。祂們沒有眼睛、沒有嘴巴、沒有面容。但他們有臂膀，有雙手。祂們是造物者。」[NEWLINE]——克勞斯·施密特</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JD_GOBEKLI_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>哥貝克力石陣是一處新石器時期遺蹟，也可能是世界上最古老的宗教場所。它位於土耳其尚勒烏爾法市近郊（「哥貝克力」來自土耳其語「大肚子」），在1960年代才被發現。哥貝克力石陣中眾多獨石巨柱林立於圓環中，石柱上雕刻了動物和神明的形象。這座遺址見證了人類走出上一個冰河時期，以石塊和燧石打造工具，形成了早期的文明與宗教崇拜。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_JD_GOBEKLI_NAME" Language="ja_JP">
+			<Text>ギョベクリ・テペ</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_GOBEKLI_DESCRIPTION" Language="ja_JP">
+			<Text>ボーナス資源の [ICON_Faith] 信仰力+1、その資源のボーナスの産出量+1（ [ICON_Gold] ゴールドなら+2）。キャンプに隣接する丘陵にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_GOBEKLI_QUOTE" Language="ja_JP">
+			<Text>「私たちは神々の最も古い姿に会いに来たのだと思う。 目も、口も、顔もない。 しかし、両腕と手がある。彼らは創造者だ」。[NEWLINE]- クラウス・シュミット</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JD_GOBEKLI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ギョベクリ・テペは新石器時代の遺跡で、おそらく世界最古の宗教遺跡である。トルコのシャンルウルファ市郊外にあり（「ギョベクリ」はトルコ語の「太鼓腹」に由来する）、1960年代に発見された。ギョベクリ・テペは、石造りの円形に立つ多数の一枚岩の柱からなり、動物や神々の姿をかたどったモチーフが特徴である。この遺跡は、人類が最後の氷河期からいかにして石や火打石で道具を作り、初期の文明や宗教的カルトを形成していったかを立証している。</Text>
+		</Row>
+
+
+
+	</LocalizedText>
+</GameData>

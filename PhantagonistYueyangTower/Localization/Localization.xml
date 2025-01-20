@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_PHANTA_YUEYANG_TOWER_NAME" Language="ru_RU">
+			<Text>Башня Юэян</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_YUEYANG_TOWER_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет бесплатного [ICON_GreatWriter] Великого писателя. Незавершенные чудеса уменьшают получение очков [ICON_GreatPerson] Великих личностей на 10% в своих городах. Все завершенные чудеса (включая саму башню Юэян) увеличивают получение очков [ICON_GreatPerson] Великих личностей на 10% в своих городах. Должна быть построена у реки рядом с центром города.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_YUEYANG_TOWER_QUOTE" Language="ru_RU">
+			<Text>«Первыми беспокойтесь о делах государства, последними наслаждайтесь удовольствиями.»[NEWLINE]– Фань Чжунъянь</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_YUEYANG_TOWER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Башня Юэян расположена на берегу озера Дунтин, к югу от реки Янцзы. Она известна своей величественной и элегантной архитектурой, крышей в форме шлема с яркими цветными черепицами и захватывающими видами. Как говорится: «Дунтин — лучшая вода Поднебесной, а Юэян — лучшая башня Поднебесной». Башня была построена Лу Су в период Троецарствия как военная сторожевая башня для наблюдения за тренировками флота на озере Дунтин. Со временем она утратила свои военные функции. Благодаря близости к реке Янцзы и озеру Дунтин башня Юэян стала доступной для путешествий по суше и воде. Живописный вид привлекал многих литераторов, которые поднимались на башню и писали стихи во время своих путешествий между севером и югом. Во времена Северной династии Сун Тэн Цзунлян, ставший жертвой интриг, был сослан в провинцию Юэ, где он восстановил башню Юэян и построил водные сооружения Яньхун. После восстановления башни он написал письмо своему другу Фаню Чжунъяню с просьбой написать текст в честь этого события. Фань Чжунъянь создал произведение «Мемориал башни Юэян», где содержится знаменитая цитата: «Первыми беспокойтесь о делах государства, последними наслаждайтесь удовольствиями». Эта цитата стала символом идеалов китайских ученых-чиновников служения обществу.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_NAME" Language="ru_RU">
+			<Text>Фань Чжунъянь</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_1_NAME" Language="ru_RU">
+			<Text>Рапсодия духа ворона</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_1_QUOTE" Language="ru_RU">
+			<Text>Лучше выступить с упрёком и погибнуть, чем молчать и жить.</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_2_NAME" Language="ru_RU">
+			<Text>Мемориал башни Юэян</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_2_QUOTE" Language="ru_RU">
+			<Text>Первыми беспокойтесь о делах государства, последними наслаждайтесь удовольствиями.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Фань Чжунъянь был выдающимся писателем эпохи Сун и политиком, который выступал за реформы. Родился в 989 году. Его отец умер рано, и семья Фань не приняла его и его мать. Он усердно учился под руководством Ци Тунвэня, питаясь только густой кашей и солеными овощами. В конце концов, ему удалось занять должность благодаря успешной сдаче императорских экзаменов.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Будучи местным чиновником, Фань Чжунъянь пользовался любовью народа благодаря строгому, но справедливому правлению и строительству гидротехнических сооружений. Однако его карьеру часто омрачали понижения в должности из-за прямолинейных выступлений и советов. Когда Ли Юаньхао восстал и основал Западное Ся, Фань Чжунъянь был направлен во главе армии для борьбы с мятежниками. После заключения мира с династией Сун император Жэнь-цзун повысил Фаня за его военные заслуги. Фань стремился провести реформы, но в конечном итоге потерпел неудачу из-за утраты доверия императора и противодействия министров.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>Фань Чжунъянь и его политические союзники часто сталкивались с трудностями в своей официальной жизни, но оставили множество известных произведений, выражающих их политические устремления. Среди них – «Мемориал башни Юэян», который он отправил своему другу Тэн Цзунляну. Из этого произведения происходит знаменитая цитата: «Первыми беспокойтесь о делах государства, последними наслаждайтесь удовольствиями», которая стала символом идеалов китайских ученых-чиновников. В 1052 году Фань Чжунъянь умер от болезни.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_NAME" Language="ru_RU">
+			<Text>Оуян Сю</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_1_NAME" Language="ru_RU">
+			<Text>Рассказ о павильоне Старого Пьяницы</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_1_QUOTE" Language="ru_RU">
+			<Text>Старый Пьяница не заботится о вине, его интересует пейзаж. Радость гор и ручьев проникает в сердце и находит выражение в вине.</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_2_NAME" Language="ru_RU">
+			<Text>Рапсодия осенних звуков</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_2_QUOTE" Language="ru_RU">
+			<Text>Мальчик сказал: «Звезды и луна ясные и яркие, а Светлая река в небе. Со всех сторон не слышно человеческих звуков, только звуки деревьев». [NEWLINE]Я сказал: «Увы! Это звуки осени. Как же она уже настала?»</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Оуян Сю был выдающимся писателем эпохи Сун. Родился в 1007 году. Его отец умер рано, и мать обучала его письму, используя тростники для письма на земле. В конце концов, он получил официальную должность, успешно сдав императорские экзамены.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Его карьера была полна взлетов и падений. Он служил при императоре Жэнь-цзуне, императоре Ин-цзуне и императоре Шэнь-цзуне, но его также несколько раз понижали в должности. Когда Фань Чжунъянь проводил реформы, Оуян Сю поддерживал его, но был воспринят как соучастник. Оуян Сю внес значительный вклад в литературу и историю, участвуя в создании «Новой книги Тан», одной из Двадцати четырех историй.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>Когда Ван Аньши возглавил правительство, Оуян Сю отказался от должности и постепенно отошел от политической жизни. В 1072 году он умер от болезни.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_NAME" Language="ru_RU">
+			<Text>Цзэн Гун</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_1_NAME" Language="ru_RU">
+			<Text>Мемориал Павильона Пробуждения Сердца</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_1_QUOTE" Language="ru_RU">
+			<Text>Император правит сверху без усилий, люди под ним живут с удовлетворением. Ученые Поднебесной служат с умением. Даже варвары, птицы, звери, трава, деревья живут по своим законам — и это радует моего наставника.</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_2_NAME" Language="ru_RU">
+			<Text>Мемориал Чернильного Пруда</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_2_QUOTE" Language="ru_RU">
+			<Text>Мастерство каллиграфии Сичжи улучшалось в его последние годы. Это показывает, что его успехи были достигнуты не благодаря небесным дарам, а благодаря усердию.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Цзэн Гун был выдающимся писателем эпохи Сун. Родился в 1019 году и был известен своим мастерством написания текстов в классическом стиле с юных лет.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Цзэн Гун написал письмо Оуяну Сю и получил его высокую оценку. Когда Оуян Сю был сослан, Цзэн Гун последовал за своим наставником, чтобы совершенствовать навыки написания классических эссе. Позже Цзэн Гун был назначен на службу в столицу, где занимался сбором старинных текстов и написал множество предисловий. Даже в ссылке он оставил множество достижений как местный чиновник.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>В последние годы Цзэн Гун был вновь вызван в столицу, но вскоре покинул должность из-за смерти мачехи. В 1082 году он умер от болезни.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_YUEYANG_TOWER_NAME" Language="zh_Hant_HK">
+			<Text>岳陽樓</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_YUEYANG_TOWER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>免費獲得一個 [ICON_GreatWriter] 大作家。每座未完成的奇觀令所在城市提供-10% [ICON_GreatPerson] 偉人點數。每座已完成的奇觀（包括岳陽樓）令所在城市提供+10% [ICON_GreatPerson] 偉人點數。必須建造在鄰近城市中心的河流旁邊。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_YUEYANG_TOWER_QUOTE" Language="zh_Hant_HK">
+			<Text>「先天下之憂而憂，[NEWLINE]後天下之樂而樂。」[NEWLINE]——范仲淹</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_YUEYANG_TOWER_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>岳陽樓坐落於洞庭湖畔，北倚長江，因其堂皇典雅的結構、格外亮眼的盔頂和山清水秀的景色，自古有「洞庭天下水，岳陽天下樓」的說法。岳陽樓原為三國時期魯肅修建的閱軍樓，在此監督水師練兵於洞庭湖。隨着時間過去，岳陽樓逐漸失去軍事上的功能。由於岳陽樓鄰近長江和洞庭湖，水陸交通四通八達，加之樓台勝景，常有文人在從北方到南方的旅途上（不少是因受貶謫）登樓賦詩。北宋時期，滕宗諒（即滕子京）因受人誣衊被貶官岳州，重修岳陽樓和修建偃虹堤等設施。他在岳陽樓重修完成後致書文友范仲淹寫一篇文章紀念此事，范仲淹則寫下傳世名篇《岳陽樓記》，名句「先天下之憂而憂，後天下之樂而樂」即出於此篇，可謂士大夫精神的模範。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_NAME" Language="zh_Hant_HK">
+			<Text>范仲淹</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_1_NAME" Language="zh_Hant_HK">
+			<Text>《靈烏賦》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_1_QUOTE" Language="zh_Hant_HK">
+			<Text>寧鳴而生，不默而死。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_2_NAME" Language="zh_Hant_HK">
+			<Text>《岳陽樓記》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_2_QUOTE" Language="zh_Hant_HK">
+			<Text>先天下之憂而憂，[NEWLINE]後天下之樂而樂。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>范仲淹是宋朝著名的文學家——同時也是一名主張改革的政治家。他生於989年，父親早逝，母子二人不為范氏家族接納。范仲淹投師戚同文門下，寒窗苦讀，乃至「斷虀畫糜」（每天的飯食只有劃開的凝粥和醬菜），終於在科舉中取得官職。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>作為地方官員，范仲淹治獄嚴明，興修水利，深受百姓愛戴。然而，他的官運並不亨通，常因直言犯上被貶官。在李元昊叛亂自立西夏時，范仲淹被派遣去領兵對抗，直至宋朝和西夏達成和議。宋仁宗後來召回有軍功的范仲淹主持政事，范仲淹銳意改革，卻最終在宋仁宗失去信心和群臣反對下以失敗收場。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>范仲淹和他的政治盟友官運坎坷，卻也寫下無數名篇表現他們的政治抱負。其中贈予友人滕宗諒（即滕子京）的《岳陽樓記》中有名句「先天下之憂而憂，後天下之樂而樂」，可謂士大夫精神的模範。1052年，范仲淹病逝。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_NAME" Language="zh_Hant_HK">
+			<Text>歐陽修</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_1_NAME" Language="zh_Hant_HK">
+			<Text>《醉翁亭記》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_1_QUOTE" Language="zh_Hant_HK">
+			<Text>醉翁之意不在酒，在乎山水之間也。山水之樂，得之心而寓之酒也。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_2_NAME" Language="zh_Hant_HK">
+			<Text>《秋聲賦》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_2_QUOTE" Language="zh_Hant_HK">
+			<Text>童子曰︰「星月皎潔，明河在天，四無人聲，聲在樹間。」余曰︰「噫嘻，悲哉！此秋聲也。胡為乎來哉。」</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>歐陽修是宋朝的文學家。他生於1007年，幼年喪父，母親以蘆葦杆在灰土上教他認字。歐陽修後來通過科舉取得官職。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>歐陽修的官運一波三折，歷仕仁宗、英宗、神宗三朝，卻也有數次貶官的經歷。當范仲淹主持變法時，歐陽修支持變法，卻被視為朋黨。歐陽修在文學和歷史多有建樹，亦參與了二十四史之一的《新唐書》的編修工作。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>當王安石主政時，歐陽修推辭任用，並逐漸淡出官場。1072年，歐陽修病逝。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_NAME" Language="zh_Hant_HK">
+			<Text>曾鞏</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_1_NAME" Language="zh_Hant_HK">
+			<Text>《醒心亭記》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_1_QUOTE" Language="zh_Hant_HK">
+			<Text>吾君優遊而無為於上，吾民給足而無憾於下。天下之學者，皆為材且良；夷狄鳥獸草木之生者，皆得其宜，公樂也。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_2_NAME" Language="zh_Hant_HK">
+			<Text>《墨池記》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_2_QUOTE" Language="zh_Hant_HK">
+			<Text>羲之之書晚乃善，則其所能，蓋亦以精力自致者，非天成也。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>曾鞏是宋朝的文學家。他生於1019年，少時即以善於寫作古文聞名。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>曾鞏在二十歲時上書歐陽修，獲得後者的賞識，並在歐陽修貶離京城時跟隨學習古文。曾鞏後來在獲任於京城參與編修史書工作，並撰寫了大量序文。曾鞏後來被貶，亦作為地方官留下不少政績。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>晚年，曾鞏重新被調回京師，後因母喪而免官。1082年，曾鞏病逝。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_YUEYANG_TOWER_NAME" Language="zh_Hans_CN">
+			<Text>岳阳楼</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_YUEYANG_TOWER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>免费获得一个 [ICON_GreatWriter] 大作家。每座未完成的奇观令所在城市提供-10% [ICON_GreatPerson] 伟人点数。每座已完成的奇观（包括岳阳楼）令所在城市提供+10% [ICON_GreatPerson] 伟人点数。必须建造在邻近城市中心的河流旁边。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_YUEYANG_TOWER_QUOTE" Language="zh_Hans_CN">
+			<Text>先天下之忧而忧，[NEWLINE]后天下之乐而乐。[NEWLINE]——范仲淹</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_YUEYANG_TOWER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>岳阳楼坐落于洞庭湖畔，北倚长江，因其堂皇典雅的结构、格外亮眼的盔顶和山清水秀的景色，自古有“洞庭天下水，岳阳天下楼”的说法。岳阳楼原为三国时期鲁肃修建的阅军楼，在此监督水师练兵于洞庭湖。随着时间过去，岳阳楼逐渐失去军事上的功能。由于岳阳楼邻近长江和洞庭湖，水陆交通四通八达，加之楼台胜景，常有文人在从北方到南方的旅途上（不少是因受贬谪）登楼赋诗。北宋时期，滕宗谅（即滕子京）因受人诬衊被贬官岳州，重修岳阳楼和修建偃虹堤等设施。他在岳阳楼重修完成后致书文友范仲淹写一篇文章纪念此事，范仲淹则写下传世名篇《岳阳楼记》，名句“先天下之忧而忧，后天下之乐而乐”即出于此篇，可谓士大夫精神的模范。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_NAME" Language="zh_Hans_CN">
+			<Text>范仲淹</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_1_NAME" Language="zh_Hans_CN">
+			<Text>《灵乌赋》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_1_QUOTE" Language="zh_Hans_CN">
+			<Text>宁鸣而生，不默而死。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_2_NAME" Language="zh_Hans_CN">
+			<Text>《岳阳楼记》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_2_QUOTE" Language="zh_Hans_CN">
+			<Text>先天下之忧而忧，[NEWLINE]后天下之乐而乐。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>范仲淹是宋朝著名的文学家——同时也是一名主张改革的政治家。他生于989年，父亲早逝，母子二人不为范氏家族接纳。范仲淹投师戚同文门下，寒窗苦读，乃至“断虀画糜”（每天的饭食只有划开的凝粥和酱菜），终于在科举中取得官职。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>作为地方官员，范仲淹治狱严明，兴修水利，深受百姓爱戴。然而，他的官运并不亨通，常因直言犯上被贬官。在李元昊叛乱自立西夏时，范仲淹被派遣去领兵对抗，直至宋朝和西夏达成和议。宋仁宗后来召回有军功的范仲淹主持政事，范仲淹锐意改革，却最终在宋仁宗失去信心和群臣反对下以失败收场。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>范仲淹和他的政治盟友官运坎坷，却也写下无数名篇表现他们的政治抱负。其中赠予友人滕宗谅（即滕子京）的《岳阳楼记》中有名句“先天下之忧而忧，后天下之乐而乐”，可谓士大夫精神的模范。1052年，范仲淹病逝。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_NAME" Language="zh_Hans_CN">
+			<Text>欧阳修</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_1_NAME" Language="zh_Hans_CN">
+			<Text>《醉翁亭记》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_1_QUOTE" Language="zh_Hans_CN">
+			<Text>醉翁之意不在酒，在乎山水之间也。山水之乐，得之心而寓之酒也。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_2_NAME" Language="zh_Hans_CN">
+			<Text>《秋声赋》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_2_QUOTE" Language="zh_Hans_CN">
+			<Text>童子曰︰“星月皎洁，明河在天，四无人声，声在树间。”余曰︰“噫嘻，悲哉！此秋声也。胡为乎来哉。”</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>欧阳修是宋朝的文学家。他生于1007年，幼年丧父，母亲以芦苇杆在灰土上教他认字。欧阳修后来通过科举取得官职。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>欧阳修的官运一波三折，历仕仁宗、英宗、神宗三朝，却也有数次贬官的经历。当范仲淹主持变法时，欧阳修支持变法，却被视为朋党。欧阳修在文学和历史多有建树，亦参与了二十四史之一的《新唐书》的编修工作。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>当王安石主政时，欧阳修推辞任用，并逐渐淡出官场。1072年，欧阳修病逝。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_NAME" Language="zh_Hans_CN">
+			<Text>曾巩</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_1_NAME" Language="zh_Hans_CN">
+			<Text>《醒心亭记》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_1_QUOTE" Language="zh_Hans_CN">
+			<Text>吾君优游而无为于上，吾民给足而无憾于下。天下之学者，皆为材且良；夷狄鸟兽草木之生者，皆得其宜，公乐也。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_2_NAME" Language="zh_Hans_CN">
+			<Text>《墨池记》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_2_QUOTE" Language="zh_Hans_CN">
+			<Text>羲之之书晚乃善，则其所能，盖亦以精力自致者，非天成也。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>曾巩是宋朝的文学家。他生于1019年，少时即以善于写作古文闻名。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>曾巩在二十岁时上书欧阳修，获得后者的赏识，并在欧阳修贬离京城时跟随学习古文。曾巩后来在获任于京城参与编修史书工作，并撰写了大量序文。曾巩后来被贬，亦作为地方官留下不少政绩。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>晚年，曾巩重新被调回京师，后因母丧而免官。1082年，曾巩病逝。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_YUEYANG_TOWER_NAME" Language="ja_JP">
+			<Text>岳陽楼</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_YUEYANG_TOWER_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_GreatWriter] 大著述家を無料で1人得る。未完成の遺產1つにつき、都市の [ICON_GreatPerson] 偉人ポイント-10％。完成した遺產（岳陽楼を含む）1つにつき、都市の [ICON_GreatPerson] 偉人ポイント+10％。都心に隣接した川の隣にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_YUEYANG_TOWER_QUOTE" Language="ja_JP">
+			<Text>「天下の憂いに先んじて憂え、[NEWLINE]天下の楽しみに後れて楽しむ。」[NEWLINE]– 范仲淹</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_YUEYANG_TOWER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>岳陽楼は洞庭湖岸に位置し、北は長江に寄り添っている。その壮大で優雅な構造、ひときわ明るい兜屋根、そして美しい景観から、古来より「洞庭は天下の水、岳陽は天下の楼閣」と言われてきた。岳陽楼は元々、三国時代に魯粛が洞庭湖で水軍の訓練を監督するために建てた閱軍楼だった。時代の流れとともに、岳陽楼は次第に軍事的な機能を失っていった。長江や洞庭湖に隣接し、陸路でも水路でも行き来しやすく、風光明媚であったため、北から南へ旅する文人（多くは追放されたため）が度々訪れて詩を詠んだ。北宋の時代、滕宗諒（または滕子京）は讒言により岳州太守へ左遷され、岳陽楼の再建や偃虹堤などの施設を建設した。岳陽楼の修復が完了した後、彼は文友の范仲淹に手紙を書き、記念文の執筆を依頼した。范仲淹は有名な『岳陽楼記』を書いた。「天下の憂いに先んじて憂え、天下の楽しみに後れて楽しむ」という名文句は、まさに士大夫の精神を体現したものと言えよう。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_NAME" Language="ja_JP">
+			<Text>范仲淹</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_1_NAME" Language="ja_JP">
+			<Text>『霊烏賦』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_1_QUOTE" Language="ja_JP">
+			<Text>鳴いて死すとも、黙して生きず。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_2_NAME" Language="ja_JP">
+			<Text>『岳陽楼記』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_FAN_ZHONGYAN_2_QUOTE" Language="ja_JP">
+			<Text>天下の憂いに先んじて憂え、[NEWLINE]天下の楽しみに後れて楽しむ。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>范仲淹は宋の有名な学者で、改革を提唱した政治家でもある。 989年に生まれた范仲淹は、父を若くして亡くし、母子は范家に受け入れられなかった。 范仲淹は戚同文のもとで苦学し、毎日の食事は平粥と漬物だけだったという、ついに科挙で官職を得た。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>范仲淹は地方官として、厳しくも公正な統治と水道建設で民衆に愛された。しかし、官職には恵まれず、率直な発言や忠告でしばしば左遷された。李元昊が反乱を起こし、西夏政権を樹立すると、范仲淹は西夏が宋と和平協定を結ぶまで、西夏と戦う軍隊の指揮を執ることになった。仁宗皇帝は范仲淹の武功を称え、范仲淹を登用した。范仲淹は改革を断行しようとしたが、皇帝の宋仁宗が信心を失い、大臣たちが改革に反対したため、結局失敗した。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_FAN_ZHONGYAN_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>范仲淹と彼の政治的盟友たちは、官職での苦難の時期もあったが、政治的な志を表明するために数多くの有名な作文を書いた。その中には、友人の滕宗諒（または滕子京）に送った『岳陽楼記』がある。「天下の憂いに先んじて憂え、天下の楽しみに後れて楽しむ」という名文句は、まさに士大夫の精神を体現したものと言えよう。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_NAME" Language="ja_JP">
+			<Text>欧陽修</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_1_NAME" Language="ja_JP">
+			<Text>『醉翁亭記』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_1_QUOTE" Language="ja_JP">
+			<Text>醉翁の意、酒に在らず、山水の間に在る。山水の樂は、之を心に得て之を酒に寓する。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_2_NAME" Language="ja_JP">
+			<Text>『秋聲賦』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_OUYANG_XIU_2_QUOTE" Language="ja_JP">
+			<Text>童子曰く、星月皎潔にして、明河天に在り。四に人聲無く、聲は樹に在りと。余曰く、悲しい哉、此れ秋聲なり。胡為れぞ來れるや。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>欧陽修は宋の著名な作家である。1007年に生まれ、父親は早くに亡くなった。母親は、葦を使って土に字を書くことしか教えられなかった。やがて、科挙で官職を得た。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>彼の官職には紆余曲折があった。彼は仁宗、英宗、神宗の治世に仕えたが、何度も降格された。范仲淹が改革を担当したとき、欧陽詢は改革を支持したが、朋党とみなされた。欧陽詢は文学や歴史に多くの貢献をし、『二十四史』の一つである『新唐書』の編纂にも参加した。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_OUYANG_XIU_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>王安石が実権を握ると、欧陽修はその任を辞退し、次第に政治の中心から遠ざかっていった。1072年、欧陽修は病死した。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_NAME" Language="ja_JP">
+			<Text>曾鞏</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_1_NAME" Language="ja_JP">
+			<Text>『醒心亭記』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_1_QUOTE" Language="ja_JP">
+			<Text>吾が君は優遊して上にて無為、吾が民は満足して下にて無憾。天下の学者は皆、良材なり。夷狄、鳥獣、草木、生きとし生ける物皆、其の宜しきを得て、公の楽なり。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_2_NAME" Language="ja_JP">
+			<Text>『墨池記』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_ZENG_GONG_2_QUOTE" Language="ja_JP">
+			<Text>義之の書は、晩くして乃ち善し。則ち其の能くする所は、蓋し亦た精力を以て自ら致す者にして、天成に非ざるなり。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>曾鞏は宋の著名な作家である。曾鞏は1019年に生まれ、幼い頃から古典的な文体を得意としていた。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>曾鞏は欧陽修に手紙を書き、欧陽修に称賛された。欧陽修が降格して都を離れると、曾公は師に従って古文の作文に磨きをかけた。その後、欧陽修は昇進して都に仕え、古文の編纂に努め、多くの序文を書いた。降格後も地方官として多くの業績を残した。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_ZENG_GONG_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>晩年、曾鞏は再び都に召されたが、後に継母が亡くなったため、その職を離れた。1082年、曾鞏は病死した。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

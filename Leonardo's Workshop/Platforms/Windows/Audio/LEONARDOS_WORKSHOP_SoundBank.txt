@@ -1,0 +1,5 @@
+Event	ID	Name			Wwise Object Path	Notes
+	198841873	Play_BUILDING_LEONARDOS_WORKSHOP_Quote_1			\Music\Play_BUILDING_LEONARDOS_WORKSHOP_Quote_1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	352488230	Angel City Chorale,Christopher Tin - Sogno di Volare (
