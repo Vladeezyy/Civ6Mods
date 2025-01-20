@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Text -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:16 PM -->
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_BUILDING_HUBBLE_SPACE_TELESCOPE_NAME" Language="ru_RU">
+			<Text>Космический телескоп Хаббл</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUBBLE_SPACE_TELESCOPE_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет двух бесплатных [ICON_GreatScientist] Великих учёных. Получите космический центр на этой клетке. +25% [ICON_Production] производства к проектам космической гонки.[NEWLINE][NEWLINE]Должен быть построен на ровной земле.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUBBLE_SPACE_TELESCOPE_QUOTE" Language="ru_RU">
+			<Text>"Чудо не в том, что поле звёзд так обширно, а в том, что человек смог его измерить."[NEWLINE]– Анатоль Франс</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HUBBLE_SPACE_TELESCOPE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Названный в честь выдающегося американского астронома Эдвина Хаббла, космический телескоп Хаббл стал одним из самых важных инструментов для астрономических исследований за всю историю. Запущенный в 1990 году, телескоп постоянно предоставлял захватывающие изображения отдалённых созвездий и туманностей, привлекая внимание как учёных, так и широкой общественности. Это единственный космический телескоп, который может быть отремонтирован астронавтами, благодаря чему срок его службы был неоднократно продлён с помощью серии выходов в открытый космос. Однако, несмотря на его значительное наследие, космический телескоп Хаббл будет заменён в 2018 году более совершенным телескопом Джеймса Уэбба.</Text>
+		</Replace>
+
+	</BaseGameText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_HUBBLE_SPACE_TELESCOPE_NAME" Language="zh_Hant_HK">
+			<Text>哈伯太空望遠鏡</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUBBLE_SPACE_TELESCOPE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>免費獲得2個 [ICON_GreatScientist] 大科學家。所在單元格獲得一個太空中心。為太空競賽項目+25% [ICON_Production] 生產力。[NEWLINE][NEWLINE]必須建在平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUBBLE_SPACE_TELESCOPE_QUOTE" Language="zh_Hant_HK">
+			<Text>「奇蹟的不是那片星域如此遼闊，而是人類竟然成功測量了它。」[NEWLINE]——阿納托爾·法郎士</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HUBBLE_SPACE_TELESCOPE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>以美國著名天文學家愛德溫·哈伯來命名的哈伯太空望遠鏡，被公認是最具重要意義的天文學研究儀器發明。 發射於1990年的哈伯太空望遠鏡，接連不斷地傳回了奪人心弦的遙遠星座和星雲的照片，引起了科學家以及大眾的廣泛關注。 作為唯一一架由太空人檢修的太空望遠鏡，哈伯的服役時間透過一連串的太空行走不斷延長。 儘管有著矚目的傳奇經歷，哈伯太空望遠鏡最終將會在2018年被更先進的詹姆斯韋伯太空望遠鏡所取代。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_HUBBLE_SPACE_TELESCOPE_NAME" Language="zh_Hans_CN">
+			<Text>哈勃太空望远镜</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUBBLE_SPACE_TELESCOPE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>免费获得2个 [ICON_GreatScientist] 大科学家。所在单元格获得一个宇航中心。为太空竞赛项目+25% [ICON_Production] 生产力。[NEWLINE][NEWLINE]必须建在平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUBBLE_SPACE_TELESCOPE_QUOTE" Language="zh_Hans_CN">
+			<Text>“奇迹的不是那片星域如此潦阔，而是人类竟然成功测量了它。”[NEWLINE]——阿纳托尔·法郎士</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HUBBLE_SPACE_TELESCOPE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>以美国著名天文学家爱德温·哈勃来命名的哈勃太空望远镜，被公认是最具重要意义的天文学研究仪器发明。发射于1990年的哈勃太空望远镜，接连不断地传回了夺人心弦的遥远星座和星云的照片，引起了科学家以及大众的广泛关注。作为唯一一架由宇航员检修的太空望远镜，哈勃的服役时间通过一系列的太空行走被不断延长。尽管有着瞩目的传奇经历，哈勃太空望远镜最终将会在2018年被更加先进的詹姆斯·韦伯太空望远镜所替代。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_HUBBLE_SPACE_TELESCOPE_NAME" Language="ja_JP">
+			<Text>ハッブル宇宙望遠鏡</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUBBLE_SPACE_TELESCOPE_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_GreatScientist] 大科学者を無料で2人得る。所在するプロットにはスペースセンターを設置。宇宙開発競争プロジェクトの実現に対して [ICON_Production] 生産力+25%。[NEWLINE][NEWLINE]平らな土地にのみ建設可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUBBLE_SPACE_TELESCOPE_QUOTE" Language="ja_JP">
+			<Text>「驚異的なのは星域が広大であることではなく、人類がそれを測定することに成功したことです。」[NEWLINE]——アナトール・フランス</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HUBBLE_SPACE_TELESCOPE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>アメリカの著名な天文学者エドウィン・ハッブルにちなんで名付けられたハッブル宇宙望遠鏡は、天文学研究における最も重要な発明の一つとされています。1990年に打ち上げられたハッブル宇宙望遠鏡は、遠く離れた星座や星雲の息をのむような写真を次々と送り返し、科学者や一般の人々の広範な関心を集めました。宇宙飛行士によってメンテナンスされる唯一の望遠鏡であるハッブルは、一連の宇宙遊泳によってサービス期間が延長されました。注目に値する伝説的な経歴を持つにも関わらず、ハッブル宇宙望遠鏡は最終的に2018年により先進的なジェームズ・ウェッブ宇宙望遠鏡に取って代わられるでしょう。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

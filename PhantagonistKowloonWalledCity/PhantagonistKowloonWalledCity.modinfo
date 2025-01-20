@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5abcd725-3380-44d0-a20b-a0c724e35b1d" version="1">
+  <Properties>
+    <Name>LOC_PHANTA_KOWLOON_WALLED_CITY_MOD_NAME</Name>
+    <Description>LOC_PHANTA_KOWLOON_WALLED_CITY_MOD_DESCRIPTION</Description>
+    <Created>1715759388</Created>
+    <Teaser>LOC_PHANTA_KOWLOON_WALLED_CITY_MOD_DESCRIPTION</Teaser>
+    <Authors>Phantagonist, IthildinX</Authors>
+    <SpecialThanks>Jeremychit</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+<LocalizedText>
+    <Text id="LOC_PHANTA_KOWLOON_WALLED_CITY_MOD_NAME">
+      <en_US>Kowloon Walled City (World Wonder)</en_US>
+      <zh_Hans_CN>九龙寨城（世界奇观）</zh_Hans_CN>
+      <zh_Hant_HK>九龍寨城（世界奇觀）</zh_Hant_HK>
+      <ja_JP>九龍城砦（世界遺産）</ja_JP>
+    </Text>
+    <Text id="LOC_PHANTA_KOWLOON_WALLED_CITY_MOD_DESCRIPTION">
+      <en_US>Adds Kowloon Walled City as a World Wonder.</en_US>
+      <zh_Hans_CN>加入九龙寨城世界奇观。</zh_Hans_CN>
+      <zh_Hant_HK>加入九龍寨城世界奇觀。</zh_Hant_HK>
+      <ja_JP>世界遺産である九龍城砦を導入する。</ja_JP>
+    </Text>
+</LocalizedText>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>GameData/GameData_Core.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="NewAction">
+      <File>LOC_PHANTA_KOWLOON_WALLED_CITY_MOD_NAME.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="NewAction">
+      <File>GameData/GameData_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>Localization/Localization.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>GameData/GameData_Core.sql</File>
+    <File>GameData/GameData_Icons.sql</File>
+    <File>Localization/Localization.xml</File>
+    <File>LOC_PHANTA_KOWLOON_WALLED_CITY_MOD_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AdmiralSail_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_KLN Walled City HR2 1x3 1_d_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_KLN Walled City HR2 1x3 2_d_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_KLN Walled City HR2 1x3 3_d_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_KLN Walled City HR2 1x3 4_d_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_KLN Walled City HR2 1x3 CL 1_d_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RC_Palace_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 1_a</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 1_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 1_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 2_a</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 2_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 2_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 3_a</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 3_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 3_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 4_a</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 4_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 4_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 CL 1_a</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 CL 1_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 CL 1_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/StrategicView_Sprite.blp</File>
+    <File>Platforms/MacOS/BLPs/TileBase.blp</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_AdmiralSail_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_KLN Walled City HR2 1x3 1_d_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_KLN Walled City HR2 1x3 2_d_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_KLN Walled City HR2 1x3 3_d_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_KLN Walled City HR2 1x3 4_d_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_KLN Walled City HR2 1x3 CL 1_d_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RC_Palace_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 1_a</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 1_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 1_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 2_a</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 2_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 2_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 3_a</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 3_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 3_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 4_a</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 4_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 4_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 CL 1_a</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 CL 1_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_KLN Walled City HR2 1x3 CL 1_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/StrategicView_Sprite.blp</File>
+    <File>Platforms/Windows/BLPs/TileBase.blp</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+  </Files>
+</Mod>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: C -->
+<!-- DateCreated: 5/9/2024 3:00:08 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_BUILDING_C_LIANGZHU_CITY" IconSize="32" Filename="ICON_BUILDING_C_LIANGZHU_CITY_32"/>
+		<Row Name="ATLAS_ICON_BUILDING_C_LIANGZHU_CITY" IconSize="38" Filename="ICON_BUILDING_C_LIANGZHU_CITY_38"/>
+		<Row Name="ATLAS_ICON_BUILDING_C_LIANGZHU_CITY" IconSize="50" Filename="ICON_BUILDING_C_LIANGZHU_CITY_50"/>
+		<Row Name="ATLAS_ICON_BUILDING_C_LIANGZHU_CITY" IconSize="64" Filename="ICON_BUILDING_C_LIANGZHU_CITY_64"/>
+		<Row Name="ATLAS_ICON_BUILDING_C_LIANGZHU_CITY" IconSize="128" Filename="ICON_BUILDING_C_LIANGZHU_CITY_128"/>
+		<Row Name="ATLAS_ICON_BUILDING_C_LIANGZHU_CITY" IconSize="256" Filename="ICON_BUILDING_C_LIANGZHU_CITY_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_C_LIANGZHU_CITY" Atlas="ATLAS_ICON_BUILDING_C_LIANGZHU_CITY" Index="0"/>
+	</IconDefinitions>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_RESOURCE_C_LIANGZHU_CITY_JADE_CONG" IconSize="38" Filename="RESOURCE_YUCONG_38"/>
+		<Row Name="ATLAS_ICON_RESOURCE_C_LIANGZHU_CITY_JADE_CONG" IconSize="50" Filename="RESOURCE_YUCONG_50"/>
+		<Row Name="ATLAS_ICON_RESOURCE_C_LIANGZHU_CITY_JADE_CONG" IconSize="64" Filename="RESOURCE_YUCONG_64"/>
+		<Row Name="ATLAS_ICON_RESOURCE_C_LIANGZHU_CITY_JADE_CONG" IconSize="256" Filename="RESOURCE_YUCONG_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_RESOURCE_C_LIANGZHU_CITY_JADE_CONG" Atlas="ATLAS_ICON_RESOURCE_C_LIANGZHU_CITY_JADE_CONG" Index="0"/>
+	</IconDefinitions>
+	
+	<IconTextureAtlases>
+		<Row Name="ATLAS_RESOURCE_YUCONG" IconSize="22" Baseline="6" Filename="RESOURCE_YUCONG_22"/>
+		<Row Name="ICON_ATLAS_FONT_ICON_RESOURCE_YUCONG" IconSize="22" Baseline="6" Filename="RESOURCE_YUCONG_22"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="RESOURCE_YUCONG" Atlas="ATLAS_RESOURCE_YUCONG" Index="0"/>
+		<Row Name="RESOURCE_C_LIANGZHU_CITY_JADE_CONG" Atlas="ICON_ATLAS_FONT_ICON_RESOURCE_YUCONG" Index="0"/>
+	</IconDefinitions>
+</GameData>

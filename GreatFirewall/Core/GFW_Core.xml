@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Core -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:36:54 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_GREAT_FIREWALL"				Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_GREAT_FIREWALL"		Name="LOC_BUILDING_GREAT_FIREWALL_NAME" Description="LOC_BUILDING_GREAT_FIREWALL_DESCRIPTION" PrereqTech="TECH_COMPUTERS" Cost="1620" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="false"	ObsoleteEra="ERA_FUTURE" Quote="LOC_BUILDING_GREAT_FIREWALL_QUOTE"/>
+	</Buildings>
+	<Buildings_XP2>
+		<Row BuildingType="BUILDING_GREAT_FIREWALL"		RequiredPower="4"/>
+	</Buildings_XP2>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_GREAT_FIREWALL"			PrereqBuilding="BUILDING_PALACE"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_GREAT_FIREWALL"		YieldType="YIELD_SCIENCE"	YieldChange="5"/>
+	</Building_YieldChanges>
+	<Building_YieldChangesBonusWithPower>
+		<Row BuildingType="BUILDING_GREAT_FIREWALL"		YieldType="YIELD_SCIENCE"	YieldChange="10"/>
+	</Building_YieldChangesBonusWithPower>
+</GameData>

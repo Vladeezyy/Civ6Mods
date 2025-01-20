@@ -1,0 +1,17 @@
+INSERT INTO IconTextureAtlases
+		(Name,											IconSize,	IconsPerRow,	IconsPerColumn,	Filename)
+VALUES	('ICON_ATLAS_PHANTA_KOWLOON_WALLED_CITY',		32,			1,				1,				'ICON_BUILDING_PHANTA_KOWLOON_WALLED_CITY_32.dds'),
+		('ICON_ATLAS_PHANTA_KOWLOON_WALLED_CITY',		38,			1,				1,				'ICON_BUILDING_PHANTA_KOWLOON_WALLED_CITY_38.dds'),
+		('ICON_ATLAS_PHANTA_KOWLOON_WALLED_CITY',		50,			1,				1,				'ICON_BUILDING_PHANTA_KOWLOON_WALLED_CITY_50.dds'),
+		('ICON_ATLAS_PHANTA_KOWLOON_WALLED_CITY',		80,			1,				1,				'ICON_BUILDING_PHANTA_KOWLOON_WALLED_CITY_80.dds'),
+		('ICON_ATLAS_PHANTA_KOWLOON_WALLED_CITY',		128,		1,				1,				'ICON_BUILDING_PHANTA_KOWLOON_WALLED_CITY_128.dds'),
+		('ICON_ATLAS_PHANTA_KOWLOON_WALLED_CITY',		256,		1,				1,				'ICON_BUILDING_PHANTA_KOWLOON_WALLED_CITY_256.dds');
+--------------------------------------------------------------
+
+-- IconDefinitions
+--------------------------------------------------------------
+INSERT OR REPLACE INTO IconDefinitions
+		(Name,												Atlas,								'Index')
+VALUES	('ICON_BUILDING_PHANTA_KOWLOON_WALLED_CITY',		'ICON_ATLAS_PHANTA_KOWLOON_WALLED_CITY',	0),
+		('ICON_BUILDING_PHANTA_KOWLOON_WALLED_CITY_FOW',	'ICON_ATLAS_PHANTA_KOWLOON_WALLED_CITY',	0);
+--------------------------------------------------------------

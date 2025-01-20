@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_PHANTA_HIMEJI_CASTLE_NAME" Language="ru_RU">
+			<Text>Замок Химэдзи</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_HIMEJI_CASTLE_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет бесплатные Древние стены, Средневековые стены и уникальное здание Шиккуи в каждом городе. Обеспечивает те же бонусы к защите, что и улучшение Форт. Должен быть построен рядом с центром города.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_HIMEJI_CASTLE_QUOTE" Language="ru_RU">
+			<Text>«Созерцая Замок Белой Цапли, главный донжон величественно возвышался на фоне неба, и Хироко могла видеть его сквозь потоки машин. Старый ров был покрыт водным шелком, а старые ивы рядом безмолвно купались в дождевой воде.»[NEWLINE]– Миямото Юрико, "Равнина Бансю"</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_HIMEJI_CASTLE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Замок Химэдзи — один из самых сохранившихся японских замков. Его внешние стены покрыты снежно-белым шиккуи (традиционной японской известковой штукатуркой, изготовленной из гашеной извести и ракушек), а его форма напоминает цаплю, расправляющую крылья, благодаря чему замок заслужил почетное прозвище «Замок Белой Цапли». Построенный в XIV веке, замок был перестроен даймё, такими как Курода Ёситака и Икэда Тэрумаса, в период Сэнгоку, и были добавлены многие оборонительные элементы, такие как лабиринтные дороги и искусно расположенные башни для стрельбы из лука. Однако замок так и не был испытан в бою, так как период Сэнгоку подошел к концу. Замок Химэдзи пережил пожары эпохи Мэйдзи и бомбардировки Второй мировой войны без значительных повреждений, и «Замок без войны» встречает рассвет новой эры, сопровождаемый множеством легенд, таких как Осакэбе-химэ, спрятавшаяся в замке, и кайдан (история о привидении) Бансю Сараяшики.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHIKKUI_WALLS_NAME" Language="ru_RU">
+			<Text>Шиккуи стены</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHIKKUI_WALLS_DESCRIPTION" Language="ru_RU">
+			<Text>Здание, заменяющее Ренессансные стены, уникальное для цивилизации с чудом Замок Химэдзи. Обеспечивает более высокую внешнюю защиту, чем Ренессансные стены. +4 [ICON_Faith] Веры и содержит слот для Великого Произведения. +4 [ICON_Culture] Культуры и +4 [ICON_Tourism] Туризма, если находится рядом с любым чудом света.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PHANTA_SHIKKUI_WALLS_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Шиккуи — это традиционная японская известковая штукатурка, изготовленная из таких материалов, как гашеная известь и ракушки. Благодаря выдающейся эластичности и заметной устойчивости к воде и огню шиккуи широко используется в японской архитектуре. Замок Химэдзи покрыт снежно-белым шиккуи, благодаря чему получил почетное прозвище «Замок Белой Цапли».</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_HIMEJI_CASTLE_NAME" Language="zh_Hans_CN">
+			<Text>姬路城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_HIMEJI_CASTLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为所有城市提供远古城牆、中世纪城牆和漆喰城牆特色建筑。提供同堡垒改良设施一样的防禦加成。必须建造在相邻城市中心的单元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_HIMEJI_CASTLE_QUOTE" Language="zh_Hans_CN">
+			<Text>远观白鹭城，高耸入云的天守阁如此优美，落于自往復汽车眺望的宏子眼中。古旧的护城河为水绵复盖。护城河边的古柳无声地沐浴于雨水之中。[NEWLINE]——宫本百合子，《播州平野》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_HIMEJI_CASTLE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>姬路城是保存度极高的日本城堡。它的外牆涂刷雪白的漆喰（以熟石灰和贝类等原材料製成的日本传统灰泥），外形恰似振翅高飞的鹭鸟，赢得“白鹭城”的美誉。白鹭城始建于14世纪，在战国时代由黑田孝高和池田辉政等大名改建，加入了诸多防禦设计，迂迴曲折的道路和精妙佈置的箭塔，却未有实战测试的机会就迎来战国时代的终结。姬路城历经明治时期的火灾和第二次世界大战的空袭，本体却没有承受重大伤害，“不战之城”得以迎接新时代的到来，伴随它的众多传说——例如藏于城中的刑部姬和播州皿屋敷的怪谈。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHIKKUI_WALLS_NAME" Language="zh_Hans_CN">
+			<Text>漆喰城牆</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHIKKUI_WALLS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>专属于拥有姬路城奇观的文明的特色建筑，替代文艺復兴城牆。拥有更强的外部防禦力。+4 [ICON_Faith] 信仰值，且拥有1个巨作槽位。若相邻奇观，则+4 [ICON_Culture] 文化值和+4 [ICON_Tourism] 旅游业绩。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PHANTA_SHIKKUI_WALLS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>漆喰是日本传统的灰泥，以熟石灰和贝类等原材料製成。漆喰有相当的弹性，以及对水和火的一定抗性，被广泛用于日本建筑当中。姬路城的外牆涂刷雪白的漆喰，赢得“白鹭城”的美誉。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_HIMEJI_CASTLE_NAME" Language="zh_Hant_HK">
+			<Text>姬路城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_HIMEJI_CASTLE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>為所有城市提供遠古城牆、中世紀城牆和漆喰城牆特色建築。提供同堡壘改良設施一樣的防禦加成。必須建造在相鄰城市中心的單元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_HIMEJI_CASTLE_QUOTE" Language="zh_Hant_HK">
+			<Text>「遠觀白鷺城，高聳入雲的天守閣如此優美，落於自往復汽車眺望的宏子眼中。古舊的護城河為水綿覆蓋。護城河邊的古柳無聲地沐浴於雨水之中。」[NEWLINE]——宮本百合子，《播州平野》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_HIMEJI_CASTLE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>姬路城是保存度極高的日本城堡。它的外牆塗刷雪白的漆喰（以熟石灰和貝類等原材料製成的日本傳統灰泥），外形恰似振翅高飛的鷺鳥，贏得「白鷺城」的美譽。白鷺城始建於14世紀，在戰國時代由黑田孝高和池田輝政等大名改建，加入了諸多防禦設計，迂迴曲折的道路和精妙佈置的箭塔，卻未有實戰測試的機會就迎來戰國時代的終結。姬路城歷經明治時期的火災和第二次世界大戰的空襲，本體卻沒有承受重大傷害，「不戰之城」得以迎接新時代的到來，伴隨它的眾多傳說——例如藏於城中的刑部姬和播州皿屋敷的怪談。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHIKKUI_WALLS_NAME" Language="zh_Hant_HK">
+			<Text>漆喰城牆</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHIKKUI_WALLS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>專屬於擁有姬路城奇觀的文明的特色建築，替代文藝復興城牆。擁有更強的外部防禦力。+4 [ICON_Faith] 信仰值，且擁有1個巨作槽位。若相鄰奇觀，則+4 [ICON_Culture] 文化值和+4 [ICON_Tourism] 旅遊業績。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PHANTA_SHIKKUI_WALLS_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>漆喰是日本傳統的灰泥，以熟石灰和貝類等原材料製成。漆喰有相當的彈性，以及對水和火的一定抗性，被廣泛用於日本建築當中。姬路城的外牆塗刷雪白的漆喰，贏得「白鷺城」的美譽。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_HIMEJI_CASTLE_NAME" Language="ja_JP">
+			<Text>姫路城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_HIMEJI_CASTLE_DESCRIPTION" Language="ja_JP">
+			<Text>すべての都市は太古の防壁、中世の防壁と固有建造物「漆喰の防壁」を得る。要塞と同じ防御力ボーナスを得る。都心に隣接した土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_HIMEJI_CASTLE_QUOTE" Language="ja_JP">
+			<Text>「白鷺城は、遠目に見る天守閣の姿が空に浮きたって美しく、往復の汽車から眺めて通るひろ子の目にのこった。古い濠の水は青みどろに覆われていた。濠端の古い柳が、しずかに雨にもまれている。」[NEWLINE]– 宮本百合子、『播州平野』</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_HIMEJI_CASTLE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>姫路城は保存状態が極めて良好な日本の城である。その外壁は雪のように白い漆喰（消石灰や貝殻などを原料とする日本の伝統的な石灰）で塗られており、その風貌がサギの飛ぶ姿に似ていることから「白鷺城」という別名が付けられた。14世紀に築城されたこの城は、戦国時代に黒田孝高や池田輝政などの大名によって改築され、曲がりくねった道や細かく配置された櫓など、多くの防御設計が加えられたが、戦場で試されることなく戦国時代は幕を閉じた。 姫路城は、明治の大火や第二次世界大戦の空襲にもかかわらず大きな被害はなく、「不戦の城」は新しい時代を迎える、多くの伝説ととも - 例えば、城に隠れ住む刑部姫と播州皿屋敷の怪談とか。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHIKKUI_WALLS_NAME" Language="ja_JP">
+			<Text>漆喰の防壁</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHIKKUI_WALLS_DESCRIPTION" Language="ja_JP">
+			<Text>ルネサンス時代の防壁に取ってかわる姫路城固有の建造物。ルネサンス時代の防壁外郭の防御力はより高い。 [ICON_Faith] 信仰力+4、傑作スロットを1つ持つ。遺産が隣接している場合、 [ICON_Culture] 文化力+4、 [ICON_Tourism] 観光力+4。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PHANTA_SHIKKUI_WALLS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>漆喰は消石灰や貝殻などを原料とする日本の伝統的な石灰。弾力性に富み、耐水性、耐火性にも優れているため、日本の建築に広く用いられている。姫路城の外壁は雪のように白い漆喰で塗られており、「白鷺城」という別名が付けられた。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

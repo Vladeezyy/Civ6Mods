@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Text -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:16 PM -->
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_NAME" Language="ru_RU">
+			<Text>Великий файрвол</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_DESCRIPTION" Language="ru_RU">
+			<Text>Уровень вражеских шпионов снижен на 2 в ваших землях. Уровень ваших шпионов повышен на 1 для наступательных операций. Уровень вражеских шпионов дополнительно снижен на 2 при попытке действий в этом городе. [ICON_Tourism] Туризм от других игроков снижен на 33% по отношению к вашей цивилизации.[NEWLINE][NEWLINE]Должен быть построен в центре города [ICON_Capital] столицы.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_QUOTE" Language="ru_RU">
+			<Text>"Недоверие и осторожность — родители безопасности."[NEWLINE]– Бенджамин Франклин</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GREAT_FIREWALL_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Великий файрвол — это программа контроля и цензуры интернета, используемая для управления потоком информации, доступной населению цивилизации через интернет. Ограничивая доступ общественности к потенциально опасной информации в сети, государственные органы могут уменьшить вероятность недовольства и других форм протеста, связанных с непопулярной политикой и программами правительства.</Text>
+		</Replace>
+
+	</BaseGameText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_NAME" Language="zh_Hant_HK">
+			<Text>網路防火長城 </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在你的領土內，敵方間諜等級降低2級。你的間諜等級在攻擊性行動中增加1級。以此城市為目標時，敵方間諜的效力額外降低兩階。其他玩家對你的 [ICON_Tourism] 旅遊業績減少33%。[NEWLINE][NEWLINE]必須建造在 [ICON_Capital] 首都的城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_QUOTE" Language="zh_Hant_HK">
+			<Text>「不輕信和謹慎是安全之母。」[NEWLINE]——班傑明‧富蘭克林</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GREAT_FIREWALL_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>網路防火長城是一個限制性的網際網路監控審查系統，用於控制一國國民經由網際網路所能取得的資訊。 透過限制公眾對潛在多變的線上訊息的接觸，政府部門可以降低潛在的對立情緒和飽受質疑的政策及政府體系的反對聲音。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_NAME" Language="zh_Hans_CN">
+			<Text>网络防火长城 </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在你的领土内，敌方间谍等级降低2级。你的间谍等级在攻击性行动中增加1级。以此城市为目标时，敌方间谍的效力额外降低两阶。其他玩家对你的 [ICON_Tourism] 旅游业绩减少33%。[NEWLINE][NEWLINE]必须建造在 [ICON_Capital] 首都的城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_QUOTE" Language="zh_Hans_CN">
+			<Text>“不轻信和谨慎是安全之母。”[NEWLINE]——本杰明·富兰克林</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GREAT_FIREWALL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>网络防火长城是一个限制性的因特网监控审查系统，用于控制一国国民经由因特网所能获取的资讯。通过限制公众对潜在多变的线上信息的接触，政府部门可以降低潜在的对立情绪和饱受质疑的政策及政府系统的反对声音。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_NAME" Language="ja_JP">
+			<Text>グレート・ファイアウォール</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_DESCRIPTION" Language="ja_JP">
+			<Text>こちらの領土内にいる敵スパイのレベルが2低下し、自分のスパイが行動する際のレベルが1上昇する。この都市を狙う敵スパイのレベルがさらに2低下する。自文明に対する他のプレイヤーの [ICON_Tourism] 観光力-33%。[NEWLINE][NEWLINE][ICON_Capital] 首都の都心にのみ建設可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_QUOTE" Language="ja_JP">
+			<Text>「信じやすさと慎重さは安全の母である。」[NEWLINE]——ベンジャミン・フランクリン</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GREAT_FIREWALL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>グレート・ファイアウォールは、国民がインターネットを通じて得られる情報を制御するための制限的なインターネット監視検閲システムです。オンラインでの潜在的に多様な情報への公衆のアクセスを制限することで、政府は潜在的な対立感情や疑問を持たれている政策や政府システムに対する反対の声を減らすことができます。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

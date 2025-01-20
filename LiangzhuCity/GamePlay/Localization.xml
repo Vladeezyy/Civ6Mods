@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: C -->
+<!-- DateCreated: 5/9/2024 12:17:40 AM -->
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_BUILDING_C_LIANGZHU_CITY_NAME" Language="ru_RU">
+			<Text>Город Лянчжу</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_LIANGZHU_CITY_DESC" Language="ru_RU">
+			<Text>Открывает Плотины и Акведуки с технологией Гончарное дело. Каналы, Акведуки и Плотины дают +1 [ICON_CULTURE] Культуры и +1 [ICON_PRODUCTION] Производства за каждую соседнюю область. Город Лянчжу и каждая первая Плотина, Акведук и Канал предоставляют уникальный предмет роскоши: [ICON_RESOURCE_YUCONG] Нефритовый Цун. Должен быть построен вдоль реки.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_LIANGZHU_CITY_QUOTE" Language="ru_RU">
+			<Text>На восток к морю и на запад к пустыне, распространяя цивилизацию как на юг, так и на север, до мест обитания варваров. И тогда Ю получил черный нефрит, чтобы обозначить, что великое дело завершено. [NEWLINE]- Дань Ю, Книга Ся, Книга Документов</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_LIANGZHU_CITY_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>В 1936 году молодой картограф из Музея Западного озера в Ханчжоу обнаружил керамические осколки в своем родном городе Лянчжу, находящемся на окраине Ханчжоу. Вскоре туда прибыли другие археологи, чтобы раскрыть лицо древней неолитической цивилизации.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_LIANGZHU_CITY_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Культура Лянчжу является одной из представителей неолитической культуры Китая. Люди Лянчжу уже умели строить города, изготавливать керамику, лакированные изделия и нефрит. Древние города Лянчжу являются одними из самых ранних городских поселений в Китае, существовавшими с 3300 по 2300 гг. до н. э. Города культуры Лянчжу с их стенами, водными сооружениями и захоронениями знати показывают, что классовое управление и государственный аппарат уже существовали. Уже около 5000 года до н. э. народ Лянчжу начал сооружать гидротехнические сооружения, создав одну из самых ранних в мире систем водоснабжения, некоторые плотины которой функционируют и сегодня.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_LIANGZHU_CITY_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>Начиная с эпохи Западной Чжоу в Китае, начали распространяться легенды о легендарном основателе династии Ся, Да Ю, который управлял водой. Среди современных историков существует множество предположений о том, где именно правил Да Ю. Учитывая, что легендарная гробница Да Ю находится недалеко от Шаосина, вполне возможно предположить, что правителем культуры Лянчжу был Да Ю. Однако существует множество недостатков в этой теории, и до тех пор, пока не появятся более веские доказательства связи между династией Ся и Лянчжу, мы можем только строить догадки.</Text>
+		</Row>
+		<Row Tag="LOC_C_DISTRICT_1_CULTURE" Language="ru_RU">
+			<Text>+1 [ICON_CULTURE] Культуры за соседнюю область.</Text>
+		</Row>
+		<Row Tag="LOC_C_DISTRICT_1_PRODUCTION" Language="ru_RU">
+			<Text>+1 [ICON_PRODUCTION] Производства за соседнюю область.</Text>
+		</Row>
+		<Row Tag="LOC_RESOURCE_C_LIANGZHU_CITY_JADE_CONG_NAME" Language="ru_RU">
+			<Text>Нефритовый Цун</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_C_LIANGZHU_CITY_JADE_CONG_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Самым ярким символом культуры Лянчжу является нефрит. Самым знаковым из них является нефритовый цун — большой нефритовый цилиндр, посвященный богам, часто украшенный красивыми рельефными изображениями различных природных духов и монстров. Широкий спектр нефритовых биксов, цунов и боевых топоров отражает эстетику этих древних народов в их зарождающейся стадии (что, конечно, нужно воспринимать с точки зрения древних правителей). Древние правители, возможно, не осознавали, что нефрит станет любимым драгоценным камнем китайцев на тысячи лет вперед.</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_BUILDING_C_LIANGZHU_CITY_NAME" Language="zh_Hans_CN">
+			<Text>良渚古城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_LIANGZHU_CITY_DESC" Language="zh_Hans_CN">
+			<Text>研究“制陶术”科技后即可建造水渠、堤坝。水渠、堤坝和运河区域相邻每个区域获得+1 [ICON_CULTURE] 文化值和+1 [ICON_PRODUCTION] 生产力相邻加成。良渚古城和全国第一座水渠、堤坝和运河区域赠与一份特色奢侈品资源 [ICON_RESOURCE_YUCONG] 玉琮。必须建在河流旁边。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_LIANGZHU_CITY_QUOTE" Language="zh_Hans_CN">
+			<Text>东渐于海，西被于流沙，朔南暨，声教讫于四海。禹锡玄圭，告厥成功。[NEWLINE] ——《尚书·禹贡》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_LIANGZHU_CITY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>1936年，杭州市的西湖博物馆有一位年轻的制图师在他的故乡——杭州城郊的良渚镇发掘出了一些陶器碎片。很快，更多的考古学家来到这里，揭露了一个久远的新石器文明的面貌。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_LIANGZHU_CITY_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>良渚文化是中国新石器文化的代表之一，良渚文化的人民已经懂得建立城市、制造陶器、漆器、玉器。良渚古城是中国最早的一批城市定居点，活跃于公元前3300至2300年。良渚文化的带有城墙的城市、水利工程、贵族墓葬都显示出阶级统治和国家机器已经产生。早在公元前五千年左右，良渚人已经开始初步建立水利设施，建成了世界上最早的成熟水利系统，部分水坝至今仍然能发挥作用。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_LIANGZHU_CITY_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>从中国西周时期开始，有关夏代传说中的开创者大禹治水的传说开始盛行。在现代历史学家中，关于大禹究竟是何处的君主的说法层出不穷。鉴于传说中的大禹的陵墓就在不远的绍兴，良渚文化的统治者就是大禹的猜测不无根据。然而此说纰漏之处也很多，在更有力整句证明夏朝和良渚的关系之前，我们只能遐想。</Text>
+		</Row>
+		<Row Tag="LOC_RESOURCE_C_LIANGZHU_CITY_JADE_CONG_NAME" Language="zh_Hans_CN">
+			<Text>玉琮</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_C_LIANGZHU_CITY_JADE_CONG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>良渚文化最具代表性的符号是玉器。其中最具代表性的是玉琮，这是一种献给神明的大型玉制圆筒，上面往往有象征各种自然精怪的精美浮雕。琳琅满目的玉璧、玉琮和玉钺，体现了这些古老民族草创阶段的审美（当然这需要用古代统治者的角度来欣赏）。然而，古代统治者恐怕未能知晓的是玉作为中国人喜爱的宝石的历史往后还绵延了数千年。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_C_LIANGZHU_CITY_NAME" Language="zh_Hant_HK">
+			<Text>良渚古城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_LIANGZHU_CITY_DESC" Language="zh_Hant_HK">
+			<Text>研究「製陶術」科技後即可建造水渠、堤壩。水渠、堤壩和運河區域相鄰每個區域獲得+1 [ICON_CULTURE] 文化值和+1 [ICON_PRODUCTION] 生產力相鄰加成。良渚古城和全國第一座水渠、堤壩和運河區域贈與一份特色奢侈品資源 [ICON_RESOURCE_YUCONG] 玉琮。必須建在河流旁邊。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_LIANGZHU_CITY_QUOTE" Language="zh_Hant_HK">
+			<Text>東漸於海，西被於流沙，朔南暨，聲教訖於四海。禹錫玄圭，告厥成功。[NEWLINE] ——《尚書·禹貢》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_LIANGZHU_CITY_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>1936年，杭州市的西湖博物館有一位年輕的製圖師在他的故鄉——杭州城郊的良渚鎮發掘出了一些陶器碎片。很快，更多的考古學家來到這裏，揭露了一個久遠的新石器文明的面貌。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_LIANGZHU_CITY_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>良渚文化是中國新石器文化的代表之一，良渚文化的人民已經懂得建立城市、製造陶器、漆器、玉器。良渚古城是中國最早的一批城市定居點，活躍於公元前3300至2300年。良渚文化的帶有城墻的城市、水利工程、貴族墓葬都顯示出階級統治和國家機器已經產生。早在公元前五千年左右，良渚人已經開始初步建立水利設施，建成了世界上最早的成熟水利系統，部分水壩至今仍然能發揮作用。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_LIANGZHU_CITY_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>從中國西周時期開始，有關夏代傳說中的開創者大禹治水的傳說開始盛行。在現代歷史學家中，關於大禹究竟是何處的君主的說法層出不窮。鑒於傳說中的大禹的陵墓就在不遠的紹興，良渚文化的統治者就是大禹的猜測不無根據。然而此說紕漏之處也很多，在更有力整句證明夏朝和良渚的關系之前，我們只能遐想。</Text>
+		</Row>
+		<Row Tag="LOC_RESOURCE_C_LIANGZHU_CITY_JADE_CONG_NAME" Language="zh_Hant_HK">
+			<Text>玉琮</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_C_LIANGZHU_CITY_JADE_CONG_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>良渚文化最具代表性的符號是玉器。其中最具代表性的是玉琮，這是一種獻給神明的大型玉製圓筒，上面往往有象征各種自然精怪的精美浮雕。琳瑯滿目的玉璧、玉琮和玉鉞，體現了這些古老民族草創階段的審美（當然這需要用古代統治者的角度來欣賞）。然而，古代統治者恐怕未能知曉的是玉作為中國人喜愛的寶石的歷史往後還綿延了數千年。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_C_LIANGZHU_CITY_NAME" Language="ja_JP">
+			<Text>良渚古城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_LIANGZHU_CITY_DESC" Language="ja_JP">
+			<Text>用水路とダムは「陶磁器」を研究すると解除される。用水路、ダムと運河は隣接する区域ごとに [ICON_Culture] 文化力+1、 [ICON_Production] 生産力+1。良渚古城と最初の用水路、ダムと運河から高級資源の [ICON_RESOURCE_YUCONG] 玉琮を1つ得ることができる。川沿いにのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_LIANGZHU_CITY_QUOTE" Language="ja_JP">
+			<Text>「東は海へ、西は砂漠へ、南も北も蛮族の住む場所に文明を広めた。そこで禹は、自分が成し遂げた偉業を示すために玄玉を授けられた。」[NEWLINE]– 《尚書·禹貢》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_LIANGZHU_CITY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>1936年、杭州の西湖博物館にいた若い地図製作者が、故郷の杭州郊外の町、良渚で陶器の破片を発掘した。 まもなく、より多くの考古学者が到着し、大昔の新石器文明の面影を明らかにした。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_LIANGZHU_CITY_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>良渚文化は、中国を代表する新石器時代の文化のひとつである。良渚文化の人々は、すでに都市を建設し、陶器、漆器、玉器を作る方法を知っていた。良渚古城は、紀元前3300年から紀元前2300年にかけて活動した中国最古の都市集落のひとつである。良渚文化の都市には城壁、上水道、貴族の墓などがあり、階級支配と国家機構がすでに整っていたことを示している。紀元前5000年頃には、良渚の人々はすでに水利施設を築き始め、世界最古の成熟した水利システムを構築していた。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_LIANGZHU_CITY_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>中国の西周王朝時代から、夏王朝の創始者である伝説上の人物、大禹が水を司るという伝説が盛んになった。現代史家の間では、禹が実際に支配者であった場所については多くの主張がある。伝説上の大禹の墓が紹興からそう遠くないところにあることを考えると、良渚文化の支配者が大禹であったと推測するのは無理からぬことである。しかし、この説には多くの欠落があり、夏王朝と良渚の関係を示すより強力な証拠が出るまでは、推測するしかない。</Text>
+		</Row>
+		<Row Tag="LOC_RESOURCE_C_LIANGZHU_CITY_JADE_CONG_NAME" Language="ja_JP">
+			<Text>玉琮</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_C_LIANGZHU_CITY_JADE_CONG_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>良渚文化の最も象徴的なシンボルは玉器であり、その中でも最も象徴的なものは玉琮である。玉琮は、神々に捧げられた大きな玉の円筒で、さまざまな自然の精霊や怪物を象徴する精巧な浮き彫りが施されていることが多い。古代の支配者たちは知らなかっただろうが、玉は何千年もの間、中国人に最も愛されてきた宝石であり続けた。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

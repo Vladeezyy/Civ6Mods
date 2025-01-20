@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Core -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:36:54 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_HIMEJI_JO"				Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HIMEJI_WALL"			Kind="KIND_BUILDING"/>
+		<Row Type="ABILITY_HIMEJI_STR"				Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HIMEJI_MOV"				Kind="KIND_ABILITY"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_HIMEJI_JO"		Name="LOC_BUILDING_HIMEJI_JO_NAME"		Description="LOC_BUILDING_HIMEJI_JO_DESCRIPTION"	PrereqTech="TECH_GUNPOWDER" AdjacentDistrict="DISTRICT_CITY_CENTER"	Cost="920" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_MODERN" Quote="LOC_BUILDING_HIMEJI_JO_QUOTE" QuoteAudio="Play_Wonder_Music_Himeji"/>
+		<Row BuildingType="BUILDING_HIMEJI_WALL"	Name="LOC_BUILDING_HIMEJI_WALL_NAME"	Description="LOC_BUILDING_HIMEJI_WALL_DESCRIPTION"	PrereqTech="TECH_GUNPOWDER" PrereqDistrict="DISTRICT_CITY_CENTER"	Cost="260" AdvisorType="ADVISOR_GENERIC" OuterDefenseHitPoints="200" OuterDefenseStrength="3" TraitType="TRAIT_CIVILIZATION_NO_PLAYER"/>
+	</Buildings>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_HIMEJI_JO"		TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_HIMEJI_JO"		TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_HIMEJI_JO"		TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_HIMEJI_JO"		TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_HIMEJI_JO"		TerrainType="TERRAIN_DESERT"/>
+	</Building_ValidTerrains>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_HIMEJI_JO"		YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_HIMEJI_WALL"	YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_HIMEJI_JO"		GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_HIMEJI_WALL"		PrereqBuilding="BUILDING_CASTLE"/>
+	</BuildingPrereqs>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_HIMEJI_WALL"	ReplacesBuildingType="BUILDING_STAR_FORT"/>
+	</BuildingReplaces>
+
+	<TypeTags>
+		<Row Type="ABILITY_HIMEJI_STR"				Tag="CLASS_ALL_COMBAT_UNITS"/>
+		<Row Type="ABILITY_HIMEJI_MOV"				Tag="CLASS_ALL_UNITS"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_HIMEJI_STR"	Name="LOC_BUILDING_HIMEJI_JO_NAME" Description="LOC_ABILITY_HIMEJI_STR_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_HIMEJI_MOV"	Name="LOC_BUILDING_HIMEJI_JO_NAME" Description="LOC_ABILITY_HIMEJI_MOV_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+</GameData>
