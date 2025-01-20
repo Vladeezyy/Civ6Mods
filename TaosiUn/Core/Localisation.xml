@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: C -->
+<!-- DateCreated: 5/29/2024 3:10:28 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_NAME" Language="ru_RU">
+			<Text>Обсерватория Таоси</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_DESC" Language="ru_RU">
+			<Text>После завершения изучения технологии из новой эпохи, активируется [ICON_TechBoosted] Эврика этой эпохи. Этот бонус удваивается после изучения технологии «Астрономия». Должна быть построена вдоль реки и рядом с кампусом.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_QUOTE" Language="ru_RU">
+			<Text>«Так Яо приказал Сиши и Хеши, уважительно и осторожно следовать числу дней, прогнозировать законы солнца, луны и звёзд и составлять календарь, уважительно и осторожно говорить людям о небесных сезонах и праздниках.»[NEWLINE]- Кодекс Яо, Книга документов</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_TAOSI_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>С 1978 года археологические команды из различных китайских исследовательских институтов ведут раскопки большого количества артефактов, принадлежащих одной и той же поздненеолитической культуре, в центре долины реки Фэнь в провинции Шэньси. Эта культура, известная как «Культура Таоси», существовала примерно с 2300 по 1900 годы до нашей эры и получила название в честь деревни, где впервые были обнаружены артефакты этой культуры.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_TAOSI_OBSERVATORY_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Культура Таоси является одной из знаковых неолитических культур Китая, с её сложными погребальными ритуалами и хорошо спланированными городами, демонстрирующими зарождение цивилизации. Самыми выдающимися останками культуры Таоси является обсерватория в юго-восточном углу древнего города, которая является самой ранней астрономической обсерваторией, найденной в Восточной Азии. Это свидетельствует об исключительных астрономических и календарных достижениях древних китайцев. Очевидно, что в сознании китайцев постепенно формировалась связь между небом и землёй.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_TAOSI_OBSERVATORY_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>С момента открытия культуры Таоси идея о том, что она была страной Яо из Таотанга, никогда не умирала. Это, конечно, забавная и причудливая идея, однако, если опираться на факты, становится ясно, что большинство авторов легенд об древних императорах в эпоху династии Чжоу ещё не изучали археологию и не могли знать реальность древних людей неолитического периода.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_NAME" Language="zh_Hans_CN">
+			<Text>陶寺观象台</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_DESC" Language="zh_Hans_CN">
+			<Text>首次完成每个新时代中的任意一个科技，获得一个对应时代的 [ICON_TechBoosted] 尤里卡。研究“天文学”科技后，首次完成每个新时代中的任意一个科技，额外获得一个对应时代的 [ICON_TechBoosted] 尤里卡。必须建在相邻一座学院区域的河流旁边。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_QUOTE" Language="zh_Hans_CN">
+			<Text>乃命羲和，钦若昊天，历象日月星辰，敬授人时。[NEWLINE]——《尚书·尧典》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_TAOSI_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>从1978年开始，中国各个科研机构的考古团队陆陆续续的在陕西汾河谷地的核心地带发掘出大量属于同一个新石器晚期文化的文物。这个文化被称为“陶寺文化”，活跃于大约公元前2300年到公元前1900年，名字源自首次发现这个文化的文物的村庄。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_TAOSI_OBSERVATORY_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>陶寺文化是中国新石器文化的代表之一，复杂的丧仪、规划严整的城市显示出了文明初升的曙光。而陶寺文化最为突出的遗存是在古代城池东南一隅的观象台，这个观象台是目前发现的东亚最早天文观测遗迹，显示出了上古中国人非凡的天文和历法造诣。显然，上天和人间的关系在中国人心中逐步建立起来。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_TAOSI_OBSERVATORY_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>自从陶寺文化发现以来，认为陶寺文化既是唐尧之国的说法从未销声匿迹。这当然是一种趣味横生的奇思妙想，然而，如果要从事实出发，大多数处于周代的上古帝王传说作者显然还没研究出考古学，也是无法得知新石器时代古人的真实情况的。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_NAME" Language="zh_Hant_HK">
+			<Text>陶寺觀象臺</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_DESC" Language="zh_Hant_HK">
+			<Text>首次完成每個新時代中的任意一個科技，獲得一個對應時代的[ICON_TechBoosted] 尤里卡。研究「天文學」科技後，首次完成每個新時代中的任意一個科技，額外獲得一個對應時代的 [ICON_TechBoosted] 尤里卡。必須建在相鄰一座學院區域的河流旁邊。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_QUOTE" Language="zh_Hant_HK">
+			<Text>「乃命羲和，欽若昊天，歷象日月星辰，敬授人時。」[NEWLINE]——《尚書·堯典》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_TAOSI_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>從1978年開始，中國各個科研機構的考古團隊陸陸續續的在陜西汾河谷地的核心地帶發掘出大量屬於同一個新石器晚期文化的文物。這個文化被稱為「陶寺文化」，活躍於大約公元前2300年到公元前1900年，名字源自首次發現這個文化的文物的村莊。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_TAOSI_OBSERVATORY_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>陶寺文化是中國新石器文化的代表之一，複雜的喪儀、規劃嚴整的城市顯示出了文明初升的曙光。而陶寺文化最為突出的遺存是在古代城池東南一隅的觀象臺，這個觀象臺是目前發現的東亞最早天文觀測遺跡，顯示出了上古中國人非凡的天文和曆法造詣。顯然，上天和人間的關系在中國人心中逐步建立起來。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_TAOSI_OBSERVATORY_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>自從陶寺文化發現以來，認為陶寺文化既是唐堯之國的說法從未銷聲匿跡。這當然是一種趣味橫生的奇思妙想，然而，如果要從事實出發，大多數處於周代的上古帝王傳說作者顯然還沒研究出考古學，也是無法得知新石器時代古人的真實情況的。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_NAME" Language="ja_JP">
+			<Text>陶寺観象台</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_DESC" Language="ja_JP">
+			<Text>新しい時代の最初の技術が完成すると、その時代の [ICON_TechBoosted] ひらめきが得られる。「天文学」技術を研究すると、このボーナスは2倍になる。キャンパス区域に隣接した川沿いにのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_QUOTE" Language="ja_JP">
+			<Text>「彼は羲和に命じ、昊天を欽み、日月星辰を歷象し、敬して人に時を授う。」[NEWLINE]– 『尚書·堯典』</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_TAOSI_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>1978年以来、中国のさまざまな研究機関の考古学チームが、陝西省の汾河流域の中心部で、同じ後期新石器文化に属する多数の遺物を発掘してきた。「陶寺文化」として知られるこの文化は、紀元前2300年頃から紀元前1900年頃まで活動したもので、その名はこの文化の遺物が最初に発見された村に由来する。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_TAOSI_OBSERVATORY_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>陶寺文化は中国における新石器文化の代表的なもののひとつであり、複雑な葬儀と計画的に作られた都市は、文明の夜明けを示している。陶寺文化の最も目立つ遺構は、古代都市の東南隅にある観象台である。この観象台は、東アジアで発見された最古の天文観測所であり、古代中国人の並外れた天文・暦学技術を示している。明らかに、天と人との関係は中国人の心の中で徐々に確立されていった。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_TAOSI_OBSERVATORY_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>陶寺文化が発見されて以来、そこが陶唐氏の堯の王国だったという考えが消えることはない。もちろん、これは面白い話なのだが、事実を見れば、周代の古代皇帝に関する伝説の作者のほとんどが、まだ考古学を学んでおらず、新石器時代の古代人に実際に何が起こったのか知る由もないことは明らかである。</Text>
+		</Row>
+
+		<Replace Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_DESC_HD" Language="en_US">
+			<Text>When you complete a technology from a new era, triggers an [ICON_TechBoosted] Eureka of that era. This bonus is doubled after researching the Astronomy technology. +1% [ICON_SCIENCE] Science from [ICON_TechBoosted] Eureka, +2% bonus [ICON_SCIENCE] Science from [ICON_TechBoosted] Eureka after after researching the Astronomy technology. Must be built along a River and adjacent to a Campus District.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_DESC_HD" Language="zh_Hans_CN">
+			<Text>首次完成每个新时代中的任意一个科技，获得一个对应时代的 [ICON_TechBoosted] 尤里卡。研究“天文学”科技后，首次完成每个新时代中的任意一个科技，额外获得一个对应时代的 [ICON_TechBoosted] 尤里卡。 [ICON_TechBoosted] 尤里卡提供的 [ICON_SCIENCE] 科技值+1%，研究“天文学”科技后， [ICON_TechBoosted] 尤里卡提供的 [ICON_SCIENCE] 科技值额外+2%。必须建在相邻一座学院区域的河流旁边。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_DESC_HD" Language="zh_Hant_HK">
+			<Text>首次完成每個新時代中的任意一個科技，獲得一個對應時代的 [ICON_TechBoosted] 尤裏卡。研究「天文學」科技後，首次完成每個新時代中的任意一個科技，額外獲得一個對應時代的 [ICON_TechBoosted] 尤裏卡。 [ICON_TechBoosted] 尤裏卡提供的 [ICON_SCIENCE] 科技值+1%，研究「天文學」科技後， [ICON_TechBoosted] 尤裏卡提供的 [ICON_SCIENCE] 科技值額外+2%。必須建在相鄰一座學院區域的河流旁邊。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_C_TAOSI_OBSERVATORY_DESC_HD" Language="ja_JP">
+			<Text>新しい時代の最初の技術が完成すると、その時代の [ICON_TechBoosted] ひらめきが得られる。「天文学」技術を研究すると、このボーナスは2倍になる。 [ICON_TechBoosted] ひらめきが技術のコストにさらに10%のボーナスをもたらす。「天文学」技術を研究すると、このボーナスは3倍になる。キャンパス区域に隣接した川沿いにのみ建設可能。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

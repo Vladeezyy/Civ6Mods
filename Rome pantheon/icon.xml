@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- icon -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 5/9/2024 11:03:23 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_BUILDING_ROME_PANTHEON" IconSize="32" Filename="ICON_BUILDING_ROME_PANTHEON_32"/>
+		<Row Name="ATLAS_ICON_BUILDING_ROME_PANTHEON" IconSize="38" Filename="ICON_BUILDING_ROME_PANTHEON_38"/>
+		<Row Name="ATLAS_ICON_BUILDING_ROME_PANTHEON" IconSize="50" Filename="ICON_BUILDING_ROME_PANTHEON_50"/>
+		<Row Name="ATLAS_ICON_BUILDING_ROME_PANTHEON" IconSize="80" Filename="ICON_BUILDING_ROME_PANTHEON_80"/>
+		<Row Name="ATLAS_ICON_BUILDING_ROME_PANTHEON" IconSize="128" Filename="ICON_BUILDING_ROME_PANTHEON_128"/>
+		<Row Name="ATLAS_ICON_BUILDING_ROME_PANTHEON" IconSize="256" Filename="ICON_BUILDING_ROME_PANTHEON_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_ROME_PANTHEON" Atlas="ATLAS_ICON_BUILDING_ROME_PANTHEON" Index="0"/>
+	</IconDefinitions>
+</GameData>

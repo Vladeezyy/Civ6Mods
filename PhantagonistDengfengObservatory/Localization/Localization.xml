@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_PHANTA_DENGFENG_OBSERVATORY_NAME" Language="ru_RU">
+			<Text>Обсерватория в Дэнфэне</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DENGFENG_OBSERVATORY_DESCRIPTION" Language="ru_RU">
+			<Text>Активирует [ICON_TechBoosted] Эврику для технологии «Астрономия». Если Эврика уже активирована, вместо этого завершает исследование технологии. Кампусы, соседствующие с горами или чудом света (включая обсерваторию в Дэнфэне), получают +50% к бонусам соседства. Должна быть построена рядом с кампусом с университетом.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DENGFENG_OBSERVATORY_QUOTE" Language="ru_RU">
+			<Text>«И так главный писец Го Шоудзин изобрел упрощённую армиллу, чашеобразные солнечные часы и другие астрономические инструменты. Его разработки были изысканными, а его видение – беспрецедентным.»[NEWLINE]– История Юань</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_DENGFENG_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Строительство обсерватории в Дэнфэне началось в 1276 году под руководством Го Шоудзина, выдающегося астронома (а также математика и гидролога). Обсерватория имеет квадратное основание и форму перевёрнутой чаши. От террасы обсерватории простирается каменная направляющая, предназначенная для измерения длины тени, отбрасываемой солнцем. При правлении Хубилай-хана Го Шоудзин и его коллеги отправились в обсерваторию в Дэнфэне и другие точки наблюдения по всей стране, используя астрономические инструменты (некоторые из них были изобретены или усовершенствованы самим Го Шоудзином) для наблюдения за движением небесных тел и тонкими различиями во времени суток. Используя огромное количество данных астрономических наблюдений, Го Шоудзин составил календарь «Дарующий сезоны» и дал длину года в 365,2425 дня, что ближе к 365,2422 дням настоящего солнечного года, с точностью, равной григорианскому календарю, выпущенному три века спустя.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_DENGFENG_OBSERVATORY_NAME" Language="zh_Hans_CN">
+			<Text>登封观星台</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DENGFENG_OBSERVATORY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>触发“天文学”的 [ICON_TechBoosted] 尤里卡，如果已触发则解锁科技。相邻山脉或奇观（包括登封观星台）的学院获得+50%相邻加成。必须建造在相邻学院区域（须建有大学）的单元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DENGFENG_OBSERVATORY_QUOTE" Language="zh_Hans_CN">
+			<Text>于是太史郭守敬者，出其所创简仪、仰仪及诸仪表，皆臻于精妙，卓见绝识，盖有古人所未及者。[NEWLINE]——《元史》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_DENGFENG_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>位于登封的观星台始建于1276年，由天文学家（也是数学家和水利学家）郭守敬主持建造。观星台的主体基座方正，形如覆斗，一道石圭从台体延伸而出，用于量度日影长短。在忽必烈的治下，郭守敬和他的同僚前往登封观星台和全国各地的观察点，运用天文观察仪器（部分由郭守敬发明或改良）观察天体运行轨迹和各地时刻的微妙差别。运用大量的天文观察数据，郭守敬编制《授时历》，计算出一回归年为365.2625天，比更古旧的历法更接近实际回归年365.2622天，精度与三世纪后的格里高利历相当。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_DENGFENG_OBSERVATORY_NAME" Language="zh_Hant_HK">
+			<Text>登封觀星臺</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DENGFENG_OBSERVATORY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>觸發「天文學」的 [ICON_TechBoosted] 尤里卡，如果已觸發則解鎖科技。相鄰山脈或奇觀（包括登封觀星臺）的學院獲得+50%相鄰加成。必須建造在相鄰學院區域（須建有大學）的單元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DENGFENG_OBSERVATORY_QUOTE" Language="zh_Hant_HK">
+			<Text>「於是太史郭守敬者，出其所創簡儀、仰儀及諸儀表，皆臻於精妙，卓見絕識，蓋有古人所未及者。」[NEWLINE]——《元史》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_DENGFENG_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>位於登封的觀星臺始建於1276年，由天文學家（也是數學家和水利學家）郭守敬主持建造。觀星臺的主體基座方正，形如覆斗，一道石圭從臺體延伸而出，用於量度日影長短。在忽必烈的治下，郭守敬和他的同僚前往登封觀星臺和全國各地的觀察點，運用天文觀察儀器（部分由郭守敬發明或改良）觀察天體運行軌跡和各地時刻的微妙差別。運用大量的天文觀察數據，郭守敬編制《授時曆》，計算出一回歸年為365.2625天，比更古舊的曆法更接近實際回歸年365.2622天，精度與三世紀後的格里高利曆相當。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_DENGFENG_OBSERVATORY_NAME" Language="ja_JP">
+			<Text>登封観星台</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DENGFENG_OBSERVATORY_DESCRIPTION" Language="ja_JP">
+			<Text>「天文学」に対して [ICON_TechBoosted] ひらめきを発動。すでに発動している場合は研究が完了する。山岳や遺産 (登封観星台を含む)に隣接したキャンパス区域の隣接ボーナス+50%。大学が存在するキャンパス区域に隣接した土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DENGFENG_OBSERVATORY_QUOTE" Language="ja_JP">
+			<Text>「こうして太史である郭守敬は、簡儀、仰儀、その他の天文観測器具を発明した。彼の設計は精巧で、その構想は前人未踏の境地であった。」[NEWLINE]– 『元史』</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_DENGFENG_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>登封観星台の建設は1276年、著名な天文学者（同時に数学者、水利学者でもあった）郭守敬の監督のもとで始まった。天文台は正方形の土台を持ち、ひっくり返した柄杓のような形をしている。天文台のテラスからは石圭が伸びており、これは太陽からの影の長さを測るために作られた。フビライ・ハンの治世下、郭守敬とその同僚たちは登封天文台をはじめとする全国の観測所に向かい、天文観測器具（郭守敬自身が発明または改良したものもある）を使って天体の動きや僅かな時差を観測した。膨大な天文観測資料を活用し、郭守敬は『授時暦』を編纂し、実際の太陽暦の365.2422日に近い365.2425日という長さを、3世紀後に発行されたグレゴリオ暦と同等の精度で算出した。</Text>
+		</Row>
+
+
+
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 7/5/2024 9:59:43 AM -->
+<GameData>
+	<BuildingModifiers>
+		<Delete BuildingType="BUILDING_TERRACOTTA_ARMY" ModifierId="TERRACOTTA_ARMY_ARCHAEOLOGIST_OPEN_BORDERS"/>
+	</BuildingModifiers>
+</GameData>

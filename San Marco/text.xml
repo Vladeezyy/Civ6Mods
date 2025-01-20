@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- text -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 6/7/2024 12:12:06 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_PALAZZO_DUCALE_NAME" Language="ru_RU">
+			<Text>Дворец Дожей</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PALAZZO_DUCALE_DESCRIPTION" Language="ru_RU">
+			<Text>Открывает юнитов: Венецианский наемник, Венецианский крестоносец и Венецианский корабль, и предоставляет по одному из этих юнитов. Увеличивает лимит [ICON_TradeRoute] торговых путей на 1 и предоставляет бесплатного торговца. Должен быть построен на побережье, рядом с центром города, в котором построен маяк.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PALAZZO_DUCALE_QUOTE" Language="ru_RU">
+			<Text>«Не всё то золото, что блестит —[NEWLINE]Часто это вы слышали.[NEWLINE]Многие продали свою жизнь,[NEWLINE]Но лишь внешность мою увидали.»[NEWLINE]- Уильям Шекспир, «Венецианский купец»</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PALAZZO_DUCALE_NAME" Language="ru_RU">
+			<Text>Четвертый крестовый поход: Победы в бою приносят [ICON_Gold] золото, равное 200% от базовой [ICON_Strength] силы юнита (на стандартной скорости).</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_A_NAME" Language="ru_RU">
+			<Text>Венецианский наемник</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_A_DESCRIPTION" Language="ru_RU">
+			<Text>Ближневой юнит, уникальный для цивилизации, построившей Дворец Дожей. Победы в бою приносят [ICON_Gold] золото, равное 200% от базовой [ICON_Strength] силы юнита (на стандартной скорости).</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_B_NAME" Language="ru_RU">
+			<Text>Венецианский крестоносец</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_B_DESCRIPTION" Language="ru_RU">
+			<Text>Тяжелая кавалерия, уникальная для цивилизации, построившей Дворец Дожей. Победы в бою приносят [ICON_Gold] золото, равное 200% от базовой [ICON_Strength] силы юнита (на стандартной скорости).</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_C_NAME" Language="ru_RU">
+			<Text>Венецианский корабль</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_C_DESCRIPTION" Language="ru_RU">
+			<Text>Морской ближневой юнит, уникальный для цивилизации, построившей Дворец Дожей. Победы в бою приносят [ICON_Gold] золото, равное 200% от базовой [ICON_Strength] силы юнита (на стандартной скорости).</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PALAZZO_DUCALE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Республика Венеция управлялась дожами, а Дворец Дожей был одновременно резиденцией дожей и местом работы правительства. Строительство нынешнего Дворца Дожей началось в 1340 году. Этот дворец, выходящий на лагуны на юге и расположенный рядом с базиликой Сан-Марко, сочетает в себе венецианскую готику и ренессансные шедевры искусства. В этом великолепном здании размещался дож того времени и множество государственных институтов. Здесь могущественные торгово-аристократические семьи вели обсуждения и плели заговоры ради максимальной выгоды для Венецианской республики — и для своих семей.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VEN_A_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>В отличие от других европейских королевств, полагавшихся на феодальных рыцарей, Республика Венеция и другие итальянские города-государства предпочитали наемников. Лидеры итальянских наемников были известны как кондотьеры, и они сражались за королей и пап под денежными контрактами. Богатые купцы Республики Венеция нанимали наемников, чтобы обеспечить безопасность своих активов и торговых путей — или чтобы их соперники больше не представляли угрозы.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VEN_B_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Дипломаты Республики Венеция могли и не быть движимы религиозным рвением к борьбе с мусульманами на чужой земле. Но это не обязательно мешало им участвовать в крестовых походах, а иногда и манипулировать ими. Во время Четвертого крестового похода Энрико Дандоло, дож Венеции, заключил сделку с крестоносцами о перевозке их солдат на военных кораблях в обмен на крупную сумму денег. Когда крестоносцы не смогли заплатить, Энрико Дандоло предложил атаковать и разграбить Зару, объявившую независимость от Республики Венеция. Насладившись грабежами, Энрико Дандоло и крестоносцы даже нацелились на Константинополь, столицу Восточной Римской империи, и в 1204 году захватили и разграбили крупнейший город христианского мира. Это позволило Республике Венеция захватить значительную часть территорий Восточной Римской империи и установить коммерческое и морское господство в Средиземноморье.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VEN_C_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Республика Венеция поддерживала мощный флот для установления господства в Средиземноморье. Первые венецианские военные корабли были галерами, но позже были разработаны большие галеасы для участия в морских сражениях. Во время битвы при Лепанто Республика Венеция отправила 109 галер и 6 галеасов с союзниками, чтобы победить флот Османской империи. Когда суда с парусами стали нормой, Республика Венеция последовала за прогрессом, строя галеоны и линейные корабли.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PALAZZO_DUCALE_NAME" Language="zh_Hans_CN">
+			<Text>威尼斯总督府</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PALAZZO_DUCALE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁并获得1个威尼斯佣兵、威尼斯十字军和威尼斯风帆战船。+1 [ICON_TradeRoute] 贸易路线容量。获得1个商人单位。必须建造在邻近市中心（此城市需有灯塔）的海岸上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PALAZZO_DUCALE_QUOTE" Language="zh_Hans_CN">
+			<Text>发闪光的不全是黄金，[NEWLINE]古人的说话没有骗人；[NEWLINE]多少世人出卖了一生，[NEWLINE]不过看到了我的外形。[NEWLINE]——威廉·莎士比亚，《威尼斯商人》 </Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PALAZZO_DUCALE_NAME" Language="zh_Hans_CN">
+			<Text>第四次十字东征：击杀单位可获得等同于被击杀单位 [ICON_Strength] 战斗力200%的 [ICON_Gold] 金币（标准速度下）。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_A_NAME" Language="zh_Hans_CN">
+			<Text>威尼斯佣兵</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_A_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>威尼斯总督府特色近战单位。击杀单位可获得等同于被击杀单位 [ICON_Strength] 战斗力200%的 [ICON_Gold] 金币（标准速度下）。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_B_NAME" Language="zh_Hans_CN">
+			<Text>威尼斯十字军</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_B_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>威尼斯总督府特色重骑兵单位。击杀单位可获得等同于被击杀单位 [ICON_Strength] 战斗力200%的 [ICON_Gold] 金币（标准速度下）。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_C_NAME" Language="zh_Hans_CN">
+			<Text>威尼斯风帆战船</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_C_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>威尼斯总督府特色海军近战单位。击杀单位可获得等同于被击杀单位 [ICON_Strength] 战斗力200%的 [ICON_Gold] 金币（标准速度下）。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PALAZZO_DUCALE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>威尼斯共和国的国家元首为总督（Doge），总督府即是总督居所与行政中心。现存的威尼斯总督府始建于1340年，南望威尼斯潟湖，紧邻圣马可教堂，结合了威尼斯哥德建筑风格和文艺復兴艺术作品。这座宏伟的建筑既是威尼斯总督的住所，也是威尼斯共和国众多政府机关的驻地，富裕的商业贵族在此商议和密谋，以谋图威尼斯共和国——以及自己家族——的最大利益。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VEN_A_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>与仰赖封建骑士的欧洲王国不同，威尼斯共和国与其他意大利城邦倾向使用僱佣兵作战。意大利僱佣兵的首领被称为「condottiero」，根据报酬为各国君主和教宗而战。威尼斯共和国的富商僱用佣兵，以保护自己的资产和商路安全——或者确保竞争势力不会再威胁到自己。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VEN_B_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>威尼斯共和国的权贵或许不会被宗教狂热驱使前往异国土地上与穆斯林血战。但这不代表他们不会以另一种形式参与乃至操纵十字军。第四次十字军时，威尼斯总督恩里科·丹多洛与十字军达成一项协议，以一笔巨额报酬为代价以战舰运送十字军兵士。当十字军无法支付款项时，恩里科·丹多洛以此提议十字军攻击并劫掠从威尼斯共和国独立的扎拉。食髓知味的恩里科·丹多洛和十字军甚至将攻击矛头指向东罗马帝国首都君士坦丁堡，并在1204年攻陷并洗劫这座基督教世界最大的城市，威尼斯共和国则藉此佔去大量东罗马帝国的领土，并确立地中海上的商业和海军霸权。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VEN_C_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>威尼斯共和国维持强大的海军舰队，以确保地中海上的霸权。最早的威尼斯战船是桨帆船，后来发展出大型的加莱赛战船，参与地中海上大大小小的海上战事。在勒班陀战役中，威尼斯共和国派出109艘桨帆船和6艘加莱赛战船，与其盟友在此战中击败了奥斯曼帝国的舰队。当风帆战船成为主流后，威尼斯共和国亦与时并进，建造盖伦帆船和战列舰。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PALAZZO_DUCALE_NAME" Language="zh_Hant_HK">
+			<Text>威尼斯總督府</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PALAZZO_DUCALE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>解鎖並獲得1個威尼斯傭兵、威尼斯十字軍和威尼斯風帆戰船。+1 [ICON_TradeRoute] 貿易路線容量。獲得1個商人單位。必須建造在鄰近城市中心（此城市需有燈塔）的海岸上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PALAZZO_DUCALE_QUOTE" Language="zh_Hant_HK">
+			<Text>「發閃光的不全是黃金，[NEWLINE]古人的說話沒有騙人；[NEWLINE]多少世人出賣了一生，[NEWLINE]不過看到了我的外形。」[NEWLINE]——威廉·莎士比亞，《威尼斯商人》 </Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PALAZZO_DUCALE_NAME" Language="zh_Hant_HK">
+			<Text>第四次十字東征：擊殺單位可獲得等同於被擊殺單位 [ICON_Strength] 戰鬥力200%的 [ICON_Gold] 金幣（標準速度下）。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_A_NAME" Language="zh_Hant_HK">
+			<Text>威尼斯傭兵</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_A_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>威尼斯總督府特色近戰單位。擊殺單位可獲得等同於被擊殺單位 [ICON_Strength] 戰鬥力200%的 [ICON_Gold] 金幣（標準速度下）。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_B_NAME" Language="zh_Hant_HK">
+			<Text>威尼斯十字軍</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_B_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>威尼斯總督府特色重騎兵單位。擊殺單位可獲得等同於被擊殺單位 [ICON_Strength] 戰鬥力200%的 [ICON_Gold] 金幣（標準速度下）。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_C_NAME" Language="zh_Hant_HK">
+			<Text>威尼斯風帆戰船</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>威尼斯總督府特色海軍近戰單位。擊殺單位可獲得等同於被擊殺單位 [ICON_Strength] 戰鬥力200%的 [ICON_Gold] 金幣（標準速度下）。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PALAZZO_DUCALE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>威尼斯共和國的國家元首為總督（Doge），總督府即是總督居所與行政中心。現存的威尼斯總督府始建於1340年，南望威尼斯潟湖，緊鄰聖馬可教堂，結合了威尼斯哥德建築風格和文藝復興藝術作品。這座宏偉的建築既是威尼斯總督的住所，也是威尼斯共和國眾多政府機關的駐地，富裕的商業貴族在此商議和密謀，以謀圖威尼斯共和國——以及自己家族——的最大利益。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VEN_A_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>與仰賴封建騎士的歐洲王國不同，威尼斯共和國與其他意大利城邦傾向使用僱傭兵作戰。意大利僱傭兵的首領被稱為「condottiero」，根據報酬為各國君主和教宗而戰。威尼斯共和國的富商僱用傭兵，以保護自己的資產和商路安全——或者確保競爭勢力不會再威脅到自己。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VEN_B_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>威尼斯共和國的權貴或許不會被宗教狂熱驅使前往異國土地上與穆斯林血戰。但這不代表他們不會以另一種形式參與乃至操縱十字軍。第四次十字軍時，威尼斯總督恩里科·丹多洛與十字軍達成一項協議，以一筆巨額報酬為代價以戰艦運送十字軍兵士。當十字軍無法支付款項時，恩里科·丹多洛以此提議十字軍攻擊並劫掠從威尼斯共和國獨立的扎拉。食髓知味的恩里科·丹多洛和十字軍甚至將攻擊矛頭指向東羅馬帝國首都君士坦丁堡，並在1204年攻陷並洗劫這座基督教世界最大的城市，威尼斯共和國則藉此佔去大量東羅馬帝國的領土，並確立地中海上的商業和海軍霸權。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VEN_C_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>威尼斯共和國維持強大的海軍艦隊，以確保地中海上的霸權。最早的威尼斯戰船是槳帆船，後來發展出大型的加萊賽戰船，參與地中海上大大小小的海上戰事。在勒班陀戰役中，威尼斯共和國派出109艘槳帆船和6艘加萊賽戰船，與其盟友在此戰中擊敗了奧斯曼帝國的艦隊。當風帆戰船成為主流後，威尼斯共和國亦與時並進，建造蓋倫帆船和戰列艦。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PALAZZO_DUCALE_NAME" Language="ja_JP">
+			<Text>ドゥカーレ宮殿</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PALAZZO_DUCALE_DESCRIPTION" Language="ja_JP">
+			<Text>ヴェネツィアの傭兵、ヴェネツィアの十字軍、ヴェネツィアの軍艦を生產できるようになり、それぞれ1ユニットを得る。 [ICON_TradeRoute] 交易路の数+1。交易商ユニットを1つ得る。灯台のある都市で、都心に隣接した沿岸にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PALAZZO_DUCALE_QUOTE" Language="ja_JP">
+			<Text>「輝くもの必ずしも金ならず[NEWLINE]汝、この言葉を幾たびも耳にせしはず——[NEWLINE]我が面にのみ目を向けるあまり[NEWLINE]命売りし者あまたあり」[NEWLINE]- ウィリアム・シェイクスピア、『ヴェニスの商人』</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PALAZZO_DUCALE_NAME" Language="ja_JP">
+			<Text>第四回十字軍：戦闘に勝利すると、そのユニットの基本 [ICON_Strength] 戦闘力の200%に相当する [ICON_Gold] ゴールドを得る (標準のスピードで) 。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_A_NAME" Language="ja_JP">
+			<Text>ヴェネツィアの傭兵</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_A_DESCRIPTION" Language="ja_JP">
+			<Text>ドゥカーレ宮殿固有の近接戦闘ユニット。戦闘に勝利すると、そのユニットの基本 [ICON_Strength] 戦闘力の200%に相当する [ICON_Gold] ゴールドを得る (標準のスピードで) 。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_B_NAME" Language="ja_JP">
+			<Text>ヴェネツィアの十字軍</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_B_DESCRIPTION" Language="ja_JP">
+			<Text>ドゥカーレ宮殿固有の重騎兵ユニット。戦闘に勝利すると、そのユニットの基本 [ICON_Strength] 戦闘力の200%に相当する [ICON_Gold] ゴールドを得る (標準のスピードで) 。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_C_NAME" Language="ja_JP">
+			<Text>ヴェネツィアの軍艦</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VEN_C_DESCRIPTION" Language="ja_JP">
+			<Text>ドゥカーレ宮殿固有の海洋近接戦闘ユニット。戦闘に勝利すると、そのユニットの基本 [ICON_Strength] 戦闘力の200%に相当する [ICON_Gold] ゴールドを得る (標準のスピードで) 。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PALAZZO_DUCALE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ヴェネツィア共和国はドージェによって統治されており、ドゥカーレ宮殿はドージェの住居であると同時に政府の所在地でもあった。現存するドゥカーレ宮殿は1340年に建設が開始された。南の潟湖に面し、サン・マルコ寺院に隣接するこの建物は、ヴェネチアン・ゴシック様式の建築とルネサンス期の偉大な芸術作品が融合している。この壮麗な建築物には、当時のドージェや多くの政府機関が収容され、有力な商人貴族たちは、ヴェネツィア共和国の最大利益のため、そして自分たちの家族最大利益のために、ここで議論や陰謀を巡らせた。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VEN_A_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>封建騎士に頼る他のヨーロッパの王国とは異なり、ヴェネツィア共和国をはじめとするイタリアの都市国家は傭兵を好んだ。イタリアの傭兵のリーダーはコンドッティエリと呼ばれ、金銭的な契約に基づいて王や教皇のために戦った。ヴェネツィア共和国の裕福な商人たちは、自分たちの資産や交易路が脅威から守られるように、あるいはライバルが脅威を与えなくなるように、傭兵を雇っていた。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VEN_B_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ヴェネツィア共和国の要人たちは、宗教的熱情に駆られて異国の地でイスラム教徒と戦うことはなかったかもしれない。だからといって、彼らが十字軍に別の形で参加すること、さらには工作することまで避けるとは限らない。第四回十字軍の際、ヴェネツィアのドージェであったエンリコ・ダンドロは、多額の金と引き換えに、十字軍の兵士を軍艦で輸送する契約を十字軍と結んだ。十字軍が代金を支払えなくなると、エンリコ・ダンドロは、ヴェネツィア共和国からの独立を宣言したザラを攻撃し、略奪することを提案した。略奪の甘美さを味わったエンリコ・ダンドロと十字軍は、東ローマ帝国の首都コンスタンティノープルにまで狙いを定め、1204年、キリスト教圏最大の都市を占領し略奪した。これにより、ヴェネツィア共和国は東ローマ帝国の領土を大量に占領し、地中海における商業と海軍の覇権を確立した。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VEN_C_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ヴェネツィア共和国は、地中海における覇権を確立するため、強大な艦隊を維持した。ヴェネツィアの初期の軍艦はガレー船だったが、後に地中海全域での海戦で戦うための大型ガレアス船が開発された。レパントの海戦では、ヴェネツィア共和国は109隻のガレー船と6隻のガレアス船を派遣し、同盟国とともにオスマン帝国の艦隊を打ち破った。帆船が主流になると、ヴェネツィア共和国はガレオン船や戦列艦を建造して対応した。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

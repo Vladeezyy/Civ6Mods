@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0db0a70d-c39b-40cb-a02b-c9878de44d25" version="1">
+  <Properties>
+    <Name>LOC_C_TAOSI_NAME</Name>
+    <Description>LOC_C_TAOSI_DESCRIPTION</Description>
+    <Created>1716999147</Created>
+    <Teaser>LOC_C_TAOSI_TEASER</Teaser>
+    <Authors>C,IthildinX,Phantagonist</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_C_TAOSI_NAME">
+      <en_US>Taosi Observatory (World Wonder)</en_US>
+      <zh_Hans_CN>陶寺观象台（世界奇观）</zh_Hans_CN>
+      <zh_Hant_HK>陶寺觀象臺（世界奇觀）</zh_Hant_HK>
+    </Text>
+     <Text id="LOC_C_TAOSI_TEASER">
+      <en_US>Adds Taosi Observatory as a World Wonder.</en_US>
+      <zh_Hans_CN>添加了陶寺观象台作为世界奇观。</zh_Hans_CN>
+      <zh_Hant_HK>添加了陶寺觀象臺作為世界奇觀。</zh_Hant_HK>
+    </Text>
+     <Text id="LOC_C_TAOSI_DESCRIPTION">
+      <en_US>Adds Taosi Observatory as a World Wonder.It provide more Science.</en_US>
+      <zh_Hans_CN>添加了陶寺观象台作为世界奇观。能够提供可观的科技值加成。</zh_Hans_CN>
+      <zh_Hant_HK>添加了陶寺觀象臺作為世界奇觀。能夠提供可觀的科技值加成。</zh_Hant_HK>
+    </Text>
+  </LocalizedText>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="HD_ModSuppot">
+      <ModInUse>521b8777-0977-4859-a5ee-3e411a732e5c</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>10000000</LoadOrder>
+      </Properties>
+      <File>Core/TaosiObservatory.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="Art">
+      <File>My Custom Mod.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Icon">
+      <File>Core/TaosiIcon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>Core/Localisation.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="ModSupport" criteria="HD_ModSuppot">
+      <Properties>
+        <LoadOrder>10000001</LoadOrder>
+      </Properties>
+      <File>Core/HDSupport.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Core/HDSupport.sql</File>
+    <File>Core/Localisation.xml</File>
+    <File>Core/TaosiIcon.xml</File>
+    <File>Core/TaosiObservatory.sql</File>
+    <File>My Custom Mod.dep</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_AW_Base_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Stonehenge_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Base_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Base_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Base_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Base_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Bld_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Stonehenge_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Stonehenge_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Stonehenge_N1</File>
+    <File>Platforms/MacOS/BLPs/TileBase.blp</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_AW_Base_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Stonehenge_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Base_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Base_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Base_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Base_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Bld_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Stonehenge_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Stonehenge_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Stonehenge_N1</File>
+    <File>Platforms/Windows/BLPs/TileBase.blp</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+  </Files>
+</Mod>

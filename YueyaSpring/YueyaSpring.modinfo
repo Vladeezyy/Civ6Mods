@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b1944973-9a89-422e-ba47-a0b3dd0d6403" version="1">
+  <Properties>
+    <Name>LOC_YUEYA_SPRING_NAME</Name>
+    <Description>LOC_YUEYA_SPRING_DESCRIPTION</Description>
+    <Created>1720835113</Created>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Authors>IthildinX</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>Core/YS_Core.xml</File>
+      <File>Core/YS_Modifier.sql</File>
+    </UpdateDatabase>
+    <AddGameplayScripts id="NewAction">
+      <File>Core/YS_Modifier.lua</File>
+    </AddGameplayScripts>
+    <UpdateText id="NewAction">
+      <File>Core/YS_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="NewAction">
+      <File>Core/YS_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="NewAction">
+      <File>YueyaSpring.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <LocalizedText>
+    <Text id="LOC_YUEYA_SPRING_NAME">
+      <zh_Hant_HK>鳴沙山．月牙泉（世界奇觀）</zh_Hant_HK>
+      <zh_Hans_CN>鸣沙山．月牙泉（世界奇观）</zh_Hans_CN>
+      <ja_JP>月牙泉・鳴沙山（世界遺產）</ja_JP>
+      <en_US>Singing Sand Dunes.Crescent Lake (World Wonder)</en_US>
+    </Text>
+    <Text id="LOC_YUEYA_SPRING_DESCRIPTION">
+      <zh_Hant_HK>世界奇觀：鳴沙山．月牙泉</zh_Hant_HK>
+      <zh_Hans_CN>世界奇观：鸣沙山．月牙泉</zh_Hans_CN>
+      <ja_JP>世界遺產：月牙泉・鳴沙山</ja_JP>
+      <en_US>World Wonder: Singing Sand Dunes.Crescent Lake</en_US>
+    </Text>
+  </LocalizedText>
+  <Files>
+    <File>ArtDefs/WaterMaterials.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Core/YS_Core.xml</File>
+    <File>Core/YS_Icon.xml</File>
+    <File>Core/YS_Modifier.lua</File>
+    <File>Core/YS_Modifier.sql</File>
+    <File>Core/YS_Text.xml</File>
+    <File>Core/YS_WonderFilter.sql</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/BLOB_Hex_Flatten_HMedit</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/BLOB_WON_YueyaSpring_HMEdit</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/BLOB_WON_YueyaSpring_HMEdit2</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_785d270_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_79edc70_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_White_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Grass_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_4d51cb0_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_509c070_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_7854ff0_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_7858e90_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_785c350_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_785d270_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_7868610_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_79edc70_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_7a75110_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_7a80170_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_7a8b250_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_White_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Grass_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterTemp_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterTemp_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterTemp_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterTiling_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Water_O</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/BLOB_Hex_Flatten_HMedit</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/BLOB_WON_YueyaSpring_HMEdit</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/BLOB_WON_YueyaSpring_HMEdit2</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_785d270_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_79edc70_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_White_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Grass_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_4d51cb0_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_509c070_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_7854ff0_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_7858e90_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_785c350_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_785d270_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_7868610_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_79edc70_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_7a75110_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_7a80170_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_7a8b250_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_White_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Grass_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WaterTemp_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WaterTemp_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WaterTemp_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WaterTiling_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Water_O</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>YueyaSpring.dep</File>
+  </Files>
+</Mod>

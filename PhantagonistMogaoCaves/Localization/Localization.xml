@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_PHANTA_MOGAO_CAVES_NAME" Language="ru_RU">
+			<Text>Пещеры Могао</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MOGAO_CAVES_DESCRIPTION" Language="ru_RU">
+			<Text>Международные [ICON_TradeRoute] торговые пути дают +2 [ICON_Culture] Культуры и +2 [ICON_Faith] Веры. Торговцы за пределами родной территории приносят +1 [ICON_GreatArtist] очко Великого художника. Должны быть построены на пустынных холмах.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MOGAO_CAVES_QUOTE" Language="ru_RU">
+			<Text>«Истоки Пещер Могао начинаются со второго года Цзяньянь периода бывшей династии Цинь. Буддийский монах Лэцзун следовал заповедям аскетизма и искал душевный покой. Когда он бродил по лесам и достиг этой горы, он увидел золотые лучи света, словно тысячи Будд. Тогда он вырезал скалы и превратил грот в святилище.»[NEWLINE]– Надпись Ли на стеле восстановления Пещер Могао</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_MOGAO_CAVES_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Пещеры Могао, расположенные в Дуньхуане, важном городе на Великом шелковом пути, известны как «Пещеры Тысячи Будд» благодаря своим богатым и великолепным буддийским фрескам и скульптурам. Пещеры Могао впервые были созданы странствующими монахами во времена Шестнадцати царств, а затем процветали благодаря поддержке правящих кругов, горячо принявших буддизм. Во времена династий Суй и Тан Дуньхуан стал как коммерческим центром на Шелковом пути, так и религиозным центром паломничества благодаря множеству буддийских гротов и святынь. Строительство пещер прекратилось во времена династии Юань. Во времена династии Цинь обнаружение тайного хранилища, полного священных текстов и картин разных эпох («Пещера-библиотека»), привлекло внимание иностранных исследователей и торговцев антиквариатом, что сопровождалось потерями и разрушениями ценных культурных артефактов. В современное время исследователи посвятили свои усилия сохранению и реставрации Пещер Могао, и, изучая искусство и тексты разных эпох, можно получить представление о культурном, религиозном и экономическом ландшафте Китая через века.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_MOGAO_CAVES_NAME" Language="zh_Hans_CN">
+			<Text>莫高窟</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MOGAO_CAVES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>国际 [ICON_TradeRoute] 贸易路线提供+2 [ICON_Culture] 文化值和+2 [ICON_Faith] 信仰值。位于祖国领土外的商人提供+1 [ICON_GreatArtist] 大艺术家点数。必须建造在沙漠丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MOGAO_CAVES_QUOTE" Language="zh_Hans_CN">
+			<Text>莫高窟者，厥初秦建元二年，有沙门乐僔，戒行清虚，执心恬静。尝杖锡林野，行至此山，忽见金光，状有千佛，遂架空凿岩，造窟一龛。[NEWLINE]——《李君莫高窟佛龛碑》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_MOGAO_CAVES_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>莫高窟坐落于丝路重镇敦煌，因其宏富辉煌的佛教壁画和凋塑被誉为“千佛洞”。莫高窟始建于五胡十六国时期，最初由云游四方的僧人开凿洞窟，后来在崇信佛教的统治阶层支持下得以蓬勃发展。在隋唐时期，敦煌既是丝绸之路的商业枢纽，为数众多的石窟佛龛亦令当地成为各方朝圣的宗教中心。莫高窟的造窟运动在元朝息微。清朝时期，一处满载各朝书画文献的秘室（即“藏经洞”）重见天日，引起了外国探险者和文物商人的注意——伴随宝贵文物的流失和破坏。现代，研究者致力于莫高窟的保护和修復，并通过探究历朝的艺术和文献，得以窥见当时的文化、宗教和经济景象。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MOGAO_CAVES_NAME" Language="zh_Hant_HK">
+			<Text>莫高窟</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MOGAO_CAVES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>國際 [ICON_TradeRoute] 貿易路線提供+2 [ICON_Culture] 文化值和+2 [ICON_Faith] 信仰值。位於祖國領土外的商人提供+1 [ICON_GreatArtist] 大藝術家點數。必須建造在沙漠丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MOGAO_CAVES_QUOTE" Language="zh_Hant_HK">
+			<Text>「莫高窟者，厥初秦建元二年，有沙門樂僔，戒行清虛，執心恬靜。嘗杖錫林野，行至此山，忽見金光，狀有千佛，遂架空鑿岩，造窟一龕。」[NEWLINE]——《李君莫高窟佛龕碑》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_MOGAO_CAVES_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>莫高窟坐落於絲路重鎮敦煌，因其宏富輝煌的佛教壁畫和雕塑被譽為「千佛洞」。莫高窟始建於五胡十六國時期，最初由雲遊四方的僧人開鑿洞窟，後來在崇信佛教的統治階層支持下得以蓬勃發展。在隋唐時期，敦煌既是絲綢之路的商業樞紐，為數眾多的石窟佛龕亦令當地成為各方朝聖的宗教中心。莫高窟的造窟運動在元朝息微。清朝時期，一處滿載各朝書畫文獻的秘室（即「藏經洞」）重見天日，引起了外國探險者和文物商人的注意——伴隨寶貴文物的流失和破壞。現代，研究者致力於莫高窟的保護和修復，並通過探究歷朝的藝術和文獻，得以窺見當時的文化、宗教和經濟景象。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MOGAO_CAVES_NAME" Language="ja_JP">
+			<Text>莫高窟</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MOGAO_CAVES_DESCRIPTION" Language="ja_JP">
+			<Text>国際 [ICON_TradeRoute] 交易路の [ICON_Culture] 文化力+2、 [ICON_Faith] 信仰力+2。領土の外の交易商1つにつき [ICON_GreatArtist] 大芸術家ポイント+1。砂漠 (丘陵)にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_MOGAO_CAVES_QUOTE" Language="ja_JP">
+			<Text>「莫高窟の起源は、初秦の建元2年に遡る。僧の楽僔は清虛の戒律に従い、静けさを求めた。彼は森をさまよい、この山にたどり着いたとき、金色の光を目にし、あたかも千の仏がいるかのようであった。そこで彼は岩を削り、石窟を龕とした。」[NEWLINE]– 『李君莫高窟仏龕碑』</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_MOGAO_CAVES_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>シルクロードの要衝である敦煌にある莫高窟は、その豊かで華麗な仏教壁画や彫刻から「千仏洞」と呼ばれている。莫高窟は、十六国時代に旅の僧たちによって造られたのが始まりで、その後、仏教を熱心に受け入れた支配階級の支援によって繁栄した。隋と唐の時代には、敦煌はシルクロードの商業の中心地であると同時に、多くの仏教石窟や祠堂があることで、宗教的な巡礼の中心地にもなった。洞窟の建設は元王朝の時代に途絶えた。清朝時代には、各王朝の書物や絵画で埋まった密室（いわゆる「蔵経窟」）が発見され、外国の探検家や古美術商の注目を集めたが、それに伴って貴重な文化財が流失したり破壊されたりした。現代では、研究者たちが莫高窟の保存と修復に力を注いでおり、各王朝の美術品や経典を探ることで、時代を超えた中国の文化的、宗教的、経済的景観を垣間見ることができる。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- text -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 5/9/2024 10:48:21 AM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_ROME_PANTHEON_NAME" Language="ru_RU">
+			<Text>Пантеон</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ROME_PANTHEON_DESCRIPTION" Language="ru_RU">
+			<Text>Позволяет обучать неконсульских юнитов, уникальных для других цивилизаций или лидеров, если их базовая боевая сила фиксирована и не превышает 50, а также они не обладают способностью отступать в случае поражения. Должен быть построен на равнинных клетках.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ROME_PANTHEON_QUOTE" Language="ru_RU">
+			<Text>«Удача не только слепа сама по себе, но и ослепляет тех, кого она обнимает.»[NEWLINE]- Цицерон</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ROME_PANTHEON_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>После победы в битве при Акции Марк Агриппа поручил строительство нескольких зданий, включая Пантеон. Пантеон примечателен не только своими внушительными размерами, но и элегантным дизайном портика и купола. Портик состоит из 16 монолитных колонн, доставленных из Египта. Бетонный купол держал звание крупнейшего купола в мире более 13 веков, пока его не превзошел купол Санта-Мария-дель-Фьоре во Флоренции. Первоначально Пантеон служил местом почитания римских божеств, но позже был преобразован в католическую церковь. Несмотря на это, Пантеон остается самым хорошо сохранившимся зданием Древнего Рима, а его форма с портиком и куполом вдохновила множество построек по всему миру.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_ROME_PANTHEON_NAME" Language="ja_JP">
+			<Text>パンテオン</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ROME_PANTHEON_DESCRIPTION" Language="ja_JP">
+			<Text>
+				他の文明や指導者の非民間人ユニットを訓練できる、他の文明や指導者の非民間人ユニットを訓練できる、ただし、基本戦闘力が固定で50以下であり、敗北時に退却する能力を有していないことを条件とする。。平らな土地にのみ建設可能。
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ROME_PANTHEON_QUOTE" Language="ja_JP">
+			<Text>「運命は、それ自身が盲目であるだけでなく、常に助ける者たちを盲目にする。」[NEWLINE]– キケロ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ROME_PANTHEON_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>アクティウムの戦いの勝利の後、マルクス・アグリッパはパンテオンを含む多くの建物の建設を命じた。パンテオンは、その巨大さだけでなく、ポルチコとドームの優雅なデザインでも際立っている。ポルチコは、はるばるエジプトから運ばれた16本の一枚岩の柱で構成されている。コンクリート製のドームは13世紀以上もの間、フィレンツェのサンタ・マリア・デル・フィオーレに抜かれるまで世界最大のドームの記録を保持していた。パンテオンはローマ神話の神々を祀っていたが、その後カトリック教会に転用された。ともあれ、パンテオンは最も保存状態のよいローマ時代の建造物であり、そのポルチコとドームを組み合わせた姿は世界中の数多くの建造物に多大な影響を与えた。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ROME_PANTHEON_NAME" Language="zh_Hans_CN">
+			<Text>万神殿</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ROME_PANTHEON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可以生产其他文明或领袖的非平民特色单位，前提是战斗力不大于50且固定战斗力和无法在被击杀时撤退。必须建造在平坦地形上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ROME_PANTHEON_QUOTE" Language="zh_Hans_CN">
+			<Text>命运非唯自身盲目，更常令受助者盲目。[NEWLINE]——西塞罗</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ROME_PANTHEON_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>在亚克兴战役取得胜利后，马库斯·阿格里帕建造了包括万神殿在内的许多建筑。万神殿的名气不仅来自它宏大的规模，更来自其门廊和穹顶的优雅设计。万神殿的门廊由16根从埃及运来的独石柱形成，而它的混凝土穹顶保持世界最大穹顶的的纪录长达13个世纪有余，直到被佛罗伦萨的圣母百花大教堂打破。万神殿曾是崇拜罗马诸神的神庙，后来则被改建成天主教堂。尽管如此，万神殿仍是保存最完好的罗马建筑，而其门廊和穹顶的形式对世界各地的建筑产生深远的影响。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ROME_PANTHEON_NAME" Language="zh_Hant_HK">
+			<Text>萬神殿</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ROME_PANTHEON_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>可以生産其他文明或領袖的非平民特色單位，前提是戰鬥力不大於50且固定戰鬥力和無法在被擊殺時撤退。必須建造在平坦地形上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ROME_PANTHEON_QUOTE" Language="zh_Hant_HK">
+			<Text>「命運非唯自身盲目，更常令受助者盲目。」[NEWLINE]——西塞羅</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ROME_PANTHEON_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>在亞克興戰役取得勝利後，馬庫斯·阿格里帕建造了包括萬神殿在內的許多建築。萬神殿的名氣不僅來自它宏大的規模，更來自其門廊和穹頂的優雅設計。萬神殿的門廊由16根從埃及運來的獨石柱形成，而它的混凝土穹頂保持世界最大穹頂的的紀錄長達13個世紀有餘，直到被佛羅倫薩的聖母百花大教堂打破。萬神殿曾是崇拜羅馬諸神的神廟，後來則被改建成天主教堂。儘管如此，萬神殿仍是保存最完好的羅馬建築，而其門廊和穹頂的形式對世界各地的建築産生深遠的影響。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

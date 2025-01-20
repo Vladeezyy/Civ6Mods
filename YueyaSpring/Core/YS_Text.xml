@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Text -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:16 PM -->
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_BUILDING_YUEYA_SPRING_NAME">
+			<Text>Поющие пески и Озеро Полумесяца</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEYA_SPRING_DESCRIPTION">
+			<Text>Боевые единицы, обученные в этом городе или входящие в прилегающие клетки, получают способность "Источник медицины" (восстанавливает здоровье в конце каждого хода, даже после перемещения или атаки). +50% [ICON_Tourism] туризма к цивилизациям, с которыми у вас есть [ICON_TradeRoute] торговый путь.[NEWLINE][NEWLINE]Должно быть построено на оазисе.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEYA_SPRING_QUOTE">
+			<Text>«Священный источник этого знаменитого места остаётся прозрачным до самого рассвета, а Вово известен, как и прежде. Залив, подобный полумесяцу, только что взошедшему, ясные волны на полустене так же ярки, как зеркало.[NEWLINE]Ветер никогда не поднимает летучий песок, а глубокий бассейн содержит неподвижную воду, по-настоящему живую. Часто играю у павильона, наслаждаясь ароматом чая и заваривая его сам.» [NEWLINE]- Су Люцзи, "Ода восьми сценам Дуньхуана - Ясный звук Шалин"[NEWLINE][NEWLINE]«Шачжоу был известным местом с древних времён, и эта земля действительно знаменита своими звуками. Слыша затянувшийся звук грома, ветер создаёт тонкие звуки, шепчущиеся как разговор.[NEWLINE]Сложенные, как гора, достигающая тысячи футов в высоту, они отражают солнце и освещают все шесть углов. Искусное мастерство опирается на человеческие усилия, и звук можно услышать мгновенно.» [NEWLINE]- Су Люцзи, "Ода восьми сценам Дуньхуана - Рассвет у источника Юэцюань"</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YUEYA_SPRING_CHAPTER_HISTORY_PARA_1">
+			<Text>Поющие пески в Дуньхуане, Китай, — это песчаные дюны, которые при ветре издают звуки, похожие на пение или барабанный бой. Изначально они назывались "Песками богов". В "Исторических записях" Сыма Цянь описывал эти звуки как "будто слушаешь музыку в ясную погоду". Во времена династии Мин они получили своё нынешнее название.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YUEYA_SPRING_CHAPTER_HISTORY_PARA_2">
+			<Text>Юэцюань — это озеро в форме полумесяца в оазисе. Оно получило своё название во времена династии Цин. Милдред Кейбл и Франческа Френч посетили озеро во время своих путешествий по региону в 1932 году и оставили свои впечатления в книге "Пустыня Гоби": "Вокруг нас были ярус за ярусом высоких песчаных дюн, которые противоречили нашей цели, но когда, приложив последнее отчаянное усилие, мы перевалились через последний гребень и посмотрели вниз, на то, что лежало за ним, мы увидели озеро ниже, и его красота была завораживающей."</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YUEYA_SPRING_NAME">
+			<Text>Источник медицины</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YUEYA_SPRING_DESCRIPTION">
+			<Text>Источник медицины: Восстанавливает здоровье в конце каждого хода, даже после перемещения или атаки.</Text>
+		</Replace>
+	</BaseGameText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_YUEYA_SPRING_NAME" Language="zh_Hant_HK">
+			<Text>鳴沙山．月牙泉</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEYA_SPRING_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市訓練的或進入相鄰格位的戰鬥單位可獲得「藥泉」能力（甚至在移動或戰鬥後，該單位在每回合都能治癒）。從與你有 [ICON_TradeRoute] 貿易路線的文明+50% [ICON_Tourism] 旅遊業績產量。[NEWLINE][NEWLINE]必須建在綠洲上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEYA_SPRING_QUOTE" Language="zh_Hant_HK">
+			<Text>「勝地靈泉徹曉清，渥窪猶是昔知名。一灣如月弦初上，半壁澄波鏡比明。[NEWLINE]風捲飛沙終不到，淵含止水正相生。竭來亭畔頻遊玩，吸得茶香自取烹。」[NEWLINE]——蘇履吉《敦煌八景詠：沙嶺晴鳴》[NEWLINE][NEWLINE]「沙州自古是名區，地似鳴傳信不誣。雷送餘音聽嫋嫋，風生細響語喁喁。[NEWLINE]如山積滿高千尺，映日睛烘徹六隅。巧奪天工賴人力，聲來能使在斯須。」[NEWLINE]——蘇履吉《敦煌八景詠：月泉曉徹》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YUEYA_SPRING_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>鳴沙山，東漢稱沙角山，俗名神沙山，晉代始稱鳴沙山，以沙動成響而出名，是一座固定沙丘。[NEWLINE]鳴沙山在天氣晴朗時能發出像「絲竹管弦」的聲音，屬於敦煌八景之一的「沙嶺晴鳴」。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YUEYA_SPRING_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>月牙泉，古稱渥窪池、沙井，又名藥泉，自漢朝起即為敦煌八景之一，清代後稱為月牙泉。[NEWLINE]月牙泉位於鳴沙山環抱之中，以形狀酷似一彎新月而得名。在遊客登山後，因踩踏下移的流沙在風吹過後會恢復自然狀態，儘管鳴沙山常年烈風勁吹、沙塵飛揚，但鳴沙山千古年來始終能與月牙泉共存，此景屬於敦煌八景之一的「月泉曉澈」。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YUEYA_SPRING_NAME" Language="zh_Hant_HK">
+			<Text>藥泉</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YUEYA_SPRING_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>藥泉：甚至在移動或戰鬥後，該單位在每回合都能治癒。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_YUEYA_SPRING_NAME" Language="zh_Hans_CN">
+			<Text>鸣沙山．月牙泉</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEYA_SPRING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市训练的或进入相邻格位的战斗单位可获得"药泉"能力（甚至在移动或战斗後，该单位在每回合都能治愈）。从与你有 [ICON_TradeRoute] 贸易路线的文明+50% [ICON_Tourism] 旅游业绩产量。[NEWLINE][NEWLINE]必须建在绿洲上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEYA_SPRING_QUOTE" Language="zh_Hans_CN">
+			<Text>"胜地灵泉彻晓清，渥洼犹是昔知名。一湾如月弦初上，半壁澄波镜比明。[NEWLINE]风卷飞沙终不到，渊含止水正相生。竭来亭畔频游玩，吸得茶香自取烹。"[NEWLINE]——苏履吉《敦煌八景咏：沙岭晴鸣》[NEWLINE][NEWLINE]"沙州自古是名区，地似鸣传信不诬。雷送余音听袅袅，风生细响语喁喁。[NEWLINE]如山积满高千尺，映日睛烘彻六隅。巧夺天工赖人力，声来能使在斯须。"[NEWLINE]——苏履吉《敦煌八景咏：月泉晓彻》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YUEYA_SPRING_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>鸣沙山，东汉称沙角山，俗名神沙山，晋代始称鸣沙山，以沙动成响而出名，是一座固定沙丘。[NEWLINE]鸣沙山在天气晴朗时能发出像"丝竹管弦"的声音，属於敦煌八景之一的"沙岭晴鸣"。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YUEYA_SPRING_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>月牙泉，古称渥洼池、沙井，又名药泉，自汉朝起即为敦煌八景之一，清代後称为月牙泉。[NEWLINE]月牙泉位于鸣沙山环抱之中，以型状酷似一弯新月而得名。在游客登山后，因踩踏下移的流沙在风吹过后会恢复自然状态，尽管鸣沙山常年烈风劲吹、沙尘飞扬，但鸣沙山千古年来始终能与月牙泉共存，此景属於敦煌八景之一的"月泉晓澈"。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YUEYA_SPRING_NAME" Language="zh_Hans_CN">
+			<Text>药泉</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YUEYA_SPRING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>药泉：甚至在移动或战斗後，该单位在每回合都能治愈。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_YUEYA_SPRING_NAME" Language="ja_JP">
+			<Text>月牙泉・鳴沙山</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEYA_SPRING_DESCRIPTION" Language="ja_JP">
+			<Text>この都市で訓練を受けた戦闘ユニット、または隣接する土地に入る戦闘ユニットが、「薬泉水」(移動あるいは攻撃した後でも、ターン終了時に回復する) の能力を得る。自文明と [ICON_TradeRoute] 交易路がつながっている文明の [ICON_Tourism] 観光力+50%。[NEWLINE][NEWLINE]オアシスにのみ建設可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEYA_SPRING_QUOTE" Language="ja_JP">
+			<Text>「勝地の霊泉は夜明けまで清らかで、渥窪は昔から有名です。一湾は初めて上がる月の弦のようで、半壁の澄んだ波は鏡のように明るい。[NEWLINE]風が飛砂を巻き上げることはなく、淵は止水を含んで正に生きています。竭来亭の畔で頻繁に遊び、茶の香りを吸って自ら煮出します。」[NEWLINE]— 蘇履吉《敦煌八景詠：沙嶺晴鳴》より[NEWLINE][NEWLINE]「沙州は古くから名区であり、地は鳴り伝えられることが確かです。雷が余音を送るのを聞くと、風が細かい音を生み出し、語りかけるようです。[NEWLINE]山のように高く千尺に積み上げられ、日を映して晴れ渡り六隅まで照らします。巧みな技は人の力に頼り、声は瞬時に響きます。」[NEWLINE]— 蘇履吉《敦煌八景詠：月泉曉徹》より</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YUEYA_SPRING_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>鳴沙山は中国甘粛省敦煌の有名な観光地・月牙泉のそばにある砂山で、風が吹くと「砂が鳴く」ような音を出すことで知られている。また、中国に鳴沙山という山は他にもあり、同様な現象は日本など他国でも「鳴き砂」として知られている。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YUEYA_SPRING_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>月牙泉は中国甘粛省敦煌郊外の砂漠中のオアシスで、年月を経て三日月型の池に加工されて、背後の鳴沙山とともに有名な観光地となっている。月牙泉という名称は清朝時代に使われ出した。「月牙」は中国語で「三日月」という意味である。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YUEYA_SPRING_NAME" Language="ja_JP">
+			<Text>薬泉</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YUEYA_SPRING_DESCRIPTION" Language="ja_JP">
+			<Text>薬泉：移動あるいは攻撃した後でも、ターン終了時に回復する。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

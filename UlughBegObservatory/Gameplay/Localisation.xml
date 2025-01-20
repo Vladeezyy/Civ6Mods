@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: C -->
+<!-- DateCreated: 7/4/2024 6:55:12 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_NAME" Language="ru_RU">
+			<Text>Обсерватория Улугбека</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_DESC" Language="ru_RU">
+			<Text>Равнинные клетки дают стандартный бонус соседства к районам Кампуса во всех городах. Должна быть построена на равнинной клетке рядом с районом Кампуса.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_DESC_HD" Language="ru_RU">
+			<Text>Равнинные клетки и клетки с травянистой местностью дают стандартный бонус соседства к районам Кампуса во всех городах. Должна быть построена на равнинной клетке рядом с районом Кампуса.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_DESC_NEA" Language="ru_RU">
+			<Text>+12 [ICON_SCIENCE] Наука для всех городов в пределах 6 клеток. Должна быть построена на равнинной клетке рядом с районом Кампуса.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_QUOTE" Language="ru_RU">
+			<Text>"И Он тот, кто создал для вас звезды, чтобы вы могли направляться по ним в темноте суши и моря. Мы изложили знамения для людей знающих."[NEWLINE]- Сура Аль-Анам, 6:97</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Годы существования империи Тимуридов считаются ренессансом золотого века исламской науки. В 1420-х годах под руководством Улугбека, сына Шахруха, внука Тимура, и человека, одержимого научными исследованиями, была построена огромная астрономическая обсерватория в городе Самарканд.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Великая обсерватория Улугбека была сильно вдохновлена обсерваторией Марага, которая была исследовательским центром, спонсируемым монгольским монархом Хулагу-ханом в XIII веке. Структура обсерватории Улугбека заимствовала многие элементы из обсерватории Марага. Обсерватория строилась около восьми лет и была завершена в 1428 году. Высота обсерватории составляла 21 метр, а радиус секстанта в центре колонны — 40,04 метра, что делало его крупнейшим астрономическим инструментом своего времени.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>Самым важным научным достижением обсерватории Улугбека был «Зидж-и Султани». Таблицы содержат исчерпывающие наблюдения и расчёты движений планет, сделанные исламскими учёными того времени. Среди значимых элементов был синусоидальный ряд значений с точностью до 11 десятичных знаков. «Зидж-и Султани» использовался до XIX века и был переведён на множество языков, включая арабский, турецкий и иврит.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_4" Language="ru_RU">
+			<Text>Однако великолепие обсерватории длилось недолго. В 1449 году Улугбек был убит собственным сыном, что привело к хаосу в империи Тимуридов. Обсерватория вскоре была заброшена и разрушилась. Лишь в 1908 году российский археолог Вяткин провёл раскопки, которые позволили обсерватории снова взглянуть на звёзды.</Text>
+		</Replace>
+		<Replace Tag="LOC_C_DISTRICT_1_SCIENCE" Language="ru_RU">
+			<Text>+{1_num} [ICON_SCIENCE] Наука с соседних равнинных клеток.</Text>
+		</Replace>
+		<Replace Tag="LOC_C_DISTRICT_1_SCIENCE_PLAINS" Language="ru_RU">
+			<Text>+{1_num} [ICON_SCIENCE] Наука с соседних равнинных клеток.</Text>
+		</Replace>
+		<Replace Tag="LOC_C_DISTRICT_1_SCIENCE_GRASS" Language="ru_RU">
+			<Text>+{1_num} [ICON_SCIENCE] Наука с соседних клеток с травянистой местностью.</Text>
+		</Replace>
+
+
+		<Row Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_NAME" Language="zh_Hans_CN">
+			<Text>兀鲁伯天文台</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_DESC" Language="zh_Hans_CN">
+			<Text>学院从平坦地形获得标准相邻加成。必须建造在相邻学院区域的平坦地形上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_DESC_HD" Language="zh_Hans_CN">
+			<Text>学院从平坦平原、草原获得标准相邻加成。必须建造在相邻学院区域的平坦地形上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_DESC_NEA" Language="zh_Hans_CN">
+			<Text>6个单元格内城市+12 [ICON_SCIENCE] 科技值。必须建造在相邻学院区域的平坦地形上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_QUOTE" Language="zh_Hans_CN">
+			<Text>他为你们创造诸星，以便你们在陆地和海洋的重重黑暗里借诸星而遵循正道。我为有知识的民众确已解释一切迹象了。[NEWLINE]——《古兰经》6:97</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>帖木儿帝国的年代被认为是伊斯兰教学术黄金时代的复兴时期。15世纪20年代，在沙哈鲁世子、帖木儿之孙、醉心科学研究的兀鲁伯主导下，撒马尔罕城中建立起了巨大的天文台。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>兀鲁伯的大天文台很大程度受到了马拉盖天文台的影响，前者是13世纪的蒙古君主旭烈兀赞助的研究中心，一度是世界上最重要的科学研究机构，因此兀鲁伯组织修建天文台时很大程度上参照了马拉盖天文台的结构。天文台大致建造了8年，在1428年竣工，此时兀鲁伯已经继承了去世的父亲的地位成为了帖木儿王朝的君主。兀鲁伯的天文台高出地面 21 米，有一个直径 46 米、高 30 至 33 米的圆柱形建筑，六分仪就在圆柱的中间。建筑物由砖砌成，砖很容易获得，但不是特别稳定。六分仪的半径为 40.04 米，是当时世界上最大的天文仪器。在天文台运行的年代，除了兀鲁伯本人，还有贾姆希德·卡西、阿里·库什基。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>兀鲁伯天文台产出的最重要的科研成果是《苏丹星表》。《星表》全面展示了当时伊斯兰科学家对行星运动的观测和计算。它沿用了托勒密的研究成果，并没有建议对行星模型进行任何改动。《星表》中最重要的部分之一是兀鲁伯的正弦表。该表长达18页，包含从0度到87度每一度小数点后9位的正弦值，还包含从87度到90度小数点后11位的正弦值。该书影响深远，一直沿用到 19 世纪，全世界现存数百份波斯语原稿。它还被翻译成多种语言，包括阿拉伯语、土耳其语和希伯来语。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>然而，天文台的辉煌并未能长久。1449年，兀鲁伯被其子刺杀，整个帖木儿王朝陷入动乱之中，天文台内部也未能幸免。天文台很快就被弃用，随之坍塌。直到1908年，俄国考古学家维亚金的发掘才使得大天文台再次得以瞻仰群星。</Text>
+		</Row>
+		<Row Tag="LOC_C_DISTRICT_1_SCIENCE" Language="zh_Hans_CN">
+			<Text>从相邻平坦单元格获得+{1_num}  [ICON_SCIENCE] 科技值。</Text>
+		</Row>
+		<Row Tag="LOC_C_DISTRICT_1_SCIENCE_PLAINS" Language="zh_Hans_CN">
+			<Text>从相邻平坦平原单元格获得+{1_num}  [ICON_SCIENCE] 科技值。</Text>
+		</Row>
+		<Row Tag="LOC_C_DISTRICT_1_SCIENCE_GRASS" Language="zh_Hans_CN">
+			<Text>从相邻平坦草原单元格获得+{1_num}  [ICON_SCIENCE] 科技值。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_NAME" Language="zh_Hant_HK">
+			<Text>兀魯伯天文臺</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_DESC" Language="zh_Hant_HK">
+			<Text>學院從平坦地形獲得標準相鄰加成。必須建造在相鄰學院區域的平坦地形上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_DESC_HD" Language="zh_Hant_HK">
+			<Text>學院從平坦平原、草原獲得標準相鄰加成。必須建造在相鄰學院區域的平坦地形上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_DESC_NEA" Language="zh_Hant_HK">
+			<Text>6個單元格內城市+12 [ICON_SCIENCE] 科技值。必須建造在相鄰學院區域的平坦地形上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_QUOTE" Language="zh_Hant_HK">
+			<Text>「他為你們創造諸星，以便你們在陸地和海洋的重重黑暗裏借諸星而遵循正道。我為有知識的民眾確已解釋一切跡象了。」[NEWLINE]——《古蘭經》6:97</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>帖木兒帝國的年代被認為是伊斯蘭教學術黃金時代的復興時期。15世紀20年代，在沙哈魯世子、帖木兒之孫、醉心科學研究的兀魯伯主導下，撒馬爾罕城中建立起了巨大的天文臺。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>兀魯伯的大天文臺很大程度受到了馬拉蓋天文臺的影響，前者是13世紀的蒙古君主旭烈兀贊助的研究中心，一度是世界上最重要的科學研究機構，因此兀魯伯組織修建天文臺時很大程度上參照了馬拉蓋天文臺的結構。天文臺大致建造了8年，在1428年竣工，此時兀魯伯已經繼承了去世的父親的地位成為了帖木兒王朝的君主。兀魯伯的天文臺高出地面 21 米，有一個直徑 46 米、高 30 至 33 米的圓柱形建築，六分儀就在圓柱的中間。建築物由磚砌成，磚很容易獲得，但不是特別穩定。六分儀的半徑為 40.04 米，是當時世界上最大的天文儀器。在天文臺運行的年代，除了兀魯伯本人，還有賈姆希德·卡西、阿里·庫什基。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>兀魯伯天文臺產出的最重要的科研成果是《蘇丹星表》。《星表》全面展示了當時伊斯蘭科學家對行星運動的觀測和計算。它沿用了托勒密的研究成果，並沒有建議對行星模型進行任何改動。《星表》中最重要的部分之一是兀魯伯的正弦表。該表長達18頁，包含從0度到87度每一度小數點後9位的正弦值，還包含從87度到90度小數點後11位的正弦值。該書影響深遠，一直沿用到 19 世紀，全世界現存數百份波斯語原稿。它還被翻譯成多種語言，包括阿拉伯語、土耳其語和希伯來語。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text>然而，天文臺的輝煌並未能長久。1449年，兀魯伯被其子刺殺，整個帖木兒王朝陷入動亂之中，天文臺內部也未能幸免。天文臺很快就被棄用，隨之坍塌。直到1908年，俄國考古學家維亞金的發掘才使得大天文臺再次得以瞻仰群星。</Text>
+		</Row>
+		<Row Tag="LOC_C_DISTRICT_1_SCIENCE" Language="zh_Hant_HK">
+			<Text>從相鄰平坦單元格獲得+{1_num}  [ICON_SCIENCE] 科技值。</Text>
+		</Row>
+		<Row Tag="LOC_C_DISTRICT_1_SCIENCE_PLAINS" Language="zh_Hant_HK">
+			<Text>從相鄰平坦平原單元格獲得+{1_num}  [ICON_SCIENCE] 科技值。</Text>
+		</Row>
+		<Row Tag="LOC_C_DISTRICT_1_SCIENCE_GRASS" Language="zh_Hant_HK">
+			<Text>從相鄰平坦草原單元格獲得+{1_num} [ICON_SCIENCE] 科技值。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_NAME" Language="ja_JP">
+			<Text>ウルグ・ベク天文台</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_DESC" Language="ja_JP">
+			<Text>平らな土地に接しているキャンパス各区域に通常の隣接ボーナス。キャンパス区域に隣接した平らな土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_DESC_HD" Language="ja_JP">
+			<Text>平らな土地に接しているキャンパス各区域に通常の隣接ボーナス。キャンパス区域に隣接した平らな土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_DESC_NEA" Language="ja_JP">
+			<Text>6タイル以内にある都心の [ICON_Science] 科学力+12。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_C_ULUGH_BEG_OBSERVATORY_QUOTE" Language="ja_JP">
+			<Text>「かれこそは、あなたがたのため群星を置かれた方で、あなたがたはそれによって、暗黒の陸でも海でも正しい道に導かれる。われは知識ある人びとに印の特恵を与えている。」[NEWLINE]- 『コーラン』6:97</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ティムール帝国の時代は、イスラム学問の黄金時代のルネサンスと考えられている。1420年代、ティムールの孫であるシャー・ルクの息子ウルグ・ベグの指導の下、科学研究に執念を燃やした彼は、サマルカンドに巨大な天文台を建設した。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>ウルグ・ベグの大いなる天文台は、13世紀のモンゴルの君主フラグ・ハーンがスポンサーだった研究センターでありとある時期に世界最高の科学研究機関であったマラゲ天文台に大きな影響を受けていた。そのため、ウルグ・ベグの天文台建設の組織は、マラゲ天文台の構造を大いに参考にした。天文台の建設にはおよそ8年の歳月を要し、1428年に完成した。その頃、ウルグ・ベグは亡き父の後を継いでティムール朝の君主となっていた。地上21メートルの高さにあるウルグ・ベグの天文台は、直径46メートル、高さ30〜33メートルの円柱構造で、六分儀は円柱の中心にあった。建物はレンガ造りで、入手は容易だが特に安定性が高いわけではない。半径40.04メートルの六分儀は、当時世界最大の天文機器だった。天文台が稼働していた時代には、ウルグ・ベグ自身の他に、ジャムシド・アル・カシとアリ・クシジがいた。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>ウルグ・ベグ天文台の最も重要な科学的成果は『スルタン天文表』である。この表は、当時のイスラム科学者による惑星運動の観測と計算を包括的に示している。この表は18ページにも及び、0度から87度までの各度について、小数点以下9桁までの正弦の値が記載されているほか、87度から90度までの小数点以下11桁までの正弦の値も記載されている。Zijは影響力があり、19世紀まで使われ続け、ペルシャ語の原本は世界中に何百部も存在する。また、アラビア語、トルコ語、ヘブライ語など多くの言語に翻訳されている。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_C_ULUGH_BEG_OBSERVATORY_CHAPTER_HISTORY_PARA_4" Language="ja_JP">
+			<Text>しかし、天文台の栄華は長くは続かなかった。1449年、ウルグ・ベグは息子に暗殺され、ティムール朝全体が混乱に陥った。天文台はすぐに放棄され崩壊した。ロシアの考古学者ビャトキンの発掘により、天文台が再び星を眺められるようになったのは1908年のことだった。</Text>
+		</Row>
+		<Row Tag="LOC_C_DISTRICT_1_SCIENCE" Language="ja_JP">
+			<Text>隣接する平らなタイルにより [ICON_Science] 科学力+{1_num} 。</Text>
+		</Row>
+		<Row Tag="LOC_C_DISTRICT_1_SCIENCE_PLAINS" Language="ja_JP">
+			<Text>隣接する平原タイルにより [ICON_Science] 科学力+{1_num} 。</Text>
+		</Row>
+		<Row Tag="LOC_C_DISTRICT_1_SCIENCE_GRASS" Language="ja_JP">
+			<Text>隣接する草原タイルにより [ICON_Science] 科学力+{1_num} 。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

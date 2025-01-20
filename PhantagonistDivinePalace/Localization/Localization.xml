@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_BUILDING_PHANTA_DIVINE_PALACE_NAME" Language="ru_RU">
+			<Text>Божественный дворец мириад образов</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DIVINE_PALACE_DESCRIPTION" Language="ru_RU">
+			<Text>Распространяет 1000 религиозного давления на города в пределах 6 клеток при активации [ICON_GreatPerson] Великой личности; также расширяет границы города, если активирована на домашней территории. Должен быть построен рядом с центром города, и вы должны основать религию.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DIVINE_PALACE_QUOTE" Language="ru_RU">
+			<Text>«Минтан – это место, где Сын Неба проводит ритуалы и принимает аудиенцию. Построенный по загадочным законам неба и земли и следуя их элементам, он отводит бедствия и волнения.»[NEWLINE]– У Цзэтянь</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_DIVINE_PALACE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>После того как У Цзэтянь укрепила свою власть и уничтожила тех, кто осмелился ей противостоять, в 688 году она поручила строительство Минтана («Светлого зала») в Лояне, также известного как Божественный дворец мириад образов. Архитектурный дизайн Божественного дворца мириад образов включал в себя традиционные китайские астрономические и космологические концепции. Его круглая крыша и квадратное основание отражали веру того времени в то, что небо – круглое, а земля – квадратная. Его три этажа символизировали четыре сезона, двенадцать «шиченей» и двадцать четыре солнечных термина. На вершине располагались девять драконов, смотрящих на фэнхуана (божественную птицу). Эти элементы подчеркивали связь между правителем и миром. Как место, где проводились обряды почитания неба и земли, а также издавались указы, Божественный дворец мириад образов был центром режима У Цзэтянь, пока он не был уничтожен в огне.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_DIVINE_PALACE_NAME" Language="zh_Hant_HK">
+			<Text>萬象神宮</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DIVINE_PALACE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>啟動 [ICON_GreatPerson] 偉人時對6單元格內的城市傳播1000宗教壓力；若在祖國領土內啟動，則令城市邊境擴張。必須建造在相鄰城市中心的單元格上，此外你必須事先已創立宗教。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DIVINE_PALACE_QUOTE" Language="zh_Hant_HK">
+			<Text>「夫明堂者，天子宗祀之堂，朝諸侯之位也。開乾坤之奧策，法氣象之運行，故能使災害不生，禍亂不作。」[NEWLINE]——武則天</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_DIVINE_PALACE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>當武則天鞏固權力並消滅反對者後，她於688年下令在洛陽建造一座明堂，即萬象神宮。萬象神宮的建築設計融合中國傳統的天文觀和宇宙觀，圓形的屋頂和方正的基座代表天圓地方，邊數各異的三層分別象徵四季、十二時辰和二十四節氣，上有九龍朝凰，整體設計展現統治者與天地的關係。萬象神宮作為祭祀天地和宣明政教的場所，是武則天政權的政治中心，直到它在一場大火中焚毀。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_DIVINE_PALACE_NAME" Language="zh_Hans_CN">
+			<Text>万象神宫</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DIVINE_PALACE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>启动 [ICON_GreatPerson] 伟人时对6单元格内的城市传播1000宗教压力；若在祖国领土内启动，则令城市边境扩张。必须建造在相邻市中心的单元格上，此外你必须事先已创立宗教。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DIVINE_PALACE_QUOTE" Language="zh_Hans_CN">
+			<Text>夫明堂者，天子宗祀之堂，朝诸侯之位也。开乾坤之奥策，法气象之运行，故能使灾害不生，祸乱不作。[NEWLINE]——武则天</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_DIVINE_PALACE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>当武则天巩固权力并消灭反对者后，她于688年下令在洛阳建造一座明堂，即万象神宫。万象神宫的建筑设计融合中国传统的天文观和宇宙观，圆形的屋顶和方正的基座代表天圆地方，边数各异的三层分别象徵四季、十二时辰和二十四节气，上有九龙朝凰，整体设计展现统治者与天地的关系。万象神宫作为祭祀天地和宣明政教的场所，是武则天政权的政治中心，直到它在一场大火中焚毁。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_DIVINE_PALACE_NAME" Language="ja_JP">
+			<Text>万象神宮</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DIVINE_PALACE_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_GreatPerson] 偉人を発動させると、6タイル以内にある都市に対して、自分が創始した宗教または自国の主流宗教の宗教的圧力+1000；自分の領土に発動させると、さらにその都市の境界線が広がる。都心に隣接する平らな土地にのみ建設可能。宗教を創始している必要がある。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_DIVINE_PALACE_QUOTE" Language="ja_JP">
+			<Text>「明堂は天子が祭祀を行い、諸侯に会謁する場所である。乾坤の奧策を開き、氣象の運行に従って、災害や禍乱を防ぐ。」[NEWLINE]– 武則天</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_DIVINE_PALACE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>武則天が権力を強化し、敵対者を排除した後、688年に洛陽に明堂の建設を命じ、これが万象神宮として知られる。万象神宮の建築設計には、中国の伝統的な天文観と宇宙観が取り入れられており、円形の屋根と正方形の台座は天円地方を表し、異なる縁を持つ三つの層は四季、十二時辰、二十四節気を象徴し、頂上には九つの龍と鳳凰あり、支配者と天地の関係を示している。天と地を祀り、政教を宣明する場所として、万象神宮は武則天政権の政治の中心であったが、その後火事で焼失した。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_BUILDING_CASTEL_SANTA_ANGELO_NAME" Language="ru_RU">
+			<Text>Замок Святого Ангела</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CASTEL_SANTA_ANGELO_DESCRIPTION" Language="ru_RU">
+			<Text>Обеспечивает те же защитные бонусы, что и улучшение «Форт». Улучшения, предоставляющие защитные бонусы, но не дающие прироста, дают +1 [ICON_InfluencePerTurn] очко влияния за ход и +5 [ICON_Faith] веры. Чудеса, предоставляющие защитные бонусы, включая Замок Святого Ангела, дают 2 [ICON_Envoy] посланника и +7% [ICON_Faith] веры своим городам. Должен быть построен на ровной местности рядом с рекой.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CASTEL_SANTA_ANGELO_QUOTE" Language="ru_RU">
+			<Text>«И произошла на небе война: Михаил и ангелы его воевали против дракона, и дракон и ангелы его воевали против них. Но не устояли, и не нашлось уже для них места на небе.»[NEWLINE]- Откровение 12:7-8</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_CASTEL_SANTA_ANGELO_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Замок Святого Ангела представляет собой ротонду на берегу реки Тибр. Изначально он был построен по заказу римского императора Адриана как гробница для него и его семьи, но позже был превращен в военную крепость. Своё текущее название замок получил благодаря легенде о явлении Архангела Михаила на вершине крепости, что ознаменовало конец эпидемии чумы. Папы римские использовали Замок Святого Ангела для обороны. Во время разграбления Рима в 1527 году Папа Климент VII укрылся в Замке Святого Ангела после того, как швейцарская гвардия была уничтожена в задерживающем бою. Замок также использовался как тюрьма для тех, кого Папская область считала еретиками. Например, Джордано Бруно был заключён здесь на долгие годы, пока его не сожгли на костре.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_CASTEL_SANTA_ANGELO_NAME" Language="zh_Hans_CN">
+			<Text>圣天使堡</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CASTEL_SANTA_ANGELO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供同堡垒改良设施一样的防御加成。拥有防御加成且无产出的改良设施提供每回合+1 [ICON_InfluencePerTurn] 影响力和+5 [ICON_Faith] 信仰值。拥有防御加成的奇观（包括圣天使堡）提供2名 [ICON_Envoy] 使者，所在城市+7% [ICON_Faith] 信仰值。必须建造在沿河的平坦单元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CASTEL_SANTA_ANGELO_QUOTE" Language="zh_Hans_CN">
+			<Text>在天上就有了争战。米迦勒同他的使者与龙争战。龙也同它的使者去争战。并没有得胜，天上再没有它们的地方。[NEWLINE]——《启示录》12章7-8节</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_CASTEL_SANTA_ANGELO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>圣天使堡是一座矗立于台伯河畔的圆形建筑。它最初是罗马皇帝哈德良为自己和家人建造的陵墓，后来被改建为军事要塞。它现在的名字源于大天使米迦勒出现在堡垒顶端结束瘟疫的传说。教宗们曾利用圣天使城堡做防御用途。在1527年罗马之劫期间，教宗克莱孟七世在瑞士卫队的死战断后下逃至圣天使堡避祸。圣天使城堡还曾被用作监狱，关押那些被教宗国视为异端的人物，例如乔尔丹诺·布鲁诺曾在此被关押多年，直到被处以火刑。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_CASTEL_SANTA_ANGELO_NAME" Language="zh_Hant_HK">
+			<Text>聖天使堡</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CASTEL_SANTA_ANGELO_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>提供同堡壘改良設施一樣的防禦加成。擁有防禦加成且無產出的改良設施提供每回合+1 [ICON_InfluencePerTurn] 影響力和+5 [ICON_Faith] 信仰值。擁有防禦加成的奇觀（包括聖天使堡）提供2名 [ICON_Envoy] 使者，所在城市+7% [ICON_Faith] 信仰值。必須建造在沿河的平坦單元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CASTEL_SANTA_ANGELO_QUOTE" Language="zh_Hant_HK">
+			<Text>「在天上就有了爭戰。米迦勒同他的使者與龍爭戰。龍也同它的使者去爭戰。並沒有得勝，天上再沒有它們的地方。」[NEWLINE]——《啟示錄》12章7-8節</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_CASTEL_SANTA_ANGELO_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>聖天使堡是一座矗立於台伯河畔的圓形建築。它最初是羅馬皇帝哈德良為自己和家人建造的陵墓，後來被改建為軍事要塞。它現在的名字源於大天使米迦勒出現在堡壘頂端結束瘟疫的傳說。教宗們曾利用聖天使城堡做防禦用途。在1527年羅馬之劫期間，教宗克萊孟七世在瑞士衛隊的死戰斷後下逃至聖天使堡避禍。聖天使城堡還曾被用作監獄，關押那些被教宗國視為異端的人物，例如喬爾丹諾·布魯諾曾在此被關押多年，直到被處以火刑。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_CASTEL_SANTA_ANGELO_NAME" Language="ja_JP">
+			<Text>サンタンジェロ城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CASTEL_SANTA_ANGELO_DESCRIPTION" Language="ja_JP">
+			<Text>要塞と同じ防御力ボーナスを得る。防御ボーナスを提供するが産出量を提供しない施設はターンごとの影響力ポイント+1、信仰力+5。防御ボーナスを提供する遺産 (サンタンジェロ城を含む) は代表団+2、その都市の信仰力+7%。川沿いの平らな土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CASTEL_SANTA_ANGELO_QUOTE" Language="ja_JP">
+			<Text>「さて、天では戦いが起こった。ミカエルとその御使たちとが、龍と戦ったのである。龍もその使いたちも応戦したが、勝てなかった。そして、もはや天には彼らのおる所がなくなった。」[NEWLINE]- 『ヨハネの黙示録』12章7-8節</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_CASTEL_SANTA_ANGELO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>サンタンジェロ城は、テヴェレ川のほとりに立つロタンダである。当初はローマ皇帝ハドリアヌスとその家族のための墓として建てられたが、後に軍事要塞に転用された。現在の名前は、大天使ミカエルが要塞の頂上に現れ、疫病を終わらせたという伝説に由来する。ローマ教皇たちはサンタンジェロ城を防衛に利用した。教皇はサント・アンジェロ城を防衛のために使用した。1527年のローマ略奪の際、教皇クレメンス7世はスイス衛兵の死戦に守られてサンタンジェロ城に逃げ込んだ。サンタンジェロ城は、教皇国から異端視された者たちの牢獄としても使われた。例えば、ジョルダーノ・ブルーノは、火あぶりにされるまで何年もここに幽閉されていた。</Text>
+		</Row>
+
+
+
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="85226664-2a0b-4667-8373-37b2c7563a6b" version="1">
+  <Properties>
+    <Name>Rome pantheon</Name>
+    <Description>Rome pantheon wonder</Description>
+    <Created>1717335929</Created>
+    <Teaser>Rome pantheon</Teaser>
+    <Authors>Jidong</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions />
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>114514</LoadOrder>
+      </Properties>
+      <File>GameData.xml</File>
+      <File>GameData.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Rome pantheon.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>GameData.sql</File>
+    <File>GameData.xml</File>
+    <File>icon.xml</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Brick_A_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Brick_A_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Brick_A_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Concrete_Block_8x8_Gray_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Concrete_Form_4x8_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_RMED_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foundation_Brick_Industrial_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_Bld_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Industrial_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Industrial_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Industrial_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/TileBase.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Brick_A_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Brick_A_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Brick_A_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Concrete_Block_8x8_Gray_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Concrete_Form_4x8_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_RMED_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foundation_Brick_Industrial_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_Bld_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RMED_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Industrial_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Industrial_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Industrial_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/TileBase.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>Rome pantheon.dep</File>
+    <File>text.xml</File>
+    <File>XLPs/TileBase.xlp</File>
+    <File>XLPs/WonderMovie.xlp</File>
+  </Files>
+</Mod>

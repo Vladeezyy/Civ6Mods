@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_NAME" Language="ru_RU">
+			<Text>Британский музей</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_DESCRIPTION" Language="ru_RU">
+			<Text>Каждый Археологический музей вмещает 6 [ICON_GreatWork_Artifact_Ancient] артефактов вместо 3 и может поддерживать 2 Археолога одновременно. Археологические музеи автоматически становятся тематическими, если в них собрано 6 [ICON_GreatWork_Artifact_Ancient] артефактов. Все Археологи владельца могут входить на чужую территорию без необходимости открытия границ. Должен быть построен на равнинной клетке, смежной с районом Театральной площади с Археологическим музеем.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_QUOTE" Language="ru_RU">
+			<Text>«Собрание и точная классификация этих редкостей стали моим главным вкладом в развитие науки.»[NEWLINE]- Ганс Слоан</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BRITISH_MUSEUM_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Британский музей — первый национальный музей в мире. Он был основан благодаря завещанию сэра Ганса Слоана, врача и коллекционера, который собрал более 70 000 предметов за свою жизнь и передал их королю Георгу II за 20 000 фунтов стерлингов, чтобы коллекция не была рассеяна после его смерти. Британский музей был открыт в Монтагу-хаусе в Лондоне. Коллекция музея расширялась одновременно с колонизацией, включая такие известные экспонаты, как Розеттский камень, мраморы Элгина, а также артефакты из Дуньхуана и Старого Летнего дворца. Несмотря на огромную ценность коллекции, некоторые из её экспонатов были похищены или украдены из других стран, что делает вопрос о праве собственности на них предметом споров. Инциденты, подобные краже более 2000 предметов коллекции в 2023 году, только усугубили эту проблему.</Text>
+		</Row>
+		<Replace Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION" Language="ru_RU">
+			<Text>Все текущие юниты получают уровень продвижения. Даёт одного [ICON_GreatGeneral] Великого полководца и одного [ICON_GreatEngineer] Великого инженера. Должен быть построен на равнинной клетке или клетке с травянистой местностью, смежной с районом Лагеря с Казармами или Конюшней.</Text>
+		</Replace>
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_DESCRIPTION_NEW" Language="ru_RU">
+			<Text>Открывает и предоставляет Исследователя чудес. Каждый Археологический музей вмещает 6 [ICON_GreatWork_Artifact_Ancient] артефактов вместо 3 и может поддерживать 2 Археолога одновременно. Археологические музеи автоматически становятся тематическими, если в них собрано 6 [ICON_GreatWork_Artifact_Ancient] артефактов. Все Археологи владельца могут входить на чужую территорию без необходимости открытия границ. Должен быть построен на равнинной клетке, смежной с районом Театральной площади с Археологическим музеем.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_NAME" Language="zh_Hans_CN">
+			<Text>大英博物馆</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每座考古博物馆可保存6个 [ICON_GreatWork_Artifact] 文物而不是3个，建成后可支撑当前城市考古学家额限为两位。有6个 [ICON_GreatWork_Artifact] 文物时，考古博物馆自动获得主题化奖励。所拥有的考古学家可在没有开放边界的情况下进入外国。必须建在平坦地形，且靠近带有考古博物馆的剧院广场。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_QUOTE" Language="zh_Hans_CN">
+			<Text>收集与准确整理这些奇珍异宝，是我对科学发展的主要贡献。[NEWLINE]——汉斯·斯隆</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BRITISH_MUSEUM_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>大英博物馆是世界上首个国家博物馆。它的建立源于汉斯·斯隆爵士的遗愿，这名内科医生和收藏家一生中共收藏了超过70000件物品，并将遗物以20000英镑转交国王乔治二世，确保这些收藏不会在它死后被打乱。大英博物馆最终于伦敦的蒙塔古宫落成。其后，大英博物馆的馆藏伴随殖民主义一并扩张，其中包括但不限于罗塞塔石碑、额尔金石雕和来自敦煌与圆明园的文物。这座博物馆馆藏极其广博，但部分馆藏来自他国劫掠或盗窃所得，因此这些文物的所有权与归属问题一直存在争议，而例如2023年超过2000件馆藏失窃等事件则只令问题进一步恶化。</Text>
+		</Row>
+		<Replace Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>目前所有单位获得1级强化升级。免费获得1个 [ICON_GreatGeneral] 大将军和1个 [ICON_GreatEngineer] 大工程师。必须建在平坦的草原或平原上，且靠近带有兵营或马厩的军营区域。</Text>
+		</Replace>
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_DESCRIPTION_NEW" Language="zh_Hans_CN">
+			<Text>解锁并免费获得1个奇观学家。每座考古博物馆可保存6个 [ICON_GreatWork_Artifact] 文物而不是3个，建成后可支撑当前城市考古学家额限为两位。有6个 [ICON_GreatWork_Artifact] 文物时，考古博物馆自动获得主题化奖励。所拥有的考古学家可在没有开放边界的情况下进入外国。必须建在平坦地形，且靠近带有考古博物馆的剧院广场。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_NAME" Language="zh_Hant_HK">
+			<Text>大英博物館</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每座考古博物館可保存6個 [ICON_GreatWork_Artifact] 文物而不是3個，建成後可支撐當前城市考古學家額限為兩位。有6個 [ICON_GreatWork_Artifact] 文物時，考古博物館自動獲得主題化獎勵。所擁有的考古學家可在沒有開放邊界的情況下進入外國。必須建在平坦地形，且靠近帶有考古博物館的劇院廣場。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_QUOTE" Language="zh_Hant_HK">
+			<Text>「收集與準確整理這些奇珍異寶，是我對科學發展的主要貢獻。」[NEWLINE]——漢斯·斯隆</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BRITISH_MUSEUM_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>大英博物館是世界上首個國家博物館。它的建立源於漢斯·斯隆爵士的遺願，這名內科醫生和收藏家一生中共收藏了超過70000件物品，並將遺物以20000英鎊轉交國王喬治二世，確保這些收藏不會在它死後被打亂。大英博物館最終於倫敦的蒙塔古宮落成。其後，大英博物館的館藏伴隨殖民主義一併擴張，其中包括但不限於羅塞塔石碑、額爾金石雕和來自敦煌與圓明園的文物。這座博物館館藏極其廣博，但部分館藏來自他國劫掠或盜竊所得，因此這些文物的所有權與歸屬問題一直存在爭議，而例如2023年超過2000件館藏失竊等事件則只令問題進一步惡化。</Text>
+		</Row>
+		<Replace Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>目前所有單位獲得1級強化升級。免費獲得1個 [ICON_GreatGeneral] 大將軍和1個 [ICON_GreatEngineer] 大工程師。必須建在平坦的草原或平原上，且靠近帶有兵營或馬廄的軍營區域。</Text>
+		</Replace>
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_DESCRIPTION_NEW" Language="zh_Hant_HK">
+			<Text>解鎖並免費獲得1個奇觀學家。每座考古博物館可保存6個 [ICON_GreatWork_Artifact] 文物而不是3個，建成後可支撐當前城市考古學家額限為兩位。有6個 [ICON_GreatWork_Artifact] 文物時，考古博物館自動獲得主題化獎勵。所擁有的考古學家可在沒有開放邊界的情況下進入外國。必須建在平坦地形，且靠近帶有考古博物館的劇院廣場。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_NAME" Language="ja_JP">
+			<Text>大英博物館</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_DESCRIPTION" Language="ja_JP">
+			<Text>考古博物館の所蔵する [ICON_GreatWork_Artifact_Ancient] 秘宝が3つから6つになり、一度に2人の考古学者を支援できる。 [ICON_GreatWork_Artifact_Ancient] 秘宝が6つになると、考古博物館は自動的にテーマ化される。所有者の派遣する考古学者は、国境が開放されていなくても他国の領土へ入ることができる。考古博物館が存在する劇場広場区域に隣接する平坦な草原または平原にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_QUOTE" Language="ja_JP">
+			<Text>「これらの珍品を収集し、正確に配置することが、私の科学の進歩への大きな貢献であった。」[NEWLINE]- ハンス・スローン</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BRITISH_MUSEUM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>大英博物館は世界で最初の国立博物館である。医師でありコレクターであったハンス・スローン卿の遺志により設立されたもので、彼は生前に七万を超えるコレクションを集め、自分の死後コレクションが乱れないようにと、遺品を二万ポンドで国王ジョージ二世に譲った。やがて大英博物館は、ロンドンのモンタグ・ハウスに開設された。大英博物館のコレクションは植民地主義とともに拡大し、ロゼッタ・ストーン、エルギン・マーブル、敦煌や圓明園からの文物が含まれるが、これらに限定されるものではなかった。この博物館のコレクションは極めて膨大なものであったが、その一部は他国からの略奪品や盗品であったため、その所有権や帰属については常に論争の的であり、2023年に暴露された2000を超えるコレクション盗難事件などは、問題をさらに悪化させるものであった。</Text>
+		</Row>
+		<Replace Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION" Language="ja_JP">
+			<Text>現存するすべてのユニットがレベルアップする。 [ICON_GreatGeneral] 大将軍と [ICON_GreatEngineer] 大技術者それぞれを無料で1人得る。兵舎または厩舎が存在する兵営区域に隣接する平坦な草原または平原にのみ建設可能。</Text>
+		</Replace>
+		<Row Tag="LOC_BUILDING_BRITISH_MUSEUM_DESCRIPTION_NEW" Language="ja_JP">
+			<Text>遺産学者を生產できるようになり、1ユニットを得る。考古博物館の所蔵する [ICON_GreatWork_Artifact_Ancient] 秘宝が3つから6つになり、一度に2人の考古学者を支援できる。 [ICON_GreatWork_Artifact_Ancient] 秘宝が6つになると、考古博物館は自動的にテーマ化される。所有者の派遣する考古学者は、国境が開放されていなくても他国の領土へ入ることができる。考古博物館が存在する劇場広場区域に隣接する平坦な草原または平原にのみ建設可能。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

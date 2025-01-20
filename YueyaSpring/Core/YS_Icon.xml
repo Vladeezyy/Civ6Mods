@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Icon -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:08 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_BUILDING_YUEYA_SPRING" IconSize="32" Filename="IMG_BUILDING_YUEYA_SPRING_32"/>
+		<Row Name="ATLAS_BUILDING_YUEYA_SPRING" IconSize="38" Filename="IMG_BUILDING_YUEYA_SPRING_38"/>
+		<Row Name="ATLAS_BUILDING_YUEYA_SPRING" IconSize="50" Filename="IMG_BUILDING_YUEYA_SPRING_50"/>
+		<Row Name="ATLAS_BUILDING_YUEYA_SPRING" IconSize="64" Filename="IMG_BUILDING_YUEYA_SPRING_64"/>
+		<Row Name="ATLAS_BUILDING_YUEYA_SPRING" IconSize="128" Filename="IMG_BUILDING_YUEYA_SPRING_128"/>
+		<Row Name="ATLAS_BUILDING_YUEYA_SPRING" IconSize="256" Filename="IMG_BUILDING_YUEYA_SPRING_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_YUEYA_SPRING" Atlas="ATLAS_BUILDING_YUEYA_SPRING" Index="0"/>
+	</IconDefinitions>
+</GameData>

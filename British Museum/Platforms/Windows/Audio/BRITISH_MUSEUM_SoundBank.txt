@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	264035851	play_BRITISH_MUSEUM_QUOTE			\Wonder\play_BRITISH_MUSEUM_QUOTE	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	919387159	289713198-1-192 00_00_22-00_00_36	C:\Users\maple\Documents\WwiseProjects\BUILDING_CODE_OF_HAMMURABI\.cache\Windows\SFX\289713198-1-192 00_00_22-00_00_36_4B8CC0C5.wem	919387159.wem	\Interactive Music Hierarchy\Default Work Unit_02_02\Playlist music\New Music Segment\289713198-1-192 00_00_22-00_00_36	
+

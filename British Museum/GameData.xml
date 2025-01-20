@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 2/13/2024 4:19:04 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_BRITISH_MUSEUM" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_BRITISH_MUSEUM" Name="LOC_BUILDING_BRITISH_MUSEUM_NAME" Description="LOC_BUILDING_BRITISH_MUSEUM_DESCRIPTION" PrereqCivic="CIVIC_NATURAL_HISTORY" Cost="1450" AdvisorType="ADVISOR_CULTURE" AdjacentDistrict="DISTRICT_THEATER" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_ATOMIC" Quote="LOC_BUILDING_BRITISH_MUSEUM_QUOTE" QuoteAudio="play_BRITISH_MUSEUM_QUOTE"/>
+	</Buildings>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_BRITISH_MUSEUM" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_BRITISH_MUSEUM" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_BRITISH_MUSEUM" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_BRITISH_MUSEUM" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_BRITISH_MUSEUM" TerrainType="TERRAIN_DESERT"/>
+	</Building_ValidTerrains>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_BRITISH_MUSEUM" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="2" NonUniquePersonYield="1" NonUniquePersonTourism="1"/>
+	</Building_GreatWorks>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_BRITISH_MUSEUM" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>
+	</BuildingPrereqs>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_BRITISH_MUSEUM</BuildingType>
+			<ModifierId>TRAIT_DOUBLE_ARCHAEOLOGY_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BRITISH_MUSEUM</BuildingType>
+			<ModifierId>TRAIT_SUPPORT_TWO_ARCHAEOLOGISTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BRITISH_MUSEUM</BuildingType>
+			<ModifierId>TRAIT_AUTO_THEME_ARCHAEOLOGY_MUSEUM</ModifierId>
+		</Row>
+		<Row BuildingType="BUILDING_BRITISH_MUSEUM">
+			<ModifierId>TERRACOTTA_ARMY_ARCHAEOLOGIST_OPEN_BORDERS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_TERRACOTTA_ARMY_GREAT_PERSONA</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_TERRACOTTA_ARMY_GREAT_PERSONB</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_TERRACOTTA_ARMY_GREAT_PERSONA</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_TERRACOTTA_ARMY_GREAT_PERSONB</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<RunOnce>True</RunOnce>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_TERRACOTTA_ARMY_GREAT_PERSONA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_TERRACOTTA_ARMY_GREAT_PERSONA</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_TERRACOTTA_ARMY_GREAT_PERSONB</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_TERRACOTTA_ARMY_GREAT_PERSONB</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

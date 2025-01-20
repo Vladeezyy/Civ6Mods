@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Core -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:36:54 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_YUEYA_SPRING"				Kind="KIND_BUILDING"/>
+		<Row Type="ABILITY_YUEYA_SPRING"				Kind="KIND_ABILITY"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_YUEYA_SPRING"		Name="LOC_BUILDING_YUEYA_SPRING_NAME" Description="LOC_BUILDING_YUEYA_SPRING_DESCRIPTION" PrereqCivic="CIVIC_MEDIEVAL_FAIRES" Cost="710" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Housing="2" ObsoleteEra="ERA_INDUSTRIAL" Quote="LOC_BUILDING_YUEYA_SPRING_QUOTE"/>
+	</Buildings>
+	<Building_RequiredFeatures>
+		<Row BuildingType="BUILDING_YUEYA_SPRING"		FeatureType="FEATURE_OASIS"/>
+	</Building_RequiredFeatures>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_YUEYA_SPRING"		YieldType="YIELD_FOOD"		YieldChange="3"/>
+		<Row BuildingType="BUILDING_YUEYA_SPRING"		YieldType="YIELD_CULTURE"	YieldChange="2"/>
+		<Row BuildingType="BUILDING_YUEYA_SPRING"		YieldType="YIELD_FAITH"		YieldChange="1"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_YUEYA_SPRING"		GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="3"/>
+	</Building_GreatPersonPoints>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_YUEYA_SPRING"		Name="LOC_ABILITY_YUEYA_SPRING_NAME" Description="LOC_ABILITY_YUEYA_SPRING_DESCRIPTION" Inactive="true" ShowFloatTextWhenEarned="true"/>
+	</UnitAbilities>
+	<TypeTags>
+		<Row Type="ABILITY_YUEYA_SPRING"				Tag="CLASS_ALL_COMBAT_UNITS"/>
+	</TypeTags>
+</GameData>

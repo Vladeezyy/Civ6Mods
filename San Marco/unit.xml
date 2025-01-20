@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- unit -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 6/9/2024 12:28:33 PM -->
+<GameData>
+	<Traits>
+		<Row TraitType="TRAIT_PALAZZO_DUCALE"/>
+	</Traits>
+	<Types>
+		<Row Type="TRAIT_PALAZZO_DUCALE" Kind="KIND_TRAIT"/>
+		<Row Type="UNIT_VEN_A" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_VEN_B" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_VEN_C" Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_PALAZZO_DUCALE" Kind="KIND_ABILITY"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_PALAZZO_DUCALE" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_VEN_A" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_VEN_B" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_VEN_C" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_PALAZZO_DUCALE" Tag="CLASS_PALAZZO_DUCALE"/>
+		<Row Type="UNIT_VEN_A" Tag="CLASS_PALAZZO_DUCALE"/>
+		<Row Type="UNIT_VEN_B" Tag="CLASS_PALAZZO_DUCALE"/>
+		<Row Type="UNIT_VEN_C" Tag="CLASS_PALAZZO_DUCALE"/>
+	</TypeTags>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_VEN_A" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_VEN_A" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_VEN_A" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_VEN_A" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_VEN_B" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_VEN_B" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_VEN_B" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_VEN_B" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_VEN_C" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_VEN_C" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_VEN_C" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_VEN_C" AiType="UNITTYPE_NAVAL"/>
+	</UnitAiInfos>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_PALAZZO_DUCALE" Name="LOC_ABILITY_PALAZZO_DUCALE_NAME" Description="LOC_ABILITY_PALAZZO_DUCALE_NAME" />
+	</UnitAbilities>
+	<Units>
+		<Row UnitType="UNIT_VEN_A" Cost="160" Maintenance="3" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="48" StrategicResource="RESOURCE_IRON" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_VEN_A_NAME" Description="LOC_UNIT_VEN_A_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" TraitType="TRAIT_PALAZZO_DUCALE"/>
+		<Row UnitType="UNIT_VEN_B" Cost="220" Maintenance="3" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="55" StrategicResource="RESOURCE_IRON" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_VEN_B_NAME" Description="LOC_UNIT_VEN_B_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_COMPOSITES" TraitType="TRAIT_PALAZZO_DUCALE"/>
+		<Row UnitType="UNIT_VEN_C" Cost="240" Maintenance="3" BaseMoves="4" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="48" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_VEN_C_NAME" Description="LOC_UNIT_VEN_C_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_COMBINED_ARMS" TraitType="TRAIT_PALAZZO_DUCALE"/>
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_VEN_A" UpgradeUnit="UNIT_LINE_INFANTRY"/>
+		<Row Unit="UNIT_VEN_B" UpgradeUnit="UNIT_CUIRASSIER"/>
+		<Row Unit="UNIT_VEN_C" UpgradeUnit="UNIT_IRONCLAD"/>
+	</UnitUpgrades>
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_VEN_A" PrereqBuilding="BUILDING_PALAZZO_DUCALE"/>
+		<Row Unit="UNIT_VEN_B" PrereqBuilding="BUILDING_PALAZZO_DUCALE"/>
+		<Row Unit="UNIT_VEN_C" PrereqBuilding="BUILDING_PALAZZO_DUCALE"/>
+	</Unit_BuildingPrereqs>
+	<Units_XP2>
+		<Row UnitType="UNIT_VEN_A" ResourceCost="10"/>
+		<Row UnitType="UNIT_VEN_B" ResourceCost="10"/>
+	</Units_XP2>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_PALAZZO_DUCALE</UnitAbilityType>
+			<ModifierId>MODIFIER_ABILITY_PALAZZO_DUCALE</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_PALAZZO_DUCALE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_PALAZZO_DUCALE</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_PALAZZO_DUCALE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

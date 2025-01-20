@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="building"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Palazzo Ducale"/>
+			<m_ObjectName text="Palazzo Ducale"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Palazzo_Ducalel_base"/>
+			<m_ObjectName text="Palazzo_Ducalel_base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PALAZZO_Bridge"/>
+			<m_ObjectName text="PALAZZO_Bridge"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PALAZZO_Bridge_A"/>
+			<m_ObjectName text="PALAZZO_Bridge_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PALAZZO_Bld_010"/>
+			<m_ObjectName text="PALAZZO_Bld_010"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PALAZZO_Bld_04"/>
+			<m_ObjectName text="PALAZZO_Bld_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ven_Bridge_b"/>
+			<m_ObjectName text="ven_Bridge_b"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

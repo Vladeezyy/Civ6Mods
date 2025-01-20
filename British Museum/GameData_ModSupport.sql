@@ -1,0 +1,30 @@
+INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES 
+('BUILDING_BRITISH_MUSEUM', 'MODFEAT_BRITISH_MUSEUM_GRANT_WONDER_THEFT');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_BRITISH_MUSEUM_GRANT_WONDER_THEFT', 'MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY', 1, 1, 0, NULL, NULL);
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_BRITISH_MUSEUM_GRANT_WONDER_THEFT', 'AllowUniqueOverride', 'false'), 
+('MODFEAT_BRITISH_MUSEUM_GRANT_WONDER_THEFT', 'Amount', '1'), 
+('MODFEAT_BRITISH_MUSEUM_GRANT_WONDER_THEFT', 'UnitType', 'UNIT_WONDER_THEFT');
+
+
+----------
+----------
+
+INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES 
+('BUILDING_BRITISH_MUSEUM', 'MODFEAT_BRITISH_MUSEUM_VALID_WONDER_THEFT');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_BRITISH_MUSEUM_VALID_WONDER_THEFT', 'MODIFIER_PLAYER_ADJUST_VALID_UNIT_BUILD', 0, 0, 0, NULL, NULL);
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_BRITISH_MUSEUM_VALID_WONDER_THEFT', 'UnitType', 'UNIT_WONDER_THEFT');
+
+----------
+----------
+
+UPDATE	Buildings
+SET		Description = 'LOC_BUILDING_BRITISH_MUSEUM_DESCRIPTION_NEW'
+WHERE	BuildingType = 'BUILDING_BRITISH_MUSEUM'

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: C -->
+<!-- DateCreated: 5/28/2024 2:11:43 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_BUILDING_C_TAOSI_OBSERVATORY" IconSize="32" Filename="ICON_BUILDING_C_TAOSI_OBSERVATORY_32"/>
+		<Row Name="ATLAS_BUILDING_C_TAOSI_OBSERVATORY" IconSize="38" Filename="ICON_BUILDING_C_TAOSI_OBSERVATORY_38"/>
+		<Row Name="ATLAS_BUILDING_C_TAOSI_OBSERVATORY" IconSize="50" Filename="ICON_BUILDING_C_TAOSI_OBSERVATORY_50"/>
+		<Row Name="ATLAS_BUILDING_C_TAOSI_OBSERVATORY" IconSize="64" Filename="ICON_BUILDING_C_TAOSI_OBSERVATORY_64"/>
+		<Row Name="ATLAS_BUILDING_C_TAOSI_OBSERVATORY" IconSize="128" Filename="ICON_BUILDING_C_TAOSI_OBSERVATORY_128"/>
+		<Row Name="ATLAS_BUILDING_C_TAOSI_OBSERVATORY" IconSize="256" Filename="ICON_BUILDING_C_TAOSI_OBSERVATORY_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_C_TAOSI_OBSERVATORY" Atlas="ATLAS_BUILDING_C_TAOSI_OBSERVATORY" Index="0"/>
+	</IconDefinitions>
+</GameData>

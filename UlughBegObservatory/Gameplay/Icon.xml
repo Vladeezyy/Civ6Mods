@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: C -->
+<!-- DateCreated: 7/4/2024 11:09:27 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_C_ULUGH_BEG_OBSERVATORY" IconSize="32" Filename="ICON_C_ULUGH_BEG_OBSERVATORY_32"/>
+		<Row Name="ATLAS_ICON_C_ULUGH_BEG_OBSERVATORY" IconSize="38" Filename="ICON_C_ULUGH_BEG_OBSERVATORY_38"/>
+		<Row Name="ATLAS_ICON_C_ULUGH_BEG_OBSERVATORY" IconSize="50" Filename="ICON_C_ULUGH_BEG_OBSERVATORY_50"/>
+		<Row Name="ATLAS_ICON_C_ULUGH_BEG_OBSERVATORY" IconSize="64" Filename="ICON_C_ULUGH_BEG_OBSERVATORY_64"/>
+		<Row Name="ATLAS_ICON_C_ULUGH_BEG_OBSERVATORY" IconSize="128" Filename="ICON_C_ULUGH_BEG_OBSERVATORY_128"/>
+		<Row Name="ATLAS_ICON_C_ULUGH_BEG_OBSERVATORY" IconSize="256" Filename="ICON_C_ULUGH_BEG_OBSERVATORY_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_C_ULUGH_BEG_OBSERVATORY" Atlas="ATLAS_ICON_C_ULUGH_BEG_OBSERVATORY" Index="0"/>
+	</IconDefinitions>
+</GameData>

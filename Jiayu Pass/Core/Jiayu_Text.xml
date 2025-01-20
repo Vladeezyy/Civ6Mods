@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Text -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:16 PM -->
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_BUILDING_JIAYU_PASS_NAME">
+			<Text>Проход Цзяюй</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_JIAYU_PASS_DESCRIPTION">
+			<Text>Обеспечивает +9 [ICON_Production] производства каждому центру города в пределах 9 клеток. Занимающее его подразделение получает +9 [ICON_Strength] силы защиты и автоматически получает 9 ходов фортификации. +9 [ICON_GreatWriter] очков великих писателей.[NEWLINE][NEWLINE]Должно быть построено на пустыне без холмов.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_JIAYU_PASS_QUOTE">
+			<Text>«Стофутовая Великая стена закрывает западное небо;[NEWLINE]Преодолев мили и мили, я останавливаю своего скакуна.[NEWLINE]Бесконечные укрепления соединяются с гордыми деревьями вдали;[NEWLINE]Окружающие стены сливаются с облаками, летящими с невероятной скоростью.[NEWLINE]Крутая гора Небес равняется крепости;[NEWLINE]Безграничная пустыня перед глазами сбивает меня с толку.[NEWLINE]Кто говорит, что Восточный проход все еще самый сильный, как и прежде?[NEWLINE]Оглядываясь назад, я нахожу лишь кротовую нору.»[NEWLINE]– Линь Цзэсюй, "Западный рубеж"</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JIAYU_PASS_CHAPTER_HISTORY_PARA_1">
+			<Text>Проход расположен в самой узкой части западного участка коридора Хэси, в 6 километрах (3,7 мили) к юго-западу от города Цзяюйгуань в провинции Ганьсу. Сооружение расположено между двумя холмами, один из которых доминирует над проходом Цзяюйгуань. Крепость была построена рядом с оазисом, который тогда находился на крайнем западном крае Китая.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JIAYU_PASS_CHAPTER_HISTORY_PARA_2">
+			<Text>Существует удивительная легенда, рассказывающая о тщательном планировании строительства прохода. Согласно легенде, когда проход Цзяюйгуань планировался, чиновник, ответственный за проект, попросил проектировщика оценить точное количество необходимых кирпичей, и проектировщик дал ему число (99 999). Чиновник усомнился в его расчетах и спросил, будет ли этого достаточно, поэтому проектировщик добавил один кирпич. Когда Цзяюйгуань был завершен, остался один лишний кирпич, который был положен вольной кладкой на одни из ворот, где он остается и по сей день.</Text>
+		</Replace>
+
+	</BaseGameText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_JIAYU_PASS_NAME" Language="zh_Hant_HK">
+			<Text>嘉峪關</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_JIAYU_PASS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>為9個單元格範圍內的每個市中心提供+9 [ICON_Production] 生產力。佔領單位+9 [ICON_Strength] 防禦力，並自動獲得9回合防禦工事。+9 [ICON_GreatWriter] 大作家點數。[NEWLINE][NEWLINE]必須建在沒有丘陵的沙漠上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_JIAYU_PASS_QUOTE" Language="zh_Hant_HK">
+			<Text>「嚴關百尺界天西，萬里征人駐馬蹄。[NEWLINE]飛閣遙連秦樹直，繚垣斜壓隴雲低。[NEWLINE]天山巉削摩肩立，瀚海蒼茫入望迷。[NEWLINE]誰道崤函千古險？回看只見一丸泥。」[NEWLINE]——林則徐《出嘉峪關感賦》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JIAYU_PASS_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>嘉峪關關城，位於嘉峪關最狹窄的山谷中部，地勢最高的嘉峪山上，城關兩翼的城牆橫穿沙漠戈壁。嘉峪關以地勢險要，巍峨壯觀著稱於世，被稱為「天下第一雄關」。與千里之外的「天下第一關」——山海關遙相呼應，聞名天下。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JIAYU_PASS_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>在嘉峪關流傳一個歌頌古代工匠的傳說。相傳明正德年間，有一位名叫易開占的修關工匠，精通九九算法，所有建築，只要經他計算，用工用料十分準確和節省。監督修關的監事管不信，要他計算嘉峪關用磚數量，易開占經過詳細計算後說：「需要九萬九千九百九十九塊磚。」監事管依言發磚，並說：「如果多出一塊或少一塊，都要砍掉你的頭，罰眾工匠勞役三年。」竣工後，只剩下一塊磚，放置在西瓮城門樓後檐台上。監事管發覺後大喜，正想藉此剋扣易開占和眾工匠的工錢，哪知易開占不慌不忙的說：「那塊磚是神仙所放，是定城磚，如果搬動，城樓便會塌掉。」監事管一聽，不敢再追究。這塊磚就一直放在原地，名為定城磚，此磚仍保留在嘉峪關城樓之上。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_JIAYU_PASS_NAME" Language="zh_Hans_CN">
+			<Text>嘉峪关</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_JIAYU_PASS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为9个单元格范围内的每个市中心提供+9 [ICON_Production] 生产力。占领单位+9 [ICON_Strength] 防御力，并自动获得9回合防御工事。+9 [ICON_GreatWriter] 大作家点数。[NEWLINE][NEWLINE]必须建在没有丘陵的沙漠上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_JIAYU_PASS_QUOTE" Language="zh_Hans_CN">
+			<Text>“严关百尺界天西，万里征人驻马蹄。[NEWLINE]飞阁遥连秦树直，缭垣斜压陇云低。[NEWLINE]天山巉削摩肩立，瀚海苍茫入望迷。[NEWLINE]谁道崤函千古险？回看只见一丸泥。”[NEWLINE]——林则徐《出嘉峪关感赋》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JIAYU_PASS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>嘉峪关关城，位于嘉峪关最狭窄的山谷中部，地势最高的嘉峪山上，城关两翼的城墙横穿沙漠戈壁。嘉峪关以地势险要，巍峨壮观着称于世，被称为“天下第一雄关”。与千里之外的“天下第一关”——山海关遥相呼应，闻名天下。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JIAYU_PASS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>在嘉峪关流传一个歌颂古代工匠的传说。相传明正德年间，有一位名叫易开占的修关工匠，精通九九算法，所有建筑，只要经他计算，用工用料十分准确和节省。监督修关的监事管不信，要他计算嘉峪关用砖数量，易开占经过详细计算後说：“需要九万九千九百九十九块砖。”监事管依言发砖，并说：“如果多出一块或少一块，都要砍掉你的头，罚众工匠劳役三年。”竣工後，只剩下一块砖，放置在西瓮城门楼後檐台上。监事管发觉後大喜，正想借此克扣易开占和众工匠的工钱，哪知易开占不慌不忙的说：“那块砖是神仙所放，是定城砖，如果搬动，城楼便会塌掉。”监事管一听，不敢再追究。这块砖就一直放在原地，名为定城砖，此砖仍保留在嘉峪关城楼之上。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_JIAYU_PASS_NAME" Language="ja_JP">
+			<Text>嘉峪関</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_JIAYU_PASS_DESCRIPTION" Language="ja_JP">
+			<Text>9タイル以内にある都心の [ICON_Production] 生産力+9。この中にいるユニットは [ICON_Strength] 防御力+9となり、自動的に守りを固めた状態となる (9ターン)。 [ICON_GreatWriter] 大著述家ポイント+9。[NEWLINE][NEWLINE]丘陵のない砂漠にのみ建設可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_JIAYU_PASS_QUOTE" Language="ja_JP">
+			<Text>「嚴關百尺天の西を界り，萬里の征人馬蹄を駐む。[NEWLINE]飛閣は遙かに秦樹に連なって直く，繚垣は斜めに隴雲を壓して低し。[NEWLINE]天山は巉削として肩を摩して立ち，瀚海は蒼茫として望に入りて迷う。[NEWLINE]誰か道う崤函は千古の險なりと？回り看れば只だ見ろのみ一丸泥。」[NEWLINE]- 林則徐『嘉峪關を出でて感じて賦す』より</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JIAYU_PASS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>万里の長城につながる関の中で唯一建設当時のまま残される建造物である。最東端にある山海関が「天下第一関」と称されるのに対し、嘉峪関は「天下第一雄関」といわれている。東西シルクロードの要衝の一つであり、周囲には敦煌莫高窟のような著名な史跡が存在し、多数の漆喰壁画が見つかっている。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JIAYU_PASS_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>伝承では、嘉峪関の建設工事にあたり、設計者が算出した煉瓦の必要数量に加え予備の1枚を準備し、建設に着手した。完成時には、正確に1枚だけが余ったという。その煉瓦は現在門上に残され、建設の精確性をいまに伝えている。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 5/8/2024 10:18:03 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_ROME_PANTHEON" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_ROME_PANTHEON" Name="LOC_BUILDING_ROME_PANTHEON_NAME" Description="LOC_BUILDING_ROME_PANTHEON_DESCRIPTION" PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY" Cost="400" AdvisorType="ADVISOR_RELIGIOUS" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_INDUSTRIAL" Quote="LOC_BUILDING_ROME_PANTHEON_QUOTE" QuoteAudio=""/>
+	</Buildings>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_ROME_PANTHEON" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_ROME_PANTHEON" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_ROME_PANTHEON" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_ROME_PANTHEON" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_ROME_PANTHEON" TerrainType="TERRAIN_DESERT"/>
+	</Building_ValidTerrains>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_ROME_PANTHEON" YieldType="YIELD_FAITH" YieldChange="4"/>
+	</Building_YieldChanges>
+</GameData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Core -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:36:54 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_JIAYU_PASS"				Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_JIAYU_PASS"		Name="LOC_BUILDING_JIAYU_PASS_NAME" Description="LOC_BUILDING_JIAYU_PASS_DESCRIPTION" PrereqTech="TECH_CASTLES" Cost="710" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_INDUSTRIAL" RegionalRange="9" DefenseModifier="9" GrantFortification="9" OuterDefenseStrength="9" OuterDefenseHitPoints="300" Quote="LOC_BUILDING_JIAYU_PASS_QUOTE"/>
+	</Buildings>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_JIAYU_PASS"		TerrainType="TERRAIN_DESERT"/>
+	</Building_ValidTerrains>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_JIAYU_PASS"		YieldType="YIELD_PRODUCTION" YieldChange="9"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_JIAYU_PASS"		GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="9"/>
+	</Building_GreatPersonPoints>
+</GameData>
