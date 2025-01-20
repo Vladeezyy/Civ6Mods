@@ -1,0 +1,17 @@
+INSERT INTO IconTextureAtlases
+		(Name,									IconSize,	IconsPerRow,	IconsPerColumn,	Filename)
+VALUES	('ICON_ATLAS_PHANTA_GREAT_MOSQUE_DJENNE',		32,			1,				1,				'ICON_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_32.dds'),
+		('ICON_ATLAS_PHANTA_GREAT_MOSQUE_DJENNE',		38,			1,				1,				'ICON_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_38.dds'),
+		('ICON_ATLAS_PHANTA_GREAT_MOSQUE_DJENNE',		50,			1,				1,				'ICON_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_50.dds'),
+		('ICON_ATLAS_PHANTA_GREAT_MOSQUE_DJENNE',		80,			1,				1,				'ICON_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_80.dds'),
+		('ICON_ATLAS_PHANTA_GREAT_MOSQUE_DJENNE',		128,		1,				1,				'ICON_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_128.dds'),
+		('ICON_ATLAS_PHANTA_GREAT_MOSQUE_DJENNE',		256,		1,				1,				'ICON_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_256.dds');
+--------------------------------------------------------------
+
+-- IconDefinitions
+--------------------------------------------------------------
+INSERT OR REPLACE INTO IconDefinitions
+		(Name,										Atlas,								'Index')
+VALUES	('ICON_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE',		'ICON_ATLAS_PHANTA_GREAT_MOSQUE_DJENNE',	0),
+		('ICON_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_FOW',	'ICON_ATLAS_PHANTA_GREAT_MOSQUE_DJENNE',	0);
+--------------------------------------------------------------

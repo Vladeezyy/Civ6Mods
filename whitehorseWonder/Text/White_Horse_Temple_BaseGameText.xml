@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- White_Horse_Temple_BaseGameText -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 9/1/2024 11:35:40 PM -->
+<GameData>
+	<BaseGameText>
+
+		<!--en_US-->
+		<Row Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_NAME">
+    <Text>Храм Белого Коня</Text>
+</Row>
+<Row Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_1">
+    <Text>Дает одного бесплатного [ICON_GreatProphet] Великого Пророка. [ICON_GreatProphet] Великие Пророки могут основать религию в Храме Белого Коня вместо Священного Места. Покупка религиозного юнита религии, основанной другой цивилизацией, возвращает 50% стоимости [ICON_Faith] Веры.</Text>
+</Row>
+<Row Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2">
+    <Text>При распространении религии или устранении ереси юнитами религии, основанной другой цивилизацией, дает 30 [ICON_Culture] Культуры для текущего исследуемого общественного института, величина увеличивается с эрой; если действие выполняется за пределами домашней территории, дополнительно дает +1 [ICON_Envoy] Посла.</Text>
+</Row>
+<Row Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2_XP2">
+    <Text>При распространении религии или устранении ереси юнитами религии, основанной другой цивилизацией, дает 30 [ICON_Culture] Культуры для текущего исследуемого общественного института, величина увеличивается с эрой; если действие выполняется за пределами домашней территории, дополнительно дает +1 [ICON_Envoy] Посла и +10 [ICON_Favor] Дипломатической поддержки.</Text>
+</Row>
+<Row Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_3">
+    <Text>Должен быть построен на ровной клетке, смежной с районом Дипломатического квартала.</Text>
+</Row>
+<Row Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESCRIPTION">
+    <Text>{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_1}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_3}</Text>
+</Row>
+<Row Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESCRIPTION_XP2">
+    <Text>{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_1}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2_XP2}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_3}</Text>
+</Row>
+<Row Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_QUOTE">
+    <Text>«Белый конь больше не несет священных писаний,[NEWLINE]стела и храм разрушены.[NEWLINE]Осенний ветер свистит в хижине,[NEWLINE]ночной ливень усиливает мою печаль.»[NEWLINE]— Чжан Цзи, Остановка у Храма Белого Коня</Text>
+</Row>
+<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_WHITE_HORSE_TEMPLE_CHAPTER_HISTORY_PARA_1">
+    <Text>Построенный в 68 году в Лояне, провинция Хэнань, Храм Белого Коня был первым государственным храмом, построенным в Китае после введения буддизма. По легенде, в 64 году император Мин из династии Восточная Хань увидел сон о золотом божестве на западе, поэтому он отправил Цай Чуаня и Цинь Цзина на поиски учений в Индию. Через три года они вернулись в Лоян с буддийскими монахами Кашьяпа Матангой и Дхармаратной из Центральной Индии, которые принесли буддийские писания и статуи. Первое время монахи находились в Хунлуси, но затем император приказал построить храм в трех милях за Западными воротами Лояна. В честь белого коня, несшего писания, храм был назван «Храм Белого Коня». Китайцы заимствовали слово «си» из Хунлуси и позже стали использовать его для обозначения буддийских монастырей. Здесь Кашьяпа Матанга и Дхармаратна перевели «Сутру в 42 главах», первое китайское переведенное буддийское писание. После них в храм приехало множество монахов, переводивших сутры; в общей сложности здесь было переведено 395 томов сутр, что сделало Храм Белого Коня главным центром перевода буддийских текстов в Китае.</Text>
+</Row>
+<Row Tag="LOC_WHT_FAITH_BONUS_WORLDVIEW">
+    <Text>[COLOR_Faith]+{1_Num}[ENDCOLOR] [ICON_Faith]</Text>
+</Row>
+<Row Tag="LOC_WHT_CULTURE_BONUS_WORLDVIEW">
+    <Text>[COLOR_Culture]+{1_Num}[ENDCOLOR] [ICON_Culture]</Text>
+</Row>
+<Row Tag="LOC_WHT_ENVOY_FAVOR_BONUS_WORLDVIEW">
+    <Text>+{1_Envoy} [ICON_Envoy]</Text>
+</Row>
+<Row Tag="LOC_WHT_ENVOY_FAVOR_BONUS_WORLDVIEW_XP2">
+    <Text>+{1_Envoy} [ICON_Envoy] +{2_Favor} [ICON_Favor]</Text>
+</Row>
+<Row Tag="LOC_DIPLO_MODIFIER_DESC_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM">
+    <Text>Мне приснилось божественное существо, все тело которого было золотым, а на голове светило солнце, оно пролетало над моим дворцом. Вы знаете что-нибудь об этом золотом божестве?</Text>
+</Row>
+<Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM">
+    <Text>{LOC_DIPLO_MODIFIER_DESC_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM}[NEWLINE](Ваш исторический предпочтительный религия — буддизм, и этот лидер построил чудо света Храм Белого Коня)</Text>
+</Row>
+<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM">
+    <Text>Храм Белого Коня и буддизм</Text>
+</Row>
+<Row Tag="LOC_DIPLO_MODIFIER_DESC_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE">
+    <Text>Я отправляю двух мастеров, Кашьяпу Матангу и Дхармаратну, чтобы они распространили учения Будды в вашей стране. Вы будете хорошо к ним относиться?</Text>
+</Row>
+<Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE">
+    <Text>{LOC_DIPLO_MODIFIER_DESC_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE}[NEWLINE](Вы построили чудо света Храм Белого Коня, а эта цивилизация предпочитает буддизм)</Text>
+</Row>
+<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE">
+    <Text>Храм Белого Коня и буддизм</Text>
+</Row>
+
+	</BaseGameText>
+</GameData>

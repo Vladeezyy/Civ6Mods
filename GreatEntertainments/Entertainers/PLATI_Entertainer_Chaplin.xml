@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_CHAPLIN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_CHAPLIN" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_CHAPLIN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_CHAPLIN_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_CHAPLIN" ModifierId="GREATPERSON_BONUS_CHAPLIN" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_CHAPLIN" ModifierId="GREATPERSON_BONUS_CHAPLIN_FAITH" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_CHAPLIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_CHAPLIN_FAITH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_AMENITIES_FROM_GREAT_PEOPLE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_CHAPLIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_CHAPLIN</ModifierId>
+			<Name>Tooltip</Name>
+			<Value>LOC_DVP_TOOLTIP_OTHER_SOURCES</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_CHAPLIN_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_CHAPLIN" Context="Summary" Text="LOC_GREATPERSON_PLATI_CHAPLIN_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

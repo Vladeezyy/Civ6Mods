@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	972884468	Play_Wonder_Music_Suk_Borobudur			\Default Work Unit\Sukritact\Suk_Borobudur\Play_Wonder_Music_Suk_Borobudur	
+	1329135574	Stop_Wonder_Music_Suk_Borobudur			\Default Work Unit\Sukritact\Suk_Borobudur\Stop_Wonder_Music_Suk_Borobudur	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	71350835	Suk_Borobudur_NyaiSaraswati	C:\Users\Owner\Documents\Modding Files\Borobudur\Audio\Wwise\WON_Suk_Borobudur\.cache\Windows\SFX\Suk_Borobudur_NyaiSaraswati_E843A46D.wem	71350835.wem	\Actor-Mixer Hierarchy\Default Work Unit\Game_Cues\Wonders\Wonders\WonderMusic\Suk_Borobudur\Suk_Borobudur_NyaiSaraswati	
+

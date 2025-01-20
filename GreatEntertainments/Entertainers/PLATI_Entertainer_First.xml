@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_FIRST" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_FIRST" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_FIRST_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_ENT_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_FIRST" ModifierId="GREATPERSON_BONUS_ENT_FIRST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ENT_FIRST</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ENT_FIRST</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_PLAYBOY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ENT_FIRST</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_ENT_FIRST" Context="Summary" Text="LOC_GREATPERSON_PLATI_ENT_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

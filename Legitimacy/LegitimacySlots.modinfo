@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="9ef3fb6f-17bd-4500-a185-5304cfff2426" version="2">
+  <Properties>
+    <Name>Legitimate Authority</Name>
+    <Description>Reclassifies policies into traditional, charismatic, and rational-legal policies as the primary types.</Description>
+    <Teaser>Reclassifies policies.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+	<Criteria id="6T">
+	  <ModInUse>c6c62855-e22a-47b2-9c36-be0a8c09519e</ModInUse>	<!-- Enlightenment Government Expansion -->
+	</Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateText id="Config_Text">
+      <Properties>
+        <LoadOrder>1000013</LoadOrder>
+      </Properties>
+      <File>Text/Legitimacy_Text.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>1000013</LoadOrder>
+      </Properties>
+      <File>Data/Legitimacy_Governments.sql</File>
+      <File>Data/Legitmacy_Policies.sql</File>
+      <File>Data/Legitimacy_Policies_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_6T" criteria="6T">
+      <Properties>
+        <LoadOrder>1000014</LoadOrder>
+      </Properties>
+      <File>Data/Legitimacy_Governments_6T.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>1000013</LoadOrder>
+      </Properties>
+      <File>Text/Legitimacy_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>1000013</LoadOrder>
+      </Properties>
+      <File>Icons/Legitimacy_Icons.sql</File>
+      <File>Icons/Legitimacy_Icons_ModSupport.sql</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Data/Legitimacy_Governments.sql</File>
+    <File>Data/Legitimacy_Governments_6T.sql</File>
+    <File>Data/Legitimacy_Policies_ModSupport.sql</File>
+    <File>Data/Legitmacy_Policies.sql</File>
+    <File>Icons/Legitimacy_Icons.sql</File>
+    <File>Icons/Legitimacy_Icons_ModSupport.sql</File>
+    <File>Text/Legitimacy_Text.sql</File>
+  </Files>
+</Mod>

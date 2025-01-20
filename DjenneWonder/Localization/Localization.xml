@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_NAME" Language="ru_RU">
+			<Text>Великая мечеть Дженне</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_DESCRIPTION" Language="ru_RU">
+			<Text>Строители и миссионеры, созданные в этом городе, получают +1 [ICON_Movement] Передвижения и +1 заряд за каждые 3 торговца, которыми вы владеете, максимум до +3. Должна быть построена на равнине или в пустыне, прилегающей к району Священного места с храмом.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_QUOTE" Language="ru_RU">
+			<Text>«Когда султан принял ислам, он разрушил свой дворец, а на этом месте построил мечеть, посвящённую Всевышнему... Когда султан Кумбуру умер – да помилует его Всевышний – его преемник построил башни соборной мечети. Затем его сменил султан, который возвёл стену, окружающую мечеть.»[NEWLINE]– Аль-Саади, "Тарих ас-Судан"</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Великая мечеть Дженне, самое большое здание из глиняного кирпича в мире, находится в Африканской Республике Мали. Считается, что она была впервые построена в XIII веке султаном Кой Кумборо, после чего мечеть неоднократно разрушалась и восстанавливалась. Нынешняя версия, возведённая из глиняных кирпичей и раствора, была построена в 1906 году благодаря совместным усилиям местного сообщества. Сегодня мечеть поддерживается жителями Дженне во время ежегодного фестиваля, созданного специально для обеспечения её долговечности.</Text>
+		</Row>
+
+		
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_NAME" Language="zh_Hant_HK">
+			<Text>傑內大清真寺</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每擁有3個商人，此城市新創建的建造者和傳教士獲得+1 [ICON_Movement] 移動力和+1使用次數，最多+3。必須建造在相鄰聖地區域（須建有寺廟）的平坦平原或平坦沙漠上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_QUOTE" Language="zh_Hant_HK">
+			<Text>「當蘇丹成為穆斯林後，他拆除了自己的宮殿，並將此地改建為清真寺，供奉最崇高的真主。……當昆伯羅蘇丹去世時，願最崇高的真主的慈悲眷顧他——他的繼任者是建造會眾清真寺塔樓的蘇丹。下一位繼任者是建造清真寺四周圍牆的蘇丹。」[NEWLINE]——薩迪，《蘇丹史》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>傑內大清真寺是世界最大的土坯建築，坐落在非洲的馬里共和國。大清真寺被認爲是在13世紀由昆伯羅蘇丹初次建成，後來又經歷過多次的毀壞和重建。現存的大清真寺主體建築，是在週邊社會團體的共同努力下使用泥磚和灰漿於1906年完成的。如今，傑內的居民每年都會針對大清真寺特別進行修補活動，以保証其屹立不倒。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_NAME" Language="zh_Hans_CN">
+			<Text>杰内大清真寺</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每拥有3个商人，此城市新创建的建造者和传教士获得+1 [ICON_Movement] 移动力和+1使用次数，最多+3。必须建造在相邻圣地区域（须建有寺庙）的平坦平原或平坦沙漠上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_QUOTE" Language="zh_Hans_CN">
+			<Text>当苏丹成为穆斯林后，他拆除了自己的宫殿，并将此地改建为清真寺，供奉最崇高的真主……当昆伯罗苏丹去世时，愿最崇高的真主的慈悲眷顾他——他的继任者是建造会众清真寺塔楼的苏丹。下一位继任者是建造清真寺四周围墙的苏丹。[NEWLINE]——萨迪，《苏丹史》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>杰内大清真寺是世界最大的土坯建筑，坐落在非洲的马里共和国。大清真寺被认为是在13世纪由昆伯罗苏丹初次建成，后来又经历过多次的毁坏和重建。现存的大清真寺主体建筑，是在周边社会团体的共同努力下使用泥砖和灰浆于1906年完成的。如今，杰内的居民每年都会针对大清真寺特别进行修补活动，以保证其屹立不倒。</Text>
+		</Row>
+		
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_NAME" Language="ja_JP">
+			<Text>ジェンネの大モスク</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_DESCRIPTION" Language="ja_JP">
+			<Text>あなたが所有している交易商3つにつき、この都市で新たに作成された建設者と伝道師の移動力+1、チャージ+1（最大+3）。神殿が存在する聖地区域に隣接した平らな平原または平らな砂漠にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_QUOTE" Language="ja_JP">
+			<Text>「スルタンがムスリムになったとき、彼は自分の宮殿を取り壊し、その場所を至高の神に捧げるモスクにした......スルタン・クンブルが亡くなったとき、至高の神の慈悲が彼にありますように - 彼は会衆モスクの塔を建てたスルタンに引き継がれた。彼はまた、モスクを囲む壁を築いたスルタンに引き継がれた。」[NEWLINE]– アル・サディ、『タリク・アル・スルタン』</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_GREAT_MOSQUE_DJENNE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ジェンネの大モスク（泥のモスク）は、アフリカのマリ共和国にある世界最大の泥レンガ造りの建物。この大モスクは、13世紀にスルタン・クンブルによって最初に建てられたと考えられており、その後、何度も破壊と再建が繰り返されてきた。現存する大モスクの主要な建物は、近隣の地域団体が力を合わせて泥レンガとモルタルを使って1906年に完成させたものである。現在では、ジェンネの住民たちが毎年大モスクの特別な修繕活動を行い、大モスクの存続を確保している。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

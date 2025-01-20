@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_ESTHER" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_ESTHER" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_ESTHER_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" EraType="ERA_ATOMIC" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_ESTHER_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_ESTHER" ModifierId="GREATPERSON_BONUS_ESTHER" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_ESTHER" ModifierId="GREATPERSON_BONUS_ESTHER_FAITH" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ESTHER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_AMENITIES_FROM_GREAT_PEOPLE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ESTHER_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_TOURISM_CHANGE</ModifierType>
+			<SubjectRequirementSetId>PLATI_DISTRICT_IS_WATER_PARK</SubjectRequirementSetId>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ESTHER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_ESTHER_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_ESTHER" Context="Summary" Text="LOC_GREATPERSON_PLATI_ESTHER_ACTIVE"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLATI_DISTRICT_IS_WATER_PARK</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLATI_DISTRICT_IS_WATER_PARK</RequirementSetId>
+			<RequirementId>PLATI_CITY_HAS_WATER_PARK</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>PLATI_CITY_HAS_WATER_PARK</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_DISTRICT</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>PLATI_CITY_HAS_WATER_PARK</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_WATER_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Text -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:16 PM -->
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_NAME">
+			<Text>Барабанная Башня Сианя</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_DESCRIPTION">
+			<Text>Другие города в радиусе 9 клеток, не принадлежащие вам, теряют 2 Лояльности в ход. +1 дополнительная [ICON_Culture] Культура, [ICON_Food] Еда и [ICON_Gold] Золото за каждую эпоху с момента строительства.[NEWLINE][NEWLINE]Должна быть построена на ровной местности рядом с Центром города.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_QUOTE">
+			<Text>"Утренние колокола и вечерние барабаны звучат сами по себе, За закрытыми дверями одинокая подушка лицом к тусклой лампе.[NEWLINE]Белый пепел перемешан, чтобы снова разжечь красный огонь, Лежа, я слушаю, как дождь шуршит по окну."[NEWLINE]— Су Ши, написано в комнате мастера Чжана из Шуанчжу</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_DRUM_TOWER_CHAPTER_HISTORY_PARA_1">
+			<Text>Барабанная Башня Сианя, расположенная в центре города Сиань, столицы провинции Шэньси на северо-западе Китая, наряду с Колокольной Башней является символом города. Возведенная в 1380 году в начале династии Мин (эра Хунъу), она возвышается над центром города и предлагает невероятный вид на Сиань. Барабанная Башня находится в преимущественно мусульманском районе Сианя, известном как Мусульманский район Барабанной Башни.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_MUSIC">
+			<Text>Когда произведения одного типа разных музыкантов представлены, тематический бонус удваивается.</Text>
+		</Replace>
+	</BaseGameText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_NAME" Language="zh_Hant_HK">
+			<Text>西安鼓樓</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>9個單元格內且不屬於你的城市每回合的忠誠度-3。自建造的時代起，每進入一個新時代便額外+1 [ICON_Culture] 文化值、+1 [ICON_Food] 食物和+1 [ICON_Gold] 金幣。[NEWLINE][NEWLINE]必須建在鄰近城市中心的平坦地形上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_QUOTE" Language="zh_Hant_HK">
+			<Text>「暮鼓朝鐘自擊撞，閉門孤枕對殘缸。[NEWLINE]白灰旋撥通紅火，臥聽蕭蕭雨打窗。」[NEWLINE]——蘇軾《書雙竹湛師房》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_DRUM_TOWER_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>西安鼓樓，位於古都西安市中心，明城牆內東西南北四條大街交匯處的西安鐘樓西北方約200米處，是中國古代遺留下來眾多鼓樓中形制最大、保存最完整鼓樓之一。西安鼓樓始建於明洪武十三年，比鐘樓早建4年。樓上原有巨鼓一面，每日擊鼓報時，故稱「鼓樓」。鼓樓橫跨北院門大街之上，和鐘樓相距僅200米，互相對應。[NEWLINE]如今，樓南北兩側各懸掛一面匾額，南側匾額上書「文武盛地」，北側匾額上書「聲聞於天」(原匾毀於文革期間)。樓體周圍放置大小28面鼓；其中24小鼓鼓面以小篆書寫中國傳統二十四節氣，分立與樓南北兩側；另外4面大鼓分立與樓東西兩側。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_MUSIC" Language="zh_Hant_HK">
+			<Text>當展示來自不同音樂家相同類型的作品時，主題加成翻倍。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_NAME" Language="zh_Hans_CN">
+			<Text>西安鼓楼</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>9个单元格内且不属于你的城市每回合的忠诚度-3。自建造的时代起，每进入一个新时代便额外+1 [ICON_Culture] 文化值、+1 [ICON_Food] 食物和+1 [ICON_Gold] 金币。[NEWLINE][NEWLINE]必须建在邻近城市中心的平坦地形上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_QUOTE" Language="zh_Hans_CN">
+			<Text>“暮鼓朝钟自击撞，闭门孤枕对残缸。[NEWLINE]白灰旋拨通红火，卧听萧萧雨打窗。”[NEWLINE]——苏轼《书双竹湛师房》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_DRUM_TOWER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>西安锺楼建成于公元1384年，距今已有600余年。位于西安市的市中心，城内东西南北四条大街的交汇处。是中国古代遗留下来众多锺楼中形制最大、保存最完整的一座。[NEWLINE]西安锺楼建成于明朝洪武十七年（1384年）。它最初位于西大街以北广济街口的迎祥观，与西安鼓楼对峙，距当前所在位置约1000米。当时此地与南北城门正对，是城中心之所在。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_MUSIC" Language="zh_Hans_CN">
+			<Text>当展示来自不同音乐家相同类型的作品时，主题加成翻倍。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_NAME" Language="ja_JP">
+			<Text>西安鼓楼</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_DESCRIPTION" Language="ja_JP">
+			<Text>9タイル以内にある自文明が保有していない都市について、ターン毎に忠誠心-3。建設後、時代が進むごとに [ICON_Culture] 文明力+1、 [ICON_Food] 食料+1と [ICON_Gold] ゴールド+1。[NEWLINE][NEWLINE]都心に隣接した平らな土地にのみ建設可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_QUOTE" Language="ja_JP">
+			<Text>「暮の鼓と朝の鐘が自ら鳴り響き、閉ざされた門の内、孤独な枕が残りの灯に向かう。[NEWLINE]白い灰をかき混ぜて赤い火を通し、横になって、窓を打つ雨の音を聞く。」[NEWLINE]— 蘇軾《書双竹湛師房》より</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_DRUM_TOWER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>西安鼓楼は、中国陝西省西安市蓮湖区にある鼓楼。明朝初期の1380年に建てられた。高さは33メートル。清朝時代の1699年と1740年に修復が行われている。鼓楼の北西には、中国最古のモスクである西安大清真寺があり、鼓楼の北側にはイスラム教徒が多く住み、清真料理のレストランや土産物店などが多くみられる。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DRUM_TOWER_MUSIC" Language="ja_JP">
+			<Text>異なる音楽家の同じタイプの作品が展示されると、テーマのボーナスが倍増します。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

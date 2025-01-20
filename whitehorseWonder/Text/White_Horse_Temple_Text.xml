@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- White_Horse_Temple_Text -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 6/5/2024 12:22:06 AM -->
+<GameData>
+	<LocalizedText>
+		<!--zh_Hans_CN-->
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_NAME" Language="zh_Hans_CN">
+			<Text>白马寺</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_1" Language="zh_Hans_CN">
+			<Text>免费获得一个 [ICON_GreatProphet] 大预言家（如果未招募过）， [ICON_GreatProphet] 大预言家可在白马寺创立宗教。购买非您创建宗教的宗教单位后，返还等同于50%基准购买花费的 [ICON_Faith] 信仰。 </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE]使用非您创建宗教的宗教单位传教或清除异教时，为正在研究的市政进度添加30点 [ICON_Culture] 文化（在标准速度下），且此效果随游戏进度增长；如果是在境外，则额外+1 [ICON_Envoy] 使者。 </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2_XP2" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE]使用非您创建宗教的宗教单位传教或清除异教时，为正在研究的市政进度添加30点 [ICON_Culture] 文化（在标准速度下），且此效果随游戏进度增长；如果是在境外，则额外+1 [ICON_Envoy] 使者，+10 [ICON_Favor] 外交支持。 </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_3" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE]必须建造在相邻外交区的平坦地形。 </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_1}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_3} </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_1}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2_XP2}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_3} </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_QUOTE" Language="zh_Hans_CN">
+			<Text>白马驮经事已空，断碑残刹见遗踪。萧萧茅屋秋风起，一夜雨声羁思浓。[NEWLINE]——张继《宿白马寺》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_WHITE_HORSE_TEMPLE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>白马寺位于河南省洛阳市，始建于东汉永平十一年（公元68年），是佛教传入中国后兴建的第一座官办寺院。据传东汉永平七年（64年），明帝梦见西方有金神，遣郎中蔡愔、博士弟子秦景等赴天竺求法。永平十年，他们与中天竺僧人摄摩腾、竺法兰赍佛经、佛像回洛阳。初居鸿胪寺，后以鸿胪非久居之馆，次年明帝敕令在洛阳西雍门外三里御道北兴建僧院。为纪念白马驮经，取名“白马寺”。“寺”字即源于“鸿胪寺”之“寺”字，后来“寺”字便成了中国寺院的一种泛称。摄摩腾和竺法兰在此译出《四十二章经》，为现存中国第一部汉译佛典。在摄摩腾和竺法兰之后，又有多位西方高僧来到白马寺译经，合计三百九十五卷佛经在这里译出，白马寺成为当之无愧的中国第一译经道场。 </Text>
+		</Replace>
+		<Replace Tag="LOC_WHT_FAITH_BONUS_WORLDVIEW" Language="zh_Hans_CN">
+			<Text>[COLOR_Faith]+{1_Num}[ENDCOLOR] [ICON_Faith]</Text>
+		</Replace>
+		<Replace Tag="LOC_WHT_CULTURE_BONUS_WORLDVIEW" Language="zh_Hans_CN">
+			<Text>[COLOR_Culture]+{1_Num}[ENDCOLOR] [ICON_Culture]</Text>
+		</Replace>
+		<Replace Tag="LOC_WHT_ENVOY_FAVOR_BONUS_WORLDVIEW" Language="zh_Hans_CN">
+			<Text>+{1_Envoy} [ICON_Envoy]</Text>
+		</Replace>
+		<Replace Tag="LOC_WHT_ENVOY_FAVOR_BONUS_WORLDVIEW_XP2" Language="zh_Hans_CN">
+			<Text>+{1_Envoy} [ICON_Envoy] +{2_Favor} [ICON_Favor]</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESC_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM" Language="zh_Hans_CN">
+			<Text>我在夜晚梦见一位神人，全身金色，项有日光，在殿前飞绕而行。您了解这位金神的事情吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_MODIFIER_DESC_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM}[NEWLINE]（您在历史中喜欢佛教，而该领袖建成了奇观-白马寺）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM" Language="zh_Hans_CN">
+			<Text>白马寺与佛教</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESC_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE" Language="zh_Hans_CN">
+			<Text>我将派遣摄摩腾、竺法兰两位大师前往贵国传播佛教。您会接待他们吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_MODIFIER_DESC_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE}[NEWLINE]（您建成了奇观-白马寺，而该领袖在历史中喜欢佛教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE" Language="zh_Hans_CN">
+			<Text>白马寺与佛教</Text>
+		</Replace>
+
+		<!--zh_Hant_HK-->
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_NAME" Language="zh_Hant_HK">
+			<Text>白馬寺</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_1" Language="zh_Hant_HK">
+			<Text>免費獲得一個 [ICON_GreatProphet] 大預言家（如果未招募過）， [ICON_GreatProphet] 大預言家可在白馬寺創立宗教。購買非您創建宗教的宗教單位後，返還等同於50%基準購買花費的 [ICON_Faith] 信仰。 </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2" Language="zh_Hant_HK">
+			<Text>[NEWLINE][NEWLINE]使用非您創建宗教的宗教單位傳教或清除異教時，為正在研究的市政進度添加30點 [ICON_Culture] 文化（在標準速度下），且此效果隨遊戲進度增長；如果是在境外，則額外+1 [ICON_Envoy] 使者。 </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2_XP2" Language="zh_Hant_HK">
+			<Text>[NEWLINE][NEWLINE]使用非您創建宗教的宗教單位傳教或清除異教時，為正在研究的市政進度添加30點 [ICON_Culture] 文化（在標準速度下），且此效果隨遊戲進度增長；如果是在境外，則額外+1 [ICON_Envoy] 使者，+10 [ICON_Favor] 外交支持。 </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_3" Language="zh_Hant_HK">
+			<Text>[NEWLINE][NEWLINE]必須建造在相鄰外交區的平坦地形。 </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_1}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_3} </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESCRIPTION_XP2" Language="zh_Hant_HK">
+			<Text>{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_1}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2_XP2}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_3} </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_QUOTE" Language="zh_Hant_HK">
+			<Text>白馬馱經事已空，斷碑殘剎見遺蹤。蕭蕭茅屋秋風起，一夜雨聲羈思濃。[NEWLINE]——張繼《宿白馬寺》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_WHITE_HORSE_TEMPLE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>白馬寺位於河南省洛陽市，始建於東漢永平十一年（公元68年），是佛教傳入中國後興建的第一座官辦寺院。據傳東漢永平七年（64年），明帝夢見西方有金神，遣郎中蔡愔、博士弟子秦景等赴天竺求法。永平十年，他們與中天竺僧人攝摩騰、竺法蘭賫佛經、佛像回洛陽。初居鴻臚寺，後以鴻臚非久居之館，次年明帝敕令在洛陽西雍門外三里御道北興建僧院。為紀念白馬馱經，取名“白馬寺”。“寺”字即源於“鴻臚寺”之“寺”字，後來“寺”字便成了中國寺院的一種泛稱。攝摩騰和竺法蘭在此譯出《四十二章經》，為現存中國第一部漢譯佛典。在攝摩騰和竺法蘭之後，又有多位西方高僧來到白馬寺譯經，合計三百九十五卷佛經在這里譯出，白馬寺成為當之無愧的中國第一譯經道場。 </Text>
+		</Replace>
+		<Replace Tag="LOC_WHT_FAITH_BONUS_WORLDVIEW" Language="zh_Hant_HK">
+			<Text>[COLOR_Faith]+{1_Num}[ENDCOLOR] [ICON_Faith]</Text>
+		</Replace>
+		<Replace Tag="LOC_WHT_CULTURE_BONUS_WORLDVIEW" Language="zh_Hant_HK">
+			<Text>[COLOR_Culture]+{1_Num}[ENDCOLOR] [ICON_Culture]</Text>
+		</Replace>
+		<Replace Tag="LOC_WHT_ENVOY_FAVOR_BONUS_WORLDVIEW" Language="zh_Hant_HK">
+			<Text>+{1_Envoy} [ICON_Envoy]</Text>
+		</Replace>
+		<Replace Tag="LOC_WHT_ENVOY_FAVOR_BONUS_WORLDVIEW_XP2" Language="zh_Hant_HK">
+			<Text>+{1_Envoy} [ICON_Envoy] +{2_Favor} [ICON_Favor]</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESC_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM" Language="zh_Hant_HK">
+			<Text>我在夜晚夢見一位神人，全身金色，項有日光，在殿前飛繞而行。您了解這位金神的事情嗎？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM" Language="zh_Hant_HK">
+			<Text>{LOC_DIPLO_MODIFIER_DESC_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM}[NEWLINE]（您在歷史中喜歡佛教，而該領袖建成了奇觀-白馬寺）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM" Language="zh_Hant_HK">
+			<Text>白馬寺與佛教</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESC_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE" Language="zh_Hant_HK">
+			<Text>我將派遣攝摩騰、竺法蘭兩位大師前往貴國傳播佛教。您會接待他們嗎？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE" Language="zh_Hant_HK">
+			<Text>{LOC_DIPLO_MODIFIER_DESC_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE}[NEWLINE]（您建成了奇觀-白馬寺，而該領袖在歷史中喜歡佛教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE" Language="zh_Hant_HK">
+			<Text>白馬寺與佛教</Text>
+		</Replace>
+
+		<!--ja_JP-->
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_NAME" Language="ja_JP">
+			<Text>白馬寺</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_1" Language="ja_JP">
+			<Text>[ICON_GreatProphet] 大預言者を無料で1人得る。 [ICON_GreatProphet] 大預言者が、聖地ではなく白馬寺で宗教を創始できる。外国文明によって設立された宗教の宗教ユニットを購入すると、 [ICON_Faith] 信仰力の購入費用の50％が返還される。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2" Language="ja_JP">
+			<Text>外国の文明によって設立された宗教の宗教ユニットで宗教を広めるか異端を取り除くとき、現在研究している社会制度に [ICON_Culture] 30文化力を与え、時代によって増減する。自国領外でこの行動を行う場合、さらに [ICON_Envoy] 代表団+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2_XP2" Language="ja_JP">
+			<Text>外国の文明によって設立された宗教の宗教ユニットで宗教を広めるか異端を取り除くとき、現在研究している社会制度に [ICON_Culture] 30文化力を与え、時代によって増減する。自国領外でこの行動を行う場合、さらに [ICON_Envoy] 代表団+1、  [ICON_Favor] 外交的支持+10。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_3" Language="ja_JP">
+			<Text>外交街区域に隣接する平らな土地にのみ建設可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_1}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_3} </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_DESCRIPTION_XP2" Language="ja_JP">
+			<Text>{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_1}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_2_XP2}{LOC_BUILDING_WHITE_HORSE_TEMPLE_DESC_PART_3} </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WHITE_HORSE_TEMPLE_QUOTE" Language="ja_JP">
+			<Text>「経典を運ぶ白馬の事はすでに空しく、[NEWLINE]断碑 殘剎 遺蹤のみ見える。[NEWLINE]蕭々たる茅屋 秋風が起き、[NEWLINE]一夜の雨声 羈思濃く。」[NEWLINE]- 張継『宿白馬寺』</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_WHITE_HORSE_TEMPLE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>河南省洛陽市にある白馬寺は、西暦68年に建立された。中国に仏教が伝来した後、最初に建てられた官営寺院である。伝説によると、64年、後漢の明帝は西方に金色の神がいる夢を見、郎中の蔡愔と博士の弟子である秦景を天竺に仏法の教えを求めに遣わした。 永平10年、彼らは中天竺の仏教僧の摂摩騰と竺法蘭とともに洛陽に戻り、仏典と仏像を贈った。 当初は鴻臚寺に住んでいたが、鴻臚寺に住んでいる時間は長くなく、翌年、明の皇帝は洛陽の西永雍門外3里に僧院の建設を命じた。経典を運ぶ白馬を記念して、「白馬寺」と名付けられた。 「寺」という言葉は「鴻臚寺」から派生し、その後、「寺」は中国の僧院の総称となった。 [NEWLINE]ここで、摂摩騰と竺法蘭は、中国に現存する仏典の最初の漢訳である『四十二章経』を翻訳した。 摂摩騰と竺法蘭の後、多くの西域の僧が白馬寺に来て仏典を翻訳し、計395巻がここで翻訳され、白馬寺は中国で最大の仏典翻訳の地となった。</Text>
+		</Replace>
+		<Replace Tag="LOC_WHT_FAITH_BONUS_WORLDVIEW" Language="ja_JP">
+			<Text>[COLOR_Faith]+{1_Num}[ENDCOLOR] [ICON_Faith]</Text>
+		</Replace>
+		<Replace Tag="LOC_WHT_CULTURE_BONUS_WORLDVIEW" Language="ja_JP">
+			<Text>[COLOR_Culture]+{1_Num}[ENDCOLOR] [ICON_Culture]</Text>
+		</Replace>
+		<Replace Tag="LOC_WHT_ENVOY_FAVOR_BONUS_WORLDVIEW" Language="ja_JP">
+			<Text>+{1_Envoy} [ICON_Envoy]</Text>
+		</Replace>
+		<Replace Tag="LOC_WHT_ENVOY_FAVOR_BONUS_WORLDVIEW_XP2" Language="ja_JP">
+			<Text>+{1_Envoy} [ICON_Envoy] +{2_Favor} [ICON_Favor]</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESC_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM" Language="ja_JP">
+			<Text>私は夜、首に日の光を宿した金色の神が神殿の前を旋回する夢を見た。この黄金の神について何かご存知で？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM" Language="ja_JP">
+			<Text>{LOC_DIPLO_MODIFIER_DESC_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM}[NEWLINE](あなたの歴史的宗教の好みは仏教であり、この指導者は白馬寺遺産を建設した)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_WHITE_HORSE_TEMPLE_LOVE_BUDDHISM" Language="ja_JP">
+			<Text>白馬寺と仏教</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESC_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE" Language="ja_JP">
+			<Text>私は二人の大師、摂摩騰と竺法蘭を、仏教を広めるためにあなたの国に送る。 彼らを受け入れてくれるか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE" Language="ja_JP">
+			<Text>{LOC_DIPLO_MODIFIER_DESC_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE}[NEWLINE](あなたは白馬寺遺産を建設し、この指導者の歴史的宗教の好みは仏教である)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_BUDDHISM_LOVE_WHITE_HORSE_TEMPLE" Language="ja_JP">
+			<Text>白馬寺と仏教</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

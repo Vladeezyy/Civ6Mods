@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="37d1b105-f698-47df-85d5-7b39bc610a36" version="1">
+  <Properties>
+    <Name>Sukritact's Candi Borobudur</Name>
+    <Description>Adds Borobudur to the game as a new World Wonder</Description>
+    <Created>1733347180</Created>
+    <Teaser>Adds Borobudur to the game as a new World Wonder</Teaser>
+    <Authors>Sukritact</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>20</LoadOrder>
+      </Properties>
+      <File>Core/Gameplay/Suk_Borobudur_Buildings.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="UpdateText">
+      <Properties>
+        <LoadOrder>20</LoadOrder>
+      </Properties>
+      <File>Core/Localisation/Suk_Borobudur_EN_US.sql</File>
+    </UpdateText>
+    <UpdateArt id="UpdateArt">
+      <File>Sukritact_s_Candi_Borobudur.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="UpdateIcons">
+      <File>Core/Common/Suk_Borobudur_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateAudio id="UpdateAudio">
+      <File>Platforms/Windows/Audio/WON_Suk_Borobudur.ini</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Core/Common/Suk_Borobudur_Icons.sql</File>
+    <File>Core/Gameplay/Suk_Borobudur_Buildings.sql</File>
+    <File>Core/Localisation/Suk_Borobudur_EN_US.sql</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Ancient_dirt_base_op</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ancient_dirt_base_color_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foliage_Bld_Flowered_Color_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillaged_Foliage_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tree_PIL_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_T_WON_Suk_Borobodur_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Construction_props_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Movie_Brick_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_Flowered_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_Flowered_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FOW_Tree_PIL_Decal</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Tree_PIL_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T_WON_Suk_Borobodur_AO</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T_WON_Suk_Borobodur_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T_WON_Suk_Borobodur_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T_WON_Suk_Borobodur_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T_WON_Suk_Borobodur_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T_WON_Suk_Borobudur_Lightmap</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Brick_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Brick_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Brick_N1</File>
+    <File>Platforms/MacOS/BLPs/strategicview/strategicview_buildings.blp</File>
+    <File>Platforms/MacOS/BLPs/UITextures.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/Audio/71350835.wem</File>
+    <File>Platforms/Windows/Audio/WON_Suk_Borobudur.bnk</File>
+    <File>Platforms/Windows/Audio/WON_Suk_Borobudur.ini</File>
+    <File>Platforms/Windows/Audio/WON_Suk_Borobudur.txt</File>
+    <File>Platforms/Windows/Audio/WON_Suk_Borobudur.xml</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Ancient_dirt_base_op</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ancient_dirt_base_color_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foliage_Bld_Flowered_Color_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillaged_Foliage_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tree_PIL_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_T_WON_Suk_Borobodur_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Construction_props_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Movie_Brick_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_Flowered_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_Flowered_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FOW_Tree_PIL_Decal</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Tree_PIL_Decal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_T_WON_Suk_Borobodur_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_T_WON_Suk_Borobodur_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_T_WON_Suk_Borobodur_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_T_WON_Suk_Borobodur_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_T_WON_Suk_Borobodur_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_T_WON_Suk_Borobudur_Lightmap</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Brick_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Brick_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Brick_N1</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_buildings.blp</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>Sukritact_s_Candi_Borobudur.dep</File>
+  </Files>
+</Mod>

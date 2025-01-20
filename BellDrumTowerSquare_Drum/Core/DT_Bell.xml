@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DT_Bell -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 7/9/2024 7:51:03 PM -->
+<GameData>
+	<Building_GreatWorks>
+		<Update>
+			<Where BuildingType="BUILDING_DRUM_TOWER"/>
+			<Set ThemingUniquePerson="true" ThemingSameObjectType="true" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_DRUM_TOWER_MUSIC"/>
+		</Update>
+	</Building_GreatWorks>
+</GameData>

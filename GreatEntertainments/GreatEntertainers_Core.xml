@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatEntertainers -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_CLASS_GreatEntertainers" 					Kind="KIND_GREAT_PERSON_CLASS"/>
+		<Row Type="UNIT_GREAT_GreatEntertainers" 							Kind="KIND_UNIT"/>
+		<!---->
+		<Row Type="PSEUDOYIELD_GPP_GreatEntertainers" 						Kind="KIND_PSEUDOYIELD"/>
+	</Types>
+	<Project_GreatPersonPoints>
+		<Row ProjectType="PROJECT_BREAD_AND_CIRCUSES" GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" Points="10" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+	</Project_GreatPersonPoints>
+	<PseudoYields>
+		<Row PseudoYieldType="PSEUDOYIELD_GPP_GreatEntertainers" DefaultValue="7"/>
+	</PseudoYields>
+	<GreatPersonClasses>
+		<Row GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" Name="LOC_GREAT_PERSON_CLASS_GreatEntertainers_NAME" UnitType="UNIT_GREAT_GreatEntertainers" DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" PseudoYieldType="PSEUDOYIELD_GPP_GreatEntertainers" IconString="[ICON_GreatEntertainers]" ActionIcon="ICON_UNITOPERATION_GreatEntertainers_ACTION"/>
+	</GreatPersonClasses>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_GREAT_GreatEntertainers" AiType="UNITTYPE_CIVILIAN"/>
+	</UnitAiInfos>
+	<TypeTags>
+		<Row Type="UNIT_GREAT_GreatEntertainers" Tag="CLASS_LANDCIVILIAN"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_GREAT_GreatEntertainers" BaseMoves="4" Cost="1" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GREAT_GreatEntertainers_NAME" Description="LOC_UNIT_GREAT_GreatEntertainers_DESCRIPTION" CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False"/>
+	</Units>
+	<District_GreatPersonPoints>
+		<!-- Districts -->
+		<Row DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" 				GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" 		GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="1"/>
+		<!-- Brazil -->
+		<Row DistrictType="DISTRICT_STREET_CARNIVAL" 					GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_WATER_STREET_CARNIVAL" 				GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="1"/>
+		<!-- Byzantines -->
+		<Row DistrictType="DISTRICT_HIPPODROME" 						GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+	<Building_GreatPersonPoints>
+		<!-- Entertainmet Hub -->
+		<Row BuildingType="BUILDING_ARENA" 				GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_ZOO" 				GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_STADIUM" 			GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="3"/>
+		<!-- Civ Uniques -->
+		<Row BuildingType="BUILDING_TLACHTLI" 			GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_THERMAL_BATH" 		GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_FILM_STUDIO" 		GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="1"/>
+		<!-- Waterpark -->
+		<Row BuildingType="BUILDING_FERRIS_WHEEL" 		GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_AQUARIUM" 			GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_AQUATICS_CENTER" 	GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="3"/>
+		<!-- Wonders -->
+		<Row BuildingType="BUILDING_GREAT_BATH" 				GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_TEMPLE_ARTEMIS" 			GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" 					GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" 			GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_STATUE_LIBERTY" 			GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_BROADWAY" 					GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" 		GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="3"/>
+	</Building_GreatPersonPoints>
+</GameData>

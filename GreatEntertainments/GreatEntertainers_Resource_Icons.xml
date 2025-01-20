@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_PLAYBOY_RESOURCE" 			IconSize="22" IconsPerRow="8" IconsPerColumn="8" Filename="PLAYBOY_22.dds"/>
+		<Row Name="ICON_ATLAS_PLAYBOY_RESOURCE" 			IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="PLAYBOY_38.dds"/>
+		<Row Name="ICON_ATLAS_PLAYBOY_RESOURCE" 			IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="PLAYBOY_50.dds"/>
+		<Row Name="ICON_ATLAS_PLAYBOY_RESOURCE" 			IconSize="64" IconsPerRow="8" IconsPerColumn="8" Filename="PLAYBOY_64.dds"/>
+		<Row Name="ICON_ATLAS_PLAYBOY_RESOURCE" 			IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="PLAYBOY_256.dds"/>
+		<Row Name="ICON_ATLAS_PLAYBOY_RESOURCE_BASELINE_6" 	Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="PLAYBOY_22.dds"/>
+		<!------------------------------------------------------------------------------------------------------------------------------------------>
+		<Row Name="ICON_ATLAS_PLATI_CHAMPAGNE_RESOURCE" 			IconSize="22" IconsPerRow="8" IconsPerColumn="8" Filename="CHAMPAGNE_22.dds"/>
+		<Row Name="ICON_ATLAS_PLATI_CHAMPAGNE_RESOURCE" 			IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="CHAMPAGNE_38.dds"/>
+		<Row Name="ICON_ATLAS_PLATI_CHAMPAGNE_RESOURCE" 			IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="CHAMPAGNE_50.dds"/>
+		<Row Name="ICON_ATLAS_PLATI_CHAMPAGNE_RESOURCE" 			IconSize="64" IconsPerRow="8" IconsPerColumn="8" Filename="CHAMPAGNE_64.dds"/>
+		<Row Name="ICON_ATLAS_PLATI_CHAMPAGNE_RESOURCE" 			IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="CHAMPAGNE_256.dds"/>
+		<Row Name="ICON_ATLAS_PLATI_CHAMPAGNE_RESOURCE_BASELINE_6" 	Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="CHAMPAGNE_22.dds"/>
+		<!------------------------------------------------------------------------------------------------------------------------------------------>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="RESOURCE_PLAYBOY" 		Atlas="ICON_ATLAS_PLAYBOY_RESOURCE_BASELINE_6" Index="0"/>
+		<Row Name="ICON_RESOURCE_PLAYBOY" 	Atlas="ICON_ATLAS_PLAYBOY_RESOURCE" Index="0"/>
+		<!------------------------------------------------------------------------------------------------>
+		<Row Name="RESOURCE_PLATI_CHAMPAGNE" 		Atlas="ICON_ATLAS_PLATI_CHAMPAGNE_RESOURCE_BASELINE_6" Index="0"/>
+		<Row Name="ICON_RESOURCE_PLATI_CHAMPAGNE" 	Atlas="ICON_ATLAS_PLATI_CHAMPAGNE_RESOURCE" Index="0"/>
+		<!------------------------------------------------------------------------------------------------>
+	</IconDefinitions>
+</GameData>

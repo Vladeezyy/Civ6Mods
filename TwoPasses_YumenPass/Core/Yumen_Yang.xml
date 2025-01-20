@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yumen_YUMEN -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 7/7/2024 4:00:32 PM -->
+<GameData>
+	<Types>
+		<Row Type="ABILITY_YUMEN_TRADE_ROUTE_PLUNDER_IMMUNITY" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_YUMEN_TRADE_ROUTE_PLUNDER_IMMUNITY" Tag="CLASS_TRADER"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_YUMEN_TRADE_ROUTE_PLUNDER_IMMUNITY" Inactive="true"/>
+	</UnitAbilities>
+
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_YUMEN_PASS" MutuallyExclusiveBuilding="BUILDING_YANG_PASS"/>
+	</MutuallyExclusiveBuildings>
+</GameData>

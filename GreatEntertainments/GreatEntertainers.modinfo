@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b820e109-c152-5112-b44f-1635a8bedbe5" version="1">
+  <Properties>
+    <Name>[COLOR:ResGoldLabelCS]Great Entertainers[ENDCOLOR]</Name>
+    <Description>Adds completely new Great People type with new individuals.</Description>
+    <Created>1639777325</Created>
+    <Teaser>Completely new Great People type.</Teaser>
+    <Authors>Plati</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+	<Criteria id="PLATI_UC_JNR_ENTERTAINER_MOD_OFF">
+	  <ModInUse inverse="1">93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModInUse>	<!-- District Expansion: Entertainment -->
+	</Criteria>
+	<Criteria id="PLATI_UC_JNR_ENTERTAINER_MOD_ON">
+	  <ModInUse inverse="0">93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModInUse>	<!-- District Expansion: Entertainment -->
+	</Criteria>
+	<Criteria id="PLATI_NATIONAL_WONDERS_MOD_ON">
+	  <ModInUse inverse="0">8719d97f-0db4-4c18-9863-82eb9b0c6175</ModInUse>	<!-- CIVLIZATION VI: NATIONAL WONDERS -->
+	</Criteria>
+	<Criteria id="PLATI_SECOND_INFRASTRUCTURE_MOD_ON">
+	  <ModInUse inverse="0">a33a0981-1d8d-407c-b238-a32a6d2c6fe1</ModInUse>	<!-- Second Unique Infrastructure -->
+	</Criteria>
+  </ActionCriteria>
+  <InGameActions>
+	<UpdateDatabase id="PLATI_ENTERTAINMENT_DISTRICT_EXPANSION" criteria="PLATI_UC_JNR_ENTERTAINER_MOD_ON">
+		<Properties>
+			<LoadOrder>35</LoadOrder>
+		</Properties>
+		<File>GreatEntertainers_Core_JNR.xml</File>
+		<File>GreatEntertainers_Policy_JNR.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Genesius.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_ENTERTAINMENT_DISTRICT_EXPANSION_DISABLED" criteria="PLATI_UC_JNR_ENTERTAINER_MOD_OFF">
+		<Properties>
+			<LoadOrder>36</LoadOrder>
+		</Properties>
+		<File>GreatEntertainers_Policy.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Perignon.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_ENTERTAINMENT_NATIONAL_WONDER" criteria="PLATI_NATIONAL_WONDERS_MOD_ON">
+		<Properties>
+			<LoadOrder>36</LoadOrder>
+		</Properties>
+		<File>GreatEntertainers_Core_National_Wonders.xml</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="PLATI_MIKECRO_EXP" criteria="PLATI_SECOND_INFRASTRUCTURE_MOD_ON">
+		<Properties>
+			<LoadOrder>36</LoadOrder>
+		</Properties>
+		<File>GreatEntertainers_Core_Second_Infrastructure.xml</File>
+	</UpdateDatabase>
+    <UpdateDatabase id="ENTERTAINER_KORE">
+		<Properties>
+			<LoadOrder>10</LoadOrder>
+		</Properties>
+		<File>GreatEntertainers_Core.xml</File>
+		<File>GreatEntertainers_Resources.xml</File>
+		<File>GreatEntertainers_Buildings.xml</File>
+		<File>GreatEntertainers_Buildings_Estadio.xml</File>
+		<!-- Entertainers -->
+		<File>Entertainers/PLATI_Entertainer_First.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Milo.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Thespis.xml</File>
+		<File>Entertainers/PLATI_Entertainer_William.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Pasqua.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Clairon.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Hotelier.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Ziryab.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Chaplin.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Barnum.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Petronius.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Esther.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Pele.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Sandow.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Sarah.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Monroe.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Disney.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Rudolph.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Runrun.xml</File>
+		<File>Entertainers/PLATI_Entertainer_Raegan.xml</File>
+    </UpdateDatabase>
+	<UpdateIcons id="ENTERTAINER_IKONKI">
+		<File>GreatEntertainers_Icon.xml</File>
+		<File>GreatEntertainers_Portraits.xml</File>
+		<File>GreatEntertainers_Policies_Icon.xml</File>
+		<File>GreatEntertainers_Resource_Icons.xml</File>
+		<File>GreatEntertainers_Buildings_Icons.xml</File>
+    </UpdateIcons>
+	<ImportFiles id="ENTERTAINERS_Import">
+		<!-- Portraits -->
+		<File>Icons/PLATI_ENTERTAINER_FIRST.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_MILO.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_THESPIS.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_WILLIAM.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_PASQUA.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_CLAIRON.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_HOTELIER.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_ZIRYAB.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_CHAPLIN.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_BARNUM.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_PETRONIUS.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_ESTHER.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_PELE.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_SANDOW.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_SARAH.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_MONROE.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_DISNEY.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_RUDOLPH.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_RUNRUN.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_PERIGNON.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_GENESIUS.dds</File>
+		<File>Icons/PLATI_ENTERTAINER_RAEGAN.dds</File>
+		<!-- Interface -->
+		<File>Textures/GreatEntertainer_BaseIcon_105.dds</File>
+		<File>Textures/GreatEntertainer_BaseIcon.dds</File>
+		<File>Textures/ICON_GREAT_ENTERTAINER_38.dds</File>
+		<File>Textures/ICON_GREAT_ENTERTAINER_50.dds</File>
+		<File>Textures/ICON_GREAT_ENTERTAINER_80.dds</File>
+		<File>Textures/ICON_GREAT_ENTERTAINER_256.dds</File>
+		<File>Textures/ICON_GREAT_ENTERTAINER_PORTRAIT_38.dds</File>
+		<File>Textures/ICON_GREAT_ENTERTAINER_PORTRAIT_50.dds</File>
+		<File>Textures/ICON_GREAT_ENTERTAINER_PORTRAIT_70.dds</File>
+		<File>Textures/ICON_GREAT_ENTERTAINER_PORTRAIT_95.dds</File>
+		<File>Textures/ICON_GREAT_ENTERTAINER_PORTRAIT_200.dds</File>
+		<File>Textures/ICON_GREAT_ENTERTAINER_PORTRAIT_256.dds</File>
+		<File>Textures/ICON_GREAT_ENTERTAINER_ACTION_38.dds</File>
+		<File>Textures/ICON_GREAT_ENTERTAINER_Z_22.dds</File>
+		<!-- Resources -->
+		<File>Textures/PLAYBOY_22.dds</File>
+		<File>Textures/PLAYBOY_38.dds</File>
+		<File>Textures/PLAYBOY_50.dds</File>
+		<File>Textures/PLAYBOY_64.dds</File>
+		<File>Textures/PLAYBOY_256.dds</File>
+		<File>Textures/CHAMPAGNE_22.dds</File>
+		<File>Textures/CHAMPAGNE_38.dds</File>
+		<File>Textures/CHAMPAGNE_50.dds</File>
+		<File>Textures/CHAMPAGNE_64.dds</File>
+		<File>Textures/CHAMPAGNE_256.dds</File>
+		<!-- Buildings -->
+		<File>Textures/PLATI_COFFEE_HOUSE_22.dds</File>
+		<File>Textures/PLATI_COFFEE_HOUSE_32.dds</File>
+		<File>Textures/PLATI_COFFEE_HOUSE_38.dds</File>
+		<File>Textures/PLATI_COFFEE_HOUSE_50.dds</File>
+		<File>Textures/PLATI_COFFEE_HOUSE_80.dds</File>
+		<File>Textures/PLATI_COFFEE_HOUSE_128.dds</File>
+		<File>Textures/PLATI_COFFEE_HOUSE_256.dds</File>
+		<File>Textures/PLATI_HOTEL_22.dds</File>
+		<File>Textures/PLATI_HOTEL_32.dds</File>
+		<File>Textures/PLATI_HOTEL_38.dds</File>
+		<File>Textures/PLATI_HOTEL_50.dds</File>
+		<File>Textures/PLATI_HOTEL_80.dds</File>
+		<File>Textures/PLATI_HOTEL_128.dds</File>
+		<File>Textures/PLATI_HOTEL_256.dds</File>
+		<!---->
+    </ImportFiles>
+	<UpdateArt id="ENTERTAINERS_ART">
+      <File>GreatEntertainers.dep</File>
+    </UpdateArt>
+	<UpdateText id="ENTERTAINER_TEXTn">
+		<File>GreatEntertainers_Localisation.xml</File>
+		<File>GreatEntertainers_Estado.sql</File>
+	</UpdateText>
+  </InGameActions>
+  <Files>
+	<!-- Core -->
+    <File>ArtDefs/PLATI_ENTERTAINERS.artdef</File>
+	<File>GreatEntertainers.dep</File>
+    <File>GreatEntertainers_Core.xml</File>
+	<File>GreatEntertainers_Icon.xml</File>
+	<File>GreatEntertainers_Localisation.xml</File>
+	<File>GreatEntertainers_Estado.sql</File>
+	<File>GreatEntertainers_Portraits.xml</File>
+	<File>GreatEntertainers_Policy.xml</File>
+	<File>GreatEntertainers_Policies_Icon.xml</File>
+	<File>GreatEntertainers_Resources.xml</File>
+	<File>GreatEntertainers_Resource_Icons.xml</File>
+	<File>GreatEntertainers_Buildings.xml</File>
+	<File>GreatEntertainers_Buildings_Estadio.xml</File>
+	<File>GreatEntertainers_Buildings_Icons.xml</File>
+	<!-- Entertainers -->
+	<File>Entertainers/PLATI_Entertainer_First.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Milo.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Thespis.xml</File>
+	<File>Entertainers/PLATI_Entertainer_William.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Pasqua.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Clairon.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Hotelier.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Ziryab.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Chaplin.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Barnum.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Petronius.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Esther.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Pele.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Sandow.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Sarah.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Monroe.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Disney.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Rudolph.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Runrun.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Perignon.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Raegan.xml</File>
+	<!-- Portraits -->
+	<File>Icons/PLATI_ENTERTAINER_FIRST.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_MILO.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_THESPIS.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_WILLIAM.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_PASQUA.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_CLAIRON.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_HOTELIER.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_ZIRYAB.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_CHAPLIN.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_BARNUM.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_PETRONIUS.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_ESTHER.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_PELE.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_SANDOW.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_SARAH.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_MONROE.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_DISNEY.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_RUDOLPH.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_RUNRUN.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_PERIGNON.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_GENESIUS.dds</File>
+	<File>Icons/PLATI_ENTERTAINER_RAEGAN.dds</File>
+	<!-- Interface -->
+	<File>Textures/GreatEntertainer_BaseIcon_105.dds</File>
+	<File>Textures/GreatEntertainer_BaseIcon.dds</File>
+	<File>Textures/ICON_GREAT_ENTERTAINER_38.dds</File>
+	<File>Textures/ICON_GREAT_ENTERTAINER_50.dds</File>
+	<File>Textures/ICON_GREAT_ENTERTAINER_80.dds</File>
+	<File>Textures/ICON_GREAT_ENTERTAINER_256.dds</File>
+	<File>Textures/ICON_GREAT_ENTERTAINER_PORTRAIT_38.dds</File>
+	<File>Textures/ICON_GREAT_ENTERTAINER_PORTRAIT_50.dds</File>
+	<File>Textures/ICON_GREAT_ENTERTAINER_PORTRAIT_70.dds</File>
+	<File>Textures/ICON_GREAT_ENTERTAINER_PORTRAIT_95.dds</File>
+	<File>Textures/ICON_GREAT_ENTERTAINER_PORTRAIT_200.dds</File>
+	<File>Textures/ICON_GREAT_ENTERTAINER_PORTRAIT_256.dds</File>
+	<File>Textures/ICON_GREAT_ENTERTAINER_ACTION_38.dds</File>
+	<File>Textures/ICON_GREAT_ENTERTAINER_Z_22.dds</File>
+	<!-- Resources -->
+	<File>Textures/PLAYBOY_22.dds</File>
+	<File>Textures/PLAYBOY_38.dds</File>
+	<File>Textures/PLAYBOY_50.dds</File>
+	<File>Textures/PLAYBOY_64.dds</File>
+	<File>Textures/PLAYBOY_256.dds</File>
+	<File>Textures/CHAMPAGNE_22.dds</File>
+	<File>Textures/CHAMPAGNE_38.dds</File>
+	<File>Textures/CHAMPAGNE_50.dds</File>
+	<File>Textures/CHAMPAGNE_64.dds</File>
+	<File>Textures/CHAMPAGNE_256.dds</File>
+	<!-- Buildings -->
+	<File>Textures/PLATI_COFFEE_HOUSE_22.dds</File>
+	<File>Textures/PLATI_COFFEE_HOUSE_32.dds</File>
+	<File>Textures/PLATI_COFFEE_HOUSE_38.dds</File>
+	<File>Textures/PLATI_COFFEE_HOUSE_50.dds</File>
+	<File>Textures/PLATI_COFFEE_HOUSE_80.dds</File>
+	<File>Textures/PLATI_COFFEE_HOUSE_128.dds</File>
+	<File>Textures/PLATI_COFFEE_HOUSE_256.dds</File>
+	<File>Textures/PLATI_HOTEL_22.dds</File>
+	<File>Textures/PLATI_HOTEL_32.dds</File>
+	<File>Textures/PLATI_HOTEL_38.dds</File>
+	<File>Textures/PLATI_HOTEL_50.dds</File>
+	<File>Textures/PLATI_HOTEL_80.dds</File>
+	<File>Textures/PLATI_HOTEL_128.dds</File>
+	<File>Textures/PLATI_HOTEL_256.dds</File>
+	<!-- Mod Support -->
+	<File>GreatEntertainers_Core_JNR.xml</File>
+	<File>GreatEntertainers_Policy_JNR.xml</File>
+	<File>GreatEntertainers_Core_National_Wonders.xml</File>
+	<File>Entertainers/PLATI_Entertainer_Genesius.xml</File>
+	<File>GreatEntertainers_Core_Second_Infrastructure.xml</File>
+	<!---->
+  </Files>
+</Mod>

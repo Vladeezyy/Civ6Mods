@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Icon -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:08 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_BUILDING_KAREZ" IconSize="32" Filename="IMG_BUILDING_KAREZ_32"/>
+		<Row Name="ATLAS_BUILDING_KAREZ" IconSize="38" Filename="IMG_BUILDING_KAREZ_38"/>
+		<Row Name="ATLAS_BUILDING_KAREZ" IconSize="50" Filename="IMG_BUILDING_KAREZ_50"/>
+		<Row Name="ATLAS_BUILDING_KAREZ" IconSize="64" Filename="IMG_BUILDING_KAREZ_64"/>
+		<Row Name="ATLAS_BUILDING_KAREZ" IconSize="128" Filename="IMG_BUILDING_KAREZ_128"/>
+		<Row Name="ATLAS_BUILDING_KAREZ" IconSize="256" Filename="IMG_BUILDING_KAREZ_256"/>
+		<Row Name="ATLAS_IMPROVEMENT_KAREZ" IconSize="38" Filename="IMG_IMPROVEMENT_KAREZ_38"/>
+		<Row Name="ATLAS_IMPROVEMENT_KAREZ" IconSize="50" Filename="IMG_IMPROVEMENT_KAREZ_50"/>
+		<Row Name="ATLAS_IMPROVEMENT_KAREZ" IconSize="70" Filename="IMG_IMPROVEMENT_KAREZ_70"/>
+		<Row Name="ATLAS_IMPROVEMENT_KAREZ" IconSize="256" Filename="IMG_IMPROVEMENT_KAREZ_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_KAREZ" Atlas="ATLAS_BUILDING_KAREZ" Index="0"/>
+		<Row Name="ICON_IMPROVEMENT_KAREZ" Atlas="ATLAS_IMPROVEMENT_KAREZ" Index="0"/>
+	</IconDefinitions>
+</GameData>

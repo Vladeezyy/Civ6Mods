@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_DISNEY" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_DISNEY" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_DISNEY_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_DISNEY_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_DISNEY" ModifierId="GREATPERSON_BONUS_DISNEY" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_DISNEY" ModifierId="GREATPERSON_BONUS_DISNEY_FAITH" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_DISNEY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_DISNEY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_TOURISM_ADJACENCY_YIELD_MOFIFIER</ModifierType>
+			<SubjectRequirementSetId>PLATI_DISNEY_REQUIREMENT_SET</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_DISNEY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_DISNEY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_DISNEY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_DISNEY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_PLATI_DISNEY_ADJ_KULT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_DISNEY_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_DISNEY_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_DISNEY" Context="Summary" Text="LOC_GREATPERSON_PLATI_DISNEY_ACTIVE"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLATI_DISNEY_REQUIREMENT_SET</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLATI_DISNEY_REQUIREMENT_SET</RequirementSetId>
+			<RequirementId>PLATI_REQUIRES_DISTRICT_IS_ENTERTAIN</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>PLATI_REQUIRES_DISTRICT_IS_ENTERTAIN</RequirementId>
+			<RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>PLATI_REQUIRES_DISTRICT_IS_ENTERTAIN</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

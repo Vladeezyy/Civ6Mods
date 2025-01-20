@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Core -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:36:54 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_QUANZHOU_PORT"				Kind="KIND_BUILDING"/>
+		<Row Type="ABILITY_QUANZHOU_PORT"				Kind="KIND_ABILITY"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_QUANZHOU_PORT"		Name="LOC_BUILDING_QUANZHOU_PORT_NAME" Description="LOC_BUILDING_QUANZHOU_PORT_DESCRIPTION" PrereqCivic="CIVIC_MEDIEVAL_FAIRES" Cost="710" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_HARBOR" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" ObsoleteEra="ERA_INDUSTRIAL" Quote="LOC_BUILDING_QUANZHOU_PORT_QUOTE"/>
+	</Buildings>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_QUANZHOU_PORT"		TerrainType="TERRAIN_COAST"/>
+	</Building_ValidTerrains>
+	<Building_ValidFeatures>
+		<Row BuildingType="BUILDING_QUANZHOU_PORT"		FeatureType="FEATURE_REEF"/>
+	</Building_ValidFeatures>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_QUANZHOU_PORT"		YieldType="YIELD_GOLD"		YieldChange="3"/>
+		<Row BuildingType="BUILDING_QUANZHOU_PORT"		YieldType="YIELD_CULTURE"	YieldChange="1"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_QUANZHOU_PORT"		GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_QUANZHOU_PORT"	Name="LOC_ABILITY_QUANZHOU_PORT_NAME" Description="LOC_ABILITY_QUANZHOU_PORT_DESCRIPTION" Inactive="true" ShowFloatTextWhenEarned="true"/>
+	</UnitAbilities>
+	<TypeTags>
+		<Row Type="ABILITY_QUANZHOU_PORT"				Tag="CLASS_TRADER"/>
+	</TypeTags>
+</GameData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatEntertainers -->
+<!-- Author: Plati -->
+<GameData>
+	<Building_GreatPersonPoints>
+		<!-- Entertainmet Hub -->
+		<Row BuildingType="BUILDING_JNR_TOURNEY" 				GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_JNR_BOTANICAL_GARDEN" 		GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_JNR_CONVENTION" 			GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="3"/>
+		<!-- Waterpark -->
+		<Row BuildingType="BUILDING_JNR_MARINA" 				GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_JNR_CASINO" 				GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_JNR_CRUISE_TERMINAL" 		GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="3"/>
+	</Building_GreatPersonPoints>
+</GameData>

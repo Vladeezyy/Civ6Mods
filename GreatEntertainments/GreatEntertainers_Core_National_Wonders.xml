@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatEntertainers -->
+<!-- Author: Plati -->
+<GameData>
+	<Building_GreatPersonPoints>
+		<!-- National Theme Park -->
+		<Row BuildingType="NAT_WONDER_CL_THEMEPARK" 		GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+</GameData>

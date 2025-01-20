@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 10/2/2024 8:41:22 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_FORBIDDEN_CITY_HAN" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY_HAN" Name="LOC_BUILDING_FORBIDDEN_CITY_HAN_NAME" Description="LOC_BUILDING_FORBIDDEN_CITY_HAN_DESCRIPTION" PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY" Cost="400" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_CITY_CENTER" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_FORBIDDEN_CITY_HAN_QUOTE" QuoteAudio=""/>
+	</Buildings>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY_HAN" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY_HAN" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY_HAN" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY_HAN" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY_HAN" TerrainType="TERRAIN_DESERT_HILLS"/>
+	</Building_ValidTerrains>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY_HAN" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY_HAN" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAN_SUWU" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAN_GANYING" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAN_FUJIEZI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAN_SUWU" Name="LOC_GREAT_PERSON_INDIVIDUAL_HAN_SUWU_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_COMMERCIAL_HUB" ActionEffectTextOverride="LOC_GREATPERSON_HAN_SUWU_ACTIVE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAN_GANYING" Name="LOC_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_COMMERCIAL_HUB" ActionEffectTextOverride="LOC_GREATPERSON_HAN_GANYING_ACTIVE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAN_FUJIEZI" Name="LOC_GREAT_PERSON_INDIVIDUAL_HAN_FUJIEZI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresCityStateTerritory="true" ActionEffectTextOverride="LOC_GREATPERSON_HAN_FUJIEZI_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAN_SUWU" ModifierId="GREATPERSON_INFLUENCE_TOKENS_MEDIUM" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAN_GANYING" ModifierId="GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAN_FUJIEZI" ModifierId="GREATPERSON_CITY_STATE_STEAL_ENVOYS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAN_FUJIEZI" ModifierId="GREAT_PERSON_ENTER_FOREIGN_LANDS"/>
+	</GreatPersonIndividualBirthModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<RunOnce>True</RunOnce>
+			<Permanent>True</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION_ATTACH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION_ATTACH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION_ATTACH</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_AGENDA_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION_ATTACH</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_AGENDA_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION_ATTACH</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>7</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION_ATTACH" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+</GameData>

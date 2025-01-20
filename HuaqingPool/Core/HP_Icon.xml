@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Icon -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:08 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_BUILDING_HUAQUNG_POOL" IconSize="32" Filename="IMG_BUILDING_HUAQUNG_POOL_32"/>
+		<Row Name="ATLAS_BUILDING_HUAQUNG_POOL" IconSize="38" Filename="IMG_BUILDING_HUAQUNG_POOL_38"/>
+		<Row Name="ATLAS_BUILDING_HUAQUNG_POOL" IconSize="50" Filename="IMG_BUILDING_HUAQUNG_POOL_50"/>
+		<Row Name="ATLAS_BUILDING_HUAQUNG_POOL" IconSize="64" Filename="IMG_BUILDING_HUAQUNG_POOL_64"/>
+		<Row Name="ATLAS_BUILDING_HUAQUNG_POOL" IconSize="128" Filename="IMG_BUILDING_HUAQUNG_POOL_128"/>
+		<Row Name="ATLAS_BUILDING_HUAQUNG_POOL" IconSize="256" Filename="IMG_BUILDING_HUAQUNG_POOL_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_HUAQUNG_POOL" Atlas="ATLAS_BUILDING_HUAQUNG_POOL" Index="0"/>
+	</IconDefinitions>
+</GameData>

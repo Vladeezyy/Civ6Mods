@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Icon -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:08 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_BUILDING_DRUM_TOWER" IconSize="32" Filename="IMG_BUILDING_DRUM_TOWER_32"/>
+		<Row Name="ATLAS_BUILDING_DRUM_TOWER" IconSize="38" Filename="IMG_BUILDING_DRUM_TOWER_38"/>
+		<Row Name="ATLAS_BUILDING_DRUM_TOWER" IconSize="50" Filename="IMG_BUILDING_DRUM_TOWER_50"/>
+		<Row Name="ATLAS_BUILDING_DRUM_TOWER" IconSize="64" Filename="IMG_BUILDING_DRUM_TOWER_64"/>
+		<Row Name="ATLAS_BUILDING_DRUM_TOWER" IconSize="128" Filename="IMG_BUILDING_DRUM_TOWER_128"/>
+		<Row Name="ATLAS_BUILDING_DRUM_TOWER" IconSize="256" Filename="IMG_BUILDING_DRUM_TOWER_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_DRUM_TOWER" Atlas="ATLAS_BUILDING_DRUM_TOWER" Index="0"/>
+	</IconDefinitions>
+</GameData>

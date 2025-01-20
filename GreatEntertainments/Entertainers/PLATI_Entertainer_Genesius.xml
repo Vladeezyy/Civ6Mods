@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_GENESIUS" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_GENESIUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_GENESIUS_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_GENESIUS_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_GENESIUS" ModifierId="GREATPERSON_BONUS_GENESIUS" 			AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_GENESIUS" ModifierId="GREATPERSON_BONUS_GENESIUS_FAITH" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_GENESIUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>PLATI_DISNEY_REQUIREMENT_SET</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_GENESIUS_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLATI_GENESUS_CITY_HAS_ENTERTAIN</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_GENESIUS</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_GENESIUS</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_GENESIUS_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_GENESIUS_FAITH</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_ECSTATIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_GENESIUS_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_GENESIUS" Context="Summary" Text="LOC_GREATPERSON_PLATI_GENESIUS_ACTIVE"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLATI_GENESUS_CITY_HAS_ENTERTAIN</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLATI_GENESUS_CITY_HAS_ENTERTAIN</RequirementSetId>
+			<RequirementId>PLATI_GENESIUS_REQUIRES_ENTERTAINMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_GENESUS_CITY_HAS_ENTERTAIN</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_DARK_AGE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>PLATI_GENESIUS_REQUIRES_ENTERTAINMENT</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>PLATI_GENESIUS_REQUIRES_ENTERTAINMENT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

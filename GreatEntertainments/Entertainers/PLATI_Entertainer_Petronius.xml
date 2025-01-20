@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PETRONIUS" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PETRONIUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PETRONIUS_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_PETRONIUS_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PETRONIUS" ModifierId="GREATPERSON_BONUS_PETRONIUS" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PETRONIUS" ModifierId="GREATPERSON_BONUS_PETRONIUS_FAITH" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PETRONIUS" ModifierId="GREATPERSON_BONUS_PETRONIUS_AMENITY" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PETRONIUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD_PER_EXCESS_LUXURIES</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PETRONIUS_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD_PER_EXCESS_LUXURIES</ModifierType>
+			<SubjectRequirementSetId>PLATI_CIV_IN_BIG_SHID</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PETRONIUS_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_AMENITIES_FROM_GREAT_PEOPLE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PETRONIUS_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PETRONIUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PETRONIUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PETRONIUS_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PETRONIUS_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_PETRONIUS" Context="Summary" Text="LOC_GREATPERSON_PLATI_PETRONIUS_ACTIVE"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLATI_CIV_IN_BIG_SHID</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLATI_CIV_IN_BIG_SHID</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_DARK_AGE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameData>

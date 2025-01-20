@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PERIGNON" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PERIGNON" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PERIGNON_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_HOLY_SITE" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_PERIGNON_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PERIGNON" ModifierId="GREATPERSON_BONUS_PERIGNON" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PERIGNON</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PERIGNON</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_PLATI_CHAMPAGNE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PERIGNON</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_PERIGNON" Context="Summary" Text="LOC_GREATPERSON_PLATI_PERIGNON_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

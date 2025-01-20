@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\WwiseProjects\WhiteHorseTemple_Quote_1\</ProjectRoot>
+		<SourceFilesRoot>D:\WwiseProjects\WhiteHorseTemple_Quote_1\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\WwiseProjects\WhiteHorseTemple_Quote_1\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\WwiseProjects\WhiteHorseTemple_Quote_1\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1935939228" Language="SFX">
+			<ShortName>WhiteHorseTemple_Quote_zh_SoundBank</ShortName>
+			<Path>WhiteHorseTemple_Quote_zh_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="754884159" Name="Play_WhiteHorseTemple_Quote_zh"/>
+				<Event Id="3584705025" Name="Stop_WhiteHorseTemple_Quote_zh"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="134848294" Language="SFX">
+					<ShortName>WhiteHorseTemple_Quote_zh.wav</ShortName>
+					<Path>SFX\WhiteHorseTemple_Quote_zh_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

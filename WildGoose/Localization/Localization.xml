@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+    <Row Tag="LOC_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_NAME" Language="ru_RU">
+        <Text>Пагода Великого Дикого Гуся</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_DESCRIPTION" Language="ru_RU">
+        <Text>Дает Учителя Трипитаки. Вы можете купить нового Учителя Трипитаки за [ICON_Faith] Веру, если предыдущий был убит или использован. Должна быть построена рядом с районом Священного Участка с Храмом, и у вас должна быть основана Религия.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_QUOTE" Language="ru_RU">
+        <Text>«Он привез 657 священных сутр из стран, которые посетил, перевел их и распространил великие труды. Он принес облака милости с запада и дожди дхармы на восток. Утерянные священные учения теперь восстановлены, грешные смертные спасены.»[NEWLINE]– Император Тайцзун династии Тан, Предисловие к священным учениям Трипитаки</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+        <Text>Построена в комплексе храма Дацзыэнь в 652 году. Эта многоэтажная кирпичная пагода была построена для хранения сотен санскритских сутр, привезенных Учителем Трипитаки Сюаньцзаном из Индии в Чанъань через Шелковый путь. Пагода Великого Дикого Гуся была свидетелем не только переводческой работы Сюаньцзана, но и успехов бесчисленных ученых многих династий – существовала традиция, согласно которой кандидаты, сдавшие императорский экзамен, писали свои имена на пагоде, и «оставить имя на пагоде дикого гуся» стало синонимом «сдать императорский экзамен».</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PHANTA_TRIPITAKA_MASTER_NAME" Language="ru_RU">
+        <Text>Учитель Трипитаки</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_PHANTA_TRIPITAKA_MASTER_DESCRIPTION" Language="ru_RU">
+        <Text>Религиозный юнит, уникальный для цивилизации с чудом Пагода Великого Дикого Гуся. Может быть куплен только за [ICON_Faith] Веру, если предыдущий был убит или использован. Имеет высокий [ICON_Religion] Религиозный Урон и обзор. Имеет улучшение Переводчик в дополнение к второму улучшению Апостола на ваш выбор. Автоматически создает Дороги при перемещении.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHANTA_TRIPITAKA_MASTER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+        <Text>Трипитака буддизма – это собирательное название для Сутра Питака (сутры), Вина Питака (дисциплины) и Абхидхарма Питака (дискурсы), и те, кто овладел всеми тремя, почитаются как Учителя Трипитаки. Самым известным Учителем Трипитаки в китайской истории был Сюаньцзан. Обеспокоенный несоответствиями в буддийских учениях в эпоху династии Тан, он отправился в Индию по Шелковому пути, чтобы привезти несколько сотен томов санскритских сутр, которые он перевел в храме Дацзыэнь. На основе его путешествия У Чэнъэнь, писатель более поздних поколений, написал знаменитый роман «Путешествие на Запад».</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_PHANTA_TRIPITAKA_MASTER_DESCRIPTION" Language="ru_RU">
+        <Text>Автоматически создает Дороги при перемещении.</Text>
+    </Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_NAME" Language="zh_Hant_HK">
+			<Text>大雁塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>獲得1個三藏法師。當三藏法師死亡或消耗後，可以使用 [ICON_Faith] 信仰值購買新的三藏法師。必須建造在相鄰聖地區域（須建有寺廟）的單元格上，此外你必須事先已創立宗教。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_QUOTE" Language="zh_Hant_HK">
+			<Text>「爰自所歷之國，摠將三藏要文，凡六百五十七部，譯布中夏，宣揚勝業。引慈雲於西極，注法雨於東垂。聖教缺而復全，蒼生罪而還福。」[NEWLINE]——唐太宗李世民，《大唐三藏聖教序》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>大雁塔位於大慈恩寺，建造於652年。三藏法師玄奘將數百卷梵文佛經從天竺（印度）經絲綢之路帶回長安，為保存經書而建成這座磚石結構的多層寶塔。大雁塔不僅見證了玄奘翻譯佛經的功業，也見證了歷代無數文士考取功名——在當時，科舉考試的新中進士會在大雁塔題名，「雁塔留名」亦成為了進士及第的代名詞。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PHANTA_TRIPITAKA_MASTER_NAME" Language="zh_Hant_HK">
+			<Text>三藏法師</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PHANTA_TRIPITAKA_MASTER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>專屬於擁有大雁塔奇觀的文明的特色宗教單位。當三藏法師死亡或消耗後，可以使用 [ICON_Faith] 信仰值購買新的三藏法師。擁有較高的 [ICON_Religion] 宗教戰鬥力和視野。擁有翻譯員和第二個您選擇的能力。移動時自動創建道路。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHANTA_TRIPITAKA_MASTER_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>佛教的三藏是經藏、律藏和論藏的合稱，精通三者被尊稱為三藏法師。中國歷史上最著名的三藏法師是玄奘。他有感唐朝當時各地佛理說法不一，通過絲綢之路前往天竺（印度）取回數百卷梵本佛經，並在大慈恩寺進行翻譯。後世的作家吳承恩基於他取經的旅程，創作了家喻戶曉的章回小說《西遊記》。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_TRIPITAKA_MASTER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>移動時自動創建道路。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_NAME" Language="zh_Hans_CN">
+			<Text>大雁塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得1个三藏法师。当三藏法师死亡或消耗后，可以使用 [ICON_Faith] 信仰值购买新的三藏法师。必须建造在相邻圣地区域（须建有寺庙）的单元格上，此外你必须事先已创立宗教。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_QUOTE" Language="zh_Hans_CN">
+			<Text>爰自所历之国，摠将三藏要文，凡六百五十七部，译布中夏，宣扬胜业。引慈云于西极，注法雨于东垂。圣教缺而復全，苍生罪而还福。[NEWLINE]——唐太宗李世民，《大唐三藏圣教序》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>大雁塔位于大慈恩寺，建造于652年。三藏法师玄奘将数百卷梵文佛经从天竺（印度）经丝绸之路带回长安，为保存经书而建成这座砖石结构的多层宝塔。大雁塔不仅见证了玄奘翻译佛经的功业，也见证了历代无数文士考取功名——在当时，科举考试的新中进士会在大雁塔题名，“雁塔留名”亦成为了进士及第的代名词。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PHANTA_TRIPITAKA_MASTER_NAME" Language="zh_Hans_CN">
+			<Text>三藏法师</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PHANTA_TRIPITAKA_MASTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>专属于拥有大雁塔奇观的文明的特色宗教单位。当三藏法师死亡或消耗后，可以使用 [ICON_Faith] 信仰值购买新的三藏法师。拥有较高的 [ICON_Religion] 宗教战斗力和视野。拥有翻译员和第二个您选择的能力。移动时自动创建道路。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHANTA_TRIPITAKA_MASTER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>佛教的三藏是经藏、律藏和论藏的合称，精通三者被尊称为三藏法师。中国历史上最着名的三藏法师是玄奘。他有感唐朝当时各地佛理说法不一，通过丝绸之路前往天竺（印度）取回数百卷梵本佛经，并在大慈恩寺进行翻译。后世的作家吴承恩基于他取经的旅程，创作了家喻户晓的章回小说《西游记》。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_TRIPITAKA_MASTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>移动时自动创建道路。</Text>
+		</Row>
+		
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_NAME" Language="ja_JP">
+			<Text>大雁塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_DESCRIPTION" Language="ja_JP">
+			<Text>三蔵法師を1つ得る。三蔵法師が死亡または消耗した場合でも、新たに [ICON_Faith] 信仰力を使って再購入できる。神殿が存在する聖地区域に隣接した土地にのみ建設可能。宗教を創始している必要がある。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_QUOTE" Language="ja_JP">
+			<Text>「彼は旅した国々から三蔵の要文をもたらし、それらを翻訳し、大いなる業を広めた。彼は西から慈悲の雲を導き、東に法の雨を降らせた。欠ける神聖な教えは今や完全なものとなり、蒼生は今や罪から救済された。」[NEWLINE]–  唐の太宗皇帝、『大唐三蔵聖教序』</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_GREAT_WILD_GOOSE_PAGODA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>大慈恩寺にある大雁塔は652年に建てられた。シルクロードを通って天竺（インド）から長安に数百のサンスクリット語の経典を持ち帰った三蔵法師・玄奘が、その経典を保存するために石積みの多層塔を建てた。大雁塔は玄奘が仏典を翻訳した証であるだけでなく、王朝を超えて数え切れないほど多くの文人が活躍した証でもある。当時、科挙の合格者は大雁塔に名を刻み、「雁塔に名を残す」ことが科挙合格の代名詞となった。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PHANTA_TRIPITAKA_MASTER_NAME" Language="ja_JP">
+			<Text>三蔵法師</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PHANTA_TRIPITAKA_MASTER_DESCRIPTION" Language="ja_JP">
+			<Text>大雁塔固有の宗教ユニット。三蔵法師が死亡または消耗した場合でも、新たに [ICON_Faith] 信仰力を使って再購入でき高い宗教戦闘力と視野を持つ。通訳に加え、2つ目の能力を得る。移動にともなって自動的に道路を築く。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHANTA_TRIPITAKA_MASTER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>仏教の三蔵は、経蔵・律蔵・論蔵の総称であり、この三つに精通した者を三蔵法師と称える。中国史上最も有名な三蔵法師は玄奘である。玄奘は、唐代各地の仏教の教えの矛盾を感じ、シルクロードを通って天竺（インド）に渡り、数百巻のサンスクリット仏典を取り寄せ、大慈恩寺で翻訳した。後世の作家・呉承恩は、彼の旅をもとに、世間によく知られた小說『西遊記』を創作した。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_TRIPITAKA_MASTER_DESCRIPTION" Language="ja_JP">
+			<Text>移動にともなって自動的に道路を築く。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

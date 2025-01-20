@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2267025560	Stop_Wonder_Music_Suk_Notre_Dame_De_Paris			\Default Work Unit\Sukritact\Suk_NotreDame\Stop_Wonder_Music_Suk_Notre_Dame_De_Paris	
+	2637293574	Play_Wonder_Music_Suk_Notre_Dame_De_Paris			\Default Work Unit\Sukritact\Suk_NotreDame\Play_Wonder_Music_Suk_Notre_Dame_De_Paris	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	24317609	WON_Suk_NotreDame_Intro	C:\Users\Owner\Documents\Modding Files\NotreDame\Audio\Wwise\Sukritact's Notre Dame\.cache\Windows\SFX\WON_Suk_NotreDame_Intro_E843A46D.wem	24317609.wem	\Actor-Mixer Hierarchy\Default Work Unit\Game_Cues\Wonders\Wonders\WonderMusic\Suk_NotreDame\WON_Suk_NotreDame_Intro	
+

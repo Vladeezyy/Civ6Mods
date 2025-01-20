@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Core -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:36:54 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_DRUM_TOWER"				Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_DRUM_TOWER"		Name="LOC_BUILDING_DRUM_TOWER_NAME" Description="LOC_BUILDING_DRUM_TOWER_DESCRIPTION" PrereqCivic="CIVIC_FEUDALISM" Cost="710" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" AdjacentDistrict="DISTRICT_CITY_CENTER" ObsoleteEra="ERA_INDUSTRIAL" Quote="LOC_BUILDING_DRUM_TOWER_QUOTE"/>
+	</Buildings>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_DRUM_TOWER"		TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_DRUM_TOWER"		TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_DRUM_TOWER"		TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_DRUM_TOWER"		TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_DRUM_TOWER"		TerrainType="TERRAIN_SNOW"/>
+	</Building_ValidTerrains>
+	<Building_YieldsPerEra>
+		<Row BuildingType="BUILDING_DRUM_TOWER"		YieldType="YIELD_CULTURE"		YieldChange="1"/>
+		<Row BuildingType="BUILDING_DRUM_TOWER"		YieldType="YIELD_FOOD"			YieldChange="1"/>
+		<Row BuildingType="BUILDING_DRUM_TOWER"		YieldType="YIELD_GOLD"			YieldChange="1"/>
+	</Building_YieldsPerEra>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_DRUM_TOWER"		GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"	PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_DRUM_TOWER"		GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"	PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_DRUM_TOWER"		GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="3"/>
+	</Building_GreatWorks>
+</GameData>

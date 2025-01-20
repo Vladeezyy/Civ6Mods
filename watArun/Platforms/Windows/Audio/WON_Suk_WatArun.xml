@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Owner\Documents\Modding Files\Wat Arun\Music\WWise\WON_Suk_WatArun\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Owner\Documents\Modding Files\Wat Arun\Music\WWise\WON_Suk_WatArun\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Owner\Documents\Modding Files\Wat Arun\Music\WWise\WON_Suk_WatArun\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Owner\Documents\Modding Files\Wat Arun\Music\WWise\WON_Suk_WatArun\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="84434908" Language="SFX">
+			<ShortName>Suk_WatArun_ChinTokMai.wav</ShortName>
+			<Path>SFX\Suk_WatArun_ChinTokMai_E843A46D.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="2356954360" Language="SFX">
+			<ShortName>WON_Suk_WatArun</ShortName>
+			<Path>WON_Suk_WatArun.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2724961047" Name="Play_Wonder_Music_Suk_Wat_Arun"/>
+				<Event Id="2972774381" Name="Stop_Wonder_Music_Suk_Wat_Arun"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="84434908"/>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

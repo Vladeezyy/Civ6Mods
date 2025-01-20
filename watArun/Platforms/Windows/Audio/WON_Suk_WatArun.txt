@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2724961047	Play_Wonder_Music_Suk_Wat_Arun			\Default Work Unit\Sukritact\Suk_WatArun\Play_Wonder_Music_Suk_Wat_Arun	
+	2972774381	Stop_Wonder_Music_Suk_Wat_Arun			\Default Work Unit\Sukritact\Suk_WatArun\Stop_Wonder_Music_Suk_Wat_Arun	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	48433064	Master Music Bus			\Default Work Unit\Master Audio Bus\Master Music Bus	
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	1984780643	Wonder Music Bus			\Default Work Unit\Master Audio Bus\Master Music Bus\Wonder Music Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	84434908	Suk_WatArun_ChinTokMai	C:\Users\Owner\Documents\Modding Files\Wat Arun\Music\WWise\WON_Suk_WatArun\.cache\Windows\SFX\Suk_WatArun_ChinTokMai_E843A46D.wem	84434908.wem	\Actor-Mixer Hierarchy\Default Work Unit\Game_Cues\Wonders\Wonders\WonderMusic\Suk_WatArun_ChinTokMai	
+

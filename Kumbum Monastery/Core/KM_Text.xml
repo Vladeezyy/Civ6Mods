@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Text -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:16 PM -->
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_BUILDING_TAER_TEMPLE_NAME">
+			<Text>Монастырь Кумбум</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAER_TEMPLE_DESCRIPTION">
+			<Text>Религиозное давление на прилегающие города из этого города на 100% сильнее и игнорирует религиозное давление других религий.[NEWLINE][NEWLINE]Должен быть построен на пустынных холмах, и у вас должна быть основана религия.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAER_TEMPLE_QUOTE">
+			<Text>"Если вы сможете построить ступу на месте моего рождения с 100 000 статуями Будды, рыкающего, как лев, и деревьями Бодхи для чрева, это будет как встретить меня."[NEWLINE]- Дже Цзонкапа</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAER_TEMPLE_CHAPTER_HISTORY_PARA_1">
+			<Text>Монастырь Кумбум, также известный как храм Таэр, — это тибетский гомпа в Лусаре. Он был основан в 1583 году в узкой долине недалеко от деревни Лусар в историческом тибетском регионе Амдо.[NEWLINE]Дже Цзонкапа, основатель школы гелуг тибетского буддизма, родился неподалёку в Цзонкхе в 1357 году. Согласно одной из традиций, отец Цзонкапы закопал послед в месте, где сейчас находится монастырь, и вскоре там выросло сандаловое дерево. Согласно другой версии, дерево выросло на месте, где капли крови из пуповины Цзонкапы упали на землю. В любом случае это дерево стало известно как "Дерево великой заслуги". Листья и кора дерева, как говорили, носили отпечатки лица Будды и различные мистические символы, а его цветы источали удивительно приятный аромат.</Text>
+		</Replace>
+	</BaseGameText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_TAER_TEMPLE_NAME" Language="zh_Hant_HK">
+			<Text>塔爾寺</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAER_TEMPLE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>此城市對相鄰城市施加的宗教壓力加倍，並且忽視其餘宗教的宗教壓力。[NEWLINE][NEWLINE]必須建在沙漠丘陵上，此外你必須事先已創立宗教。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAER_TEMPLE_QUOTE" Language="zh_Hant_HK">
+			<Text>「若能在我出生地用十萬獅吼佛像和菩提樹為胎藏修建一座佛塔，就如與我見面一樣。」[NEWLINE]——宗喀巴</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAER_TEMPLE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>塔爾寺，是藏傳佛教格魯派六大寺院之一，是格魯派創始人宗喀巴的誕生地。[NEWLINE]宗喀巴離家赴藏一心學法多年，其母香薩阿切思兒心切，讓人捎去自己的一束白髮，意在告訴他老母已白髮蒼蒼，希望他回來一晤。宗喀巴為佛教事業決意不返，給母親和姐姐各捎去一幅用自己的鼻血畫成的自畫像和獅子吼佛像，並在信中寫到：「若能在我出生地點用10萬獅子吼佛像和菩提樹為胎藏，修建一座佛塔，就如同我見面一樣。」1379年，其母與眾信徒按宗喀巴的意願，用石片砌成一座蓮聚塔，這便是塔爾寺最早的建築物。1577年在此塔旁建了一座明制漢式佛殿，稱彌勒殿。由於先有塔，爾後才有寺，安多地區的漢族羣眾便將二者合稱為塔爾寺。[NEWLINE]酥油花、壁畫和堆繡被譽為「塔爾寺藝術三絕」，另外寺內還珍藏了許多佛教典籍和歷史、文學、哲學、醫藥、立法等方面的學術專著。每年舉行的佛事活動「四大法會」，更是熱鬧非凡。塔爾寺的酥油花彫塑也是栩栩如生，遠近聞名。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_TAER_TEMPLE_NAME" Language="zh_Hans_CN">
+			<Text>塔尔寺</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAER_TEMPLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城市对相邻城市施加的宗教压力加倍，并且忽视其余宗教的宗教压力。[NEWLINE][NEWLINE]必须建在沙漠丘陵上，此外你必须事先已创立宗教。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAER_TEMPLE_QUOTE" Language="zh_Hans_CN">
+			<Text>“若能在我出生地用十万狮吼佛象和菩提树为胎藏修建一座佛塔，就如与我见面一样。”[NEWLINE]——宗喀巴</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAER_TEMPLE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>塔尔寺，是藏传佛教格鲁派六大寺院之一，是格鲁派创始人宗喀巴的诞生地。[NEWLINE]宗喀巴离家赴藏一心学法多年，其母香萨阿切思儿心切，让人捎去自己的一束白发，意在告诉他老母已白发苍苍，希望他回来一晤。宗喀巴为佛教事业决意不返，给母亲和姐姐各捎去一幅用自己的鼻血画成的自画象和狮子吼佛象，并在信中写到：“若能在我出生地点用10万狮子吼佛象和菩提树为胎藏，修建一座佛塔，就如同我见面一样。”1379年，其母与众信徒按宗喀巴的意愿，用石片砌成一座莲聚塔，这便是塔尔寺最早的建筑物。1577年在此塔旁建了一座明制汉式佛殿，称弥勒殿。由于先有塔，尔后才有寺，安多地区的汉族羣众便将二者合称为塔尔寺。[NEWLINE]酥油花、壁画和堆绣被誉为“塔尔寺艺术三绝”，另外寺内还珍藏了许多佛教典籍和历史、文学、哲学、医药、立法等方面的学术专着。每年举行的佛事活动“四大法会”，更是热闹非凡。塔尔寺的酥油花雕塑也是栩栩如生，远近闻名。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_TAER_TEMPLE_NAME" Language="ja_JP">
+			<Text>クンブム・チャンパーリン寺</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAER_TEMPLE_DESCRIPTION" Language="ja_JP">
+			<Text>都市が隣接都市に与える宗教的圧力+100%，そして、他の宗教の宗教による圧力を受けない。[NEWLINE][NEWLINE]砂漠丘陵にのみ建設可能。宗教を創始している必要がある。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAER_TEMPLE_QUOTE" Language="ja_JP">
+			<Text>「私の出生地で十万の獅子吼仏像と菩提樹を胎蔵として仏塔を建てることができれば、それは私に会うのと同じです。」[NEWLINE]— ツォンカパ</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAER_TEMPLE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>クンブム・チャムパーリン寺は、青海省の省都である西寧市の郊外の湟中区に位置するチベット仏教の寺院である。漢字表記は塔爾寺。チベット仏教ゲルク派（黄帽派）の寺院で、ゲルク派の開祖ツォンカパの生誕地としても知られる。[NEWLINE]1360年にツォンカパの生母が立てた仏塔がもとになっているという。1560年にリンチェン・ツォンドゥギェンツェンが再興し、50あまりの末寺をかかえた。また、寺本婉雅が日露戦争のころにここに滞在していた。1958年には3600人以上の僧侶が在籍したが、アムド、内外モンゴル、ユグル族の出身が多かったという。文化大革命後はほぼ僧侶がラプラン寺へ移動してしまった。現在は300人ほどの僧侶が在籍している。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

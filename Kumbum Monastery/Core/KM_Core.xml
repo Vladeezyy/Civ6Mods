@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Core -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:36:54 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_TAER_TEMPLE"			Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_TAER_TEMPLE"	Name="LOC_BUILDING_TAER_TEMPLE_NAME" Description="LOC_BUILDING_TAER_TEMPLE_DESCRIPTION" PrereqCivic="CIVIC_HUMANISM" Cost="920" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresReligion="true" RequiresPlacement="true" ObsoleteEra="ERA_INFORMATION" Quote="LOC_BUILDING_TAER_TEMPLE_QUOTE"/>
+	</Buildings>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_TAER_TEMPLE"	TerrainType="TERRAIN_DESERT_HILLS"/>
+	</Building_ValidTerrains>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_TAER_TEMPLE"	YieldType="YIELD_FAITH"		YieldChange="3"/>
+		<Row BuildingType="BUILDING_TAER_TEMPLE"	YieldType="YIELD_CULTURE"	YieldChange="3"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_TAER_TEMPLE"	GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="3"/>
+	</Building_GreatPersonPoints>
+</GameData>

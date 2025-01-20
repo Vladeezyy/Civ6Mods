@@ -1,0 +1,34 @@
+-- 6TUE_Future_Icons_Portraits
+-- Author: JNR
+--------------------------------------------------------------
+
+-- IconTextureAtlases
+--------------------------------------------------------------
+INSERT INTO IconTextureAtlases
+		(Name,										IconSize,	IconsPerRow,	IconsPerColumn,	Filename)
+VALUES	('ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	38,			4,				4,				'6TUE_Future_UnitPortraits38.dds'),
+		('ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	50,			4,				4,				'6TUE_Future_UnitPortraits50.dds'),
+		('ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	70,			4,				4,				'6TUE_Future_UnitPortraits70.dds'),
+		('ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	95,			4,				4,				'6TUE_Future_UnitPortraits95.dds'),
+		('ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	200,		4,				4,				'6TUE_Future_UnitPortraits200.dds'),
+		('ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	256,		4,				4,				'6TUE_Future_UnitPortraits256.dds');
+--------------------------------------------------------------
+
+-- IconDefinitions
+--------------------------------------------------------------
+INSERT OR REPLACE INTO IconDefinitions
+		(Name,											Atlas,									'Index')
+VALUES	('ICON_UNIT_JNR_FUTURE_MELEE_PORTRAIT',			'ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	0),
+		('ICON_UNIT_JNR_FUTURE_ANTI_CAV_PORTRAIT',		'ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	1),
+		('ICON_UNIT_JNR_FUTURE_RECON_PORTRAIT',			'ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	2),
+		('ICON_UNIT_JNR_FUTURE_RANGED_PORTRAIT',		'ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	3),
+		('ICON_UNIT_JNR_FUTURE_SIEGE_PORTRAIT',			'ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	4),
+		('ICON_UNIT_JNR_FUTURE_LIGHT_CAV_PORTRAIT',		'ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	5),
+		('ICON_UNIT_JNR_FUTURE_HEAVY_CAV_PORTRAIT',		'ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	6),
+		('ICON_UNIT_JNR_FUTURE_NAV_MELEE_PORTRAIT',		'ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	8),
+		('ICON_UNIT_JNR_FUTURE_NAV_RANGED_PORTRAIT',	'ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	9),
+		('ICON_UNIT_JNR_FUTURE_NAV_RAIDER_PORTRAIT',	'ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	10),
+		('ICON_UNIT_JNR_FUTURE_NAV_CARRIER_PORTRAIT',	'ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	11),
+		('ICON_UNIT_JNR_FUTURE_FIGHTER_PORTRAIT',		'ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	12),
+		('ICON_UNIT_JNR_FUTURE_BOMBER_PORTRAIT',		'ICON_ATLAS_JNR_6TUE_FUTURE_PORTRAITS',	13);
+--------------------------------------------------------------

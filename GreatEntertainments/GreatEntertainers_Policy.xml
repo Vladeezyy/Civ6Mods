@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="POLICY_ENTERTAINERS" 				Kind="KIND_POLICY" />
+		<Row Type="POLICY_ENTERTAINERS_LATE_ERA" 		Kind="KIND_POLICY" />
+	</Types>
+	<Policies>
+		<Row PolicyType="POLICY_ENTERTAINERS" 				Name="LOC_POLICY_ENTERTAINERS_NAME" 					Description="LOC_POLICY_ENTERTAINERS_DESCRIPTION" 						PrereqCivic="CIVIC_GAMES_RECREATION" 		GovernmentSlotType="SLOT_WILDCARD" />
+		<Row PolicyType="POLICY_ENTERTAINERS_LATE_ERA" 		Name="LOC_POLICY_POLICY_ENTERTAINERS_LATE_ERA_NAME" 	Description="LOC_POLICY_POLICY_ENTERTAINERS_LATE_ERA_DESCRIPTION" 		PrereqCivic="CIVIC_MASS_MEDIA" 	GovernmentSlotType="SLOT_WILDCARD" />
+	</Policies>
+	<PolicyModifiers>
+		<Row PolicyType="POLICY_ENTERTAINERS" 									ModifierId="POLICY_ENTERTAINERS_MODIFIER"/>
+		<Row PolicyType="POLICY_ENTERTAINERS_LATE_ERA" 							ModifierId="POLICY_ENTERTAINERS_LATE_ERA_MODIFIER_BASE"/>
+		<Row PolicyType="POLICY_ENTERTAINERS_LATE_ERA" 							ModifierId="POLICY_ENTERTAINERS_LATE_ERA_MODIFIER_STADIUM"/>
+		<Row PolicyType="POLICY_ENTERTAINERS_LATE_ERA" 							ModifierId="POLICY_ENTERTAINERS_LATE_ERA_MODIFIER_AQUATICS_CENTER"/>
+	</PolicyModifiers>
+	<ObsoletePolicies>
+		<Row PolicyType="POLICY_ENTERTAINERS" ObsoletePolicy="POLICY_ENTERTAINERS_LATE_ERA"/>
+	</ObsoletePolicies>
+	<Modifiers>
+		<Row ModifierId="POLICY_ENTERTAINERS_MODIFIER" 									ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" />
+		<Row ModifierId="POLICY_ENTERTAINERS_LATE_ERA_MODIFIER_BASE" 					ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" />
+		<Row ModifierId="POLICY_ENTERTAINERS_LATE_ERA_MODIFIER_STADIUM" 				ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"		SubjectRequirementSetId="PLATI_CITY_HAS_STADIUM" />
+		<Row ModifierId="POLICY_ENTERTAINERS_LATE_ERA_MODIFIER_AQUATICS_CENTER" 		ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT"		SubjectRequirementSetId="PLATI_CITY_HAS_AQUATICS" />
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="POLICY_ENTERTAINERS_MODIFIER" 									Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatEntertainers" />
+		<Row ModifierId="POLICY_ENTERTAINERS_MODIFIER" 									Name="Amount" Value="2" />
+		<!-------------->
+		<Row ModifierId="POLICY_ENTERTAINERS_LATE_ERA_MODIFIER_BASE" 					Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatEntertainers" />
+		<Row ModifierId="POLICY_ENTERTAINERS_LATE_ERA_MODIFIER_BASE" 					Name="Amount" Value="4" />
+		<Row ModifierId="POLICY_ENTERTAINERS_LATE_ERA_MODIFIER_STADIUM" 				Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatEntertainers" />
+		<Row ModifierId="POLICY_ENTERTAINERS_LATE_ERA_MODIFIER_STADIUM" 				Name="Amount" Value="2" />
+		<Row ModifierId="POLICY_ENTERTAINERS_LATE_ERA_MODIFIER_AQUATICS_CENTER" 		Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GreatEntertainers" />
+		<Row ModifierId="POLICY_ENTERTAINERS_LATE_ERA_MODIFIER_AQUATICS_CENTER" 		Name="Amount" Value="2" />
+		<!-------------->
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLATI_CITY_HAS_AQUATICS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLATI_CITY_HAS_AQUATICS</RequirementSetId>
+			<RequirementId>REQUIRES_PLATI_CITY_HAS_AQUATICS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_CITY_HAS_AQUATICS</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLATI_CITY_HAS_AQUATICS</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_AQUATICS_CENTER</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>
+

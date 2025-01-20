@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Text -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:16 PM -->
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_BUILDING_YUMEN_PASS_NAME">
+			<Text>Проход Юймэнь</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUMEN_PASS_DESCRIPTION">
+			<Text>Предоставляет 1 [ICON_RESOURCE_JADE] Нефрит. Ваши международные [ICON_TradeRoute] торговые пути приносят +2 [ICON_Gold] Золота и +1 [ICON_Culture] Культуры за каждый роскошный ресурс, улучшенный в пункте назначения. Обеспечивает те же защитные бонусы, что и улучшение "Форт".[NEWLINE][NEWLINE]Должен быть построен на пустыне, прилегающей к горе.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUMEN_PASS_QUOTE">
+			<Text>"Река Хуанхэ исчезает в белых облаках, Одинокий городок теряется среди высоких пиков.[NEWLINE]Цянская флейта не винит ивовые деревья, Ведь весенний ветер не пересекает проход Юймэнь."[NEWLINE]– Ван Чжихуань, 'Песня Лянчжоу'</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YUMEN_PASS_CHAPTER_HISTORY_PARA_1">
+			<Text>Проход Юймэнь, или Нефритовые ворота, — это участок Великой Китайской стены, расположенный к западу от Дуньхуана в современном китайском провинции Ганьсу. Во времена династии Хань (202 год до н. э. — 220 год н. э.) это был проход, через который проходил Шёлковый путь, связывая Центральную Азию с Восточной (Китаем). Южнее находился проход Янгуань, который также играл важную роль на Шёлковом пути. Эти проходы, наряду с другими объектами на Шёлковом пути, были включены в список Всемирного наследия ЮНЕСКО в 2014 году как "Шёлковые пути: маршруты коридора Чанъань-Тяньшань". Проход расположен на высоте 1400 метров.</Text>
+		</Replace>
+
+	</BaseGameText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_YUMEN_PASS_NAME" Language="zh_Hant_HK">
+			<Text>玉門關</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUMEN_PASS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>贈與1份 [ICON_RESOURCE_JADE] 玉，目的地已開發的每個奢侈品資源為從此城市出發的國際 [ICON_TradeRoute] 貿易路線便+2 [ICON_GOLD] 金幣和+1 [ICON_Culture] 文化值。提供與堡壘改良設施一樣的防禦加成。[NEWLINE][NEWLINE]必須建在沒有丘陵的沙漠上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUMEN_PASS_QUOTE" Language="zh_Hant_HK">
+			<Text>「黃河遠上白雲間， 一片孤城萬仞山。[NEWLINE]羌笛何須怨楊柳， 春風不度玉門關。」[NEWLINE]——王之渙《涼州詞》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YUMEN_PASS_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>玉門關，俗稱小方盤城，是中國境內連通絲綢之路上的重要關隘之一，因西域輸入玉石取道於此得名。和西南的陽關合稱「二關」，同為當時通往西域各地的交通門戶，出玉門關為北道，出陽關為南道。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_YUMEN_PASS_NAME" Language="zh_Hans_CN">
+			<Text>玉门关</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUMEN_PASS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>赠与1份 [ICON_RESOURCE_JADE] 玉，目的地已开发的每个奢侈品资源为从此城市出发的国际 [ICON_TradeRoute] 贸易路线便+2 [ICON_GOLD] 金币和+1 [ICON_Culture] 文化值。提供与堡垒改良设施一样的防御加成。[NEWLINE][NEWLINE]必须建在没有丘陵的沙漠上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUMEN_PASS_QUOTE" Language="zh_Hans_CN">
+			<Text>“黄河远上白云间， 一片孤城万仞山。[NEWLINE]羌笛何须怨杨柳， 春风不度玉门关。”[NEWLINE]——王之涣《凉州词》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YUMEN_PASS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>玉门关，俗称小方盘城，是中国境内连通丝绸之路上的重要关隘之一，因西域输入玉石取道于此得名。和西南的阳关合称“二关”，同为当时通往西域各地的交通门户，出玉门关为北道，出阳关为南道。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_YUMEN_PASS_NAME" Language="ja_JP">
+			<Text>玉門関</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUMEN_PASS_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_RESOURCE_JADE] ヒスイ+1，目的地で開発された高級資源1つごとに、国家間の [ICON_TradeRoute] 交易路による [ICON_Gold] ゴールド+2と [ICON_Culture] 文明力+1。要塞と同じ防御力ボーナスを得る。[NEWLINE][NEWLINE]丘陵のない砂漠にのみ建設可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUMEN_PASS_QUOTE" Language="ja_JP">
+			<Text>「黄河遠く上る白雲の間，一片の孤城萬仞の山。[NEWLINE]羌笛何ぞ須ゐん楊柳を怨むを，春光度らず玉門關。」[NEWLINE]- 王之渙『涼州詞』より</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YUMEN_PASS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>玉門関かつて建設されたシルクロードの重要な堅固な関所の1つ。漢と唐2度に渡り建立された。現存する玉門関遺跡は漢代のものである。俗称は小方盤城。元来は漢代に武帝が河西回廊を防衛する目的で、長城をこの地域に建設し紀元前108年から107年にその最西端に建造されたとされる。その後、六朝時代には交通の要綱として栄え、唐代に再建された際は安西の東側に建設された。同じく南西に設置された陽関とともに、西域交通で北ルートを通ると玉門関、南ルートでは陽関を通過していた。宋代になって西域交通が衰え、衰退した。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

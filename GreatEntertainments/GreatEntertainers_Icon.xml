@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatSovereigns -->
+<!-- Author: Plati -->
+<GameData>
+	<IconTextureAtlases>
+		<!------------------------------------------------------------------------------------------------->
+		<Row Name="ICON_ATLAS_GENERIC_GREAT_PERSON_INDIVIDUAL_GREAT_GreatEntertainers" IconSize="105"	IconsPerRow="1" IconsPerColumn="1" 	Filename="GreatEntertainer_BaseIcon_105.dds"/>
+		<Row Name="ICON_ATLAS_GENERIC_GREAT_PERSON_INDIVIDUAL_GREAT_GreatEntertainers" IconSize="216"	IconsPerRow="1" IconsPerColumn="1" 	Filename="GreatEntertainer_BaseIcon.dds"/>
+		<!------------------------------------------------------------------------------------------------->
+		<Row Name="ATLAS_ICON_GREAT_ENTERTAINER" 				IconSize="38" 		Filename="ICON_GREAT_ENTERTAINER_38.dds"/>
+		<Row Name="ATLAS_ICON_GREAT_ENTERTAINER" 				IconSize="50" 		Filename="ICON_GREAT_ENTERTAINER_50.dds"/>
+		<Row Name="ATLAS_ICON_GREAT_ENTERTAINER" 				IconSize="80" 		Filename="ICON_GREAT_ENTERTAINER_80.dds"/>
+		<Row Name="ATLAS_ICON_GREAT_ENTERTAINER" 				IconSize="256" 		Filename="ICON_GREAT_ENTERTAINER_256.dds"/>
+		<!------------------------------------------------------------------------------------------------->
+		<Row Name="ATLAS_ICON_GreatEntertainers_TEXT_ICON" 		IconSize="22"		IconsPerRow="1" 	IconsPerColumn="1" 	Filename="ICON_GREAT_ENTERTAINER_Z_22.dds" Baseline="6"/>
+		<!------------------------------------------------------------------------------------------------->
+		<Row Name="ICON_ATLAS_GREAT_ENTERTAINER_UNIT_PORTRAITS" IconSize="38" 	Filename="ICON_GREAT_ENTERTAINER_PORTRAIT_38.dds"/>
+		<Row Name="ICON_ATLAS_GREAT_ENTERTAINER_UNIT_PORTRAITS" IconSize="50" 	Filename="ICON_GREAT_ENTERTAINER_PORTRAIT_50.dds"/>
+		<Row Name="ICON_ATLAS_GREAT_ENTERTAINER_UNIT_PORTRAITS" IconSize="70" 	Filename="ICON_GREAT_ENTERTAINER_PORTRAIT_70.dds"/>
+		<Row Name="ICON_ATLAS_GREAT_ENTERTAINER_UNIT_PORTRAITS" IconSize="95" 	Filename="ICON_GREAT_ENTERTAINER_PORTRAIT_95.dds"/>
+		<Row Name="ICON_ATLAS_GREAT_ENTERTAINER_UNIT_PORTRAITS" IconSize="200" 	Filename="ICON_GREAT_ENTERTAINER_PORTRAIT_200.dds"/>
+		<Row Name="ICON_ATLAS_GREAT_ENTERTAINER_UNIT_PORTRAITS" IconSize="256" 	Filename="ICON_GREAT_ENTERTAINER_PORTRAIT_256.dds"/>
+		<!------------------------------------------------------------------------------------------------->
+		<Row Name="ATLAS_ICON_GREAT_ENTERTAINER_ACTION" IconSize="38" 	Filename="ICON_GREAT_ENTERTAINER_ACTION_38.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!------------------------------------------------------------------------------------------------->
+		<Row Name="ICON_GENERIC_GREAT_PERSON_INDIVIDUAL_GreatEntertainers" 			Atlas="ICON_ATLAS_GENERIC_GREAT_PERSON_INDIVIDUAL_GREAT_GreatEntertainers" index="0"/>
+		<!------------------------------------------------------------------------------------------------->
+		<Row Name="ICON_UNITOPERATION_GreatEntertainers_ACTION" 			Atlas="ATLAS_ICON_GREAT_ENTERTAINER_ACTION" index="0"/>
+		<Row Name="ICON_UNIT_GREAT_GreatEntertainers" 					Atlas="ATLAS_ICON_GREAT_ENTERTAINER" index="0"/>
+		<Row Name="GreatEntertainers" 									Atlas="ATLAS_ICON_GreatEntertainers_TEXT_ICON" index="0"/>
+		<!------------------------------------------------------------------------------------------------->
+		<Row Name="ICON_UNIT_GREAT_GreatEntertainers_PORTRAIT" 			Atlas="ICON_ATLAS_GREAT_ENTERTAINER_UNIT_PORTRAITS" index="0"/>
+	</IconDefinitions>
+</GameData>

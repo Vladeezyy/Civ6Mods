@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Text -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:16 PM -->
+<GameData>
+	<BaseGameText>
+	<Replace Tag="LOC_BUILDING_THE_PENTAGON_NAME" Language="ru_RU">
+		<Text>Пентагон</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_THE_PENTAGON_DESCRIPTION" Language="ru_RU">
+		<Text>Снижает стоимость улучшения всех юнитов на 50% [ICON_Gold] золота и ресурсов. Обученные военные юниты, которые не имеют начального повышения, начинают с одним бесплатным повышением.[NEWLINE][NEWLINE]Должен быть построен на равнине рядом с Центром города.</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_THE_PENTAGON_QUOTE" Language="ru_RU">
+		<Text>"При подготовке к бою я всегда находил, что планы бесполезны, но само планирование незаменимо."[NEWLINE]– Дуайт Д. Эйзенхауэр</Text>
+	</Replace>
+	<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THE_PENTAGON_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Text>Пентагон — это большое пятиугольное здание, расположенное в Арлингтоне, штат Вирджиния, США, недалеко от реки Потомак и Вашингтона, округ Колумбия. Оно является штаб-квартирой Министерства обороны США и всех трёх военных подразделений: армии, флота и военно-воздушных сил. Пентагон был спроектирован для консолидации различных отделов Военного департамента, которые до этого момента были разбросаны по семнадцати отдельным зданиям в Вашингтоне. Строительство началось в 1941 году и было завершено в 1943 году, что является невероятно коротким сроком для такого масштабного проекта, что отражает стремительный темп американского военного расширения в начале Второй мировой войны. Пентагон занимает около 12 гектаров и предоставляет офисные помещения для 25,000 человек, что делает его одним из крупнейших офисных зданий в мире (например, он вмещает больше работников, чем Эмпайр-стейт-билдинг).</Text>
+	</Replace>
+	<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THE_PENTAGON_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Text>11 сентября 2001 года Пентагон был атакован пассажирским самолётом, управляемым террористами. К счастью, в момент атаки часть здания, куда пришёлся удар, находилась на стадии реконструкции. Эти работы были направлены на укрепление структуры здания, и многие сотрудники, работающие в этом крыле, временно были переведены в другие помещения. В результате атаки погибло 125 сотрудников Пентагона и все 64 пассажира самолёта. Здание было полностью восстановлено и в настоящее время остаётся сердцем и мозгом американской армии.</Text>
+	</Replace>
+</BaseGameText>
+	
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_THE_PENTAGON_NAME" Language="zh_Hant_HK">
+			<Text>五角大廈</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_THE_PENTAGON_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>所有單位升級的 [ICON_Gold] 金幣及資源花費減半。訓練的軍事單位若一開始沒有免費強化，則可獲得一次免費強化。[NEWLINE][NEWLINE]必須建在相鄰於市中心的平坦單元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_THE_PENTAGON_QUOTE" Language="zh_Hant_HK">
+			<Text>「在準備作戰時，我常常發現定好的計劃沒有用處，但計劃的過程仍必不可少。」[NEWLINE]——德懷特·艾森豪威爾</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THE_PENTAGON_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>五角大廈是位於美國弗吉尼亞州的一座五角型的巨大建築。它距離美國首都華盛頓僅有一河之隔。他是美國防務部門及陸海空軍的總部。五角大廈設立的本意，是爲了將當時分散在十七座建築里的指揮部門集中起來。五角大廈于1941年開建，1943年完工，對於如此浩大的一個工程來說，這個時間簡直短得不可思議。這也從一個側面反映了二戰開始時美國軍隊的狂熱步伐。五角大廈佔地30英畝，擁有2.5萬名工作人員，是世界上最大的辦公建築（超過帝國大廈等）。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THE_PENTAGON_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>911事件時，五角大廈也受到了襲擊，幸運的是，被飛機撞擊的部分當時正好在裝修，大部分的員工都被安置在了其他辦公室。但最終還是有125名工作人員以及64名飛機上的乘客和機組成員死亡。從那以後，五角大廈進行了一次重建，直到現在仍是美國軍隊的大腦和心臟。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_THE_PENTAGON_NAME" Language="zh_Hans_CN">
+			<Text>五角大楼</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_THE_PENTAGON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有单位升级的 [ICON_Gold] 金币及资源花费减半。训练的军事单位若一开始没有免费强化，则可获得一次免费强化。[NEWLINE][NEWLINE]必须建在相邻于市中心的平坦单元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_THE_PENTAGON_QUOTE" Language="zh_Hans_CN">
+			<Text>“在准备作战时，我常常发现定好的计划没有用处，但计划的过程仍必不可少。”[NEWLINE]——德怀特·艾森豪威尔</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THE_PENTAGON_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>五角大楼是位于美国弗吉尼亚州的一座五角型的巨大建筑。它距离美国首都华盛顿仅有一河之隔。他是美国防务部门及陆海空军的总部。五角大楼设立的本意，是为了将当时分散在十七座建筑里的指挥部门集中起来。五角大楼于1941年开建，1943年完工，对于如此浩大的一个工程来说，这个时间简直短得不可思议。这也从一个侧面反映了二战开始时美国军队的狂热步伐。五角大楼占地30英亩，拥有2.5万名工作人员，是世界上最大的办公建筑（超过帝国大厦等）。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THE_PENTAGON_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>911事件时，五角大楼也受到了袭击，幸运的是，被飞机撞击的部分当时正好在装修，大部分的员工都被安置在了其他办公室。但最终还是有125名工作人员以及64名飞机上的乘客和机组成员死亡。从那以后，五角大楼进行了一次重建，直到现在仍是美国军队的大脑和心脏。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_THE_PENTAGON_NAME" Language="ja_JP">
+			<Text>ペンタゴン</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_THE_PENTAGON_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットのアップグレードに必要な [ICON_Gold] ゴールドと資源が50%低下。訓練された軍事ユニットは、最初から無償のレベルアップを1つ持っている (無償のレベルアップをまだ持っていない場合)。[NEWLINE][NEWLINE]都心に隣接している平らな土地にのみ建設可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_THE_PENTAGON_QUOTE" Language="ja_JP">
+			<Text>「戦いの準備をする際、計画は役に立たないことが多いが、計画を立てること自体は不可欠である。」[NELWINE]- ドワイト・D・アイゼンハワー</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THE_PENTAGON_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ペンタゴンは、アメリカ合衆国バージニア州アーリントンにある五角形の大きな建物で、ワシントンD.C.からポトマック川を渡ったところにあります。ここはアメリカ国防総省の本部であり、陸軍、海軍、空軍の三軍の本部でもあります。ペンタゴンは、それまでワシントン市内の17の別々の建物に分散していた陸軍省の各部門を統合するために設計されました。建設は1941年に始まり、1943年に完成しました。この巨大な建物がこれほど短期間で完成したのは、第二次世界大戦の初期におけるアメリカの軍事拡張の急速なペースを反映しています。ペンタゴンは約30エーカーの敷地を占め、25,000人のオフィススペースを提供しており、エンパイア・ステート・ビルディングよりも多くの労働者を収容できる、史上最大のオフィスビルの一つです。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_THE_PENTAGON_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ペンタゴンは、2001年9月11日にテロリストが操縦する旅客機によって攻撃されました。幸いなことに、攻撃を受けたペンタゴンの部分は当時改修工事中でした。この改修工事は建物の構造強度を向上させるためのもので、その部分にいた多くの職員は一時的に他の場所に移動していました。この攻撃でペンタゴンの職員125人と、飛行機に乗っていた64人全員が亡くなりました。その後、建物は完全に再建され、現在もアメリカ軍の中枢として機能しています。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

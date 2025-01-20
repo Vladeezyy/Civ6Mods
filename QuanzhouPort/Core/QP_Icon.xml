@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Icon -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:08 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_BUILDING_QUANZHOU_PORT" IconSize="32" Filename="IMG_BUILDING_QUANZHOU_PORT_32"/>
+		<Row Name="ATLAS_BUILDING_QUANZHOU_PORT" IconSize="38" Filename="IMG_BUILDING_QUANZHOU_PORT_38"/>
+		<Row Name="ATLAS_BUILDING_QUANZHOU_PORT" IconSize="50" Filename="IMG_BUILDING_QUANZHOU_PORT_50"/>
+		<Row Name="ATLAS_BUILDING_QUANZHOU_PORT" IconSize="64" Filename="IMG_BUILDING_QUANZHOU_PORT_64"/>
+		<Row Name="ATLAS_BUILDING_QUANZHOU_PORT" IconSize="128" Filename="IMG_BUILDING_QUANZHOU_PORT_128"/>
+		<Row Name="ATLAS_BUILDING_QUANZHOU_PORT" IconSize="256" Filename="IMG_BUILDING_QUANZHOU_PORT_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_QUANZHOU_PORT" Atlas="ATLAS_BUILDING_QUANZHOU_PORT" Index="0"/>
+	</IconDefinitions>
+</GameData>

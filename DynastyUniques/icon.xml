@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- icon -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 10/4/2024 10:20:48 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_BUILDING_FORBIDDEN_CITY_HAN" IconSize="32" Filename="ICON_BUILDING_FORBIDDEN_CITY_HAN_32"/>
+		<Row Name="ATLAS_ICON_BUILDING_FORBIDDEN_CITY_HAN" IconSize="38" Filename="ICON_BUILDING_FORBIDDEN_CITY_HAN_38"/>
+		<Row Name="ATLAS_ICON_BUILDING_FORBIDDEN_CITY_HAN" IconSize="50" Filename="ICON_BUILDING_FORBIDDEN_CITY_HAN_50"/>
+		<Row Name="ATLAS_ICON_BUILDING_FORBIDDEN_CITY_HAN" IconSize="80" Filename="ICON_BUILDING_FORBIDDEN_CITY_HAN_80"/>
+		<Row Name="ATLAS_ICON_BUILDING_FORBIDDEN_CITY_HAN" IconSize="128" Filename="ICON_BUILDING_FORBIDDEN_CITY_HAN_128"/>
+		<Row Name="ATLAS_ICON_BUILDING_FORBIDDEN_CITY_HAN" IconSize="256" Filename="ICON_BUILDING_FORBIDDEN_CITY_HAN_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_FORBIDDEN_CITY_HAN" Atlas="ATLAS_ICON_BUILDING_FORBIDDEN_CITY_HAN" Index="0"/>
+	</IconDefinitions>
+</GameData>

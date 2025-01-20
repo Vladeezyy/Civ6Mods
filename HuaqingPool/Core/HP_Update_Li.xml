@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HP_Update_Li -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 7/1/2024 11:53:02 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set Description="{LOC_BUILDING_HUAQUNG_POOL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_BUILDING_HUAQUNG_POOL_LI}" Quote="{LOC_BUILDING_HUAQUNG_POOL_LI_QUOTE}"/>
+			<Where BuildingType="BUILDING_HUAQUNG_POOL"/>
+		</Update>
+	</Buildings>
+</GameData>

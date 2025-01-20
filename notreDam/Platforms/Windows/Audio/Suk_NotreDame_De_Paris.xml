@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Owner\Documents\Modding Files\NotreDame\Audio\Wwise\Sukritact's Notre Dame\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Owner\Documents\Modding Files\NotreDame\Audio\Wwise\Sukritact's Notre Dame\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Owner\Documents\Modding Files\NotreDame\Audio\Wwise\Sukritact's Notre Dame\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Owner\Documents\Modding Files\NotreDame\Audio\Wwise\Sukritact's Notre Dame\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="24317609" Language="SFX">
+			<ShortName>WON_Suk_NotreDame_Intro.wav</ShortName>
+			<Path>SFX\WON_Suk_NotreDame_Intro_E843A46D.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="459731368" Language="SFX">
+			<ShortName>Suk_NotreDame_De_Paris</ShortName>
+			<Path>Suk_NotreDame_De_Paris.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2637293574" Name="Play_Wonder_Music_Suk_Notre_Dame_De_Paris"/>
+				<Event Id="2267025560" Name="Stop_Wonder_Music_Suk_Notre_Dame_De_Paris"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="24317609"/>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

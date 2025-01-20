@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Core -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:36:54 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_YANG_PASS"				Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_YANG_PASS"		Name="LOC_BUILDING_YANG_PASS_NAME" Description="LOC_BUILDING_YANG_PASS_DESCRIPTION" PrereqTech="TECH_ENGINEERING" Cost="400" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" DefenseModifier="4" GrantFortification="2" OuterDefenseStrength="3" OuterDefenseHitPoints="100" Quote="LOC_BUILDING_YANG_PASS_QUOTE" AdjacentToMountain="true"/>
+	</Buildings>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_YANG_PASS"		TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_YANG_PASS"		TerrainType="TERRAIN_DESERT"/>
+	</Building_ValidTerrains>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_YANG_PASS"		YieldType="YIELD_PRODUCTION"	YieldChange="1"/>
+		<Row BuildingType="BUILDING_YANG_PASS"		YieldType="YIELD_CULTURE"		YieldChange="1"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_YANG_PASS"		GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL"	PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_YANG_PASS"		GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"	PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+</GameData>

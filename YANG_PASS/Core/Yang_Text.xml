@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Text -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:16 PM -->
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_BUILDING_YANG_PASS_NAME">
+			<Text>Перевал Ян</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YANG_PASS_DESCRIPTION">
+			<Text>Даёт 1 [ICON_RESOURCE_SILK] Шёлк. Ваши международные [ICON_TradeRoute] торговые пути предоставляют +1 [ICON_Production] Производства и +1 [ICON_Culture] Культуры за каждую стратегическую улучшенную ресурсную клетку в месте назначения. Обеспечивает такие же защитные бонусы, как улучшение Форт.[NEWLINE][NEWLINE]Должен быть построен на Пустыне рядом с Горой.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YANG_PASS_QUOTE">
+			<Text>"Утренний дождик в Вэй лёгкой пылью землю смочил, У гостиницы ивы растут, свежие и зелёные.[NEWLINE]Прощаясь с тобой, я хочу ещё раз поднять бокал, Ведь к западу от Ворот Солнца ты не встретишь старого друга."[NEWLINE]– Ван Вэй, 'Песня о городе Вэй'</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YANG_PASS_CHAPTER_HISTORY_PARA_1">
+			<Text>Янггуань, или Перевал Ян, был горным проходом, укреплённым императором У из династии Западная Хань около 120 года до н.э., и использовался как аванпост в колониальных владениях, прилегающих к древнему Китаю. Янггуань был одним из двух самых важных западных проходов Китая, вторым был Юмэнгуань. Он служил важным ориентиром на Шёлковом пути. Однако крепость на Янггуане пришла в упадок к 900 году нашей эры.</Text>
+		</Replace>
+	</BaseGameText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_YANG_PASS_NAME" Language="zh_Hant_HK">
+			<Text>陽關</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YANG_PASS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>贈與1份 [ICON_RESOURCE_SILK] 絲綢，目的地已開發的每個戰略資源為從此城市出發的國際 [ICON_TradeRoute] 貿易路線便+1 [ICON_Production] 生產力和+1 [ICON_Culture] 文化值。提供與堡壘改良設施一樣的防禦加成。[NEWLINE][NEWLINE]必須建在靠近山脈的沙漠上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YANG_PASS_QUOTE" Language="zh_Hant_HK">
+			<Text>「渭城朝雨浥輕塵，客舍青青柳色新。[NEWLINE]勸君更盡一杯酒，西出陽關無故人。」[NEWLINE]——王維《送元二使安西》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YANG_PASS_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>陽關，始建於漢武帝時期，公元前120年左右加固，用作邊防前哨，為古代絲綢之路的重要關卡，是古代陸路交通的咽喉之地，把守著通往西域的南路。陽關及玉門關亦合稱「二關」，是古中國最重要的兩個西關。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_YANG_PASS_NAME" Language="zh_Hans_CN">
+			<Text>阳关</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YANG_PASS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>赠与1份 [ICON_RESOURCE_SILK] 丝绸，目的地已开发的每个战略资源为从此城市出发的国际 [ICON_TradeRoute] 贸易路线便+1 [ICON_Production] 生产力和+1 [ICON_Culture] 文化值。提供与堡垒改良设施一样的防御加成。[NEWLINE][NEWLINE]必须建在靠近山脉的沙漠上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YANG_PASS_QUOTE" Language="zh_Hans_CN">
+			<Text>“渭城朝雨浥轻尘，客舍青青柳色新。[NEWLINE]劝君更尽一杯酒，西出阳关无故人。”[NEWLINE]——王维《送元二使安西》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YANG_PASS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>阳关，始建于汉武帝时期，公元前120年左右加固，用作边防前哨，为古代丝绸之路的重要关卡，是古代陆路交通的咽喉之地，把守着通往西域的南路。阳关及玉门关亦合称“二关”，是古中国最重要的两个西关。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_YANG_PASS_NAME" Language="ja_JP">
+			<Text>陽関</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YANG_PASS_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_RESOURCE_SILK] 絹+1，目的地で開発された戦略資源1つごとに、国家間の [ICON_TradeRoute] 交易路による [ICON_Production] 生産力+1と [ICON_Culture] 文明力+1。要塞と同じ防御力ボーナスを得る。[NEWLINE][NEWLINE]山岳に隣接した砂漠にのみ建設可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YANG_PASS_QUOTE" Language="ja_JP">
+			<Text>「渭城の朝雨軽塵を裛し，客舎青青柳色新たなり。[NEWLINE]君に勧む更に盡くせ一杯の酒，西のかた陽関を出づれば故人無からん。」[NEWLINE]- 王維『送元二使安西』より</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YANG_PASS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>陽関はかつて建設されたシルクロードの重要な堅固な関所の1つ。併せて設置された玉門関より南に位置し、そのため「陽関」と称された。玉門関と併せて「二関」と呼ばれる。漢代に武帝が河西回廊を防衛する目的で建設した、西域交通南ルートのでの要所であった。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

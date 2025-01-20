@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PASQUA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PASQUA" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PASQUA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_PASQUA_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PASQUA" ModifierId="GREATPERSON_BONUS_PASQUA" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PASQUA" ModifierId="GREATPERSON_BONUS_PASQUA_FAITH" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_PASQUA" ModifierId="GREATPERSON_BONUS_PASQUA_BONUS" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PASQUA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_BUILDING</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PASQUA_FAITH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PASQUA_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLATI_CITY_HAS_COFEE_HOUSE</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PASQUA</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PLATI_COFFEE_HOUSE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PASQUA</ModifierId>
+			<Name>BuildingTypeToReplace</Name>
+			<Value>BUILDING_PLATI_COFFEE_HOUSE_DUMMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PASQUA_FAITH</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PLATI_COFFEE_HOUSE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PASQUA_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PASQUA_BONUS</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_ECSTATIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_PASQUA_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_PASQUA" Context="Summary" Text="LOC_GREATPERSON_PLATI_PASQUA_ACTIVE"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLATI_CITY_HAS_COFEE_HOUSE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLATI_CITY_HAS_COFEE_HOUSE</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_COFEE_HOUSE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_COFEE_HOUSE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_COFEE_HOUSE</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PLATI_COFFEE_HOUSE</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4928cdff-5202-4242-8c56-f10396f67868" version="2">
+  <Properties>
+    <Name>[COLOR:ResFaithLabelCS]6T[ENDCOLOR] - Unit Expansion: Future</Name>
+    <Description>Adds 13 new Future era units for the regular land and naval promotion classes, with models taken from Beyond Earth.[NEWLINE][NEWLINE]Even though part of Project 6T, this mod does *not* require Grand Eras or any other mod.</Description>
+    <Created>1736525716</Created>
+    <Teaser>13 new regular Future era units.</Teaser>
+    <Authors>JNR</Authors>
+    <SpecialThanks>Deliverator (converting the models from BE)</SpecialThanks>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="GameplayBase">
+      <Properties>
+        <LoadOrder>15900</LoadOrder>
+      </Properties>
+      <File>Core/6TUE_Future_Units.sql</File>
+      <File>Core/6TUE_Future_Policies.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="TextBase">
+      <Properties>
+        <LoadOrder>15900</LoadOrder>
+      </Properties>
+      <File>Core/6TUE_Future_Text.sql</File>
+    </UpdateText>
+    <UpdateArt id="ArtDependency">
+      <Properties>
+        <LoadOrder>15900</LoadOrder>
+      </Properties>
+      <File>Unit_Expansion_Future.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>15900</LoadOrder>
+      </Properties>
+      <File>Core/6TUE_Future_Icons.sql</File>
+      <File>Core/6TUE_Future_Icons_Portraits.sql</File>
+    </UpdateIcons>
+    <UpdateDatabase id="Gameplay_ModSupport">
+      <Properties>
+        <LoadOrder>16900</LoadOrder>
+      </Properties>
+      <File>Core/6TUE_Future_Units_Expansion.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Core/6TUE_Future_Icons.sql</File>
+    <File>Core/6TUE_Future_Icons_Portraits.sql</File>
+    <File>Core/6TUE_Future_Policies.sql</File>
+    <File>Core/6TUE_Future_Text.sql</File>
+    <File>Core/6TUE_Future_Units.sql</File>
+    <File>Core/6TUE_Future_Units_Expansion.sql</File>
+    <File>Unit_Expansion_Future.dep</File>
+  </Files>
+</Mod>

@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	754884159	Play_WhiteHorseTemple_Quote_zh			\Wonders\Play_WhiteHorseTemple_Quote_zh	
+	3584705025	Stop_WhiteHorseTemple_Quote_zh			\Wonders\Stop_WhiteHorseTemple_Quote_zh	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	134848294	WhiteHorseTemple_Quote_zh	D:\WwiseProjects\WhiteHorseTemple_Quote_1\.cache\Windows\SFX\WhiteHorseTemple_Quote_zh_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WhiteHorseTemple_Quote_zh		1728576
+

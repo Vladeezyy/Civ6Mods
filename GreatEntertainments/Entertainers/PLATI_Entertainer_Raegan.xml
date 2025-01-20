@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_RAEGAN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_RAEGAN" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_RAEGAN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_RAEGAN_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_RAEGAN" ModifierId="GREATPERSON_BONUS_RAEGAN_PEACE" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_RAEGAN" ModifierId="GREATPERSON_BONUS_RAEGAN_WAR" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RAEGAN_PEACE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>RAEGAN_GOLDEN_AGE_PEACE</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RAEGAN_WAR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>RAEGAN_GOLDEN_AGE_WAR</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RAEGAN_PEACE</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_ECONOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RAEGAN_WAR</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_RAEGAN_PEACE" Context="Summary" Text="LOC_GREATPERSON_PLATI_RAEGAN_ACTIVE"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>RAEGAN_GOLDEN_AGE_PEACE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RAEGAN_GOLDEN_AGE_WAR</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>RAEGAN_GOLDEN_AGE_PEACE</RequirementSetId>
+			<RequirementId>PLATI_RAEGAN_IS_AT_PEACE_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RAEGAN_GOLDEN_AGE_PEACE</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_GOLDEN_AGE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RAEGAN_GOLDEN_AGE_WAR</RequirementSetId>
+			<RequirementId>PLATI_RAEGAN_IS_AT_WAR_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RAEGAN_GOLDEN_AGE_WAR</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_GOLDEN_AGE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>PLATI_RAEGAN_IS_AT_PEACE_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS</RequirementType>
+			<Inverse>false</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_RAEGAN_IS_AT_WAR_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+</GameData>

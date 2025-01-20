@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Text -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:16 PM -->
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_NAME">
+			<Text>Бассейн Хуацин</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_DESCRIPTION">
+			<Text>+1 ячейка дипломатической политики. +2 [ICON_AMENITIES] Удовлетворения, +2 [ICON_Tourism] Туризма и +3 [ICON_Culture] Культуры распространяются на каждый городской центр в пределах 6 клеток.[NEWLINE][NEWLINE]Должен быть построен на ровной местности с геотермальным разломом.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_YANG">
+			<Text>[ICON_Bullet]Бонусный эффект: Все ваши отряды полностью восстанавливаются за один ход на клетках этого города. (Ян Гуйфэй)</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_LI">
+			<Text>[ICON_Bullet]Бонусный эффект: [ICON_TradeRoute] Международные торговые пути из этого города получают +2 [ICON_Gold] Золота и +1 [ICON_Culture] Культуры. (Ли Лунцзи, император Сюаньцзун династии Тан)</Text>
+		</Replace>
+		<Replace Tag="LOC_CHANG_HEN_GE">
+			<Text>Повернув голову, она улыбнулась так сладко и грациозно, что затмила красотой все шесть дворцов.[NEWLINE]Она купалась в прозрачной воде горячего источника, которая разглаживала и смягчала её бархатную кожу, когда весна была прохладной.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHANG_HEN_GE_YANG">
+			<Text>Монарх, любящий красоту, долго искал безупречную даму.[NEWLINE]Юная дева из рода Ян, выросшая в уединённых покоях, миру была неизвестна.[NEWLINE]Обладая естественной красотой, которую невозможно скрыть, однажды она была выбрана для того, чтобы быть рядом с монархом.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHANG_HEN_GE_LI">
+			<Text>Её подняли слуги, так как она была слишком слаба, чтобы двигаться, и тогда монарх впервые проявил к ней свою любовь.[NEWLINE]Цветочное лицо и волосы, как облака, украшенные золотым венцом, в лотосовом занавесе она провела благословенную ночь.[NEWLINE]Она спала до полудня, так как ночь была слишком короткой, и с тех пор монарх перестал проводить утренние заседания.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_QUOTE">
+			<Text>"{LOC_CHANG_HEN_GE}"[NEWLINE]- Бо Цзюйи, 'Песня о вечном сожалении'</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_YANG_QUOTE">
+			<Text>"{LOC_CHANG_HEN_GE_YANG}[NEWLINE]{LOC_CHANG_HEN_GE}"[NEWLINE]- Бо Цзюйи, 'Песня о вечном сожалении'</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_LI_QUOTE">
+			<Text>"{LOC_CHANG_HEN_GE}[NEWLINE]{LOC_CHANG_HEN_GE_LI}"[NEWLINE]- Бо Цзюйи, 'Песня о вечном сожалении'</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_YANGLI_QUOTE">
+			<Text>"{LOC_CHANG_HEN_GE_YANG}[NEWLINE]{LOC_CHANG_HEN_GE}[NEWLINE]{LOC_CHANG_HEN_GE_LI}"[NEWLINE]- Бо Цзюйи, 'Песня о вечном сожалении'</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HUAQUNG_POOL_CHAPTER_HISTORY_PARA_1">
+			<Text>Бассейн Хуацин — это комплекс горячих источников, расположенный в живописной местности у северного подножия горы Ли, одной из трёх главных вершин Циньлиня.[NEWLINE]Источники используют природное геотермальное тепло и имеют задокументированную историю почти в три тысячелетия, служив местом для нескольких дворцов, построенных во времена правления древнекитайских династий, включая Чжоу, Цинь и Хань.</Text>
+		</Replace>
+	</BaseGameText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_NAME" Language="zh_Hant_HK">
+			<Text>華清池</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+1外交政策槽位。距離6單元格範圍內的每個市中心獲得+2 [ICON_AMENITIES] 滿意度、+2 [ICON_Tourism] 旅遊業績和+3 [ICON_Culture] 文化值。[NEWLINE][NEWLINE]必須建在帶有地熱裂隙的平坦地形上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_YANG" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet]額外效果：在此城市的單元格中，你的單位能在一回合內完全回復生命值。（楊貴妃）</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_LI" Language="zh_Hant_HK">
+			<Text>[ICON_Bullet]額外效果：從此城市出發的國際 [ICON_TradeRoute] 貿易路線 +2 [ICON_Gold] 金幣和 +1 [ICON_Culture] 文化值。（唐玄宗李隆基）</Text>
+		</Replace>
+		<Replace Tag="LOC_CHANG_HEN_GE" Language="zh_Hant_HK">
+			<Text>回眸一笑百媚生，六宮粉黛無顏色。[NEWLINE]春寒賜浴華清池，溫泉水滑洗凝脂。</Text>
+		</Replace>
+		<Replace Tag="LOC_CHANG_HEN_GE_YANG" Language="zh_Hant_HK">
+			<Text>漢皇重色思傾國，御宇多年求不得。[NEWLINE]楊家有女初長成，養在深閨人未識。[NEWLINE]天生麗質難自棄，一朝選在君王側。</Text>
+		</Replace>
+		<Replace Tag="LOC_CHANG_HEN_GE_LI" Language="zh_Hant_HK">
+			<Text>侍兒扶起嬌無力，始是新承恩澤時。[NEWLINE]雲鬢花顏金步搖，芙蓉帳暖度春宵。[NEWLINE]春宵苦短日高起，從此君王不早朝。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_QUOTE" Language="zh_Hant_HK">
+			<Text>「{LOC_CHANG_HEN_GE}」[NEWLINE]——白居易《長恨歌》</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_YANG_QUOTE" Language="zh_Hant_HK">
+			<Text>「{LOC_CHANG_HEN_GE_YANG}[NEWLINE]{LOC_CHANG_HEN_GE}」[NEWLINE]——白居易《長恨歌》</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_LI_QUOTE" Language="zh_Hant_HK">
+			<Text>「{LOC_CHANG_HEN_GE}[NEWLINE]{LOC_CHANG_HEN_GE_LI}」[NEWLINE]——白居易《長恨歌》</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_YANGLI_QUOTE" Language="zh_Hant_HK">
+			<Text>「{LOC_CHANG_HEN_GE_YANG}[NEWLINE]{LOC_CHANG_HEN_GE}[NEWLINE]{LOC_CHANG_HEN_GE_LI}」[NEWLINE]——白居易《長恨歌》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HUAQUNG_POOL_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>華清池，是唐代華清宮內的溫泉浴池，以溫泉和風景秀麗著稱，更因唐玄宗和楊貴妃的愛情故事而著稱於世。[NEWLINE]相傳西周時期周幽王就曾在此建驪宮。秦始皇時以石築室，名為「驪山湯」。漢武帝時擴建為離宮。唐代又經唐太宗和唐玄宗時的兩次大肆擴建，唐玄宗天寶年間改名「華清宮」，這時的規模最為富麗堂皇，但經安史之亂後已遭毀壞。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_NAME" Language="zh_Hans_CN">
+			<Text>华清池</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1外交政策槽位。距离6单元格范围内的每个市中心获得+2 [ICON_AMENITIES] 满意度、+2 [ICON_Tourism] 旅游业绩和+3 [ICON_Culture] 文化值。[NEWLINE][NEWLINE]必须建在带有地热裂隙的平坦地形上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_YANG" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet]额外效果：在此城市的单元格中，你的单位能在一回合内完全回复生命值。（杨贵妃）</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_LI" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet]额外效果：从此城市出发的国际 [ICON_TradeRoute] 贸易路线 +2 [ICON_Gold] 金币和 +1 [ICON_Culture] 文化值。（唐玄宗李隆基）</Text>
+		</Replace>
+		<Replace Tag="LOC_CHANG_HEN_GE" Language="zh_Hans_CN">
+			<Text>回眸一笑百媚生，六宫粉黛无颜色。[NEWLINE]春寒赐浴华清池，温泉水滑洗凝脂。</Text>
+		</Replace>
+		<Replace Tag="LOC_CHANG_HEN_GE_YANG" Language="zh_Hans_CN">
+			<Text>汉皇重色思倾国，御宇多年求不得。[NEWLINE]杨家有女初长成，养在深闺人未识。[NEWLINE]天生丽质难自弃，一朝选在君王侧。</Text>
+		</Replace>
+		<Replace Tag="LOC_CHANG_HEN_GE_LI" Language="zh_Hans_CN">
+			<Text>侍儿扶起娇无力，始是新承恩泽时。[NEWLINE]云鬓花颜金步摇，芙蓉帐暖度春宵。[NEWLINE]春宵苦短日高起，从此君王不早朝。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_QUOTE" Language="zh_Hans_CN">
+			<Text>“{LOC_CHANG_HEN_GE}”[NEWLINE]——白居易《长恨歌》</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_YANG_QUOTE" Language="zh_Hans_CN">
+			<Text>“{LOC_CHANG_HEN_GE_YANG}[NEWLINE]{LOC_CHANG_HEN_GE}”[NEWLINE]——白居易《长恨歌》</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_LI_QUOTE" Language="zh_Hans_CN">
+			<Text>“{LOC_CHANG_HEN_GE}[NEWLINE]{LOC_CHANG_HEN_GE_LI}”[NEWLINE]——白居易《长恨歌》</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_YANGLI_QUOTE" Language="zh_Hans_CN">
+			<Text>“{LOC_CHANG_HEN_GE_YANG}[NEWLINE]{LOC_CHANG_HEN_GE}[NEWLINE]{LOC_CHANG_HEN_GE_LI}”[NEWLINE]——白居易《长恨歌》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HUAQUNG_POOL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>华清池，是唐代华清宫内的温泉浴池，以温泉和风景秀丽着称，更因唐玄宗和杨贵妃的爱情故事而着称于世。[NEWLINE]相传西周时期周幽王就曾在此建骊宫。秦始皇时以石筑室，名为“骊山汤”。汉武帝时扩建为离宫。唐代又经唐太宗和唐玄宗时的两次大肆扩建，唐玄宗天宝年间改名“华清宫”，这时的槼模最为富丽堂皇，但经安史之乱後已遭毁坏。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_NAME" Language="ja_JP">
+			<Text>華清池</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_DESCRIPTION" Language="ja_JP">
+			<Text>外交政策スロット+1。6タイル以内の各都心に [ICON_AMENITIES] 快適性+2、 [ICON_Tourism] 観光力+2と [ICON_Culture] 文化力+3。[NEWLINE][NEWLINE]地熱孔の上の平らな土地にのみ建設可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_YANG" Language="ja_JP">
+			<Text>[ICON_Bullet]ボーナス効果：この都市のタイルにいる君の全ユニットが、1ターンで完全回復する。（楊貴妃）</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_LI" Language="ja_JP">
+			<Text>[ICON_Bullet]ボーナス効果：この都市を起点とする国家間の [ICON_TradeRoute] 交易路の [ICON_Gold] ゴールド+2 と [ICON_Culture] 文化力+1（唐玄宗李隆基）</Text>
+		</Replace>
+		<Replace Tag="LOC_CHANG_HEN_GE" Language="ja_JP">
+			<Text>眸を迴らして一笑すれば百媚生じ，六宮の粉黛顔色無し。[NEWLINE]春寒うして浴を賜ふ華清の池，温泉水滑らかにして凝脂を洗ふ。</Text>
+		</Replace>
+		<Replace Tag="LOC_CHANG_HEN_GE_YANG" Language="ja_JP">
+			<Text>漢皇色を重んじて傾国を思ふ，御宇多年求むれども得ず。[NEWLINE]楊家に女有り初めて長成し養はれて深閨に在り人未だ識らず。[NEWLINE]天生の麗質自ら棄て難く，一朝選ばれて君王の側に在り。</Text>
+		</Replace>
+		<Replace Tag="LOC_CHANG_HEN_GE_LI" Language="ja_JP">
+			<Text>侍児扶け起こせば嬌として力無し，始めて是れ新たに恩沢を承くる時。[NEWLINE]雲鬢花顔金歩揺，芙蓉の帳暖かにして春宵を度る。[NEWLINE]春宵苦だ短く日高うして起く，此れ従り君王早朝せず。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_QUOTE" Language="ja_JP">
+			<Text>「{LOC_CHANG_HEN_GE}」[NEWLINE]— 白居易『長恨歌』より</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_YANG_QUOTE" Language="ja_JP">
+			<Text>「{LOC_CHANG_HEN_GE_YANG}[NEWLINE]{LOC_CHANG_HEN_GE}」[NEWLINE]— 白居易『長恨歌』より</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_LI_QUOTE" Language="ja_JP">
+			<Text>「{LOC_CHANG_HEN_GE}[NEWLINE]{LOC_CHANG_HEN_GE_LI}」[NEWLINE]— 白居易『長恨歌』より</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUAQUNG_POOL_YANGLI_QUOTE" Language="ja_JP">
+			<Text>「{LOC_CHANG_HEN_GE_YANG}[NEWLINE]{LOC_CHANG_HEN_GE}[NEWLINE]{LOC_CHANG_HEN_GE_LI}」[NEWLINE]— 白居易『長恨歌』より</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HUAQUNG_POOL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>華清池は、秦嶺山脈の三大峰の一つである、驪山麓の穏やかな気候と風光明媚な景色を特徴とする地域にある熱水泉の複合体。付近に華清宮があった。[NEWLINE]この温泉は局地的に発生している地中熱によって熱せられており、3000年もの長い歴史がある。周の幽王や、秦の始皇帝を含む様々な中国の王たちの宮殿がこの場所に建っていた。温泉には楊貴妃が浸かったという伝承がある。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

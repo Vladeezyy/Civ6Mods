@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		
+		<Row Tag="LOC_BUILDING_PHANTA_KIYOSU_CASTLE_NAME" Language="ru_RU">
+	<Text>Замок Кийосу</Text>
+</Row>
+<Row Tag="LOC_BUILDING_PHANTA_KIYOSU_CASTLE_DESCRIPTION" Language="ru_RU">
+	<Text>Даёт Шпиона и +1 к лимиту шпионов. Боевые подразделения в радиусе 6 клеток от дружественного шпиона получают +6 [ICON_Strength] боевой мощи при атаке на защиту районов. Обеспечивает такие же защитные бонусы, как и улучшение Форт. Должен быть построен рядом с Центром города.</Text>
+</Row>
+<Row Tag="LOC_BUILDING_PHANTA_KIYOSU_CASTLE_QUOTE" Language="ru_RU">
+	<Text>«Пятьдесят лет человеческой жизни, в сравнении с вечностью небес, — это лишь сны и иллюзии. Есть ли что-либо, что, будучи рождённым, не обречено исчезнуть?»[NEWLINE]– Ода Нобунага, цитируя «Ацумори»</Text>
+</Row>
+<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_KIYOSU_CASTLE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+	<Text>Замок Кийосу, расположенный в провинции Овари, Япония (ныне западная часть префектуры Айти), был построен в 1405 году как стратегический узел для контроля над дорогами Исе Кайдо и другими важными маршрутами. Во время периода Сэнгоку Ода Нобунага разгромил ветвь клана Ода, обосновавшуюся в Кийосу, в битве при Кийосу и захватил замок. Затем он заманил и убил Оду Нобуюки, своего младшего брата-мятежника, чтобы укрепить свою власть в провинции Овари, и использовал замок в качестве базы для достижения господства в Японии. Иронично, но после убийства Оды Нобунаги в инциденте Хонно-дзи его вассалы провели конференцию в замке Кийосу, чтобы решить, кто станет главой семьи Ода, и разделить территории, оставшиеся после его смерти.</Text>
+</Row>
+<Row Tag="LOC_ABILITY_PHANTA_KIYOSU_SPY_DESCRIPTION" Language="ru_RU">
+	<Text>Боевые подразделения в радиусе 6 клеток получают +6 [ICON_Strength] боевой мощи при атаке на защиту районов. (Замок Кийосу)</Text>
+</Row>
+<Row Tag="LOC_ABILITY_PHANTA_KIYOSU_GRANTED_DESCRIPTION" Language="ru_RU">
+	<Text>+6 [ICON_Strength] боевой мощи при атаке на защиту районов. (Замок Кийосу)</Text>
+</Row>
+<Row Tag="LOC_MODFEAT_PHANTA_KIYOSU_CASTLE_STRENGTH_DESCRIPTION" Language="ru_RU">
+	<Text>+{1_Amount} к атаке на защиту районов (Замок Кийосу)</Text>
+</Row>
+		
+		
+		<Row Tag="LOC_BUILDING_PHANTA_KIYOSU_CASTLE_NAME" Language="zh_Hant_HK">
+			<Text>清洲城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_KIYOSU_CASTLE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>獲得1個間諜和+1間諜容量。位於友方間諜6單元格內的軍事單位攻擊區域防禦時+6 [ICON_Strength] 戰鬥力。提供同堡壘改良設施一樣的防禦加成。必須建造在相鄰城市中心的單元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_KIYOSU_CASTLE_QUOTE" Language="zh_Hant_HK">
+			<Text>「人生五十年，與天地長久相較，如夢又似幻。一度得生者，豈有不滅者乎？」[NEWLINE]——織田信長，引用《敦盛》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_KIYOSU_CASTLE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>位於日本尾張國（今愛知縣西部）的清洲城建於1405年，是控制伊勢街道等要道的戰略據點。在日本戰國時代，織田信長在清洲之戰中擊敗清洲織田家並奪取清洲城，又在弟弟織田信行背叛失敗後將之誘殺於清洲城，鞏固他對尾張國的統治，並以此為根據地天下布武。諷刺的是，當織田信長在本能寺之變中被殺後，他的家臣在此舉行清洲會議，決定織田家當主人選——以及瓜分織田信長留下的領土。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_KIYOSU_SPY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>令6單元格內的軍事單位攻擊區域防禦時+6 [ICON_Strength] 戰鬥力。（清洲城）</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_KIYOSU_GRANTED_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>攻擊區域防禦時+6 [ICON_Strength] 戰鬥力。（清洲城）</Text>
+		</Row>
+		<Row Tag="LOC_MODFEAT_PHANTA_KIYOSU_CASTLE_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+6 攻擊區域防禦（清洲城）</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_KIYOSU_CASTLE_NAME" Language="zh_Hans_CN">
+			<Text>清洲城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_KIYOSU_CASTLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得1个间谍和+1间谍容量。位于友方间谍6单元格内的军事单位攻击区域防御时+6 [ICON_Strength] 战斗力。提供同堡垒改良设施一样的防御加成。必须建造在相邻城市中心的单元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_KIYOSU_CASTLE_QUOTE" Language="zh_Hans_CN">
+			<Text>人生五十年，与天地长久相较，如梦又似幻。一度得生者，岂有不灭者乎？[NEWLINE]——织田信长，引用《敦盛》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_KIYOSU_CASTLE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>位于日本尾张国（今爱知县西部）的清洲城建于1405年，是控制伊势街道等要道的战略据点。在日本战国时代，织田信长在清洲之战中击败清洲织田家并夺取清洲城，又在弟弟织田信行背叛失败后将之诱杀于清洲城，巩固他对尾张国的统治，并以此为根据地天下布武。讽刺的是，当织田信长在本能寺之变中被杀后，他的家臣在此举行清洲会议，决定织田家当主人选——以及瓜分织田信长留下的领土。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_KIYOSU_SPY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>令6单元格内的军事单位攻击区域防御时+6 [ICON_Strength] 战斗力。（清洲城）</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_KIYOSU_GRANTED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>攻击区域防御时+6 [ICON_Strength] 战斗力。（清洲城）</Text>
+		</Row>
+		<Row Tag="LOC_MODFEAT_PHANTA_KIYOSU_CASTLE_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+6 攻击区域防御（清洲城）</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_KIYOSU_CASTLE_NAME" Language="ja_JP">
+			<Text>清洲城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_KIYOSU_CASTLE_DESCRIPTION" Language="ja_JP">
+			<Text>スパイを1つ得る、スパイの最大数+1。友軍のスパイの6タイル以内の戦闘ユニット、区域攻囲時は [ICON_Strength] 戦闘力+6。要塞と同じ防御力ボーナスを得る。都心に隣接した土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_KIYOSU_CASTLE_QUOTE" Language="ja_JP">
+			<Text>「人間五十年、下天の内をくらぶれば、夢幻のごとくなり。一度生を得て、滅せぬ者のあるべきか。」[NEWLINE]– 織田信長、『敦盛』を引用</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_KIYOSU_CASTLE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>尾張国（現在の愛知県西部）にある清洲城は、伊勢街道などの交通の要衝として1405年に築城された。戦国時代、織田信長は清洲合戦で清洲織田家を破り清洲城を奪取し、裏切った弟の織田信行を清洲城で誘殺して尾張国の支配を固め、ここを拠点に天下に武を布く。皮肉なことに、本能寺の変で織田信長が殺された後、彼の家臣たちはここで清洲会議を開き、織田家の当主選出と、織田信長が残した領土の分割を決定した。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_KIYOSU_SPY_DESCRIPTION" Language="ja_JP">
+			<Text>6タイル以内の戦闘ユニット、区域攻囲時は [ICON_Strength] 戦闘力+6。（清洲城）</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_KIYOSU_GRANTED_DESCRIPTION" Language="ja_JP">
+			<Text>区域攻囲時は [ICON_Strength] 戦闘力+6。（清洲城）</Text>
+		</Row>
+		<Row Tag="LOC_MODFEAT_PHANTA_KIYOSU_CASTLE_STRENGTH_DESCRIPTION" Language="ja_JP">
+			<Text>+6 区域攻囲（清洲城）</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Core -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:36:54 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_HUAQUNG_POOL"			Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_HUAQUNG_POOL"	Name="LOC_BUILDING_HUAQUNG_POOL_NAME" Description="LOC_BUILDING_HUAQUNG_POOL_DESCRIPTION" PrereqCivic="CIVIC_NATURAL_HISTORY" Cost="1450" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_ATOMIC" Entertainment="2" RegionalRange="6" Housing="2" Quote="LOC_BUILDING_HUAQUNG_POOL_QUOTE"/>
+	</Buildings>
+	<Building_RequiredFeatures>
+		<Row BuildingType="BUILDING_HUAQUNG_POOL"	FeatureType="FEATURE_GEOTHERMAL_FISSURE"/>
+		<Row BuildingType="BUILDING_HUAQUNG_POOL"	FeatureType="FEATURE_VOLCANIC_SOIL"/>
+	</Building_RequiredFeatures>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_HUAQUNG_POOL"	TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_HUAQUNG_POOL"	TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_HUAQUNG_POOL"	TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_HUAQUNG_POOL"	TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_HUAQUNG_POOL"	TerrainType="TERRAIN_DESERT"/>
+	</Building_ValidTerrains>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_HUAQUNG_POOL"	YieldType="YIELD_CULTURE"	YieldChange="3"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_HUAQUNG_POOL"	GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="3"/>
+	</Building_GreatPersonPoints>
+</GameData>

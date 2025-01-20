@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Text -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:16 PM -->
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_BUILDING_KAREZ_NAME">
+			<Text>Турфанский Карез</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KAREZ_DESCRIPTION">
+			<Text>Обеспечивает этот город источником пресной воды. Жители могут работать на плитках с горными пустынями. Ваши строители теперь могут создавать улучшения Карез.[NEWLINE][NEWLINE]Должен быть построен на плитке с горной пустыней, которая не содержит вулкана.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KAREZ_QUOTE">
+			<Text>«По пути встречаются многие ямы в земле, известные как Карез, которые могут направлять воду, чтобы она текла горизонтально. С юга на север вода постепенно поднимается и течёт через отверстия в земле — это действительно невообразимый подвиг. Поля здесь богаты и плодородны, производя несчётное количество хлопка каждый год, и всё это благодаря орошению с помощью Карез.»[NEWLINE]- Линь Цзэсюй</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_KAREZ_CHAPTER_HISTORY_PARA_1">
+			<Text>Карез, или каньэрцзинь на китайском, считается одним из трёх крупных строительных проектов древнего Китая наряду с Великой Китайской стеной и Великим каналом.[NEWLINE] Карезы в основном распределены в районах Турфана, Хами и Хэлэй в Синьцзяне, причём Турфанский район считается местом с наибольшим количеством карезов (более 1000). Годовой объём воды, поступающей из карезов Турфана, составляет 29,4 миллиарда кубометров, орошая обширные сельскохозяйственные угодья региона в течение всего года. Связанные вместе, общая длина этих карезов превышает 5000 километров. Таким образом, карез также называют «подземным каналом».</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KAREZ_NAME">
+			<Text>Карез</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KAREZ_DESCRIPTION">
+			<Text>Уникальное улучшение Карез, обеспечивает этот город источником пресной воды. Предотвращает потерю [ICON_Food] еды во время засухи. Дополнительно даёт [ICON_Housing] жильё, [ICON_Food] еду, [ICON_Gold] золото и [ICON_Tourism] туризм с продвижением по технологическому и культурному дереву.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_KAREZ_CHAPTER_HISTORY_PARA_1">
+			<Text>{LOC_PEDIA_WONDERS_PAGE_BUILDING_KAREZ_CHAPTER_HISTORY_PARA_1}</Text>
+		</Replace>
+	</BaseGameText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_KAREZ_NAME" Language="zh_Hant_HK">
+			<Text>吐魯番坎兒井</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KAREZ_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>為城市提供淡水資源。公民可改良沙漠山脈單元格，解鎖坎兒井改良設施。[NEWLINE][NEWLINE]必須建在沙漠山脈單元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KAREZ_QUOTE" Language="zh_Hant_HK">
+			<Text>「沿途多土坑，詢其名曰卡井，能引水橫流者，由南而北，漸引漸高，水從土中穿穴而行，誠不可思議之事。此處田土膏腴，歲產木棉無算，皆卡井水利為之也。」[NEWLINE]——林則徐</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_KAREZ_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>據史料記載，新疆吐魯番坎兒井已有2000多年的歷史，鼎盛時期曾多達1700多條，是與萬里長城、京杭大運河齊名的古代三大工程。目前仍然是農業灌溉的重要水源。[NELWINE]史載漢代就有挖掘地下窖井的工程，稱之井渠法。吐魯番七克台鎮的60多道坎兒井多為清代林則徐興建的，人稱林公井。坎兒井由豎井、地下渠道、地面渠道和澇垻四部份組成。首先在地面由高至底打下豎井口，將地下水匯聚。然後，在井底修通暗渠，將地下水引到目的地，才把水引到地面。這樣保證了地下水不會因炎熱及狂風而被蒸發或污染。澇壩將水蓄起以供人使用。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KAREZ_NAME" Language="zh_Hant_HK">
+			<Text>坎兒井</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KAREZ_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>吐魯番坎兒井特色改良設施，為城市提供淡水資源。能在旱災時避免 [ICON_Food] 食物損失。隨著科技和市政樹上不斷取得進展，可額外獲得 [ICON_Housing] 住房、 [ICON_Food] 食物、 [ICON_Gold] 金幣和 [ICON_Tourism] 旅遊業績。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_KAREZ_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>{LOC_PEDIA_WONDERS_PAGE_BUILDING_KAREZ_CHAPTER_HISTORY_PARA_1}</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_KAREZ_NAME" Language="zh_Hans_CN">
+			<Text>吐鲁番坎儿井</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KAREZ_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为城市提供淡水资源。公民可改良沙漠山脉单元格，你的建造者现可建造坎儿井改良设施。[NEWLINE][NEWLINE]必须建在不包含火山的沙漠山脉單元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KAREZ_QUOTE" Language="zh_Hans_CN">
+			<Text>“沿途多土坑，询其名曰卡井，能引水横流者，由南而北，渐引渐高，水从土中穿穴而行，诚不可思议之事。此处田土膏腴，岁产木棉无算，皆卡井水利为之也。”[NEWLINE]——林则徐</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_KAREZ_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>据史料记载，新疆吐鲁番坎儿井已有2000多年的历史，鼎盛时期曾多达1700多条，是与万里长城、京杭大运河齐名的古代三大工程。当前仍然是农业灌溉的重要水源。[NELWINE]史载汉代就有挖掘地下窖井的工程，称之井渠法。吐鲁番七克台镇的60多道坎儿井多为清代林则徐兴建的，人称林公井。坎儿井由竖井、地下渠道、地面渠道和涝垻四部份组成。首先在地面由高至底打下竖井口，将地下水汇聚。然后，在井底修通暗渠，将地下水引到目的地，才把水引到地面。这样保证了地下水不会因炎热及狂风而被蒸发或污染。涝坝将水蓄起以供人使用。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KAREZ_NAME" Language="zh_Hans_CN">
+			<Text>坎儿井</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KAREZ_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>吐鲁番坎儿井特色改良设施，为城市提供淡水资源。能在旱灾时避免 [ICON_Food] 食物损失。随着科技和市政树上不断取得进展，可额外获得 [ICON_Housing] 住房、 [ICON_Food] 食物、 [ICON_Gold] 金币和 [ICON_Tourism] 旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_KAREZ_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_WONDERS_PAGE_BUILDING_KAREZ_CHAPTER_HISTORY_PARA_1}</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_KAREZ_NAME" Language="ja_JP">
+			<Text>トルファン・カレーズ</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KAREZ_DESCRIPTION" Language="ja_JP">
+			<Text>真水を都市にもたらす。市民が砂漠山岳タイルを利用できるようになる，労働者がカレーズを建設できるようになる。[NEWLINE][NEWLINE]火山が存在しない砂漠山岳タイルにのみ建設可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KAREZ_QUOTE" Language="ja_JP">
+			<Text>「道中には多くの穴があり、その名をカレズと言います。水を横に流すことができるもので、南から北へと徐々に高く引き上げられ、水は土の中を穿って流れます。これは本当に不思議なことです。ここの土地は肥沃で、年間に生産される木綿は数え切れません。すべてカレズの水利によるものです。」[NEWLINE]— 林則徐</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_KAREZ_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>トルファンは中国で最も暑い地方でもあり、一日の平均気温が35度を超える日が年間100日を越え、1975年７月31日には中国観測史上最高気温の 49.6度を記録した。この日の地表温度は83.3度にまで達している。こうしたことから、トルファンは古来、「火州」の名で呼ばれてきた。また、降水量 が年間16ミリと低いため、中国で最も乾燥した地域とも言われている。しかし、「火州」の地下には独特の水利施設、カレーズが張り巡らされており、広大な 農地は緑をたたえ、町は昔からシルクロードのオアシス都市として栄えてきた。トルファン盆地全体で1200以上の井戸があり、その地下水脈の延長距離は 5000キロ以上にも達している。これは長城、大運河と並ぶ、中国史に輝く偉大な土木事業の一つである。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KAREZ_NAME" Language="ja_JP">
+			<Text>カレーズ</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KAREZ_DESCRIPTION" Language="ja_JP">
+			<Text>トルファン・カレーズ固有施設，真水を都市にもたらす。干ばつ中に [ICON_Food] 食料が失われない。技術ツリーと社会制度ツリーの発展にともない、 [ICON_Housing] 住宅、 [ICON_Food] 食料、 [ICON_Gold] ゴールドと [ICON_Tourism] 観光力がさらに追加される。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_KAREZ_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>{LOC_PEDIA_WONDERS_PAGE_BUILDING_KAREZ_CHAPTER_HISTORY_PARA_1}</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

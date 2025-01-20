@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classical Era -->
+<!-- Author: Plati -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_RUDOLPH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_RUDOLPH" Name="LOC_GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_RUDOLPH_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_THEATER" ActionEffectTextOverride="LOC_GREATPERSON_PLATI_RUDOLPH_ACTIVE"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_RUDOLPH" ModifierId="GREATPERSON_BONUS_RUDOLPH" 		AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PLATI_ENTERTAINER_RUDOLPH" ModifierId="GREATPERSON_BONUS_RUDOLPH_FAITH" 	AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RUDOLPH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_YIELD_PER_GREAT_WORK</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RUDOLPH_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_CITIZEN</ModifierType>
+			<SubjectRequirementSetId>PLATI_RUDOLPH_CITY_HAS_DISTRICT_THEATRE</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RUDOLPH</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RUDOLPH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RUDOLPH</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_BONUS_RUDOLPH_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_BONUS_RUDOLPH" Context="Summary" Text="LOC_GREATPERSON_PLATI_RUDOLPH_ACTIVE"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLATI_RUDOLPH_CITY_HAS_DISTRICT_THEATRE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLATI_RUDOLPH_CITY_HAS_DISTRICT_THEATRE</RequirementSetId>
+			<RequirementId>PLATI_RUDOLPH_REQUIRES_THEATRE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLATI_RUDOLPH_CITY_HAS_DISTRICT_THEATRE</RequirementSetId>
+			<RequirementId>PLATI_RUDOLPH_REQUIRES_ENTERTAINMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>PLATI_RUDOLPH_REQUIRES_THEATRE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_RUDOLPH_REQUIRES_ENTERTAINMENT</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>PLATI_RUDOLPH_REQUIRES_THEATRE</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLATI_RUDOLPH_REQUIRES_ENTERTAINMENT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

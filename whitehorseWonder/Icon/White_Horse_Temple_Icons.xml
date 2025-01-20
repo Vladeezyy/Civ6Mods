@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- White_Horse_Temple_Icons -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 6/5/2024 12:22:45 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_WONDER_WHITE_HORSE_TEMPLE" IconSize="32" Filename="ICON_BUILDING_WHITE_HORSE_TEMPLE_32"/>
+		<Row Name="ICON_ATLAS_WONDER_WHITE_HORSE_TEMPLE" IconSize="38" Filename="ICON_BUILDING_WHITE_HORSE_TEMPLE_38"/>
+		<Row Name="ICON_ATLAS_WONDER_WHITE_HORSE_TEMPLE" IconSize="50" Filename="ICON_BUILDING_WHITE_HORSE_TEMPLE_50"/>
+		<Row Name="ICON_ATLAS_WONDER_WHITE_HORSE_TEMPLE" IconSize="80" Filename="ICON_BUILDING_WHITE_HORSE_TEMPLE_80"/>
+		<Row Name="ICON_ATLAS_WONDER_WHITE_HORSE_TEMPLE" IconSize="128" Filename="ICON_BUILDING_WHITE_HORSE_TEMPLE_128"/>
+		<Row Name="ICON_ATLAS_WONDER_WHITE_HORSE_TEMPLE" IconSize="256" Filename="ICON_BUILDING_WHITE_HORSE_TEMPLE_256"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_WHITE_HORSE_TEMPLE" Atlas="ICON_ATLAS_WONDER_WHITE_HORSE_TEMPLE" Index="0"/>
+		<!--<Row Name="ICON_BUILDING_WHITE_HORSE_TEMPLE"   Atlas="ICON_ATLAS_WONDERS" Index="25"/>-->
+
+	</IconDefinitions>
+</GameData>

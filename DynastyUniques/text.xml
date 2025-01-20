@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_NAME" Language="ru_RU">
+	<Text>Дворец Вэйян</Text>
+</Row>
+<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_DESCRIPTION" Language="ru_RU">
+	<Text>Получает способность лидера от ваших объявленных друзей. +5% очков влияния и очков [ICON_GreatMerchant] великого купца за ход за каждое данническое город-государство и каждую оригинальную [ICON_Capital] столицу под вашим контролем. Должен быть построен на холмах рядом с центром города.</Text>
+</Row>
+<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_DESCRIPTION_DYNASTY_UNIQUES" Language="ru_RU">
+	<Text>+10% очков влияния и очков [ICON_GreatMerchant] великого купца за ход за каждое данническое город-государство и каждую оригинальную [ICON_Capital] столицу под вашим контролем. Должен быть построен на холмах рядом с центром города.</Text>
+</Row>
+<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_QUOTE" Language="ru_RU">
+	<Text>«Ароматные ветра приносят священные слова от жителей Небес,[NEWLINE]Цветной феникс-фэнхуан предвещает пять облаков Императору Хань.»[NEWLINE]- Лю Цан, Любование дворцом Вэйян</Text>
+</Row>
+<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAN_SUWU_NAME" Language="ru_RU">
+	<Text>Су У</Text>
+</Row>
+<Row Tag="LOC_GREATPERSON_HAN_SUWU_ACTIVE" Language="ru_RU">
+	<Text>Получите 2 [ICON_Envoy] посланника.</Text>
+</Row>
+<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_NAME" Language="ru_RU">
+	<Text>Гань Ин</Text>
+</Row>
+<Row Tag="LOC_GREATPERSON_HAN_GANYING_ACTIVE" Language="ru_RU">
+	<Text>+7 к дипломатическим отношениям с другими цивилизациями.</Text>
+</Row>
+<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAN_FUJIEZI_NAME" Language="ru_RU">
+	<Text>Фу Цзецзы</Text>
+</Row>
+<Row Tag="LOC_GREATPERSON_HAN_FUJIEZI_ACTIVE" Language="ru_RU">
+	<Text>Дает достаточно [ICON_ENVOY] посланников, чтобы стать сюзереном этого город-государства. Затем удаляет всех посланников других игроков.</Text>
+</Row>
+<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION" Language="ru_RU">
+	<Text>Дипломатическая миссия Гань Ина</Text>
+</Row>
+<Row Tag="LOC_DIPLO_KUDO_AGENDA_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION" Language="ru_RU">
+	<Text>Дипломатическая миссия Гань Ина</Text>
+</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_FORBIDDEN_CITY_HAN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+	<Text>Дворец Вэйян был дворцом и административным центром династии Хань. Это был один из крупнейших дворцовых комплексов в истории, занимавший площадь около 5 квадратных километров (для сравнения, самый крупный сохранившийся дворцовый комплекс — Запретный город — занимает около 0,72 квадратных километра). Построенный под руководством Сяо Хэ, первого имперского канцлера династии Хань, дворец Вэйян стал свидетелем политической жизни Западной Хань и становления Великого шелкового пути. Дворец неоднократно разрушался и восстанавливался в разные эпохи, пока окончательно не пришел в упадок в поздний период династии Тан.</Text>
+</Row>
+<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAN_SUWU_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+	<Text>Су У был эмиссаром династии Хань, но его слава связана не с успехом его миссии, а с её провалом, при котором он остался верен своей родине. Родившись в 140 году до н.э., он был отправлен императором У на миссию к сюнну. Однако Чаньюй сюнну задержал Су У и потребовал, чтобы тот перешёл на их сторону. Несмотря на угрозы, Су У был сослан к Северному морю (озеро Байкал в Сибири), где он выживал, питаясь талой водой и пас овец. В конце концов Су У вернулся в Хань во времена правления императора Чжао. Су У умер в 60 году до н.э. и был назван одним из Одиннадцати Заслуженных Министров Павильона Цилинь.</Text>
+</Row>
+<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+	<Text>Гань Ин был эмиссаром Восточной династии Хань и первым китайцем, достигшим Персидского залива, согласно историческим записям. Он был отправлен в Великую Цинь (Рим) по приказу Бань Чао, дудуху (протектора) Западных регионов. Он возглавил миссию от Куча до западной границы Парфянского царства. Хотя Гань Ин так и не добрался до своей конечной цели — Рима, записи о народных обычаях, сделанные им в пути, обогатили представление династии Хань о Центральной Азии того времени и стали важной страницей в истории обменов между Китаем и Западом.</Text>
+</Row>
+<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAN_FUJIEZI_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+	<Text>Фу Цзецзы был эмиссаром династии Хань, который решил проблему нестандартным дипломатическим способом. В то время Лоулань и Куча вели себя непредсказуемо и неоднократно убивали послов и чиновников Хань. Фу Цзецзы был отправлен с императорским указом для упрёков в адрес королей Лоуланя и Гуцзы. Позже он решил раз и навсегда устранить проблему Лоуланя: с помощью сокровищ он заманил царя Лоуланя поближе и затем убил его, потряс Западный регион своей решимостью и был удостоен титула маркграфа за свои заслуги.</Text>
+</Row>
+
+
+		<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_NAME" Language="zh_Hans_CN">
+			<Text>未央宫</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从与你宣布友好的文明获得其领袖能力。每有一座下辖城邦和控制下的原有 [ICON_Capital] 首都，则每回合+5%影响力和 [ICON_GreatMerchant] 大商人点数。必须建造在相邻市中心的丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_DESCRIPTION_DYNASTY_UNIQUES" Language="zh_Hans_CN">
+			<Text>每有一座下辖城邦和控制下的原有 [ICON_Capital] 首都，则每回合+10%影响力和 [ICON_GreatMerchant] 大商人点数。必须建造在相邻市中心的丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_QUOTE" Language="zh_Hans_CN">
+			<Text>香风吹落天人语，彩凤五云朝汉皇。[NEWLINE]——刘沧，《望未央宫》</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAN_SUWU_NAME" Language="zh_Hans_CN">
+			<Text>苏武</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_HAN_SUWU_ACTIVE" Language="zh_Hans_CN">
+			<Text>获得2位 [ICON_Envoy] 使者。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_NAME" Language="zh_Hans_CN">
+			<Text>甘英</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_HAN_GANYING_ACTIVE" Language="zh_Hans_CN">
+			<Text>与所有文明+7外交关系。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAN_FUJIEZI_NAME" Language="zh_Hans_CN">
+			<Text>傅介子</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_HAN_FUJIEZI_ACTIVE" Language="zh_Hans_CN">
+			<Text>提供足够数量的 [ICON_Envoy] 使者，成为此城邦的宗主国。并移除所有其他玩家的 [ICON_Envoy] 使者。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION" Language="zh_Hans_CN">
+			<Text>甘英出使</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_AGENDA_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION" Language="zh_Hans_CN">
+			<Text>甘英出使</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_FORBIDDEN_CITY_HAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>未央宫是汉朝的宫殿与行政中心，也是历史上最大的宫殿建筑群之一，占地约5平方公里（现存最大的宫殿建筑群是紫禁城，占地约0.72平方公里）。未央宫由汉朝第一个丞相萧何主持修造，见证了西汉的宫廷政治和丝绸之路的开辟。未央宫在朝代的迭起兴衰中屡次被破坏和重建，最终在晚唐时期归于荒废。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAN_SUWU_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>苏武是汉朝使者，但他并非因出使成功而闻名，而是因出使失败却不屈强权而留名青史。他生于公元前140年，后来受汉武帝派遣出使匈奴。然而，匈奴单于却扣留苏武，要求他投降匈奴。苏武不屈于匈奴单于的威胁，被流放到北海（西伯利亚的贝加尔湖），以雪水和牧羊为生。最终苏武在汉昭帝统治时期回归汉地。苏武在公元前60年去世，被封为麒麟阁十一功臣之一。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>甘英是东汉时期的使者是史书所载第一个到达波斯湾的中国人。他奉西域都护班超之命出使大秦（罗马）。他率领使团一行从龟兹出发，一路到达了安息帝国西界的海岸。尽管他最终未能到达目的地罗马，他一路记载的民俗风情丰富了当时汉朝对中亚的认识，是中西方交流历史中具有重要意义的一页。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAN_FUJIEZI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>傅介子是汉朝使者，却并非以常规的外交方式解决问题。当时，楼兰和龟兹反复无常，屡次杀死汉朝的使者和官员。傅介子曾奉命带着诏书责备楼兰和龟兹国王。后来，傅介子决定一劳永逸解决楼兰的问题——他以金银财宝为诱饵，引诱楼兰王接近后刺杀，威震西域，以功封侯。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_NAME" Language="zh_Hant_HK">
+			<Text>未央宮</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>從與你宣布友好的文明獲得其領袖能力。每有一座下轄城邦和控制下的原有 [ICON_Capital] 首都，則每回合+5%影響力和 [ICON_GreatMerchant] 大商人點數。必須建造在相鄰城市中心的丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_DESCRIPTION_DYNASTY_UNIQUES" Language="zh_Hant_HK">
+			<Text>每有一座下轄城邦和控制下的原有 [ICON_Capital] 首都，則每回合+10%影響力和 [ICON_GreatMerchant] 大商人點數。必須建造在相鄰城市中心的丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_QUOTE" Language="zh_Hant_HK">
+			<Text>「香風吹落天人語，彩鳳五雲朝漢皇。」[NEWLINE]——劉滄，《望未央宮》</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAN_SUWU_NAME" Language="zh_Hant_HK">
+			<Text>蘇武</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_HAN_SUWU_ACTIVE" Language="zh_Hant_HK">
+			<Text>獲得2位 [ICON_Envoy] 使者。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_NAME" Language="zh_Hant_HK">
+			<Text>甘英</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_HAN_GANYING_ACTIVE" Language="zh_Hant_HK">
+			<Text>與所有文明+7外交關系。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAN_FUJIEZI_NAME" Language="zh_Hant_HK">
+			<Text>傅介子</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_HAN_FUJIEZI_ACTIVE" Language="zh_Hant_HK">
+			<Text>提供足夠數量的 [ICON_Envoy] 使者，成為此城邦的宗主國。並移除所有其他玩家的 [ICON_Envoy] 使者。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION" Language="zh_Hant_HK">
+			<Text>甘英出使</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_AGENDA_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION" Language="zh_Hant_HK">
+			<Text>甘英出使</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_FORBIDDEN_CITY_HAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>未央宮是漢朝的宮殿與行政中心，也是歷史上最大的宮殿建築群之一，佔地約5平方公里（現存最大的宮殿建築群是紫禁城，佔地約0.72平方公里）。未央宮由漢朝第一個丞相蕭何主持修造，見證了西漢的宮廷政治和絲綢之路的開辟。未央宮在朝代的迭起興衰中屢次被破壞和重建，最終在晚唐時期歸於荒廢。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAN_SUWU_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>蘇武是漢朝使者，但他並非因出使成功而聞名，而是因出使失敗卻不屈強權而留名青史。他生於公元前140年，後來受漢武帝派遣出使匈奴。然而，匈奴單於卻扣留蘇武，要求他投降匈奴。蘇武不屈於匈奴單於的威脅，被流放到北海（西伯利亞的貝加爾湖），以雪水和牧羊為生。最終蘇武在漢昭帝統治時期回歸漢地。蘇武在公元前60年去世，被封為麒麟閣十一功臣之一。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>甘英是東漢時期的使者是史書所載第一個到達波斯灣的中國人。他奉西域都護班超之命出使大秦（羅馬）。他率領使團一行從龜茲出發，一路到達了安息帝國西界的海岸。盡管他最終未能到達目的地羅馬，他一路記載的民俗風情豐富了當時漢朝對中亞的認識，是中西方交流歷史中具有重要意義的一頁。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAN_FUJIEZI_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>傅介子是漢朝使者，卻並非以常規的外交方式解決問題。當時，樓蘭和龜茲反覆無常，屢次殺死漢朝的使者和官員。傅介子曾奉命帶著詔書責備樓蘭和龜茲國王。後來，傅介子決定一勞永逸解決樓蘭的問題——他以金銀財寶為誘餌，引誘樓蘭王接近後刺殺，威震西域，以功封侯。</Text>
+		</Row>
+		
+		<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_NAME" Language="ja_JP">
+			<Text>未央宮</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_DESCRIPTION" Language="ja_JP">
+			<Text>友好を宣言している指導者から指導者能力を得る。属国としている都市国家とあなたの支配下にある最初の [ICON_Capital] 首都1つにつき、影響力ポイントと [ICON_GreatMerchant] 大商人ポイント+5%。都心に隣接する丘陵にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_DESCRIPTION_DYNASTY_UNIQUES" Language="ja_JP">
+			<Text>属国としている都市国家とあなたの支配下にある最初の [ICON_Capital] 首都1つにつき、影響力ポイントと [ICON_GreatMerchant] 大商人ポイント+10%。都心に隣接する丘陵にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FORBIDDEN_CITY_HAN_QUOTE" Language="ja_JP">
+			<Text>「香ばしい風が天人の語ることばを吹き下ろし、[NEWLINE]色とりどりの鳳と五つの雲が漢皇に拝謁する。」[NEWLINE]- 劉滄、『望未央宮』</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAN_SUWU_NAME" Language="ja_JP">
+			<Text>蘇武</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_HAN_SUWU_ACTIVE" Language="ja_JP">
+			<Text>[ICON_Envoy] 代表団を2つ得る。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_NAME" Language="ja_JP">
+			<Text>甘英</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_HAN_GANYING_ACTIVE" Language="ja_JP">
+			<Text>他の文明との外交関係+7</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAN_FUJIEZI_NAME" Language="ja_JP">
+			<Text>傅介子</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_HAN_FUJIEZI_ACTIVE" Language="ja_JP">
+			<Text>この都市国家の宗主国になるのに十分な [ICON_ENVOY] 代表団が得られる。他のプレイヤーの [ICON_ENVOY] 代表団はすべて取り除かれる。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION" Language="ja_JP">
+			<Text>甘英の遠出</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_AGENDA_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_ACTION" Language="ja_JP">
+			<Text>甘英の遠出</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_FORBIDDEN_CITY_HAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>未央宮は漢王朝の宮殿と行政の中心地であり、面積は約5平方キロメートルに及ぶ史上最大級の宮殿群である（現存する最大の宮殿群は紫禁城で、面積は約0.72平方キロメートル）。漢王朝の初代丞相である蕭何の主導で建てられた未央宮は、前漢の宮廷政治とシルクロードの開通を見届けた。その後、王朝の栄枯盛衰の中で破壊と再建が繰り返され、唐代末期には廃墟と化した。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAN_SUWU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>蘇武は漢王朝の使者であったが、彼が有名なのは任務を成功させたからではなく、任務が失敗した後、権力者に屈しなかったからである。彼は紀元前140年に生まれ、後に漢の武帝から匈奴への使節団として派遣された。しかし、匈奴の單于は蘇武を拘束し、匈奴への降伏を要求した。その脅しにもめげず、蘇武は北海（シベリアのバイカル湖）に流刑され、雪水と羊の牧畜で暮らした。やがて蘇武は漢の昭帝の時代に漢に戻った。蘇武は紀元前60年に亡くなり、麒麟閣十一功臣の一人に選ばれた。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAN_GANYING_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>甘英は東漢の使者であり、歴史上初めてペルシャ湾に到達した中国人である。彼は西域総督班超の命令で大秦（ローマ）に派遣された。彼は亀茲からパルティア帝国の西の国境の海岸まで使節団を率いた。最終目的地のローマには到達しなかったが、彼が道中で記録した風俗習慣は、当時の漢王朝の中央アジアに対する理解を深めるものであり、中西交流史の重要な1ページとなっている。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAN_FUJIEZI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>傅介子は漢王朝の使者であったが、従来の外交方法では問題を解決しなかった。 当時、楼蘭と亀茲は横暴で、漢王朝の使者や官吏を何度も殺害していた。傅介子は詔書を持って楼蘭と亀茲の王を非難するように命じられた。その後、傅介子は楼蘭の問題を一挙に解決することを決意し、金銀財宝を囮にして楼蘭の王をおびき寄せ暗殺し、その力で西域を震撼させ、その功績を称えて侯爵の称号を与えた。</Text>
+		</Row>
+		
+	</LocalizedText>
+</GameData>

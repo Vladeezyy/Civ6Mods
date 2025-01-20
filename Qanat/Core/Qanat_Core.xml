@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Core -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:36:54 PM -->
+<GameData>
+	<Types>
+		<Replace Type="BUILDING_KAREZ"					Kind="KIND_BUILDING"/>
+		<Replace Type="IMPROVEMENT_KAREZ"				Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	
+	<Buildings>
+		<Replace BuildingType="BUILDING_KAREZ"			Name="LOC_BUILDING_KAREZ_NAME" Description="LOC_BUILDING_KAREZ_DESCRIPTION" PrereqTech="TECH_ENGINEERING" Cost="400" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Housing="3" Entertainment="1" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_KAREZ_QUOTE"/>
+	</Buildings>
+	<Building_ValidTerrains>
+		<Replace BuildingType="BUILDING_KAREZ"			TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+	</Building_ValidTerrains>
+	<Building_YieldChanges>
+		<Replace BuildingType="BUILDING_KAREZ"			YieldType="YIELD_FOOD" YieldChange="5"/>
+		<Replace BuildingType="BUILDING_KAREZ"			YieldType="YIELD_GOLD" YieldChange="3"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Replace BuildingType="BUILDING_KAREZ"			GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	
+	<Improvements>
+		<Replace ImprovementType="IMPROVEMENT_KAREZ"	Name="LOC_IMPROVEMENT_KAREZ_NAME" Description="LOC_IMPROVEMENT_KAREZ_DESCRIPTION" Icon="ICON_IMPROVEMENT_KAREZ" PlunderType="NO_PLUNDER" Buildable="true" PrereqTech="TECH_ENGINEERING" Housing="1" TraitType="TRAIT_CIVILIZATION_NO_PLAYER"/>
+	</Improvements>
+	<Improvement_ValidTerrains>
+		<Replace ImprovementType="IMPROVEMENT_KAREZ"	TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+	</Improvement_ValidTerrains>
+	<Improvement_YieldChanges>
+		<Replace ImprovementType="IMPROVEMENT_KAREZ"	YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Replace ImprovementType="IMPROVEMENT_KAREZ"	YieldType="YIELD_GOLD" YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<Improvements_XP2>
+		<Replace ImprovementType="IMPROVEMENT_KAREZ"	BuildOnAdjacentPlot="true" DisasterResistant="true" PreventsDrought="true"/>
+	</Improvements_XP2>
+	<Improvement_ValidBuildUnits>
+		<Replace ImprovementType="IMPROVEMENT_KAREZ"	UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_BonusYieldChanges>
+		<Replace ID="9981" ImprovementType="IMPROVEMENT_KAREZ"	YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
+		<Replace ID="9982" ImprovementType="IMPROVEMENT_KAREZ"	YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqTech="TECH_SCIENTIFIC_THEORY"/>
+		<Replace ID="9983" ImprovementType="IMPROVEMENT_KAREZ"	YieldType="YIELD_GOLD" BonusYieldChange="2" PrereqCivic="CIVIC_GLOBALIZATION"/>
+	</Improvement_BonusYieldChanges>
+	<Improvement_Tourism>
+		<Replace ImprovementType="IMPROVEMENT_KAREZ"	TourismSource="TOURISMSOURCE_FOOD" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<Adjacency_YieldChanges>
+		<Replace ID="Karez_Food"	Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_KAREZ"/>
+		<Replace ID="Karez_FoodEX"	Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_KAREZ"/>
+	</Adjacency_YieldChanges>
+</GameData>

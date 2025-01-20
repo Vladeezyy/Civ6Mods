@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatEntertainers -->
+<!-- Author: Plati -->
+<GameData>
+	<District_GreatPersonPoints>
+		<!-- Districts -->
+		<Row DistrictType="MIK_DISTRICT_BULLRING" 		GreatPersonClassType="GREAT_PERSON_CLASS_GreatEntertainers" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+</GameData>
