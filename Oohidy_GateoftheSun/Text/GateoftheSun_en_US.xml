@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- en_US -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 2/12/2024 7:50:05 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_OPH_GATE_OF_THE_SUN_NAME" Language="en_US">
+			<Text>Gate of the Sun</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_GATE_OF_THE_SUN_DESC" Language="en_US">
+			<Text>Can use Dark Age policy cards during a [ICON_GLORY_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Must be built on Hills adjacent to  [ICON_RESOURCE_STONE] Stone.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_GATE_OF_THE_SUN_QUOTE" Language="en_US">
+			<Text>"The bas-reliefs are covered with engraved drawings that cannot be considered as lines drawn at random. It can be affirmed that they have a meaning, less symbolic perhaps than ideographic ones."[NEWLINE]- Charles Wiener</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_GATE_OF_THE_SUN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The megalithic gateway of the ancient Tiahuanaco culture was located in the Bolivian highlands. It may have been the doorway of a huge temple with bas-relief carvings, named after the image of the Sun God carved on the lintel. The frieze is carved with a carpet pattern, and in the center there is an image of the god holding a scepter in one hand, standing in front of him, wearing a garment decorated with heads of captives in war, with radiating lines around his head, with animal heads at the top of the lines, and the ends of the scepter adorned with the eagle, the symbol of the sun in the Americas, which makes there is no doubt that this is the god of the sun. On each side, there are three rows of mysterious animals wearing cone-shaped flower crowns and holding scepters, kneeling and facing the god in the center. The top and bottom of the arrangement of human heads, wide open eyes, some hand holding a condor, toward the sun god. The mysterious color and complex allegorical nature of the reliefs on the Sun Gate, reflecting the understanding of the people at that time on the phenomena of the universe, which contains the esoteric calendar counting system.</Text>
+		</Row>
+		
+		<Row Tag="MOD_OPH_GATEOFTHESUN_NAME" Language="en_US">
+			<Text>Gate of the Sun (World Wonder)</Text>
+		</Row>
+		<Row Tag="MOD_OPH_GATEOFTHESUN_DESC" Language="en_US">
+			<Text>Adds Gate of the Sun as a World Wonder.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

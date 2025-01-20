@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- wonder -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 12/9/2023 10:06:40 AM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_JD_BERLIN_WALL" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_JD_BERLIN_WALL" Name="LOC_BUILDING_JD_BERLIN_WALL_NAME" Description="LOC_BUILDING_JD_BERLIN_WALL_DESCRIPTION"
+			 PrereqCivic="CIVIC_COLD_WAR" Cost="1620" AdvisorType="ADVISOR_TECHNOLOGY"  MaxWorldInstances="1" IsWonder="true" 
+			 RequiresPlacement="true" Quote="LOC_BUILDING_JD_BERLIN_WALL_QUOTE" QuoteAudio=""/>
+	</Buildings>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_JD_BERLIN_WALL" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_JD_BERLIN_WALL" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_JD_BERLIN_WALL" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_JD_BERLIN_WALL" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_JD_BERLIN_WALL" TerrainType="TERRAIN_DESERT"/>
+	</Building_ValidTerrains>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_JD_BERLIN_WALL" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="3"/>
+	</Building_GreatWorks>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_JD_BERLIN_WALL" YieldType="YIELD_CULTURE" YieldChange="3"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_JD_BERLIN_WALL" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="3"/>
+	</Building_GreatPersonPoints>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_JD_BERLIN_WALL</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JD_BERLIN_WALL</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_A</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JD_BERLIN_WALL</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_B</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JD_BERLIN_WALL</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_C</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JD_BERLIN_WALL</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_D</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JD_BERLIN_WALL</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_E</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_A</ModifierId>
+			<ModifierType>MODIFIER_JD_BERLIN_WALL_ADJUST_ROCK_BAND_UNIT_ALBUM_SALES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_B</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_JD_BERLIN_WALL_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+			<SubjectRequirementSetId>JD_BERLIN_WALL_UNIT_ROCK_BAND</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_C</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_BLOCK_UNIT_ENTRY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_D</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_BLOCK_UNIT_ENTRY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_E</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_BLOCK_UNIT_ENTRY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_ROCK_BAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_A</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_B</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_B</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_C</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_ROCK_BAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_D</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MISSIONARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BERLIN_WALL_E</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_APOSTLE</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- *************** Custom ModifierType *************** -->
+	<Types>
+		<Row Type="MODIFIER_PLAYER_JD_BERLIN_WALL_UNIT_ADJUST_IGNORE_TERRAIN_COST" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_JD_BERLIN_WALL_ADJUST_ROCK_BAND_UNIT_ALBUM_SALES" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_JD_BERLIN_WALL_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_UNITS</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_IGNORE_TERRAIN_COST</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_JD_BERLIN_WALL_ADJUST_ROCK_BAND_UNIT_ALBUM_SALES</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_PLAYER_ROCK_BAND_UNIT_ALBUM_SALES</EffectType>
+		</Row>
+	</DynamicModifiers>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>JD_BERLIN_WALL_UNIT_ROCK_BAND</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>JD_BERLIN_WALL_UNIT_ROCK_BAND</RequirementSetId>
+			<RequirementId>REQ_JD_BERLIN_WALL_UNIT_ROCK_BAND</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_JD_BERLIN_WALL_UNIT_ROCK_BAND</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_JD_BERLIN_WALL_UNIT_ROCK_BAND</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_ROCK_BAND</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

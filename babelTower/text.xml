@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- text -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 2/19/2024 10:20:16 AM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_JD_BABEL_NAME" Language="ru_RU">
+			<Text>Вавилонская башня</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_BABEL_DESCRIPTION" Language="ru_RU">
+			<Text>+1 уровень [ICON_VisLimited] дипломатической видимости. Все юниты получают +1 радиус обзора. Должна быть построена на пойменной равнине.</Text>
+		</Row>
+		<Row Tag="LOC_VIZSOURCE_ACTION_BUILDING_JD_BABEL" Language="ru_RU">
+			<Text>Постройте Вавилонскую башню</Text>
+		</Row>
+		<Row Tag="LOC_GOSSIP_SOURCE_TRAIT_BUILDING_JD_BABEL_NAME" Language="ru_RU">
+			<Text>Из Вавилонской башни ваш пророк {1_Name} увидел, что</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JD_BABEL_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>История Вавилонской башни изложена в Бытие 11:1-9. В этой истории люди, говорившие на одном языке, после Великого потопа отправились в землю Сеннаар, чтобы построить башню, достигающую небес. Господь, увидев их намерения, смешал их языки, так что они перестали понимать друг друга, и рассеял их по всему миру. Истории о "богах, разрушающих башни" и "смешении языков" также существуют в других культурах Ближнего Востока, и некоторые современные учёные считают, что Вавилонская башня могла быть вдохновлена Вавилонским храмом Этеменанки (название "Этеменанки" переводится как "основа небес и земли").</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_BUILDING_JD_BABEL_NAME" Language="zh_Hans_CN">
+			<Text>巴别塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_BABEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_VisLimited] 外交能见度+1级，所有单位+1视野。必须建在泛滥平原上。</Text>
+		</Row>
+		<Row Tag="LOC_VIZSOURCE_ACTION_BUILDING_JD_BABEL" Language="zh_Hans_CN">
+			<Text>建造巴别塔</Text>
+		</Row>
+		<Row Tag="LOC_GOSSIP_SOURCE_TRAIT_BUILDING_JD_BABEL_NAME" Language="zh_Hans_CN">
+			<Text>您的先知，{1_Name}，从巴别塔望见</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JD_BABEL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>《创世纪》第11章第1-9节记载了巴别塔的故事。在这个故事中，只说同一种语言的人们在大洪水后到了示拿之地建造高耸入云的巴别塔，上帝见此情形就把他们的语言打乱，让他们再也不能明白对方的意思，并把他们分散到了世界各地。在中东地区的其他文化也存在“神明毁灭高塔”和“打乱语言”的故事，而现代学者则认为巴别塔的原型可能是巴比伦的埃特曼安吉神庙（“埃特曼安吉”的意思就是“天地的基石”）。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_JD_BABEL_NAME" Language="zh_Hant_HK">
+			<Text>巴別塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_BABEL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[ICON_VisLimited] 外交能見度+1級，所有單位+1視野。必須建在泛濫平原上。</Text>
+		</Row>
+		<Row Tag="LOC_VIZSOURCE_ACTION_BUILDING_JD_BABEL" Language="zh_Hant_HK">
+			<Text>建造巴別塔</Text>
+		</Row>
+		<Row Tag="LOC_GOSSIP_SOURCE_TRAIT_BUILDING_JD_BABEL_NAME" Language="zh_Hant_HK">
+			<Text>您的先知，{1_Name}，從巴別塔望見</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JD_BABEL_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>《創世紀》第11章第1-9節記載了巴別塔的故事。在這個故事中，只說同一種語言的人們在大洪水後到了示拿之地建造高聳入雲的巴別塔，上帝見此情形就把他們的語言打亂，讓他們再也不能明白對方的意思，並把他們分散到了世界各地。在中東地區的其他文化也存在「神明毀滅高塔」和「打亂語言」的故事，而現代學者則認為巴別塔的原型可能是巴比倫的埃特曼安吉神廟（「埃特曼安吉」的意思就是「天地的基石」）。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_JD_BABEL_NAME" Language="ja_JP">
+			<Text>バベルの塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_BABEL_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_VisLimited]外交的視野のレベル+1。すべてのユニットの視界+1。氾濫原タイルにのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_VIZSOURCE_ACTION_BUILDING_JD_BABEL" Language="ja_JP">
+			<Text>バベルの塔を建設する</Text>
+		</Row>
+		<Row Tag="LOC_GOSSIP_SOURCE_TRAIT_BUILDING_JD_BABEL_NAME" Language="ja_JP">
+			<Text>バベルの塔から、あなたの預言者 {1_Name} は見た、</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JD_BABEL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>バベルの塔の物語は創世記11:1-9に語られている。この物語では、大洪水の後、一つの言語しか話さない人々がシナールの地に行き、天まで届くバベルの塔を築いた。彼らの行為を見た主は、彼らの言語を混乱させ、世界中に散らばった彼らがもはや互いを理解できないようにされた。「神が塔を破壊する」や「言語の混乱」の話は、中東の他の文化にも存在する。現代の学者の中には、バベルの塔はバビロニアのエ・テメン・アン・キ神殿（「エ・テメン・アン・キ」とは「天と地の礎」という意味）をモデルにしたと考える者もいる。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

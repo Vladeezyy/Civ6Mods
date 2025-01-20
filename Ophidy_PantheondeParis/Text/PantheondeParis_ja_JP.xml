@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja_JP -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 2/12/2024 7:50:20 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_OPH_PANTHEON_DE_PARIS_NAME" Language="ja_JP">
+			<Text>パンテオン・ド・パリ</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_PANTHEON_DE_PARIS_DESC" Language="ja_JP">
+			<Text>[ICON_GreatPerson] 偉人を採用または後援した後、そのために消費した [ICON_GreatPerson] 偉人ポイントの10%が返還される。 [ICON_GreatPerson] 偉人を引退するたびに、パンテオン・ド・パリが [ICON_GreatPerson] 偉人の区域タイプに対応する産出+3を得る。[NEWLINE][NEWLINE]政府複合施設区域に隣接する平らな土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_PANTHEON_DE_PARIS_QUOTE" Language="ja_JP">
+			<Text>「偉人たちに、祖国は感謝する。」[NEWLINE]- パンテオン・ド・パリの碑文</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_PANTHEON_DE_PARIS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>パンテオン・ド・パリは、元々はフランス国王ルイ15世の依頼を受けた著名な建築家スフロが設計・建設した教会であった。フランス革命の立役者であるミラボー伯爵の死後、国民憲政会議の勅令により、教会は霊廟に改築された。彼は自由の庇護者として、9月にパンテオン・ド・パリに埋葬された最初の偉人である。ヴォルテールとルソーも、それぞれ同じ年と1794年に、この「祖国の神殿」に埋葬された。こうしてパンテオン・ド・パリは、歴史と文化に彩られた愛国心とナショナリズムの象徴となった。歴代のフランス大統領は、フランスの精神と文化をより豊かなものにし、継承するために、フランスと人類の進歩に多大な貢献をし、フランスの価値観を代表する偉大な人々をパンテオン・ド・パリに祀り、勅令に署名し、自らエスコートすることで、先人たちの足跡をたどってきた。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_PANTHEON_DE_PARIS_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>パンテオン・ド・パリの有名な三角屋根の下には、「Aux grands hommes la patrie reconnaissante」（偉人たちに、祖国は感謝する。）という言葉が刻まれている。ポルティコの壁にある5つの巨大な浮き彫りは、フランスの愛国心と英雄主義を表している。パンテオン・ド・パリは、革命以来のフランスの歴史を見守り、自由、平等、友愛というフランスの価値観を受け継いできたと言える。</Text>
+		</Row>
+		
+		<Row Tag="MOD_OPH_PANTHEONDEPARIS_NAME" Language="ja_JP">
+			<Text>パンテオン・ド・パリ（世界遺産）</Text>
+		</Row>
+		<Row Tag="MOD_OPH_PANTHEONDEPARIS_DESC" Language="ja_JP">
+			<Text>世界遺産であるパンテオン・ド・パリを導入する。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Lazire\Documents\WwiseProjects\ArcdeTriomphe_WonderMusic\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Lazire\Documents\WwiseProjects\ArcdeTriomphe_WonderMusic\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Lazire\Documents\WwiseProjects\ArcdeTriomphe_WonderMusic\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Lazire\Documents\WwiseProjects\ArcdeTriomphe_WonderMusic\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="849893691" Language="SFX">
+			<ShortName>5308_525b_0f5a_db170aeb65e1a94a436080457824fddb.wav</ShortName>
+			<Path>SFX\5308_525b_0f5a_db170aeb65e1a94a436080457824fddb_EE79F7FB.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="3807639186" Language="SFX">
+			<ShortName>SoundBank_Wonder_Music_Arc_de_Triomphe</ShortName>
+			<Path>SoundBank_Wonder_Music_Arc_de_Triomphe.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3655609231" Name="Play_Wonder_Music_Arc_de_Triomphe"/>
+				<Event Id="2611771229" Name="Stop_Wonder_Music_Arc_de_Triomphe"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="849893691"/>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

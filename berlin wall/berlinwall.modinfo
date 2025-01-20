@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="73b844e8-7df6-4eba-9dc6-d8f0e1462bf8" version="1">
+  <Properties>
+    <Name>LOC_BERLINWALL_NAME</Name>
+    <Description>LOC_BERLINWALL_DESCRIPTION</Description>
+    <Created>1709354982</Created>
+    <Authors>jidong</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions />
+  <LocalizedText>
+    <Text id="LOC_BERLINWALL_NAME">
+      <zh_Hant_HK>世界奇觀： 柏林圍墻</zh_Hant_HK>
+      <zh_Hans_CN>世界奇观： 柏林墙</zh_Hans_CN>
+      <ja_JP>世界遺產： ベルリンの壁</ja_JP>
+      <en_US>World Wonder: Berlin Wall</en_US>
+      <ru_RU>Чудо света: Берлинская стена</ru_RU>
+    </Text>
+    <Text id="LOC_BERLINWALL_DESCRIPTION">
+      <zh_Hant_HK>[COLOR_FLOAT_FAITH]柏林圍墻[ENDCOLOR][NEWLINE]提供1個搖滾樂隊。搖滾樂隊無視來自地形和地貌的 [ICON_Movement] 移動力懲罰，且搖滾樂隊的專輯銷量增加。禁止其他文明的搖滾樂隊、傳教士和使徒進入國境。必須建造在平坦地形上。</zh_Hant_HK>
+      <zh_Hans_CN>[COLOR_FLOAT_FAITH]柏林墙[ENDCOLOR][NEWLINE]提供1个摇滚乐队。摇滚乐队无视来自地形和地貌的 [ICON_Movement] 移动力惩罚，且摇滚乐队的专辑销量增加。禁止其他文明的摇滚乐队、传教士和使徒进入国境。必须建造在平坦地形上。</zh_Hans_CN>
+      <ja_JP>[COLOR_FLOAT_FAITH]ベルリンの壁[ENDCOLOR][NEWLINE]ロックバンドを1つ得る。ロックバンドは地形や特徴による [ICON_Movement] 移動力のペナルティを無視し、さらにアルバムセールスを增加する。他のプレイヤーのロックバンド、伝道師と使徒が領土内に入れないようにする。平らな土地にのみ建設可能。</ja_JP>
+      <en_US>[COLOR_FLOAT_FAITH]Berlin Wall[ENDCOLOR][NEWLINE]Grants a Rock Band. Rock Bands ignore [ICON_Movement] Movement penalty from terrains and features, and receive additional Album Sales. Rock Bands, Missionaries and Apostles from other players may not enter your territory. Must be built on flat land.</en_US>
+      <ru_RU>[COLOR_FLOAT_FAITH]Берлинская стена[ENDCOLOR][NEWLINE]Предоставляет рок-группу. Рок-группы не получают штрафа к [ICON_Movement] ОП за перемещение по ландшафту и его особенностям, а также получают дополнительный [ICON_Tourism] туризм от «Продажи альбома». Рок-группы, миссионеры и апостолы других игроков не могут попасть на вашу территорию. Можно построить только на ровном участке.</ru_RU>
+    </Text>
+  </LocalizedText>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>wonder.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>berlin wall.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>berlin wall.dep</File>
+    <File>icon.xml</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_berlin_GreyWall1_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_berlin_GreyWall2_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_berlin_GreyWall3_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_GreyWall_G</File>
+    <File>Platforms/MacOS/BLPs/TileBase.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_berlin_GreyWall1_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_berlin_GreyWall2_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_berlin_GreyWall3_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_GreyWall_G</File>
+    <File>Platforms/Windows/BLPs/TileBase.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>text.xml</File>
+    <File>wonder.xml</File>
+    <File>XLPs/TileBase.xlp</File>
+    <File>XLPs/WonderMovie.xlp</File>
+  </Files>
+</Mod>

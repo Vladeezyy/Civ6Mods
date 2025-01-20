@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Core -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:36:54 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_LNGLEAT_HDGE_MAZE"					Kind="KIND_BUILDING"/>
+		<Row Type="IMPROVEMENT_HDGE_MAZE"						Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	
+	<Buildings>
+		<Row BuildingType="BUILDING_LNGLEAT_HDGE_MAZE"			Name="LOC_BUILDING_LNGLEAT_HDGE_MAZE_NAME" Description="LOC_BUILDING_LNGLEAT_HDGE_MAZE_DESCRIPTION" PrereqCivic="CIVIC_GAMES_RECREATION" Cost="400" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Entertainment="2" RegionalRange="4" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_LNGLEAT_HDGE_MAZE_QUOTE"/>
+	</Buildings>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_LNGLEAT_HDGE_MAZE"			TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_LNGLEAT_HDGE_MAZE"			TerrainType="TERRAIN_PLAINS"/>
+	</Building_ValidTerrains>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_LNGLEAT_HDGE_MAZE"			YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+	
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_HDGE_MAZE"			Name="LOC_IMPROVEMENT_HDGE_MAZE_NAME" Description="LOC_IMPROVEMENT_HDGE_MAZE_DESCRIPTION" Icon="ICON_IMPROVEMENT_HDGE_MAZE" PlunderType="PLUNDER_HEAL" PlunderAmount="50" Buildable="true" PrereqCivic="CIVIC_GAMES_RECREATION" YieldFromAppeal="YIELD_CULTURE" YieldFromAppealPercent="50" Appeal="2" SameAdjacentValid="false" OnePerCity="true" TraitType="TRAIT_CIVILIZATION_NO_PLAYER" MovementChange="2"/>
+	</Improvements>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_HDGE_MAZE"			TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_HDGE_MAZE"			TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_HDGE_MAZE"			TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_HDGE_MAZE"			TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_HDGE_MAZE"			TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_HDGE_MAZE"			TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_HDGE_MAZE"			TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_HDGE_MAZE"			TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_HDGE_MAZE"			TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_HDGE_MAZE"			TerrainType="TERRAIN_SNOW_HILLS"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_HDGE_MAZE"			UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_HDGE_MAZE"			YieldType="YIELD_CULTURE" YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_HDGE_MAZE"			TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+	</Improvement_Tourism>
+</GameData>

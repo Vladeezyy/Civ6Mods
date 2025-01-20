@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja_JP -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 2/12/2024 7:50:20 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_OPH_ARC_DE_TRIOMPHE_NAME" Language="ja_JP">
+			<Text>エトワール凱旋門</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_ARC_DE_TRIOMPHE_DESC" Language="ja_JP">
+			<Text>[ICON_GreatGeneral] 大将軍の使用可能回数が1回多くなる。 [ICON_GreatGeneral] 大将軍が退職能力を発動する際、2タイル以内にいる陸上ユニットのヒットポイントが50回復する。[NEWLINE][NEWLINE]士官学校のある都市で、平らな土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_ARC_DE_TRIOMPHE_QUOTE" Language="ja_JP">
+			<Text>「行こう 祖国の子らよ[NEWLINE]栄光の日が来た！」[NEWLINE]- 『ラ・マルセイエーズ』</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_ARC_DE_TRIOMPHE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>1805年のロシア・オーストリア軍に対する勝利を記念して、ナポレオンは1806年、凱旋するフランス兵を歓迎する「偉大な彫刻」の建設を命じた。同年8月15日、有名な建築家ジャン・シャグランの設計により建設が開始されたが、その後ナポレオンが失脚したため、凱旋門計画は途中で中断された。工事が続けられたのは、1830年にブルボン王朝が倒された後のことだった。凱旋門は30年にわたる断続的な建設を経て、1836年7月29日にようやく落成した。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_ARC_DE_TRIOMPHE_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>凱旋門はその名の通り、戦場に凱旋する軍隊を迎えるための門だった。建設当時、メキシコの革命記念塔に破られるまで、この種の建造物としては世界一の高さを誇っていた。パリの中心部、シャルル・ド・ゴール広場の真ん中にあるロータリーの上にあり、この広場も凱旋門を補完するために建設された。凱旋門が建設されたため、交通が不便になったため、19世紀半ばに凱旋門の周りに円形の広場と12の道路を建設し、各道路の幅は40〜80メートルで、放射状に、鮮やかな光によって発行された星のように、この広場はまた、エトワール広場（星の広場）として知られています。 凱旋門は「エトワール凱旋門」とも呼ばれている。凱旋門は有名なシャンゼリゼ通りの端に位置している。</Text>
+		</Row>
+		
+		<Row Tag="MOD_OPH_ARCDETRIOMPHE_NAME" Language="ja_JP">
+			<Text>エトワール凱旋門（世界遺產）</Text>
+		</Row>
+		<Row Tag="MOD_OPH_ARCDETRIOMPHE_DESC" Language="ja_JP">
+			<Text>世界遺産であるエトワール凱旋門を導入する。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

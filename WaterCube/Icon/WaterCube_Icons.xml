@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- WaterCube_Icons -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 2/16/2024 8:57:12 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_WONDER_WATER_CUBE" IconSize="32" Filename="ICON_BUILDING_WATER_CUBE_32"/>
+		<Row Name="ICON_ATLAS_WONDER_WATER_CUBE" IconSize="38" Filename="ICON_BUILDING_WATER_CUBE_38"/>
+		<Row Name="ICON_ATLAS_WONDER_WATER_CUBE" IconSize="50" Filename="ICON_BUILDING_WATER_CUBE_50"/>
+		<Row Name="ICON_ATLAS_WONDER_WATER_CUBE" IconSize="80" Filename="ICON_BUILDING_WATER_CUBE_80"/>
+		<Row Name="ICON_ATLAS_WONDER_WATER_CUBE" IconSize="128" Filename="ICON_BUILDING_WATER_CUBE_128"/>
+		<Row Name="ICON_ATLAS_WONDER_WATER_CUBE" IconSize="256" Filename="ICON_BUILDING_WATER_CUBE_256"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_WATER_CUBE" Atlas="ICON_ATLAS_WONDER_WATER_CUBE" Index="0"/>
+		<!--<Row Name="ICON_BUILDING_WATER_CUBE"   Atlas="ICON_ATLAS_WONDERS" Index="25"/>-->
+
+	</IconDefinitions>
+</GameData>

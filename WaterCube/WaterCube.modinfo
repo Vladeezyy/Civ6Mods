@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4db7475d-4305-46bf-afb1-d739b38abf7d" version="1">
+  <Properties>
+    <Name>LOC_MY_MOD_NAME_WORLD_WONDER_WATER_CUBE</Name>
+    <Description>LOC_MY_MOD_DESCRIPTION_WORLD_WONDER_WATER_CUBE</Description>
+    <Created>1708150776</Created>
+    <Teaser>LOC_MY_MOD_TEASER_WORLD_WONDER_WATER_CUBE</Teaser>
+    <Authors>LOC_MY_MOD_AUTHORS_WORLD_WONDER_WATER_CUBE</Authors>
+    <SpecialThanks>LOC_MY_MOD_SPECIALTHANKS_WORLD_WONDER_WATER_CUBE</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  
+  <LocalizedText>
+	<Text id="LOC_MY_MOD_NAME_WORLD_WONDER_WATER_CUBE">
+        <en_US>Water Cube (World Wonder)</en_US>
+        <zh_Hans_CN>水立方（世界奇观）</zh_Hans_CN>
+		<zh_Hant_HK>水立方（世界奇观）</zh_Hant_HK>
+		<ja_JP>ウォーターキューブ</ja_JP>
+		<ru_RU>Водяной куб (Чудо света)</ru_RU>
+    </Text> 
+    <Text id="LOC_MY_MOD_DESCRIPTION_WORLD_WONDER_WATER_CUBE">
+        <en_US>Adds the Water Cube wonder.</en_US>
+        <zh_Hans_CN>加入了水立方作为世界奇观。</zh_Hans_CN>
+		<zh_Hant_HK>加入了水立方作为世界奇观。</zh_Hant_HK>
+		<ja_JP>ウォーターキューブ</ja_JP>
+		<ru_RU>Добавляет «Водяной куб» в список чудес света.</ru_RU>
+    </Text> 
+    <Text id="LOC_MY_MOD_TEASER_WORLD_WONDER_WATER_CUBE">
+        <en_US>[COLOR_LIGHTBLUE]Olympic Games[ENDCOLOR]</en_US>
+        <zh_Hans_CN>[COLOR_LIGHTBLUE]奥运场馆[ENDCOLOR]</zh_Hans_CN>
+		<zh_Hant_HK>[COLOR_LIGHTBLUE]奥运场馆[ENDCOLOR]</zh_Hant_HK>
+		<ja_JP>[COLOR_LIGHTBLUE]Olympic Games[ENDCOLOR]</ja_JP>
+		<ru_RU>[COLOR_LIGHTBLUE]Олимпийские игры[ENDCOLOR]</ru_RU>
+    </Text> 
+	<Text id="LOC_MY_MOD_AUTHORS_WORLD_WONDER_WATER_CUBE">
+		<en_US>Maple_Leaves, IthildinX, Phantagonist</en_US>
+		<zh_Hans_CN>枫叶(Maple_Leaves), IthildinX, Phantagonist</zh_Hans_CN>
+		<zh_Hant_HK>枫叶(Maple_Leaves), IthildinX, Phantagonist</zh_Hant_HK>
+		<ja_JP>Maple_Leaves, IthildinX, Phantagonist</ja_JP>
+		<ru_RU>Maple_Leaves, IthildinX, Phantagonist</ru_RU>
+    </Text>
+	<Text id="LOC_MY_MOD_SPECIALTHANKS_WORLD_WONDER_WATER_CUBE">
+		<en_US>Jidong, shafrancrocus</en_US>
+		<zh_Hans_CN>悸动战士，shafrancrocus</zh_Hans_CN>
+		<zh_Hant_HK>悸动战士，shafrancrocus</zh_Hant_HK>
+		<ja_JP>悸动战士, shafrancrocus</ja_JP>
+		<ru_RU>Jidong, shafrancrocus</ru_RU>
+    </Text>
+  </LocalizedText>
+  
+  <ActionCriteria>
+	<Criteria id="WaterCube">
+	  <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+	</Criteria>
+	<Criteria id="WaterCube_Expansion1">
+	  <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+	</Criteria>
+	<Criteria id="WaterCube_Expansion1_Expansion2">
+	  <RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+	</Criteria>
+	<Criteria id="WaterCube_Expansion2">
+	  <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+	</Criteria>
+  </ActionCriteria>
+  
+  <InGameActions>
+    <UpdateDatabase id="wc_data">
+      <File>Data/WaterCube_Buildings.sql</File>
+	  <Criteria>WaterCube_Expansion2</Criteria>
+    </UpdateDatabase>
+    <UpdateIcons id="wc_icon">
+      <File>Icon/WaterCube_Icons.xml</File>
+	  <Criteria>WaterCube_Expansion2</Criteria>
+    </UpdateIcons>
+    <UpdateArt id="wc_art">
+      <File>WaterCube.dep</File>
+	  <Criteria>WaterCube_Expansion2</Criteria>
+    </UpdateArt>
+    <UpdateText id="wc_text">
+      <File>Text/WaterCube_Text.xml</File>
+	  <Criteria>WaterCube_Expansion2</Criteria>
+    </UpdateText>
+    <UpdateAudio id="wc_audio">
+      <File>Platforms/Windows/Audio/WaterCube_Quote.ini</File>
+	  <Criteria>WaterCube_Expansion2</Criteria>
+    </UpdateAudio>
+    <AddUserInterfaces id="wc_addui">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+	  <Criteria>WaterCube_Expansion2</Criteria>
+      <File>UI/WaterCube_UI.xml</File>
+    </AddUserInterfaces>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Data/WaterCube_Buildings.sql</File>
+    <File>Icon/WaterCube_Icons.xml</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WaterCube_d_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterCube_a</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterCube_c</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterCube_c_1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterCube_emission</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterCube_n_10</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterCube_n_11</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterCube_s</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterCube_s_1</File>
+    <File>Platforms/MacOS/BLPs/WaterCubeUITextures.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/Audio/WaterCube_Quote.ini</File>
+    <File>Platforms/Windows/Audio/WaterCube_Quote_zh_SoundBank.bnk</File>
+    <File>Platforms/Windows/Audio/WaterCube_Quote_zh_SoundBank.txt</File>
+    <File>Platforms/Windows/Audio/WaterCube_Quote_zh_SoundBank.xml</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WaterCube_d_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WaterCube_a</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WaterCube_c</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WaterCube_c_1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WaterCube_emission</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WaterCube_n_10</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WaterCube_n_11</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WaterCube_s</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WaterCube_s_1</File>
+    <File>Platforms/Windows/BLPs/WaterCubeUITextures.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>Text/WaterCube_Text.xml</File>
+    <File>UI/WaterCube_UI.lua</File>
+    <File>UI/WaterCube_UI.xml</File>
+    <File>WaterCube.dep</File>
+  </Files>
+</Mod>

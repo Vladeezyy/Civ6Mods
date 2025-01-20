@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 2/13/2024 4:19:04 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_SAGRADA_FAMILIA" Kind="KIND_BUILDING"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_SAGRADA_FAMILIA" Name="LOC_BUILDING_SAGRADA_FAMILIA_NAME" Description="LOC_BUILDING_SAGRADA_FAMILIA_DESCRIPTION" PrereqCivic="CIVIC_CIVIL_ENGINEERING" Cost="2480" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Quote="LOC_BUILDING_SAGRADA_FAMILIA_QUOTE" QuoteAudio=""/>
+	</Buildings>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_SAGRADA_FAMILIA" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_SAGRADA_FAMILIA" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_SAGRADA_FAMILIA" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_SAGRADA_FAMILIA" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_SAGRADA_FAMILIA" TerrainType="TERRAIN_DESERT"/>
+	</Building_ValidTerrains>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_SAGRADA_FAMILIA" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="3"/>
+	</Building_GreatPersonPoints>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_SAGRADA_FAMILIA" YieldType="YIELD_FAITH" YieldChange="6"/>
+	</Building_YieldChanges>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA" Name="LOC_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresIncompleteWonder="true" AreaHighlightRadius="6"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA" ModifierId="GREATPERSON_GRANT_PRODUCTION_IN_CITY_INDUSTRIAL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_WONDER_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA" ModifierId="GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA" ModifierId="GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_A"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA" ModifierId="GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_B"/>
+	</GreatPersonIndividualBirthModifiers>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA" Context="Summary" Text="LOC_GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA"/>
+	</ModifierStrings>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_SAGRADA_FAMILIA</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_SAGRADA_FAMILIA</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SAGRADA_FAMILIA</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_SAGRADA_FAMILIA_A</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SAGRADA_FAMILIA</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_SAGRADA_FAMILIA_B</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_SAGRADA_FAMILIA</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_SAGRADA_FAMILIA_ADJUST_YIELD_MODIFIER_FROM_FAITH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_SAGRADA_FAMILIA_A</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_SAGRADA_FAMILIA_ADJUST_YIELD_MODIFIER_FROM_FAITH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_SAGRADA_FAMILIA_B</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GAUDI_SAGRADA_FAMILIA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_A</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GAUDI_SAGRADA_FAMILIA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_B</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GAUDI_SAGRADA_FAMILIA</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_SAGRADA_FAMILIA</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_SAGRADA_FAMILIA</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_SAGRADA_FAMILIA_A</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_SAGRADA_FAMILIA_A</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_SAGRADA_FAMILIA_B</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_SAGRADA_FAMILIA_B</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_A</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_A</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_B</ModifierId>
+			<Name>Amount</Name>
+			<Value>-12</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_B</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+	</ModifierArguments>
+	<!--条件集-->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>GAUDI_SAGRADA_FAMILIA</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>GAUDI_SAGRADA_FAMILIA</RequirementSetId>
+			<RequirementId>REQ_GAUDI_SAGRADA_FAMILIA</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!--子条件-->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_GAUDI_SAGRADA_FAMILIA</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_GAUDI_SAGRADA_FAMILIA</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQ_GAUDI_SAGRADA_FAMILIA</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+	</RequirementArguments>
+	<!--自定义 ModifierType-->
+	<Types>
+		<Row Kind="KIND_MODIFIER" Type="MODIFIER_BUILDING_SAGRADA_FAMILIA_ADJUST_YIELD_MODIFIER_FROM_FAITH" />
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_BUILDING_SAGRADA_FAMILIA_ADJUST_YIELD_MODIFIER_FROM_FAITH</ModifierType>
+			<EffectType>EFFECT_ADJUST_CITY_YIELD_MODIFIER_FROM_FAITH</EffectType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+		</Row>
+	</DynamicModifiers>
+</GameData>

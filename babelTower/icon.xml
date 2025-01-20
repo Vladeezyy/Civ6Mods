@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- icon -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 2/19/2024 1:25:57 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_BUILDING_JD_BABEL" IconSize="32" Filename="ICON_BUILDING_JD_BABEL_32"/>
+		<Row Name="ATLAS_ICON_BUILDING_JD_BABEL" IconSize="38" Filename="ICON_BUILDING_JD_BABEL_38"/>
+		<Row Name="ATLAS_ICON_BUILDING_JD_BABEL" IconSize="50" Filename="ICON_BUILDING_JD_BABEL_50"/>
+		<Row Name="ATLAS_ICON_BUILDING_JD_BABEL" IconSize="80" Filename="ICON_BUILDING_JD_BABEL_80"/>
+		<Row Name="ATLAS_ICON_BUILDING_JD_BABEL" IconSize="128" Filename="ICON_BUILDING_JD_BABEL_128"/>
+		<Row Name="ATLAS_ICON_BUILDING_JD_BABEL" IconSize="256" Filename="ICON_BUILDING_JD_BABEL_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_JD_BABEL" Atlas="ATLAS_ICON_BUILDING_JD_BABEL" Index="0"/>
+	</IconDefinitions>
+</GameData>

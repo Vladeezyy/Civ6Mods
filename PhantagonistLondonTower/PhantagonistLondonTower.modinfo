@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6165a073-2938-4054-95d7-9f5b76a4e051" version="3">
+  <Properties>
+    <Name>LOC_PHANTA_LONDON_TOWER_MOD_NAME</Name>
+    <Description>LOC_PHANTA_LONDON_TOWER_MOD_DESCRIPTION</Description>
+    <Created>1709037241</Created>
+    <Teaser>LOC_PHANTA_LONDON_TOWER_MOD_DESCRIPTION</Teaser>
+    <Authors>Phantagonist, IthildinX</Authors>
+    <SpecialThanks>sketchinbane</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+<LocalizedText>
+    <Text id="LOC_PHANTA_LONDON_TOWER_MOD_NAME">
+      <en_US>Tower of London (World Wonder)</en_US>
+      <zh_Hans_CN>伦敦塔（世界奇观）</zh_Hans_CN>
+      <zh_Hant_HK>倫敦塔（世界奇觀）</zh_Hant_HK>
+      <ja_JP>ロンドン塔（世界遺産）</ja_JP>
+    </Text>
+    <Text id="LOC_PHANTA_LONDON_TOWER_MOD_DESCRIPTION">
+      <en_US>Adds Tower of London as a World Wonder.</en_US>
+      <zh_Hans_CN>加入伦敦塔世界奇观。</zh_Hans_CN>
+      <zh_Hant_HK>加入倫敦塔世界奇觀。</zh_Hant_HK>
+      <ja_JP>世界遺産であるロンドン塔を導入する。</ja_JP>
+    </Text>
+</LocalizedText>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>Localization/Localization.xml</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>GameData/GameData_Core.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="NewAction">
+      <File>LOC_PHANTA_LONDON_TOWER_MOD_NAME.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="NewAction">
+      <File>GameData/GameData_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>Localization/Localization.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>GameData/GameData_Core.sql</File>
+    <File>GameData/GameData_Icons.sql</File>
+    <File>Localization/Localization.xml</File>
+    <File>LOC_PHANTA_LONDON_TOWER_MOD_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AdmiralSail_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Ancient_Wood3_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Ancient_Wood3_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_city_walls_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_city_walls_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_city_walls_MED_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_city_walls_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_city_walls_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_city_walls_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_ENT_Cobblestone_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_elandria_flints_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_old_floorboard_texture_vertical_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Silver_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ruin_Debris_Decal_Light_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ruin_Debris_Decal_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TOL-wt-river_face_PNG_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tol_tex3_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Wood_Plywood_Knots_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint__700px-Royal_Arms_of_England_oblong_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RENG_Palace_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Cobblestone_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Cobblestone_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Cobblestone_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Ground_L</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FOW_Ruin_Debris_Decal</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FOW_Ruin_Debris_Decal_Light</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal_Light</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TowerOfLondon_Normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TowerOfLondon_Normal1</File>
+    <File>Platforms/MacOS/BLPs/StrategicView_Sprite.blp</File>
+    <File>Platforms/MacOS/BLPs/TileBase.blp</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_AdmiralSail_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Ancient_Wood3_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Ancient_Wood3_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_city_walls_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_city_walls_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_city_walls_MED_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_city_walls_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_city_walls_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_city_walls_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_ENT_Cobblestone_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_elandria_flints_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_old_floorboard_texture_vertical_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Silver_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ruin_Debris_Decal_Light_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ruin_Debris_Decal_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TOL-wt-river_face_PNG_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tol_tex3_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Wood_Plywood_Knots_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint__700px-Royal_Arms_of_England_oblong_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RENG_Palace_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Cobblestone_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Cobblestone_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Cobblestone_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_ENT_Ground_L</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FOW_Ruin_Debris_Decal</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FOW_Ruin_Debris_Decal_Light</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal_Light</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TowerOfLondon_Normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TowerOfLondon_Normal1</File>
+    <File>Platforms/Windows/BLPs/StrategicView_Sprite.blp</File>
+    <File>Platforms/Windows/BLPs/TileBase.blp</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+  </Files>
+</Mod>

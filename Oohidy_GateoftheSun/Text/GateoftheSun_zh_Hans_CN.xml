@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh_Hans_CN -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 2/12/2024 7:49:25 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_OPH_GATE_OF_THE_SUN_NAME" Language="zh_Hans_CN">
+			<Text>太阳门</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_GATE_OF_THE_SUN_DESC" Language="zh_Hans_CN">
+			<Text>允许您在 [ICON_GLORY_GOLDEN_AGE] 黄金时代使用黑暗时代政策。[NEWLINE][NEWLINE]必须建造在相邻 [ICON_RESOURCE_STONE] 石头的丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_GATE_OF_THE_SUN_QUOTE" Language="zh_Hans_CN">
+			<Text>低浮雕覆盖著雕刻的图画，这些图画不能被视为随机绘制的线条。可以说，它们具有意义，也许不如表意文字具有象征意义。[NEWLINE]——查尔斯·维纳</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_GATE_OF_THE_SUN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>古代蒂瓦纳科文化时代的巨石门，就位于玻利维亚高原地区。可能原为一个巨大神庙的门，上有浮雕，因门楣上刻有太阳神形象而得名。横楣上刻地毯花纹，中间刻一手握权杖、正面而立、身穿战俘头装饰的外衣的神像，其头周围刻满放射状的线，线顶端有动物的头，权杖两端装饰著在美洲象征太阳的鹰的形象，故无疑此神即为太阳神。两旁各有3排神秘的动物，头戴锥形花冠，手握权杖，跪地面向中间的神。顶部和底部有排列著的人头，大睁双目，有的手举秃鹰，朝向太阳神。太阳门上浮雕所具有的神秘色彩和复杂的寓意性，体现了当时人对于宇宙现象的理解，其中包含了深奥的历法计数系统。</Text>
+		</Row>
+
+		<Row Tag="MOD_OPH_GATEOFTHESUN_NAME" Language="zh_Hans_CN">
+			<Text>太阳门（世界奇观）</Text>
+		</Row>
+		<Row Tag="MOD_OPH_GATEOFTHESUN_DESC" Language="zh_Hans_CN">
+			<Text>加入太阳门作为世界奇观。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

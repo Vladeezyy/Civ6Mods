@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LHM_Text -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 2/23/2024 2:37:16 PM -->
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_NAME" Language="ru_RU">
+			<Text>Живая изгородь Лонглитского лабиринта</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_DESCRIPTION" Language="ru_RU">
+			<Text>Чудеса и улучшение «Лабиринт из живой изгороди» в этом городе дают двойное количество [ICON_Tourism] Туризма, а все клетки получают +2 привлекательности. [NEWLINE]Соседние вражеские юниты теряют 2 [ICON_Movement] очка передвижения. Открывает улучшение «Лабиринт из живой изгороди». [NEWLINE]Должен быть построен на равнинах или травянистых ландшафтах.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_QUOTE" Language="ru_RU">
+			<Text>«Нельзя упускать шанс, что однажды, где-то, в каком-то месте появится выход. Мы не можем сдаваться. Никогда.» [NEWLINE] - Томас, «Бегущий в лабиринте»</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LNGLEAT_HDGE_MAZE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Лонглитский лабиринт из живой изгороди расположен в Уилтшире, Англия, и был разработан Грегом Брайтом. Он открылся для публики в 1975 году. Лабиринт состоит как минимум из 16,000 деревьев тиса и занимает площадь около 0,6 гектара.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LNGLEAT_HDGE_MAZE_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Отличительной чертой Лонглитского лабиринта из живой изгороди является его трёхмерная структура с шестью деревянными мостами внутри. Посетители могут стоять на мостах и смотреть на смотровую башню в центре лабиринта. Тем не менее, добраться до смотровой башни от выхода не так уж просто. Согласно статистике, среднее время, необходимое посетителям для успешного достижения смотровой башни, составляет 45 минут, самый быстрый посетитель справился за 25 минут, а некоторым так и не удалось достичь цели.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HDGE_MAZE_NAME" Language="ru_RU">
+			<Text>Лабиринт из живой изгороди</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HDGE_MAZE_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальное улучшение для цивилизации с чудом «Лонглитский лабиринт из живой изгороди».[NEWLINE][NEWLINE]+1 [ICON_Culture] Культуры, +2 привлекательности. Даёт дополнительную [ICON_Culture] Культуру, равную 50% привлекательности клетки. Соседние вражеские юниты теряют 1 [ICON_Movement] очко передвижения. Одно улучшение на город. Нельзя строить рядом с другим «Лабиринтом из живой изгороди».</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HDGE_MAZE_DESCRIPTION_ZOMBIE" Language="ru_RU">
+			<Text>{LOC_IMPROVEMENT_HDGE_MAZE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_DESCRIPTION_ADDENDUM_WEAK_TRAP}</Text>
+		</Replace>
+
+	</BaseGameText>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_NAME" Language="zh_Hant_HK">
+			<Text>朗利特樹籬迷宮</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>所在城市的奇觀與樹籬迷宮改良設施產生加倍 [ICON_Tourism] 旅遊業績，所有單元格獲得+2魅力。[NEWLINE]相鄰的敵方單位-2 [ICON_Movement] 移動力。解鎖樹籬迷宮改良設施。[NEWLINE]必須建在平原或草原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_QUOTE" Language="zh_Hant_HK">
+			<Text>「我不能放棄出口可能在任何時間、地點出現的機會，我不能放棄，絕不。 」[NEWLINE]——湯瑪士《移動迷宮》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LNGLEAT_HDGE_MAZE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>朗利特樹籬迷宮位於英國的威爾特郡，由Greg Bright設計，1975年面向投入開放。它由至少16000棵英國紫杉樹組成，佔地面積約0.6公頃。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LNGLEAT_HDGE_MAZE_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>與其他迷宮有所區別的是，朗利特樹籬迷宮是一個三維迷宮，裏面還建造有六座木橋，遊客們可以站在上面眺望迷宮中心的暸望塔。雖然如此，從出口處到達暸望塔仍然是件很不容易的事。據統計，遊客們成功到達暸望塔的平均時間是45分鐘，最快的人只用了25分鐘，並且有一些人從來沒有成功過。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HDGE_MAZE_NAME" Language="zh_Hant_HK">
+			<Text>樹籬迷宮</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HDGE_MAZE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_BUILDING_LNGLEAT_HDGE_MAZE_NAME}附屬改良設施。[NEWLINE][NEWLINE]提供2點魅力和1點 [ICON_Culture] 文化值，額外提供等同單元格魅力一半的 [ICON_Culture] 文化值。相鄰的敵方單位-1 [ICON_Movement] 移動力。每座城市僅能建造一座。無法建在另一個樹籬迷宮旁。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_NAME" Language="zh_Hans_CN">
+			<Text>朗利特树篱迷宫</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所在城市的奇观与树篱迷宫改良设施生成加倍 [ICON_Tourism] 旅游业绩，所有单元格获得+2魅力。[NEWLINE]相邻的敌方单位-2 [ICON_Movement] 移动力。解锁树篱迷宫改良设施。[NEWLINE]必须建在平原或草原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_QUOTE" Language="zh_Hans_CN">
+			<Text>"我不能放弃出口可能在任何时间、地点出现的机会，我不能放弃，绝不。 "[NEWLINE]——汤玛士《移动迷宫》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LNGLEAT_HDGE_MAZE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>朗利特树篱迷宫位于英国的威尔特郡，由Greg Bright设计，1975年面向投入开放。它由至少16000棵英国紫杉树组成，占地面积约0.6公顷。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LNGLEAT_HDGE_MAZE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>与其他迷宫有所区别的是，朗利特树篱迷宫是一个三维迷宫，里面还建造有六座木桥，游客们可以站在上面眺望迷宫中心的了望塔。虽然如此，从出口处到达了望塔仍然是件很不容易的事。据统计，游客们成功到达了望塔的平均时间是45分锺，最快的人只用了25分锺，并且有一些人从来没有成功过。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HDGE_MAZE_NAME" Language="zh_Hans_CN">
+			<Text>树篱迷宫</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HDGE_MAZE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_BUILDING_LNGLEAT_HDGE_MAZE_NAME}附属改良设施。[NEWLINE][NEWLINE]提供2点魅力和1点 [ICON_Culture] 文化值，额外提供等同单元格魅力一半的 [ICON_Culture] 文化值。相邻的敌方单位-1 [ICON_Movement] 移动力。每座城市仅能建造一座。无法建在另一个树篱迷宫旁。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_NAME" Language="ja_JP">
+			<Text>ロングリート・ヘッジ・メイズ</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_DESCRIPTION" Language="ja_JP">
+			<Text>所在都市の世界遺產とヘッジ・メイズ施設が生み出す [ICON_Tourism] 観光力が2倍になる。すべてのタイルのアピール+2。[NEWLINE]隣接する敵ユニットの [ICON_Movement] 移動力-2。ヘッジ・メイズ施設を解禁。[NEWLINE]平原か草原にのみ建設可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_QUOTE" Language="ja_JP">
+			<Text>「出口がいつでもどこでも現れる可能性を諦めることはできない。諦めない、絶対に。」[NEWLINE]――トーマスー『メイズ・ランナー』</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LNGLEAT_HDGE_MAZE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ロングリート・ヘッジ・メイズはイギリスのウィルトシャーにある、グレッグ・ブライトが設計した迷路で、1975年に一般公開された。少なくとも16000本のイギリスヒノキで構成されており、面積は約0.6ヘクタールである。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LNGLEAT_HDGE_MAZE_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>他の迷路と異なるのは、ロングリート・ヘッジ・メイズは3次元の迷路であり、中には6つの木製の橋が建設されており、訪問者はそこから迷路の中心にある展望台を眺めることができる。それでも、出口から展望台に到達するのは容易なことではない。統計によると、訪問者が展望台に到達する平均時間は45分であり、最速の人は25分で到達したが、成功したことがない人もいるという。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HDGE_MAZE_NAME" Language="ja_JP">
+			<Text>ヘッジ・メイズ</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HDGE_MAZE_DESCRIPTION" Language="ja_JP">
+			<Text>ロングリート・ヘッジ・メイズ固有の施設。[NEWLINE][NEWLINE]アピール+2、 [ICON_Culture] 文化力+1、更にタイルのアピールの50%に等しい [ICON_Culture] 文化力を得る。隣接する敵ユニットの [ICON_Movement] 移動力-1。各都市に1つしか建設できない。別のヘッジ・メイズの隣には建設できない。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\WwiseProjects\WaterCube_Quote_1\</ProjectRoot>
+		<SourceFilesRoot>D:\WwiseProjects\WaterCube_Quote_1\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\WwiseProjects\WaterCube_Quote_1\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\WwiseProjects\WaterCube_Quote_1\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1340569231" Language="SFX">
+			<ShortName>WaterCube_Quote_zh_SoundBank</ShortName>
+			<Path>WaterCube_Quote_zh_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="557304242" Name="Play_WaterCube_Quote_zh"/>
+				<Event Id="3792048448" Name="Stop_WaterCube_Quote_zh"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="616990102" Language="SFX">
+					<ShortName>WaterCube_Quote_zh.wav</ShortName>
+					<Path>SFX\WaterCube_Quote_zh_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

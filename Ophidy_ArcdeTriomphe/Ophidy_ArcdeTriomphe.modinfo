@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f4640c08-abc0-4325-aa23-7af2127bcba3" version="1">
+  <Properties>
+    <Name>MOD_OPH_ARCDETRIOMPHE_NAME</Name>
+    <Description>MOD_OPH_ARCDETRIOMPHE_DESC</Description>
+    <Created>1708020644</Created>
+    <Teaser>MOD_OPH_ARCDETRIOMPHE_DESC</Teaser>
+    <Authors>IthildinX,Ophidy,Phantagonist</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <LocalizedText>
+	<File>Text/en_US.xml</File>
+    <File>Text/ja_JP.xml</File>
+    <File>Text/zh_Hans_CN.xml</File>
+    <File>Text/zh_Hant_HK.xml</File>
+	<File>Text/ru_RU.xml</File>
+  </LocalizedText>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>18360729</LoadOrder>
+      </Properties>
+      <File>Database/Wonder.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="UpdateIcons">
+      <File>Icon/Texture.xml</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText">
+      <File>Text/en_US.xml</File>
+      <File>Text/ja_JP.xml</File>
+      <File>Text/zh_Hans_CN.xml</File>
+      <File>Text/zh_Hant_HK.xml</File>
+	  <File>Text/ru_RU.xml</File>
+    </UpdateText>
+    <UpdateArt id="UpdateArt">
+      <File>MOD_OPH_ARCDETRIOMPHE_NAME.dep</File>
+    </UpdateArt>
+    <UpdateAudio id="UpdateAudio">
+      <Properties>
+        <LoadOrder>20000</LoadOrder>
+      </Properties>
+      <File>Platforms/Windows/audio/Wonder_Music_Arc_de_Triomphe.ini</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Database/Wonder.sql</File>
+    <File>Icon/Texture.xml</File>
+    <File>MOD_OPH_ARCDETRIOMPHE_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_a</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_i</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_s</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_0_a</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_0_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_0_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_0_s</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_1_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_1_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_1_s</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_2_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_2_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_2_s</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_3_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_3_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_3_s</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_4_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_4_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_4_s</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Arc de Triomphe, Paris_d_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Arc de Triomphe, Paris_sub_mesh_0_d_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Arc de Triomphe, Paris_sub_mesh_1_d_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Arc de Triomphe, Paris_sub_mesh_2_d_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Arc de Triomphe, Paris_sub_mesh_3_d_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Arc de Triomphe, Paris_sub_mesh_4_d_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/TileBase.blp</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/audio/849893691.wem</File>
+    <File>Platforms/Windows/audio/SoundBank_Wonder_Music_Arc_de_Triomphe.bnk</File>
+    <File>Platforms/Windows/audio/SoundBank_Wonder_Music_Arc_de_Triomphe.xml</File>
+    <File>Platforms/Windows/audio/Wonder_Music_Arc_de_Triomphe.ini</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_a</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_i</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_s</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_0_a</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_0_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_0_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_0_s</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_1_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_1_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_1_s</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_2_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_2_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_2_s</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_3_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_3_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_3_s</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_4_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_4_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arc de Triomphe, Paris_sub_mesh_4_s</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Arc de Triomphe, Paris_d_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Arc de Triomphe, Paris_sub_mesh_0_d_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Arc de Triomphe, Paris_sub_mesh_1_d_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Arc de Triomphe, Paris_sub_mesh_2_d_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Arc de Triomphe, Paris_sub_mesh_3_d_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Arc de Triomphe, Paris_sub_mesh_4_d_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/TileBase.blp</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>Text/en_US.xml</File>
+    <File>Text/ja_JP.xml</File>
+    <File>Text/zh_Hans_CN.xml</File>
+    <File>Text/zh_Hant_HK.xml</File>
+	<File>Text/ru_RU.xml</File>
+  </Files>
+</Mod>

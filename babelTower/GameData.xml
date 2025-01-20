@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 2/19/2024 10:20:09 AM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_JD_BABEL" Kind="KIND_BUILDING"/>
+		<Row Type="TRAIT_BUILDING_JD_BABEL" Kind="KIND_TRAIT"/>
+	</Types>
+	<Traits>
+		<Row TraitType="TRAIT_BUILDING_JD_BABEL"/>
+	</Traits>
+	<Buildings>
+		<Row BuildingType="BUILDING_JD_BABEL" Name="LOC_BUILDING_JD_BABEL_NAME" Description="LOC_BUILDING_JD_BABEL_DESCRIPTION" PrereqTech="TECH_MINING" Cost="180" AdvisorType="ADVISOR_TECHNOLOGY" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_MEDIEVAL" Quote="LOC_BUILDING_ETEMENANKI_QUOTE" QuoteAudio="Play_ETEMENANKI_QUOTE_1"/>
+	</Buildings>
+	<Building_RequiredFeatures>
+		<Row BuildingType="BUILDING_JD_BABEL" FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row BuildingType="BUILDING_JD_BABEL" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND"/>
+		<Row BuildingType="BUILDING_JD_BABEL" FeatureType="FEATURE_FLOODPLAINS_PLAINS"/>
+	</Building_RequiredFeatures>
+	<DiplomaticVisibilitySources>
+		<Row VisibilitySourceType="SOURCE_BUILDING_JD_BABEL" Description="LOC_BUILDING_JD_BABEL_NAME" ActionDescription="LOC_VIZSOURCE_ACTION_BUILDING_JD_BABEL" GossipString="LOC_GOSSIP_SOURCE_TRAIT_BUILDING_JD_BABEL_NAME" FromCitizen="true" TraitType="TRAIT_BUILDING_JD_BABEL"/>
+	</DiplomaticVisibilitySources>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_JD_BABEL</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_JD_BABEL</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JD_BABEL</BuildingType>
+			<ModifierId>BUILDING_JD_BABEL_DIPLO_VISIBILITY</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BABEL</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_JD_BABEL_UNIT_ADJUST_SIGHT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_JD_BABEL_DIPLO_VISIBILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLO_VISIBILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_BABEL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_JD_BABEL_DIPLO_VISIBILITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_JD_BABEL_DIPLO_VISIBILITY</ModifierId>
+			<Name>Source</Name>
+			<Value>SOURCE_BUILDING_JD_BABEL</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_JD_BABEL_DIPLO_VISIBILITY</ModifierId>
+			<Name>SourceType</Name>
+			<Value>DIPLO_SOURCE_ALL_NAMES</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- *************** Custom ModifierType *************** -->
+	<Types>
+		<Row Kind="KIND_MODIFIER" Type="MODIFIER_BUILDING_JD_BABEL_UNIT_ADJUST_SIGHT"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_BUILDING_JD_BABEL_UNIT_ADJUST_SIGHT</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_UNITS</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_SIGHT</EffectType>
+		</Row>
+	</DynamicModifiers>
+</GameData>

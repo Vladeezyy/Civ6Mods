@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh_Hant_HK -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 2/12/2024 7:49:56 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_OPH_GATE_OF_THE_SUN_NAME" Language="zh_Hant_HK">
+			<Text>太陽門</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_GATE_OF_THE_SUN_DESC" Language="zh_Hant_HK">
+			<Text>允許您在 [ICON_GLORY_GOLDEN_AGE] 黃金時代使用黑暗時代政策。[NEWLINE][NEWLINE]必須建造在相鄰 [ICON_RESOURCE_STONE] 石頭的丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_GATE_OF_THE_SUN_QUOTE" Language="zh_Hant_HK">
+			<Text>「低浮雕覆蓋着雕刻的圖畫，這些圖畫不能被視為隨機繪製的線條。可以說，它們具有意義，也許不如表意文字具有象徵意義。」[NEWLINE]——查爾斯·維納</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_GATE_OF_THE_SUN_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>古代蒂瓦納科文化時代的巨石門，就位於玻利維亞高原地區。可能原為一個巨大神廟的門，上有浮雕，因門楣上刻有太陽神形象而得名。橫楣上刻地毯花紋，中間刻一手握權杖、正面而立、身穿戰俘頭裝飾的外衣的神像，其頭周圍刻滿放射狀的線，線頂端有動物的頭，權杖兩端裝飾著在美洲象征太陽的鷹的形象，故無疑此神即為太陽神。兩旁各有3排神秘的動物，頭戴錐形花冠，手握權杖，跪地面向中間的神。頂部和底部有排列著的人頭，大睜雙目，有的手舉禿鷹，朝向太陽神。太陽門上浮雕所具有的神秘色彩和複雜的寓意性，體現了當時人對於宇宙現象的理解，其中包含了深奧的曆法計數系統。</Text>
+		</Row>
+		
+		<Row Tag="MOD_OPH_GATEOFTHESUN_NAME" Language="zh_Hant_HK">
+			<Text>太陽門（世界奇觀）</Text>
+		</Row>
+		<Row Tag="MOD_OPH_GATEOFTHESUN_DESC" Language="zh_Hant_HK">
+			<Text>加入太陽門作為世界奇觀。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

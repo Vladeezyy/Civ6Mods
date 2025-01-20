@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7ac512c3-e2c5-4692-b4de-e3e803136b92" version="1">
+  <Properties>
+    <Name>MOD_OPH_GATEOFTHESUN_NAME</Name>
+    <Description>MOD_OPH_GATEOFTHESUN_DESC</Description>
+    <Created>1708276326</Created>
+    <Teaser>MOD_OPH_GATEOFTHESUN_DESC</Teaser>
+    <Authors>IthildinX,Ophidy,Phantagonist</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <LocalizedText>
+	<File>Text/GateoftheSun_en_US.xml</File>
+    <File>Text/GateoftheSun_ja_JP.xml</File>
+    <File>Text/GateoftheSun_zh_Hans_CN.xml</File>
+    <File>Text/GateoftheSun_zh_Hant_HK.xml</File>
+	<File>Text/GateoftheSun_ru_RU.xml</File>
+  </LocalizedText>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase_Gate_of_the_Sun">
+      <File>Database/GateoftheSun_Wonder.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="UpdateIcons_Gate_of_the_Sun">
+      <File>Icon/GateoftheSun_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText_Gate_of_the_Sun">
+      <File>Text/GateoftheSun_en_US.xml</File>
+      <File>Text/GateoftheSun_ja_JP.xml</File>
+      <File>Text/GateoftheSun_zh_Hans_CN.xml</File>
+      <File>Text/GateoftheSun_zh_Hant_HK.xml</File>
+      <File>Text/GateoftheSun_ru_RU.xml</File>
+    </UpdateText>
+    <UpdateArt id="UpdateArt_Gate_of_the_Sun">
+      <File>MOD_OPH_GATEOFTHESUN_NAME.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Database/GateoftheSun_Wonder.sql</File>
+    <File>Icon/GateoftheSun_Texture.xml</File>
+    <File>MOD_OPH_GATEOFTHESUN_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_White_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_White_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_SunGate_albedo_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_SunGate_AO</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_SunGate_normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_SunGate_normal1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_SunGate_roughness</File>
+    <File>Platforms/MacOS/BLPs/TileBase.blp</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_White_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_White_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_SunGate_albedo_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_SunGate_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_SunGate_normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_SunGate_normal1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_SunGate_roughness</File>
+    <File>Platforms/Windows/BLPs/TileBase.blp</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>Text/GateoftheSun_en_US.xml</File>
+    <File>Text/GateoftheSun_ja_JP.xml</File>
+    <File>Text/GateoftheSun_ru_RU.xml</File>
+    <File>Text/GateoftheSun_zh_Hans_CN.xml</File>
+    <File>Text/GateoftheSun_zh_Hant_HK.xml</File>
+  </Files>
+</Mod>

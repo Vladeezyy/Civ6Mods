@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- en_US -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 2/12/2024 7:50:05 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_OPH_ARC_DE_TRIOMPHE_NAME" Language="en_US">
+			<Text>Arc de Triomphe</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_ARC_DE_TRIOMPHE_DESC" Language="en_US">
+			<Text>[ICON_GreatGeneral] Great Generals have an additional charge. When a [ICON_GreatGeneral] Great General is retired, land units within 2 tiles heal up to 50HP.[NEWLINE][NEWLINE]Must be built on flat tiles in cities with a Military Academy.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_ARC_DE_TRIOMPHE_QUOTE" Language="en_US">
+			<Text>“Arise, children of the Fatherland,[NEWLINE]The day of glory has arrived!”[NEWLINE]- La Marseillaise</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_ARC_DE_TRIOMPHE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>To commemorate the victory over the Russian and Austrian forces in 1805, Napoleon commissioned the construction of “a great sculpture” in 1806 to welcome the triumphant return of French soldiers. On 15th August of the same year, the construction began with the designs of the famous architect Jean Chalgrin. However, the construction was interrupted after the defeat of Napoleon. The construction restarted only after the Bourbon Dynasty was overthrown. The Arc de Triomphe was finally inaugurated on July 29, 1836, after 30 years of intermittent construction.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_ARC_DE_TRIOMPHE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>True to its name, Arc de Triomphe is a triumphal arch to commemorate the return of the victorious armies. It had been the tallest triumphal arch until its record was broken by Monumento a la Revolución. It was at the center of the Place Charles de Gaulle, a plaza that was built with adjustments with regards to the arch. Because Arc de Triomphe caused troubles in traffic after its construction, a circular plaza and twelve roads were built around the arch in the 19th century. The roads were 40-80m wide in radiant forms like light rays emitting from a star, thus the plaza was originally called Place de l'Étoile, and Arc de Triomphe as Arc de Triomphe de l'Étoile. Now, Arc de Triomphe stood at the end of the famus Champs Elysées.</Text>
+		</Row>
+		
+		<Row Tag="MOD_OPH_ARCDETRIOMPHE_NAME" Language="en_US">
+			<Text>Arc de Triomphe (World Wonder)</Text>
+		</Row>
+		<Row Tag="MOD_OPH_ARCDETRIOMPHE_DESC" Language="en_US">
+			<Text>Adds Arc de Triomphe as a World Wonder.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

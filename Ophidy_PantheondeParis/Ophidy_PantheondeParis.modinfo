@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="29dbd640-f45c-44e7-a676-f821c56b786e" version="1">
+  <Properties>
+    <Name>MOD_OPH_PANTHEONDEPARIS_NAME</Name>
+    <Description>MOD_OPH_PANTHEONDEPARIS_DESC</Description>
+    <Created>1708275500</Created>
+    <Teaser>MOD_OPH_PANTHEONDEPARIS_DESC</Teaser>
+    <Authors>IthildinX,Ophidy,Phantagonist</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <LocalizedText>
+	<File>Text/PantheondeParis_en_US.xml</File>
+    <File>Text/PantheondeParis_ja_JP.xml</File>
+    <File>Text/PantheondeParis_zh_Hans_CN.xml</File>
+    <File>Text/PantheondeParis_zh_Hant_HK.xml</File>
+	<File>Text/PantheondeParis_ru_RU.xml</File>
+  </LocalizedText>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase_Pantheon_de_Paris">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>Database/PantheondeParis_Wonder.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="UpdateIcons_Pantheon_de_Paris">
+      <File>Icon/PantheondeParis_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText_Pantheon_de_Paris">
+      <File>Text/PantheondeParis_en_US.xml</File>
+      <File>Text/PantheondeParis_ja_JP.xml</File>
+      <File>Text/PantheondeParis_zh_Hans_CN.xml</File>
+      <File>Text/PantheondeParis_zh_Hant_HK.xml</File>
+      <File>Text/PantheondeParis_ru_RU.xml</File>
+    </UpdateText>
+    <UpdateArt id="UpdateArt_Pantheon_de_Paris">
+      <File>MOD_OPH_PANTHEONDEPARIS_NAME.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="AddGameplayScripts_Pantheon_de_Paris">
+      <File>Script/PantheondeParis_Script.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Database/PantheondeParis_Wonder.sql</File>
+    <File>Icon/PantheondeParis_Texture.xml</File>
+    <File>MOD_OPH_PANTHEONDEPARIS_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Concrete_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Concrete_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Concrete_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_The Pantheon_d_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_grey ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_The Pantheon_a</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_The Pantheon_i</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_The Pantheon_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_The Pantheon_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_The Pantheon_s</File>
+    <File>Platforms/MacOS/BLPs/TileBase.blp</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Concrete_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Concrete_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Concrete_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_The Pantheon_d_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_grey ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_The Pantheon_a</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_The Pantheon_i</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_The Pantheon_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_The Pantheon_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_The Pantheon_s</File>
+    <File>Platforms/Windows/BLPs/TileBase.blp</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>Script/PantheondeParis_Script.lua</File>
+    <File>Text/PantheondeParis_en_US.xml</File>
+    <File>Text/PantheondeParis_ja_JP.xml</File>
+    <File>Text/PantheondeParis_ru_RU.xml</File>
+    <File>Text/PantheondeParis_zh_Hans_CN.xml</File>
+    <File>Text/PantheondeParis_zh_Hant_HK.xml</File>
+  </Files>
+</Mod>

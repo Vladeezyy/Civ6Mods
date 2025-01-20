@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh_Hant_HK -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 2/12/2024 7:49:56 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_OPH_PANTHEON_DE_PARIS_NAME" Language="zh_Hant_HK">
+			<Text>先賢祠</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_PANTHEON_DE_PARIS_DESC" Language="zh_Hant_HK">
+			<Text>招募或贊助一位 [ICON_GreatPerson] 偉人後，將返還所消耗 [ICON_GreatPerson] 偉人點數的10%。你每有一位 [ICON_GreatPerson] 偉人耗盡次數，先賢祠便獲得等同於此 [ICON_GreatPerson] 偉人區域類型的+3產出。[NEWLINE][NEWLINE]必須建造在相鄰市政廣場區域的平坦地形上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_PANTHEON_DE_PARIS_QUOTE" Language="zh_Hant_HK">
+			<Text>「偉人們，祖國感念你們」[NEWLINE]——先賢祠門楣銘文</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_PANTHEON_DE_PARIS_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>先賢祠最初是法國國王路易十五任命當時的著名建築師蘇夫洛設計、建造的教堂。1791年，法國大革命時期著名革命家米拉波去世，製憲會議通過法令將這座教堂改為先賢祠。同年9月，米拉波以自由保衛者的身份成為第一位入葬先賢祠的偉人。伏爾泰和盧梭緊隨其後，分別於同年和1794年入葬先賢祠這座「祖國的神廟」。先賢祠由此具有了純粹的愛國與民族特性，被烙上歷史和文化的印記。法國歷任總統也繼承前人開創的事業，簽署法令並親自護送為法國和人類進步事業作出卓越貢獻、代表法蘭西價值觀的偉人們入葬先賢祠，以豐富和傳承法國的精神文化。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_PANTHEON_DE_PARIS_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>在先賢祠著名的人字牆下，鐫刻有一排工整的法文「偉人們，祖國感謝你們」。門廊墻上的五幅巨型浮雕集中反映了法國式的愛國主義和英雄主義。可以說先賢祠見證了大革命以來法蘭西的歷史風雲，承載著自由、平等、博愛的法蘭西價值觀。</Text>
+		</Row>
+		
+		<Row Tag="MOD_OPH_PANTHEONDEPARIS_NAME" Language="zh_Hant_HK">
+			<Text>先賢祠（世界奇觀）</Text>
+		</Row>
+		<Row Tag="MOD_OPH_PANTHEONDEPARIS_DESC" Language="zh_Hant_HK">
+			<Text>加入先賢祠作為世界奇觀。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

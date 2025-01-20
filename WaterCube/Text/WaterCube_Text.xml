@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_WATER_CUBE_NAME" Language="ja_JP">
+			<Text>ウォーターキューブ</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WATER_CUBE_DESCRIPTION" Language="ja_JP">
+			<Text>都市は9タイル以内の水泳施設から追加で [ICON_Amenities] 快適性+3。水泳施設のある都市の [ICON_Tourism] 観光力+50%。[NEWLINE][NEWLINE]水泳施設のある都市で、平らな土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WATER_CUBE_QUOTE" Language="ja_JP">
+			<Text>「十月の氷床は九つの都市に広がり、旅人は髪を引きずって歩いていく。風穏やかで日うららの時に端坐し、琉璃の世界を行くのだと疑う。」[NEWLINE]- 楊靜亭</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_WATER_CUBE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>「ウォーターキューブ」や「アイスキューブ」としても知られる国家水泳センターは、北京市朝陽区の北京オリンピック公園内にあり、2008年北京オリンピックのハイクオリティな会場であり、2022年北京冬季オリンピックのクラシックな改修会場でもある。国際オリンピック委員会（IOC）のトーマス・バッハ会長は、アイスキューブをオリンピック会場の持続可能な発展のモデルとして賞賛した。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WATER_CUBE_NAME" Language="zh_Hans_CN">
+			<Text>水立方</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WATER_CUBE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您的城市额外从9个单元格以内的水上运动中心获得+3 [ICON_Amenities] 宜居度。拥有水上运动中心的城市+50% [ICON_Tourism] 旅游业绩。[NEWLINE][NEWLINE]必须建造在平坦地形上，需要水上运动中心。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WATER_CUBE_QUOTE" Language="zh_Hans_CN">
+			<Text>十月冰床遍九城，游人曳去一毛轻。风和日暖时端坐，疑在琉璃世界行。[NEWLINE]——杨静亭</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_WATER_CUBE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>国家游泳中心，别名“水立方”、“冰立方”，位于北京市朝阳区北京奥林匹克公园内，是2008年北京奥运会的精品场馆和2022年北京冬奥会的经典改造场馆。国际奥委会主席托马斯·巴赫称赞，“冰立方”是奥运场馆可持续发展的典范。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WATER_CUBE_NAME" Language="en_US">
+			<Text>Water Cube</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WATER_CUBE_DESCRIPTION" Language="en_US">
+			<Text>Cities receive an additional +3 [ICON_Amenities] Amenities from Aquatics Centers within 9 tiles. Cities with an Aquatics Center receive +50% [ICON_Tourism] Tourism. [NEWLINE][NEWLINE]Must be built on flat tiles in cities with an Aquatics Center.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WATER_CUBE_QUOTE" Language="en_US">
+			<Text>“In the tenth month, ice froze beneath nine cities.[NEWLINE]And so the visitors relaxed in festivities.[NEWLINE]Sitting in warm winds and sunlight,[NEWLINE]Dreaming in a world glazed white.” [NEWLINE]- Yang Jingting</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_WATER_CUBE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The National Aquatics Center, also known as the ”Water Cube“ and ”Ice Cube“, is located in the Beijing Olympic Park in Chaoyang District, Beijing. It is a high-quality venue for the 2008 Beijing Olympic Games, and re-used for the 2022 Beijing Winter Olympic Games. Thomas Bach, President of the International Olympic Committee (IOC), praised the Ice Cube as a model of sustainable development for Olympic venues.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WATER_CUBE_NAME" Language="zh_Hant_HK">
+			<Text>水立方</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WATER_CUBE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>您的城市額外從9個單元格以內的水上運動中心獲得+3 [ICON_Amenities] 滿意度。擁有水上運動中心的城市+50% [ICON_Tourism] 旅遊業績。 [NEWLINE][NEWLINE]必須建造在平坦地形上，需要水上運動中心。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WATER_CUBE_QUOTE" Language="zh_Hant_HK">
+			<Text>「十月冰床遍九城，遊人曳去一毛輕。 風和日暖時端坐，疑在琉璃世界行。」[NEWLINE]——楊靜亭</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_WATER_CUBE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>國家游泳中心，別名「水立方」、「冰立方」，位於北京市朝陽區北京奧林匹克公園內，是2008年北京奧運會的精品場館和2022年北京冬奧會的經典改造場館。 國際奧會主席湯瑪斯·巴赫稱讚，「冰立方」是奧運場館可持續發展的典範。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_WATER_CUBE_NAME" Language="ru_RU">
+			<Text>Водяной куб</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WATER_CUBE_DESCRIPTION" Language="ru_RU">
+			<Text>Города получают дополнительные +3 [ICON_Amenities] довольства от центров водных видов спорта в пределах 9 клеток. Города с центром водных видов спорта получают +50% [ICON_Tourism] туризма.[NEWLINE][NEWLINE]Можно построить только на ровном участке в городе, где есть центр водных видов спорта.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WATER_CUBE_QUOTE" Language="ru_RU">
+			<Text>«На десятый месяц лед застыл под девятью городами.[NEWLINE]И поэтому посетители расслабились на празднествах.[NEWLINE]Сидя на теплом ветру и солнечном свете,[NEWLINE]мечтая о мире, покрытом белой глазурью».[NEWLINE]— Ян Цзинтин</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_WATER_CUBE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Национальный центр водных видов спорта, также известный как «Водяной куб» и «Ледяной куб», расположен в Пекинском олимпийском парке в районе Чаоян, Пекин. Это высококачественное место проведения Олимпийских игр 2008 года в Пекине, которое будет повторно использовано для зимних Олимпийских игр 2022 года в Пекине. Томас Бах, президент Международного олимпийского комитета (МОК), высоко оценил «Водяной куб» как модель устойчивого развития олимпийских объектов.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

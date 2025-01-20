@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	557304242	Play_WaterCube_Quote_zh			\Default Work Unit\Play_WaterCube_Quote_zh	
+	3792048448	Stop_WaterCube_Quote_zh			\Default Work Unit\Stop_WaterCube_Quote_zh	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	616990102	WaterCube_Quote_zh	D:\WwiseProjects\WaterCube_Quote_1\.cache\Windows\SFX\WaterCube_Quote_zh_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WaterCube_Quote_zh		1552448
+

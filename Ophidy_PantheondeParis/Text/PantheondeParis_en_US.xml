@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- en_US -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 2/12/2024 7:50:05 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_OPH_PANTHEON_DE_PARIS_NAME" Language="en_US">
+			<Text>Panthéon de Paris</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_PANTHEON_DE_PARIS_DESC" Language="en_US">
+			<Text>Recruiting or patronizing a [ICON_GreatPerson] Great Person refunds 10% of their point cost. For each [ICON_GreatPerson] Great Person retired, Panthéon de Paris receives +3 yield equal to that [ICON_GreatPerson] Great Person's district type.[NEWLINE][NEWLINE]Must be built on flat tiles adjacent to the Government Plaza district.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_PANTHEON_DE_PARIS_QUOTE" Language="en_US">
+			<Text>"To the great men, the grateful homeland."[NEWLINE]- Inscription on Panthéon de Paris</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_PANTHEON_DE_PARIS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Panthéon de Paris was originally a church designed and built by Soufflot, a famous architect commissioned by King Louis XV of France. The church was converted into a mausoleum under the edict of National Constituent Assembly, following the death of Honoré Gabriel Riqueti, comte de Mirabeau, a prominent figure during the French Revolution. He was the first great person buried in Panthéon de Paris in September as a protector of freedom. Voltaire and Rousseau were also buried in this "temple of homeland", in the same year and in 1794 respectively. The Panthéon de Paris has thus become an icon of patriotism and nationalism, marked by history and culture. Succeeding presidents of France have followed in the footsteps of their predecessors by signing decrees and personally escorting the great people Panthéon de Paris for their outstanding contributions to France and the advancement of mankind, and who represent the values of France, in order to enrich and pass on the spirit and culture of France.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_PANTHEON_DE_PARIS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Beneath the well-known triangular roof of the Panthéon de Paris engraved the words "Aux grands hommes la patrie reconnaissante" (To the great men, the grateful homeland). The five giant bas-reliefs on the wall of the portico represent French patriotism and heroism. It can be said that the Panthéon de Paris has witnessed the history of France since the Revolution and has carried the French values of liberty, equality and fraternity.</Text>
+		</Row>
+		
+		<Row Tag="MOD_OPH_PANTHEONDEPARIS_NAME" Language="en_US">
+			<Text>Panthéon de Paris (World Wonder)</Text>
+		</Row>
+		<Row Tag="MOD_OPH_PANTHEONDEPARIS_DESC" Language="en_US">
+			<Text>Adds Panthéon de Paris as a World Wonder.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

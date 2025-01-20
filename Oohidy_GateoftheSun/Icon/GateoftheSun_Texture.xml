@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texture -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 2/13/2024 4:36:32 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_BUILDING_OPH_GATE_OF_THE_SUN" IconSize="32" Filename="ICON_BUILDING_OPH_GATE_OF_THE_SUN_32"/>
+		<Row Name="ATLAS_ICON_BUILDING_OPH_GATE_OF_THE_SUN" IconSize="38" Filename="ICON_BUILDING_OPH_GATE_OF_THE_SUN_38"/>
+		<Row Name="ATLAS_ICON_BUILDING_OPH_GATE_OF_THE_SUN" IconSize="50" Filename="ICON_BUILDING_OPH_GATE_OF_THE_SUN_50"/>
+		<Row Name="ATLAS_ICON_BUILDING_OPH_GATE_OF_THE_SUN" IconSize="64" Filename="ICON_BUILDING_OPH_GATE_OF_THE_SUN_64"/>
+		<Row Name="ATLAS_ICON_BUILDING_OPH_GATE_OF_THE_SUN" IconSize="128" Filename="ICON_BUILDING_OPH_GATE_OF_THE_SUN_128"/>
+		<Row Name="ATLAS_ICON_BUILDING_OPH_GATE_OF_THE_SUN" IconSize="256" Filename="ICON_BUILDING_OPH_GATE_OF_THE_SUN_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_OPH_GATE_OF_THE_SUN" Atlas="ATLAS_ICON_BUILDING_OPH_GATE_OF_THE_SUN" Index="0"/>
+		<Row Name="ICON_BUILDING_OPH_GATE_OF_THE_SUN_FOW" Atlas="ATLAS_ICON_BUILDING_OPH_GATE_OF_THE_SUN" Index="0"/>
+	</IconDefinitions>
+</GameData>

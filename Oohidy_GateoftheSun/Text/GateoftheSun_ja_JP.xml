@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ja_JP -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 2/12/2024 7:50:20 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_OPH_GATE_OF_THE_SUN_NAME" Language="ja_JP">
+			<Text>太陽の門</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_GATE_OF_THE_SUN_DESC" Language="ja_JP">
+			<Text>[ICON_GLORY_GOLDEN_AGE]黄金時代の間は暗黒時代の政策も採用できる。[NEWLINE][NEWLINE][ICON_RESOURCE_STONE] 石材に隣接した丘陵にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_GATE_OF_THE_SUN_QUOTE" Language="ja_JP">
+			<Text>「この浮き彫りには、無造作に描かれた線とは思えないデザインが刻まれている。それらは、おそらく表意的というより象徴的な意味を持っていると断言できる。」[NEWLINE]——チャールズ・ウィーナー</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_GATE_OF_THE_SUN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>古代ティワナクの巨石門はボリビアの高地にある。もともとは、浮き彫りの彫刻が施された巨大な神殿の出入り口だったと思われ、フリーズに彫られた太陽神の像からこの名がついた。フリーズには絨毯の模様が彫られており、その中央には、片手に笏を持ち、その前に捕虜の頭部で飾られたチュニックを着て立っている神の像があり、頭の周りには放射状の線があり、線の上部には動物の頭が描かれ、笏の両端にはアメリカ大陸で太陽のシンボルである鷲が飾られていることから、これが太陽の神であることは間違いない。両側には、円錐形の花冠をかぶり、笏を持った不思議な動物たちが3列に並び、ひざまずいて中央の神と向かい合っている。 上下に配置された人間の頭は、大きく目を見開き、ある者はコンドルを持ち、太陽神に向かっている。 太陽の門のレリーフの神秘的な色彩と複雑な寓意性は、宇宙の現象に対する当時の人々の理解を具現化したものであり、そこには深遠な暦数体系が含まれている。</Text>
+		</Row>
+		
+		<Row Tag="MOD_OPH_GATEOFTHESUN_NAME" Language="ja_JP">
+			<Text>太陽の門（世界遺產）</Text>
+		</Row>
+		<Row Tag="MOD_OPH_GATEOFTHESUN_DESC" Language="ja_JP">
+			<Text>世界遺産である太陽の門を導入する。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

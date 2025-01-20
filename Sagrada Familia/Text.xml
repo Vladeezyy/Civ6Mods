@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_SAGRADA_FAMILIA_NAME" Language="ru_RU">
+			<Text>Саграда Фамилия</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SAGRADA_FAMILIA_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет бесплатного [ICON_GreatEngineer] Великого инженера. Этот город получает [ICON_Gold] Золото, равное 100% от генерации [ICON_Faith] Веры, и [ICON_Production] Производство, равное 50% от генерации [ICON_Faith] Веры. Должно быть построено на ровной местности.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SAGRADA_FAMILIA_QUOTE" Language="ru_RU">
+			<Text>«Искупительный храм Саграда Фамилия создаётся народом и отражает его. Это работа, находящаяся в руках Бога и воли народа.»[NEWLINE]- Антонио Гауди</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_NAME" Language="ru_RU">
+			<Text>Антонио Гауди</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA" Language="ru_RU">
+			<Text>Центры городов в радиусе 6 клеток получают +6 [ICON_Production] Производства, +6 [ICON_Faith] Веры и -12 [ICON_Gold] Золота.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SAGRADA_FAMILIA_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Базилика Искупления Саграда Фамилия, более известная как Саграда Фамилия, — это католическая базилика, расположенная в районе Эйшампле в Барселоне. После отставки другого архитектора с проекта строительства Саграда Фамилия в 1883 году Антонио Гауди стал главным архитектором, объединив свой мастерский криволинейный стиль модерн с готической католической архитектурой. Гауди посвятил оставшуюся жизнь строительству Саграда Фамилия, но на момент его смерти в 1926 году было завершено менее четверти проекта. Строительство Саграда Фамилия было прервано гражданской войной в Испании и до сих пор не завершено. Тем не менее, это здание восхищает многочисленных посетителей своей колоссальной высотой и уникальным дизайном, а также входит в список объектов Всемирного наследия ЮНЕСКО, несмотря на свой незавершённый статус.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Антонио Гауди — испанский каталонский архитектор. В 1852 году он родился в семье медников и изучал архитектуру в Барселоне. В 1877 году он участвовал в проектировании Парка Сьютаделья. Его архитектура в стиле модерн впечатлила Эусеби Гуэля, который поручил Гауди проектирование ряда зданий. После отставки другого архитектора с проекта строительства Саграда Фамилия в 1883 году Антонио Гауди стал главным архитектором, объединив свой мастерский криволинейный стиль модерн с готической католической архитектурой. Гауди посвятил оставшуюся жизнь строительству Саграда Фамилия, но на момент его смерти в 1926 году было завершено менее четверти проекта.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SAGRADA_FAMILIA_NAME" Language="ja_JP">
+			<Text>サグラダ・ファミリア</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SAGRADA_FAMILIA_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_GreatEngineer] 大技術者を無料で1人得る。この都市で産出される [ICON_Faith] 信仰力の100%に相当する [ICON_Gold] ゴールドと50%に相当する [ICON_Production] 生產力を得る。平らな土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SAGRADA_FAMILIA_QUOTE" Language="ja_JP">
+			<Text>「聖家族贖罪教会は、人々によって作られ、人々の中に映し出される。それは神の御手と人々の意志に委ねられた作品である。」[NEWLINE]- アントニ・ガウディ</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_NAME" Language="ja_JP">
+			<Text>アントニ・ガウディ</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA" Language="ja_JP">
+			<Text>6タイル以内にある都心の [ICON_Production] 生產力+6、 [ICON_Faith] 信仰力+6、 [ICON_Gold] ゴールド-12。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SAGRADA_FAMILIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>聖家族贖罪教会、またはサグラダ・ファミリアは、バルセロナのアシャンプラ地区にあるカトリックのバシリカである。1883年、他の建築家がサグラダ・ファミリアの建設プロジェクトを辞めたため、アントニ・ガウディが主任建築家として後を継ぎ、見事な曲線美を持つアール・ヌーヴォー様式とゴシック・リヴァイヴァルのカトリック建築を融合させた。ガウディは余生をサグラダ・ファミリアの建設に捧げたが、1926年に亡くなった時点で、完成していたのはプロジェクトの4分の1にも満たなかった。サグラダ・ファミリアの建設はスペイン内戦によって中断され、現在も完成には至っていない。それでもこの建物は、その圧倒的な高さと並外れたデザインで多くの観光客の賞賛を浴び、未完成の状態にもかかわらずユネスコの世界遺産に登録されている。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>アントニ・ガウディはスペインのカタルーニャ人建築家。1852年、銅職人の家に生まれ、バルセロナで建築を学ぶ。1877年、シウタデラ広場の設計に参加。彼のモダニズム建築はエウセビ・グエルに感銘を与え、グエルはガウディに多くの建築物の設計を依頼した。1883年、他の建築家がサグラダ・ファミリアの建設プロジェクトから辞職すると、アントニ・ガウディが主任建築家として後を継ぎ、彼の卓越した曲線美のアール・ヌーヴォー様式とゴシック・リヴァイヴァルのカトリック建築を融合させた。ガウディは、余生をサグラダ・ファミリアの建設に捧げたが、1926年に亡くなった時点で、プロジェクトの4分の1以下しか完成していなかった。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SAGRADA_FAMILIA_NAME" Language="zh_Hant_HK">
+			<Text>聖家宗座聖殿暨贖罪殿</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SAGRADA_FAMILIA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>該城市獲得其每回合信仰値産出100%的 [ICON_Gold] 金幣和50%的 [ICON_Production] 生産力，免費獲得1个 [ICON_GreatEngineer] 大工程師。必須建造在平坦地形上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SAGRADA_FAMILIA_QUOTE" Language="zh_Hant_HK">
+			<Text>「聖家堂贖罪殿是人的傑作，也是人的寫照。它掌握於上帝之手，成就於人的意志。」[NEWLINE]——安東尼奥·高第</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_NAME" Language="zh_Hant_HK">
+			<Text>安東尼·高第</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA" Language="zh_Hant_HK">
+			<Text>為6個單元格以內的所有市中心提供+6 [ICON_Production] 生產力，+6 [ICON_Faith] 信仰值和-12 [ICON_Gold] 金幣。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SAGRADA_FAMILIA_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>聖家宗座聖殿暨贖罪殿（簡稱聖家堂）是一座位於巴塞羅那擴展區的天主教宗座聖殿。1883年，當另一名建築師辭職聖家堂的建設工程後，高第接任總建築師，將他得意的曲線新藝術風格糅合於哥德復興式天主教建築。高第將他的餘生貢獻於聖家堂建設中，但當他於1926年去世時，這座教堂的建築工程僅僅完成了不足四分之一。聖家堂因西班牙內戰而中斷，建設過程至今尚未完成。即使如此，這座建築依然以其高聳的結構和獨一無二的設計贏得無數遊客的讚歎，成為巴塞羅那的知名地標，更在尚未完成已經名列聯合國教科文組織世界遺產名錄。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>安東尼·高第是西班牙加泰隆尼亞出身的建築師。他在1852年出生於一個銅匠家庭，後來於巴塞羅那修讀建築系。1877年，他協助完成巴塞羅那城堡公園的設計，其現代風格的建築風格打動了歐塞比奎爾，受其委託建造了多座建築。1883年，當另一名建築師辭職聖家堂的建設工程後，高第接任總建築師，將他得意的曲線新藝術風格糅合於哥德復興式天主教建築。高第將他的餘生貢獻於聖家堂建設中，但當他於1926年去世時，這座教堂的建築工程僅僅完成了不足四分之一。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SAGRADA_FAMILIA_NAME" Language="zh_Hans_CN">
+			<Text>圣家堂</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SAGRADA_FAMILIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市获得其每回合信仰值产出100%的 [ICON_Gold] 金币和50%的 [ICON_Production] 生产力，免费获得1个 [ICON_GreatEngineer] 大工程师。必須建造在平坦地形上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SAGRADA_FAMILIA_QUOTE" Language="zh_Hans_CN">
+			<Text>圣家堂赎罪殿是人的杰作，也是人的写照。它掌握于上帝之手，成就于人的意志。[NEWLINE]——安东尼·高迪</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_NAME" Language="zh_Hans_CN">
+			<Text>安东尼·高迪</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA" Language="zh_Hans_CN">
+			<Text>为6个单元格以内的所有市中心提供+6 [ICON_Production] 生产力，+6 [ICON_Faith] 信仰值和-12 [ICON_Gold] 金币。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SAGRADA_FAMILIA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>圣家堂是一座位于巴塞罗那扩展区的天主教大教堂。1883年，当另一名建筑师辞职圣家堂的建设工程后，高迪接任总建筑师，将他得意的曲线新艺术风格糅合于哥德复兴式天主教建筑。高迪将他的馀生贡献于圣家堂建设中，但当他于1926年去世时，这座教堂的建筑工程仅仅完成了不足四分之一。圣家堂因西班牙内战而中断，建设过程至今尚未完成。即使如此，这座建筑依然以其高耸的结构和独一无二的设计赢得无数游客的讚歎，成为巴塞罗那的知名地标，更在尚未完成已经名列联合国教科文组织世界遗产名录。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_GAUDI_SAGRADA_FAMILIA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>安东尼·高迪是西班牙加泰隆尼亚出身的建筑师。他在1852年出生于一个铜匠家庭，后来于巴塞罗那修读建筑系。1877年，他协助完成巴塞罗那城堡公园的设计，其现代风格的建筑风格打动了欧塞比·桂尔，受其委託建造了多座建筑。1883年，当另一名建筑师辞职圣家堂的建设工程后，高迪接任总建筑师，将他得意的曲线新艺术风格糅合于哥德复兴式天主教建筑。高迪将他的馀生贡献于圣家堂建设中，但当他于1926年去世时，这座教堂的建筑工程仅仅完成了不足四分之一。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

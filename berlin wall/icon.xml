@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- icon -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 2/2/2024 11:39:51 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_BUILDING_JD_BERLIN_WALL" IconSize="32" Filename="ICON_BUILDING_JD_BERLIN_WALL_32"/>
+		<Row Name="ATLAS_ICON_BUILDING_JD_BERLIN_WALL" IconSize="38" Filename="ICON_BUILDING_JD_BERLIN_WALL_38"/>
+		<Row Name="ATLAS_ICON_BUILDING_JD_BERLIN_WALL" IconSize="50" Filename="ICON_BUILDING_JD_BERLIN_WALL_50"/>
+		<Row Name="ATLAS_ICON_BUILDING_JD_BERLIN_WALL" IconSize="80" Filename="ICON_BUILDING_JD_BERLIN_WALL_80"/>
+		<Row Name="ATLAS_ICON_BUILDING_JD_BERLIN_WALL" IconSize="128" Filename="ICON_BUILDING_JD_BERLIN_WALL_128"/>
+		<Row Name="ATLAS_ICON_BUILDING_JD_BERLIN_WALL" IconSize="256" Filename="ICON_BUILDING_JD_BERLIN_WALL_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_JD_BERLIN_WALL" Atlas="ATLAS_ICON_BUILDING_JD_BERLIN_WALL" Index="0"/>
+	</IconDefinitions>
+</GameData>

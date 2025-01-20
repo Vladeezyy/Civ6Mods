@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh_Hans_CN -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 2/12/2024 7:49:25 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_OPH_ARC_DE_TRIOMPHE_NAME" Language="zh_Hans_CN">
+			<Text>巴黎凯旋门</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_ARC_DE_TRIOMPHE_DESC" Language="zh_Hans_CN">
+			<Text>[ICON_GREATGENERAL] 大将军拥有额外1点使用次数。 [ICON_GREATGENERAL] 大将军隐退时，为两个单元格以内的陆地单位回复50生命值。[NEWLINE][NEWLINE]必须建造平坦地形上，且该城市需拥有军事学院（军营）。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPH_ARC_DE_TRIOMPHE_QUOTE" Language="zh_Hans_CN">
+			<Text>起来，祖国的儿女们！[NEWLINE]光荣之日已来到！[NEWLINE]——《马赛曲》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_ARC_DE_TRIOMPHE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>拿破仑为纪念1805年打败俄奥联军的胜利，于1806年下令修建"一道伟大的雕塑"，迎接日后凯旋的法军将士。同年8月15日，按照著名建筑师让·夏格伦的设计开始动土兴建，但后来拿破仑被推翻后，凯旋门工程中途辍止。1830年波旁王朝被推翻后，工程才得以继续。断断续续经过了30年，凯旋门终于在1836年7月29日举行了落成典礼。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_ARC_DE_TRIOMPHE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>凯旋门正如其名，是一座迎接外出征战的军队凯旋的大门。它在建成时是世界上最高的同类结构，直到被墨西哥的革命纪念塔打破就连。它位于巴黎市中心戴高乐广场中央的环岛上面，这座广场也是配合凯旋门而修建的。因为凯旋门建成后，给交通带来了不便，于是就在19世纪中叶，环绕凯旋门一周修建了一个圆形广场及12条道路，每条道路都有40~80米宽，呈放射状，就像明星发出的灿烂光芒，因此这个广场又叫明星广场。凯旋门也称为"星门"。凯旋门就位于著名的香榭丽舍大街的尽头。</Text>
+		</Row>
+		
+		<Row Tag="MOD_OPH_ARCDETRIOMPHE_NAME" Language="zh_Hans_CN">
+			<Text>巴黎凯旋门（世界奇观）</Text>
+		</Row>
+		<Row Tag="MOD_OPH_ARCDETRIOMPHE_DESC" Language="zh_Hans_CN">
+			<Text>加入巴黎凯旋门作为世界奇观。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
