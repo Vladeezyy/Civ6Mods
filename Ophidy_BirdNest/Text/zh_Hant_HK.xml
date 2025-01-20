@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- zh_Hant_HK -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 2/12/2024 7:49:56 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_OPH_BIRD_NEST_NAME" Language="zh_Hant_HK">
+			<Text>鳥巢國家體育館</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OPH_BIRD_NEST_DESC" Language="zh_Hant_HK">
+			<Text>您文明的所有城市，若其 [ICON_POWER] 供電充足，則其所有專業化區域提供等於相鄰加成200%的 [ICON_TOURISM] 旅遊業績。[NEWLINE][NEWLINE]必須建造在相鄰娛樂中心區域（須建有體育場）的平坦地形上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OPH_BIRD_NEST_QUOTE" Language="zh_Hant_HK">
+			<Text>「如果站在古羅馬的體育場裏，我們不會在乎它的建築形式，只會關註裏面的競技運動員本身。從這個意義上講，它就不會是過時的，因為體育的精神是永恒的。」[NEWLINE]——李興鋼</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_BIRD_NEST_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>國家體育場（National Stadium），又名「鳥巢」（Bird's Nest），位於北京奧林匹克公園中心區南部，為2008年北京奧運會的主體育場，舉行了2008年夏季奧運會、殘奧會開閉幕式、田徑比賽及足球比賽決賽，以及2022年冬季奧運會、冬殘奧會開閉幕式。 體育場的形態如同孕育生命的「巢」和搖籃，寄托著人類對未來的希望。設計者們對這個場館沒有做任何多余的處理，把結構暴露在外，因而自然形成了建築的外觀。 </Text>
+		</Replace>
+
+		<Replace Tag="MOD_OPH_BIRDNEST_NAME" Language="zh_Hant_HK">
+			<Text>鳥巢國家體育館（世界奇觀）</Text>
+		</Replace>
+		<Replace Tag="MOD_OPH_BIRDNEST_DESC" Language="zh_Hant_HK">
+			<Text>加入鳥巢國家體育館作為世界奇觀。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- improment -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 1/28/2024 5:03:39 PM -->
+<GameData>
+	<Traits>
+		<Row TraitType="TRAIT_JD_ATACAMA_GIANT"/>
+	</Traits>
+	<Types>
+		<Row Type="IMPROVEMENT_JD_ATACAMA_GIANT" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="TRAIT_JD_ATACAMA_GIANT" Kind="KIND_TRAIT"/>
+	</Types>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_JD_ATACAMA_GIANT" Name="LOC_IMPROVEMENT_JD_ATACAMA_GIANT_NAME" Description="LOC_IMPROVEMENT_JD_ATACAMA_GIANT_DESCRIPTION" Icon="ICON_IMPROVEMENT_JD_ATACAMA_GIANT" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" Appeal="1" SameAdjacentValid="false" TraitType="TRAIT_JD_ATACAMA_GIANT"/>
+	</Improvements>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_JD_ATACAMA_GIANT" YieldChangeId="JD_ATACAMA_GIANTAdjacency1"/>
+		<Row ImprovementType="IMPROVEMENT_JD_ATACAMA_GIANT" YieldChangeId="JD_ATACAMA_GIANTAdjacency2"/>
+		<Row ImprovementType="IMPROVEMENT_JD_ATACAMA_GIANT" YieldChangeId="JD_ATACAMA_GIANTAdjacency3"/>
+		<Row ImprovementType="IMPROVEMENT_JD_ATACAMA_GIANT" YieldChangeId="JD_ATACAMA_GIANTAdjacency4"/>
+	</Improvement_Adjacencies>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_JD_ATACAMA_GIANT" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_JD_ATACAMA_GIANT" TerrainType="TERRAIN_DESERT_HILLS"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_JD_ATACAMA_GIANT" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_JD_ATACAMA_GIANT" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_JD_ATACAMA_GIANT" YieldType="YIELD_FOOD" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_JD_ATACAMA_GIANT" YieldType="YIELD_PRODUCTION" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_JD_ATACAMA_GIANT" YieldType="YIELD_CULTURE" YieldChange="0"/>
+	</Improvement_YieldChanges>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_JD_ATACAMA_GIANT" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<Adjacency_YieldChanges>
+		<Row ID="JD_ATACAMA_GIANTAdjacency1" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_DESERT"/>
+		<Row ID="JD_ATACAMA_GIANTAdjacency2" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_DESERT_HILLS"/>
+		<Row ID="JD_ATACAMA_GIANTAdjacency3" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row ID="JD_ATACAMA_GIANTAdjacency4" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentWonder="true"/>
+	</Adjacency_YieldChanges>
+</GameData>

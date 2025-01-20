@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="25b096b6-3f4f-432a-be25-5680ae03b193" version="6">
+  <Properties>
+    <Name>[COLOR:ResFaithLabelCS]6T[ENDCOLOR] - Great Explorers (Great People Pack)</Name>
+    <Description>Adds Great Explorers as a new Science-focused Great Person type for maritime empires. Starting from the Medieval era, Great Explorers can be earned to gain Science from exploring and finding the best place to use them, based on various terrains and features found on the map. Great Explorer points are primarily earned with maritime infrastructure as well as Universities, Zoos, and Aquariums, as well as a few new policies.</Description>
+    <Teaser>Adds Great Explorers as a new Science-focused Great Person type.</Teaser>
+    <Authors>JNR</Authors>
+    <SpecialThanks>Leugi (project icon)</SpecialThanks>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+	<Criteria id="MOD_Oceans">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>				<!-- Suk's Oceans -->
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="MOD_Wetlands">
+	  <ModInUse>73b1478a-73bf-4907-8914-b1b5acca388b</ModInUse>				<!-- Wetlands -->
+	</Criteria>
+	<Criteria id="MOD_Savannah">
+	  <ModInUse>1ec10c1f-677c-4af8-be22-e7df2f4de858</ModInUse>				<!-- Savannah -->
+	</Criteria>
+	<Criteria id="MOD_MMSS">
+	  <ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>				<!-- More Maritime: Seaside Sectors -->
+	</Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay_Base">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Gameplay/6T_GE_Type_Base.sql</File>
+      <File>Gameplay/6T_GE_Districts_Buildings_Projects.sql</File>
+      <File>Gameplay/6T_GE_Policies.sql</File>
+      <File>Gameplay/6T_GE_Misc.sql</File>
+      <File>Gameplay/6T_GE_Great_Explorers.sql</File>
+      <File>Gameplay/6T_GE_Great_Scientists.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_AI">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Gameplay/6T_GE_AIFavoredItems.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_Suk_Oceans" criteria="MOD_Oceans">
+      <Properties>
+        <LoadOrder>14</LoadOrder>
+      </Properties>
+      <File>Gameplay/ModSupport/6T_GE_Great_Explorers_Suk_Oceans.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_Wetlands" criteria="MOD_Wetlands">
+      <Properties>
+        <LoadOrder>14</LoadOrder>
+      </Properties>
+      <File>Gameplay/ModSupport/6T_GE_Great_Explorers_Wetlands.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_Wetlands" criteria="MOD_Savannah">
+      <Properties>
+        <LoadOrder>14</LoadOrder>
+      </Properties>
+      <File>Gameplay/ModSupport/6T_GE_Great_Explorers_Savannah.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_MMSS" criteria="MOD_MMSS">
+      <Properties>
+        <LoadOrder>14</LoadOrder>
+      </Properties>
+      <File>Gameplay/ModSupport/6T_GE_Great_Explorers_MMSS.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Text/6T_GE_Text_Base.sql</File>
+      <File>Text/6T_GE_Text_Civilopedia.sql</File>
+      <File>Text/6T_GE_Text_Great_People.sql</File>
+      <File>Text/6T_GE_Text_Policies.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>14</LoadOrder>
+      </Properties>
+      <File>Icons/6T_GE_Icons_Base.sql</File>
+      <File>Icons/6T_GE_Icons_Units.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>6T_Great_Explorers.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Gameplay/6T_GE_AIFavoredItems.sql</File>
+    <File>Gameplay/6T_GE_Districts_Buildings_Projects.sql</File>
+    <File>Gameplay/6T_GE_Great_Explorers.sql</File>
+    <File>Gameplay/6T_GE_Great_Scientists.sql</File>
+    <File>Gameplay/6T_GE_Misc.sql</File>
+    <File>Gameplay/6T_GE_Policies.sql</File>
+    <File>Gameplay/6T_GE_Type_Base.sql</File>
+    <File>Gameplay/ModSupport/6T_GE_Great_Explorers_MMSS.sql</File>
+	<File>Gameplay/ModSupport/6T_GE_Great_Explorers_Savannah.sql</File>
+    <File>Gameplay/ModSupport/6T_GE_Great_Explorers_Suk_Oceans.sql</File>
+    <File>Gameplay/ModSupport/6T_GE_Great_Explorers_Wetlands.sql</File>
+    <File>6T_Great_Explorers.dep</File>
+    <File>Icons/6T_GE_Icons_Base.sql</File>
+    <File>Icons/6T_GE_Icons_Units.sql</File>
+    <File>Text/6T_GE_Text_Base.sql</File>
+    <File>Text/6T_GE_Text_Civilopedia.sql</File>
+    <File>Text/6T_GE_Text_Great_People.sql</File>
+    <File>Text/6T_GE_Text_Policies.sql</File>
+  </Files>
+</Mod>

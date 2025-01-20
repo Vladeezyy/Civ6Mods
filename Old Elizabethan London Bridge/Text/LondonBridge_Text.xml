@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LondonBridge_Text -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 12/12/2023 8:50:21 PM -->
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_BUILDING_OLD_LONDON_BRIDGE_NAME">
+			<Text>Старый Лондонский мост</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OLD_LONDON_BRIDGE_DESCRIPTION">
+			<Text>Сухопутные юниты могут пересекать без необходимости погружаться на воду. Действует как дорога и создает Классические дороги (если их нет) на суше с обеих сторон. [NEWLINE]+3 [ICON_Faith] Веры за каждый иностранный [ICON_TradeRoute] Торговый путь, проходящий через город. [ICON_TradeRoute] Торговые пути, проходящие через него, могут умножать [ICON_Gold] Золото, которое они получают от районов в пункте назначения.[NEWLINE][NEWLINE]Должен быть построен на побережье или озере. Мост должен проходить прямо через гекс между двумя сухопутными клетками, расположенными друг напротив друга. По обе стороны моста (слева и справа) должна быть хотя бы одна водная клетка.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OLD_LONDON_BRIDGE_QUOTE">
+			<Text>"Лондонский мост падает, Падает, падает, Лондонский мост падает, Моя милая леди."[NEWLINE]- традиционная английская детская песенка</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OLD_LONDON_BRIDGE_CHAPTER_HISTORY_PARA_1">
+			<Text>Несколько мостов под названием "Лондонский мост" пересекали реку Темзу между Сити Лондона и Саутуорком в центральной части Лондона. Это самое старое место для пересечения реки. Современный мост, открытый для движения в 1973 году, представляет собой коробчатую балочную конструкцию, построенную из бетона и стали. Он заменил каменный арочный мост XIX века, который, в свою очередь, заменил средневековый каменный мост, прослуживший около 600 лет. Средневековый мост, помимо дороги, поддерживал застроенную территорию с домами и магазинами. Южный конец моста в Саутуорке охранялся крупными каменными воротами. Средневековому мосту предшествовала серия деревянных мостов, первый из которых был построен римскими основателями Лондона (Лондиния) около 50 года н.э.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OLD_LONDON_BRIDGE_CHAPTER_HISTORY_PARA_2">
+			<Text>"Лондонский мост падает" (также известная как "Моя милая леди" или "Лондонский мост") — традиционная английская детская песенка и игра, которая существует в различных версиях по всему миру. Она рассказывает о разрушении Лондонского моста и попытках, реалистичных или вымышленных, его починить. Ее происхождение может восходить к песням и играм о мостах позднего Средневековья, но первые записи текста на английском языке относятся к XVII веку. Лирика была впервые напечатана в современной форме в середине XVIII века и стала популярной, особенно в Британии и США, в XIX веке.</Text>
+		</Replace>
+
+	</BaseGameText>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_OLD_LONDON_BRIDGE_NAME" Language="zh_Hant_HK">
+			<Text>舊倫敦橋</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OLD_LONDON_BRIDGE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>陸地單位無須上船即可穿越。效果等同道路且會在兩端的陸地單元格建造古典時代道路（若尚未建造的話）。[NEWLINE]每條通過此城市的國際[ICON_TradeRoute]貿易路線每回合+3[ICON_Faith]信仰值收入。經過此處的 [ICON_TradeRoute] 貿易路線能夠從其目的地區域獲得成倍的[ICON_Gold]金幣收益。[NEWLINE][NEWLINE]必須建造在海岸或湖泊單元格上。橋樑必須穿越兩個陸地單元格間的單元格，並直接通往另一端。橋樑的左側和右側至少必須有一個水域單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OLD_LONDON_BRIDGE_QUOTE" Language="zh_Hant_HK">
+			<Text>「倫敦大橋垮下來，垮下來，垮下來。[NEWLINE]倫敦大橋垮下來，我窈窕的淑女。」[NEWLINE]——英國傳統童謠</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OLD_LONDON_BRIDGE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>倫敦橋是一座橫跨英國泰晤士河的箱形樑橋，主要連結倫敦都會區內的倫敦市和南華克兩個行政區。坎農街鐵路橋位於它的西側；著名的倫敦塔橋位於它的東面。橋南岸是倫敦地鐵倫敦橋站和南華克座堂。這座舉世知名的橋在1750年西敏橋通車前，是越過泰晤士河的唯一橋梁，亦是倫敦所建歷史最悠久的一座橋。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OLD_LONDON_BRIDGE_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>《倫敦大橋垮下來》是一首知名的英國傳統童謠。歌曲里所唱的「倫敦大橋」指的是倫敦橋，而不是倫敦塔橋。倫敦橋過去是連接泰晤士河南北兩岸唯一的橋梁，歌中所唱的就是老倫敦橋因年久失修而快要倒塌的事。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_OLD_LONDON_BRIDGE_NAME" Language="zh_Hans_CN">
+			<Text>旧伦敦桥</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OLD_LONDON_BRIDGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>陆地单位无须上船即可穿越。效果等同道路且会在两端的陆地单元格建造古典时代道路（若尚未建造的话）。[NEWLINE]每条通过此城市的国际[ICON_TradeRoute]贸易路线每回合+3[ICON_Faith]信仰值收入。经过此处的 [ICON_TradeRoute] 贸易路线能够从其目的地区域获得成倍的[ICON_Gold]金币收益。[NEWLINE][NEWLINE]必须建造在海岸或湖泊单元格上。桥梁必须穿越两个陆地单元格间的单元格，并直接通往另一端。桥梁的左侧和右侧至少必须有一个水域单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OLD_LONDON_BRIDGE_QUOTE" Language="zh_Hans_CN">
+			<Text>“伦敦大桥垮下来，垮下来，垮下来。[NEWLINE]伦敦大桥垮下来，我窈窕的淑女。”[NEWLINE]——英国传统童谣</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OLD_LONDON_BRIDGE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>伦敦桥是一座横跨英国泰晤士河的箱形梁桥，主要链接伦敦都会区内的伦敦市和南华克两个行政区。坎农街铁路桥位于它的西侧；着名的伦敦塔桥位于它的东面。桥南岸是伦敦地铁伦敦桥站和南华克座堂。这座举世知名的桥在1750年西敏桥通车前，是越过泰晤士河的唯一桥梁，亦是伦敦所建历史最悠久的一座桥。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OLD_LONDON_BRIDGE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>《伦敦大桥垮下来》是一首知名的英国传统童谣。歌曲里所唱的“伦敦大桥”指的是伦敦桥，而不是伦敦塔桥。伦敦桥过去是连接泰晤士河南北两岸唯一的桥梁，歌中所唱的就是老伦敦桥因年久失修而快要倒塌的事。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1638652934	Play_LondonBbridgeIsFallingDown			\Music\Play_LondonBbridgeIsFallingDown	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	94038287	LondonBbridgeIsFallingDown_ES	E:\Documents\WwiseProjects\LondonBbridge\.cache\Windows\SFX\LondonBbridgeIsFallingDown_ES_4B8CC0C5.wem	94038287.wem	\Interactive Music Hierarchy\Default Work Unit\Playlist\SegES\LondonBbridgeIsFallingDown_ES	
+	574279760	LondonBbridgeIsFallingDown_GE	E:\Documents\WwiseProjects\LondonBbridge\.cache\Windows\SFX\LondonBbridgeIsFallingDown_GE_4B8CC0C5.wem	574279760.wem	\Interactive Music Hierarchy\Default Work Unit\Playlist\SegGE\LondonBbridgeIsFallingDown_GE	
+	786105637	LondonBbridgeIsFallingDown_EN	E:\Documents\WwiseProjects\LondonBbridge\.cache\Windows\SFX\LondonBbridgeIsFallingDown_EN_4B8CC0C5.wem	786105637.wem	\Interactive Music Hierarchy\Default Work Unit\Playlist\SegEN\LondonBbridgeIsFallingDown_EN	
+	868411385	LondonBbridgeIsFallingDown_JP	E:\Documents\WwiseProjects\LondonBbridge\.cache\Windows\SFX\LondonBbridgeIsFallingDown_JP_4B8CC0C5.wem	868411385.wem	\Interactive Music Hierarchy\Default Work Unit\Playlist\SegJP\LondonBbridgeIsFallingDown_JP	
+	970565743	LondonBbridgeIsFallingDown_FR	E:\Documents\WwiseProjects\LondonBbridge\.cache\Windows\SFX\LondonBbridgeIsFallingDown_FR_4B8CC0C5.wem	970565743.wem	\Interactive Music Hierarchy\Default Work Unit\Playlist\SegFR\LondonBbridgeIsFallingDown_FR	
+

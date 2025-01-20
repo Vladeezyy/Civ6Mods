@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_TORRE_DEL_ORO_NAME" Language="ru_RU">
+			<Text>Башня дель Оро</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TORRE_DEL_ORO_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет 3 галеона и возможность покупать дополнительные галеоны за [ICON_Faith] Веру или [ICON_Gold] Золото в этом городе. Убийство юнита вашими морскими юнитами дает [ICON_Faith] Веру и [ICON_Gold] Золото в размере боевой силы ([ICON_Strength]) уничтоженного юнита (на стандартной скорости игры). Должна быть построена у реки в городе с верфью.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TORRE_DEL_ORO_QUOTE" Language="ru_RU">
+			<Text>«Кто теряет богатство — теряет многое; кто теряет друга — теряет больше; но кто теряет смелость, тот теряет всё.»[NEWLINE]– Мигель де Сервантес</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TORRE_DEL_ORO_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Башня дель Оро — додекагональная сторожевая башня в Севилье, названная так из-за материала, который сверкает как золото на солнце. Первый уровень башни был построен в 1220 году Альмохадами для контроля водных путей реки Гвадалквивир. После Реконкисты испанские правители добавили второй и третий уровни, а также расширили ее функции: башня служила тюрьмой, часовней и временным хранилищем для драгоценных металлов, привезенных испанским флотом. Сегодня башня является достопримечательностью Севильи и морским музеем, демонстрируя роли Севильи, реки Гвадалквивир и Башни дель Оро в Эпоху великих географических открытий.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TORRE_DEL_ORO_DESCRIPTION" Language="ru_RU">
+			<Text>Убийство юнита предоставляет [ICON_Faith] Веру и [ICON_Gold] Золото в размере боевой силы ([ICON_Strength]) уничтоженного юнита (на стандартной скорости игры).</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GALEON_TDO_NAME" Language="ru_RU">
+			<Text>Галеон</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GALEON_TDO_DESCRIPTION" Language="ru_RU">
+			<Text>Морской дальнобойный юнит, уникальный для цивилизации с чудом света «Башня дель Оро». Может быть куплен только за [ICON_Faith] Веру или [ICON_Gold] Золото. Может выполнять ближние и дальние атаки ([ICON_Ranged] радиус 2), а также проводить прибрежные набеги. Обладает зарядом строительства для добычи ресурса [ICON_Resource_Silver] серебра на соседних сушеходных клетках, если находится в центре города или канале.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALEON_TDO_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Галеоны были крупными многопалубными парусными судами. Оснащенные квадратным парусным планом и современными пушками, они играли важную роль в морской торговле и военно-морских сражениях в Эпоху великих географических открытий. Испанский флот использовал галеоны для транспортировки серебра (особенно из Серро-де-Потоси) и других товаров из Америки в Испанию. Другой торговый маршрут, известный как Галеон Манила, проходил через Тихий океан, поддерживая торговлю между Испанской империей, Китаем и другими частями Азии. Галеоны также использовались как военные корабли. Например, галеоны были основой флотов как Английской, так и Испанской армады в их знаменитом столкновении в 1588 году.</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_GALEON_TDO_SILVER_NAME" Language="ru_RU">
+			<Text>Добыть ресурс [ICON_Resource_Silver] серебра</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_GALEON_TDO_SILVER_DESCRIPTION" Language="ru_RU">
+			<Text>Добывает ресурс [ICON_Resource_Silver] серебра на соседних сушеходных клетках, если галеон находится в центре города или канале.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_TORRE_DEL_ORO_NAME" Language="zh_Hans_CN">
+			<Text>黄金塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TORRE_DEL_ORO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得3个盖伦帆船，并可在此城市以 [ICON_Faith] 信仰值或 [ICON_Gold] 金币购买额外的盖伦帆船。海军单位击杀敌军单位后，获得等同于被击杀单位 [ICON_Strength] 战斗力的 [ICON_Faith] 信仰值和 [ICON_Gold] 金币（标准速度下）。必须建造在邻近河流的单元格上，而且城市必须建有造船厂。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TORRE_DEL_ORO_QUOTE" Language="zh_Hans_CN">
+			<Text>失去财富之人失去众多；失去朋友之人失去更多；但失去勇气之人则失去一切。[NEWLINE]——米格尔•德•塞万提斯</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TORRE_DEL_ORO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>黄金塔是一座屹立于塞维利亚的十二边形的军事瞭望塔，名称据说来自于它的建筑材料在阳光映照下胜似黄金。这座塔的底层最初由穆瓦希德王朝于1220年建造，以控制瓜达尔基维尔河的水路。在再征服运动后，西班牙王国的统治者在黄金塔上增建了第二层和第三层，同时增加的还有黄金塔肩负的功能：监狱、礼拜堂，还有西班牙财宝舰队运送贵金属的安全保障。现在，黄金塔是塞维利亚的地标和海军博物馆，向世人介绍塞维利亚、瓜达尔基维尔河和黄金塔在大航海时代中扮演的角色。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TORRE_DEL_ORO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>击杀敌军单位后，获得等同于被击杀单位 [ICON_Strength] 战斗力的 [ICON_Faith] 信仰值和 [ICON_Gold] 金币和  （标准速度下）。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GALEON_TDO_NAME" Language="zh_Hans_CN">
+			<Text>盖伦帆船</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GALEON_TDO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>专属于拥有黄金塔奇观的文明的特色海军远程单位。必须以 [ICON_Faith] 信仰值或 [ICON_Gold] 金币购买。可以进行近战攻击、远程攻击（ [ICON_Ranged] 射程2）和海岸扫蕩。拥有一次建筑次数，当盖伦帆船位于市中心或运河时，可以在相邻陆地单元格开采 [ICON_RESOURCE_SILVER] 银资源。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALEON_TDO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>盖伦帆船是一种多层甲板的大型帆船。这种帆船装备了多重桅杆的方帆和先进的火炮，在大航海时代的海洋贸易与海军战斗中扮演了重要的角色。西班牙宝藏舰队使用盖伦帆船，由美洲护送白银（尤以开采自波托西山的白银为最）和其他货物到西班牙本土。另一条贸易路线被称为马尼拉盖伦帆船，横跨太平洋维持西班牙帝国、中国和亚洲其他地区的贸易，令欧洲输入大量来自中国的珍奇商品，也令明代中国输入大量白银。盖伦帆船也被用作战船，例如在1588年英国舰队和西班牙舰队著名的战斗中，双方舰队均使用盖伦帆船作为其主要战力。盖伦帆船并非专属于欧洲人，日本大名伊达正宗曾经下令建造伊达丸（后来改名圣胡安包蒂斯塔号），这艘盖伦帆船运送了第一支前往欧洲的日本使团。</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_GALEON_TDO_SILVER_NAME" Language="zh_Hans_CN">
+			<Text>开采 [ICON_RESOURCE_SILVER] 银资源</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_GALEON_TDO_SILVER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当盖伦帆船位于市中心或运河时，在相邻陆地单元格开采 [ICON_RESOURCE_SILVER] 银资源。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_TORRE_DEL_ORO_NAME" Language="zh_Hant_HK">
+			<Text>黃金塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TORRE_DEL_ORO_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>獲得3個蓋倫帆船，並可在此城市以 [ICON_Faith] 信仰值或 [ICON_Gold] 金幣購買額外的蓋倫帆船。海軍單位擊殺敵軍單位後，獲得等同於被擊殺單位 [ICON_Strength] 戰鬥力的 [ICON_Faith] 信仰值和 [ICON_Gold] 金幣（標準速度下）。必須建造在鄰近河流的單元格上，而且城市必須建有造船廠。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TORRE_DEL_ORO_QUOTE" Language="zh_Hant_HK">
+			<Text>「失去財富之人失去眾多；失去朋友之人失去更多；但失去勇氣之人則失去一切。」[NEWLINE]——米格尔·德·塞万提斯</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TORRE_DEL_ORO_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>黃金塔是一座屹立於塞維利亞的十二邊形的軍事瞭望塔，名稱據說來自於它的建築材料在陽光映照下勝似黃金。這座塔的底層最初由穆瓦希德王朝於1220年建造，以控制瓜達爾基維爾河的水路。在再征服運動後，西班牙王國的統治者在黃金塔上增建了第二層和第三層，同時增加的還有黃金塔肩負的功能：監獄、禮拜堂，還有西班牙財寶艦隊運送貴金屬的安全保障。現在，黃金塔是塞維利亞的地標和海軍博物館，向世人介紹塞維利亞、瓜達爾基維爾河和黃金塔在大航海時代中扮演的角色。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TORRE_DEL_ORO_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>擊殺敵軍單位後，獲得等同於被擊殺單位 [ICON_Strength] 戰鬥力的 [ICON_Faith] 信仰值和 [ICON_Gold] 金幣和  （標準速度下）。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GALEON_TDO_NAME" Language="zh_Hant_HK">
+			<Text>蓋倫帆船</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GALEON_TDO_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>專屬於擁有黃金塔奇觀的文明的特色海軍遠程單位。必須以 [ICON_Faith] 信仰值或 [ICON_Gold] 金幣購買。可以進行近戰攻擊、遠程攻擊（ [ICON_Ranged] 射程2）和海岸掃蕩。擁有一次建築次數，當蓋倫帆船位於市中心或運河時，可以在相鄰陸地單元格開採 [ICON_RESOURCE_SILVER] 銀資源。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALEON_TDO_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>蓋倫帆船是一種多層甲板的大型帆船。這種帆船裝備了多重桅杆的方帆和先進的火炮，在大航海時代的海洋貿易與海軍戰鬥中扮演了重要的角色。西班牙寶藏艦隊使用蓋倫帆船，由美洲護送白銀（尤以開採自波托西山的白銀為最）和其他貨物到西班牙本土。另一條貿易路線被稱為馬尼拉蓋倫帆船，橫跨太平洋維持西班牙帝國、中國和亞洲其他地區的貿易，令歐洲輸入大量來自中國的珍奇商品，也令明代中國輸入大量白銀。蓋倫帆船也被用作戰船，例如在1588年英國艦隊和西班牙艦隊著名的戰鬥中，雙方艦隊均使用蓋倫帆船作為其主要戰力。蓋倫帆船並非專屬於歐洲人，日本大名伊達正宗曾經下令建造伊達丸（後來改名聖胡安包蒂斯塔號），這艘蓋倫帆船運送了第一支前往歐洲的日本使團。</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_GALEON_TDO_SILVER_NAME" Language="zh_Hant_HK">
+			<Text>開採 [ICON_RESOURCE_SILVER] 銀資源</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_GALEON_TDO_SILVER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>當蓋倫帆船位於市中心或運河時，在相鄰陸地單元格開採 [ICON_RESOURCE_SILVER] 銀資源。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_TORRE_DEL_ORO_NAME" Language="ja_JP">
+			<Text>トーレ・デル・オロ</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TORRE_DEL_ORO_DESCRIPTION" Language="ja_JP">
+			<Text>ガレオン船を3つ得る。この都市において [ICON_Faith] 信仰力または [ICON_Gold] ゴールドで追加のガレオン船を購入できるようになる。海洋ユニットが戦闘に勝利すると、倒したユニットの戦闘力に等しい [ICON_Faith] 信仰力と [ICON_Gold] ゴールドを得られる (標準のスピードで)。造船所のある都市で、川の隣にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TORRE_DEL_ORO_QUOTE" Language="ja_JP">
+			<Text>「富を失う者は多くを失う；友を失う者はさらに多くを失う；だが、勇気を失う者はすべてを失う。」[NEWLINE]– ミゲル・デ・セルバンテス</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TORRE_DEL_ORO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>トーレ・デル・オロ（「黄金の塔」）は、セビリアにある12角形の監視塔で、その名は建築材料が日の光の下で黄金のように輝くことから付けられたと言われている。塔の土台となる第一層は、グアダルキビール川の水路を管理するためにアルモハード朝が1220年に建設したもの。レコンキスタの後、スペインの支配者たちは、この塔に2階と3階を増築し、さらにその機能を拡大した：牢獄、礼拝堂、スペインの財宝船団が運んできた貴金属の一時保管場所などであった。現在、この塔はセビリアのランドマークであり、海軍博物館として、セビリア、グアダルキビール川、そしてトーレ・デル・オロの大航海時代における役割を示す役割を果たしている。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TORRE_DEL_ORO_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘に勝利すると、倒したユニットの戦闘力に等しい [ICON_Faith] 信仰力と [ICON_Gold] ゴールドを得られる (標準のスピードで)。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GALEON_TDO_NAME" Language="ja_JP">
+			<Text>ガレオン船</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GALEON_TDO_DESCRIPTION" Language="ja_JP">
+			<Text>トーレ・デル・オロ固有の海洋長距離戦闘ユニット。 [ICON_Faith] 信仰力または [ICON_Gold] ゴールドを使って購入できる。近接戦闘、長距離戦闘（ [ICON_Ranged] 射程2）と沿岸襲撃能力を持つ。ガレオン船が都心または運河にいるとき、隣接する陸上タイルに [ICON_RESOURCE_SILVER] 銀資源を発掘するチャージ1を持つ。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALEON_TDO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ガレオン船は大型の多甲板帆船である。複数のマストからなる横帆と最先端の大砲を備えたガレオン船は、大航海時代の海上貿易と海戦で重要な役割を果たした。スペインの財宝船団は、アメリカ大陸からスペイン本土へ銀（特にポトシ銀山から）やその他の商品を輸送するためにガレオン船を使用した。ガレオン・デ・マニラとして知られる別の貿易航路では、スペイン帝国と中国、その他のアジア地域との貿易を維持するために太平洋を横断し、ヨーロッパでは中国の珍しい商品が大量に流入し、明の中国では同様に銀が大量に流入した。ガレオン船は軍艦としても徴用され、例えば1588年の有名な対決では、イングランド艦隊とスペイン艦隊の両方がガレオン船を主要な戦力として使用した。ガレオン船はヨーロッパ人に限ったものではなく、日本の大名である伊達政宗が伊達丸（後にサン・ファン・バウティスタ号と改名）の建造を命じ、このガレオン船は日本からヨーロッパへの最初の外交使節団の航海に使われた。</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_GALEON_TDO_SILVER_NAME" Language="ja_JP">
+			<Text>[ICON_RESOURCE_SILVER] 銀資源を発掘する</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_GALEON_TDO_SILVER_DESCRIPTION" Language="ja_JP">
+			<Text>ガレオン船が都心または運河にいるとき、隣接する陸上タイルに [ICON_RESOURCE_SILVER] 銀資源を発掘する</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_TORRE_DEL_ORO_NAME" Language="es_ES">
+			<Text>Torre del Oro</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TORRE_DEL_ORO_DESCRIPTION" Language="es_ES">
+			<Text>Concede 3 Galeones, y puede comprar Galeones adicionales con [ICON_Faith] Fe o [ICON_Gold] Oro en esta ciudad. Matar una unidad con tus unidades navales proporciona Fe [ICON_Faith] y Oro [ICON_Gold] igual a la Fuerza de combate [ICON_Strength] de la unidad derrotada (En velocidad normal). Debe construirse junto a un río, y la ciudad debe haber construido un Astillero.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TORRE_DEL_ORO_QUOTE" Language="es_ES">
+			<Text>“El que pierde riquezas pierde mucho; el que pierde a un amigo pierde más; pero el que pierde el valor, lo pierde todo.”[NEWLINE]– Miguel de Cervantes</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TORRE_DEL_ORO_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Torre del Oro es una torre de vigilancia dodecagonal en Sevilla, que se dice que lleva el nombre de su material de construcción que brilla como oro bajo la luz del sol. El primer nivel de la base de la torre fue construido originalmente en 1220 por el califato almohade para controlar el curso de agua del río Guadalquivir. Después de la Reconquista, los gobernantes españoles agregaron un segundo y un tercer nivel a la Torre del Oro, al tiempo que ampliaron sus funciones: como prisión, capilla y lugar de almacenamiento temporal de metales preciosos traídos por la flota del tesoro española. Hoy en día, la torre es un hito y museo naval de Sevilla, que demuestra el papel de Sevilla, el río Guadalquivir y la Torre del Oro en la Era de la Exploración.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TORRE_DEL_ORO_DESCRIPTION" Language="es_ES">
+			<Text>Matar a una unidad proporciona Fe [ICON_Faith] y Oro [ICON_Gold] igual a la Fuerza de combate [ICON_Strength] de la unidad derrotada (En velocidad normal).</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GALEON_TDO_NAME" Language="es_ES">
+			<Text>Galeón</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GALEON_TDO_DESCRIPTION" Language="es_ES">
+			<Text>Unidad naval a distancia exclusiva de la civilización con la maravilla Torre del Oro. Sólo se puede comprar con Fe [ICON_Faith] o Oro [ICON_Gold]. Puede realizar ataques cuerpo a cuerpo, ataques a distancia (Alcance [ICON_Ranged] 2) y Asalto costero. Tiene un cargo de construcción para excavar un recurso de Plata [ICON_Resource_Silver] en casillas de tierra adyacentes cuando el Galeón está en Centro urbano o en un Canal.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALEON_TDO_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Los Galeones eran grandes veleros de varias cubiertas. Equipados con velas de aparejo cuadrado para múltiples mástiles y cañones avanzados, desempeñaron un papel importante en el comercio marítimo y la guerra naval durante la Era de la Exploración. La flota del tesoro española utilizó galeones para transportar plata (especialmente desde Cerro de Potosí) y otros bienes desde América al continente español. Otra ruta comercial, conocida como el convoy del Galeón de Manila, cruzó el Pacífico para mantener el comercio entre el Imperio español, China y otras partes de Asia, lo que provocó una importante afluencia de productos exóticos chinos en Europa y una afluencia igualmente importante de plata en Europa. China Ming. Los galeones también fueron reclutados como buques de guerra; por ejemplo, tanto la Armada Inglesa como la Armada Española utilizaron galeones como sus principales buques de guerra durante su famoso enfrentamiento en 1588. Los galeones no se limitaron a los europeos, ya que el daimyō japonés Date Masamune encargó la construcción del Date Maru (más tarde rebautizado como San Juan Bautista), y el galeón se utilizó para transportar la primera misión diplomática japonesa a Europa.</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_GALEON_TDO_SILVER_NAME" Language="es_ES">
+			<Text>Excavar un recurso de Plata [ICON_Resource_Silver] </Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_GALEON_TDO_SILVER_DESCRIPTION" Language="es_ES">
+			<Text>Excava un recurso de Plata [ICON_Resource_Silver] en casillas de tierra adyacentes cuando el Galeón está en el centro de la ciudad o en un canal.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

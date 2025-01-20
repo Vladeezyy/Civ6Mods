@@ -1,0 +1,38 @@
+So, you want to make your own canal wonder huh?
+
+Well, I've got good and bad news. The good news is that it is possible! The bad news is that there's 
+some degree of convolution required.
+
+Turns out that while everything is functional in gameplay terms, the canals built next to the wonder
+don't automatically connect to the wonder tile unless the wonder is literally BUILDING_PANAMA_CANAL.
+
+So in order to fix this, I created a system that replaces the asset on top of the canals when
+placing the wonder. Make sure to add your own versions of SideCanalDummy_Script (both lua and xml)
+as well as your own version of SideCanalDummyGameplayScript.
+
+Aside from that, you need to make sure you have artdef entries in Districts and Landmarks for all
+the following districts (these districts dont actually need to exist in the database) :
+
+'DISTRICT_DUMMY_SUEZ_CANAL_BENT_NE',
+'DISTRICT_DUMMY_SUEZ_CANAL_BENT_E',	
+'DISTRICT_DUMMY_SUEZ_CANAL_BENT_SE'
+'DISTRICT_DUMMY_SUEZ_CANAL_BENT_SW'
+'DISTRICT_DUMMY_SUEZ_CANAL_BENT_W',
+'DISTRICT_DUMMY_SUEZ_CANAL_BENT_NW'
+
+'DISTRICT_DUMMY_SUEZ_CANAL_STRAIGHT_NE'
+'DISTRICT_DUMMY_SUEZ_CANAL_STRAIGHT_E'
+'DISTRICT_DUMMY_SUEZ_CANAL_STRAIGHT_SE'
+
+Of course, remember to change their names to whatever you need, 
+but basically you need an artdef entry for all 6 directions for bent canals, 
+and 3 variations for straight ones because we are doing the whole rotation thing manually.
+
+You will of course also need their assets, I have included my own on the mod for reference.
+The cool part about this is that you can make the side canals have their own graphic variations
+compared to regular canals, helping your wonder look more distinct than Panama.
+
+These dummy district artdefs are also referenced on the lua files, so make sure to replace
+the variables there as well.
+
+Have fun canaling!

@@ -1,0 +1,2462 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="REVEAL_A"/>
+						<m_AnimationName text="WON_Cristo_Redentor_Wonder_Movie"/>
+					</Element>
+					<Element>
+						<m_SlotName text="WORKED_A"/>
+						<m_AnimationName text="WON_EmptyAnim"/>
+					</Element>
+				</m_Bindings>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="REVEAL_A"/>
+						<m_TimelineName text="REVEAL_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="WORKED_A"/>
+						<m_TimelineName text="WORKED_A"/>
+					</Element>
+				</m_Bindings>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines>
+					<Element>
+						<m_Name text="REVEAL_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="WON_Cristo_Redentor_Wonder_Movie"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="1"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Wonder_Construction_Stone"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.011111</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="2"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Wonder_Construction_Stone"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>16.446272</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="16"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Wonder_Music_Cristo_Redentor"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.027778</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="WORKED_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="WON_EmptyAnim"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="3"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Light_Static"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Light"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="4"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Light_Static"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Light_1"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="5"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Light_Static"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Light_2"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="6"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Light_Static"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Light_3"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>3</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="7"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Light_Static"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Light_4"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>4</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="8"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Light_Static"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Light_5"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="9"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Light_Static"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Light_6"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>5</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="10"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Light_Static"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Light_7"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>6</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="11"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Light_Static"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Light_8"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>8</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="12"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Light_Static"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Light_9"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>9</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="13"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Light_Static"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Light_10"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="14"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Light_Static"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Light_11"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>7</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="15"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Light_Static"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Light_12"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>12</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+				</m_Timelines>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="ROAD"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-15.925020</x>
+							<y>17.206423</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.913503</z>
+						</m_orientation>
+						<m_Name text="Road"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="ROAD"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>12.424592</x>
+							<y>-20.158098</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.913503</z>
+						</m_orientation>
+						<m_Name text="Road_1"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="ROAD"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>25.099224</x>
+							<y>-3.866832</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.913503</z>
+						</m_orientation>
+						<m_Name text="Road_2"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="ROAD"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>7.933330</x>
+							<y>14.949573</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.913503</z>
+						</m_orientation>
+						<m_Name text="Road_3"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="ROAD"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-9.573031</x>
+							<y>-6.329817</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.913503</z>
+						</m_orientation>
+						<m_Name text="Road_4"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="IMP_Mission_Statue"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>18.934549</x>
+							<y>-6.155100</y>
+							<z>2.128428</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.513500</z>
+						</m_orientation>
+						<m_Name text="Garden"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>0.320000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="IMP_Mission_Statue"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>12.663551</x>
+							<y>-13.878778</y>
+							<z>2.128428</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-1.217871</z>
+						</m_orientation>
+						<m_Name text="Garden_1"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>0.320000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>14.497283</x>
+							<y>-3.402315</y>
+							<z>13.327592</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.873852</z>
+						</m_orientation>
+						<m_Name text="Light"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>0.492307</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>13.498214</x>
+							<y>-4.911620</y>
+							<z>13.361655</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.873852</z>
+						</m_orientation>
+						<m_Name text="Light_1"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>0.352598</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>8.475548</x>
+							<y>-10.363706</y>
+							<z>13.282888</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.873852</z>
+						</m_orientation>
+						<m_Name text="Light_2"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>0.467914</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>10.229791</x>
+							<y>-8.816179</y>
+							<z>13.384590</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.873852</z>
+						</m_orientation>
+						<m_Name text="Light_3"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>0.296493</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>11.421638</x>
+							<y>-6.489493</y>
+							<z>13.482821</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.873852</z>
+						</m_orientation>
+						<m_Name text="Light_4"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>0.657011</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>13.204137</x>
+							<y>1.885489</y>
+							<z>12.741934</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.873852</z>
+						</m_orientation>
+						<m_Name text="Light_5"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>0.467914</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-6.078130</x>
+							<y>18.097399</y>
+							<z>12.741934</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.873852</z>
+						</m_orientation>
+						<m_Name text="Light_6"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>0.467914</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>3.737605</x>
+							<y>-9.423526</y>
+							<z>12.741934</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.873852</z>
+						</m_orientation>
+						<m_Name text="Light_7"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>0.467914</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>0.680714</x>
+							<y>14.806592</y>
+							<z>12.741934</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.873852</z>
+						</m_orientation>
+						<m_Name text="Light_8"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>0.467914</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-10.650084</x>
+							<y>0.851066</y>
+							<z>12.741934</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.873852</z>
+						</m_orientation>
+						<m_Name text="Light_9"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>0.350935</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-15.254589</x>
+							<y>7.322458</y>
+							<z>12.741934</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.873852</z>
+						</m_orientation>
+						<m_Name text="Light_10"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>0.467914</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-3.053707</x>
+							<y>-5.896338</y>
+							<z>12.793116</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.873852</z>
+						</m_orientation>
+						<m_Name text="Light_11"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>0.402406</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="PERMANENT"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>8.702928</x>
+							<y>7.687314</y>
+							<z>12.741934</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.873852</z>
+						</m_orientation>
+						<m_Name text="Light_12"/>
+						<m_BoneName text="WON_AMAZON_THEATRE"/>
+						<m_ModelInstanceName text="WON_AMAZON_THEATRE"/>
+						<m_scale>0.467914</m_scale>
+					</Element>
+				</m_Points>
+			</m_attachmentPoints>
+			<m_stateSet/>
+		</m_behaviorDataSets>
+		<m_behaviorInstances/>
+		<m_dsgName text="Standard_WonderMovie"/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="WON_Cristo_Redentor_Movie_Camera"/>
+				<m_GeoName text="WON_Cristo_Redentor_Movie_Camera"/>
+				<m_GroupStates/>
+			</Element>
+			<Element>
+				<m_Name text="WON_Cristo_Redentor_Movie_Decal"/>
+				<m_GeoName text="WON_Cristo_Redentor_Movie_Decal"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A008"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A008"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A008"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A009"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A009"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A009"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A006"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A006"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A006"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A007"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A007"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A007"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A010"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A010"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A010"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A013"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A013"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A013"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A014"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A014"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A014"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A011"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A011"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A011"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A012"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A012"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A012"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Circle_Patch001"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Circle_Patch001"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Circle_Patch001"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A001"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A001"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A001"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_C001"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_C001"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_C001"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A004"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A004"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A004"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A005"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A005"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A005"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A002"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A002"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A002"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A003"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A003"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Decal_Parts_Ancient_01"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Decal_Parts_Ancient_01"/>
+						<m_MeshName text="Decal_ANC_Organic_Patch_A003"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="WON_AMAZON_THEATRE"/>
+				<m_GeoName text="AmazonTheatre"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="AmazonFoundationMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="AmazonFoundationMaterial"/>
+						<m_MeshName text="AmazonFoundation"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="AmazonFoundationMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="AmazonFoundationMaterial"/>
+						<m_MeshName text="AmazonFoundation"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="AmazonFoundationMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="AmazonFoundationMaterial"/>
+						<m_MeshName text="AmazonFoundation"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="AmazonTheatreMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="AmazonTheatreMaterial"/>
+						<m_MeshName text="AmazonTheatre"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="AmazonTheatreMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="AmazonTheatreMaterial"/>
+						<m_MeshName text="AmazonTheatre"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="AmazonTheatreMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="AmazonTheatreMaterial"/>
+						<m_MeshName text="AmazonTheatre"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_SplineSet>
+		<m_Splines/>
+	</m_SplineSet>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>GEOMETRY</m_eObjectType>
+				<m_ParamName text="Obstruction Profile"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="grey ao"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="AO"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.300000</m_fValue>
+				<m_ParamName text="BurnHeight"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.200000</m_fValue>
+				<m_ParamName text="GradientScale"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.200000</m_fValue>
+				<m_ParamName text="BurnEdgeBlend"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="Obstruction Profile AutoGenerate"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="CastShadows"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="CastAO"/>
+			</Element>
+			<Element class="AssetObjects..RGBValue">
+				<m_r>255.000000</m_r>
+				<m_g>255.000000</m_g>
+				<m_b>255.000000</m_b>
+				<m_ParamName text="SnowColor"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.000000</m_fValue>
+				<m_ParamName text="SnowGloss"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="SnowMetalness"/>
+			</Element>
+			<Element class="AssetObjects..Coord2DValue">
+				<m_x>0.200000</m_x>
+				<m_y>0.800000</m_y>
+				<m_ParamName text="SnowNoiseThreshold"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="SnowOn"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.050000</m_fValue>
+				<m_ParamName text="SnowUVScale"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="WonderMovie"/>
+	<m_DataFiles/>
+	<m_Name text="WON_AMAZON_THEATRE"/>
+	<m_Description text=""/>
+	<m_Tags/>
+</AssetObjects..AssetInstance>
+

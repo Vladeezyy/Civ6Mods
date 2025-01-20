@@ -1,0 +1,38 @@
+INSERT INTO IconTextureAtlases
+		(Name,								IconSize,	IconsPerRow,	IconsPerColumn,	Filename)
+VALUES	('ICON_ATLAS_TORRE_DEL_ORO',		32,			1,				1,				'ICON_BUILDING_TORRE_DEL_ORO_32.dds'),
+		('ICON_ATLAS_TORRE_DEL_ORO',		38,			1,				1,				'ICON_BUILDING_TORRE_DEL_ORO_38.dds'),
+		('ICON_ATLAS_TORRE_DEL_ORO',		50,			1,				1,				'ICON_BUILDING_TORRE_DEL_ORO_50.dds'),
+		('ICON_ATLAS_TORRE_DEL_ORO',		80,			1,				1,				'ICON_BUILDING_TORRE_DEL_ORO_80.dds'),
+		('ICON_ATLAS_TORRE_DEL_ORO',		128,		1,				1,				'ICON_BUILDING_TORRE_DEL_ORO_128.dds'),
+		('ICON_ATLAS_TORRE_DEL_ORO',		256,		1,				1,				'ICON_BUILDING_TORRE_DEL_ORO_256.dds'),
+
+		
+		('ICON_ATLAS_GALEON_TDO_FLAG',		256,		1,				1,				'ICON_UNIT_GALEON_TDO_256.dds'			),
+		('ICON_ATLAS_GALEON_TDO_FLAG',		80,			1,				1,				'ICON_UNIT_GALEON_TDO_80.dds'			),
+		('ICON_ATLAS_GALEON_TDO_FLAG',		50,			1,				1,				'ICON_UNIT_GALEON_TDO_50.dds'			),
+		('ICON_ATLAS_GALEON_TDO_FLAG',		38,			1,				1,				'ICON_UNIT_GALEON_TDO_38.dds'			),
+		('ICON_ATLAS_GALEON_TDO_FLAG',		32,			1,				1,				'ICON_UNIT_GALEON_TDO_32.dds'			),
+		('ICON_ATLAS_GALEON_TDO_FLAG',		22,			1,				1,				'ICON_UNIT_GALEON_TDO_22.dds'			),
+		
+		('ICON_ATLAS_GALEON_TDO_PORTRAIT',	256,		1,				1,				'ICON_UNIT_GALEON_TDO_PORTRAIT_256.dds'		),
+		('ICON_ATLAS_GALEON_TDO_PORTRAIT',	200,		1,				1,				'ICON_UNIT_GALEON_TDO_PORTRAIT_200.dds'		),
+		('ICON_ATLAS_GALEON_TDO_PORTRAIT',	95,			1,				1,				'ICON_UNIT_GALEON_TDO_PORTRAIT_95.dds'		),
+		('ICON_ATLAS_GALEON_TDO_PORTRAIT',	70,			1,				1,				'ICON_UNIT_GALEON_TDO_PORTRAIT_70.dds'		),
+		('ICON_ATLAS_GALEON_TDO_PORTRAIT',	50,			1,				1,				'ICON_UNIT_GALEON_TDO_PORTRAIT_50.dds'		),
+		('ICON_ATLAS_GALEON_TDO_PORTRAIT',	38,			1,				1,				'ICON_UNIT_GALEON_TDO_PORTRAIT_38.dds'		);
+
+
+		
+--------------------------------------------------------------
+-- IconDefinitions
+--------------------------------------------------------------
+INSERT OR REPLACE INTO IconDefinitions
+		(Name,									Atlas,							'Index')
+VALUES	('ICON_BUILDING_TORRE_DEL_ORO',			'ICON_ATLAS_TORRE_DEL_ORO',			0),
+		('ICON_BUILDING_TORRE_DEL_ORO_FOW',		'ICON_ATLAS_TORRE_DEL_ORO',			0),
+		('ICON_UNIT_GALEON_TDO',				'ICON_ATLAS_GALEON_TDO_FLAG',		0),
+		('ICON_UNIT_GALEON_TDO_PORTRAIT',		'ICON_ATLAS_GALEON_TDO_PORTRAIT',	0),
+		('ICON_IMPROVEMENT_GALEON_TDO_SILVER',	'ICON_ATLAS_UNIT_ACTIONS',			52);
+
+--------------------------------------------------------------

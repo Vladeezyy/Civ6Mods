@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_PHANTA_NAGOYA_CASTLE_NAME" Language="ru_RU">
+			<Text>Замок Нагоя</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NAGOYA_CASTLE_DESCRIPTION" Language="ru_RU">
+			<Text>Дает 2 Бомбарды и 2 копии уникального ресурса [ICON_RESOURCE_PHANTA_NAGOYA_CASTLE_GOLDEN_SHACHI] Золотой Сячи. Этот ресурс нельзя получить другим способом в игре, он обеспечивает 6 [ICON_Amenities] Удобств. Обеспечивает те же защитные бонусы, что и улучшение Форт. Должен быть построен рядом с центром города.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NAGOYA_CASTLE_QUOTE" Language="ru_RU">
+			<Text>«Жизнь подобна тяжелой ноше: лучше не торопиться слишком поспешно.»[NEWLINE]– Токугава Иэясу</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_NAGOYA_CASTLE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>После решающей победы в битве при Сэкигахара Токугава Иэясу приказал различным даймё построить замок Нагоя в 1610 году. Замок использовался как резиденция ветви клана Токугава из Овари и как место для размещения сёгуна во время его визитов в домен Овари. Замок Нагоя также называют «Замком золотых сячи» благодаря двум статуям золотых сячи на крыше замка. Замок Нагоя и его знаменитые золотые сячи были уничтожены воздушными бомбардировками во время Второй мировой войны, и в настоящее время ведутся работы по восстановлению замка до его прежнего великолепия.</Text>
+		</Row>
+		<Row Tag="LOC_RESOURCE_PHANTA_NAGOYA_CASTLE_GOLDEN_SHACHI_NAME" Language="ru_RU">
+			<Text>Золотой Сячи</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PHANTA_NAGOYA_CASTLE_GOLDEN_SHACHI_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Сячи (иногда пишется как сячихоко) — японское мифическое существо с головой тигра и телом рыбы, а также статуи такого существа. Считается, что японские сячи могли быть заимствованы из китайского чи-вэнь, и оба существа, согласно поверью, защищают здания от пожаров. В период Сэнгоку даймё украшали свои замки роскошными статуями золотых сячи. Золотые сячи замка Нагоя были изготовлены из монет периода Кэйтё 1940 года. Эти золотые сячи настолько красивы и драгоценны, что замок Нагоя получил прозвище «Замок золотых сячи».</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_NAGOYA_CASTLE_NAME" Language="zh_Hans_CN">
+			<Text>名古屋城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NAGOYA_CASTLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得2个射石炮和2份 [ICON_RESOURCE_PHANTA_NAGOYA_CASTLE_GOLDEN_SHACHI] 金鯱特色资源，在游戏里不能通过其他方式获得，提供6 [ICON_Amenities] 宜居度。提供同堡垒改良设施一样的防御加成。必须建造在相邻城市中心的单元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NAGOYA_CASTLE_QUOTE" Language="zh_Hans_CN">
+			<Text>人生有如负重致远，不可急于求成。[NEWLINE]——德川家康</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_NAGOYA_CASTLE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>在关原之战取得决定性胜利后，德川家康在1610年下令各地大名建造名古屋城。这座城堡既是尾张德川家的居城，也是将军到尾张藩时的中途居所。名古屋城也被称为“金鯱城”，源自城堡楼顶的两座金鯱雕像。名古屋城和它著名的金鯱在第二次世界大战的空袭中炸毁，目前正在进行重建工程，以恢復这座城堡昔日的风采。</Text>
+		</Row>
+		<Row Tag="LOC_RESOURCE_PHANTA_NAGOYA_CASTLE_GOLDEN_SHACHI_NAME" Language="zh_Hans_CN">
+			<Text>金鯱</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PHANTA_NAGOYA_CASTLE_GOLDEN_SHACHI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>鯱（也被称为鯱鉾）指的是一种日本传说中虎头鱼身的神话生物，或者是这种生物的雕刻。一种说法认为日本的鯱源自中国的鸱吻，这两种生物的共同点是牠们被认为能够保护建筑物免受火灾。在日本战国时代，大名们以奢华的金鯱装饰天守楼顶。名古屋城的金鯱由1940枚庆长大判打造，做工精美，弥足珍贵，令名古屋城获得了“金鯱城”的别称。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_NAGOYA_CASTLE_NAME" Language="zh_Hant_HK">
+			<Text>名古屋城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NAGOYA_CASTLE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>獲得2個射石炮和2份 [ICON_RESOURCE_PHANTA_NAGOYA_CASTLE_GOLDEN_SHACHI] 金鯱特色資源，在游戲裡不能通過其他方式獲得，提供6 [ICON_Amenities] 滿意度。提供同堡壘改良設施一樣的防禦加成。必須建造在相鄰城市中心的單元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NAGOYA_CASTLE_QUOTE" Language="zh_Hant_HK">
+			<Text>「人生有如負重致遠，不可急於求成。」[NEWLINE]——德川家康</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_NAGOYA_CASTLE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>在關原之戰取得決定性勝利後，德川家康在1610年下令各地大名建造名古屋城。這座城堡既是尾張德川家的居城，也是將軍到尾張藩時的中途居所。名古屋城也被稱為「金鯱城」，源自城堡樓頂的兩座金鯱雕像。名古屋城和它著名的金鯱在第二次世界大戰的空襲中炸毀，目前正在進行重建工程，以恢復這座城堡昔日的風采。</Text>
+		</Row>
+		<Row Tag="LOC_RESOURCE_PHANTA_NAGOYA_CASTLE_GOLDEN_SHACHI_NAME" Language="zh_Hant_HK">
+			<Text>金鯱</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PHANTA_NAGOYA_CASTLE_GOLDEN_SHACHI_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>鯱（也被稱為鯱鉾）指的是一種日本傳說中虎頭魚身的神話生物，或者是這種生物的雕刻。一種說法認為日本的鯱源自中國的鴟吻，這兩種生物的共同點是牠們被認為能夠保護建築物免受火災。在日本戰國時代，大名們以奢華的金鯱裝飾天守樓頂。名古屋城的金鯱由1940枚慶長大判打造，做工精美，彌足珍貴，令名古屋城獲得了「金鯱城」的別稱。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_NAGOYA_CASTLE_NAME" Language="ja_JP">
+			<Text>名古屋城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NAGOYA_CASTLE_DESCRIPTION" Language="ja_JP">
+			<Text>射石砲を2つ得る。高級資源の [ICON_RESOURCE_PHANTA_NAGOYA_CASTLE_GOLDEN_SHACHI] 金鯱を2つ得ることができる。 [ICON_RESOURCE_PHANTA_NAGOYA_CASTLE_GOLDEN_SHACHI] 金鯱は [ICON_Amenities] 快適性6を供給する。この資源を手に入れる他の手段はゲーム内に存在しない。要塞と同じ防御力ボーナスを得る。都心に隣接した土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NAGOYA_CASTLE_QUOTE" Language="ja_JP">
+			<Text>「人の一生は重荷を負うて遠き道を行くがごとし。急ぐべからず。」[NEWLINE]– 徳川家康</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_NAGOYA_CASTLE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>関ヶ原の戦いに決定的な勝利を収めた後、徳川家康は1610年に諸大名に命令し、名古屋城を築かせた。この城は尾張徳川家の居城として、また将軍が尾張藩を訪問する際の宿泊施設として使用された。名古屋城の屋根には2つの金鯱があることから、「金鯱城」とも呼ばれている。名古屋城と有名な金鯱像は、第二次世界大戦中の空襲で一度破壊されたが、再建工事のおかげで、城はかつての威容を取り戻しつつある。</Text>
+		</Row>
+		<Row Tag="LOC_RESOURCE_PHANTA_NAGOYA_CASTLE_GOLDEN_SHACHI_NAME" Language="ja_JP">
+			<Text>金鯱</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PHANTA_NAGOYA_CASTLE_GOLDEN_SHACHI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>鯱（鯱鉾とも書かれる）とは、日本の伝説に登場する虎の頭と魚の体を持つ神話上の生物、またはそのような生物の彫刻を指す。一說によれば、日本の鯱は中国の鴟吻に由来するとされ、この二つの生物は火事から建物を守ると信じられている点で共通している。戦国時代において、諸大名は豪華な金鯱を使って天守閣を飾った。名古屋城の金鯱は1940枚の慶長大判から作られたもので、その美さと貴重さにより、名古屋城は「金鯱城」とも呼ばれている。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

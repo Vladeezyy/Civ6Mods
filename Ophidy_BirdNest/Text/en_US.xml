@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- en_US -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 2/12/2024 7:50:05 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_OPH_BIRD_NEST_NAME" Language="en_US">
+			<Text>Bird's Nest</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OPH_BIRD_NEST_DESC" Language="en_US">
+			<Text>Specialty districts in [ICON_POWER] Powered cities provide [ICON_Tourism] Tourism equal to 200% of their adjacency bonuses.[NEWLINE][NEWLINE]Must be built on flat tiles adjacent to an Entertainment Complex district with a Stadium.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OPH_BIRD_NEST_QUOTE" Language="en_US">
+			<Text>“If we were to stand in and ancient Roman stadium, we would not care about its architectural form, but would only focus on the competing athletes. And in this sense it would never be obsolete, for the spirit of sportsmanship is eternal.”[NEWLINE]- Li Xinggang</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_OPH_BIRD_NEST_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The National Stadium, also known as the Bird's Nest, is located in the southern part of the central area of the Beijing Olympic Park. It was the main stadium for the 2008 Beijing Olympics, hosting the opening and closing ceremonies of the 2008 Summer Olympics and Paralympics, athletics and football finals, as well as the opening and closing ceremonies of the 2022 Winter Olympics and Paralympics. The form of a sports stadium is like a nest and cradle that nurtures life, embodying humanity's hope for the future. The designers did not make any unnecessary treatment to this venue, exposing the structure to the outside, thus naturally forming the appearance of the building.</Text>
+		</Replace>
+
+		<Replace Tag="MOD_OPH_BIRDNEST_NAME" Language="en_US">
+			<Text>Bird's Nest (World Wonder)</Text>
+		</Replace>
+		<Replace Tag="MOD_OPH_BIRDNEST_DESC" Language="en_US">
+			<Text>Adds Bird's Nest as a World Wonder.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

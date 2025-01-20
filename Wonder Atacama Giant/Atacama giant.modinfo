@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="66595544-4f5a-4e76-8831-ec32b08ce100" version="1">
+  <Properties>
+    <Name>Wonder Atacama Giant</Name>
+    <Description>Wonder Atacama Giant</Description>
+    <Created>1706668271</Created>
+    <Teaser>This example mod demonstrates how to add a new leader and civilization to the game.</Teaser>
+    <Authors>jidong</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions />
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>wonder.xml</File>
+      <File>improment.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Wonder Atacama Giant.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>icon.xml</File>
+    <File>improment.xml</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_JD_ATACAMA_GIANT_BASE_IM_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_JD_ATACAMA_GIANT_BASE_won_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_JD_ATACAMA_GIANT_BASE_IM</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_JD_ATACAMA_GIANT_BASE_won</File>
+    <File>Platforms/MacOS/BLPs/TileBase.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_JD_ATACAMA_GIANT_BASE_IM_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_JD_ATACAMA_GIANT_BASE_won_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_JD_ATACAMA_GIANT_BASE_IM</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_JD_ATACAMA_GIANT_BASE_won</File>
+    <File>Platforms/Windows/BLPs/TileBase.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>text.xml</File>
+    <File>Wonder Atacama Giant.dep</File>
+    <File>wonder.xml</File>
+    <File>XLPs/TileBase.xlp</File>
+    <File>XLPs/WonderMovie.xlp</File>
+  </Files>
+</Mod>

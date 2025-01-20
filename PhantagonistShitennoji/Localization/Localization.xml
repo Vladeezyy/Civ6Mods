@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		
+		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_NAME" Language="en_US">
+			<Text>Shitennō-ji</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_DESCRIPTION" Language="en_US">
+			<Text>Grants an Apostle, a Missionary, an Inquisitor and a Warrior Monk. Religious units and Warrior Monks receive +50% flanking bonus and do not suffer combat penalties when damaged. Must be built adjacent to a Holy Site district with a Temple, and you must have founded a Religion.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_QUOTE" Language="en_US">
+			<Text>“Sincerely reverence the three treasures. The three treasures, viz. Buddha, the Law and the Priesthood, are the final refuge of the four generated beings, and are the supreme objects of faith in all countries.”[NEWLINE]– Prince Shōtoku, Seventeen-article Constitution</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_SHITENNOJI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Shitennō-ji was built in 593 as the oldest officially-administered Buddhist temple in Japan. According to Nihon Shoki, when Prince Shōtoku, a supporter of Buddhism, fought against the anti-Buddhist Mononobe clan, he carved statues of the Four Heavenly Kings of Buddhism out of nurude (nutgall wood), and made a vow to build a temple to house the Four Heavenly Kings if he could defeat the Mononobe clan. The temple that was built after the victory was Shitennō-ji, literally Temple of the Four Heavenly Kings. Shitennō-ji was not only a symbol of the rooting of Buddhism in Japan as the state religion, but its symmetrical architectural pattern also profoundly influenced the architectural style of Buddhist temples in Japan. Shitennō-ji has been destroyed and rebuilt in many natural and man-made disasters over the years, and now the temple has been reconstructed, in steel and concrete, to recreate the architecture of the Asuka Period.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_SHITENNOJI_DESCRIPTION" Language="en_US">
+			<Text>+50% flanking bonus and do not suffer combat penalties when damaged. (Shitennō-ji)</Text>
+		</Row>
+			
+		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_NAME" Language="zh_Hans_CN">
+			<Text>四天王寺</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供1个使徒、1个传教士、1个审判官和1个武僧。宗教单位和武僧获得+50%夹击加成，且受伤后不会蒙受战斗力减益。必须建造在相邻圣地区域（须建有寺庙）的单元格上，此外你必须事先已创立宗教。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_QUOTE" Language="zh_Hans_CN">
+			<Text>笃敬三宝。三宝者佛法僧也。则四生之终归、万国之极宗。[NEWLINE]——圣德太子，《十七条宪法》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_SHITENNOJI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>四天王寺建造于公元593年，是日本佛法最初的官寺。根据《日本书纪》，当支持佛教的圣德太子与反对佛教的物部氏交战时，他用白胶木（盐肤木）雕刻佛教四大天王的雕像，许下誓愿若战胜物部氏则建造安置四大天王的佛寺，最终战胜后建造的佛寺就是四天王寺。四天王寺不但是佛教扎根日本成为国教的象徵，它工整的建筑格局亦深刻影响了日本佛教寺庙的建筑风格。四天王寺在历代的天灾人祸中经受多次破坏与重建，如今以钢筋水泥重现飞鸟时代的建筑样式。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_SHITENNOJI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+50%夹击加成，且受伤后不会蒙受战斗力减益。（四天王寺）</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_NAME" Language="zh_Hant_HK">
+			<Text>四天王寺</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>獲得1個使徒、1個傳教士、1個審判官和1個武僧。宗教單位和武僧獲得+50%側翼攻擊加成，且受傷後不會蒙受戰鬥力減益。必須建造在相鄰聖地區域（須建有寺廟）的單元格上，此外你必須事先已創立宗教。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_QUOTE" Language="zh_Hant_HK">
+			<Text>「篤敬三寶。三寶者佛法僧也。則四生之終歸、萬國之極宗。」[NEWLINE]——聖德太子，《十七條憲法》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_SHITENNOJI_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>四天王寺建造於公元593年，是日本佛法最初的官寺。根據《日本書紀》，當支持佛教的聖德太子與反對佛教的物部氏交戰時，他用白膠木（鹽膚木）雕刻佛教四大天王的雕像，許下誓願若戰勝物部氏則建造安置四大天王的佛寺，最終戰勝後建造的佛寺就是四天王寺。四天王寺不但是佛教紮根日本成為國教的象徵，它工整的建築格局亦深刻影響了日本佛教寺廟的建築風格。四天王寺在歷代的天災人禍中經受多次破壞與重建，如今以鋼筋水泥重現飛鳥時代的建築樣式。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_SHITENNOJI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+50%側翼攻擊加成，且受傷後不會蒙受戰鬥力減益。（四天王寺）</Text>
+		</Row>
+		
+		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_NAME" Language="ja_JP">
+			<Text>四天王寺</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_DESCRIPTION" Language="ja_JP">
+			<Text>使徒1つ、伝道師1つ、審問官1つ、武僧1つを得る。宗教ユニットと武僧に側面攻撃ボーナス+50%、ダメージを受けても戦闘ペナルティが生じない。神殿が存在する聖地区域に隣接した土地にのみ建設可能。宗教を創始している必要がある。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_QUOTE" Language="ja_JP">
+			<Text>「篤く三宝を敬へ。三宝とは仏・法・僧なり。則ち四生の終帰、万国の極宗なり。」[NEWLINE]– 聖徳太子、『十七条憲法』</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_SHITENNOJI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>四天王寺は593年に創建された日本最初の官寺である。『日本書紀』によれば、仏教を信奉していた聖徳太子が廃仏派の物部氏と戦っていたとき、彼は白膠木で仏教の四天王像を彫り、物部氏を打ち破ったら四天王を安置する寺院を建てることを誓い、勝利の後に建立された寺院が四天王寺である。四天王寺は、仏教が国教として日本に根付いた象徴だけでなく、その整然たる建築様式は、日本の仏教寺院の建築様式にも深い影響を与えた。四天王寺は長い年月の間に何度も天災や人災に見舞われ、破壊と再建を繰り返したが、今では鉄骨とコンクリートで再建され、飛鳥時代の建築様式を再現している。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_SHITENNOJI_DESCRIPTION" Language="ja_JP">
+			<Text>側面攻撃ボーナス+50%、ダメージを受けても戦闘ペナルティが生じない。（四天王寺）</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

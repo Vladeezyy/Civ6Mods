@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LondonBridge -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 12/12/2023 8:50:28 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_OLD_LONDON_BRIDGE" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_OLD_LONDON_BRIDGE" Name="LOC_BUILDING_OLD_LONDON_BRIDGE_NAME" Description="LOC_BUILDING_OLD_LONDON_BRIDGE_DESCRIPTION" PrereqTech="TECH_ENGINEERING" Cost="400" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="false" MustBeAdjacentLand="true" Housing="3" Entertainment="3" ObsoleteEra="ERA_INDUSTRIAL" Quote="LOC_BUILDING_OLD_LONDON_BRIDGE_QUOTE" QuoteAudio="Play_LondonBbridgeIsFallingDown"/>
+	</Buildings>
+	<Buildings_XP2>
+		<Row BuildingType="BUILDING_OLD_LONDON_BRIDGE" Bridge="true"/>
+	</Buildings_XP2>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_OLD_LONDON_BRIDGE" TerrainType="TERRAIN_COAST"/>
+	</Building_ValidTerrains>
+</GameData>

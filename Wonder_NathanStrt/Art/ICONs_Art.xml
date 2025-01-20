@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+	<IconTextureAtlases>
+		<Row Name="WONDER_MONGKOK" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="WONDER_MONGKOK_32.dds"/>
+		<Row Name="WONDER_MONGKOK" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="WONDER_MONGKOK_38.dds"/>
+		<Row Name="WONDER_MONGKOK" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="WONDER_MONGKOK_50.dds"/>
+		<Row Name="WONDER_MONGKOK" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="WONDER_MONGKOK_64.dds"/>
+		<Row Name="WONDER_MONGKOK" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="WONDER_MONGKOK_128.dds"/>
+		<Row Name="WONDER_MONGKOK" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="WONDER_MONGKOK_256.dds"/>
+
+	</IconTextureAtlases>	
+
+	<IconDefinitions>
+
+		<Row Name="ICON_BUILDING_WON_MONGKOK" Atlas="WONDER_MONGKOK" Index="0"/>
+		<Row Name="ICON_BUILDING_WON_MONGKOK_FOW" Atlas="WONDER_MONGKOK" Index="0"/>					
+
+	</IconDefinitions>
+</GameData>

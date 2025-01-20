@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>E:\Documents\WwiseProjects\LondonBbridge\</ProjectRoot>
+		<SourceFilesRoot>E:\Documents\WwiseProjects\LondonBbridge\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Documents\WwiseProjects\LondonBbridge\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Documents\WwiseProjects\LondonBbridge\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1661994096" Language="SFX">
+			<ShortName>SoundBank</ShortName>
+			<Path>SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1638652934" Name="Play_LondonBbridgeIsFallingDown"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="94038287" Language="SFX">
+					<ShortName>LondonBbridgeIsFallingDown_ES.wav</ShortName>
+					<Path>SFX\LondonBbridgeIsFallingDown_ES_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="574279760" Language="SFX">
+					<ShortName>LondonBbridgeIsFallingDown_GE.wav</ShortName>
+					<Path>SFX\LondonBbridgeIsFallingDown_GE_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="786105637" Language="SFX">
+					<ShortName>LondonBbridgeIsFallingDown_EN.wav</ShortName>
+					<Path>SFX\LondonBbridgeIsFallingDown_EN_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="868411385" Language="SFX">
+					<ShortName>LondonBbridgeIsFallingDown_JP.wav</ShortName>
+					<Path>SFX\LondonBbridgeIsFallingDown_JP_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="970565743" Language="SFX">
+					<ShortName>LondonBbridgeIsFallingDown_FR.wav</ShortName>
+					<Path>SFX\LondonBbridgeIsFallingDown_FR_4B8CC0C5.wem</Path>
+				</File>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

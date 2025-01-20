@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LondonBridge_Icon -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 12/12/2023 8:51:26 PM -->
+<GameData>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_BUILDING_OLD_LONDON_BRIDGE" IconSize="32" Filename="IMG_BUILDING_OLD_LONDON_BRIDGE_32"/>
+        <Row Name="ATLAS_BUILDING_OLD_LONDON_BRIDGE" IconSize="38" Filename="IMG_BUILDING_OLD_LONDON_BRIDGE_38"/>
+        <Row Name="ATLAS_BUILDING_OLD_LONDON_BRIDGE" IconSize="50" Filename="IMG_BUILDING_OLD_LONDON_BRIDGE_50"/>
+        <Row Name="ATLAS_BUILDING_OLD_LONDON_BRIDGE" IconSize="80" Filename="IMG_BUILDING_OLD_LONDON_BRIDGE_80"/>
+        <Row Name="ATLAS_BUILDING_OLD_LONDON_BRIDGE" IconSize="128" Filename="IMG_BUILDING_OLD_LONDON_BRIDGE_128"/>
+        <Row Name="ATLAS_BUILDING_OLD_LONDON_BRIDGE" IconSize="256" Filename="IMG_BUILDING_OLD_LONDON_BRIDGE_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_OLD_LONDON_BRIDGE" Atlas="ATLAS_BUILDING_OLD_LONDON_BRIDGE" Index="0"/>
+    </IconDefinitions>
+</GameData>

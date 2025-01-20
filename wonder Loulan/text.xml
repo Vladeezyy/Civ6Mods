@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- text -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 1/10/2024 10:24:50 AM -->
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_BUILDING_LOULAN_NAME" Language="ru_RU">
+			<Text>Город Лоулань</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LOULAN_DESCRIPTION" Language="ru_RU">
+			<Text>Сухопутные юниты получают +1 [ICON_Movement] к передвижению и +5 [ICON_Strength] к боевой мощи на Пустынях и Пустынных холмах. +100% [ICON_Production] производства для Акведуков. Открывает возможность строить Фермы в Пустынях в городах с Акведуком, и эти Фермы дают +1 [ICON_Food] Еды и +2 [ICON_Production] Производства. Должен быть построен на Пустыне или Пустынных холмах.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LOULAN_QUOTE" Language="ru_RU">
+			<Text>«Облака над озером Цинхай затмевают снежные горы,[NEWLINE]одинокий город издали смотрит на перевал Юмэнь.[NEWLINE]Пустыня и битвы износили доспехи солдат,[NEWLINE]но они поклялись не возвращаться, пока Лоулань не будет разрушен.»[NEWLINE]– «За армией #4», Ван Чанлин</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_ABILITY_LOULAN_BUFF_A" Language="ru_RU">
+			<Text>+5 [ICON_Strength] Силы на Пустынях. (Город Лоулань)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LOULAN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Лоулань был древним королевством, построенным вокруг оазиса, и играл роль коммерческого центра и стратегического пункта на Шелковом пути. Имя «Лоулань» впервые появилось в «Трактате о хунну» в «Записях великого историка», где Моду Чаньюй из хунну хвастался завоеванием Лоуланя и других соседних государств. После убийства короля Лоуланя посланником Хань королевство было переименовано в Шаньшань и стало вассалом династии Хань. Различные китайские династии, такие как Хань и Цао Вэй, устанавливали контроль над регионом методом Тунтянь, отправляя солдат и поселенцев, которые в мирное время занимались земледелием. Старый город Лоулань в конце концов был заброшен из-за ряда причин, включая изменение русла реки Тарим и нестабильные ситуации периода Шестнадцати Королевств. Когда буддийский монах Фасянь посетил это место, он записал в своей «Записи о буддийских королевствах», что «здесь не было ни птиц, ни зверей, всё, что указывало путь, — это кости мертвых».</Text>
+		</Row>
+
+	</BaseGameText>
+	<LocalizedText>
+
+		<Row Tag="LOC_BUILDING_LOULAN_NAME" Language="zh_Hans_CN">
+			<Text>楼兰城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LOULAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>陆地单位处于沙漠和沙漠丘陵单元格时+1 [ICON_Movement] 移动力和5 [ICON_Strength] 战斗力。建造水渠时+100% [ICON_Production] 生产力。拥有水渠的城市可以在沙漠修建农场，且这些农场+1 [ICON_Food] 食物和+2 [ICON_Production] 生产力。必须建造在沙漠或沙漠丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LOULAN_QUOTE" Language="zh_Hans_CN">
+			<Text>青海长云暗雪山，[NEWLINE]孤城遥望玉门关。[NEWLINE]黄沙百战穿金甲，[NEWLINE]不破楼兰终不还。[NEWLINE]——《从军行七首·其四》，王昌龄</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_ABILITY_LOULAN_BUFF_A" Language="zh_Hans_CN">
+			<Text>在沙漠+5 [ICON_Strength] 战斗力（楼兰城）。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LOULAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>楼兰是一个建立在绿洲附近的古代王国，是丝绸之路上的商业中心和战略要地。楼兰之名最早见于《史记》，当中匈奴冒顿单于夸耀他对楼兰和周边国家的征服。当汉朝的使者刺杀楼兰国王之后，楼兰国改名为鄯善并对汉朝称臣。汉朝和曹魏等中原政权在当地进行屯田，以平时为农战时为兵的开拓者对当地施加控制。楼兰故城最终被废弃，原因包括塔里木河的改道和十六国时期的混乱局势。当佛教高僧法显到达当地时，他在《佛国记》中记载，此地已是“上无飞鸟，下无走兽，遍望极目，欲求度处，则莫知所拟。唯以死人枯骨为标识耳”。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_LOULAN_NAME" Language="zh_Hant_HK">
+			<Text>樓蘭城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LOULAN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>陸地單位處於沙漠和沙漠丘陵單元格時+1 [ICON_Movement] 移動力和5 [ICON_Strength] 戰鬥力。建造水渠時+100% [ICON_Production] 生產力。擁有水渠的城市可以在沙漠修建農場，且這些農場+1 [ICON_Food] 食物和+2 [ICON_Production] 生産力。必須建造在沙漠或沙漠丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LOULAN_QUOTE" Language="zh_Hant_HK">
+			<Text>青海長雲暗雪山，[NEWLINE]孤城遙望玉門關。[NEWLINE]黃沙百戰穿金甲，[NEWLINE]不破樓蘭終不還。[NEWLINE]——《從軍行七首·其四》，王昌齡</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_ABILITY_LOULAN_BUFF_A" Language="zh_Hant_HK">
+			<Text>在沙漠+5 [ICON_Strength] 戰鬥力（樓蘭城）。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LOULAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>樓蘭是一個建立在綠洲附近的古代王國，是絲綢之路上的商業中心和戰略要地。樓蘭之名最早見於《史記》，當中匈奴冒頓單于誇耀他對樓蘭和周邊國家的征服。當漢朝的使者刺殺樓蘭國王之後，樓蘭國改名爲鄯善並對漢朝稱臣。漢朝和曹魏等中原政權在當地進行屯田，以平時爲農戰時爲兵的開拓者對當地施加控制。樓蘭故城最終被廢棄，原因包括塔里木河的改道和十六國時期的混亂局勢。當佛教高僧法顯到達當地時，他在《佛國記》中記載，此地已是「上無飛鳥，下無走獸，遍望極目，欲求度處，則莫知所擬。唯以死人枯骨爲標識耳」。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_LOULAN_NAME" Language="ja_JP">
+			<Text>楼蘭城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LOULAN_DESCRIPTION" Language="ja_JP">
+			<Text>砂漠または砂漠 (丘陵)の上の陸上ユニットの [ICON_Movement] 移動力+1、 [ICON_Strength] 戦闘力+5。用水路に対する [ICON_Production] 生産力+100%。用水路がある都市の砂漠に農場を作れる、それらの農場の [ICON_Food] 食料+1、 [ICON_Production] 生產力+2。砂漠または砂漠 (丘陵)にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LOULAN_QUOTE" Language="ja_JP">
+			<Text>「青海 長雲 雪山を暗し、[NEWLINE]孤城遥かに望む玉門関。[NEWLINE]黄沙 百戦 金甲を穿つ、[NEWLINE]楼蘭を破らずんば終に還えらじ」[NEWLINE]– 豊臣秀吉</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_ABILITY_LOULAN_BUFF_A" Language="ja_JP">
+			<Text>砂漠の上の [ICON_Strength] 戦闘力+5。（楼蘭城）</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LOULAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>楼蘭はオアシスの近くに築かれた古代の王国であり、シルクロードの商業の中心地と戦略的要衝であった。楼蘭の名が最初に登場するのは『史記』で、匈奴の冒頓単于が楼蘭と近隣諸国の征服を自慢したものである。漢の使者が楼蘭の王を暗殺した後、楼蘭は鄯善と改名し、漢の属国となった。漢王朝や曹魏などの中原政権がこの地に屯田し、平時には農民、戦時には兵士となった開拓者たちによってこの地を支配下に置いた。楼蘭の故城はやがて廃れていった、その理由はタリム川の迂回や十六国時代の混乱にあった。仏教の僧である法顕がこの地に到着したとき、彼は『仏国記』の中で、この地は「上には鳥がなく、下には獣がなく、見渡す限り、誰も行くべき場所を知らない。行くべき場所を見つける唯一の方法は、死者の骨を印とすることである」と記している。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

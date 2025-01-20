@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_HARIMANDIR_SAHIB_NAME" Language="ru_RU">
+			<Text>Хармандир-Сахиб</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HARIMANDIR_SAHIB_DESCRIPTION" Language="ru_RU">
+			<Text>Дает 3 Гуру. Обеспечивает +3 [ICON_Faith] Веры, +2 [ICON_Food] Еды и +1 [ICON_Housing] Жилья за каждого Гуру (максимум до 10 раз). Должен быть построен рядом с районом Водопровод, и вы должны основать Религию.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HARIMANDIR_SAHIB_QUOTE" Language="ru_RU">
+			<Text>«Голод голодного не утоляется; одними словами голод не унять.»[NEWLINE]– Гуру Ангад Дев</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HARIMANDIR_SAHIB_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Хармандир-Сахиб — выдающаяся гурдвара сикхизма, расположенная в Амритсаре, городе, который получил свое название от искусственного озера Амрита-Сарас ("озеро нектара"), на котором построен храм. Согласно историческим записям сикхов, святое место было выбрано Гуру Амар Дасом и приобретено Гуру Рам Дасом. Гуру Арджун руководил строительством храмового комплекса и разместил копию священного писания Ади Грантх в гурдваре. Хармандир-Сахиб также неофициально известен как Золотой Храм после того, как Ранджит Сингх, первый махараджа Сикхской империи, перестроил храмовый комплекс и пожертвовал золото для покрытия внешней стены святилища золотыми листами. В храмовом комплексе Хармандир-Сахиб также находится крупнейшая в мире общинная кухня (лангар), которая бесплатно кормит всех, независимо от их этнической принадлежности и вероисповедания.</Text>
+		</Row>
+		<Row Tag="UNIT_GURU_DESCRIPTION_HARIMANDIR" Language="ru_RU">
+			<Text>Мощный религиозный юнит, способный начинать теологический бой с юнитами других религий. Может обращать [ICON_Citizen] Граждан в свою религию (устраняет 75% существующего давления других религий в целевом городе) или исцелять всех соседних дружественных религиозных юнитов. Может быть куплен только за [ICON_Faith] Веру в городах с индуистским, джайнским или сикхским чудом, если Гуру в игре менее 10.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GURU_HARIMANDIR_DESCRIPTION" Language="ru_RU">
+			<Text>Устраняет 75% существующего давления других религий в целевом городе при распространении религии.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_HARIMANDIR_SAHIB_NAME" Language="zh_Hans_CN">
+			<Text>阿姆利则金庙</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HARIMANDIR_SAHIB_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供3个上师。每拥有1个上师，提供+3 [ICON_Faith] 信仰值，+2 [ICON_Food] 食物和+1 [ICON_Housing] 住房（叠加最多10次）。必须建造在相邻水渠区域的单元格上，同时必须已创立宗教。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HARIMANDIR_SAHIB_QUOTE" Language="zh_Hans_CN">
+			<Text>饑馑之人的饥饿无法得到安抚，单凭言语无法缓解饥饿。[NEWLINE]——恩戈代瓦上师</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HARIMANDIR_SAHIB_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>哈尔曼迪尔·萨希卜是一座著名的锡克教的谒师所，位于阿姆利则，城市名称起源于寺庙所在的人工湖不老花蜜之池。根据锡克教史料记载，这片圣地由阿马·达斯上师选定，由拉姆·达斯上师获得，阿尔琼上师监督寺庙建筑群的建筑工程，并将圣典《阿底格兰特》供奉于谒师所中。锡克教帝国的开国君主兰吉特·辛格重建了寺庙建筑群，并捐献黄金在圣殿外墻铺上金箔，因此哈尔曼迪尔·萨希卜也被称为金庙。哈尔曼迪尔·萨希卜寺庙建筑群中还有一座巨大的兰加尔，这是世界上最大的社区厨房，无分种族和信仰为所有到访者提供免费食物。</Text>
+		</Row>
+		<Row Tag="UNIT_GURU_DESCRIPTION_HARIMANDIR" Language="zh_Hans_CN">
+			<Text>强力的宗教单位，可对其他宗教的神学单位发动神学战争。能让 [ICON_Citizen] 公民皈依其所属的宗教（宗教传播将消除目标城市中其他宗教75%的现有压力）或治疗相邻的全部友方宗教单位。拥有少于10个上师时，可以在拥有印度教、耆那教或锡克教奇观的城市中以 [ICON_Faith] 信仰值购买。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GURU_HARIMANDIR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>宗教传播将消除目标城市中其他宗教75%的现有压力。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_HARIMANDIR_SAHIB_NAME" Language="zh_Hant_HK">
+			<Text>阿姆利則金廟</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HARIMANDIR_SAHIB_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>提供3個上師。每擁有1個上師，提供+3 [ICON_Faith] 信仰值，+2 [ICON_Food] 食物和+1 [ICON_Housing] 住房（疊加最多10次）。必須建造在相鄰水渠區域的單元格上，同時必須已創立宗教。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HARIMANDIR_SAHIB_QUOTE" Language="zh_Hant_HK">
+			<Text>「饑饉之人的飢餓無法得到安撫，單憑言語無法緩解飢餓。」[NEWLINE]——恩戈代瓦上師</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HARIMANDIR_SAHIB_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>哈爾曼迪爾·薩希卜是一座著名的錫克教的謁師所，位於阿姆利則，城市名稱起源於寺廟所在的人工湖不老花蜜之池。根據錫克教史料記載，這片聖地由阿馬·達斯上師選定，由拉姆·達斯上師獲得，阿爾瓊上師監督寺廟建築群的建築工程，並將聖典《阿底格蘭特》供奉於謁師所中。錫克教帝國的開國君主蘭吉特·辛格重建了寺廟建築群，並捐獻黃金在聖殿外墻鋪上金箔，因此哈爾曼迪爾·薩希卜也被稱為金廟。哈爾曼迪爾·薩希卜寺廟建築群中還有一座巨大的蘭加爾，這是世界上最大的社區廚房，無分種族和信仰為所有到訪者提供免費食物。</Text>
+		</Row>
+		<Row Tag="UNIT_GURU_DESCRIPTION_HARIMANDIR" Language="zh_Hant_HK">
+			<Text>強力的宗教單位，可對其他宗教的神學單位發動神學戰爭。能讓 [ICON_Citizen] 公民皈依其所屬的宗教（宗教傳播將消除目標城市中其他宗教75%的現有壓力）或治療相鄰的全部友方宗教單位。擁有少於10個上師時，可以在擁有印度教、耆那教或錫克教奇觀的城市中以 [ICON_Faith] 信仰值購買。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GURU_HARIMANDIR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>宗教傳播將消除目標城市中其他宗教75%的現有壓力。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_HARIMANDIR_SAHIB_NAME" Language="ja_JP">
+			<Text>ハリマンディル・サーヒブ</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HARIMANDIR_SAHIB_DESCRIPTION" Language="ja_JP">
+			<Text>グルを3ユニット得る。グル1つにつき [ICON_Faith] 信仰力+3、 [ICON_Food] 食料+2、 [ICON_Housing] 住宅+1。用水路区域に隣接したタイルにのみ建設可能。宗教を創始している必要がある。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HARIMANDIR_SAHIB_QUOTE" Language="ja_JP">
+			<Text>「飢えた者の飢えは癒されない。単なる言葉では、飢えは解消されない。」[NEWLINE]– グル・アンガド</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HARIMANDIR_SAHIB_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ハリマンディル・サーヒブは、アムリトサルにあるシーク教の著名なガードワラで、都市の名前は寺院が建っている人工池アムリタ・サラス（「不死の池」）に由来する。シーク教の史料によると、この神聖な場所はグル・アマル・ダースによって選ばれ、グル・ラーム・ダースによって購入された。グル・アルジュンは寺院群の建設を監督し、ガードワラに聖典アーディ・グラントを置いた。シーク帝国の初代マハラジャであるランジット・シンがハリマンディル・サーヒブ寺院群を再建し、聖堂の外壁に金箔を貼るために金を寄進したことから、非公式には黄金寺院とも呼ばれている。ハリマンディル・サーヒブ寺院群には巨大なランガール施設もあり、民族や信仰に関係なく、すべての人に無料で食事を提供する世界最大の共同炊事場である。</Text>
+		</Row>
+		<Row Tag="UNIT_GURU_DESCRIPTION_HARIMANDIR" Language="ja_JP">
+			<Text>他宗教のユニットに対して神学戦争を開始できる強力な宗教ユニット。 [ICON_Citizen] 市民を自分の宗教に改宗させることができる（布教の対象となった都市から他の宗教の圧力を75%減少させる）、または隣接した味方宗教ユニットをすべて回復させることができる。グルが10ユニット以下の場合、ヒンドゥー教、ジャイナ教、またはシーク教由來の遺産がある都市が [ICON_Faith] 信仰力でグルを購入できるようになる。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GURU_HARIMANDIR_DESCRIPTION" Language="ja_JP">
+			<Text>布教の対象となった都市から他の宗教の圧力を75%減少させる。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

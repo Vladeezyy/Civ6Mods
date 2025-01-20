@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- wonder -->
+<!-- Author: Edel Lilie BOUQUET -->
+<!-- DateCreated: 12/9/2023 10:06:40 AM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_JD_ATACAMA_GIANT" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_JD_ATACAMA_GIANT" Name="LOC_BUILDING_JD_ATACAMA_GIANT_NAME" Description="LOC_BUILDING_JD_ATACAMA_GIANT_DESCRIPTION"
+			 PrereqTech="TECH_ASTROLOGY" Cost="180" AdvisorType="ADVISOR_TECHNOLOGY"  MaxWorldInstances="1" IsWonder="true" 
+			 RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_JD_ATACAMA_GIANT_QUOTE" QuoteAudio=""/>
+	</Buildings>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_JD_ATACAMA_GIANT" TerrainType="TERRAIN_DESERT"/>
+	</Building_ValidTerrains>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_JD_ATACAMA_GIANT</BuildingType>
+			<ModifierId>MODIFIER_BUILDING_JD_ATACAMA_GIANT</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_ATACAMA_GIANT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_IMPROVEMENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_BUILDING_JD_ATACAMA_GIANT</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_JD_ATACAMA_GIANT</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_IMPROVEMENT_JD_ATACAMA_GIANT_NAME" Language="zh_Hans_CN">
+			<Text>阿塔卡马地画</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_JD_ATACAMA_GIANT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造阿塔卡马地画特色改良设施的能力，专属于拥有阿塔卡马巨人奇观的文明。[NEWLINE][NEWLINE]+2 [ICON_Faith] 信仰值。每与一个沙漠相邻则+1 [ICON_Food] 食物。每与一个沙漠丘陵或沙漠山脉相邻则+1 [ICON_Production] 生产力。每与一座奇观相邻则+1 [ICON_Culture] 文化值。必须建造在沙漠或沙漠丘陵上，无法建在另一座阿塔卡马地画旁。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_ATACAMA_GIANT_NAME" Language="zh_Hans_CN">
+			<Text>阿塔卡马巨人</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_ATACAMA_GIANT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造阿塔卡马地画特色改良设施的能力。必须建造在平坦沙漠上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_ATACAMA_GIANT_QUOTE" Language="zh_Hans_CN">
+			<Text>他身无长物，不带畜群。据说祂能说方言胜过本地人，被称为托那帕或者塔拉帕卡。[NEWLINE]——胡安‧德‧桑塔‧克鲁兹‧帕查库提克‧亚姆基‧萨尔卡迈瓜</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_JD_ATACAMA_GIANT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>智利的阿塔卡马沙漠是世界上最干旱的非极地荒漠，甚至被用作模拟火星环境的太空探险实验场。然而，这里并非没有栩栩如生的艺术。阿塔卡马沙漠被超过五千幅的地画装饰，其中最大的地画被称为阿塔卡马巨人。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JD_ATACAMA_GIANT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>阿塔卡马沙漠被超过五千幅的地画装饰，其中最大的地画被称为阿塔卡马巨人。顾名思义，阿塔卡马巨人是一副类似人形图案的巨型地上画，能从远方清晰看见，但具体的作画时间和作画目的依然是一个谜团。有人猜测它表现一尊雨神的形象（可能来自印加入侵前，也可能来自印加入侵后），而外星人狂热者（一如既往）声称这是外星生物的形象。</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_JD_ATACAMA_GIANT_NAME" Language="zh_Hant_HK">
+			<Text>阿塔卡馬地畫</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_JD_ATACAMA_GIANT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>解鎖建造者建造阿塔卡馬地畫特色改良設施的能力，專屬於擁有阿塔卡馬巨人奇觀的文明。[NEWLINE][NEWLINE]+2 [ICON_Faith] 信仰值。每與一個沙漠相鄰則+1 [ICON_Food] 食物。每與一個沙漠丘陵或沙漠山脈相鄰則+1 [ICON_Production] 生產力。每與一座奇觀相鄰則+1 [ICON_Culture] 文化值。必須建造在沙漠或沙漠丘陵上，無法建在另一座阿塔卡馬地畫旁。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_ATACAMA_GIANT_NAME" Language="zh_Hant_HK">
+			<Text>阿塔卡馬巨人</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_ATACAMA_GIANT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>解鎖建造者建造阿塔卡馬地畫特色改良設施的能力。必須建造在平坦沙漠上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_ATACAMA_GIANT_QUOTE" Language="zh_Hant_HK">
+			<Text>「他身無長物，不帶畜群，據說祂能說方言勝過本地人，被稱為托那帕或者塔拉帕卡。」[NEWLINE]——胡安‧德‧桑塔‧克魯茲‧帕查庫提克‧亞姆基‧薩爾卡邁瓜</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_JD_ATACAMA_GIANT_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>智利的阿塔卡馬沙漠是世界上最乾旱的非極地荒漠，甚至被用作模擬火星環境的太空探險實驗場。然而，這裏並非沒有栩栩如生的藝術。阿塔卡馬沙漠被超過五千幅的地畫裝飾，其中最大的地畫被稱為阿塔卡馬巨人。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JD_ATACAMA_GIANT_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>阿塔卡馬沙漠被超過五千幅的地畫裝飾，其中最大的地畫被稱為阿塔卡馬巨人。顧名思義，阿塔卡馬巨人是一副類似人形圖案的巨型地上畫，能從遠方清晰看見，但具體的作畫時間和作畫目的依然是一個謎團。有人猜測它表現一尊雨神的形象（可能來自印加入侵前，也可能來自印加入侵後），而外星人狂熱者（一如既往）聲稱這是外星生物的形象。</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_JD_ATACAMA_GIANT_NAME" Language="ru_RU">
+			<Text>Геоглиф Атакама</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_JD_ATACAMA_GIANT_DESCRIPTION" Language="ru_RU">
+			<Text>Открывает для Строителя возможность строить улучшение «Геоглиф Атакама», уникальное для цивилизации с чудом света «Гигант Атакама».[NEWLINE][NEWLINE]+2 [ICON_Faith] Веры. +1 [ICON_Food] Еды за каждую соседнюю пустыню. +1 [ICON_Production] Производства за каждую соседнюю пустынную холмистую местность или пустынную гору. +1 [ICON_Culture] Культуры за каждое соседнее чудо света. Может быть построен только в пустыне или на пустынных холмах и не может быть расположен рядом с другим геоглифом Атакама.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_ATACAMA_GIANT_NAME" Language="ru_RU">
+			<Text>Гигант Атакама</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_ATACAMA_GIANT_DESCRIPTION" Language="ru_RU">
+			<Text>Открывает для Строителя возможность строить уникальное улучшение «Геоглиф Атакама». Должен быть построен на ровной пустыне.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_ATACAMA_GIANT_QUOTE" Language="ru_RU">
+			<Text>«Его ничто не интересовало, он не вёл стада; говорили, что он говорил на всех языках лучше, чем их носители, и звали его Тонапа или Тарапака.»[NEWLINE]– Хуан де Санта Крус Пачакути Ямки Салкамайгуя</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_JD_ATACAMA_GIANT_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Пустыня Атакама в Чили — самая засушливая неполярная пустыня в мире, которая использовалась как экспериментальная площадка для космических экспедиций, имитирующих условия на Марсе. Однако это место не лишено ярких произведений искусства. Наоборот, пустыня Атакама украшена более чем 5000 геоглифов, крупнейшим из которых является Гигант Атакама.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JD_ATACAMA_GIANT_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Пустыня Атакама украшена множеством геоглифов, крупнейший из которых известен как Гигант Атакама. Как следует из названия, Гигант Атакама представляет собой огромный антропоморфный геоглиф, который можно отчётливо увидеть издалека. Однако его точное назначение и время создания остаются загадкой. Некоторые предполагают, что геоглиф изображал бога дождя (до или после вторжения инков в этот регион), в то время как фанаты теорий об инопланетянах, как всегда, утверждают, что он изображал внеземное существо.</Text>
+		</Row>
+
+
+
+
+		<Row Tag="LOC_IMPROVEMENT_JD_ATACAMA_GIANT_NAME" Language="ja_JP">
+			<Text>アタカマの地上絵</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_JD_ATACAMA_GIANT_DESCRIPTION" Language="ja_JP">
+			<Text>労働者がアタカマの巨人固有の施設「アタカマの地上絵」を建設できるようになる。[NEWLINE][NEWLINE][ICON_Faith] 信仰力+1。隣接する砂漠1つにつき [ICON_Food] 食料+1。隣接する砂漠 (丘陵)または砂漠 (山岳)1つにつき [ICON_Production] 生產力+1。隣接する遺產1つにつき [ICON_Culture] 文化力+2。砂漠と砂漠 (丘陵)にのみ建設可能。別のアタカマの地上絵に隣接させることはできない。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_ATACAMA_GIANT_NAME" Language="ja_JP">
+			<Text>アタカマの巨人</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_ATACAMA_GIANT_DESCRIPTION" Language="ja_JP">
+			<Text>労働者がアタカマの巨人固有の施設「アタカマの地上絵」を建設できるようになる。平坦な砂漠にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JD_ATACAMA_GIANT_QUOTE" Language="ja_JP">
+			<Text>「彼は財も畜群ももたない。彼はすべての言語を原住民よりも上手に話すと言われており、トナパまたはタラパカと呼ばれていた。」[NEWLINE]– フワン・デ・サンタ・クルス・パチャクティ・ヤムキ・サルカマイワ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_JD_ATACAMA_GIANT_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>チリのアタカマ砂漠は、世界で最も乾燥した非極地の砂漠であり、火星の環境を再現するための宇宙探査の実験場にもなっている。しかし、鮮やかな芸術がないわけではない。むしろその逆である。アタカマ砂漠は5,000以上の地上絵で飾られており、その最も大きなものがアタカマの巨人と呼ばれている。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JD_ATACAMA_GIANT_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>アタカマ砂漠は5,000以上の地上絵で飾られており、その最も大きなものがアタカマの巨人と呼ばれている。その名の通り、アタカマの巨人は巨大なヒト形の地上絵であり、遠くからでもはっきりと見えるが、その正確な用途や描かれた時期については謎に包まれている。ある者は、この地上絵が雨の神（インカがこの地域に侵入する前か後）を表していると推測し、一方、エイリアンの狂信者は案の定、この地上絵が地球外生命体を表していると主張した。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

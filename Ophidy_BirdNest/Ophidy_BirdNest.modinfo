@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ae99a140-faa1-4f5e-bf78-e9f0da1f477b" version="1">
+  <Properties>
+    <Name>MOD_OPH_BIRDNEST_NAME</Name>
+    <Description>MOD_OPH_BIRDNEST_DESC</Description>
+    <Created>1709888480</Created>
+    <Teaser>MOD_OPH_BIRDNEST_DESC</Teaser>
+    <Authors>IthildinX,Ophidy,Phantagonist</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <LocalizedText>
+	<File>Text/en_US.xml</File>
+    <File>Text/ja_JP.xml</File>
+    <File>Text/zh_Hans_CN.xml</File>
+    <File>Text/zh_Hant_HK.xml</File>
+	<File>Text/ru_RU.xml</File>
+  </LocalizedText>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>Database/Wonder.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="UpdateIcons">
+      <File>Icon/Texture.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="UpdateArt">
+      <Properties>
+        <LoadOrder>2000</LoadOrder>
+      </Properties>
+      <File>MOD_OPH_BIRDNEST_NAME.dep</File>
+    </UpdateArt>
+    <UpdateText id="UpdateText">
+      <File>Text/zh_Hans_CN.xml</File>
+      <File>Text/zh_Hant_HK.xml</File>
+      <File>Text/en_US.xml</File>
+      <File>Text/ja_JP.xml</File>
+      <File>Text/ru_RU.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Database/Wonder.sql</File>
+    <File>Icon/Texture.xml</File>
+    <File>MOD_OPH_BIRDNEST_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BirdNest_a</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BirdNest_c</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BirdNest_lightmap</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BirdNest_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BirdNest_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_Gray_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_Gray_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_BirdNest_d_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_Gray_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/TileBase.blp</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BirdNest_a</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BirdNest_c</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BirdNest_lightmap</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BirdNest_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BirdNest_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_Gray_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_Gray_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_BirdNest_d_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_Gray_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/TileBase.blp</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>Text/en_US.xml</File>
+    <File>Text/ja_JP.xml</File>
+    <File>Text/ru_RU.xml</File>
+    <File>Text/zh_Hans_CN.xml</File>
+    <File>Text/zh_Hant_HK.xml</File>
+  </Files>
+</Mod>
