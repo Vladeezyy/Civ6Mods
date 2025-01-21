@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+	<IconTextureAtlases>
+		<Row Name="iconsCOREXPWON" IconSize="32" IconsPerRow="4" IconsPerColumn="1" Filename="COREX_WONDERS_32.dds"/>
+		<Row Name="iconsCOREXPWON" IconSize="38" IconsPerRow="4" IconsPerColumn="1" Filename="COREX_WONDERS_38.dds"/>
+		<Row Name="iconsCOREXPWON" IconSize="50" IconsPerRow="4" IconsPerColumn="1" Filename="COREX_WONDERS_50.dds"/>
+		<Row Name="iconsCOREXPWON" IconSize="64" IconsPerRow="4" IconsPerColumn="1" Filename="COREX_WONDERS_64.dds"/>
+		<Row Name="iconsCOREXPWON" IconSize="128" IconsPerRow="4" IconsPerColumn="1" Filename="COREX_WONDERS_128.dds"/>
+		<Row Name="iconsCOREXPWON" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="COREX_WONDERS_256.dds"/>
+	</IconTextureAtlases>	
+
+	<IconDefinitions>
+
+		<Row Name="ICON_CL_BUILDING_CN_TOWER" Atlas="iconsCOREXPWON" Index="0"/>
+		<Row Name="ICON_CL_BUILDING_CN_TOWER_FOW" Atlas="iconsCOREXPWON" Index="0"/>
+
+	</IconDefinitions>
+</GameData>

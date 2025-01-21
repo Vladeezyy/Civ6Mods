@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+	<IconTextureAtlases>
+		<Row Name="iconsEMPIRE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="CL_EMPIRE_32.dds"/>
+		<Row Name="iconsEMPIRE" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="CL_EMPIRE_38.dds"/>
+		<Row Name="iconsEMPIRE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="CL_EMPIRE_50.dds"/>
+		<Row Name="iconsEMPIRE" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="CL_EMPIRE_64.dds"/>
+		<Row Name="iconsEMPIRE" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="CL_EMPIRE_128.dds"/>
+		<Row Name="iconsEMPIRE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="CL_EMPIRE_256.dds"/>
+	</IconTextureAtlases>	
+
+	<IconDefinitions>
+
+		<Row Name="ICON_WON_CL_EMPIRE_STATES" Atlas="iconsEMPIRE" Index="0"/>
+		<Row Name="ICON_WON_CL_EMPIRE_STATES_FOW" Atlas="iconsEMPIRE" Index="0"/>
+
+	</IconDefinitions>
+</GameData>

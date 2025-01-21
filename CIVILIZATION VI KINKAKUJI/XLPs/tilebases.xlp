@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="WON_CL_Kinkaku_Lrg"/>
+			<m_ObjectName text="WON_CL_Kinkaku_Lrg"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WON_CL_Kinkaku_Med"/>
+			<m_ObjectName text="WON_CL_Kinkaku_Med"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WON_CL_Kinkaku_Sml"/>
+			<m_ObjectName text="WON_CL_Kinkaku_Sml"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WON_CL_Kinkaku_Sand"/>
+			<m_ObjectName text="WON_CL_Kinkaku_Sand"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WON_CL_Kinkaku_Crane_LG"/>
+			<m_ObjectName text="WON_CL_Kinkaku_Crane_LG"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WON_CL_Kinkaku_Crane_SM"/>
+			<m_ObjectName text="WON_CL_Kinkaku_Crane_SM"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WON_CL_Kinkaku_Lumber_A"/>
+			<m_ObjectName text="WON_CL_Kinkaku_Lumber_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WON_CL_Kinkaku_Lumber_B"/>
+			<m_ObjectName text="WON_CL_Kinkaku_Lumber_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WON_CL_Kinkaku_Lumber_C"/>
+			<m_ObjectName text="WON_CL_Kinkaku_Lumber_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WON_CL_Kinkaku_Bld_Movie_Built"/>
+			<m_ObjectName text="WON_CL_Kinkaku_Bld_Movie_Built"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WON_CL_Kinkaku_Bld_Movie_Con"/>
+			<m_ObjectName text="WON_CL_Kinkaku_Bld_Movie_Con"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

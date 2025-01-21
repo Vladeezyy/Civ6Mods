@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_WON_CL_KINKAKU_NAME" Language="en_US">
+			<Text>Кинкаку-дзи</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WON_CL_KINKAKU_DESCRIPTION" Language="en_US">
+			<Text>Святые места в пределах 6 клеток от этого чуда предоставляют +2 [ICON_CULTURE] Культуры для соседних незаселенных клеток и получают [ICON_TOURISM] Туризм, равный половине их [ICON_FAITH] Веры в соседних клетках (Требуется, чтобы игрок имел технологию Полет). Бонусы [ICON_CULTURE] Культуры и [ICON_TOURISM] Туризма удваиваются на клетках с захватывающим видом. Должен быть построен на клетке с озером.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WON_CL_KINKAKU_QUOTE" Language="en_US">
+			<Text>"Самая маленькая часть храма идеально сочеталась с его общей структурой. Это было как послушать несколько нот музыки и почувствовать, как вся композиция проходит через ваш разум: какую бы часть Золотого храма я не выбрал, вся постройка эхом отзывалась во мне."[NEWLINE]-Юкио Мисима</Text>
+		</Replace>
+
+
+	</LocalizedText>
+</GameData>
+

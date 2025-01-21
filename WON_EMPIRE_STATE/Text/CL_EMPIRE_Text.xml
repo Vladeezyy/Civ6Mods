@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_WON_CL_EMPIRE_STATES_NAME" Language="en_US">
+			<Text>Эмпайр-Стейт-Билдинг</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WON_CL_EMPIRE_STATES_DESCRIPTION" Language="en_US">
+			<Text>+20% [ICON_GOLD] Золота в этом городе, и все Чудеса в этом городе получают +6 [ICON_GOLD] Золота и +50% [ICON_Tourism] Туризма. Должно быть построено на плоской земле, прилегающей к Центру города.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WON_CL_EMPIRE_STATES_QUOTE" Language="en_US">
+			<Text>"Когда я в Нью-Йорке, я смотрю на Эмпайр-Стейт-Билдинг и чувствую, что он принадлежит мне... или это наоборот?"[NEWLINE]-Фэй Урей</Text>
+		</Replace>
+
+
+	</LocalizedText>
+</GameData>
+

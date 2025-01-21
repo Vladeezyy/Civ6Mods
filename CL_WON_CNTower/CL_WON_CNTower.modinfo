@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ffa02d2f-e5d4-43fd-bb97-0a4868c7b3a7" version="1">
+  <Properties>
+    <Name>CIVILIZATION VI: CN Tower</Name>
+    <Description>Adds the CN Tower as a Wonder to the game.</Description>
+    <Created>1617292863</Created>
+    <Teaser>Adds the CN Tower as a Wonder to the game</Teaser>
+    <Authors>Albro</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <References>
+    <Mod id="95b955fc-2dd1-41c5-989e-0265d98a28bd" title="CIVILIZATION VI: [COLOR:ResGoldLabelCS]CITY LIGHTS[ENDCOLOR]" />
+  </References>
+  <ActionCriteria>
+    <Criteria id="CityLights">
+      <ModInUse>95b955fc-2dd1-41c5-989e-0265d98a28bd</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateArt id="CNTower_UpdateArt">
+      <File>CL_WON_CNTower.dep</File>
+      <File>ArtDefs/Buildings.artdef</File>
+      <File>ArtDefs/WonderMovie.artdef</File>
+    </UpdateArt>
+    <UpdateDatabase id="CNTower_UpdateDatabase">
+      <File>Gameplay/COREX_Wonders.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="CNTower_UpdateText">
+      <File>Text/COREX_Text_Won.xml</File>
+    </UpdateText>
+    <UpdateIcons id="CNTower_UpdateIcons">
+      <Properties>
+        <LoadOrder>150</LoadOrder>
+      </Properties>
+      <File>Art/ICONs_Art.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="CNTower_UpdateDatabase_CityLights">
+      <Criteria>CityLights</Criteria>
+      <File>Gameplay/COREX_Wonders_CL.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="CNTower_UpdateText_CityLights">
+      <Properties>
+        <LoadOrder>200</LoadOrder>
+      </Properties>
+      <Criteria>CityLights</Criteria>
+      <File>Text/COREX_Text_Won_CL.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Art/ICONs_Art.xml</File>
+    <File>CL_WON_CNTower.dep</File>
+    <File>Gameplay/COREX_Wonders.sql</File>
+    <File>Gameplay/COREX_Wonders_CL.sql</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_L</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Concrete_Tile_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Concrete_Tile_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Concrete_Tile_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CL_CN_Texture_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Concrete_Tile_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_MG_Base_64_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_MG_Base_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Grass_Dark_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Road_Sidewalk_Tile_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Movie_Wall_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_64_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Grass_Dark_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Grass_Dark_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Grass_Dark_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Road_Sidewalk_Tile_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Road_Sidewalk_Tile_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Road_Sidewalk_Tile_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_N1</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_L</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CL_CN_Texture_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Concrete_Tile_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Concrete_Tile_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Concrete_Tile_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CL_CN_Texture_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Concrete_Tile_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_MG_Base_64_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_MG_Base_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Grass_Dark_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Road_Sidewalk_Tile_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Movie_Wall_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_64_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Grass_Dark_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Grass_Dark_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Grass_Dark_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Road_Sidewalk_Tile_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Road_Sidewalk_Tile_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Road_Sidewalk_Tile_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_N1</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>Text/COREX_Text_Won.xml</File>
+    <File>Text/COREX_Text_Won_CL.xml</File>
+    <File>XLPs/icons.xlp</File>
+    <File>XLPs/WonderMovie.xlp</File>
+  </Files>
+</Mod>

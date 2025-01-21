@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+	<IconTextureAtlases>
+		<Row Name="iconsKINKAKUJI" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="WON_CL_KINKAKU_32.dds"/>
+		<Row Name="iconsKINKAKUJI" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="WON_CL_KINKAKU_38.dds"/>
+		<Row Name="iconsKINKAKUJI" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="WON_CL_KINKAKU_50.dds"/>
+		<Row Name="iconsKINKAKUJI" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="WON_CL_KINKAKU_64.dds"/>
+		<Row Name="iconsKINKAKUJI" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="WON_CL_KINKAKU_128.dds"/>
+		<Row Name="iconsKINKAKUJI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="WON_CL_KINKAKU_256.dds"/>
+	</IconTextureAtlases>	
+
+	<IconDefinitions>
+
+		<Row Name="ICON_WON_CL_KINKAKU" Atlas="iconsKINKAKUJI" Index="0"/>
+		<Row Name="ICON_WON_CL_KINKAKU_FOW" Atlas="iconsKINKAKUJI" Index="0"/>
+
+	</IconDefinitions>
+</GameData>

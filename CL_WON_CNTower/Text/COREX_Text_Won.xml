@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- WONDERS -->
+
+		<Replace Tag="LOC_CL_BUILDING_CN_TOWER_NAME" Language="en_US">
+			<Text>CN Башня</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CL_BUILDING_CN_TOWER_DESCRIPTION" Language="en_US">
+			<Text>Предоставляет здание «Центр вещания» в каждом городе с музеем. Здания в районе развлекательного комплекса получают +4 радиус и +2 [ICON_CULTURE] культуры для региональных эффектов в этом городе. Должна быть построена рядом с районом развлекательного комплекса, принадлежащим этому городу.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CL_BUILDING_CN_TOWER_QUOTE" Language="en_US">
+			<Text>"Ничто не движется быстрее света, за исключением плохих новостей, которые подчиняются своим особым правилам."[NEWLINE]–Дуглас Адамс</Text>
+		</Replace>
+
+
+	</LocalizedText>
+</GameData>
+

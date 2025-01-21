@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="574fca1b-39ae-4f9d-810e-67554a750182" version="1">
+  <Properties>
+    <Name>Leugi's [COLOR:ResGoldLabelCS]Monopoly++:[ENDCOLOR] Monopoly Settings</Name>
+    <Description>[COLOR:ResGoldLabelCS]Leugi's Monopoly ++[ENDCOLOR][NEWLINE][NEWLINE]Collection of mods aimed at adding some more flavour and making some adjustments to the Monopoly mode and to Tourism+Gold interaction.[NEWLINE][NEWLINE][COLOR:ResGoldLabelCS]Monopoly Settings[ENDCOLOR][NEWLINE][NEWLINE]Adds different options for the required amount of resources to establish a Monopoly in alternate economy mode. (20/40/60/80/100). Also grants the option to remove Monopolies from Luxuries altogether.</Description>
+    <Created>1620334013</Created>
+    <Teaser>Last Update: May 2021</Teaser>
+    <Authors>Leugi,</Authors>
+    <SpecialThanks>The VI Modding Helpline, D</SpecialThanks>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" title="DLC: Kublai Khan and Vietnam Civilization Pack" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="Monopolies_Mode">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="LeuMonopolies_20">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LEU_MONOPOLY_SETUP</ConfigurationId>
+        <Group>Game</Group>
+        <Value>20</Value>
+      </ConfigurationValueMatches>
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="LeuMonopolies_40">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LEU_MONOPOLY_SETUP</ConfigurationId>
+        <Group>Game</Group>
+        <Value>40</Value>
+      </ConfigurationValueMatches>
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="LeuMonopolies_60">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LEU_MONOPOLY_SETUP</ConfigurationId>
+        <Group>Game</Group>
+        <Value>60</Value>
+      </ConfigurationValueMatches>
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="LeuMonopolies_80">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LEU_MONOPOLY_SETUP</ConfigurationId>
+        <Group>Game</Group>
+        <Value>80</Value>
+      </ConfigurationValueMatches>
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="LeuMonopolies_100">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LEU_MONOPOLY_SETUP</ConfigurationId>
+        <Group>Game</Group>
+        <Value>100</Value>
+      </ConfigurationValueMatches>
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="LeuMonopolies_101">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LEU_MONOPOLY_SETUP</ConfigurationId>
+        <Group>Game</Group>
+        <Value>101</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Configs">
+      <File>Core/MonopolySettings.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigTexts">
+      <File>Core/MonopolySettingTexts.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Monopolies20">
+      <Criteria>LeuMonopolies_20</Criteria>
+      <Criteria>Monopolies_Mode</Criteria>
+      <File>Core/Monopoly20.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Monopolies40">
+      <Criteria>LeuMonopolies_40</Criteria>
+      <Criteria>Monopolies_Mode</Criteria>
+      <File>Core/Monopoly40.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Monopolies60">
+      <Criteria>LeuMonopolies_60</Criteria>
+      <Criteria>Monopolies_Mode</Criteria>
+      <File>Core/Monopoly60.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Monopolies80">
+      <Criteria>LeuMonopolies_80</Criteria>
+      <Criteria>Monopolies_Mode</Criteria>
+      <File>Core/Monopoly80.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Monopolies100">
+      <Criteria>LeuMonopolies_100</Criteria>
+      <Criteria>Monopolies_Mode</Criteria>
+      <File>Core/Monopoly100.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Monopolies101">
+      <Criteria>Monopolies_Mode</Criteria>
+      <Criteria>LeuMonopolies_101</Criteria>
+      <File>Core/NoMonopoly.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Core/Monopoly100.sql</File>
+    <File>Core/Monopoly20.sql</File>
+    <File>Core/Monopoly40.sql</File>
+    <File>Core/Monopoly60.sql</File>
+    <File>Core/Monopoly80.sql</File>
+    <File>Core/MonopolySettings.sql</File>
+    <File>Core/MonopolySettingTexts.sql</File>
+    <File>Core/NoMonopoly.sql</File>
+    <File>MonopoliesTourismFix.xml</File>
+  </Files>
+</Mod>
