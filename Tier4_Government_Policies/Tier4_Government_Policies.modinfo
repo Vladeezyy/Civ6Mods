@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="937370e2-2710-42d9-bf5f-017b186e268f" version="2">
+  <Properties>
+    <Name>[COLOR:ResCultureLabelCS]Policy Pack:[ENDCOLOR] Future Governments</Name>
+    <Description>Extends the government-exclusive policies to the final tier. [ICON_Bullet]Synthetic Technocracy can use Defense of the Motherland, Collectivization, and New Deal.[NEWLINE][ICON_Bullet]Digital Democracy can use Their Finest Hour, New Deal, and Third Alternative.[NEWLINE][ICON_Bullet]Corporate Libertarianism can use Martial Law, Third Alternative, and Defense of the Motherland.</Description>
+    <Teaser>Extends the government-exclusive policies to the final tier.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>13779</LoadOrder>
+      </Properties>
+      <File>T4GP_Policies.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>T4GP_Policies.sql</File>
+  </Files>
+</Mod>

@@ -80,7 +80,7 @@
 		<Text>Количество иностранных [ICON_TradeRoute] торговых путей, проходящих через город.</Text>
 	</Replace>
 	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT" Language="ru_RU">
-		<Text>Количество плиток с неулучшенными особенностями в городе.</Text>
+		<Text>Количество неулучненных клеток в городе.</Text>
 	</Replace>
 	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY" Language="ru_RU">
 		<Text>Количество подходящих возобновляемых источников энергии в городе.</Text>

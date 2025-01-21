@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<LocalizedText>
+		<!-- English -->
+		<Row Tag="LOC_BUILDING_ITSUKUSHIMA_NAME" Language="ru_RU">
+			<Text>Храм Исукашима</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ITSUKUSHIMA_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет стандартный адъюанс (+1 [ICON_Faith] Вера) для Священных районов от побережья и малый адъюанс (+0.5 [ICON_Culture] Культура) для Театральных площадок от побережья. Предоставляет бесплатный монумент для города. Добавляет +1 привлекательности для клеток в городе. Должен быть построен на побережье рядом с Районом Священного места.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ITSUKUSHIMA_QUOTE" Language="ru_RU">
+			<Text>"Ничто не существует вне тебя, что могло бы помочь тебе стать лучше, сильнее, богаче, быстрее или умнее. Все внутри. Все существует. Не ищи ничего за пределами себя." - Миямото Мусаси</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ITSUKUSHIMA_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Храм Исукашима — это синтоистский храм на острове Исукашима (известный как Миядзима), наиболее известен своими "плавающими" тории. Он находится в городе Хатсукаити в префектуре Хиросима в Японии. Храмовый комплекс включен в список объектов Всемирного наследия ЮНЕСКО, а японское правительство объявило несколько зданий и предметов национальными сокровищами. Храм Исукашима является одним из самых популярных туристических объектов Японии. Он наиболее знаменит своими величественными воротами тории на окраине храма, священными вершинами горы Мисен, обширными лесами и эстетическим видом на океан.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ITSUKUSHIMA_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Храм Исукашима был главным синтоистским храмом (ичиномией) провинции Аки. Считается, что он был возведен в 593 году якобы Саэки Куромото в период Суико. Однако настоящий храм часто приписывают Таираму Кийомори, выдающемуся военачальнику (даймё), который значительно способствовал строительству храма во время своего правления в 1168 году. Другим знаменитым покровителем храма был военачальник Мори Мотонари, лорд Чошу, который восстановил хонден в 1571 году. Однако важно отметить, что в результате войны с Сюэ Такафусой в 1555 году Мотонари, как говорят, осквернил землю острова, ведя бой на этом острове. Это связано с жесткими понятиями священной чистоты, которые символизируют синтоистские храмы.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ITSUKUSHIMA_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>Храм Исукашима посвящен трем дочерям Сусанно-о-но-Микото: Икисима-химе-но-Микото, Тагора-химе-но-Микото и Такицу-химе-но-Микото. Эти синтоистские богини считаются богинями морей и штормов. Кийомори считал богинь "воплощениями Каннон", поэтому остров понимался как дом бодхисаттвы. На японском языке Исукашима переводится как "остров, посвященный богам". На самом деле остров сам по себе считается богом, поэтому храм был построен на окраине острова.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ITSUKUSHIMA_CHAPTER_HISTORY_PARA_4" Language="ru_RU">
+			<Text>Наиболее узнаваемой и знаменательной особенностью храма Исукашима является его 15-метровая красная ворота тории ("великая ворота"), построенная из дерева, устойчивого к гниению. Размещение дополнительной опоры перед и за каждым основным столбом делает тории отражением стиля Рёбу-синто (двойной синтоизм), средневековой школы эзотерического японского буддизма, связанной с сектой Сингон. Тории выглядит плавающими только в высокое приливное время. Когда прилив низкий, к нему можно подойти только пешком от острова. Собирание моллюсков возле ворот также популярно при низком уровне прилива. Ночью мощные огни на побережье освещают тории.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ITSUKUSHIMA_THEATER_COAST_CULTURE" Language="ru_RU">
+			<Text>+{1_num} [ICON_Culture] Культуры от соседнего побережья (Храм Исукашима).</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ITSUKUSHIMA_HOLY_SITE_COAST_FAITH" Language="ru_RU">
+			<Text>+{1_num} [ICON_Faith] Веры от соседнего побережья (Храм Исукашима).</Text>
+		</Row>
+
+
+		<!-- German -->
+		<Row Tag="LOC_BUILDING_ITSUKUSHIMA_NAME" Language="de_DE">
+			<Text>Itsukushima Schrein</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ITSUKUSHIMA_QUOTE" Language="de_DE">
+			<Text>“Es gibt nichts außerhalb von dir, dass dich dazu bemächtigt, stärker, reicher, schneller oder klüger zu werden. Alles ist in dir. Alles existiert. Suche nichts außerhalb von dir selbst.” - Miyamoto Musashi</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ITSUKUSHIMA_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Itsukushima-Schrein ist ein Shinto-Schrein auf der Insel Itsukushima (im Volksmund als Miyajima bekannt), der am besten für sein "schwebendes" Torii-Tor bekannt ist. Es ist in der Stadt Hatsukaichi in der Präfektur Hiroshima in Japan. Der Schreinkomplex ist als UNESCO-Weltkulturerbe gelistet, und die japanische Regierung hat mehrere Gebäude und Besitztümer als nationale Schätze ausgewiesen. Der Itsukushima-Schrein ist eine der beliebtesten Touristenattraktionen Japans. Es ist am bekanntesten für sein wunderschönes Tor oder die Torii am Rande des Schreins, die heiligen Gipfel des Mount Misen, die ausgedehnten Wälder und seinen ästhetischen Meerblick.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ITSUKUSHIMA_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Itsukushima jinja war der oberste Shinto-Schrein (Ichinomiya) der Provinz Aki. Er soll 593 von Saeki Kuramoto während der Suiko-Zeit errichtet worden sein. Der heutige Schrein wurde jedoch im Volksmund Taira no Kiyomori zugeschrieben, einem prominenten Kriegsherrn (Daimyo), der während seiner Zeit als Gouverneur der Provinz Aki im Jahr 1168 maßgeblich zum Bau des Schreins beigetragen hatte. Ein weiterer berühmter Schutzpatron des Schreins war der Kriegsherr Mori Motonari, Lord von Choshu, der 1571 für den Wiederaufbau des Honden verantwortlich war. Es ist jedoch wichtig zu erwähnen, dass Motonari 1555 als Ergebnis des Krieges gegen Sue Takafusa das Gelände der Insel durch Kämpfe in Mitleidenschaft gezogen haben soll. Dies bezieht sich auf die strengen Begriffe der heiligen Reinheit, für die shintoistische Schreine stehen.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ITSUKUSHIMA_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Der Itsukushima-Schrein ist den drei Töchtern von Susano-o no Mikoto gewidmet: Ichikishimahime no mikoto, Tagorihime no mikoto und Tagitsuhime no mikoto. Diese shintoistischen Gottheiten, die auch als Sanjoshin oder "drei weibliche Gottheiten" bezeichnet werden, sind die Göttinnen der Meere und Stürme. Kiyomori glaubte, die Göttinnen seien "Manifestationen von Kannon", daher wurde die Insel als die Heimat des Bodhisattva verstanden. Itsukushima bedeutet auf Japanisch "Insel, die den Göttern gewidmet ist". Tatsächlich wird die Insel selbst auch als Gott betrachtet, weshalb der Schrein am Rande der Insel errichtet wurde.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ITSUKUSHIMA_CHAPTER_HISTORY_PARA_4" Language="de_DE">
+			<Text>Das bekannteste und berühmteste Merkmal des Itsukushima-Schreins ist das fünfzig Fuß hohe Tor o-torii ("Great Gate"), das aus fäulnisresistentem Kampferholz gebaut wurde. Die Platzierung eines zusätzlichen Beins vor und hinter jeder Hauptsäule zeigt, dass die Torii den Stil von Ryōbu Shintō (duales Shinto) widerspiegeln, einer mittelalterlichen Schule des esoterischen japanischen Buddhismus, die mit der Shingon-Sekte verbunden ist. Die Torii scheinen nur bei Flut zu schweben. Bei Ebbe ist die Insel nur zu Fuß erreichbar. Das Sammeln von Schalentieren in der Nähe des Tors ist auch bei Ebbe sehr beliebt. In der Nacht erleuchten mächtige Lichter am Ufer die Torii.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ITSUKUSHIMA_THEATER_COAST_CULTURE" Language="de_DE">
+			<Text>+{1_num} [ICON_Culture] Culture from the adjacent Coast.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ITSUKUSHIMA_HOLY_SITE_COAST_FAITH" Language="de_DE">
+			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Coast.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
