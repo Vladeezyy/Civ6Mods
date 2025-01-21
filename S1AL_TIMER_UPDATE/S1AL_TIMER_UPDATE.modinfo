@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fc35dd3c-b98e-4c28-b425-ee4131814410" version="1.0">
+  <Properties>
+    <Name>Fast Dynamic Timer (Update 3.5)</Name>
+    <Description>
+		Updates the Dynamic Timer to scale with Max City Count only. Ranges from 65 seconds to about 240 seconds.
+	</Description>
+    <Teaser>Fixes the Dynamic Turn Timer for functional use (designed for CPL play).</Teaser>
+    <Authors>S1AL</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
+    <SpecialThanks></SpecialThanks>
+  </Properties>
+	
+  <FrontEndActions />
+
+  <InGameActions>
+	  <ImportFiles>
+		  <File></File>
+	  </ImportFiles>
+	  <UpdateDatabase>
+		  <Properties>
+			  <LoadOrder>99999</LoadOrder>
+		  </Properties>
+		  <Items>
+			  <File>DTT_Update_1-0_S1AL.sql</File>
+		  </Items>
+	  </UpdateDatabase>
+  </InGameActions>
+
+  <Files>
+	  <File>DTT_Update_1-0_S1AL.sql</File>
+  </Files>
+</Mod>
