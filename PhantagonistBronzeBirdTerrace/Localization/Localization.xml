@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_NAME" Language="ru_RU">
+			<Text>Терраса Бронзовой Птицы</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет бесплатного [ICON_GreatWriter] Великого Писателя. +2 [ICON_Amenities] Удовлетворения за каждый тип полученного [ICON_GreatPerson] Великого Человека. Должна быть построена рядом с рекой, смежной с городским центром.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_QUOTE" Language="ru_RU">
+			<Text>"Он воздвиг высокие ворота, возвышающиеся как горы,[NEWLINE]и поднял двойные башни в небеса.[NEWLINE]Он построил изысканные пилоны до небес[NEWLINE]и соединил воздушные покои с западом города." [NEWLINE]– Цао Чжи</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Терраса Бронзовой Птицы была построена в городе Ечен в 210 году во времена поздней династии Восточная Хань. После того как полководец Цао Цао победил Юань Шао и захватил Ечен, он инициировал реконструкцию города, сделав его своей резиденцией, включая великолепную террасу Бронзовой Птицы. Терраса включала множество строений, соединенных поднятыми переходами, и сотни комнат для пиров и размещения артисток. Хотя терраса не сохранилась до наших дней, она оставила значительное культурное наследие благодаря поэзии, написанной Цао Цао и его сыновьями Цао Пи и Цао Чжи.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_NAME" Language="ru_RU">
+			<Text>Цао Чжи</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_1_NAME" Language="ru_RU">
+			<Text>Рапсодия о террасе Бронзовой Птицы</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_1_QUOTE" Language="ru_RU">
+			<Text>Он воздвиг высокие ворота, возвышающиеся как горы,[NEWLINE]и поднял двойные башни в небеса.[NEWLINE]Он построил изысканные пилоны до небес[NEWLINE]и соединил воздушные покои с западом города.</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_2_NAME" Language="ru_RU">
+			<Text>Рапсодия о Богине реки Ло</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_2_QUOTE" Language="ru_RU">
+			<Text>Она эфемерна, как луна, скрытая тенью облаков;[NEWLINE]Она неуловима, как снег, закрученный вихрем.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Цао Чжи известен своими выдающимися талантами в поэзии и рапсодиях, а также конфликтами с братом Цао Пи и предполагаемым романом с невесткой Леди Чжэнь.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Цао Чжи родился в 192 году в семье Цао Цао и Леди Бянь. После смерти старшего сына Цао Цао, Цао Анга, Цао Чжи и его старший брат Цао Пи стали претендентами на наследование. Цао Чжи жил беспечной жизнью, в то время как Цао Пи знал, как себя вести и соответствовать ожиданиям отца. В итоге Цао Пи стал наследником Цао Цао. Легенда гласит, что Цао Пи дал брату испытание написать стихотворение за семь шагов, угрожая казнью. Цао Чжи справился с задачей, тронув сердце брата. Несмотря на это, он был сослан в отдаленное феодальное владение.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>Цао Чжи мог быть отдален от центра власти, но его литературные таланты оставались выдающимися. На пути в свое владение он написал Рапсодию о Богине реки Ло, которая, как говорят, была вдохновлена романом с Леди Чжэнь. После смерти Цао Пи он написал стихи, выражая намерения занять военную должность для защиты государства, но умер в 232 году, так и не вернувшись к власти.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_NAME" Language="ru_RU">
+			<Text>Чэнь Линь</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_1_NAME" Language="ru_RU">
+			<Text>Прокламация Ючжоу от имени Юань Шао</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_1_QUOTE" Language="ru_RU">
+			<Text>О министре работ Цао Цао: его дед Тэн был евнухом, сговорился с Цзо Гуанем и Сюй Хуанем, угнетая невинных. Его отец Сун подкупом получил высокие должности и разрушил управление. Сам Цао Цао — порочное отродье без добродетели, наслаждающееся хаосом в нашем мире.</Text>
+		</Row>
+
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_2_NAME" Language="ru_RU">
+			<Text>Напоить лошадь у источника в Великой стене</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_2_QUOTE" Language="ru_RU">
+			<Text>Если ты родишь сына, не жалей сил, чтобы его вырастить;[NEWLINE]если родишь дочь, корми её сушёным мясом.[NEWLINE]Ведь ты не видел под Великой стеной,[NEWLINE]горы костей мёртвых рабочих, сложенных в кучи.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Чэнь Линь был писателем и бюрократом поздней династии Восточная Хань. Его острые прокламации о войне, как против, так и от имени Цао Цао, сделали его широко известным.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Чэнь Линь был советником Хэ Цзиня и выступал против его решения призвать военачальника Дун Чжо для устранения евнухов. Однако его совет не был принят, и Дун Чжо воспользовался хаосом, чтобы захватить власть. Чэнь Линь бежал и поступил на службу к Юань Шао. Когда Юань Шао решил объявить войну Цао Цао, он поручил Чэнь Линю написать прокламацию. Чэнь Линь создал подробный текст, обличающий ошибки Цао Цао и его предков, призывая народ присоединиться к Юань Шао. Говорят, что когда Цао Цао прочитал текст, его острота даже облегчила головную боль.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>Когда Цао Цао победил силы Юань Шао и захватил Чэнь Линя, многие думали, что Чэнь Линь будет казнён за свои прокламации. Однако Цао Цао так высоко ценил таланты Чэнь Линя, что не только сохранил ему жизнь, но и назначил его своим советником. С тех пор Чэнь Линь служил под началом Цао Цао, писал официальные документы, включая новую прокламацию войны — на этот раз от имени Цао Цао против Сунь Цюаня. Чэнь Линь умер в 217 году от чумы, которая унесла жизни многих его коллег-поэтов.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_NAME" Language="ru_RU">
+			<Text>Ван Цань</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_1_NAME" Language="ru_RU">
+			<Text>Поэма о семи скорбях</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_1_QUOTE" Language="ru_RU">
+			<Text>На дороге женщина голодала;[NEWLINE]в траву бросила своего младенца.[NEWLINE]Она слышала его плач и крики;[NEWLINE]и, плача, покинула место.[NEWLINE]«Не знаю, где умру я сама,[NEWLINE]нашим судьбам не суждено сойтись!»</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_2_NAME" Language="ru_RU">
+			<Text>Рапсодия на башне</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_2_QUOTE" Language="ru_RU">
+			<Text>Я видел дороги извилистые и крутые;[NEWLINE]реки длинные, броды глубокие.[NEWLINE]Отрезан от дома, потрясён горем;[NEWLINE]слёзы текли, и я не мог их сдержать.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Поэт с обыденной внешностью, но выдающимся талантом, Ван Цань считался лучшим среди семи учёных Цзяньаня — группы талантливых поэтов, олицетворявших литературные достижения поздней династии Восточная Хань.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Ван Цань родился в 177 году и стал свидетелем узурпации власти Дун Чжо. Он нашёл убежище в относительно мирной провинции Цзинчжоу. В отличие от поэтов прошлых эпох, восхвалявших правителей, Ван Цань стал писать о страданиях народа во времена войны.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>Талант Ван Цаня проявился, когда Цзинчжоу сдался Цао Цао. Когда Цао Цао стал герцогом Вэй, он поручил Ван Цаню разработать новый свод обрядов и законов. Ван Цань вошёл в литературный круг Вэй и стал близким к Цао Пи, наследнику Цао Цао. По легенде, когда Ван Цань умер в 217 году, Цао Пи присутствовал на похоронах. Известно, что Ван Цань любил звуки крика ослов, поэтому Цао Пи попросил всех гостей издать этот звук в знак прощания с поэтом.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_NAME" Language="zh_Hans_CN">
+			<Text>铜雀台</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>免费获得一个 [ICON_GreatWriter] 大作家。每获得一个种类的 [ICON_GreatPerson] 伟人则+2 [ICON_Amenities] 宜居度。必须建造在邻近市中心的河流旁边。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_QUOTE" Language="zh_Hans_CN">
+			<Text>建高门之嵯峨兮，浮双阙乎太清。[NEWLINE]立中天之华观兮，连飞阁乎西城。[NEWLINE]——曹植</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>铜雀台在东汉晚期的公元210年建于邺城。当军阀曹操击败袁绍并攻陷邺城后，他下令重建城市为根据地，宏伟华丽的铜雀台便是当时建成的建筑物之一。铜雀台的构造由飞桥相连，有屋百馀间，以举行盛宴和收容歌妓。铜雀台作为文学圣地广为人知，当曹丕和曹植跟随他们的父亲曹操登上铜雀台时，他们均写作辞藻华丽的汉赋描述此事。铜雀台未能经受时间考验，卻为后世诗人留下颇为讽刺的传承：铜雀台的瓦片被文人视为上佳瓦砚，而它举行宴会和收容歌妓的功能则被扭曲成曹操对敌人妻妾欲求的象徵。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_NAME" Language="zh_Hans_CN">
+			<Text>曹植</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_1_NAME" Language="zh_Hans_CN">
+			<Text>《铜雀台赋》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_1_QUOTE" Language="zh_Hans_CN">
+			<Text>建高门之嵯峨兮，浮双阙乎太清。[NEWLINE]立中天之华观兮，连飞阁乎西城。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_2_NAME" Language="zh_Hans_CN">
+			<Text>《洛神赋》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_2_QUOTE" Language="zh_Hans_CN">
+			<Text>髣髴兮若轻云之蔽月，[NEWLINE]飘颻兮若流风之回雪。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>曹植着名于他在诗词歌赋上的惊世才能，还有他与兄长曹丕的冲突，和后世声称他与嫂子甄氏的感情。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>曹植是曹操与卞氏之子，生于192年。由于曹操的嫡长子曹昂死于宛城之战，曹植和他的兄长曹丕成为候选的继承者。曹植生性放纵不羁，而曹丕则知晓如何表现成父亲心目中理想的继承者。最终，曹丕继承曹操。根据记载，曹丕有意除掉曹植，便让曹植于七步成诗，否则将被处死，而曹植成功在七步之内写出一首悲叹兄弟相争的诗歌感动曹丕。无论事实与否，曹丕最终没有处死曹植，而是让他到了偏远的封地。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>曹植或许被放逐出权力中心，但他的文才依旧出众。他在离开京城前往封地时写下洛神赋，后世史学家和说书人则以此声称他对嫂子甄氏错综複杂的感情。曹丕死后，曹植写下诗歌表述他愿意从事军职守卫国家。然而，曹植于232年逝世，毕生没有回归权力中心。他出众的文采，失意的一生以及被人捕风捉影的感情，则为当时与后世的文人提供了灵感与争辩的题材。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_NAME" Language="zh_Hans_CN">
+			<Text>陈琳</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_1_NAME" Language="zh_Hans_CN">
+			<Text>《为袁绍檄豫州》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_1_QUOTE" Language="zh_Hans_CN">
+			<Text>司空曹操：祖父中常侍腾，与左悺、徐璜并作妖孽，饕餮放横，伤化虐民。父嵩乞匄携养，因赃假位；舆金辇璧，输货权门；窃盗鼎司，倾复重器。操赘阉遗丑，本无懿德；僄狡锋侠，好乱乐祸。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_2_NAME" Language="zh_Hans_CN">
+			<Text>《饮马长城窟行》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_2_QUOTE" Language="zh_Hans_CN">
+			<Text>生男慎莫举，生女哺用脯。[NEWLINE]君独不见长城下，死人骸骨相撑拄。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>陈琳是东汉末年的作家与官员。他因尖锐的檄文——对抗曹操和支持曹操的一应俱全——而广为人知。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>陈琳曾是何进的主簿，并劝谏何进不应为了清除宦官召唤军阀董卓，然而劝谏无果，董卓趁机夺取东汉权力中心。陈琳逃出京城并成为袁绍的幕僚。当袁绍决定对曹操宣战，他让陈琳写作檄文。陈琳写下一篇酣畅淋漓的文章，诋斥曹操及其父祖的罪状，呼召各地人民参与袁绍的行动。据说当曹操阅读这篇文章时，檄文的尖锐文辞甚至能令曹操纾解头风痛楚。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>当曹操击败袁绍势力并俘获陈琳时，许多人以为陈琳会因为他写下的檄文而被处死。不过，曹操甚为欣赏陈琳的文才，不但饶他一命，更将他招纳于麾下。陈琳此后为曹操写作官方文书，包括另一篇檄文——这次他为曹操一方书写以讨伐孙权。陈琳死于217年的瘟疫，这场瘟疫亦带走了他许多文人同僚。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_NAME" Language="zh_Hans_CN">
+			<Text>王粲</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_1_NAME" Language="zh_Hans_CN">
+			<Text>《七哀诗》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_1_QUOTE" Language="zh_Hans_CN">
+			<Text>路有飢妇人，抱子弃草间。[NEWLINE]顾闻号泣声，挥涕独不还。[NEWLINE]未知身死处，何能两相完？</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_2_NAME" Language="zh_Hans_CN">
+			<Text>《登楼赋》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_2_QUOTE" Language="zh_Hans_CN">
+			<Text>路逶迤而修迥兮，川既漾而济深。[NEWLINE]悲旧乡之壅隔兮，涕横坠而弗禁。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>建安七子是象徵东汉末年文学成就的文人，而外貌平凡却才能非凡的王粲則被视为七子之冠冕。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>王粲生于177年，目睹军阀董卓夺取东汉权力。他因战乱逃亡至相对和平的荆州。不同于过往诗人以华丽辞藻为统治者歌功颂德，王粲是建安文学悲叹乱世人民的先行者之一。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>荆州投降曹操后，王粲的才能方才浮出水面。曹操成为魏公时，他让王粲重新制订典章，以取代废弛殆尽的旧礼仪制度。王粲从此进入魏国文坛，并与曹操第二子曹丕结交。当王粲死后，曹丕出席王粲葬礼。因王粲好驴鸣，曹丕请求赴客各作一声驴鸣送别这名诗人。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_NAME" Language="zh_Hant_HK">
+			<Text>銅雀臺</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>免費獲得一個 [ICON_GreatWriter] 大作家。每獲得一個種類的 [ICON_GreatPerson] 偉人則+2 [ICON_Amenities] 滿意度。必須建造在鄰近城市中心的河流旁邊。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_QUOTE" Language="zh_Hant_HK">
+			<Text>「建高門之嵯峨兮，浮雙闕乎太清。[NEWLINE]立中天之華觀兮，連飛閣乎西城。」[NEWLINE]——曹植</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>銅雀臺在東漢晚期的公元210年建於鄴城。當軍閥曹操擊敗袁紹並攻陷鄴城後，他下令重建城市為根據地，宏偉華麗的銅雀臺便是當時建成的建築物之一。銅雀臺的構造由飛橋相連，有屋百餘間，以舉行盛宴和收容歌妓。銅雀臺作為文學聖地廣為人知，當曹丕和曹植跟隨他們的父親曹操登上銅雀臺時，他們均寫作辭藻華麗的漢賦描述此事。銅雀臺未能經受時間考驗，卻為後世詩人留下頗為諷刺的傳承：銅雀臺的瓦片被文人視為上佳瓦硯，而它舉行宴會和收容歌妓的功能則被扭曲成曹操對敵人妻妾欲求的象徵。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_NAME" Language="zh_Hant_HK">
+			<Text>曹植</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_1_NAME" Language="zh_Hant_HK">
+			<Text>《銅雀臺賦》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_1_QUOTE" Language="zh_Hant_HK">
+			<Text>建高門之嵯峨兮，浮雙闕乎太清。[NEWLINE]立中天之華觀兮，連飛閣乎西城。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_2_NAME" Language="zh_Hant_HK">
+			<Text>《洛神賦》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_2_QUOTE" Language="zh_Hant_HK">
+			<Text>髣髴兮若輕雲之蔽月，[NEWLINE]飄颻兮若流風之回雪。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>曹操曹植著名於他在詩詞歌賦上的驚世才能，還有他與兄長曹丕的衝突，和後世聲稱他與嫂子甄氏的感情。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>曹植是曹操與卞氏之子，生於192年。由於曹操的嫡長子曹昂死於宛城之戰，曹植和他的兄長曹丕成為候選的繼承者。曹植生性放縱不羈，而曹丕則知曉如何表現成父親心目中理想的繼承者。最終，曹丕繼承曹操。根據記載，曹丕有意除掉曹植，便讓曹植於七步成詩，否則將被處死，而曹植成功在七步之內寫出一首悲嘆兄弟相爭的詩歌感動曹丕。無論事實與否，曹丕最終沒有處死曹植，而是讓他到了偏遠的封地。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>曹植或許被放逐出權力中心，但他的文才依舊出眾。他在離開京城前往封地時寫下洛神賦，後世史學家和說書人則以此聲稱他對嫂子甄氏錯綜複雜的感情。曹丕死後，曹植寫下詩歌表述他願意從事軍職守衛國家。然而，曹植於232年逝世，畢生沒有回歸權力中心。他出眾的文采，失意的一生以及被人捕風捉影的感情，則為當時與後世的文人提供了靈感與爭辯的題材。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_NAME" Language="zh_Hant_HK">
+			<Text>陳琳</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_1_NAME" Language="zh_Hant_HK">
+			<Text>《為袁紹檄豫州》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_1_QUOTE" Language="zh_Hant_HK">
+			<Text>司空曹操：祖父中常侍騰，與左悺、徐璜並作妖孽，饕餮放橫，傷化虐民。父嵩乞匄攜養，因贓假位；輿金輦璧，輸貨權門；竊盜鼎司，傾覆重器。操贅閹遺丑，本無懿德；僄狡鋒俠，好亂樂禍。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_2_NAME" Language="zh_Hant_HK">
+			<Text>《飲馬長城窟行》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_2_QUOTE" Language="zh_Hant_HK">
+			<Text>生男慎莫舉，生女哺用脯。[NEWLINE]君獨不見長城下，死人骸骨相撐拄。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>陳琳是東漢末年的作家與官員。他因尖銳的檄文——對抗曹操和支持曹操的一應俱全——而廣為人知。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>陳琳曾是何進的主簿，並勸諫何進不應為了清除宦官召喚軍閥董卓，然而勸諫無果，董卓趁機奪取東漢權力中心。陳琳逃出京城並成為袁紹的幕僚。當袁紹決定對曹操宣戰，他讓陳琳寫作檄文。陳琳寫下一篇酣暢淋漓的文章，詆斥曹操及其父祖的罪狀，呼召各地人民參與袁紹的行動。據說當曹操閱讀這篇文章時，檄文的尖銳文辭甚至能令曹操紓解頭風痛楚。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>當曹操擊敗袁紹勢力並俘獲陳琳時，許多人以為陳琳會因為他寫下的檄文而被處死。不過，曹操甚為欣賞陳琳的文才，不但饒他一命，更將他招納於麾下。陳琳此後為曹操寫作官方文書，包括另一篇檄文——這次他為曹操一方書寫以討伐孫權。陳琳死於217年的瘟疫，這場瘟疫亦帶走了他許多文人同僚。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_NAME" Language="zh_Hant_HK">
+			<Text>王粲</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_1_NAME" Language="zh_Hant_HK">
+			<Text>《七哀詩》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_1_QUOTE" Language="zh_Hant_HK">
+			<Text>路有飢婦人，抱子棄草間。[NEWLINE]顧聞號泣聲，揮涕獨不還。[NEWLINE]未知身死處，何能兩相完？</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_2_NAME" Language="zh_Hant_HK">
+			<Text>《登樓賦》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_2_QUOTE" Language="zh_Hant_HK">
+			<Text>路逶迤而修迥兮，川既漾而濟深。[NEWLINE]悲舊鄉之壅隔兮，涕橫墜而弗禁。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>建安七子是象徵東漢末年文學成就的文人，而外貌平凡卻才能非凡的王粲則被視為七子之冠冕。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>王粲生於177年，目睹軍閥董卓奪取東漢權力。他因戰亂逃亡至相對和平的荊州。不同於過往詩人以華麗辭藻為統治者歌功頌德，王粲是建安文學悲嘆亂世人民的先行者之一。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>荊州投降曹操後，王粲的才能方才浮出水面。曹操成為魏公時，他讓王粲重新制訂典章，以取代廢弛殆盡的舊禮儀制度。王粲從此進入魏國文壇，並與曹操第二子曹丕結交。當王粲死後，曹丕出席王粲葬禮。因王粲好驢鳴，曹丕請求赴客各作一聲驢鳴送別這名詩人。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_NAME" Language="ja_JP">
+			<Text>銅雀台</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_GreatWriter] 大著述家を無料で1人得る。獲得した [ICON_GreatPerson] 偉人1種類につき [ICON_Amenities] 快適性+2。都心に隣接した川の隣にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_QUOTE" Language="ja_JP">
+			<Text>「高き門の嵯峨としてそびゆるを建て、双闕を太清に浮かばす。[NEWLINE]中天に華わしき観を立て、飛ぶ閣を西の城に連ぬ。」[NEWLINE]– 曹植</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_BRONZE_BIRD_TERRACE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>銅雀台は、後漢末期の西暦210年、鄴城に建てられた建物。軍閥・曹操が袁紹を破って鄴城を占領した際、拠点となる都市の再建を命じ、その際に建てられた建物のひとつが壮麗な銅雀台だった。この建物は飛橋で結ばれており、宴会を開いたり、歌妓を収容したりするための部屋が百数十もあった。銅雀台は文学の殿堂として広く知られており、曹丕と曹植が父・曹操に従いそこに登った際、二人とも飾りたてた漢賦を書いている。銅雀台は時の試練に耐えられなかったが、後世の詩人たちに皮肉な遺産を残した。その瓦は文人たちに高級な硯とみなされ、宴会所や歌妓部屋としての機能は、曹操が敵の妻や妾を欲しがる象徴としてねじ曲げられた。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_NAME" Language="ja_JP">
+			<Text>曹植</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_1_NAME" Language="ja_JP">
+			<Text>『銅雀台賦』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_1_QUOTE" Language="ja_JP">
+			<Text>高き門の嵯峨としてそびゆるを建て、双闕を太清に浮かばす。[NEWLINE]中天に華わしき観を立て、飛ぶ閣を西の城に連ぬ。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_2_NAME" Language="ja_JP">
+			<Text>『洛神賦』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CAO_ZHI_2_QUOTE" Language="ja_JP">
+			<Text>髣髴たること軽雲の月を蔽うが若く、[NEWLINE]飄颻たること流風の雪を迴らすが若し。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>曹植は詩や賦の素晴らしい才能を持ちながら、兄の曹丕との争いや後世の人々が主張する義姉の甄氏との関係で有名である。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>曹植は曹操と卞氏の子で、192年に生まれた。曹操の長男である曹昂が宛城の戦いで死んだ時、曹植とその兄である曹丕が後継者候補に選ばれた。曹植が奔放な性格であるのに対し、曹丕は父の理想とする後継者としての振る舞いを心得ている。結局、曹操の後を継いだのは曹丕だった。一説によると、曹丕は曹植を排除するつもりで、「七歩で、詩を書かないと処刑する」と言い、曹植は兄弟の対立を嘆く詩を七歩で書いて曹丕の心を動かす。これが事実かどうかは別として、曹丕は曹植を処刑せず、辺境の領地へ追いやった。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CAO_ZHI_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>曹植は権力の中枢から追放されたが、彼の文学的才能は依然として傑出していた。 都から領地へ向かうとき、彼は「洛神賦」を書き、後の歴史家や物語作家は、彼が義姉の甄氏に深い思いを抱いていたと主張する。曹丕の死後、曹植は国を守るために兵役に就くことを厭わないという詩を書いた。しかし、曹植は232年に亡くなり、権力の中枢に戻ることはなかった。彼の輝かしい才能、失意した人生、錯綜する人間関係は、当時や後世のの文人たちに刺激と議論を与えた。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_NAME" Language="ja_JP">
+			<Text>陳琳</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_1_NAME" Language="ja_JP">
+			<Text>『為袁紹檄豫州』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_1_QUOTE" Language="ja_JP">
+			<Text>司空・曹操の祖父・曹騰は元中常侍であったが、左悺と徐璜と共に災いを引き起こし、貪婪な行いは思いのまま、徳化を損ない民衆を痛めつけた。父の曹嵩は乞食であったが、引き取られて養われ、賄賂によって官位を買い取り、金や宝玉を運んで権力者に財貨を贈り、三公の位を盗み取って天下の政治を破滅させた。曹操は宦官と姦吏の醜悪な後継ぎで、もとより秀すぐれた仁徳など持たず、頭の回転が速く狡猾な暴力好きであり、混乱を好み災禍を喜ぶ男である。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_2_NAME" Language="ja_JP">
+			<Text>『飲馬長城窟行』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_LIN_2_QUOTE" Language="ja_JP">
+			<Text>男を生むも慎みて挙ぐる莫かれ、女を生まば哺するに脯を用ひよ。[NEWLINE]君獨り見ずや長城の下、死人の骸骨相い撑拄するをと。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>陳琳は、後漢末の文人であり、官吏である。 曹操に対する、また曹操のための鋭い檄で知られる。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>陳琳は何進の主簿で、宦官を排除するために軍閥の董卓を呼び寄せてはならないと進言したが、その助言は功を奏さず、董卓は東漢の権力の中心を握る機会を掴む。陳琳は都を脱出し、袁紹の部下となる。 袁紹は曹操に宣戦布告することを決めると、陳琳に檄の執筆を依頼した。陳琳は、曹操とその父や先祖の罪を糾弾し、各地の人々に袁紹の作戦に参加するよう呼びかける明快な文章を書き上げた。曹操がこの文章を読んだとき、檄の鋭い言葉が曹操の頭痛を和らげたとさえ言われている。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_LIN_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>曹操が袁紹の軍を破り、陳琳を捕らえたとき、多くの人は彼が書いた檄のせいで、処刑されるだろうと思った。 しかし、曹操は陳琳の文才を評価し、命を助けただけでなく、自分の配下に加えた。 陳琳はその後も曹操のために公文書を書き続け、今度は曹操の側で孫権に対する檄も書いた。 陳琳は217年の疫病で亡くなり、多くの文人仲間も亡くなった。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_NAME" Language="ja_JP">
+			<Text>王粲</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_1_NAME" Language="ja_JP">
+			<Text>『七哀詩』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_1_QUOTE" Language="ja_JP">
+			<Text>路に飢えたる婦人有り、子を抱いて草間に棄つ。[NEWLINE]顧りみて号泣の声を聞くも、涕を揮って獨り還らず 。[NEWLINE]「未だ身の死処を知らず、何ぞ能く両ながら相完からん。」</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_2_NAME" Language="ja_JP">
+			<Text>『登楼賦』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_CAN_2_QUOTE" Language="ja_JP">
+			<Text>路逶迆として脩く迥く、川既に漾として済り深し。[NEWLINE]旧郷の壅隔せるを悲しみ、涕横に墜ちて禁ぜず。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>建安七子とは、後漢末の文学的業績を象徴する文学者であり、平凡な外見ながら非凡な才能を持つ王粲は七人の中で最も優れた人物とされる。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>王粲は177年に生まれ、東漢の軍閥である董卓が権力を掌握するのを見た。彼は戦乱から比較的平和な荊州に逃げ込んだ。 華やかな言葉で支配者の賛美を歌った過去の詩人たちとは異なり、王粲は民衆の困苦を嘆く建安文学の先駆者の一人である。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_CAN_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>王粲の才能が表面化したのは、荊州が曹操に降伏した後である。 曹操が魏公となると、王粲に荒廃していた古い儀礼制度に代わる典章の改革を依頼した。王粲は魏の文壇に入り、曹操の子である曹丕と親交を深めた。王粲が亡くなったとき、曹丕は彼の葬儀に参列した。 曹丕は王粲がロバの鳴き声を好んでいたことから、その鳴き真似をして送ろうと提案した。このため弔問客たちは、皆一声ずつロバの鳴き声の真似をしたと伝えられている。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

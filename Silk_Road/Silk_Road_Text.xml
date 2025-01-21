@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_BUILDING_SILK_ROAD_NAME" Language="ru_RU">
+			<Text>Бухара</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SILK_ROAD_DESCRIPTION" Language="ru_RU">
+			<Text>Ваши дороги соответствуют уровню технологий, характерному для следующей эпохи. Международные [ICON_TradeRoute] торговые пути, отправленные из других цивилизаций в ваши города, приносят отправителю +2 [ICON_Science] Науки и +2 [ICON_Gold] Золота. Ваши [ICON_TradeRoute] торговые пути приносят +1 [ICON_Science] Науки и +1 [ICON_Gold] Золота за каждую [ICON_TradingPost] торговую станцию, через которую проходит торговец. Должен быть построен рядом с коммерческим районом, нельзя строить на тундре или снегу.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SILK_ROAD_QUOTE" Language="ru_RU">
+			<Text>«Путешествия оставляют тебя безмолвным, а затем превращают в рассказчика.» [NEWLINE]- Ибн Баттута</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SILK_ROAD_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Оазис Бухара был заселён людьми на протяжении тысячелетий, а благодаря своему расположению в центре Шёлкового пути он со временем превратился в оживлённый центр торговли, религии и науки. Бухара стала столицей Саманидской империи в 892 году и стала свидетелем восстановления персидской культуры, а также расцвета исламского влияния. Богатство и красота города были широко известны вдоль Шёлкового пути и упоминались многими знаменитыми путешественниками, такими как Сюаньцзан, Цю Чуцзи, Ибн Баттута и Марко Поло. Сегодня это крупный город Узбекистана, известный своими великолепными мечетями и медресе, включая такие достопримечательности, как По-и-Калян и медресе Мир-и-Араб.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_SILK_ROAD_NAME" Language="zh_Hans_CN">
+			<Text>布哈拉</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SILK_ROAD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>国土境内的道路提升一个等级。来自其他文明的国际 [ICON_TradeRoute] 贸易路线为起始城市提供+2 [ICON_Science] 科技值和+2 [ICON_Gold] 金币。您的 [ICON_TradeRoute] 贸易路线每经过一个 [ICON_TradingPost] 贸易站则+1 [ICON_Science] 科技值和+1 [ICON_Gold] 金币。必须建造在商业中心区域旁，且不能建造在冻土或雪地上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SILK_ROAD_QUOTE" Language="zh_Hans_CN">
+			<Text>旅行——它让你张口结舌，然后令你满腹故事出口成章。[NEWLINE]——伊本·白图泰</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SILK_ROAD_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>布哈拉的绿洲已经被人类定居数千年，得益于它位于丝绸之路中心的地理位置，它最终发展成为一个繁华的贸易、宗教和学术中心。布哈拉在892年成为萨曼帝国的首都，见证了波斯文化的恢复和伊斯兰教的兴盛。它的财富名声在丝绸之路上闻名遐迩，并被许多玄奘、丘处机、伊本·白图泰和马可·波罗所记录。它现在是乌兹别克斯坦的主要城市，众多壮丽的清真寺和伊斯兰学校林立其中，包括超凡脱俗的波伊卡杨建筑群和米丽阿拉伯伊斯兰学校。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SILK_ROAD_NAME" Language="zh_Hant_HK">
+			<Text>布哈拉</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SILK_ROAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>國土境內的道路提升一個等級。來自其他文明的國際 [ICON_TradeRoute] 貿易路線為起始城市提供+2 [ICON_Science] 科技值和+2 [ICON_Gold] 金幣。您的 [ICON_TradeRoute] 貿易路線每經過一個 [ICON_TradingPost] 貿易站則+1 [ICON_Science] 科技值和+1 [ICON_Gold] 金幣。必須建造在商業中心區域旁，且不能建造在凍土或雪地上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SILK_ROAD_QUOTE" Language="zh_Hant_HK">
+			<Text>「旅行——它讓你張口結舌，然後令你滿腹故事出口成章。」[NEWLINE]——伊本·白圖泰</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SILK_ROAD_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>布哈拉的綠洲已經被人類定居數千年，得益於它位於絲綢之路中心的地理位置，它最終發展成為一個繁華的貿易、宗教和學術中心。布哈拉在892年成為薩曼帝國的首都，見證了波斯文化的恢復和伊斯蘭教的興盛。它的財富名聲在絲綢之路上聞名遐邇，並被許多玄奘、丘處機、伊本·白圖泰和馬可·波羅所記錄。它現在是烏茲別克斯坦的主要城市，眾多壯麗的清真寺和伊斯蘭學校林立其中，包括超凡脫俗的波伊卡楊建築群和米麗阿拉伯伊斯蘭學校。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SILK_ROAD_NAME" Language="ja_JP">
+			<Text>ブハラ</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SILK_ROAD_DESCRIPTION" Language="ja_JP">
+			<Text>自文明の領土内における道路の移動速度上昇効果が、本来よりも1段階上の扱いとなる。自文明につづく海外からの [ICON_TradeRoute] 交易路は、開始地点の都市に [ICON_Culture] 文化力+2、 [ICON_Gold] ゴールド+2。 [ICON_TradeRoute] 交易路が通過した [ICON_TradeRoute] 交易施設をする1つにつき、[ICON_Culture] 文化力+1、 [ICON_Gold] ゴールド+1。商業ハブ区域の隣にのみ建設可能。ツンドラと雪原には建設できない。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SILK_ROAD_QUOTE" Language="ja_JP">
+			<Text>「旅はあなたを言葉を失わせ、その後、あなたを語り部に変える。」[NEWLINE]– イブン・バットゥータ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SILK_ROAD_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ブハラは、数千年前から人類が住んでいたオアシス、シルクロードの中心に位置し、交易、宗教、学問の中心地として発展してきた。892年、ブハラはサーマーン朝の首都となり、ペルシャ文化の復興とイスラムの隆盛を見届ける。ブハラの豊かさと美しさはシルクロードで広く知られ、玄奘三蔵、丘処機、イブン・バトゥータ、マルコ・ポーロなど多くの有名な旅行家が記録している。現在ではウズベキスタンの主要都市となり、壮麗なモスクやマドラサが数多く存在し、その中でも目立つポ・イ・カラーンやミルアラブマドラサは有名である。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

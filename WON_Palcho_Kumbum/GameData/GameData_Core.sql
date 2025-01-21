@@ -1,0 +1,140 @@
+--------------------
+-- Basics
+--------------------
+
+INSERT INTO Types
+		(Type,									Kind)
+VALUES	('BUILDING_GYANTSE_KUMBUM',	'KIND_BUILDING');
+
+INSERT INTO Buildings
+		(BuildingType,
+		Name,
+		Description,
+		PrereqTech,
+		AdjacentDistrict,
+		Cost,
+		AdvisorType,
+		MaxWorldInstances,
+		IsWonder,
+		RequiresPlacement,
+		RequiresReligion,
+		AdjacentToMountain,
+		ObsoleteEra,
+		Quote)
+VALUES	('BUILDING_GYANTSE_KUMBUM',
+		'LOC_BUILDING_GYANTSE_KUMBUM_NAME',
+		'LOC_BUILDING_GYANTSE_KUMBUM_DESCRIPTION',
+		'TECH_CASTLES',
+		'DISTRICT_HOLY_SITE',
+		710,
+		'ADVISOR_RELIGIOUS',
+		1,
+		1,
+		1,
+		1,
+		1,
+		'ERA_INDUSTRIAL',
+		'LOC_BUILDING_GYANTSE_KUMBUM_QUOTE');
+
+INSERT INTO Building_YieldChanges 
+		(BuildingType,				YieldType,			YieldChange)
+VALUES	('BUILDING_GYANTSE_KUMBUM',	'YIELD_FAITH',		4);
+
+INSERT INTO Building_GreatWorks
+		(BuildingType,				GreatWorkSlotType,			NumSlots)
+VALUES	('BUILDING_GYANTSE_KUMBUM',	'GREATWORKSLOT_RELIC',		2);
+
+INSERT INTO Building_GreatWorks
+		(BuildingType,				GreatWorkSlotType,			NumSlots,	NonUniquePersonYield,	NonUniquePersonTourism)
+VALUES	('BUILDING_GYANTSE_KUMBUM',	'GREATWORKSLOT_ART',		2,			3,						2);
+
+
+INSERT INTO Building_ValidTerrains
+		(BuildingType,				TerrainType)
+VALUES	('BUILDING_GYANTSE_KUMBUM',	'TERRAIN_GRASS_HILLS'),
+		('BUILDING_GYANTSE_KUMBUM',	'TERRAIN_PLAINS_HILLS'),
+		('BUILDING_GYANTSE_KUMBUM',	'TERRAIN_DESERT_HILLS'),
+		('BUILDING_GYANTSE_KUMBUM',	'TERRAIN_TUNDRA_HILLS'),
+		('BUILDING_GYANTSE_KUMBUM',	'TERRAIN_SNOW_HILLS');
+
+--------------------
+-- Bonuses
+--------------------
+
+-- Attached by LUA (Use modifier to make sure of religion)
+-- Custom ModifierType
+
+INSERT INTO Types (Type, Kind) VALUES 
+('MODTYPE_GYANTSE_KUMBUM_PLAYER_CITIES_GRANT_UNIT_IN_CITY', 'KIND_MODIFIER');
+
+INSERT INTO DynamicModifiers (ModifierType, CollectionType, EffectType) VALUES 
+('MODTYPE_GYANTSE_KUMBUM_PLAYER_CITIES_GRANT_UNIT_IN_CITY', 'COLLECTION_PLAYER_CITIES', 'EFFECT_GRANT_UNIT_IN_CITY');
+
+-- RequirementSets
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES 
+('REQSET_GYANTSE_KUMBUM_REINCARNATION_CITY', 'REQUIREMENTSET_TEST_ALL');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES 
+('REQSET_GYANTSE_KUMBUM_REINCARNATION_CITY', 'REQ_GYANTSE_KUMBUM_REINCARNATION_CITY');
+
+-- Requirements
+
+INSERT INTO Requirements (RequirementId, RequirementType) VALUES 
+('REQ_GYANTSE_KUMBUM_REINCARNATION_CITY', 'REQUIREMENT_CITY_HAS_BUILDING');
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES 
+('REQ_GYANTSE_KUMBUM_REINCARNATION_CITY', 'BuildingType', 'BUILDING_GYANTSE_KUMBUM');
+
+
+--==== APOSTLE
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_APOSTLE', 'MODTYPE_GYANTSE_KUMBUM_PLAYER_CITIES_GRANT_UNIT_IN_CITY', 1, 1, 0, NULL, 'REQSET_GYANTSE_KUMBUM_REINCARNATION_CITY');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_APOSTLE', 'AllowUniqueOverride', 'true'), 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_APOSTLE', 'Amount', '1'), 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_APOSTLE', 'UnitType', 'UNIT_APOSTLE');
+
+
+--==== MISSIONARY
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_MISSIONARY', 'MODTYPE_GYANTSE_KUMBUM_PLAYER_CITIES_GRANT_UNIT_IN_CITY', 1, 1, 0, NULL, 'REQSET_GYANTSE_KUMBUM_REINCARNATION_CITY');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_MISSIONARY', 'AllowUniqueOverride', 'true'), 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_MISSIONARY', 'Amount', '1'), 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_MISSIONARY', 'UnitType', 'UNIT_MISSIONARY');
+
+--==== GURU
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_GURU', 'MODTYPE_GYANTSE_KUMBUM_PLAYER_CITIES_GRANT_UNIT_IN_CITY', 1, 1, 0, NULL, 'REQSET_GYANTSE_KUMBUM_REINCARNATION_CITY');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_GURU', 'AllowUniqueOverride', 'true'), 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_GURU', 'Amount', '1'), 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_GURU', 'UnitType', 'UNIT_GURU');
+
+--==== INQUISITOR
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_INQUISITOR', 'MODTYPE_GYANTSE_KUMBUM_PLAYER_CITIES_GRANT_UNIT_IN_CITY', 1, 1, 0, NULL, 'REQSET_GYANTSE_KUMBUM_REINCARNATION_CITY');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_INQUISITOR', 'AllowUniqueOverride', 'true'), 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_INQUISITOR', 'Amount', '1'), 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_INQUISITOR', 'UnitType', 'UNIT_INQUISITOR');
+
+--==== WARRIOR_MONK
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_WARRIOR_MONK', 'MODTYPE_GYANTSE_KUMBUM_PLAYER_CITIES_GRANT_UNIT_IN_CITY', 1, 1, 0, NULL, 'REQSET_GYANTSE_KUMBUM_REINCARNATION_CITY');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_WARRIOR_MONK', 'AllowUniqueOverride', 'true'), 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_WARRIOR_MONK', 'Amount', '1'), 
+('MODFEAT_GYANTSE_KUMBUM_REINCARNATION_WARRIOR_MONK', 'UnitType', 'UNIT_WARRIOR_MONK');
+

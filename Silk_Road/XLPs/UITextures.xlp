@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UITextures"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Icon_Silk_Road_128"/>
+			<m_ObjectName text="Icon_Silk_Road_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Silk_Road_256"/>
+			<m_ObjectName text="Icon_Silk_Road_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Silk_Road_32"/>
+			<m_ObjectName text="Icon_Silk_Road_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Silk_Road_38"/>
+			<m_ObjectName text="Icon_Silk_Road_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Silk_Road_50"/>
+			<m_ObjectName text="Icon_Silk_Road_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Silk_Road_64"/>
+			<m_ObjectName text="Icon_Silk_Road_64"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

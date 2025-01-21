@@ -1,0 +1,399 @@
+﻿<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_SUN_PYRAMID_NAME" Language="ru_RU">
+			<Text>Пирамида Солнца</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SUN_PYRAMID_DESCRIPTION" Language="ru_RU">
+			<Text>
+		Во время [ICON_GLORY_GOLDEN_AGE] Золотого Века, [ICON_GLORY_SUPER_GOLDEN_AGE] Эпохи Героев или при контроле Пирамиды Луны, наземные, стрелковые и религиозные юниты получают +1 [ICON_Movement] к Передвижению и игнорируют штрафы к [ICON_Movement] Передвижению за местность и особенности. Должна быть построена на ровной травянистой или равнинной местности рядом с районом Святилище.
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SUN_PYRAMID_QUOTE" Language="ru_RU">
+			<Text>
+		«Он прыгнул. Его плоть потрескивала и шипела. Боги сидели в ожидании. Затем началось покраснение неба повсюду. И солнце взошло на востоке, его животворящие лучи проникали повсюду. Без фанфар Нанауатцин сделал то, что было нужно для спасения жизни на земле.»[NEWLINE]– Камилла Таунсенд, "Пятое Солнце"
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>
+		Предполагается, что она была построена в две фазы, первая из которых датируется около 200 года н.э. в период Закауалли. Ацтеки называли её Тонатиух Ицакауал, а позже испанцы переименовали её в Пирамиду Солнца.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>
+		Эта пирамида была самым большим сооружением в Теотиуакане и одной из самых больших пирамид, построенных по всему миру во время золотого века Теотиуакана.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>
+		Её коренное название примерно переводится как «заграждение солнца» из-за её расположения в городе, которое было тщательно выбрано так, чтобы оно совпадало с горой Серро Гордо и местом восхода солнца.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_4" Language="ru_RU">
+			<Text>
+		Построенная в самом конце Дороги Мертвых между Цитаделью и Пирамидой Луны, Пирамида Солнца была покрыта импортированной известковой штукатуркой и украшена мотивами ягуара, звезд и гремучей змеи.
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_5" Language="ru_RU">
+			<Text>
+		Точное назначение Пирамиды Солнца во времена Теотиуакана неизвестно; некоторые теории предполагают, что она могла служить церемониальным центром для доацтекского бога солнца или огня. Остатки разрушенного храма на вершине предполагают ритуальное разграбление места после его заброшенности.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_6" Language="ru_RU">
+			<Text>
+		Под пирамидой были обнаружены туннели в форме лепестков цветка, соединяющиеся с камерами, что еще больше увеличивает тайну этого места. Среди найденных артефактов в основном присутствуют изделия из обсидиана.
+			</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SUN_PYRAMID_DESCRIPTION" Language="ru_RU">
+			<Text>
+		+1 [ICON_Movement] к Передвижению и игнорирование штрафов к [ICON_Movement] Передвижению за местность и особенности (Пирамида Солнца).
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOON_PYRAMID_NAME" Language="ru_RU">
+			<Text>Пирамида Луны</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOON_PYRAMID_DESCRIPTION" Language="ru_RU">
+			<Text>
+		Во время [ICON_GLORY_DARK_AGE] Темного Века или при контроле Пирамиды Солнца, наземные, стрелковые и религиозные юниты восстанавливают дополнительно +5 HP в конце каждого хода, даже после передвижения и атаки. Должна быть построена на ровной травянистой или равнинной местности рядом с районом Святилище.
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOON_PYRAMID_QUOTE" Language="ru_RU">
+			<Text>
+		«Сын мой, прими эту божественную воду, которую следует пить, чтобы все могли жить, чтобы она омыла тебя и смыла все твои несчастья, являясь частью жизни с самого начала мира: эта вода обладает уникальной способностью противостоять бедам.»[NEWLINE]– Бернардино де Саагун, Флорентийский кодекс
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOON_PYRAMID_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>
+		Пирамида Луны явно была создана в дополнение к Пирамиде Солнца. Она была построена в тот же период Закауалли, около 200 года нашей эры, и расположена между Дорогой Мертвых и горой Серро Гордо. Это не только вторая по величине пирамида в Теотиуакане, но и занимает аналогичное место среди мезоамериканских пирамид.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOON_PYRAMID_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>
+		Азтеки называли ее Тенан, что примерно переводится как «Каменная Мать». Ее назначение так же загадочно, как и у Пирамиды Солнца. Благодаря своему расположению можно предположить, что обе структуры имели схожую цель, так как они находятся на противоположных концах Дороги Мертвых, а Пирамида Луны расположена на площади Ла Луна.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOON_PYRAMID_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>
+		На основании захоронений и близости к комплексу Тепантитла у основания пирамиды предполагается, что Пирамида Луны имеет связь с богиней-пауком Теотиуакана. Обнаруженные под пирамидой подземные туннели и священная пещера вдохновлены Тлалоканом — подземным миром, контролируемым Тлалоком, который, как считается, является адаптацией богини-паука. Также богиня-паук иногда интерпретируется как бесполый бог из-за различных гендерных идентичностей в Мезоамерике до колонизации.
+			</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MOON_PYRAMID_DESCRIPTION" Language="ru_RU">
+			<Text>
+		Восстанавливает дополнительно +5 HP в конце каждого хода, даже после передвижения и атаки (Пирамида Луны).
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SUN_PYRAMID_NAME" Language="zh_Hans_CN">
+			<Text>太阳金字塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SUN_PYRAMID_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				当处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代、 [ICON_GLORY_SUPER_GOLDEN_AGE] 英雄时代或同时控制月亮金字塔奇观时，近战、远程和宗教单位获得+1 [ICON_Movement] 移动力，并无视来自地形和地貌的 [ICON_Movement] 移动力惩罚。必须建造在邻近圣地区域的平坦草原或平原上。
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SUN_PYRAMID_QUOTE" Language="zh_Hans_CN">
+			<Text>
+				他跳进去了。他的血肉在咝咝响声中燃烧。诸神坐在那里等待。然后，四周的天空开始变红。太阳从东方升起，赋予生命的光辉穿透所有地方。毫无夸耀，纳纳瓦特辛做了拯救地上众生的必须之事。[NEWLINE]——卡蜜拉·汤森，《第五太阳》
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				据推测，太阳金字塔分两阶段完成，第一阶段在Tzacualli时期的公元200年左右开始。阿兹特克人将这座建筑称为Tonatiuh Itzacual，西班牙人则将这座建筑称为太阳金字塔。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>这座建筑在特奥蒂瓦坎的黄金时代建成，是特奥蒂瓦坎最大型的建筑物，也是世上最巨大的金字塔结构之一。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				它的本来名称可以大致翻译为太阳的围墙，因为它位处城市精心选择的位置，与塞罗戈多山和日出的位置连成一线。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>
+				太阳金字塔和建在死亡大道的尽头，位于希乌达德拉和月亮金字塔中间。这座建筑被进口的石灰膏复盖，并饰以美洲虎、星辰和响尾蛇的雕刻。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>
+				太阳金字塔在特奥蒂瓦坎时代的确切用途尚不清楚，有些理论认为它可能是前阿兹特克太阳神或火神的仪式中心，而顶部的一些破损的神庙遗迹则表明，当这座建筑被遗弃后，曾经遭到仪式性的掠夺。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>
+				在金字塔下发现了一些花瓣形状的隧道系统，这些隧道系统与墓室相连，加深了这个场所的神秘感，从这些墓室中发现的主要是黑曜石文物。
+			</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SUN_PYRAMID_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				+1 [ICON_Movement] 移动力，并无视来自地形和地貌的 [ICON_Movement] 移动力惩罚。（太阳金字塔）
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOON_PYRAMID_NAME" Language="zh_Hans_CN">
+			<Text>月亮金字塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOON_PYRAMID_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				当处于 [ICON_GLORY_DARK_AGE] 黑暗时代或同时控制太阳金字塔奇观时，近战、远程和宗教单位在每回合结束时，甚至是在移动或攻击后，仍可恢复且额外+5HP。必须建造在邻近圣地区域的平坦草原或平原上。
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOON_PYRAMID_QUOTE" Language="zh_Hans_CN">
+			<Text>
+				孩子，领受这神圣之水。这水是一切生命必须饮用之物，能够洗净你的身体，洗去你的不幸。自世界创始之时水就是生命的一部分，确实是有抵御不幸的独特力量。[NEWLINE]——贝尔纳迪诺·德·萨阿贡，《佛罗伦萨手抄本》
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOON_PYRAMID_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				月亮金字塔显然是为了配合太阳金字塔而建造的，它不仅是在公元200年左右的Tzacualli时期建造的，而且位于死亡大道和塞罗戈多山之间，不仅是特奥蒂瓦坎的第二大金字塔，也是中美洲的第二大金字塔。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOON_PYRAMID_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				它被阿兹特克人称为Tenan，大致意思是石头之母，其用途与太阳金字塔一样神秘。基于它的位置，有可能这两个建筑共享一个用途，因为这两个金字塔分别位于死亡大道的两端，月亮金字塔位于月球广场一侧。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOON_PYRAMID_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				根据一些墓葬和与金字塔底部的提潘提拉建筑群的相似程度，月亮金字塔被推测为特奥蒂瓦坎的蜘蛛女神（翡翠蜘蛛）的崇拜场所。最近在月亮金字塔下发现的一系列地下信道和神圣的洞穴，则显示月亮金字塔可能与特拉洛坎，一个由特拉洛克神控制的冥界有关。特拉洛克神的起源可能与蜘蛛女神有关，因为在殖民时期前的中美洲有不同的性别身份，蜘蛛女神也会被视为一个没有性别的神明。
+			</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MOON_PYRAMID_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在每回合结束时，甚至是在移动或攻击后，仍可恢复且额外+5HP。（月亮金字塔）</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SUN_PYRAMID_NAME" Language="zh_Hant_HK">
+			<Text>太陽金字塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SUN_PYRAMID_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				當處於 [ICON_GLORY_GOLDEN_AGE] 黃金時代、 [ICON_GLORY_SUPER_GOLDEN_AGE] 英雄時代或同時控制月亮金字塔奇觀時，近戰、遠程和宗教單位獲得+1 [ICON_Movement] 移動力，並無視來自地形和地貌的 [ICON_Movement] 移動力懲罰。必須建造在鄰近聖地區域的平坦草原或平原上。
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SUN_PYRAMID_QUOTE" Language="zh_Hant_HK">
+			<Text>
+				「他跳進去了。他的血肉在噝噝響聲中燃燒。諸神坐在那裡等待。然後，四周的天空開始變紅。太陽從東方升起，賦予生命的光輝穿透所有地方。毫無誇飾，納納瓦特辛做了拯救地上眾生的必須之事。」[NEWLINE]——卡蜜拉·湯森，《第五太陽》
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>
+				據推測，太陽金字塔分兩階段完成，第一階段在Tzacualli時期的公元200年左右開始。阿茲特克人將這座建築稱為Tonatiuh Itzacual，西班牙人則將這座建築稱為太陽金字塔。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>這座建築在特奧蒂瓦坎的黃金時代建成，是特奧蒂瓦坎最大型的建築物，也是世上最巨大的金字塔結構之一。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>
+				它的本來名稱可以大致翻譯為太陽的圍牆，因為它位處城市精心選擇的位置，與塞羅戈多山和日出的位置連成一線。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text>
+				太陽金字塔和建在死亡大道的盡頭，位於希乌达德拉和月亮金字塔中間。這座建築被進口的石灰膏覆蓋，並飾以美洲虎、星辰和響尾蛇的雕刻。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_5" Language="zh_Hant_HK">
+			<Text>
+				太陽金字塔在特奧蒂瓦坎時代的確切用途尚不清楚，有些理論認為它可能是前阿茲特克太陽神或火神的儀式中心，而頂部的一些破損的神廟遺跡則表明，當這座建築被遺棄後，曾經遭到儀式性的掠奪。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_6" Language="zh_Hant_HK">
+			<Text>
+				在金字塔下發現了一些花瓣形狀的隧道系統，這些隧道系統與墓室相連，加深了這個場所的神秘感，從這些墓室中發現的主要是黑曜石文物。
+			</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SUN_PYRAMID_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				+1 [ICON_Movement] 移動力，並無視來自地形和地貌的 [ICON_Movement] 移動力懲罰。（太陽金字塔）
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOON_PYRAMID_NAME" Language="zh_Hant_HK">
+			<Text>月亮金字塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOON_PYRAMID_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				當處於 [ICON_GLORY_DARK_AGE] 黑暗時代或同時控制太陽金字塔奇觀時，近戰、遠程和宗教單位在每回合結束時，甚至是在移動或攻擊後，仍可恢復且額外+5HP。必須建造在鄰近聖地區域的平坦草原或平原上。
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOON_PYRAMID_QUOTE" Language="zh_Hant_HK">
+			<Text>
+				「孩子，領受這神聖之水。這水是一切生命必須飲用之物，能夠洗淨你的身體，洗去你的不幸。自世界創始之時水就是生命的一部分，確實是有抵禦不幸的獨特力量。」[NEWLINE]——貝爾納迪諾·德·薩阿貢，《佛羅倫薩手抄本》
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOON_PYRAMID_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>
+				月亮金字塔顯然是為了配合太陽金字塔而建造的，它不僅是在公元200年左右的Tzacualli時期建造的，而且位於死亡大道和塞羅戈多山之間，不僅是特奧蒂瓦坎的第二大金字塔，也是中美洲的第二大金字塔。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOON_PYRAMID_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>
+				它被阿茲特克人稱為Tenan，大致意思是石頭之母，其用途與太陽金字塔一樣神秘。基於它的位置，有可能這兩個建築共用一個用途，因為這兩個金字塔分別位於死亡大道的兩端，月亮金字塔位於月球廣場一側。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOON_PYRAMID_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>
+				根据一些墓葬和與金字塔底部的提潘提拉建築群的相似程度，月亮金字塔被推测为特奥蒂瓦坎的蜘蛛女神（翡翠蜘蛛）的崇拜场所。最近在月亮金字塔下发现的一系列地下通道和神圣的洞穴，則显示月亮金字塔可能与特拉洛坎，一個由特拉洛克神控制的冥界有關。特拉洛克神的起源可能與蜘蛛女神有關，因為在殖民時期前的中美洲有不同的性別身份，蜘蛛女神也會被視為一個沒有性別的神明。
+			</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MOON_PYRAMID_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在每回合結束時，甚至是在移動或攻擊後，仍可恢復且額外+5HP。（月亮金字塔）</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SUN_PYRAMID_NAME" Language="ja_JP">
+			<Text>太陽のピラミッド</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SUN_PYRAMID_DESCRIPTION" Language="ja_JP">
+			<Text>
+				[ICON_GLORY_GOLDEN_AGE] 黄金時代か [ICON_GLORY_SUPER_GOLDEN_AGE] 英雄時代を迎えているとき、または月のピラミッドを支配している間、近接戦闘ユニット、長距離戦闘ユニット、宗教ユニットは [ICON_Movement] 移動力+1、地形や特徴による [ICON_Movement] 移動力のペナルティを無視する。聖地区域に隣接する平らな草原や平野にのみ建設可能。
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SUN_PYRAMID_QUOTE" Language="ja_JP">
+			<Text>
+				「彼は跳んだ。彼の肉はパチパチと音を立てて焼けた。神々は座って待っていた。すると、空一面が赤く染まり始めた。太陽は東から昇り、その生命を育む光はあらゆる場所を貫いた。自慢することなく、ナナワツィンは、地上の生命を守るために必要なことをやり遂げた。」[NEWLINE]– カミラ・タウンゼント、『第五の太陽』
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>
+				太陽のピラミッドは、紀元前200年のツァクアリ期に建設が始まり、後の第2期で完成したとする説がある。アステカではトナティウ・イッツァクアルと呼ばれていたが、スペインによる征服の際に太陽のピラミッドと改名された。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>このピラミッドは、テオティワカンで最大の建築物であり、建設当時は最大級のピラミッドだったそう。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>
+				ナワトル語で「太陽の囲い込み」を意味するこの名前は、朝日を背にし、セロ・ゴルドの形状を模していることから付けられたもの。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_4" Language="ja_JP">
+			<Text>
+				月のピラミッドとシウダデラの間、死者の通路の一角に建てられた太陽のピラミッドは、輸入された漆喰で覆われ、ジャガー、星、ガラガラヘビのデザインで装飾されていた。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_5" Language="ja_JP">
+			<Text>
+				太陽のピラミッドの正確な用途は不明だが、アステカ以前の太陽神や火の神の崇拝の場であったとする説があり、都市放棄後に儀式的に破壊された頂上の神殿の焼け跡がそれを裏付けている。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_6" Language="ja_JP">
+			<Text>
+				ピラミッドの地下には花びらの形をしたトンネルがあり、地下には複数の廃墟があり、そこから出土したものはほとんどが黒曜石の遺物である。
+			</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SUN_PYRAMID_DESCRIPTION" Language="ja_JP">
+			<Text>
+				[ICON_Movement] 移動力+1、地形や特徴による [ICON_Movement] 移動力のペナルティを無視する。（太陽のピラミッド）
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOON_PYRAMID_NAME" Language="ja_JP">
+			<Text>月のピラミッド</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOON_PYRAMID_DESCRIPTION" Language="ja_JP">
+			<Text>
+				[ICON_GLORY_DARK_AGE] 暗黒時代を迎えているとき、または太陽のピラミッドを支配している間、近接戦闘ユニット、長距離戦闘ユニット、宗教ユニットは移動あるいは攻撃した後でも、ターン終了時に回復する、HP回復量+5。聖地区域に隣接する平らな草原や平野にのみ建設可能。
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOON_PYRAMID_QUOTE" Language="ja_JP">
+			<Text>
+				「子よ、この神聖な水を受け取れ。すべての人が生きるために飲まなければならない。この水はあなたを洗浄し、あなたのすべての不幸を洗い流すだろう。水は世界の始まりから生命の一部であり、真の意味で、この水には不幸に対抗する特別な力がある。」[NEWLINE]– ベルナルディーノ・デ・サアグン、『フィレンツェ絵文書』
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOON_PYRAMID_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>
+				月のピラミッドは、明らかに太陽のピラミッドに付随して作られたものである。紀元200年頃のツァクアリ期に同じ時期に建てられただけでなく、死者の道とセロ・ゴルドの間に位置している。テオティワカンで2番目に大きいピラミッドであるだけでなく、メソアメリカのピラミッドの中でも全く同じ位置にある。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOON_PYRAMID_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>
+				アステカでは「テナン」と呼ばれ、「母なる岩」とも訳され、もう一つのピラミッドと同様に用途は不明ですが、死者の通路の両端にあり、特にテナンはルナ広場に位置していること、両者に何らかの共通点があるとの説がある。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOON_PYRAMID_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>
+				いくつかの埋葬とピラミッドの底にあるテパンティトラ祠に近いこと、そしてピラミッドが女性的の象徴から、月のピラミッドはテオティワカンの大蜘蛛女神の崇拝の場として使われていたとする説がある； 最近の発見では、月のピラミッドの下にある一連の地下トンネルと聖なる洞窟は、トラロック神に関連する冥界であるトラロカンとの関連を示しておりる。蜘蛛の女神は、植民地化以前のメソアメリカにおける様々なタイプのジェンダーアイデンティティのために、ある種の性別がない神であるという解釈もある。
+			</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MOON_PYRAMID_DESCRIPTION" Language="ja_JP">
+			<Text>移動あるいは攻撃した後でも、ターン終了時に回復する、HP回復量+5。（月のピラミッド）</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SUN_PYRAMID_NAME" Language="es_ES">
+			<Text>Pirámide del Sol</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SUN_PYRAMID_DESCRIPTION" Language="es_ES">
+			<Text>
+				Durante una [ICON_GLORY_GOLDEN_AGE] Edad de Oro, [ICON_GLORY_SUPER_GOLDEN_AGE] Edad Heroica o si también controlas la maravilla de la Pirámide de la Luna, hace que unidades Cuerpo a Cuerpo, Distancia y Religiosas reciban +1 [ICON_Movement] de Movimiento e ignoren [ICON_Movement] penalidades de movimiento de terrenos y accidentes. Requiere ser construido en Llanuras o Pradera adyacente a un Distrito de Lugar Sagrado.
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SUN_PYRAMID_QUOTE" Language="es_ES">
+			<Text>
+				“Él saltó. Su carne crujió y chisporroteó. Los dioses se sentaron a esperar. Entonces comenzó el enrojecimiento del cielo por todas partes. Y el sol salió por el oriente, sus rayos vivificantes penetrando por todas partes. Sin estridencias, Nanahuatzin había hecho lo necesario para salvar la vida en la tierra.”[NEWLINE]– Camilla Townsend, Quinto Sol
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>
+				Se teoriza que la pirámide del sol se empezó a construir durante la fase Tzacualli en 200 C.C y su construcción terminaría en una segunda fase posterior. Conocida como Tonatiuh Itzacual por los Aztecas, siendo renombrada como la Pirámide del Sol durante la conquista.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_2" Language="es_ES">
+			<Text>
+				Esta pirámide fue la estructura arquitectónica más grande de la ciudad de Teotihuacán además de ser en al momento de su construcción una de las pirámides más grande de la historia.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_3" Language="es_ES">
+			<Text>
+				Su nombre en Náhuatl significa el cercado del sol dado a su posición en contra del amanecer y mimetizando la forma del Cerro Gordo.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_4" Language="es_ES">
+			<Text>
+				Construida en una de las puntas de la Calzada de los muertos, entre la Pirámide de la Luna y la ciudadela, el Tonatiuh Itzacula estaría cubierto de estuco importado, decorándolo con diseños de jaguares, estrellas y serpientes de cascabel.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_5" Language="es_ES">
+			<Text>
+				El uso exacto de la Pirámide del Sol es desconocido, algunas teorías apuntan hacia uso como lugar de culto a una deidad solar o del fuego pre-azteca, siendo apoyada dicha teoría por los residuos quemados de un templo en su punta, destruido de manera ritualista después del abandono de la ciudad.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SUN_PYRAMID_CHAPTER_HISTORY_PARA_6" Language="es_ES">
+			<Text>
+				Sistemas de túneles en forma de pétalos de flores ha sido encontrados debajo de la pirámide, con múltiples habitaciones subterráneas abandonadas, las piezas recogidas de estos lugares son en una mayoría artefactos hechos en obsidiana.
+			</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SUN_PYRAMID_DESCRIPTION" Language="es_ES">
+			<Text>
+				+1 [ICON_Movement] de Movimiento e ignoren [ICON_Movement] penalidades de movimiento de terrenos y accidentes ）+1 [ICON_Movement] de Movimiento e ignoren [ICON_Movement] penalidades de movimiento de terrenos y accidentes (Pirámide del Sol)
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOON_PYRAMID_NAME" Language="es_ES">
+			<Text>Pirámide de la Luna</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOON_PYRAMID_DESCRIPTION" Language="es_ES">
+			<Text>
+				Durante una [ICON_GLORY_DARK_AGE] Época Oscura o si también controlas la maravilla de la Pirámide del Sol, hace que unidades Cuerpo a Cuerpo, Distancia y Religiosas se curen un +5 Puntos de Golpe al final de cada turno, incluso después de moverse o atacar. Requiere ser construido en Llanuras o Pradera adyacente a un Distrito de Lugar Sagrado.
+			</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MOON_PYRAMID_QUOTE" Language="es_ES">
+			<Text>
+				“Hijo, recibe esta agua divina, que se debe beber para que todos vivan, para que te lave y lave todas tus desgracias, parte de la vida desde el principio del mundo: esta agua en verdad tiene un poder único para oponerse a la desgracia.”[NEWLINE]– Bernardino de Sahagún, Códice Floretino
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOON_PYRAMID_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>
+				Construida en conjunto con la Pirámide del Sol, esta estructura también data del periodo Tzacualli en 200 C.C, posicionada de manera similar a la otra pirámide entre la Calzada de los Muertos y el Cerro Gordo, la Pirámide de la Luna sería la segunda estructura más grande en Teotihuacán además de mantener el mismo puesto en pirámides mesoamericanas.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOON_PYRAMID_CHAPTER_HISTORY_PARA_2" Language="es_ES">
+			<Text>
+				Conocida como Tenan por los Aztecas, traduciendo a Madre, Madre protectora o Madre de roca protectora, al igual que la otra pirámide su uso es desconocido; pero se teoriza algún tipo de uso común entra las dos al estar cada una en los extremos de la Calzada de los muertos; específicamente Tenan se encuentra ubicada en la Plaza de la Luna.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOON_PYRAMID_CHAPTER_HISTORY_PARA_3" Language="es_ES">
+			<Text>
+				En base a unos entierros y la proximidad con el reciento Tepantitla a la falda de la pirámide, se teoriza un uso de Tenan como lugar de culto para la Gran Diosa Araña de Teotihuacán dado al asociación femenina de la pirámide; un descubrimiento reciente de unas series de túneles subterráneos y cavernas sagradas bajo la Pirámide de la Luna muestran una asociación a Tlalocan, un inframundo relacionado con el dios Tlaloc, el cual su origen está relacionado a la Gran Diosa Araña como una adaptación azteca de la deidad que nace por lectura de esta deidad Teotihuacana como una fuera del espectro binario del género, el cual era más diverso en las Américas antes de la colonización.
+			</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MOON_PYRAMID_DESCRIPTION" Language="es_ES">
+			<Text>
+				Curen un +5 Puntos de Golpe al final de cada turno, incluso después de moverse o atacar (Pirámide de la Luna)
+			</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

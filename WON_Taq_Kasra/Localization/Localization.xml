@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_TAQ_KASRA_NAME" Language="ru_RU">
+			<Text>Так-Касра</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAQ_KASRA_DESCRIPTION" Language="ru_RU">
+			<Text>Открывает [ICON_RESOURCE_ANTIQUITY_SITE] археологические участки. Так-Касра и [ICON_RESOURCE_ANTIQUITY_SITE] археологические участки дают +1 [ICON_Production] производства за каждую титульную должность [ICON_Governor] губернатора в их городах и +2 [ICON_Culture] культуры за каждое чудо света в их городах (включая сам Так-Касра). Должно быть построено рядом с рекой, прилегающей к центру города.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAQ_KASRA_QUOTE" Language="ru_RU">
+			<Text>«Берегись, о моё сердце, учись на уроках, смотри своими глазами, берегись![NEWLINE]Смотри на Иван аль-Мадаин как на зеркало уроков.»[NEWLINE]– Хакани</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAQ_KASRA_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Так-Касра, Иван аль-Мадаин, Арка Ктесифона — всё это названия одного и того же дворца Сасанидской империи на берегу реки Тигр, или же того, что осталось от него. Основателем дворца принято считать либо Шапура I, либо Хосрова I. На переднем фасаде ивана находится монументальная арка, достигающая около 37 метров в высоту и 50 метров в длину. Структура дворца в основном разрушилась из-за сочетания природных катаклизмов и человеческих разрушений, но арка выдержала испытание временем. Арка описана многими поэтами исламского периода как символ величия Сасанидской империи, а также как напоминание о разрушительном воздействии времени.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_TAQ_KASRA_NAME" Language="zh_Hans_CN">
+			<Text>塔克基思拉宫</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAQ_KASRA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>显示 [ICON_RESOURCE_ANTIQUITY_SITE] 历史古蹟。每个 [ICON_Governor] 总督头衔令所在城市的塔克基思拉宫和 [ICON_RESOURCE_ANTIQUITY_SITE] 历史古蹟获得+1 [ICON_Production] 生产力，每座奇观（包括塔克基思拉宫本身）令所在城市的塔克基思拉宫和 [ICON_RESOURCE_ANTIQUITY_SITE] 历史古蹟获得+2 [ICON_Culture] 文化值。必须建造在邻近市中心的河流旁边。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAQ_KASRA_QUOTE" Language="zh_Hans_CN">
+			<Text>看哪，我领受教训的心啊，注目凝望，看哪！[NEWLINE]马达因的伊万正是教训的明镜。[NEWLINE]——哈加尼</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAQ_KASRA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>塔克基思拉宫，马达因的伊万，泰西封拱门，指的都是同一座建于底格里斯河畔的萨珊帝国宫殿——或者说它尚留在地面上的遗蹟。一般认为这座宫殿由沙普尔一世或是霍斯劳一世建造。在波斯式伊万大厅开放的正面有一座高约37米、长约50米的宏伟拱门。由于天灾人祸，宫殿的结构大多分崩离析，但它的拱门历经时光考验仍屹立不倒。拱门广受伊斯兰时期的诗人描写，既作为萨珊帝国荣光的象徵，也是对岁月沧桑无常的警示。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_TAQ_KASRA_NAME" Language="zh_Hant_HK">
+			<Text>塔克基思拉宮</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAQ_KASRA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>顯示 [ICON_RESOURCE_ANTIQUITY_SITE] 歷史古蹟。每個 [ICON_Governor] 行政長官頭銜令所在城市的塔克基思拉宮和 [ICON_RESOURCE_ANTIQUITY_SITE] 歷史古蹟獲得+1 [ICON_Production] 生產力，每座奇觀（包括塔克基思拉宮本身）令所在城市的塔克基思拉宮和 [ICON_RESOURCE_ANTIQUITY_SITE] 歷史古蹟獲得+2 [ICON_Culture] 文化值。必須建造在鄰近城市中心的河流旁邊。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAQ_KASRA_QUOTE" Language="zh_Hant_HK">
+			<Text>「看哪，我領受教訓的心啊，注目凝望，看哪！[NEWLINE]馬達因的伊萬正是教訓的明鏡。」[NEWLINE]——哈加尼</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAQ_KASRA_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>塔克基思拉宮，馬達因的伊萬，泰西封拱門，指的都是同一座建於底格里斯河畔的薩珊帝國宮殿——或者說它尚留在地面上的遺蹟。一般認為這座宮殿由沙普爾一世或是霍斯勞一世建造。在波斯式伊萬大廳開放的正面有一座高約37米、長約50米的宏偉拱門。由於天災人禍，宮殿的結構大多分崩離析，但它的拱門歷經時光考驗仍屹立不倒。拱門廣受伊斯蘭時期的詩人描寫，既作為薩珊帝國榮光的象徵，也是對歲月滄桑無常的警示。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_TAQ_KASRA_NAME" Language="ja_JP">
+			<Text>タク・カスラ</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAQ_KASRA_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_RESOURCE_ANTIQUITY_SITE] 史跡の場所が明らかになる。[ICON_Governor] 総督の称号1つにつき、配属された都市のタク・カスラと [ICON_RESOURCE_ANTIQUITY_SITE] 史跡は [ICON_Production] 生産力+1をもたらす。遺産 (タク・カスラを含む)1つにつき、その都市のタク・カスラと [ICON_RESOURCE_ANTIQUITY_SITE] 史跡は [ICON_Culture] 文化力+2をもたらす。都心に隣接した川の隣にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAQ_KASRA_QUOTE" Language="ja_JP">
+			<Text>「見たまえ、私の教訓を受ける心よ、凝視する瞳で、見たまえ！[NEWLINE]マダインのイーワーンこそ、教訓の鑑である。」[NEWLINE]– ハーカーニー</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TAQ_KASRA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>タク・カスラ、マダインのイーワーン、クテシフォンのアーチ、いずれもチグリス河畔に建てられたササン朝時代の同じ宮殿を指しており - または地上に残されたその史跡を指している。この宮殿は、シャープール1世またはホスロー1世によって建てられたと考えられている。ペルシャ様式のイーワーンの開放的な正面には、高さ約37メートル、長さ約50メートルの立派なアーチがある。宮殿の構造は天災や人災によってほとんど崩壊してしまったが、アーチは時の試練を乗り越えてきた。このアーチは、イスラムの詩人たちによって、ササン朝の栄光の象徴として、また時の無常を警告するものとして広く描かれた。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

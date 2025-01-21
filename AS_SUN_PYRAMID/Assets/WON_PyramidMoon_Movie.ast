@@ -1,0 +1,4908 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="REVEAL_A"/>
+						<m_AnimationName text="WON_Tenochtitlan_Movie"/>
+					</Element>
+				</m_Bindings>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="REVEAL_A"/>
+						<m_TimelineName text="REVEAL_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="CONSTRUCTION_A"/>
+						<m_TimelineName text="CONSTRUCTION_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUINED_A"/>
+						<m_TimelineName text="RUINED_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="WORKED_A"/>
+						<m_TimelineName text="WORKED_A"/>
+					</Element>
+				</m_Bindings>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines>
+					<Element>
+						<m_Name text="REVEAL_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="WON_Tenochtitlan_Movie"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="2"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_GreatLighthouse_Wake_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Wake_01"/>
+								<m_fStartTime>2.257142</m_fStartTime>
+								<m_fDuration>17.700001</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="5"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Wonder_Music_HueyTeocalli"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.028954</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="6"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Wonder_Construction_Stone"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>14.674764</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="7"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Wonder_Construction_Stone"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.012821</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="8"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX014"/>
+								<m_fStartTime>4.942803</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="9"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX014"/>
+								<m_fStartTime>5.014617</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="10"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX014"/>
+								<m_fStartTime>5.298425</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="11"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX014"/>
+								<m_fStartTime>5.365483</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="12"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX014"/>
+								<m_fStartTime>5.465659</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="13"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX014"/>
+								<m_fStartTime>11.373391</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="14"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX001"/>
+								<m_fStartTime>5.162657</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="15"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX001"/>
+								<m_fStartTime>5.228120</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="16"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX001"/>
+								<m_fStartTime>10.816872</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="17"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX002"/>
+								<m_fStartTime>5.153871</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>3</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="18"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX002"/>
+								<m_fStartTime>5.189806</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>3</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="19"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX002"/>
+								<m_fStartTime>10.808435</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>3</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="20"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX003"/>
+								<m_fStartTime>4.957034</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>4</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="21"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX003"/>
+								<m_fStartTime>5.058875</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>4</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="22"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX003"/>
+								<m_fStartTime>5.248681</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>4</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="23"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX003"/>
+								<m_fStartTime>5.352375</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>4</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="24"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX003"/>
+								<m_fStartTime>5.457823</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>4</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="25"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX004"/>
+								<m_fStartTime>4.233815</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>5</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="26"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX004"/>
+								<m_fStartTime>4.392923</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>5</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="27"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX004"/>
+								<m_fStartTime>10.123578</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>5</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="28"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX005"/>
+								<m_fStartTime>4.257290</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>6</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="29"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX005"/>
+								<m_fStartTime>4.317331</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>6</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="30"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX005"/>
+								<m_fStartTime>4.589632</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>6</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="31"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX005"/>
+								<m_fStartTime>10.106064</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>6</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="32"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX006"/>
+								<m_fStartTime>4.416918</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>7</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="33"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX006"/>
+								<m_fStartTime>4.479304</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>7</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="34"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX006"/>
+								<m_fStartTime>9.939398</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>7</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="35"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX007"/>
+								<m_fStartTime>4.994383</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>8</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="36"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX007"/>
+								<m_fStartTime>5.065988</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>8</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="37"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX007"/>
+								<m_fStartTime>5.228381</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>8</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="38"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX007"/>
+								<m_fStartTime>5.354450</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>8</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="39"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX007"/>
+								<m_fStartTime>5.495475</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>8</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="40"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX008"/>
+								<m_fStartTime>2.243916</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>9</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="41"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX008"/>
+								<m_fStartTime>3.176257</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>9</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="42"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX008"/>
+								<m_fStartTime>4.691603</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>9</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="43"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX008"/>
+								<m_fStartTime>5.522810</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>9</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="44"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX008"/>
+								<m_fStartTime>5.815649</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>9</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="45"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX008"/>
+								<m_fStartTime>6.368079</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>9</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="46"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>2.390469</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="47"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>3.982759</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="48"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>4.232759</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="49"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>4.672414</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="50"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>5.555490</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="51"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>6.114176</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="52"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>6.630607</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="53"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>6.851266</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="54"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>7.353613</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="56"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>9.123568</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="57"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>9.325448</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="58"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>9.672866</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="59"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>9.954556</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="60"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>10.698688</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="61"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>10.895871</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="62"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>11.149392</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="63"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>11.510893</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="64"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>11.816057</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="65"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX009"/>
+								<m_fStartTime>11.961597</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="66"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>2.212063</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="67"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>2.717466</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="68"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>3.792583</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="69"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>4.475682</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="70"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>5.654085</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="71"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>6.020282</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="72"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>6.480376</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="73"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>7.062536</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="74"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>8.184602</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="75"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>8.358311</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="76"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>9.114179</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="77"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>9.255024</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="78"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>9.602442</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="79"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>9.832489</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="80"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>10.827793</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="81"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>11.020283</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="82"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>11.438123</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="83"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>11.654086</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="84"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>12.062536</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="85"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>12.245635</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="86"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>12.644698</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="87"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>12.879439</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="88"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX010"/>
+								<m_fStartTime>13.029675</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="89"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX011"/>
+								<m_fStartTime>2.212063</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>12</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="90"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX011"/>
+								<m_fStartTime>5.483569</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>12</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="91"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX011"/>
+								<m_fStartTime>6.401410</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>12</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="92"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX011"/>
+								<m_fStartTime>6.523476</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>12</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="93"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX011"/>
+								<m_fStartTime>8.077466</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>12</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="94"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX011"/>
+								<m_fStartTime>9.014086</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>12</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="95"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX011"/>
+								<m_fStartTime>9.126761</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>12</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="96"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX011"/>
+								<m_fStartTime>9.586856</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>12</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="97"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX011"/>
+								<m_fStartTime>10.286388</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>12</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="98"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX011"/>
+								<m_fStartTime>11.220661</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>12</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="99"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX011"/>
+								<m_fStartTime>11.582163</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>12</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="100"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX011"/>
+								<m_fStartTime>11.892022</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>12</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="101"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>2.227044</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="102"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>3.779276</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="103"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>5.182090</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="104"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>6.042703</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="105"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>6.546536</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="106"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>7.050373</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="107"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>8.019682</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="108"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>8.847047</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="109"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>9.110476</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="110"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>9.575953</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="55"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>10.128572</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="111"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>10.484418</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="112"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>10.929873</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="113"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>11.466236</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="114"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>11.884419</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="115"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>12.393511</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="116"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>12.848056</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="117"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX012"/>
+								<m_fStartTime>13.002602</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="119"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX013"/>
+								<m_fStartTime>2.287528</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="120"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX013"/>
+								<m_fStartTime>3.830314</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="121"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX013"/>
+								<m_fStartTime>4.792006</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="122"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX013"/>
+								<m_fStartTime>5.747652</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="123"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX013"/>
+								<m_fStartTime>6.445232</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="124"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX013"/>
+								<m_fStartTime>6.985555</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="125"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX013"/>
+								<m_fStartTime>8.412973</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="126"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX013"/>
+								<m_fStartTime>9.118618</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="127"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX013"/>
+								<m_fStartTime>9.340391</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="128"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX013"/>
+								<m_fStartTime>9.820230</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="129"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX013"/>
+								<m_fStartTime>9.876681</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="130"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX013"/>
+								<m_fStartTime>10.457327</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="131"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX013"/>
+								<m_fStartTime>10.945229</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="132"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX013"/>
+								<m_fStartTime>11.400873</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="133"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX013"/>
+								<m_fStartTime>11.711359</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="134"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX015"/>
+								<m_fStartTime>6.953297</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>15</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="135"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX015"/>
+								<m_fStartTime>9.840391</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>15</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="136"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX015"/>
+								<m_fStartTime>9.892811</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>15</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="137"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX015"/>
+								<m_fStartTime>10.517811</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>15</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="138"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX015"/>
+								<m_fStartTime>11.602489</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>15</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="139"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX015"/>
+								<m_fStartTime>12.062166</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>15</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="140"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX015"/>
+								<m_fStartTime>12.287972</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>15</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="141"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX015"/>
+								<m_fStartTime>12.981521</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>15</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="142"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX015"/>
+								<m_fStartTime>13.542003</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>15</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="143"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX015"/>
+								<m_fStartTime>13.828293</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>15</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="144"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX016"/>
+								<m_fStartTime>7.243620</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>16</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="145"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX016"/>
+								<m_fStartTime>9.947580</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>16</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="146"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX016"/>
+								<m_fStartTime>10.735887</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>16</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="147"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX016"/>
+								<m_fStartTime>11.576612</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>16</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="148"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX016"/>
+								<m_fStartTime>12.209677</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>16</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="149"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX016"/>
+								<m_fStartTime>12.592744</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>16</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="150"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX016"/>
+								<m_fStartTime>12.866938</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>16</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="151"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX016"/>
+								<m_fStartTime>13.330648</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>16</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="152"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX016"/>
+								<m_fStartTime>13.588713</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>16</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="153"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX016"/>
+								<m_fStartTime>13.802423</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>16</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="154"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>2.311721</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="155"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>4.153226</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="156"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>4.804435</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="157"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>5.562500</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="158"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>6.191533</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="159"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>6.296371</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="160"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>6.877017</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="161"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>7.441533</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="162"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>8.405243</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="163"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>8.758065</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="164"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>9.112904</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="165"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>9.620968</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="166"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>10.116936</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="167"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>10.766129</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="168"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>11.233871</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="169"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>12.161290</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="170"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>12.379030</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="171"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>12.620966</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="172"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="WON_Tenochtitlan_FX017"/>
+								<m_fStartTime>12.766127</m_fStartTime>
+								<m_fDuration>0.200000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="197"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Fire001"/>
+								<m_fStartTime>15.434351</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>18</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="198"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Fire002"/>
+								<m_fStartTime>15.633905</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>19</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="199"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Fire003"/>
+								<m_fStartTime>15.485929</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>20</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="200"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Fire004"/>
+								<m_fStartTime>15.320223</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>21</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="201"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Fire005"/>
+								<m_fStartTime>15.534308</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>22</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="202"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Fire006"/>
+								<m_fStartTime>16.343924</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>23</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="CONSTRUCTION_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>1.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="1"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_GreatLighthouse_Wake_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Wake_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="173"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX001"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="174"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX002"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="175"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX003"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>3</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="176"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX004"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>4</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="177"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX005"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>5</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="178"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX006"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>6</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="179"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX007"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>7</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="180"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX008"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>8</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="181"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX009"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>9</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="182"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX010"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="183"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX011"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>11</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="184"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX012"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>12</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="185"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX013"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>13</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="186"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX014"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>14</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="187"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX015"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>15</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="188"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX016"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>16</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="189"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX017"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>17</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="190"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX018"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>18</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="191"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Wonder_Tenochititlan_Dust"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Idle_FX019"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>19</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUINED_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>1.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="3"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_GreatLighthouse_Wake_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Wake_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="203"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_PIL_Fire_Sml_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_SMOKE"/>
+								<m_fStartTime>-0.003704</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="204"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_PIL_Fire_Med_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_FIRE"/>
+								<m_fStartTime>-0.005556</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="WORKED_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>1.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="4"/>
+								<m_Description text=""/>
+								<m_FXName text="IMP_City_Park_Fountain"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Fountain"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="205"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FIRE1_1"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>2</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="206"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FIRE1"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="207"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FIRE1_2"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>3</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="208"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FIRE1_3"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>4</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="209"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FIRE1_4"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>5</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="210"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FIRE1_5"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>6</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="211"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FIRE1_6"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>7</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="212"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FIRE1_7"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>8</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="213"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FIRE1_8"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>9</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="214"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FIRE1_10"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>10</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+				</m_Timelines>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Fountain_Round_Lg"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>3.557075</x>
+							<y>-10.586012</y>
+							<z>3.038005</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.235205</z>
+						</m_orientation>
+						<m_Name text="Fountain"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.520000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="DIS_Pot"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-1.178660</x>
+							<y>0.776636</y>
+							<z>8.624567</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="BRAIZIER"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.435467</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="DIS_Pot"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>0.253226</x>
+							<y>-13.761329</y>
+							<z>2.832229</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="BRAIZIER_1"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.531227</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="DIS_Pot"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>7.676358</x>
+							<y>-11.813672</y>
+							<z>2.832229</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="BRAIZIER_2"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.534316</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="DIS_Pot"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>3.347282</x>
+							<y>-3.032634</y>
+							<z>6.437459</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="BRAIZIER_3"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.435467</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="DIS_Pot"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>0.032100</x>
+							<y>-3.840069</y>
+							<z>6.437459</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="BRAIZIER_4"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.435467</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="DIS_Pot"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-2.370952</x>
+							<y>6.198798</y>
+							<z>10.204809</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="BRAIZIER_5"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.435467</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="DIS_Pot"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-1.630339</x>
+							<y>2.769254</y>
+							<z>10.204809</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="BRAIZIER_6"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.435467</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="DIS_Pot"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>1.548515</x>
+							<y>3.563936</y>
+							<z>10.204809</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="BRAIZIER_7"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.435467</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="DIS_Pot"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>0.654643</x>
+							<y>6.992644</y>
+							<z>10.204809</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="BRAIZIER_8"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.435467</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="DIS_Pot"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>2.070934</x>
+							<y>1.629254</y>
+							<z>8.624567</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="BRAIZIER_9"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.435467</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>0.686694</x>
+							<y>6.991229</y>
+							<z>10.760883</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="FIRE1"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.148059</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-1.178660</x>
+							<y>0.776636</y>
+							<z>9.235375</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="FIRE1_1"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.148059</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>7.685276</x>
+							<y>-11.806252</y>
+							<z>3.422176</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="FIRE1_2"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.148059</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>1.557303</x>
+							<y>3.589361</y>
+							<z>10.760883</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="FIRE1_3"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.148059</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-1.624897</x>
+							<y>2.754426</y>
+							<z>10.760883</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="FIRE1_4"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.148059</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-2.357382</x>
+							<y>6.192534</y>
+							<z>10.760883</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="FIRE1_5"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.148059</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>2.106973</x>
+							<y>1.638710</y>
+							<z>9.235375</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="FIRE1_6"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.148059</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>3.361826</x>
+							<y>-3.030485</y>
+							<z>6.991329</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="FIRE1_7"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.148059</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>0.023863</x>
+							<y>-3.842945</y>
+							<z>6.991329</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="FIRE1_8"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.148059</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>0.244599</x>
+							<y>-13.758513</y>
+							<z>3.422176</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="FIRE1_10"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.148059</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="ROAD"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>5.491953</x>
+							<y>-17.181160</y>
+							<z>-0.136026</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-0.256593</z>
+						</m_orientation>
+						<m_Name text="Road"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.561165</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Jungle_PlantA"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>15.333792</x>
+							<y>-5.505163</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.785204</z>
+						</m_orientation>
+						<m_Name text="plant"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.675000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Jungle_PlantA"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>13.008269</x>
+							<y>-10.996236</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>1.013894</z>
+						</m_orientation>
+						<m_Name text="plant_1"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.675000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Jungle_PlantA"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-27.405628</x>
+							<y>1.148510</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-2.986084</z>
+						</m_orientation>
+						<m_Name text="plant_2"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.783000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Jungle_PlantB"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-12.807570</x>
+							<y>-12.825469</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>1.864085</z>
+						</m_orientation>
+						<m_Name text="plant_3"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.783000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Jungle_PlantA"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>17.988258</x>
+							<y>-24.298807</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>2.081733</z>
+						</m_orientation>
+						<m_Name text="plant_4"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.783000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Jungle_PlantB"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>14.929164</x>
+							<y>-20.041018</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>3.016521</z>
+						</m_orientation>
+						<m_Name text="plant_5"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.783000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Jungle_PlantB"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>25.657551</x>
+							<y>-1.201737</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>3.132054</z>
+						</m_orientation>
+						<m_Name text="plant_6"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.908280</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Jungle_PlantB"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-6.341530</x>
+							<y>-26.329884</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.468262</z>
+						</m_orientation>
+						<m_Name text="plant_7"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.783000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Jungle_PlantB"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>17.816336</x>
+							<y>11.124939</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-1.696292</z>
+						</m_orientation>
+						<m_Name text="plant_9"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.783000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text=""/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="plant_8"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Tree_B_Lg"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>19.674866</x>
+							<y>19.291059</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-1.696292</z>
+						</m_orientation>
+						<m_Name text="plant_10"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.618570</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Tree_B_Lg"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-28.405441</x>
+							<y>-6.721560</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-1.696292</z>
+						</m_orientation>
+						<m_Name text="plant_11"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>1.066977</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Tree_B_Lg"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>26.917034</x>
+							<y>16.098053</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-1.696292</z>
+						</m_orientation>
+						<m_Name text="plant_12"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.783000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Tree_B_Lg"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>18.155943</x>
+							<y>-20.274254</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-1.696292</z>
+						</m_orientation>
+						<m_Name text="plant_13"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.994410</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Tree_B_Lg"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>21.448584</x>
+							<y>-16.198185</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-1.696292</z>
+						</m_orientation>
+						<m_Name text="plant_14"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.830332</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Tree_B_Lg"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-5.031960</x>
+							<y>-19.538935</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-1.696292</z>
+						</m_orientation>
+						<m_Name text="plant_15"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.830332</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Tree_B_Lg"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-9.433948</x>
+							<y>-25.821535</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-1.696292</z>
+						</m_orientation>
+						<m_Name text="plant_16"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.830332</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Tree_B_Lg"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-4.157201</x>
+							<y>-30.432938</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>-1.696292</z>
+						</m_orientation>
+						<m_Name text="plant_17"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>1.066977</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Jungle_PlantA"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-0.813594</x>
+							<y>-17.992016</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.248658</z>
+						</m_orientation>
+						<m_Name text="plant_18"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.529875</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="Jungle_PlantA"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-4.872926</x>
+							<y>-15.080016</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>1.013894</z>
+						</m_orientation>
+						<m_Name text="plant_19"/>
+						<m_BoneName text="atttachments"/>
+						<m_ModelInstanceName text="atttachments"/>
+						<m_scale>0.675000</m_scale>
+					</Element>
+				</m_Points>
+			</m_attachmentPoints>
+			<m_stateSet/>
+		</m_behaviorDataSets>
+		<m_behaviorInstances/>
+		<m_dsgName text="Standard_WonderMovie"/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="WON_Tenochtitlan_Movie_Camera"/>
+				<m_GeoName text="WON_Tenochtitlan_Movie_Camera"/>
+				<m_GroupStates/>
+			</Element>
+			<Element>
+				<m_Name text="WON_Moon_Pyramid_Movie"/>
+				<m_GeoName text="Moon_PyramidCIV"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Moon_Pyramid_Built"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Moon_Pyramid_Built"/>
+						<m_MeshName text="Moon_Pyramid_Built"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Moon_Pyramid_Built"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Moon_Pyramid_Built"/>
+						<m_MeshName text="Moon_Pyramid_Built"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Moon_Pyramid_Built"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Moon_Pyramid_Built"/>
+						<m_MeshName text="Moon_Pyramid_Built"/>
+						<m_StateName text="Ruined"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="atttachments"/>
+				<m_GeoName text="atttachments"/>
+				<m_GroupStates/>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_SplineSet>
+		<m_Splines/>
+	</m_SplineSet>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="Safe Frame2"/>
+				<m_eObjectType>GEOMETRY</m_eObjectType>
+				<m_ParamName text="Obstruction Profile"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="AO"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.250000</m_fValue>
+				<m_ParamName text="BurnHeight"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.300000</m_fValue>
+				<m_ParamName text="GradientScale"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.200000</m_fValue>
+				<m_ParamName text="BurnEdgeBlend"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="Obstruction Profile AutoGenerate"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="CastShadows"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="CastAO"/>
+			</Element>
+			<Element class="AssetObjects..RGBValue">
+				<m_r>255.000000</m_r>
+				<m_g>255.000000</m_g>
+				<m_b>255.000000</m_b>
+				<m_ParamName text="SnowColor"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.000000</m_fValue>
+				<m_ParamName text="SnowGloss"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="SnowMetalness"/>
+			</Element>
+			<Element class="AssetObjects..Coord2DValue">
+				<m_x>0.200000</m_x>
+				<m_y>0.800000</m_y>
+				<m_ParamName text="SnowNoiseThreshold"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="SnowOn"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.050000</m_fValue>
+				<m_ParamName text="SnowUVScale"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="WonderMovie"/>
+	<m_DataFiles/>
+	<m_Name text="WON_PyramidMoon_Movie"/>
+	<m_Description text=""/>
+	<m_Tags>
+		<Element text="WonderMovie"/>
+	</m_Tags>
+</AssetObjects..AssetInstance>
+

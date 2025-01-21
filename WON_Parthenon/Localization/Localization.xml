@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_PARTHENON_NAME" Language="ru_RU">
+			<Text>Парфенон</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PARTHENON_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_TradeRoute] к емкости торговых путей за каждый тип Великого Произведения в вашей империи. Каждый [ICON_TradeRoute] торговый путь, отправленный в город-государство, предоставляет 1 [ICON_Envoy] посланника в него. Должен быть построен на холмах рядом с районом Театральная площадь.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PARTHENON_QUOTE" Language="ru_RU">
+			<Text>«Земля гордо носит Парфенон, как лучшую драгоценность на своем поясе.»[NEWLINE]– Ральф Уолдо Эмерсон</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PARTHENON_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Построенный на Акрополе и посвященный богине Афине, Парфенон считается вершиной дорического архитектурного стиля. Строительство храма началось в 447 году до н.э., а последние украшения были завершены в 432 году до н.э. Парфенон хранил хризоэлефантиновую статую Афины, созданную Фидием, а его внешняя сторона была украшена 92 метопами. Как и большинство греческих храмов, Парфенон также служил хранилищем как для Афин, так и для Делосского союза. В XVIII веке европейские туристы и ученые получили больший доступ к живописным руинам, и их слава распространилась. Когда Греция восстановила свою независимость в 1832 году, правительство взяло этот памятник под контроль. В 1975 году начались реставрационные работы на Акрополе, и сегодня Парфенон стал символом Древней Греции, афинских демократических идеалов, западной цивилизации и одним из величайших культурных сокровищ мира.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PARTHENON_NAME" Language="zh_Hans_CN">
+			<Text>帕特农神庙</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PARTHENON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>帝国中每有一个种类的巨作则+1 [ICON_TradeRoute] 贸易路线容量。通往城邦的每条 [ICON_TradeRoute] 贸易路线将为此处提供1名 [ICON_Envoy] 使者。必须建造在邻近剧院广场的丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PARTHENON_QUOTE" Language="zh_Hans_CN">
+			<Text>帕特农神庙傲立于地球上，宛如世上最珍贵的宝石。[NEWLINE]——拉尔夫·沃尔多·爱默生</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PARTHENON_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>帕特农神庙建于雅典卫城上，供奉雅典娜女神，被视为是多立克式建筑的巅峰之作。该寺庙建造始于西元前447年，而在西元前432年时完成最后装饰，是现存重要的古典雕塑的范例。神庙中存放了菲迪亚斯用金和象牙所雕刻的雅典娜巨像，神庙外的正面装饰着92个排档间饰。与大多数的希腊神庙相同，帕特农神庙还充当国库，供应雅典本国以及提洛同盟。18世纪间，欧洲游客和学者借交通之便踊跃拜访此风景如划的废墟，它的名气也随之远播。当希腊于西元1832年恢复独立后，政府旋即接管了此地。西元1975年重建雅典卫城，希腊使帕特农神庙成为古希腊、雅典民主理想、西方文明的永久象征，以及世界上最伟大的文化瑰宝之一。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PARTHENON_NAME" Language="zh_Hant_HK">
+			<Text>帕特農神廟</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PARTHENON_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>帝國中每有一個種類的巨作則+1 [ICON_TradeRoute] 貿易路線容量。通往城邦的每條 [ICON_TradeRoute] 貿易路線將為此處提供1名 [ICON_Envoy] 使者。必須建造在鄰近劇院廣場的丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PARTHENON_QUOTE" Language="zh_Hant_HK">
+			<Text>「帕特農神廟傲立於地球上，宛如世上最珍貴的寶石。」[NEWLINE]——拉爾夫·沃爾多·愛默生</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PARTHENON_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>帕特農神廟建於雅典衛城上，供奉雅典娜女神，被視為是多立克式建築的巔峰之作。該寺廟建造始於西元前447年，而在西元前432年時完成最後裝飾，是現存重要的古典雕塑的範例。神廟中存放了菲迪亞斯用金和象牙所雕刻的雅典娜巨像，神廟外的正面裝飾著92個排檔間飾。與大多數的希臘神廟相同，帕特農神廟還充當國庫，供應雅典本國以及提洛同盟。18世紀間，歐洲遊客和學者藉交通之便踴躍拜訪此風景如畫的廢墟，它的名氣也隨之遠播。當希臘於西元1832年恢復獨立後，政府旋即接管了此地。西元1975年重建雅典衛城，希臘使帕特農神廟成為古希臘、雅典民主理想、西方文明的永久象徵，以及世界上最偉大的文化瑰寶之一。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PARTHENON_NAME" Language="ja_JP">
+			<Text>パルテノン</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PARTHENON_DESCRIPTION" Language="ja_JP">
+			<Text>自文明の傑作1種類につき [ICON_TradeRoute] 交易路の数+1。都市国家に伸ばした [ICON_TradeRoute] 交易路1つにつきその都市国家への [ICON_Envoy] 代表団+1。劇場広場区域に隣接した丘陵の上にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PARTHENON_QUOTE" Language="ja_JP">
+			<Text>「大地は最上の宝石として、誇らしげにパルテノンをその身にまとう。」[NEWLINE]– ラルフ・ワルド・エマーソン</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PARTHENON_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>アクロポリスの頂に建つパルテノンは女神アテナに献じられた神殿であり、ドーリア式建築の精華と考えられている。着工は紀元前447年、竣工は同432年で、仕上げに施された装飾は、現存する古典彫刻の見本として重要度が高い。神殿のなかにはペイディアスの手になる金と象牙で飾られた女神アテナ像があり、神殿のファサードは92個を数えるメトープで飾られている。ギリシャの神殿の大半がそうであるように、パルテノン神殿もまた宝物蔵として使われ、アテネはもとよりデロス同盟もここに財宝を保管した。従来よりもずっと訪れやすくなった1700年代を通じて、ヨーロッパの旅行者や学者がこの壮麗な遺跡を盛んに訪れ、その素晴らしさを広く世に伝えた。1832年に独立を回復したギリシャは、遺跡の管理を政府所管と定め、1975年にはアクロポリスの修復に着手。パルテノン神殿は「古代ギリシャ」、「アテネが掲げた民主主義の理想」、「西欧文明」の3つを象徴する不朽のシンボルにして、世界で最も貴重な文化財の1つとなった。</Text>
+		</Row>
+
+
+	</LocalizedText>
+</GameData>

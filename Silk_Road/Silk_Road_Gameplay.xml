@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+  <!-- Almost all gameplay types should first be added to the types table. -->
+  <!-- This serves as a central way to reference any type -->
+  <Types>
+    <Row Type="BUILDING_SILK_ROAD" Kind="KIND_BUILDING" />
+    <Row Type="MODIFIER_SILKROAD_TRADING_POST_BONUS_OWN" Kind="KIND_MODIFIER"/>
+	<Row Type="MODIFIER_SILKROAD_TRADING_POST_BONUS_FOREIGN" Kind="KIND_MODIFIER"/>
+  </Types>
+
+  <DynamicModifiers>
+	    <Row>
+		    <ModifierType>MODIFIER_SILKROAD_TRADING_POST_BONUS_OWN</ModifierType>
+		    <CollectionType>COLLECTION_OWNER</CollectionType>
+		    <EffectType>EFFECT_ADJUST_PLAYER_TRADE_ROUTE_YIELD_PER_POST_IN_OWN_CITY</EffectType>
+	    </Row>
+	  <Row>
+		  <ModifierType>MODIFIER_SILKROAD_TRADING_POST_BONUS_FOREIGN</ModifierType>
+		  <CollectionType>COLLECTION_OWNER</CollectionType>
+		  <EffectType>EFFECT_ADJUST_PLAYER_TRADE_ROUTE_YIELD_PER_POST_IN_FOREIGN_CITY</EffectType>
+	  </Row>
+  </DynamicModifiers>
+	
+  <Buildings>
+    <Row BuildingType="BUILDING_SILK_ROAD" Name="LOC_BUILDING_SILK_ROAD_NAME" Description="LOC_BUILDING_SILK_ROAD_DESCRIPTION" PrereqTech="TECH_CURRENCY" Cost="400" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_SILK_ROAD_QUOTE"/>
+  </Buildings>
+  <Building_YieldChanges>
+    <Row BuildingType="BUILDING_SILK_ROAD" YieldType="YIELD_GOLD" YieldChange="3"/>
+  </Building_YieldChanges>
+  <Building_GreatPersonPoints>
+    <Row BuildingType="BUILDING_SILK_ROAD" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+  </Building_GreatPersonPoints>
+  <Building_ValidTerrains>
+		<Row BuildingType="BUILDING_SILK_ROAD" TerrainType="TERRAIN_GRASS"/>
+	  	<Row BuildingType="BUILDING_SILK_ROAD" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_SILK_ROAD" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_SILK_ROAD" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_SILK_ROAD" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_SILK_ROAD" TerrainType="TERRAIN_DESERT_HILLS"/>
+  </Building_ValidTerrains>
+  <BuildingModifiers>
+	  <Row BuildingType="BUILDING_SILK_ROAD" ModifierId="SILKROAD_OFFER_GOLD"/>
+	  <Row BuildingType="BUILDING_SILK_ROAD" ModifierId="SILKROAD_OFFER_SCIENCE"/>
+	  <Row BuildingType="BUILDING_SILK_ROAD" ModifierId="SILKROAD_ROAD_BONUS"/>
+	  <Row BuildingType="BUILDING_SILK_ROAD" ModifierId="SILKROAD_TRADING_POST_SCIENCE_OWN"/>
+	  <Row BuildingType="BUILDING_SILK_ROAD" ModifierId="SILKROAD_TRADING_POST_GOLD_OWN"/>
+	  <Row BuildingType="BUILDING_SILK_ROAD" ModifierId="SILKROAD_TRADING_POST_SCIENCE_FOREIGN"/>
+	  <Row BuildingType="BUILDING_SILK_ROAD" ModifierId="SILKROAD_TRADING_POST_GOLD_FOREIGN"/>
+ </BuildingModifiers>
+ <Modifiers>
+	 <Row>
+		 <ModifierId>SILKROAD_OFFER_GOLD</ModifierId>
+		 <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_OFFER_SCIENCE</ModifierId>
+		 <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_TRADING_POST_SCIENCE_OWN</ModifierId>
+		 <ModifierType>MODIFIER_SILKROAD_TRADING_POST_BONUS_OWN</ModifierType>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_TRADING_POST_GOLD_OWN</ModifierId>
+		 <ModifierType>MODIFIER_SILKROAD_TRADING_POST_BONUS_OWN</ModifierType>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_TRADING_POST_SCIENCE_FOREIGN</ModifierId>
+		 <ModifierType>MODIFIER_SILKROAD_TRADING_POST_BONUS_FOREIGN</ModifierType>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_TRADING_POST_GOLD_FOREIGN</ModifierId>
+		 <ModifierType>MODIFIER_SILKROAD_TRADING_POST_BONUS_FOREIGN</ModifierType>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_ROAD_BONUS</ModifierId>
+		 <ModifierType>MODIFIER_PLAYER_ADJUST_IMPROVED_ROUTE_LEVEL</ModifierType>
+	 </Row>
+ </Modifiers>
+ <ModifierArguments>
+	 <Row>
+		 <ModifierId>SILKROAD_OFFER_GOLD</ModifierId>
+		 <Name>YieldType</Name>
+		 <Value>YIELD_GOLD</Value>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_OFFER_GOLD</ModifierId>
+		 <Name>Amount</Name>
+		 <Value>2</Value>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_OFFER_SCIENCE</ModifierId>
+		 <Name>YieldType</Name>
+		 <Value>YIELD_SCIENCE</Value>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_OFFER_SCIENCE</ModifierId>
+		 <Name>Amount</Name>
+		 <Value>2</Value>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_TRADING_POST_GOLD_OWN</ModifierId>
+		 <Name>YieldType</Name>
+		 <Value>YIELD_GOLD</Value>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_TRADING_POST_GOLD_OWN</ModifierId>
+		 <Name>Amount</Name>
+		 <Value>1</Value>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_TRADING_POST_SCIENCE_OWN</ModifierId>
+		 <Name>YieldType</Name>
+		 <Value>YIELD_SCIENCE</Value>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_TRADING_POST_SCIENCE_OWN</ModifierId>
+		 <Name>Amount</Name>
+		 <Value>1</Value>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_TRADING_POST_GOLD_FOREIGN</ModifierId>
+		 <Name>YieldType</Name>
+		 <Value>YIELD_GOLD</Value>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_TRADING_POST_GOLD_FOREIGN</ModifierId>
+		 <Name>Amount</Name>
+		 <Value>1</Value>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_TRADING_POST_SCIENCE_FOREIGN</ModifierId>
+		 <Name>YieldType</Name>
+		 <Value>YIELD_SCIENCE</Value>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_TRADING_POST_SCIENCE_FOREIGN</ModifierId>
+		 <Name>Amount</Name>
+		 <Value>1</Value>
+	 </Row>
+	 <Row>
+		 <ModifierId>SILKROAD_ROAD_BONUS</ModifierId>
+		 <Name>ImprovedRouteLevel</Name>
+		 <Value>1</Value>
+	 </Row>
+ </ModifierArguments>

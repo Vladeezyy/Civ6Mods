@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_GYANTSE_KUMBUM_NAME" Language="ru_RU">
+			<Text>Гьянгце Кумбум</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GYANTSE_KUMBUM_DESCRIPTION" Language="ru_RU">
+			<Text>Когда один из ваших юнитов погибает или теряет все заряды, существует шанс, что он будет перерождён в монаха-воина или религиозного юнита, следующего основной религии этого города. Должно быть построено на холмах, прилегающих к горам и району Священного места, и вы должны основать религию.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GYANTSE_KUMBUM_QUOTE" Language="ru_RU">
+			<Text>«Если я следую за сердцем моего светлого,[NEWLINE]Моя жизнь и вера, навеки раздельны.[NEWLINE]Если я отступлю в священные холмы,[NEWLINE]Я предам желания моей дорогой.»[NEWLINE]– Цанъянг Гьяцо</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GYANTSE_KUMBUM_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Те, кто посещают живописный уезд Гьянгце, будут поражены видом монастыря Пелкор Чоде и его культового кумбума (многоярусной ступы). Монастырь Пелкор Чоде был основан в начале XV века, и, в отличие от других тибетских буддийских монастырей, принадлежащих одной секте, этот монастырский комплекс объединяет монахов из различных сект, включая Гелуг, Сакья и Жалу. Кумбум монастыря Пелкор Чоде — это девятиэтажная структура, включающая 108 буддийских капелл и более ста тысяч священных буддийских изображений в виде статуй и фресок. Структура кумбума задумывалась как трёхмерная мандала, отражающая тибетское буддийское понимание вселенной и путь к просветлению.</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_BUILDING_GYANTSE_KUMBUM_NAME" Language="zh_Hans_CN">
+			<Text>白居寺十万佛塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GYANTSE_KUMBUM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当单位死亡或用尽所有次数后，有机会转世重生为宗教单位或武僧，追随此城市的主流宗教。必须建造在邻近山脉和圣地区域的丘陵上，此外你必须事先已创立宗教。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GYANTSE_KUMBUM_QUOTE" Language="zh_Hans_CN">
+			<Text>曾虑多情损梵行，入山又恐别倾城。世间安得双全法，不负如来不负卿。[NEWLINE]——仓央嘉措</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GYANTSE_KUMBUM_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>到访江孜县的游客注定对白居寺和它壮丽的十万佛塔歎为观止。白居寺创建于15世纪前叶，不同于其他归属于单一藏传佛教教派的寺庙，归属格鲁派、萨迦派和夏鲁派等不同教派的僧人共存于这处寺庙建筑群。白居寺的十万佛塔是一座由一百零八间佛堂组成的九层佛塔，殿堂内有十馀万以雕塑或壁画表现的佛像。十万佛塔的结构象征立体的曼荼罗，展示藏传佛教的世界观和对通往顿悟的认识。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_GYANTSE_KUMBUM_NAME" Language="zh_Hant_HK">
+			<Text>白居寺十萬佛塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GYANTSE_KUMBUM_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>當單位死亡或用盡所有次數後，有機會轉世重生為宗教單位或武僧，追隨此城市的主流宗教。必須建造在鄰近山脈和聖地區域的丘陵上，此外你必須事先已創立宗教。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GYANTSE_KUMBUM_QUOTE" Language="zh_Hant_HK">
+			<Text>「曾慮多情損梵行，入山又恐別傾城。世間安得雙全法，不負如來不負卿。」[NEWLINE]——倉央嘉措</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GYANTSE_KUMBUM_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>到訪江孜縣的遊客註定對白居寺和它壯麗的十萬佛塔歎為觀止。白居寺創建於15世紀前葉，不同於其他歸屬於單一藏傳佛教教派的寺廟，歸屬格魯派、薩迦派和夏魯派等不同教派的僧人共存於這處寺廟建築群。白居寺的十萬佛塔是一座由一百零八間佛堂組成的九層佛塔，殿堂內有十餘萬以雕塑或壁畫表現的佛像。十萬佛塔的結構象徵立體的曼荼羅，展示藏傳佛教的世界觀和對通往頓悟的認識。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_GYANTSE_KUMBUM_NAME" Language="ja_JP">
+			<Text>ギャンツェ・クンブム</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GYANTSE_KUMBUM_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットが死亡するかチャージを使い切ると、一定の確率で武僧や宗教ユニットに転生し、この都市の多数派宗教に従属する。山岳と聖地区域に隣接した丘陵の上にのみ建設可能。宗教を創始している必要がある。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GYANTSE_KUMBUM_QUOTE" Language="ja_JP">
+			<Text>「もし、彼女の心に寄り添うなら、今生の仏法とのつながりは断ち切られる。[NEWLINE]もし、私が人里離れた山を巡り旅するならば、彼女の願いに背くことになる。」[NEWLINE]– ツァンヤン・ギャツォ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GYANTSE_KUMBUM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>景観豊かなギャンツェ県を訪れた人々は、白居寺とその特徴的なクンブム(多層仏塔)に目を奪われるだろう。白居寺は15世紀前半に創建され、単一の宗派が所有する他のチベット仏教の寺院とは異なり、この寺院複合体にはゲルク派、サキャ派、ツァルー派など複数の宗派の僧侶が住んでいる。白居寺のクンブムは、108の仏堂からなる9階建ての構造で、彫像や壁画の形で10万以上の仏像が収められている。クンブムの構造は立体的な曼荼羅を表現し、チベット仏教の宇宙観や悟りへの道を示している。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

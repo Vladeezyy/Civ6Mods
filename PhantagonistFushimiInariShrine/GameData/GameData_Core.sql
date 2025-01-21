@@ -1,0 +1,198 @@
+--------------------
+-- Basics
+--------------------
+
+INSERT INTO Types
+		(Type,										Kind)
+VALUES	('BUILDING_PHANTA_FUSHIMI_INARI_TAISHA',	'KIND_BUILDING');
+
+INSERT INTO Buildings
+		(BuildingType,
+		Name,
+		Description,
+		PrereqCivic,
+		Cost,
+		AdvisorType,
+		MaxWorldInstances,
+		IsWonder,
+		RequiresPlacement,
+		RequiresReligion,
+		ObsoleteEra,
+		Quote)
+VALUES	('BUILDING_PHANTA_FUSHIMI_INARI_TAISHA',
+		'LOC_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_NAME',
+		'LOC_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_DESCRIPTION',
+		'CIVIC_MEDIEVAL_FAIRES',
+		710,
+		'ADVISOR_RELIGIOUS',
+		1,
+		1,
+		1,
+		1,
+		'ERA_INDUSTRIAL',
+		'LOC_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_QUOTE');
+
+INSERT INTO Building_YieldChanges 
+		(BuildingType,								YieldType,			YieldChange)
+VALUES	('BUILDING_PHANTA_FUSHIMI_INARI_TAISHA',	'YIELD_FOOD',		4),
+		('BUILDING_PHANTA_FUSHIMI_INARI_TAISHA',	'YIELD_FAITH',		4);
+
+INSERT INTO Building_ValidTerrains
+		(BuildingType,								TerrainType)
+VALUES	('BUILDING_PHANTA_FUSHIMI_INARI_TAISHA',	'TERRAIN_GRASS_HILLS'),
+		('BUILDING_PHANTA_FUSHIMI_INARI_TAISHA',	'TERRAIN_PLAINS_HILLS'),
+		('BUILDING_PHANTA_FUSHIMI_INARI_TAISHA',	'TERRAIN_DESERT_HILLS'),
+		('BUILDING_PHANTA_FUSHIMI_INARI_TAISHA',	'TERRAIN_TUNDRA_HILLS'),
+		('BUILDING_PHANTA_FUSHIMI_INARI_TAISHA',	'TERRAIN_SNOW_HILLS');
+
+--------------------
+-- Improvement
+--------------------
+
+
+INSERT INTO	Types
+		(Type,											Kind			)
+VALUES	('IMPROVEMENT_PHANTA_TORII_GATE',				'KIND_IMPROVEMENT'	);
+
+INSERT INTO Improvements	(
+		ImprovementType,
+		Name,		
+		Description,
+		TraitType,
+		Icon,
+		Buildable,
+		PlunderType,
+		PlunderAmount,
+		Appeal,
+		BuildInLine
+		)
+VALUES	(
+		'IMPROVEMENT_PHANTA_TORII_GATE', -- ImprovementType
+		'LOC_IMPROVEMENT_PHANTA_TORII_GATE_NAME', -- Name		
+		'LOC_IMPROVEMENT_PHANTA_TORII_GATE_DESCRIPTION', -- Description
+		'TRAIT_CIVILIZATION_NO_PLAYER', -- TraitType
+		'ICON_IMPROVEMENT_PHANTA_TORII_GATE', -- Icon
+		1, -- Buildable
+		'PLUNDER_FAITH', -- PlunderType
+		25, -- PlunderAmount
+		1,	-- Appeal
+		1	-- BuildInLine
+		);
+
+INSERT INTO Improvement_ValidBuildUnits
+		(ImprovementType,					UnitType		)
+VALUES	('IMPROVEMENT_PHANTA_TORII_GATE',	'UNIT_BUILDER'	);
+
+INSERT INTO Improvement_ValidTerrains
+		(ImprovementType,					TerrainType				)
+VALUES	('IMPROVEMENT_PHANTA_TORII_GATE',	'TERRAIN_DESERT'		),
+		('IMPROVEMENT_PHANTA_TORII_GATE',	'TERRAIN_TUNDRA'		),
+		('IMPROVEMENT_PHANTA_TORII_GATE',	'TERRAIN_PLAINS'		),
+		('IMPROVEMENT_PHANTA_TORII_GATE',	'TERRAIN_GRASS'			),
+		('IMPROVEMENT_PHANTA_TORII_GATE',	'TERRAIN_SNOW'			),
+		('IMPROVEMENT_PHANTA_TORII_GATE',	'TERRAIN_DESERT_HILLS'		),
+		('IMPROVEMENT_PHANTA_TORII_GATE',	'TERRAIN_TUNDRA_HILLS'		),
+		('IMPROVEMENT_PHANTA_TORII_GATE',	'TERRAIN_PLAINS_HILLS'		),
+		('IMPROVEMENT_PHANTA_TORII_GATE',	'TERRAIN_GRASS_HILLS'			),
+		('IMPROVEMENT_PHANTA_TORII_GATE',	'TERRAIN_SNOW_HILLS'			);
+
+INSERT INTO Improvement_ValidFeatures
+		(ImprovementType,					FeatureType)
+VALUES	('IMPROVEMENT_PHANTA_TORII_GATE',	'FEATURE_FOREST');
+
+INSERT INTO Improvement_YieldChanges
+		(ImprovementType,					YieldType,			YieldChange)
+VALUES	('IMPROVEMENT_PHANTA_TORII_GATE',	'YIELD_CULTURE',	1),
+		('IMPROVEMENT_PHANTA_TORII_GATE',	'YIELD_FAITH',		0);
+
+INSERT INTO Improvement_Adjacencies
+		(ImprovementType,						YieldChangeId)
+VALUES	('IMPROVEMENT_PHANTA_TORII_GATE',		'Phanta_ToriiGate_ToriiGate_Faith');
+
+INSERT INTO Adjacency_YieldChanges
+		(ID,									Description,	YieldType,			YieldChange,	TilesRequired,	AdjacentImprovement)
+VALUES	('Phanta_ToriiGate_ToriiGate_Faith',	'Placeholder',	'YIELD_FAITH',		2,				1,				'IMPROVEMENT_PHANTA_TORII_GATE');
+
+INSERT INTO Improvement_Tourism
+		(ImprovementType,					TourismSource,			PrereqTech,		ScalingFactor)
+VALUES	('IMPROVEMENT_PHANTA_TORII_GATE',	'TOURISMSOURCE_FAITH',	'TECH_FLIGHT',	100);
+
+--------------------
+-- Bonuses
+--------------------
+
+--==== 1: Grants 3 free Builders
+
+INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES 
+('BUILDING_PHANTA_FUSHIMI_INARI_TAISHA', 'MODFEAT_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_GRANT_BUILDER');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_GRANT_BUILDER', 'MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY', 1, 1, 0, NULL, NULL);
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_GRANT_BUILDER', 'AllowUniqueOverride', '1'), 
+('MODFEAT_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_GRANT_BUILDER', 'Amount', '3'), 
+('MODFEAT_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_GRANT_BUILDER', 'UnitType', 'UNIT_BUILDER');
+
+--==== 2: Unlock the improvement
+
+INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES 
+('BUILDING_PHANTA_FUSHIMI_INARI_TAISHA', 'MODFEAT_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_UNLOCK_TORII_GATE');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_UNLOCK_TORII_GATE', 'MODIFIER_PLAYER_ADJUST_VALID_IMPROVEMENT', 0, 0, 0, NULL, NULL);
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_UNLOCK_TORII_GATE', 'ImprovementType', 'IMPROVEMENT_PHANTA_TORII_GATE');
+
+--==== Improvement 1: Torii Gate Culture from wonders
+
+INSERT INTO ImprovementModifiers (ImprovementType, ModifierId) VALUES 
+('IMPROVEMENT_PHANTA_TORII_GATE', 'MODFEAT_IMPROVEMENT_PHANTA_TORII_GATE_CULTURE_FROM_ADJACENT_WONDER');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_IMPROVEMENT_PHANTA_TORII_GATE_CULTURE_FROM_ADJACENT_WONDER', 'MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS', 0, 0, 0, NULL, 'REQSET_PHANTA_TORII_GATE_ADJACENT_WONDER_OR_NATURAL');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_IMPROVEMENT_PHANTA_TORII_GATE_CULTURE_FROM_ADJACENT_WONDER', 'Amount', '2'), 
+('MODFEAT_IMPROVEMENT_PHANTA_TORII_GATE_CULTURE_FROM_ADJACENT_WONDER', 'YieldType', 'YIELD_CULTURE');
+
+-- RequirementSets
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES 
+('REQSET_PHANTA_TORII_GATE_ADJACENT_WONDER_OR_NATURAL', 'REQUIREMENTSET_TEST_ANY');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES 
+('REQSET_PHANTA_TORII_GATE_ADJACENT_WONDER_OR_NATURAL', 'REQUIRES_PLOT_ADJACENT_TO_NATURAL_WONDER'), 
+('REQSET_PHANTA_TORII_GATE_ADJACENT_WONDER_OR_NATURAL', 'REQUIRES_PLOT_ADJACENT_TO_WONDER');
+
+--==== Improvement 2: Torii Gate Culture from Woods
+
+INSERT INTO ImprovementModifiers (ImprovementType, ModifierId) VALUES 
+('IMPROVEMENT_PHANTA_TORII_GATE', 'MODFEAT_IMPROVEMENT_PHANTA_TORII_GATE_CULTURE_FROM_WOODS');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_IMPROVEMENT_PHANTA_TORII_GATE_CULTURE_FROM_WOODS', 'MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS', 0, 0, 0, NULL, 'REQSET_PHANTA_TORII_GATE_ON_OR_ADJACENT_WOODS');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_IMPROVEMENT_PHANTA_TORII_GATE_CULTURE_FROM_WOODS', 'Amount', '1'), 
+('MODFEAT_IMPROVEMENT_PHANTA_TORII_GATE_CULTURE_FROM_WOODS', 'YieldType', 'YIELD_CULTURE');
+
+-- RequirementSets
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES 
+('REQSET_PHANTA_TORII_GATE_ON_OR_ADJACENT_WOODS', 'REQUIREMENTSET_TEST_ALL');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES 
+('REQSET_PHANTA_TORII_GATE_ON_OR_ADJACENT_WOODS', 'REQ_PHANTA_TORII_GATE_ON_OR_ADJACENT_WOODS');
+
+-- Requirements
+
+INSERT INTO Requirements (RequirementId, RequirementType) VALUES 
+('REQ_PHANTA_TORII_GATE_ON_OR_ADJACENT_WOODS', 'REQUIREMENT_PLOT_ADJACENT_FEATURE_TYPE_MATCHES');
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES 
+('REQ_PHANTA_TORII_GATE_ON_OR_ADJACENT_WOODS', 'FeatureType', 'FEATURE_FOREST'), 
+('REQ_PHANTA_TORII_GATE_ON_OR_ADJACENT_WOODS', 'MaxRange', '1'), 
+('REQ_PHANTA_TORII_GATE_ON_OR_ADJACENT_WOODS', 'MinRange', '0');
+

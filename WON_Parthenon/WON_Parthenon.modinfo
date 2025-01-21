@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="50dcb53f-91c0-496b-950f-821e29fd14bc" version="3">
+  <Properties>
+    <Name>Parthenon (World Wonder)</Name>
+    <Description>Adds Parthenon as a World Wonder.</Description>
+    <Created>1684645187</Created>
+    <Teaser>Adds Parthenon as a World Wonder.</Teaser>
+    <Authors>JohnLeGreat, Phantagonist</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <Properties>
+        <LoadOrder>300</LoadOrder>
+      </Properties>
+      <File>GameData/GameData_Core.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <Properties>
+        <LoadOrder>301</LoadOrder>
+      </Properties>
+      <File>Localization/Localization.xml</File>
+    </UpdateText>
+    <UpdateArt id="NewAction">
+      <Properties>
+        <LoadOrder>301</LoadOrder>
+      </Properties>
+      <File>Parthenon (World Wonder).dep</File>
+    </UpdateArt>
+    <UpdateIcons id="NewAction">
+      <File>GameData/GameData_Icons.sql</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>GameData/GameData_Core.sql</File>
+    <File>GameData/GameData_Icons.sql</File>
+    <File>Localization/Localization.xml</File>
+    <File>Parthenon (World Wonder).dep</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/BLOB_Parthenon_HMapEdit_V3</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Parthenon_Built_Basecolor_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Parthenon_Built_AO</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Parthenon_Built_Gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Parthenon_Built_Normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Parthenon_Built_Normal1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/UITextures.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/BLOB_Parthenon_HMapEdit_V3</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Parthenon_Built_Basecolor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Parthenon_Built_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Parthenon_Built_Gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Parthenon_Built_Normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Parthenon_Built_Normal1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>XLPs/UITextures.xlp</File>
+    <File>XLPs/WonderMovie.xlp</File>
+  </Files>
+</Mod>

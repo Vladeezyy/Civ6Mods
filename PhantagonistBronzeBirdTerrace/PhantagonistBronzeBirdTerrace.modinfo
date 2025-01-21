@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="43e4ac68-4ce4-4e6a-8eca-fbe81fdbd1df" version="3">
+  <Properties>
+    <Name>LOC_PHANTA_BRONZE_BIRD_TERRACE_MOD_NAME</Name>
+    <Description>LOC_PHANTA_BRONZE_BIRD_TERRACE_MOD_DESCRIPTION</Description>
+    <Created>1726577075</Created>
+    <Teaser>LOC_PHANTA_BRONZE_BIRD_TERRACE_MOD_DESCRIPTION</Teaser>
+    <Authors>Phantagonist</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+<LocalizedText>
+    <Text id="LOC_PHANTA_BRONZE_BIRD_TERRACE_MOD_NAME">
+      <en_US>Bronze Bird Terrace (World Wonder)</en_US>
+      <zh_Hans_CN>铜雀台（世界奇观）</zh_Hans_CN>
+      <zh_Hant_HK>銅雀臺（世界奇觀）</zh_Hant_HK>
+      <ja_JP>銅雀台（世界遺産）</ja_JP>
+    </Text>
+    <Text id="LOC_PHANTA_BRONZE_BIRD_TERRACE_MOD_DESCRIPTION">
+      <en_US>Adds Bronze Bird Terrace as a World Wonder.</en_US>
+      <zh_Hans_CN>加入铜雀台世界奇观。</zh_Hans_CN>
+      <zh_Hant_HK>加入銅雀臺世界奇觀。</zh_Hant_HK>
+      <ja_JP>世界遺産である銅雀台を導入する。</ja_JP>
+    </Text>
+</LocalizedText>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateText id="NewAction">
+      <File>Localization/Localization.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>GameData/GameData_Core.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>Localization/Localization.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="ModSupport">
+      <Properties>
+        <LoadOrder>15000</LoadOrder>
+      </Properties>
+      <File>GameData/GameData_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="NewAction">
+      <File>LOC_PHANTA_BRONZE_BIRD_TERRACE_MOD_NAME.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="NewAction">
+      <File>GameData/GameData_Icons.sql</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/Units_Great_People.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>GameData/GameData_Core.sql</File>
+    <File>GameData/GameData_Icons.sql</File>
+    <File>GameData/GameData_ModSupport.sql</File>
+    <File>Localization/Localization.xml</File>
+    <File>LOC_PHANTA_BRONZE_BIRD_TERRACE_MOD_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Bridges_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Bridges_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Bridges_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Bridges_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Bridges_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_AW_Grounds_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_RJ_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foundation_Brick_Gray_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_BronzeBirdBldg_BaseColor_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_BronzeBirdTerrace_Bridge_BaseColor_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RE_BaseA_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RJ_Base_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RJ_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RJ_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RJ_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RJ_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Forbidden_City_AO</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Forbidden_City_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Forbidden_City_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Forbidden_City_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Forbidden_City_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Forbidden_City_N1</File>
+    <File>Platforms/MacOS/BLPs/StrategicView_Sprite.blp</File>
+    <File>Platforms/MacOS/BLPs/TileBase.blp</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Bridges_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Bridges_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Bridges_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Bridges_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Bridges_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_AW_Grounds_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_RJ_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foundation_Brick_Gray_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_BronzeBirdBldg_BaseColor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_BronzeBirdTerrace_Bridge_BaseColor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RE_BaseA_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RJ_Base_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RJ_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RJ_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RJ_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RJ_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Forbidden_City_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Forbidden_City_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Forbidden_City_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Forbidden_City_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Forbidden_City_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Forbidden_City_N1</File>
+    <File>Platforms/Windows/BLPs/StrategicView_Sprite.blp</File>
+    <File>Platforms/Windows/BLPs/TileBase.blp</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+  </Files>
+</Mod>

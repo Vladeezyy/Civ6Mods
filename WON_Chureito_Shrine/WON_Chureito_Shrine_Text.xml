@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_NAME" Language="ru_RU">
+			<Text>Святилище Аракура Фудзи Сэнгэн</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_DESCRIPTION" Language="ru_RU">
+			<Text>Дает бесплатного натуралиста. +2 [ICON_Culture] Культуры и +2 [ICON_Faith] Веры для местности с уровнем очарования "Восхитительно" в этом городе. Должно быть построено на травянистых холмах или равнинных холмах рядом с районом Святилище.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_QUOTE" Language="ru_RU">
+			<Text>«Мир, как роса,[NEWLINE]и в каждой капле росы[NEWLINE]борьба миров.»[NEWLINE]– Кобаяси Исса</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ARAKURA_SENGEN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Святилище Аракура Фудзи Сэнгэн – синтоистское святилище, построенное в 705 году в честь Коноханасакуя-химэ, богини горы Фудзи и цветов. Когда гора Фудзи извергалась в 807 году, император направил послов для проведения обрядов в этом святилище и даровал титул «Величайшая гора трех провинций» горе Аракура, на которой расположено святилище. Во времена периода Сражающихся царств Такэда Нобутора (отец Такэды Сингэна) одержал победу над врагами после молитвы в святилище Аракура Фудзи Сэнгэн, поэтому он посвятил свой меч этому святилищу. В наши дни святилище известно панорамным видом на его красную пятиэтажную пагоду, гору Фудзи и цветущую сакуру.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_DESCRIPTION_PRESERVE" Language="ru_RU">
+			<Text>Дает бесплатного натуралиста. +2 [ICON_Culture] Культуры и +2 [ICON_Faith] Веры для местности с уровнем очарования "Восхитительно" в этом городе. Должно быть построено на травянистых холмах или равнинных холмах рядом с районом Заповедник.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_NAME" Language="zh_Hans_CN">
+			<Text>新仓富士浅间神社</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得1个免费的自然学家。此城市魅力值为“惊艳”的单元格+2 [ICON_Culture] 文化值和+2 [ICON_Faith] 信仰值。必须建造在鄰近保留區區域的草原丘陵或平原丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_QUOTE" Language="zh_Hans_CN">
+			<Text>尘世如朝露，鸡虫得失争何事，还在朝露中。[NEWLINE]——小林一茶</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ARAKURA_SENGEN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>新仓富士浅间神社是公元705年建成的神道教神社，祭祀司掌富士山和花的女神木花咲耶姬。在公元807年富士山爆发后，天皇派遣使者到神社进行镇火的仪式，并为神社所在的新仓山冠以「三国第一山」的称号。在战国时代，武田信虎（武田信玄之父）在新仓富士浅间神社祈祷后成功击败敌军，便将自己的武士刀奉献于神社。今时今日，神社以朱色的五重塔、富士山和鲜豔樱花的绝美景色为人所知。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_DESCRIPTION_PRESERVE" Language="zh_Hans_CN">
+			<Text>获得1个免费的自然学家。此城市魅力值为“惊艳”的单元格+2 [ICON_Culture] 文化值和+2 [ICON_Faith] 信仰值。必须建造在鄰近聖地區域的草原丘陵或平原丘陵上。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_NAME" Language="zh_Hant_HK">
+			<Text>新倉富士淺間神社</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>獲得1個免費的自然學家。此城市的「極大魅力」單元格+2 [ICON_Culture] 文化值和+2 [ICON_Faith] 信仰值。必須建造在邻近圣地区域的草原丘陵或平原丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_QUOTE" Language="zh_Hant_HK">
+			<Text>「塵世如朝露，雞蟲得失爭何事，還在朝露中。」[NEWLINE]——小林一茶</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ARAKURA_SENGEN_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>新倉富士淺間神社是公元705年建成的神道教神社，祭祀司掌富士山和花的女神木花咲耶姬。在公元807年富士山爆發後，天皇派遣使者到神社進行鎮火的儀式，並為神社所在的新倉山冠以「三國第一山」的稱號。在戰國時代，武田信虎（武田信玄之父）在新倉富士淺間神社祈禱後成功擊敗敵軍，便將自己的武士刀奉獻於神社。今時今日，神社以朱色的五重塔、富士山和鮮豔櫻花的絕美景色為人所知。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_DESCRIPTION_PRESERVE" Language="zh_Hant_HK">
+			<Text>獲得1個免費的自然學家。此城市的「極大魅力」單元格+2 [ICON_Culture] 文化值和+2 [ICON_Faith] 信仰值。必須建造在邻近保护区区域的草原丘陵或平原丘陵上。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_NAME" Language="ja_JP">
+			<Text>新倉富士浅間神社</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_DESCRIPTION" Language="ja_JP">
+			<Text>自然主義者1ユニットを無料で得る。この都市のすべてのアピールが「最高」のタイルの [ICON_Culture] 文化力+2、 [ICON_Faith] 信仰力+2。聖地に隣接した草原(丘陵)または平原(丘陵)にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_QUOTE" Language="ja_JP">
+			<Text>「露の世の　露の中にて　けんくわ哉」[NEWLINE]——小林一茶</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ARAKURA_SENGEN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>新倉富士浅間神社は、富士山と花の女神である木花咲耶姫を奉じ、705年にて創建された神道の神社。807年の富士山噴火の際、天皇は勅使を派遣してこの神社で祭祀を行い、神社のある新倉山に「三國第一山」の称号を与えた。戦国時代、武田信虎（武田信玄の父）が新倉富士浅間神社で祈願した後、敵に勝利したため、その刀を神社に奉納した。現在では、朱色の五重塔と富士山、そして鮮やかな桜の名所で知られる。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ARAKURA_SENGEN_DESCRIPTION_PRESERVE" Language="ja_JP">
+			<Text>自然主義者1ユニットを無料で得る。この都市のすべてのアピールが「最高」のタイルの [ICON_Culture] 文化力+2、 [ICON_Faith] 信仰力+2。保護区に隣接した草原丘陵または平原丘陵にのみ建設可能。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

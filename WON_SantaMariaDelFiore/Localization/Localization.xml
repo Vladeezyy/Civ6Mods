@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_BUILDING_SANTA_MARIA_DEL_FIORE_NAME" Language="ru_RU">
+			<Text>Санта-Мария-дель-Фьоре</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SANTA_MARIA_DEL_FIORE_DESCRIPTION" Language="ru_RU">
+			<Text>Дает бесплатного [ICON_GreatArtist] Великого художника при завершении строительства этого чуда и при получении [ICON_GreatEngineer] Великого инженера. Должно быть построено на равнине, прилегающей к центру города.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SANTA_MARIA_DEL_FIORE_QUOTE" Language="ru_RU">
+			<Text>«Тогда возродилась любовь в твоей утробе,[NEWLINE]Чьим плодородным теплом расцвёл,[NEWLINE]Как тот цветок, вечный мир обретя.»[NEWLINE]– Данте Алигьери</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SANTA_MARIA_DEL_FIORE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Кафедральный собор Санта-Мария-дель-Фьоре является главным собором Флоренции и самым узнаваемым символом города. Собор был построен на месте старого собора Санта-Репарата, а его строительство продолжалось с 1296 по 1436 год. Среди значимых особенностей здания можно выделить витражи, ярко окрашенный мраморный фасад, коллекцию шедевров, созданных мастерами эпохи Возрождения, и его великолепный купол, спроектированный Филиппо Брунеллески. Спустя век после начала строительства у собора всё ещё не было купола из-за его огромных размеров, технических сложностей и решения меценатов не использовать контрфорсы. Для разработки подходящего дизайна был объявлен конкурс, победителем которого стал Брунеллески. Без центральной опоры для поддержания купола в процессе строительства Брунеллески применил двухслойный дизайн, удерживаемый арками и взаимозамыкающимися кольцами, а также создал сложные механизмы для транспортировки строительных материалов на высоту собора. Купол Санта-Мария-дель-Фьоре является чудом инженерии и до сих пор остаётся крупнейшим кирпичным куполом в мире.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_SANTA_MARIA_DEL_FIORE_NAME" Language="zh_Hans_CN">
+			<Text>圣母百花大教堂</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SANTA_MARIA_DEL_FIORE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>完成此奇观时及获得 [ICON_GreatEngineer] 大工程师时免费获得1个 [ICON_GreatArtist] 大艺术家。必须建造在邻近市中心的平坦地形上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SANTA_MARIA_DEL_FIORE_QUOTE" Language="zh_Hans_CN">
+			<Text>在你的体内大爱再度燃起，[NEWLINE]借着大爱在永宁中的和煦，[NEWLINE]这朵花得以萌发如此生机。[NEWLINE]——但丁·阿利吉耶里</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SANTA_MARIA_DEL_FIORE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>圣母百花大教堂是佛罗伦萨的主教座堂——也是这座城市最具代表性的地标。这座大教堂建制造在圣雷帕拉塔大教堂的旧址上，始建于1296年，一直到1436年方才竣工。这座建筑的特征包括彩色玻璃窗、色彩鲜艳的大理石外墙、由文艺复兴时期划家和雕塑家创作的杰作收藏，以及君临一切之上、由菲利波·布鲁内列斯基设计的宏伟穹顶。经过一个世纪的建设，大教堂的穹顶仍未完成，原因是建筑的巨大规模、技术上的困难以及赞助人不使用扶壁的决定。为了找到一个合适的设计，赞助人举行了一次竞赛，而布鲁内列斯基成为了胜利者。由于在施工过程中没有中央支撑系统来支撑圆顶，布鲁内列斯基采用了由石拱和互锁链圈支撑的双层设计，并设计了精致的机器将建筑材料运送到大教堂的高处。圣母百花大教堂的穹顶可谓工程史上的一个奇迹，并保持世界上最大的砖石穹顶的记录至今。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SANTA_MARIA_DEL_FIORE_NAME" Language="zh_Hant_HK">
+			<Text>聖母百花大教堂</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SANTA_MARIA_DEL_FIORE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>完成此奇觀時及獲得 [ICON_GreatEngineer] 大工程師時免費獲得1個 [ICON_GreatArtist] 大藝術家。必須建造在鄰近市中心的平坦地形上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SANTA_MARIA_DEL_FIORE_QUOTE" Language="zh_Hant_HK">
+			<Text>「在你的體內大愛再度燃起，[NEWLINE]藉著大愛在永寧中的和煦，[NEWLINE]這朵花得以萌發如此生機。」[NEWLINE]——但丁·阿利吉耶里</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SANTA_MARIA_DEL_FIORE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>聖母百花大教堂是佛羅倫斯的主教座堂——也是這座城市最具代表性的地標。這座大教堂建製造在聖雷帕拉塔大教堂的舊址上，始建於1296年，一直到1436年方才竣工。這座建築的特徵包括彩色玻璃窗、色彩鮮艷的大理石外牆、由文藝復興時期畫家和雕塑家創作的傑作收藏，以及君臨一切之上、由菲利波·布魯內列斯基設計的宏偉穹頂。經過一個世紀的建設，大教堂的穹頂仍未完成，原因是建築的巨大規模、技術上的困難以及贊助人不使用扶壁的決定。為了找到一個合適的設計，贊助人舉行了一次競賽，而布魯內列斯基成為了勝利者。由於在施工過程中沒有中央支撐系統來支撐圓頂，布魯內列斯基採用了由石拱和互鎖鏈圈支撐的雙層設計，並設計了精緻的機器將建築材料運送到大教堂的高處。聖母百花大教堂的穹頂可謂工程史上的一個奇跡，並保持世界上最大的磚石穹頂的記錄至今。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SANTA_MARIA_DEL_FIORE_NAME" Language="ja_JP">
+			<Text>サンタ・マリア・デル・フィオーレ大聖堂</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SANTA_MARIA_DEL_FIORE_DESCRIPTION" Language="ja_JP">
+			<Text>この遺産を完成させた時、そして [ICON_GreatEngineer] 大技術者を獲得した時、 [ICON_GreatArtist] 大芸術家を無料で1人得る。都心に隣接する平らな土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SANTA_MARIA_DEL_FIORE_QUOTE" Language="ja_JP">
+			<Text>「汝の胎用にて愛はあらたに燃えたりき、その熱さによりてこそ永遠の平和のうちにこの花かくは咲きしなれ。」[NEWLINE]– ダンテ・アリギエーリ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_SANTA_MARIA_DEL_FIORE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>サンタ・マリア・デル・フィオーレ大聖堂は、フィレンツェの大聖堂であり、この都市を最も象徴するランドマークだ。この大聖堂は、旧サンタ・レパラータ大聖堂の跡地に建てられ、1296年から1436年にかけて建設が行われた。ステンドグラスの窓、色鮮やかな大理石のファサード、ルネサンス期の画家や彫刻家による傑作の数々、そして何よりもフィリッポ・ブルネレスキが設計した壮大なドームが特徴的である。1世紀を経てもなお、大聖堂の巨大さ、技術的な困難、そして控え壁を用いないというパトロンの決定により、ドームが欠けてしまった。そこで、パトロンが設計の応募を行い、その中でブルネレスキが優勝した。ブルネレスキは、建設中にドームを支える中央の支柱がないため、アーチと連環で支える二重構造を採用し、大聖堂の高さに応じた建築資材を運ぶための精巧な機械を設計した。サンタ・マリア・デル・フィオーレ大聖堂のドームは、工学史上の奇跡であり、世界最大の石工ドームという記録を持っている。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

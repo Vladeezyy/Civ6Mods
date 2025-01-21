@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_BUILDING_DOME_OF_THE_ROCK_NAME" Language="ru_RU">
+			<Text>Купол Скалы</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_DOME_OF_THE_ROCK_DESCRIPTION" Language="ru_RU">
+			<Text>Тяжёлая кавалерия и религиозные юниты получают соответственно +3 [ICON_Strength] боевой мощи и +3 [ICON_Religion] религиозной мощи за каждый тип здания поклонения в вашей империи. Должен быть построен на холмах рядом с районом Святилище с зданием поклонения.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_DOME_OF_THE_ROCK_QUOTE" Language="ru_RU">
+			<Text>«На рассвете, когда лучи солнца впервые озаряют купол, а барабан отражает свет, это сооружение становится великолепным зрелищем, которому в исламском мире нет равных. Я также не слышал о том, чтобы в языческие времена было построено нечто, способное сравниться с благодатью этого Купола Скалы.»[NEWLINE]– Аль-Мукаддаси</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_DOME_OF_THE_ROCK_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Купол Скалы — исламское святилище, расположенное на Храмовой горе в Иерусалиме. В центре здания находится скала, освящённая в мусульманской и иудейской традициях. Сам Купол Скалы был построен по приказу Омейядского халифа Абд аль-Малика в VII веке и украшен мрамором, мозаикой, металлическими табличками и арабской вязью вокруг восьмиугольного фасада. После захвата Иерусалима христианскими крестоносцами здание получило название "Храм Господень" (Templum Domini) у рыцарей-тамплиеров, что вдохновило создание круглых храмов тамплиеров в Европе. Купол Скалы использовался как христианская церковь до тех пор, пока Саладин не отвоевал Иерусалим и не освятил здание как мусульманское святилище. Купол Скалы продолжает стоять, будучи свидетелем борьбы различных религиозных фракций за контроль над Священным городом.</Text>
+		</Row>
+		<Row Tag="LOC_MODFEAT_DOME_OF_THE_ROCK_STRENGTH" Language="ru_RU">
+			<Text>+{1_Value} Купол Скалы</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_DOME_OF_THE_ROCK_NAME" Language="zh_Hans_CN">
+			<Text>岩石圆顶</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_DOME_OF_THE_ROCK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>帝国中每有一个种类的祭祀建筑，重骑兵单位和宗教单位分别获得+3 [ICON_Strength] 战斗力和+3 [ICON_Religion] 宗教战斗力。必须建在邻近圣地区域（须建有祭祀建筑）的丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_DOME_OF_THE_ROCK_QUOTE" Language="zh_Hans_CN">
+			<Text>「黎明时分，当晨曦之光首度照射在穹顶，鼓环映照光线之时，这座宏伟建筑引人瞩目，在整个伊斯兰世界中卓尔不群。我亦未曾听闻在异教时代有一座建筑物能与这座岩石圆顶的典雅相提并论。」[NEWLINE]——迈格迪西</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_DOME_OF_THE_ROCK_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>岩石圆顶是位于耶路撒冷圣殿山顶的伊斯兰教圣所。这座建筑物的中心岩石在穆斯林和犹太传统均视为圣物。在公元7世纪，倭马亚王朝哈里发阿卜杜勒·马利克下令建造岩石圆顶，其八角形的外墙周围饰以大理石、马赛克、金属浮雕和阿拉伯文字。当基督教十字军攻佔耶路撒冷时，圣殿骑士团将该建筑称为「上帝圣殿」，进而启发了欧洲的一些圆形圣殿骑士教堂。岩石圆顶在其后被用作基督教教堂，直到萨拉丁佔领耶路撒冷并将该建筑重新奉为穆斯林的圣所。岩石圆顶将继续矗立，见证来自不同宗教背景的派别为控制圣城而斗争不已。</Text>
+		</Row>
+		<Row Tag="LOC_MODFEAT_DOME_OF_THE_ROCK_STRENGTH" Language="zh_Hans_CN">
+			<Text>+{1_Value} 岩石圆顶</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_DOME_OF_THE_ROCK_NAME" Language="zh_Hant_HK">
+			<Text>岩石圓頂</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_DOME_OF_THE_ROCK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>帝國中每有一個種類的祭祀建築，重騎兵單位和宗教單位分別獲得+3 [ICON_Strength] 戰鬥力和+3 [ICON_Religion] 宗教戰鬥力。必須建在鄰近聖地區域（須建有祭祀建築）的丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_DOME_OF_THE_ROCK_QUOTE" Language="zh_Hant_HK">
+			<Text>「黎明時分，當晨曦之光首度照射在穹頂，鼓環映照光線之時，這座宏偉建築引人矚目，在整個伊斯蘭世界中卓爾不群。我亦未曾聽聞在異教時代有一座建築物能與這座岩石圓頂的典雅相提並論。」[NEWLINE]——邁格迪西</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_DOME_OF_THE_ROCK_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>岩石圓頂是位於耶路撒冷聖殿山頂的伊斯蘭教聖所。這座建築物的中心岩石在穆斯林和猶太傳統均視為聖物。在公元7世紀，倭馬亞王朝哈里發阿卜杜勒·馬利克下令建造岩石圓頂，其八角形的外牆周圍飾以大理石、馬賽克、金屬浮雕和阿拉伯文字。當基督教十字軍攻佔耶路撒冷時，聖殿騎士團將該建築稱為「上帝聖殿」，進而啟發了歐洲的一些圓形聖殿騎士教堂。岩石圓頂在其後被用作基督教教堂，直到薩拉丁佔領耶路撒冷並將該建築重新奉為穆斯林的聖所。岩石圓頂將繼續矗立，見證來自不同宗教背景的派別為控制聖城而鬥爭不已。</Text>
+		</Row>
+		<Row Tag="LOC_MODFEAT_DOME_OF_THE_ROCK_STRENGTH" Language="zh_Hant_HK">
+			<Text>+{1_Value} 岩石圓頂</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_DOME_OF_THE_ROCK_NAME" Language="ja_JP">
+			<Text>岩のドーム</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_DOME_OF_THE_ROCK_DESCRIPTION" Language="ja_JP">
+			<Text>自文明の崇拝の建物1種類につき、重騎兵ユニットの [ICON_Strength] 戦闘力+3、宗教ユニットの [ICON_Religion] 宗教戦闘力+3。崇拝の建物が存在する聖地区域に隣接した丘陵の上にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_DOME_OF_THE_ROCK_QUOTE" Language="ja_JP">
+			<Text>「夜明け、太陽の光が最初にクーポラに当たり、穹隅がその光を受けるとき、この建物は見るべき素晴らしい場所であり、イスラム世界のすべてにおいてこれに匹敵するものを見たことがない。また、異教徒の時代に建てられたものが、この岩のドームに匹敵する優雅さを持つという話も聞いたことがない。 」[NEWLINE]– マクディーシ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_DOME_OF_THE_ROCK_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>岩のドームは、エルサレムの神殿の丘の頂上にあるイスラム教の聖堂である。その中心には、イスラム教とユダヤ教の両伝統で神聖視された岩がある。岩のドーム自体は、7世紀にウマイヤ朝カリフのアブドゥルマリクの命で建てられ、八角形のファサードの周囲に大理石、モザイク、金属板、アラビア文字などで装飾されている。キリスト教の十字軍がエルサレムを攻略した際、テンプル騎士団はこの建物を「テンプラム・ドミニ」と呼び、これに触発されてヨーロッパにテンプル騎士団の円形教会が数多く建てられた。その後、サラディンがエルサレムを占領し、イスラム教の聖堂として再び聖域化されるまで、岩のドームはキリスト教の教会として使用されていました。岩のドームはその後も立ち続け、異なる宗教的背景を持つ派閥が聖地の支配権をめぐって争う様子を見ることになる。</Text>
+		</Row>
+		<Row Tag="LOC_MODFEAT_DOME_OF_THE_ROCK_STRENGTH" Language="ja_JP">
+			<Text>+{1_Value} 岩のドーム</Text>
+		</Row>
+
+
+	</LocalizedText>
+</GameData>

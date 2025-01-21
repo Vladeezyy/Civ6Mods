@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d6283b23-704c-460c-86bb-97e92e61bbeb" version="1">
+  <Properties>
+    <Name>Gyantse Kumbum (World Wonder)</Name>
+    <Description>Adds Gyantse Kumbum as a World Wonder.</Description>
+    <Created>1685109052</Created>
+    <Teaser>Adds Gyantse Kumbum as a World Wonder.</Teaser>
+    <Authors>JohnLeGreat, Phantagonist</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>GameData/GameData_Core.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>WON_Palcho_Kumbum_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>WON_Palcho_Kumbum_Localization.xml</File>
+    </UpdateText>
+    <UpdateArt id="NewAction">
+      <File>Gyantse Kumbum (World Wonder).dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="NewAction">
+      <File>GameData/GyantseKumbum_Script.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Assets/WON_Palcho_Kumbum_Movie.ast</File>
+    <File>GameData/GameData_Core.sql</File>
+    <File>GameData/GyantseKumbum_Script.lua</File>
+    <File>Gyantse Kumbum (World Wonder).dep</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/BLOB_Palcho_Kumbum_HMapEdit_V2</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Palcho_Kumbum_Basecolor_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Palcho_Kumbum_AO</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Palcho_Kumbum_Emit</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Palcho_Kumbum_Gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Palcho_Kumbum_Metalness</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Palcho_Kumbum_Normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Palcho_Kumbum_Normal1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/BLOB_Palcho_Kumbum_HMapEdit_V2</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Palcho_Kumbum_Basecolor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Palcho_Kumbum_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Palcho_Kumbum_Emit</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Palcho_Kumbum_Gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Palcho_Kumbum_Metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Palcho_Kumbum_Normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Palcho_Kumbum_Normal1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>WON_Palcho_Kumbum_Icons.sql</File>
+    <File>WON_Palcho_Kumbum_Localization.xml</File>
+    <File>XLPs/WonderMovie.xlp</File>
+  </Files>
+</Mod>

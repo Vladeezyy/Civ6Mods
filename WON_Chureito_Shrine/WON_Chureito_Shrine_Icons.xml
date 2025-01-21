@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_Arakura_Seigen" IconSize="32" Filename="Icon_Arakura_Sengen_32"/>
+		<Row Name="ATLAS_Arakura_Seigen" IconSize="38" Filename="Icon_Arakura_Sengen_38"/>
+		<Row Name="ATLAS_Arakura_Seigen" IconSize="50" Filename="Icon_Arakura_Sengen_50"/>
+		<Row Name="ATLAS_Arakura_Seigen" IconSize="64" Filename="Icon_Arakura_Sengen_64"/>
+		<Row Name="ATLAS_Arakura_Seigen" IconSize="128" Filename="Icon_Arakura_Sengen_128"/>
+		<Row Name="ATLAS_Arakura_Seigen" IconSize="256" Filename="Icon_Arakura_Sengen_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_ARAKURA_SENGEN" Atlas="ATLAS_Arakura_Seigen" index="0"/>
+	</IconDefinitions>
+</GameData>

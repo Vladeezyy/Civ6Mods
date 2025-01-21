@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_NAME" Language="ru_RU">
+			<Text>Фусими Инари-тайся</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет 3 бесплатных строителя. Открывает способность строителей возводить уникальное улучшение "Ворота тории". Должен быть построен на холмах. Требуется основать религию.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_QUOTE" Language="ru_RU">
+			<Text>«В самой темной ночи я сбился с пути и молился о свете трех фонарей.»[NEWLINE]– Император Го-Дайго</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Фусими Инари-тайся, расположенная на горе Инари в Киото, является самым важным из десятков тысяч святилищ, посвященных Инари, синтоистскому божеству риса и урожая. Считается, что это синтоистское святилище было построено в 711 году и стало объектом императорского покровительства в период Хэйан. Согласно легендам, император Дзюнна заболел после того, как приказал срубить священное дерево на горе Инари, поэтому он даровал божественное звание Инари и взял святилище под покровительство. Главной особенностью святилища являются Сенбон Тории — тысячи ворот тории, образующих дорожки, плотно окруженные алыми воротами. Эти тории жертвовались торговцами и верующими в знак благодарности за благословения божества, и эта традиция берет свое начало в период Эдо.</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_PHANTA_TORII_GATE_NAME" Language="ru_RU">
+			<Text>Ворота тории</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_PHANTA_TORII_GATE_DESCRIPTION" Language="ru_RU">
+			<Text>Открывает способность строителей возводить улучшение "Ворота тории", уникальное для цивилизации, построившей чудо Фусими Инари-тайся.[NEWLINE][NEWLINE]+1 [ICON_Culture] Культуры. +1 Привлекательности. +2 [ICON_Faith] Веры за каждые соседние ворота тории. +2 [ICON_Culture] Культуры, если находятся рядом с чудом света или природным чудом. +1 [ICON_Culture] Культуры, если расположены на лесах или рядом с ними. Обеспечивает [ICON_Tourism] Туризм из [ICON_Faith] Веры после изучения "Авиаперелётов". Должны быть построены в линии. Можно строить на лесах.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_PHANTA_TORII_GATE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Ворота тории — это традиционные японские ворота, расположенные перед или внутри синтоистского святилища, обозначающие границу между мирским миром и священным святилищем. Хотя деревянные ворота тории, окрашенные в алый цвет, наиболее известны, существуют также тории других цветов и/или из других материалов. Ворота тории стали символом синтоистской религии и её святилищ, а некоторые знаменитые ворота тории, подобно другим религиозным памятникам, стали туристическими достопримечательностями в современное время, такими как "плавающие" ворота тории храма Ицукусима и Сенбон Тории (буквально "тысячи ворот тории") святилища Фусими Инари-тайся.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_NAME" Language="zh_Hans_CN">
+			<Text>伏见稻荷大社</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得3个免费建造者。解锁建造者建造鸟居特色改良设施的能力。必须建造在丘陵上，此外你必须事先已创立宗教。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_QUOTE" Language="zh_Hans_CN">
+			<Text>深深黑夜中，吾迷途不知所向，请借三盏灯。[NEWLINE]——后醍醐天皇</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>伏见稻荷大社位于京都的稻荷山上，是数万座供奉稻荷神——神道信仰的稻米和丰穰之神——的神社中最重要的一座。这座神殿据说建于711年，在平安时代成为皇室赞助的对象；传说中，淳和天皇在下令砍伐稻荷山的神树时因病倒下，便为稻荷神赐予神阶。这座神社的最大亮点是千本鸟居，整条路的两边都是鳞次栉比的朱红色鸟居。这些鸟居由商人和信众捐赠，以表示他们对神灵保佑的感激之情，这一习俗可以追溯到江户时代。</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_PHANTA_TORII_GATE_NAME" Language="zh_Hans_CN">
+			<Text>鸟居</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_PHANTA_TORII_GATE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造鸟居特色改良设施的能力，专属于拥有伏见稻荷大社奇观的文明。[NEWLINE][NEWLINE]+1 [ICON_Culture] 文化值。+1魅力。每相邻1座鸟居+2 [ICON_Faith] 信仰值。若相邻奇观或自然奇观+2 [ICON_Culture] 文化值。若位于或相邻森林+1 [ICON_Culture] 文化值。研究“飞行”科技后，提供等于 [ICON_Faith] 信仰值产出的 [ICON_Tourism] 旅游业绩。必须连成一线建造。可以建造在森林上。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_PHANTA_TORII_GATE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>鸟居是日本传统的门楼，位于神道教神社的前面或内部，标志世俗人间和神明圣域之间的界限。虽然朱红色的木质鸟居是最为出名，但也有不同颜色或不同材料造成的鸟居。鸟居已成为神道教及其神社的象征，一些标志性的鸟居和其他宗教建造一样，在现代已成为旅游景点，例如严岛神社的水上鸟居和伏见稻荷大社的千本鸟居。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_NAME" Language="zh_Hant_HK">
+			<Text>伏見稻荷大社</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>獲得3個免費建造者。解鎖建造者建造鳥居特色改良設施的能力。必須建造在丘陵上，此外你必須事先已創立宗教。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_QUOTE" Language="zh_Hant_HK">
+			<Text>「深深黑夜中，吾迷途不知所向，請借三盞燈。」[NEWLINE]——後醍醐天皇</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>伏見稻荷大社位於京都的稻荷山上，是數萬座供奉稻荷神——神道信仰的稻米和豐穰之神——的神社中最重要的一座。這座神殿據說建於711年，在平安時代成為皇室贊助的對象；傳說中，淳和天皇在下令砍伐稻荷山的神樹時因病倒下，便為稻荷神賜予神階。這座神社的最大亮點是千本鳥居，整條路的兩邊都是鱗次櫛比的朱紅色鳥居。這些鳥居由商人和信眾捐贈，以表示他們對神靈保佑的感激之情，這一習俗可以追溯到江戶時代。</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_PHANTA_TORII_GATE_NAME" Language="zh_Hant_HK">
+			<Text>鳥居</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_PHANTA_TORII_GATE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>解鎖建造者建造鳥居特色改良設施的能力，專屬於擁有伏見稻荷大社奇觀的文明。[NEWLINE][NEWLINE]+1 [ICON_Culture] 文化值。+1魅力。每相鄰1座鳥居+2 [ICON_Faith] 信仰值。若相鄰奇觀或自然奇觀+2 [ICON_Culture] 文化值。若位於或相鄰森林+1 [ICON_Culture] 文化值。研發完「飛行」科技後，提供等於 [ICON_Faith] 信仰值產出的 [ICON_Tourism] 旅遊業績。必須連成一線建造。可以建造在森林上。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_PHANTA_TORII_GATE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>鳥居是日本傳統的門樓，位於神道教神社的前面或內部，標志世俗人間和神明聖域之間的界限。雖然朱紅色的木質鳥居是最為出名，但也有不同顏色或不同材料造成的鳥居。鳥居已成為神道教及其神社的象徵，一些標志性的鳥居和其他宗教建造一樣，在現代已成為旅游景點，例如嚴島神社的水上鳥居和伏見稻荷大社的千本鳥居。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_NAME" Language="ja_JP">
+			<Text>伏見稲荷大社</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_DESCRIPTION" Language="ja_JP">
+			<Text>労働者3ユニットを無料で得る。労働者が伏見稲荷大社固有の施設「鳥居」を建設できるようになる。丘陵の上にのみ建設可能。宗教を創始している必要がある。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_QUOTE" Language="ja_JP">
+			<Text>「ぬばたまの くらきやみ路に まよふなり われにかさなむ 三つのともし火」[NEWLINE]– 後醍醐天皇</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_FUSHIMI_INARI_TAISHA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>京都の稲荷山にある伏見稲荷大社は、稲と豊穣を司る稲荷神を祀る数万社の神社の中で最も重要な神社。711年に創建されたといわれるこの神社は、平安時代には皇室の庇護の対象となった；淳和天皇が稲荷山の神木の伐採を命じた際に病に倒れた後、稲荷神に神階を授けられた。この神社の見どころは、道の両側に点在する朱色の千本鳥居。この鳥居は、商人や信者が神の恵みへの感謝の気持ちを込めて寄進したもので、江戸時代から続く風習だという。</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_PHANTA_TORII_GATE_NAME" Language="ja_JP">
+			<Text>鳥居</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_PHANTA_TORII_GATE_DESCRIPTION" Language="ja_JP">
+			<Text>労働者が伏見稲荷大社固有の施設「鳥居」を建設できるようになる。[NEWLINE][NEWLINE][ICON_Culture] 文化力+1。アピール+1。隣接する鳥居1つにつき [ICON_Faith] 信仰力+2。遺産か自然遺産に隣接していると [ICON_Culture] 文化力+2。森かそれに隣接するタイルにある場合、 [ICON_Culture] 文化力+1。「航空技術」の研究後は [ICON_Faith] 信仰力が [ICON_Tourism] 観光力をもたらす。一列に並んでのみ建設可能。森には建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_PHANTA_TORII_GATE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>鳥居は、神社の前や中にあり、俗世と神域の境界を示す日本の伝統的な門です。 朱色の木製の鳥居が有名だが、色や素材が異なる鳥居もある。 鳥居は神道とその神社の象徴となっており、厳島神社の水上鳥居や伏見稲荷大社の千本鳥居など、他の宗教建築物と同様に、現代では観光名所となっている。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
