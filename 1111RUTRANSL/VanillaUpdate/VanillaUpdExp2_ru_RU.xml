@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_MOUNTAIN_ROAD_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+      <Text>«Капах-Ньян» («Королевская дорога» или «Дороги инков») – это сеть мощеных дорог, построенных индейскими цивилизациями в Андском регионе. Эти дороги примечательны не только своей протяженностью (которая составляет ок. 30 000 км), но и характером местности, в которой они проложены: они проходят через Андское высокогорье, пустыни и густые джунгли. Эти дороги использовались преимущественно для перевозки грузов на ламах, кроме того, по ним передвигались стремительные курьеры-«часки». Таких курьеров набирали из самых выносливых и быстрых бегунов: они могли без остановки добежать до следующей «почтовой станции», где передавали сообщение (или предмет) новому бегуну.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ZOO_EXPANSION1_DESCRIPTION" Language="ru_RU">
+      <Text>Бонус к [ICON_Amenities] довольству распространяется на все центры городов в пределах 6 клеток. Бонус активируется в городах один раз и не увеличивается за такие же здания в пределах 6 клеток. +1 [ICON_SCIENCE] науки за каждую клетку с джунглями или болотом в этом городе.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_CIVIL_PRESTIGE_DESCRIPTION" Language="ru_RU">
+      <Text>Действующие [ICON_GOVERNOR] губернаторы получившие повышение дают +1 [ICON_Amenities] довольства и +2 [ICON_Housing] жилья.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_CULTURE_BOMB_TRIGGER_INDUSTRIAL_ZONE" Language="ru_RU">
+      <Text>Постройка промышленной зоны в любом городе производит культурный захват соседних клеток.</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION" Language="ru_RU">
+      <Text>+50% к продукции, полученной от удаления ресурсов и ландшафта на клетках города.</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_DESCRIPTION" Language="ru_RU">
+      <Text>При создании юнитов требуется на 80% меньше стратегических ресурсов.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_TOQUI_COMBAT_BUFF_VS_GOLDEN_AGE_DESCRIPTION" Language="ru_RU">
+      <Text>+10 [ICON_Strength] к боевой мощи против вольных городов и цивилизаций, переживающих золотой век.[NEWLINE]</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVIC_MERCANTILISM_DESCRIPTION" Language="ru_RU">
+      <Text>Лагеря получают +1 [ICON_Production] производства и +1 [ICON_Food] пищи.[NEWLINE]Позволяет строить лесопилки в джунглях.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_VETERANCY_DESCRIPTION_XP2" Language="ru_RU">
+      <Text>+30% [ICON_Production] производства при создании военных лагерей, гаваней и зданий в таких районах.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MOAI_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить моаи.[NEWLINE][NEWLINE]+1 [ICON_Culture] к культуре. +1 [ICON_Culture] к культуре за каждые 2 соседних моаи. +2 [ICON_Culture] к культуре на клетках вулканической почвы или рядом с ними. +1 [ICON_Culture] к культуре рядом с клетками побережья или озера. Дополнительная [ICON_Culture] культура и [ICON_Tourism] туризм по мере продвижения по дереву технологий и социальных институтов. Можно построить на равнинах и лугах (с холмами или без них), а также на вулканической почве. Нельзя построить рядом с клетками лесов или джунглей.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_COLOSSAL_HEAD_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям создавать гигантские головы.[NEWLINE][NEWLINE]+2 [ICON_Faith] ед. веры. +1 [ICON_Faith] веры за каждые 2 соседние клетки джунглей, а после открытия гуманизма – за каждую клетку. +1 [ICON_Faith] веры за каждые 2 соседние клетки леса, а после открытия гуманизма – за каждую клетку. [ICON_TOURISM] Туризм за [ICON_FAITH] веру после исследования авиации. Нельзя строить в снегах и на заснеженных холмах.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_LUMBER_MILL_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить лесопилку.[NEWLINE][NEWLINE]+2 [ICON_Production] производства. Можно строить только в лесах. После открытия меркантилизма можно строить лесопилки в джунглях.</Text>
+    </Replace>
+    <Replace Tag="LOC_CLIMATE_DROUGHT_EVENT_DESCRIPTION_TOOLTIP" Language="ru_RU">
+      <Text>ЗАСУХА[NEWLINE][NEWLINE]Если это событие происходит:[NEWLINE]- Фермы, лагеря, плантации и пастбища, а также вигвамы, скотоводческие фермы и курганы Кахокии будут разорены.[NEWLINE]- Эти улучшения невозможно отстроить заново, пока не закончится засуха.[NEWLINE]- Все пострадавшие от засухи клетки производят на 1 ед. [Icon_Food] пищи меньше, чем обычно.[NEWLINE][NEWLINE]Чтобы предотвратить уменьшение производства [Icon_Food] пищи во время засухи, постройте в городе акведук, дамбу или ступенчатый колодец. Засуха обычно поражает территории, лишенные особенностей. Чтобы снизить вероятность наступления засухи, сохраняйте в окрестностях города часть лесов, джунглей и болот.</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION" Language="ru_RU">
+      <Text>Город получает +2 [ICON_Gold] золота от болот, лесов, рифов, оазисов, пойм рек, вулканических почв, геотермальных источников, если они не имеют улучшений. Соседние клетки таких особенностей получают +1 престижа.</Text>
+    </Replace>
+    <Replace Tag="LOC_LEADER_TRAIT_RAPA_NUI_DESCRIPTION" Language="ru_RU">
+      <Text>Теперь ваши строители могут строить моаи.[NEWLINE][NEWLINE]Моаи дает +1 [ICON_Culture] к культуре. +1 [ICON_Culture] к культуре за каждые 2 соседних моаи. +2 [ICON_Culture] к культуре на клетках вулканической почвы или рядом с ними. +1 [ICON_Culture] к культуре рядом с клетками побережья или озера. Дополнительная [ICON_Culture] культура и [ICON_Tourism] туризм по мере продвижения по дереву технологий и социальных институтов. Можно построить на равнинах и лугах (с холмами или без них), а также на вулканической почве. Нельзя построить рядом с клетками лесов или джунглей.</Text>
+    </Replace>
+    <Replace Tag="LOC_LEADER_TRAIT_LA_VENTA_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Теперь ваши строители могут создавать гигантские головы.[NEWLINE][NEWLINE]Гигантская голова приносит +2 [ICON_Faith] ед. веры. +1 [ICON_Faith] веры за каждые 2 соседние клетки джунглей, а после открытия гуманизма – за каждую клетку. +1 [ICON_Faith] веры за каждые 2 соседние клетки леса, а после открытия гуманизма – за каждую клетку. [ICON_TOURISM] Туризм после исследования авиации. Нельзя строить в снегах и на заснеженных холмах.</Text>
+    </Replace>
+    <Replace Tag="LOC_PROMOTION_SPY_SATCHEL_CHARGES_DESCRIPTION" Language="ru_RU">
+      <Text>При подрыве дамбы текущий уровень увеличивается на 2.</Text>
+    </Replace>
+    <Replace Tag="LOC_DEFORESTATION_LIGHT_DESCRIPTION" Language="ru_RU">
+      <Text>Исчезновение болот, лесов и джунглей на планете происходит с минимальной скоростью.</Text>
+    </Replace>
+    <Replace Tag="LOC_DEFORESTATION_EXPECTED_DESCRIPTION" Language="ru_RU">
+      <Text>Исчезновение болот, лесов и джунглей на планете продолжается с ожидаемой скоростью.</Text>
+    </Replace>
+    <Replace Tag="LOC_DEFORESTATION_HEAVY_DESCRIPTION" Language="ru_RU">
+      <Text>Исчезновение болот, лесов и джунглей на планете все более заметно.</Text>
+    </Replace>
+    <Replace Tag="LOC_DEFORESTATION_EXTREME_DESCRIPTION" Language="ru_RU">
+      <Text>Исчезновение болот, лесов и джунглей на планете принимает все более широкие масштабы.</Text>
+    </Replace>
+    <Replace Tag="LOC_BOOST_TRIGGER_MUST_STEAL_NO_GREAT_SCIENTIST" Language="ru_RU">
+      <Text>Нужно похитить ускорение.</Text>
+    </Replace>
+    <Replace Tag="LOC_MOMENT_UNIT_KILLED_ASSISTED_BY_ADMIRAL_DESCRIPTION" Language="ru_RU">
+      <Text>Один из ваших [ICON_GreatAdmiral] великих адмиралов одержал первую победу над вражеским юнитом.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_LAISSEZ_FAIRE_DESCRIPTION_XP2" Language="ru_RU">
+      <Text>+2 [ICON_GreatMerchant] очка великих торговцев за ход за каждый банк и +4 очка [ICON_GreatMerchant] великих торговцев за ход за каждую биржу. +2 очка [ICON_GreatAdmiral] великих адмиралов за ход за каждую верфь и +4 очка [ICON_GreatAdmiral] великих торговцев за ход за каждый морской порт. </Text>
+    </Replace>
+    <Replace Tag="LOC_UNIT_SUPPLY_CONVOY_NAME" Language="ru_RU">
+      <Text>Колонна снабжения|колонны снабжения|колонне снабжения|колонну снабжения|колонной снабжения|колонне снабжения</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+  </LocalizedText>
+</GameData>

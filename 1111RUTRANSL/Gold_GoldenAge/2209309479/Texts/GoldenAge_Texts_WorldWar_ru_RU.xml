@@ -1,0 +1,36 @@
+<GameData>
+    
+	
+	<LocalizedText>		
+		<Replace Language="ru_RU" Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_10">
+      <Text>{2_EraName} закончится через {1_TurnsRemaining} {1_TurnsRemaining : plural 1?ход; other?хода(-ов);}. Опоздавшие будут недовольны сегодняшним разделением глобальных сфер влияния.</Text>
+    </Replace>
+	<Replace Language="ru_RU" Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_9">
+      <Text>{2_EraName} закончится через {1_TurnsRemaining} {1_TurnsRemaining : plural 1?ход; other?хода(-ов);}. Опоздавшие будут недовольны сегодняшним разделением глобальных сфер влияния.</Text>
+    </Replace>
+	<Replace Language="ru_RU" Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_8">
+      <Text>{2_EraName} закончится через {1_TurnsRemaining} {1_TurnsRemaining : plural 1?ход; other?хода(-ов);}. Международные споры и нерешенные вопросы сеют семена ненависти.</Text>
+    </Replace>
+	<Replace Language="ru_RU" Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_7">
+      <Text>{2_EraName} закончится через {1_TurnsRemaining} {1_TurnsRemaining : plural 1?ход; other?хода(-ов);}. Международные споры и нерешенные вопросы сеют семена ненависти.</Text>
+    </Replace>
+	<Replace Language="ru_RU" Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_6">
+      <Text>{2_EraName} закончится через {1_TurnsRemaining} {1_TurnsRemaining : plural 1?ход; other?хода(-ов);}. Глобальная экономическая депрессия побудила некоторые радикальные страны принять сторону фашизма, нацизма и милитаризма.</Text>
+    </Replace>
+	<Replace Language="ru_RU" Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_5">
+      <Text>{2_EraName} закончится через {1_TurnsRemaining} {1_TurnsRemaining : plural 1?ход; other?хода(-ов);}. Глобальная экономическая депрессия побудила некоторые радикальные страны принять сторону фашизма, нацизма и милитаризма.</Text>
+    </Replace>
+	<Replace Language="ru_RU" Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_4">
+      <Text>{2_EraName} закончится через {1_TurnsRemaining} {1_TurnsRemaining : plural 1?ход; other?хода(-ов);}. Конфликты усиливались и большая война кажется неизбежной...</Text>
+    </Replace>
+	<Replace Language="ru_RU" Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_3">
+      <Text>{2_EraName} закончится через {1_TurnsRemaining} {1_TurnsRemaining : plural 1?ход; other?хода(-ов);}. Конфликты усиливались и большая война кажется неизбежной...</Text>
+    </Replace>
+	<Replace Language="ru_RU" Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_2">
+      <Text>{2_EraName} закончится через {1_TurnsRemaining} {1_TurnsRemaining : plural 1?ход; other?хода(-ов);}. Ящик Пандоры открыт, и вот-вот разразится мировая война!</Text>
+    </Replace>
+	<Replace Language="ru_RU" Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_1">
+      <Text>{2_EraName} закончится через {1_TurnsRemaining} {1_TurnsRemaining : plural 1?ход; other?хода(-ов);}. Ящик Пандоры открыт, и вот-вот разразится мировая война!</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>	

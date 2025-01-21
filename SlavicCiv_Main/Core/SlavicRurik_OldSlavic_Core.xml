@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	
+	<Types>
+		<Row Type="CIVILIZATION_SLAVIC" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_CIVILIZATION_SLAVIC_FIRST" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_SLAVIC_UNIQUE" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_SLAVIC_UNIQUE"  Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_SLAVIC_KREMLIN" Kind="KIND_TRAIT" />
+	</Types>
+	
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_SLAVIC</CivilizationType>
+			<Name>LOC_CIVILIZATION_SLAVIC_NAME</Name>
+			<Description>LOC_CIVILIZATION_SLAVIC_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_SLAVIC_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" LeaderType="LEADER_SLAVIC_RURIK" CapitalName="LOC_CIVLIZATION_SLAVIC_CITY_1" />
+	</CivilizationLeaders>
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_MALE_1" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_MALE_2" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_MALE_3" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_MALE_4" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_MALE_5" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CitizenName="LOC_CITIZEN_SLAVIC_MODERN_FEMALE_5" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_SLAVIC_UNIQUE" Texture="Moment_UniqueUnit_Slavic.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_SLAVIC_UNIQUE" Texture="Moment_Infrastructure_Georgia.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_SLAVIC_KREMLIN" Texture="Moment_DistrictBuiltEncampment.dds"/>
+	</MomentIllustrations>
+	<StartBiasFeatures>
+	</StartBiasFeatures>
+
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" Tier="3"/>
+	</StartBiasRivers>
+
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" TerrainType="TERRAIN_GRASS_MOUNTAIN" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" TerrainType="TERRAIN_PLAINS_MOUNTAIN" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" TerrainType="TERRAIN_COAST" Tier="2"/>
+	</StartBiasTerrains>
+
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" ResourceType="RESOURCE_COPPER" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" ResourceType="RESOURCE_IRON" Tier="5"/>
+	</StartBiasResources>
+
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CityName="LOC_CIVLIZATION_SLAVIC_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CityName="LOC_CIVLIZATION_SLAVIC_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CityName="LOC_CIVLIZATION_SLAVIC_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CityName="LOC_CIVLIZATION_SLAVIC_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CityName="LOC_CIVLIZATION_SLAVIC_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CityName="LOC_CIVLIZATION_SLAVIC_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CityName="LOC_CIVLIZATION_SLAVIC_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CityName="LOC_CIVLIZATION_SLAVIC_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CityName="LOC_CIVLIZATION_SLAVIC_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" CityName="LOC_CIVLIZATION_SLAVIC_CITY_10" />
+	</CityNames>
+
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_SLAVIC_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_SLAVIC_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_SLAVIC_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_SLAVIC_CAPITAL" SortIndex="40"/>
+	</CivilizationInfo>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" TraitType="TRAIT_CIVILIZATION_SLAVIC_FIRST" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" TraitType="TRAIT_CIVILIZATION_BUILDING_SLAVIC_UNIQUE" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" TraitType="TRAIT_CIVILIZATION_UNIT_SLAVIC_UNIQUE" />
+		<Row CivilizationType="CIVILIZATION_SLAVIC" TraitType="TRAIT_CIVILIZATION_DISTRICT_SLAVIC_KREMLIN" />
+	</CivilizationTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_SLAVIC_FIRST" Name="LOC_TRAIT_CIVILIZATION_SLAVIC_NAME" Description="LOC_TRAIT_CIVILIZATION_SLAVIC_DESCRIPTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_SLAVIC_UNIQUE" Name="LOC_TRAIT_BUILDING_SLAVIC_UNIQUE_NAME" Description="LOC_TRAIT_BUILDING_SLAVIC_UNIQUE_DESCRIPTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_SLAVIC_UNIQUE" Name="LOC_TRAIT_UNIT_SLAVIC_UNIQUE_NAME" Description="LOC_TRAIT_UNIT_SLAVIC_UNIQUE_DESCRIPTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_SLAVIC_KREMLIN" Name="LOC_LEADER_SDISTRICT_SLAVIC_KREMLIN_NAME" Description="LOC_LEADER_DISTRICT_SLAVIC_KREMLIN_DESCRIPTION"/>
+	</Traits>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SLAVIC_FIRST</TraitType>
+			<ModifierId>TRAIT_INSTITUT_ADD_TRADER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SLAVIC_FIRST</TraitType>
+			<ModifierId>TRAIT_INSTITUT_ADD_TRADE_ROUTE</ModifierId>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DISTRICT_SLAVIC_KREMLIN</TraitType>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_BARRACKS_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DISTRICT_SLAVIC_KREMLIN</TraitType>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_BARRACKS_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DISTRICT_SLAVIC_KREMLIN</TraitType>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_STABLE_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DISTRICT_SLAVIC_KREMLIN</TraitType>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_STABLE_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DISTRICT_SLAVIC_KREMLIN</TraitType>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_ARMORY_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DISTRICT_SLAVIC_KREMLIN</TraitType>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_ARMORY_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DISTRICT_SLAVIC_KREMLIN</TraitType>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_MILITARY_ACADEMY_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DISTRICT_SLAVIC_KREMLIN</TraitType>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_MILITARY_ACADEMY_GOLD</ModifierId>
+		</Row>
+	</TraitModifiers>
+	
+
+</GameData>

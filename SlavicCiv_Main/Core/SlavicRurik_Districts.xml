@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SlavicRurik_Districts -->
+<!-- Author: Anton -->
+<!-- DateCreated: 6/24/2021 10:10:42 AM -->
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_SLAVIC_KREMLIN" Kind="KIND_DISTRICT"/>
+	</Types>
+
+	<Districts>
+		<Row DistrictType="DISTRICT_SLAVIC_KREMLIN" Name="LOC_DISTRICT_SLAVIC_KREMLIN_NAME" Description="LOC_DISTRICT_SLAVIC_KREMLIN_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="27"  CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="true" InternalOnly="false" ZOC="true" HitPoints="150" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Appeal="-1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_SLAVIC_KREMLIN"/>
+	</Districts>
+
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_SLAVIC_KREMLIN" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/>
+	</DistrictReplaces>
+	<District_Adjacencies>
+	</District_Adjacencies>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_SLAVIC_KREMLIN" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+	<District_ValidTerrains>
+	</District_ValidTerrains>
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_SLAVIC_KREMLIN" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_SLAVIC_KREMLIN" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_SLAVIC_KREMLIN" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_SLAVIC_KREMLIN" YieldType="YIELD_GOLD" YieldChange="1"/>
+	</District_CitizenYieldChanges>
+</GameData>

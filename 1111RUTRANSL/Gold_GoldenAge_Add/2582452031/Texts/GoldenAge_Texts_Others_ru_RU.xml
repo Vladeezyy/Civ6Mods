@@ -1,0 +1,16 @@
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_DVP_TOOLTIP_DIFFICULTIES" Language="ru_RU">
+			<Text>[ICON_Bullet]{1_Amount} очков от сложности игры.</Text>
+		</Replace>
+		<Replace Tag="LOC_VICTORY_DIPLOMATIC_DESCRIPTION" Language="ru_RU">
+			<Text>Чтобы добиться [COLOR:DiplomaticLabelCS]ДИПЛОМАТИЧЕСКОЙ[ENDCOLOR] победы, первым наберите целевое количество дипломатических очков. Всякий раз, когда вы голосуете за комбинацию целей и вариантов, которая принимается резолюцией всемирного конгресса, вы получаете одно дипломатическое очко. Вы можете заработать дополнительные очки с помощью Дипломатического предложения о победе на Всемирном конгрессе, набрав наибольшее количество очков в запросах о помощи, или построив специальные чудеса света, такие как Статуя Свободы, храм Махабодхи, дворец Потала и т. д.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HERO_MONUMENT_NAME" Language="ru_RU">
+			<Text>БАН ГЕРОЯ ИИ</Text>
+		</Replace>
+		<Replace Tag="LOC_POP_TEXT" Language="ru_RU">
+			<Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]в том числе {1_Num} от штрафа за безумное расширение[ENDCOLOR]</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>	

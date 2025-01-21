@@ -1,0 +1,94 @@
+<GameData>
+    <LocalizedText>	
+	<!--改良设施-->
+	
+	<Replace Tag="LOC_IMPROVEMENT_FORT_DESCRIPTION" Language="ru_RU">
+      <Text>Открывает способность военного инженера строить форт. -1 ед. престижа. +1 [ICON_Movement] к стоимости перемещения на этой клетке. Занявший форт юнит получает +5 [ICON_Strength] к силе защиты и автоматически получает укрепление на 2 хода.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_IMPROVEMENT_LUMBER_MILL_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить лесопилку.[NEWLINE][NEWLINE]+1 [ICON_Production] производство. -1 ед. престижа. Можно построить только в лесу. Как только «Военная инженерия» будет исследована, лесопилку можно будет построить в джунглях.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить рыбный промысел.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить городской парк. +1 ед. престижа. +1 [ICON_Amenities] довольство если рядом с водой. Нельзя построить рядом с другим городским парком.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_IMPROVEMENT_PASTURE_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить пастбища. [NEWLINE][NEWLINE]+1 [ICON_Food] пищи. Можно построить только на подходящих ресурсах.[NEWLINE][NEWLINE]Если построен на стратегическом ресурсе, то город сможет накапливать этот ресурс.</Text>
+    </Replace>
+		
+	<Replace Tag="LOC_IMPROVEMENT_CAMP_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить лагерь. [NEWLINE][NEWLINE]+1 [ICON_Food] пищи. Можно построить только на подходящих ресурсах. [NEWLINE][NEWLINE]Если построен на редком ресурсе, то город сможет использовать этот ресурс.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_IMPROVEMENT_PLANTATION_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить плантацию.[NEWLINE][NEWLINE]+1 [ICON_Food] пищи. Можно построить только на подходящих ресурсах.[NEWLINE][NEWLINE]Если построен на редком ресурсе, то город сможет использовать этот ресурс.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_IMPROVEMENT_MINE_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить рудник.[NEWLINE][NEWLINE]+1 [ICON_Production] производства. -1 ед. престижа. Можно строить только на холмах или подходящих ресурсах.[NEWLINE][NEWLINE]Если построен на редком или стратегическом ресурсе, город сможет использовать этот ресурс.</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_IMPROVEMENT_QUARRY_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить каменоломню.[NEWLINE][NEWLINE]+1 [ICON_Production] производства. -1 ед. престижа. Можно построить только на подходящих ресурсах.[NEWLINE][NEWLINE]Если построена на редком ресурсе, город сможет использовать этот ресурс.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_IMPROVEMENT_FARM_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить ферму.[NEWLINE][NEWLINE]+1 [ICON_Food] пищи.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_IMPROVEMENT_OIL_WELL_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить буровую вышку.[NEWLINE][NEWLINE]+3 [ICON_Production] производства. -1 ед. престижа. Можно построить только на клетках суши с [ICON_RESOURCE_OIL] нефтью.</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_IMPROVEMENT_OFFSHORE_OIL_RIG_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить буровую платформу.[NEWLINE][NEWLINE]+3 [ICON_Production] производства. -1 ед. престижа. Можно построить только на клетке побережья или озера с [ICON_RESOURCE_OIL] нефтью.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_IMPROVEMENT_AIRSTRIP_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет военным инженерам возводить взлетные полосы.[NEWLINE][NEWLINE]-2 ед. престижа. может содержать 3 воздушных юнита. Можно построить только на открытой местности. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить морской курорт.[NEWLINE][NEWLINE]+1 ед. престижа. Дает [ICON_Gold] золото равное 200% престижа клетки. Дает [ICON_Tourism] туризм равный престижу клетки. Можно построить только на прибрежных клетках пустынь, равнин и лугов. Престиж клетки должен быть потрясающим.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет военным инженерам возводить пусковую шахту.[NEWLINE][NEWLINE]-2 ед. престижа. Действует как стартовая площадка для запуска ядерных и термоядерных устройств.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_IMPROVEMENT_SKI_RESORT_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить лыжный курорт.[NEWLINE][NEWLINE]+1 ед. престижа. Дает [ICON_Gold] золото и туризм [ICON_Tourism] равные престижу этой клетки. Дает +1 [ICON_AMENITIES] довольство. Можно построить только на горе. Нельзя построить рядом с другим лыжным курортом. Не может быть разграблен, обработан или удален.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_IMPROVEMENT_MOUNTAIN_TUNNEL_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет военным инженерам возводить горный туннель.[NEWLINE][NEWLINE]-2 ед. престижа. Действует как портал для перемещения в горном хребте, позволяя юнитам войти в него и выйти из другого портала за 2 очка [ICON_Movement] перемещения. [ICON_TradeRoute] Торговые пути, проходящие через него, увеличивают [ICON_Gold] золото, которое они получают от районов в пункте назначения. Можно построить только на соседней клетке горы. Невозможно разграбить или удалить.</Text>
+    </Replace>
+	    
+		<Replace Tag="LOC_IMPROVEMENT_SEASTEAD_DESCRIPTION" Language="ru_RU">
+			<Text>Позволяет строителям строить морское поселение.[NEWLINE][NEWLINE]+3 [ICON_HOUSING] жилья. +2 [ICON_Production] производства. +2 [ICON_Gold] золота за каждую соседнюю береговую и обычную ветроэлектростанцию. +2 [ICON_Production] производства каждому соседнему рыбацкому судну и +1 [ICON_Production] производства каждому соседнему рыбному промыслу. +2 [ICON_Science] науки, [ICON_Culture] культуры и [ICON_Tourism] туризма за каждый соседний риф. Можно построить клетке побережья, озера или океана. Нельзя построить рядом с другим морским поселением. </Text>
+		</Replace>	
+		<!--电力-->	
+    
+	<Replace Tag="LOC_IMPROVEMENT_GEOTHERMAL_PLANT_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить геотермальную электростанцию.[NEWLINE][NEWLINE]Дает +2 [ICON_Power] ед. электроэнергии от возобновляемых геотермальных источников.[NEWLINE][ICON_Bullet]Еще +2 [ICON_Gold] золота и +2 [ICON_Power] ед. электроэнергии если построена на геотермальном поле или болоте (энергия биомассы).[NEWLINE][ICON_Bullet]Еще +1 [ICON_Power] ед. электроэнергии, если построена радом с другой геотермальной электростанцией.[NEWLINE]Можно построить только на вулканических почвах, геотермальных полях и болотах.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_IMPROVEMENT_SOLAR_FARM_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить солнечную электростанцию.[NEWLINE][NEWLINE]Дает +2 [ICON_Power] ед. электроэнергии от возобновляемых источников солнечной энергии.[NEWLINE][ICON_Bullet]Еще +2 [ICON_Gold] золота и +1 [ICON_Power] ед. электроэнергии, если построена в пустыни.[NEWLINE][ICON_Bullet]Еще +1 [ICON_Power] ед. электроэнергии, если построена радом с другой солнечной электростанцией.[NEWLINE]Можно построить только на клетках открытой местности.[NEWLINE]Чтобы построить на клетках тундры и снега необходимо исследовать технологию «Силовые ячейки».</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_IMPROVEMENT_WIND_FARM_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить ветроэлектростанцию.[NEWLINE][NEWLINE]Дает +2 [ICON_Power] ед. электроэнергии от возобновлямых источников энергии ветра.[NEWLINE][ICON_Bullet]Еще +2 [ICON_Gold] золота и +1 [ICON_Power] ед. электроэнергии, если построена у побережья.[NEWLINE][ICON_Bullet]Еще +1 [ICON_Power] ед. электроэнергии, если построена радом с другой ветроэлектростанцией.[NEWLINE]Можно построить только на холмах.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_IMPROVEMENT_OFFSHORE_WIND_FARM_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить береговую ветроэлектростанцию.[NEWLINE][NEWLINE]Дает +2 [ICON_Power] ед. электроэнергии от возобновлямых источников энергии ветра.[NEWLINE][ICON_Bullet]Еще +2 [ICON_Gold] золота и +1 [ICON_Power] ед. электроэнергии, если построена в океане.[NEWLINE][ICON_Bullet]Еще +1 [ICON_Power] ед. электроэнергии, если построена радом с другой береговой ветроэлектростанцией.[NEWLINE]Можно построить только на клетках побережья, озера или океана.[NEWLINE]Чтобы построить на клетках океана необходимо исследовать технологию «Морские поселения».</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

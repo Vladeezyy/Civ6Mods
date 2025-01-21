@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- WONDERS -->
+
+		<Replace Tag="LOC_BUILDING_AL_STPETERSBASILICA_NAME" Language="ru_RU">
+			<Text>Базилика Святого Петра</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_AL_STPETERSBASILICA_DESCRIPTION" Language="ru_RU">
+			<Text>+5% [ICON_CULTURE] Культуры и +5% [ICON_FAITH] Веры в этом городе за каждую столицу, следующую вашей религии. [ICON_GreatWork_Religious] Религиозные великие произведения искусства в этом городе дают +3 [ICON_FAITH] Веры и предоставляют втрое больше [ICON_TOURISM] Туризма. Должна быть построена рядом с вашей столицей, и вы должны основать религию.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_AL_STPETERSBASILICA_QUOTE" Language="ru_RU">
+			<Text>"С купола базилики Святого Петра можно увидеть все выдающиеся объекты Рима... Панорама, которая открывается взгляду, разнообразна, обширна, прекрасна для глаз и более знаменита в истории, чем любая другая в Европе."[NEWLINE]-Марк Твен</Text>
+		</Replace>
+
+
+	</LocalizedText>
+</GameData>
+

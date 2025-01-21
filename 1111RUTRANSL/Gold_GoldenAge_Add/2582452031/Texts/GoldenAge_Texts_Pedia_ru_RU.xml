@@ -1,0 +1,191 @@
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_GOLDENAGE_NAME" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]GoldenAge - Дивный новый мир[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_INTRODUCTION_CHAPTER_CONTENT_TITLE" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Введение[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_BASE_TITLE" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Город и население[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_BONUS_PARA_2" Language="ru_RU">
+			<Text>С ростом населения городу потребуются дополнительные [ICON_Amenities] довольство (из «Городских сооружений») и дополнительная [ICON_PowerInsufficient] электроэнергия (из «Разного») для удовлетворения повседневных потребностей. [NEWLINE][ICON_Bullet]Если население [ICON_Citizen] не менее 10 жителей, -1 [ICON_Amenities] довольства, [ICON_PowerInsufficient] энергонагрузка +1;[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] не менее 20, -2 [ICON_Amenities] довольства, [ICON_PowerInsufficient] энергонагрузка +2;[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] не менее 30 жителей, -3 [ICON_Amenities] довольства, [ICON_PowerInsufficient] энергонагрузка +3;[NEWLINE][ICON_Bullet]И так далее.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_PUNISHMENT_PARA_2" Language="ru_RU">
+			<Text>Штраф за безумное расширение можно смягчить, когда город достигает определенного уровня населения и имеет соответствующий уровень ратуши. Каждый город считается отдельно: [NEWLINE][ICON_Bullet]-3%*(номер города), если в городе свыше 10 [ICON_CITIZEN] жителей и есть ратуша (село); [NEWLINE][ICON_Bullet]-2%*(номер города), если в городе проживает свыше 20 жителей [ICON_CITIZEN] и есть ратуша (уезд); [NEWLINE][ICON_Bullet]-1%*(номер города), если в городе проживает свыше 30 жителей [ICON_CITIZEN] и есть ратуша (город); [NEWLINE][ICON_Bullet]Отменяет штраф, если в городе проживает свыше 40 жителей [ICON_CITIZEN] и есть ратуша (мегаполис)!
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_OTHER_PARA_1" Language="ru_RU">
+			<Text>а) На одной клетке города могут работать двое [ICON_Citizen] горожан одновременно.[NEWLINE]б) Количество населения, необходимое для получения 1 очка [ICON_Amenities] довольства, увеличено с 2 до 3.[NEWLINE]в) Увеличена роль [ICON_Housing] жилья посредством ограничения роста города. Население города перестанет расти, если оно превысит имеющееся [ICON_Housing] жилье.[NEWLINE]г) Изменен минимальный доход клетки центра города до 2 [ICON_Food] пищи и 2 [ICON_Production] производства. Кроме того, +1 [ICON_Food] пищи и +1 [ICON_Production] производства за каждую прошедшую эпоху.[NEWLINE]д) 6 новых статусов счастья. Увеличен [ICON_Amenities] диапазон довольства (-11~11) между самым низким и самым высоким статусом счастья.[NEWLINE]е) +4 к порогу очков эпохи, необходимому чтобы войти в золотой век для каждого города, которым вы владеете.[NEWLINE]ж) Новые города начинаются с большего населения и клеток по мере развития игровой эпохи.[NEWLINE]з) Увеличен верхний предел давления лояльности со стороны жителей близлежащих городов с 20 до 30.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_BASE_TITLE" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Городское планирование[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_DISTRICTS_PARA_1" Language="ru_RU">
+			<Text>а) Требуется больше населения [ICON_Citizen] для постройки большего количества районов (с каждых 3 до каждых 4). Правительственные площади и дипломатические кварталы не требуют [ICON_Citizen] населения. [NEWLINE]б) Военный лагерь и его постройки теперь сосредоточены на [ICON_Housing] жилье, более не дают [ICON_Production] производства. Военный лагерь и развлекательный комплекс предоставляют [ICON_Housing] жилье и [ICON_Amenities] довольство в зависимости от их бонуса за соседство. [NEWLINE]в) Нельзя построить промышленную зону рядом с центром города. [NEWLINE]д) Дамба и канал также обеспечивают пресной водой (с источником пресной воды из соседней реки, озера, оазиса или горы), как и акведук. Если в городе уже есть пресная вода, вместо этого город получит +3 [ICON_Housing] жилья. [NEWLINE]е) Акведук, канализация и пригород обеспечивают дополнительную скорость роста города в дополнение к жилью [ICON_Housing]. [NEWLINE]ж) Акведук обеспечивает дополнительную [ICON_Food] пищу городским фермам; Дамба обеспечивает дополнительную [ICON_Food] пищу и [ICON_Production] производство для соседних клеток; Канал дает дополнительное [ICON_Gold] золото соседним клеткам. [NEWLINE]з) Добавлена ​​защита (дальнобойная атака) для гавани. Дальность атаки военного лагеря и гавани уменьшена до 1.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_IMPROVEMENTS_PARA_1" Language="ru_RU">
+			<Text>a) Improvements yields increase with the development of technologies and civics.[NEWLINE]b) Farm/Fishing boats/Pasture/Camp/Plantation provides +1 [ICON_Housing] housing instead of +0.5.[NEWLINE]c) Fishery and City Park become common improvements and are available after unlocking related tech and civic.[NEWLINE]d) Add movement limit to all kinds of fort.[NEWLINE]e) If the same type of improvements are adjacent to each other, there will be tremendous bonuses in their yields! [NEWLINE]f) National Parks will yield [ICON_GOLD] Gold equal to their [ICON_Tourism] Tourism output.[NEWLINE]g) Acquisition of a tile with unique improvements will no longer automatically remove them. [NEWLINE]h) Can no longer build Farm on Hills even with the progression of technologies. [NEWLINE]i) Under Resource Cultivation mode, farms and mines can only be build on tiles with resource or feature.
+			a) Доход улучшений увеличивается с развитием технологий и социальных институтов.[NEWLINE]б) Фермы/рыбацкие суда/пастбища/лагеря/плантации дают +1 [ICON_Housing] жилья вместо +0,5.[NEWLINE]в) Рыбный промысел и городской парк становятся обычными улучшениями и доступны после открытия соответствующих технологии и социального института.[NEWLINE]г) Добавлено ограничение на перемещение по фортам всех видов.[NEWLINE]д) Если однотипные улучшения расположены рядом друг с другом, они получат огромный бонус к доходу! [NEWLINE]е) Национальные парки будут приносить [ICON_GOLD] золото, равное их [ICON_Tourism] доходу от туризма.[NEWLINE]ж) Приобретение клетки с уникальными улучшениями больше не будет автоматически удалять их. [NEWLINE]з) Ферму на холмах больше нельзя строить даже с развитием технологий. [NEWLINE]и) В режиме выращивания ресурсов фермы и рудники можно строить только на клетках с ресурсами или особенностями ландшафта.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_BASE_TITLE" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Развите города[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_BUILDINGS_PARA_1" Language="ru_RU">
+			<Text>a) Tier 1 and tier 2 buildings in specialty districts also provide extra yields when city is powered. [NEWLINE]b) Buildings in (water) entertainment district provide more amenities and more tourism. [NEWLINE]c) Bank and Stock-Exchange provide extra trade route when city [ICON_Citizen] population reaches specific level. [NEWLINE]d) Buildings in Campus, Theater, and Commercial Hub have regional effect like factory. [NEWLINE]e) New Tier 4 buildings for campus, theater, and industrial zone. [NEWLINE]f) Tweak the cost and maintenance of Buildings and Districts (projects). [NEWLINE]g) Nuclear accidents are much less likely to occur. [NEWLINE]h) Стены только увеличивают здоровье города. Снята защита со всех уровней стен.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_PROJECTS_PARA_1" Language="ru_RU">
+			<Text>a) New projects that can convert redundant strategic resources into [ICON_Gold] gold.[NEWLINE]б) Требуется район космопорта для реализации всех 4 ядерных проектов.[NEWLINE]в) Электростанции, работающие на угле, нефти или уране, могут быть выведены из эксплуатации в любое время после разблокировки определенных социальных институтов без соглашения с конгрессом. [NEWLINE]г) Добавлены новые проекты космической гонки.[NEWLINE]д) Добавлены новые проекты ОМП.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_WONDERS_PARA_1" Language="ru_RU">
+			<Text>Национальные чудеса:[NEWLINE][ICON_Bullet]Национальные чудеса показаны в виде особых районов. Национальные чудеса каждого типа могут быть построены только один раз в каждой цивилизации и не могут строиться в одном городе с национальными чудесами других типов. [NEWLINE][ICON_Bullet]Национальные чудеса дают огромные бонусы за соседство с соответствующими специализированными районами. [NEWLINE][ICON_Bullet]Здания в национальных чудесах также дают огромные бонусы к доходу, но их доход будет уменьшаться с увеличением общего количества городов, которыми вы владеете. [NEWLINE][NEWLINE]Чудеса света:[NEWLINE][ICON_Bullet]Некоторые переработаны, например добавлен общенациональный эффект. [NEWLINE][ICON_Bullet]Произведите культурный захват, когда чудо света будет завершено.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_BASE_TITLE" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Гуманитарное развитие[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_POLICIES_PARA_1" Language="ru_RU">
+			<Text>а) Политические курсы, связанные с торговыми путями, преобразованы в дипломатические.[NEWLINE]б) Политические курсы, связанные с промышленными зонами и гаванями, преобразованы в военные. [NEWLINE]c) Универсальные политические курсы, связанные с великими людьми, или политические курсы будущего, преобразованы в политические курсы других типов. [NEWLINE]г) В целом, сбалансирована польза всех политических курсов, чтобы сделать выбор более увлекательным.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_POLICIES_PARA_2" Language="ru_RU">
+			<Text> Подробности: [NEWLINE]а) Новые политические курсы бонусного производства для всех районов и зданий в них.[NEWLINE]б) Улучшенные политические курсы обновления и устаревшие. (Стратегические ресурсы, оборона города, опыт юнитов, гарнизоны и т. д.)[NEWLINE]c) Переработаны политические курсы соседства районов и бонусов за строительство, чтобы они соответствовали цели GoldenAge - городскому планированию и развитию населения.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_GOVERNORS_PARA_1" Language="ru_RU">
+			<Text>а) Дерево повышений и повышения переработаны. Более подробную информацию можно найти в разделе «Губернаторы» в цивилопедии.[NEWLINE]b) Сокращено время смены губернаторов до 3 ходов. [NEWLINE]c) Увеличено общее количество назначенных губернаторов до 9.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_BASE_TITLE" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Ведение войны[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_COUNTER_PARA_2" Language="ru_RU">
+			<Text>+15 [ICON_Strength] к боевой мощи юнитов дальнего боя против юнитов огневой поддержки.[NEWLINE]+15 [ICON_Strength] к боевой мощи юнитов огневой поддержки против юнитов ближнего боя.[NEWLINE]+15 [ICON_Strength] к боевой мощи юнитов ближнего боя против антикавалерийских юнитов. [NEWLINE]+15 [ICON_Strength] к боевой мощи антикавалерийских юнитов против юнитов тяжелой и легкой кавалерии.[NEWLINE]+15 [ICON_Strength] к боевой мощи легкой кавалерии против осадных юнитов.[NEWLINE]+15 [ICON_Strength] к боевой мощи тяжелой кавалерии против юнитов дальнего боя.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_COUNTER_PARA_3" Language="ru_RU">
+			<Text/>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_SIGHT_PARA_1" Language="ru_RU">
+			<Text>Базовая дальность обзора юнитов ближнего боя, антикавалерийских юнитов, осадных юнитов и юнитов дальнего боя была уменьшена до 1. Эти наземные боевые юниты получают +1 к обзору, когда находятся на холмах. [NEWLINE]Дальность обзора гражданских юнитов (кроме шпиона) и юнитов поддержки (кроме наблюдательного шара и беспилотника) также была уменьшена до 1, когда они находятся на ровной местности.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_PROMOTION_PARA_1" Language="ru_RU">
+			<Text>Совершенно новое дерево повышений для наземных боевых юнитов! Более подробную информацию можно найти в разделе повышения юнитов в цивилопедии.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_OTHERS_PARA_1" Language="ru_RU">
+			<Text>а) Все боевые юниты требуют 1 очко соответствующего стратегического ресурса в ход в качестве обслуживания. [NEWLINE]б) Авианосец теперь получает повышения за исследования технологий, как ОБР.[NEWLINE]в) Юниты могут получать опыт от варваров вплоть до 3 уровня (разрешено 2 повышения).[NEWLINE]г) Осадную башню можно улучшить до военного инженера. Дружественные юниты ближнего боя и антикавалерийские юниты, соседствующие с военным инженером, могут нанести полный урон обороне города. [NEWLINE]д) Военный инженер также может ускорить строительство кварталов и стен.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_BASE_TITLE" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]ИИ и дипломатия[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_AI_TITLE" Language="ru_RU">
+			<Text>Сложность игры</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_AI_PARA_1" Language="ru_RU">
+			<Text>[ICON_Bullet]Значительно увеличен интервал между разными уровнями сложности.[NEWLINE][ICON_Bullet]У каждого лидера есть предпочитаемый тип победы, и он будет развиваться в этом направлении.[NEWLINE][ICON_Bullet]Честное начало! ИИ начинает с одним поселенцем и без других стартовых юнитов, независимо от уровня сложности. [NEWLINE][ICON_Bullet]«Поселенец» здесь соответствует «Принцу» из основной игры. «Король» здесь соответствует «Божеству» из основной игры.[NEWLINE][ICON_Bullet]ИИ получают больше читов к своему доходу с развитием игровой эпохи.[NEWLINE][ICON_Bullet]ИИ получает бесплатные стратегические ресурсы, чтобы обеспечить разнообразие своего оружия.[NEWLINE][ICON_Bullet]ИИ получают дополнительное [ICON_Housing] жилье, [ICON_Amenities] довольство, очки дипломатической победы, прогресс в ход для межпланетной экспедиции, [ICON_Strength] боевую мощь и [ICON_Strength] боевую мощь при атаке районов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_AI_PARA_2" Language="ru_RU">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_DIPLOMACY_PARA_1" Language="ru_RU">
+			<Text>а) Повестка дня дипломатической победы начинается в промышленной эре, а не в эпохе нового времени.[NEWLINE]б) Нобелевская премия присутствует в каждой игре, даже без Швеции.[NEWLINE]в) Война может быть объявлена под любым предлогом после 3 раундов осуждения. [NEWLINE]г) Уменьшены претензии третьих лиц.[NEWLINE]д) Увеличина стоимость мирового влияния для запросов о помощи или чрезвычайных ситуаций. [NEWLINE]д) Уменьшена продолжительность оказания помощи при стихийных бедствиях с 30 до 10 ходов, а также увеличено время восстановления запроса на помощь с 30 до 60 ходов. [NEWLINE]ж) Значительно увеличен бонус мирового влияния, когда вы освобождаете город-государство или город игрока или оживляете игрока.[NEWLINE]з) Увеличено время перезарядки предложений обмена и мирных предложений от ИИ.[NEWLINE]и) Увеличена продолжительность дружбы, союза и осуждения с 30 до 40 ходов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_BASE_TITLE" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Божьи творения[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_TERRAINSFEATURES_PARA_1" Language="ru_RU">
+			<Text>а) Все ландшафты имеют первоначальный доход 3.[NEWLINE]б) Все особенности ландшафта могут быть удалены после исследования соответствующей технологии.[NEWLINE]в) Лед теперь проходим, но требует больших затрат на передвижение. Лед также обеспечивает пресную воду. [NEWLINE]г) Позволяет строить районы на пойме (особенность ландшафта будет удалена) и работать жителям на клетках гор после исследования технологии «Инженерное дело».[NEWLINE]д) Позволяет строить районы (кроме промышленной зоны, военного лагеря, аэродрома и космопорта) в лесах и джунглях, не удаляя их после исследования социального института «Естественная история». [NEWLINE]е) Уменьшен доход от удаления объекта и убирания ресурса, но доход такой же, как и в основной игре, когда Магнус назначен в городе. [NEWLINE]ж) Новая особенность ландшафта: тундровая пойма, вы можете построить ферму на пойме тундры.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_RESOURCES_PARA_1" Language="ru_RU">
+			<Text>а) Изменен базовый доход всех ресурсов на 1, который будет увеличиваться с развитием ваших технологий или социальных институтов. [NEWLINE]б) Стратегические ресурсы можно найти на всех типах местности.[NEWLINE]в) После исследования технологии «Деньги» можно убирать ресурсы роскоши. После исследования технологий или соцаильных институтов, которые открывают стратегические ресурсы, а также места древностей и кораблекрушения, их также можно убирать. [NEWLINE]г) Вы будете получать 1 ед. ресурса в ход за неулучшенный стратегический ресурс на вашей территории. Увеличена скорость добычи для улучшенных стратегических ресурсов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_MAP_TITLE" Language="ru_RU">
+			<Text>Карта</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_MAP_PARA_1" Language="ru_RU">
+			<Text>а) +2 континента для всех карт.[NEWLINE]б) Увеличен размер суши на картах «Пангея, Континенты, Континенты и Острова, Малые континенты».[NEWLINE]в) Немного уменьшиен широтный диапазон снежных ландшафтов. Слегка увеличен диапазон широт тундры.[NEWLINE]г) Лагеря варваров и племена больше не будут появляться на заснеженных территориях.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_BASE_TITLE" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Режим игры[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_APOCALYPSE_PARA_1" Language="ru_RU">
+			<Text>а) Бедствия, вызванные Прорицателем, больше не приносят дополнительных доходов клеткам. [NEWLINE]б) Прорицатель теперь служит магическим юнитом, как волшебник/ведьма! Он может вызвать сверхразрушительные бедствия, чтобы уничтожить ваших врагов. [NEWLINE][ICON_Bullet] [COLOR:ResScienceLabelCS]Дьявольская метель[ENDCOLOR] и [COLOR_FLOAT_GOLD]дикая песчаная буря[ENDCOLOR]: намного дольше, чем обычные снежные и песчаные бури, уничтожают все, через что проходят. Предупреждение: путь шторма всегда сложный. [NEWLINE][ICON_Bullet] [COLOR:ResMilitaryLabelCS] Выброс лавы [ENDCOLOR]: уничтожьте все в радиусе двух клеток от вулкана. [NEWLINE][ICON_Bullet] [COLOR_LIGHTBLUE] Ужасающие волны [ENDCOLOR]: уничтожьте все, кроме реки. [NEWLINE][ICON_Bullet] [COLOR:ResMilitaryLabelCS] Адское пламя [ENDCOLOR]: вызовите адский огонь в лесу, который долго горит и восстанавливается. Огонь быстро распространится на близлежащие клетки и приведет к гибели жителей близлежащего города! [NEWLINE]c) Клетка случайного удара кометы уменьшена до 1 (было 4). [NEWLINE]г) Метеоритный кратер удваивает урожайность ландшафта для соседних участков. [NEWLINE]д) Случайные удары кометы могут происходить (с меньшей частотой) до того, как климат достигнет 7-го уровня. [NEWLINE]е) Общие стихийные бедствия могут происходить (с большей частотой) после того, как климат достигнет 7-го уровня. [NEWLINE]ж) Уменьшена общая частота как случайных, так и точечных ударов комет. [NEWLINE] з) Солнечная вспышка больше не наносит ущерб районам и зданиям.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_SOCIETY_PARA_1" Language="ru_RU">
+			<Text>а) Повышение тайного губернатора доступно на одну эпоху раньше. [NEWLINE]б) Значения общества алхимиков и золотого хранилища совпадают с университетом и банком, удалены необходимые технологии для этих зданий. [NEWLINE]c) Лей-линии общества герметического ордена могут появляться только на горной местности. [NEWLINE]д) Увеличена скорость передвижения вампиров.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_DYNAMIC_PARA_1" Language="ru_RU">
+			<Text>а) Независимо от уровня сложности, игрок и ИИ теряют равное количество (около 20%) городов в темных веках.[NEWLINE]б) Вольные города не будут оказывать [ICON_PressureDown] давление на другие города, а присоединятся к соседним цивилизация с более высоким давлением [ICON_PressureUp].[NEWLINE]c) Изменены правила золотого и темного веков.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_MONOPOLIES_PARA_1" Language="ru_RU">
+			<Text>а) Для получения бонусов монополии требуется 80% контроля над одним ресурсом роскоши.[NEWLINE]б) Добавлен новый юнит «Инвестор», который может создавать предприятие и корпорацию. Этот юнит можно купить только за золото [ICON_Gold].</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_ZOMBIE_PARA_1" Language="ru_RU">
+			<Text>Добавлены настройки игры, которые позволят вам использовать оборонительные улучшения без режима зомби.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_OTHER_CHAPTER_BASE_TITLE" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Прочие изменения[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_OTHER_CHAPTER_PACE_PARA_1" Language="ru_RU">
+			<Text>а) Стоимость науки/культуры увеличивается на 66 %, если исследуемая технология/институт превышает текущую эпоху игры, стоимость науки/культуры снижается на 33 %, если исследуемая технология/институт отстает от текущей эпохи.[NEWLINE]б) [ICON_TechBoosted] Озарения и [ICON_CivicBoosted] вдохновения уменьшены до 30%. Изменены [ICON_TechBoosted] озарения и [ICON_CivicBoosted] вдохновения. [NEWLINE]в) Более разумное и плавное дерево технологий и социальных институтов. Изменены технологии и социальные институты, где открываются некоторые юниты/районы/здания/улучшения. [NEWLINE]г) Увеличена стоимость технологий и социальных институтов на эпоху из-за более высоких доходов науки и культуры. [NEWLINE]д) Увеличено необходимое количество дипломатических очков для дипломатической победы. [NEWLINE]е) Более точное игровое время (календарь) и мировые эпохи.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_TITLE" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Режим охраны природы[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_PARA_1" Language="ru_RU">
+			<Text>[NEWLINE]Термин «престиж» используется для описания особой формы бонуса за соседство. [NEWLINE]Престиж влияет на [ICON_Housing] жилье в районах и на систему культурной победы через [ICON_Tourism] туризм посредством национальных парков, морских и горнолыжных курорты.[NEWLINE]В GoldenAge престиж также влияет на [ICON_Housing] жилье и [ICON_Amenities] довольство районов, что позволит нам уделять больше внимания городскому планированию и охране окружающей среды.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_PARA_2" Language="ru_RU">
+			<Text>[NEWLINE]Район предоставляет [ICON_Housing] жилье и [ICON_Amenities] довольство в зависимости от престижа клетки:[NEWLINE]Потрясающий: +1 [ICON_Amenities] довольства (также +1 [ICON_Housing] жилье).[NEWLINE]Притягивающий: + 1 [ICON_Housing] жилье.[NEWLINE]Невзрачный: -1 [ICON_Housing] жилье.[NEWLINE]Отвратительный: -1 [ICON_Amenities] довольства (также -1 [ICON_Housing] жилье).</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_PARA_3" Language="ru_RU">
+			<Text>[NEWLINE]Престиж клетки: [NEWLINE]+2: Каждое соседнее чудо природы.[NEWLINE]+1: Каждое соседнее чудо света, священное место, театральная площадь, аквапарк, развлекательный комплекс, акведук, канал и дабма.[NEWLINE]+1: за каждую соседнюю гору, побережье, реку, озеро, лес, оазис, риф, лед и геотермальное поле.[NEWLINE]+1: за каждый соседний городской парк, морской и горнолыжный курорт. </Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_PARA_4" Language="ru_RU">
+			<Text>[NEWLINE]Престиж клетки: [NEWLINE]-2: каждый соседний аэродром и космопорт.[NEWLINE]-2: каждая соседняя взлетно-посадочная полоса, ракетная шахта и горный туннель.[NEWLINE]-1: каждая соседняя промышленная зона, военный лагерь, гавань и разграбленная клетка.[NEWLINE]-1: Каждая соседняя клетка джунглей, болот, поймы.[NEWLINE]-1: Каждый соседний рудник, каменоломня, лесопилка, форт, буровая вышка и буровая платформа.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_PARA_5" Language="ru_RU">
+			<Text>[NEWLINE]Прочее:[NEWLINE][ICON_Bullet]Загрязнение окружающей среды: угольная электростанция и электростанция, работающая на ископаемом топливе, загрязняют окружающую среду, -1 ед. престижа для всех клеток в городе.[NEWLINE][ICON_Bullet]После исследования социального института "Охрана природы", +1 ед. престижа для джунглей и +2 для болот, которые находятся на вашей территории.[NEWLINE][ICON_Bullet]Эффект престижа национылных чудес равен их соответствующему району.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_RISE_FALL_CHAPTER_CONTENT_TITLE" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Славная и темная эпохи[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_RISE_FALL_CHAPTER_CONTENT_PARA_1" Language="ru_RU">
+			<Text>[NEWLINE]В этом режиме каждая цивилизация имеет одну [ICON_GLORY_GOLDEN_AGE] славную эпоху и [ICON_GLORY_DARK_AGE] темную эпоху в соответствии с ее истинной историей. [NEWLINE][NEWLINE]В отличие от игровой эпохи в базовой игре, славная эпоха [ICON_GLORY_GOLDEN_AGE] дает +15% ко всем типам дохода, а [ICON_GLORY_DARK_AGE] темная эпоха -15% всем типам дохода.[NEWLINE][NEWLINE] Об этой особой эпохе судят по вашим технологиям и социальным институтам на дереве технологий и социальных институтов. Чтобы войти в славную эпоху [ICON_GLORY_GOLDEN_AGE] или в темную эпоху [ICON_GLORY_DARK_AGE], необходимо иметь хотя бы одну из технологий и социальных институтов той конкретной эпохи. И требованием для выхода из такой эпохи является наличие хотя бы одной из технологий и социальных институтов из следующей эпохи. [NEWLINE][NEWLINE]Например, в Англии есть [ICON_GLORY_GOLDEN_AGE] славная промышленная эра и [ICON_GLORY_DARK_AGE] темное средневековье. Чтобы избавиться от темной эры [ICON_GLORY_DARK_AGE] раньше, вы можете поторопиться со своими технологиями и социальными институтами в эпохе возрождения, не завершая их все. С другой стороны, чтобы дольше получать выгоду от славной промышленной эры [ICON_GLORY_GOLDEN_AGE], вы можете исследовать все промышленные технологии и социальные институты, прежде чем открывать какие-либо современные технологии и социальные институты. Вы даже можете исследовать технологии эпохи нового времени, оставив нетронутыми социальные институты этой эпохи, если ваши научные достижения намного выше, чем культура. [NEWLINE][NEWLINE]Эта новая система изменит игровой режим каждой цивилизации. Вы можете планировать свое техническое и культурное развитие, чтобы получить более длительные бонусы в [ICON_GLORY_GOLDEN_AGE] славной эпохе, а также сократить ужасную [ICON_GLORY_DARK_AGE] темную эпоху, что очень интересно.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_RISE_FALL_CHAPTER_CONTENT_PARA_2" Language="ru_RU">
+			<Text/>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_REGION_CHAPTER_CONTENT_TITLE" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Режим региональных и культурных особенностей[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_REGION_CHAPTER_CONTENT_PARA_1" Language="ru_RU">
+			<Text>[NEWLINE]Не только культурный захват, дополнительное [ICON_Housing] жилье и покупки за [ICON_Faith] веру, но и региональные и культурные особенности также влияют на лояльность каждого жителя:</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_REGION_CHAPTER_CONTENT_PARA_2" Language="ru_RU">
+			<Text>Северная Америка: +0,2 [ICON_PressureUp] давления лояльности для каждого жителя [ICON_Citizen], если в этом городе есть гарнизон; В противном случае, -0,2 [ICON_PressureDown] давления лояльности на каждого [ICON_Citizen] жителя в этом городе. [NEWLINE][NEWLINE]Западная Азия: +0,2 [ICON_PressureUp] давления лояльности на каждого [ICON_Citizen] жителя в ваших городах, если вы находитесь в состоянии войны с другие цивилизации; В противном случае -0,2 [ICON_PressureDown] давления лояльности на каждого [ICON_Citizen] жителя в ваших городах.[NEWLINE][NEWLINE]Латинская Америка: +0,2 [ICON_PressureUp] давления лояльности на каждого [ICON_Citizen] жителя, если в этом городе нет гарнизона. В противном случае, -0,2 [ICON_PressureDown] давление лояльности на каждого жителя [ICON_Citizen] в этом городе.[NEWLINE][NEWLINE]Восточная Азия: +0,2 [ICON_PressureUp] Давление лояльности на каждого жителя [ICON_Citizen] если этот город находится на континенте вашей исходной [ICON_Capital] столицы ; В противном случае -0,2 [ICON_PressureDown] давления лояльности на каждого жителя [ICON_Citizen] в этом городе.[NEWLINE][NEWLINE]Юго-восточная Азия и океания:+0,2 [ICON_PressureUp] давления лояльности на каждого жителя [ICON_Citizen] в ваших городах, если вы не в состоянии войны с другими цивилизациями; В противном случае -0,2 [ICON_PressureDown] давления лояльности на каждого жителя [ICON_Citizen] в ваших городах.[NEWLINE][NEWLINE]Западная и северная Европа: +0,2 [ICON_PressureUp] давления лояльности на каждого жителя [ICON_Citizen], если этот город не находится в континенте вашей первоначальной [ICON_Capital] столицы; В противном случае: -0,2 [ICON_PressureDown] давления лояльности на каждого жителя [ICON_Citizen] в этом городе.[NEWLINE][NEWLINE]Центральная и восточная Европа: +0,2 [ICON_PressureUp] давления лояльности на каждого жителя [ICON_Citizen] в ваших городах, если вы основали [ICON_Religion] религию; В противном случае: -0,2 [ICON_PressureDown] давления лояльности на каждого [ICON_Citizen] жителя в ваших городах.[NEWLINE][NEWLINE]Средиземноморье: +0,2 [ICON_PressureUp] давления лояльности на каждого [ICON_Citizen] жителя в городах с назначенным губернатором [ICON_Governor]; -0,2 [ICON_PressureDown] давление лояльности на каждого [ICON_Citizen] жителя в городах без [ICON_Governor] губернатора.[NEWLINE][NEWLINE]Африка: +0,2 [ICON_PressureUp] давления лояльности на каждого [ICON_Citizen] жителя в ваших городах, если ваша цивилизация находится в состоянии золотого века [ICON_Glory_Golden_Age]; Или -0,2 [ICON_PressureDown] давления лояльности на каждого [ICON_Citizen] горожанина в ваших городах, если ваша цивилизация находится в темном веке [ICON_Glory_Dark_Age].</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_TITLE" Language="ru_RU">
+			<Text>[COLOR_FLOAT_GOLD]Город-государство[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_1" Language="ru_RU">
+			<Text>[NEWLINE]a) Города-государства получают читы, соответствующие уровню сложности. [NEWLINE]b) Города-государства имеют бесплатную стену в начале игры.[NEWLINE]c) Добавлен бонус послов 4 уровня (10 послов [ICON_Envoy]). Бонусы послов:[NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_2" Language="ru_RU">
+			<Text>{LOC_MINOR_CIV_SCIENTIFIC_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_SCIENTIFIC_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_3" Language="ru_RU">
+			<Text>{LOC_MINOR_CIV_CULTURAL_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_CULTURAL_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_4" Language="ru_RU">
+			<Text>{LOC_MINOR_CIV_MILITARISTIC_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_MILITARISTIC_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_MILITARISTIC_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_MILITARISTIC_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_5" Language="ru_RU">
+			<Text>{LOC_MINOR_CIV_INDUSTRIAL_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_6" Language="ru_RU">
+			<Text>{LOC_MINOR_CIV_TRADE_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_TRADE_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_7" Language="ru_RU">
+			<Text>{LOC_MINOR_CIV_RELIGIOUS_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_RELIGIOUS_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_RELIGIOUS_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

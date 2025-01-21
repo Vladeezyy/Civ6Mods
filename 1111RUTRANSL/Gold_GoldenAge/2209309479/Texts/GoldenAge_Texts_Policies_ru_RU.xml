@@ -1,0 +1,866 @@
+<GameData>
+  <LocalizedText>	
+	
+	
+	<Replace Tag="LOC_POLICY_HEARTBEAT_OF_STEAM_DESCRIPTION" Language="ru_RU">
+      <Text>Региональный бонус [ICON_Production] производства от зданий не имеет ограничений по отношению ко всем городам. Бонус [ICON_PRODUCTION] производства от соседства промышленной зоны также дает [ICON_GOLD] золота.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_MILITARY_INDUSTRIAL_COMPLEX_DESCRIPTION" Language="ru_RU">
+      <Text>Все улучшенные стратегические ресурсы дают 2 дополнительных ресурса в ход. Все боевые юниты получают +5 [ICON_Strength] к боевой мощи и, если у юнита есть дальнобойная атака, +1 к дальности.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_PRAETORIAN_GUARD_DESCRIPTION" Language="ru_RU">
+      <Text>Все боевые юниты получают +5 [ICON_Strength] к боевой мощи. Раненые юниты восстанавливают +10 здоровья в ход.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_ABILITY_PRAETORIAN_GUARD_COMBAT_STENGTH_DESCRIPTION" Language="ru_RU">
+      <Text>Преторианская гвардия: +5 [ICON_Strength] к боевой мощи.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_TO_ARMS_DESCRIPTION" Language="ru_RU">
+      <Text>+50% опыта для всех юнитов и +25% [ICON_Production] к производству военных юнитов.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_FREE_ENQUIRY_DESCRIPTION" Language="ru_RU">
+      <Text>Региональный бонус [ICON_Science] науки от зданий не имеет ограничений по отношению ко всем городам. Кампусы дают [ICON_GOLD] золото, равное их научному бонусу [ICON_SCIENCE].</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_CULTURE_INDUSTRY_DESCRIPTION" Language="ru_RU">
+      <Text>Региональный бонус [ICON_Culture] культуры от зданий не имеет ограничений по отношению ко всем городам. Театральные площади дают [ICON_GOLD] золото, равное их бонусу культуры [ICON_Culture].</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_MONUMENTALITY_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Movement] к перемещению всем строителям. Можно покупать гражданские юниты за [ICON_Faith] веру.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_SKY_AND_STARS_DESCRIPTION" Language="ru_RU">
+      <Text>+50% [ICON_PRODUCTION] к производству при выполнении проектов космической гонки. +15% [ICON_SCIENCE] науки и [ICON_PRODUCTION] производства городам с космодромом или аэродромом.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_WISH_YOU_WERE_HERE_DESCRIPTION" Language="ru_RU">
+      <Text>+100% [ICON Туризм] туризма от чудес света. +100% [ICON Tourism] туризм во всех национальных парках.</Text>
+    </Replace>
+	
+	
+	
+	<Replace Tag="LOC_POLICY_SAMODERZHAVIYE_DESCRIPTION" Language="ru_RU">
+      <Text>+75% ко всем видам доходов в вашей [ICON_CAPITAL] столице. НО: все губернаторы [ICON_Governor] нейтрализованы и не могут быть назначены.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_CYBER_WARFARE_GA_DESCRIPTION" Language="ru_RU">
+      <Text>Шпионам мгновенно обосновываются в городе другой цивилизации. Время выполнения всех шпионских операций уменьшено на 25%. +10 [ICON_Strength] боевой мощи против юнитов информационной эры и эпохи будущего.[NEWLINE]НО: [ICON_STAT_GRIEVANCE] Претензии к вам не уменьшаются.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_ISOLATIONISM_DA_DESCRIPTION" Language="ru_RU">
+      <Text>Внутренние торговые пути дают +3 ко всем типам дохода.[NEWLINE]НО: нельзя создавать или покупать поселенцев, а также основывать новые города.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_COLLECTIVISM_DA_DESCRIPTION" Language="ru_RU">
+      <Text>Фермы дают +1 [ICON_Food] пищи и +1 [ICON_Production] производства. Промышленные зоны получают +100% к бонусу [ICON_Production] производства от соседства. Промышленные зоны дают [ICON_FOOD] пищу в количестве, равном их бонусу за соседство.[NEWLINE]НО: [ICON_GreatPerson] Очки великих людей начисляются на 50 % медленнее.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_DESPOTIC_PATERNALISM_DESCRIPTION" Language="ru_RU">
+      <Text>+10% ко всем видам дохода в городах с губернаторами [ICON_Governor]. НО: -10% всем видам дохода во всех городах без [ICON_Governor] губернатора.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_DISINFORMATION_CAMPAIGN_GA_DESCRIPTION" Language="ru_RU">
+      <Text>+8 [ICON_Favor] ед. мирового влияния в ход за каждый центр вещания. Уровень вражеских шпионов на вашей территории снижен на 3.[NEWLINE]НО: -5% [ICON_SCIENCE] науки и [ICON_Culture] культуры во всех городах.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_DECENTRALIZATION_DESCRIPTION" Language="ru_RU">
+      <Text>Города с населением 10 и менее [ICON_CITIZEN] получают +40% ко всем типам дохода. НО: Города с населением более 10 [ICON_CITIZEN] получают -10% ко всем видам дохода.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_ROGUE_STATE_GA_DESCRIPTION" Language="ru_RU">
+      <Text>+100% [ICON_Production] к производству при выполнении проектов ядерной программы и создании ядерных устройств. Плата за обслуживание ОМП не взимается.[NEWLINE]НО: вы не получаете очки влияния на новых послов [ICON_Envoy].</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_AUTOMATED_WORKFORCE_GA_DESCRIPTION" Language="ru_RU">
+      <Text>Ваши города получают +100% [ICON_Production] к производству при выполнении городских проектов.[NEWLINE]НО: -1 [ICON_Amenities] довольства в ход в ваших городах.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_ELITE_FORCES_DA_GA_DESCRIPTION" Language="ru_RU">
+      <Text>Все боевые юниты получают +10 [ICON_Strength] к боевой мощи. Боевой опыт для всех юнитов: +100%.[NEWLINE]НО: +1 [ICON_Gold] золота за содержание каждого боевого и шпионского юнита.</Text>
+    </Replace>
+	
+	
+      
+    
+	
+	<Replace Tag="LOC_ABILITY_ELITE_FORCES_COMBAT_STENGTH_DESCRIPTION" Language="ru_RU">
+      <Text>Элитные войска: +10 [ICON_Strength] к боевой мощи.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_FLOWER_POWER_GA_DESCRIPTION" Language="ru_RU">
+      <Text>Все цивилизации, которые в настоящее время не находятся в состоянии войны, получают +100% к [ICON_TOURISM] туризму от ваших концертов. Ваши  рок-группы могут выбирать из любое доступных повышений.[NEWLINE]НО: стоимость производства снижается на 50%, а стоимость покупки увеличивается на 50% для всех юнитов, кроме рок-групп.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_SOFT_TARGETS_DESCRIPTION" Language="ru_RU">
+      <Text>+20 [ICON_Strength] боевой мощи против городских атак и обороны районов. НО: -5 [ICON_Strength] боевой мощи против юнитов.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_MONASTICISM_DA_GA_DESCRIPTION" Language="ru_RU">
+      <Text>[ICON_Science] Наука и [ICON_Culture] культура: +20% в городах со священным местом.[NEWLINE]НО: -20% [ICON_Science] науки и [ICON_Culture] культуры в городах без священного места.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_ROBBER_BARONS_DA_DESCRIPTION" Language="ru_RU">
+      <Text>+15% [ICON_Gold] золота и [ICON_Production] производства в городах с банком или верфью. +15% [ICON_Gold] золота и [ICON_Production] производства в городах с морским портом или биржей.[NEWLINE]НО: -2 [ICON_Amenities] довольства во всех городах.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_INQUISITION_DA_GA_DESCRIPTION" Language="ru_RU">
+      <Text>+40% [ICON_Faith] веры в городах с религией. Начните инквизицию 1 зарядом апостола. Все религиозные юниты получают +15 [ICON_Religion] религиозной боевой мощи на дружественной территории.[NEWLINE]НО: -10% [ICON_Science] науки во всех городах.</Text>
+    </Replace>
+	
+	
+	    
+	    
+		<Replace Tag="LOC_POLICY_AGOGE_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_Production] к производству юнитов ближнего и дальнего боя и осадных юнитов эпохи древнего мира и античности.</Text>
+	    </Replace>
+		
+		<Replace Tag="LOC_POLICY_MARITIME_INDUSTRIES_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_Production] к производству морских юнитов эпохи древнего мира и античности.</Text>
+	    </Replace>
+		
+		<Replace Tag="LOC_POLICY_MANEUVER_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_Production] к производству тяжелой и легкой кавалерии и антикавалерийских юнитов эпохи древнего мира и античности.</Text>
+	    </Replace>
+		
+		<Replace Tag="LOC_POLICY_FEUDAL_CONTRACT_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_Production] к производству боевых юнитов ближнего и дальнего боя, а также осадных юнитов эпохи древнего мира, античности, средневековья и возрождения.</Text>
+	    </Replace>
+		
+		<Replace Tag="LOC_POLICY_CHIVALRY_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_Production] к производству тяжелой и легкой кавалерии, а так же антикавалерийских юнитов в промышленной эре и ранее.</Text>
+	    </Replace>
+		
+		<Replace Tag="LOC_POLICY_PRESS_GANGS_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_Production] к производству морских юнитов промышленной эры и ранее.</Text>
+	    </Replace>
+		
+		<Replace Tag="LOC_POLICY_GRANDE_ARMEE_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_Production] к производству юнитов ближнего и дальнего боя, а также осадных юнитов промышленной эры и ранее.</Text>
+	    </Replace>
+		
+		<Replace Tag="LOC_POLICY_LIGHTNING_WARFARE_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_Production] к производству всей тяжелой и легкой кавалерии, а также антикавалерийских юнитов.</Text>
+	    </Replace>
+		
+		<Replace Tag="LOC_POLICY_INTERNATIONAL_WATERS_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_Production] к производству всех морских юнитов, кроме авианосцев.</Text>
+	    </Replace>
+		
+		<Replace Tag="LOC_POLICY_MILITARY_FIRST_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_Production] к производству всех юнитов ближнего и дальнего боя, а также осадных юнитов.</Text>
+	    </Replace>
+		
+		
+		<Replace Tag="LOC_POLICY_LIMITANEI_DESCRIPTION" Language="ru_RU">
+            <Text>+1 [ICON_Amenities] довольства и +2 лояльности в ход городам с гарнизоном.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_RETAINERS_DESCRIPTION" Language="ru_RU">
+            <Text>+2 [ICON_Amenities] довольства и +4 лояльности в ход городам с гарнизоном.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_LIVELIHOOD_ARMY_NAME" Language="ru_RU">
+            <Text>СОДЕРЖАНИЕ</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_LIVELIHOOD_ARMY_DESCRIPTION" Language="ru_RU">
+            <Text>+3 [ICON_Amenities] довольства и +6 лояльности в ход городам с гарнизоном.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_PROPAGANDA_DESCRIPTION" Language="ru_RU">
+            <Text>+4 [ICON_Amenities] довольства и +8 лояльности в ход городам с гарнизоном.</Text>
+        </Replace>
+		
+		
+	<Replace Tag="LOC_POLICY_TOTAL_WAR_EXPANSION1_ALT_DESCRIPTION" Language="ru_RU">
+      <Text>+100% к добыче от грабежей и береговых рейдов. +100% к награде за разграбление торговых путей [ICON_TradeRoute].</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_POLICY_RAID_EXPANSION1_ALT_DESCRIPTION" Language="ru_RU">
+      <Text>+50% к добыче от грабежей и береговых рейдов. Награда за разграбление торговых путей [ICON_TradeRoute]: +50%.</Text>
+    </Replace>
+		
+		
+		
+		<Replace Tag="LOC_POLICY_RESOURCE_HORSES_NAME" Language="ru_RU">
+        <Text>Разведение лошадей</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_RESOURCE_HORSES_DESCRIPTION" Language="ru_RU">
+        <Text>Дает 8 единиц [ICON_RESOURCE_HORSES] лошадей в ход.</Text>
+        </Replace>		
+		
+		<Replace Tag="LOC_POLICY_EQUESTRIAN_ORDERS_DESCRIPTION" Language="ru_RU">
+        <Text>Дает 8 единиц [ICON_RESOURCE_IRON] железа в ход.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_DRILL_MANUALS_DESCRIPTION" Language="ru_RU">
+        <Text>Дает 8 единиц [ICON_RESOURCE_NITER] селитры в ход.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_RESOURCE_COAL_NAME" Language="ru_RU">
+        <Text>Добыча угля</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_RESOURCE_COAL_DESCRIPTION" Language="ru_RU">
+        <Text>Дает 8 единиц [ICON_RESOURCE_COAL] угла в ход.</Text>
+        </Replace>	
+		
+		<Replace Tag="LOC_POLICY_RESOURCE_ALUMINUM_NAME" Language="ru_RU">
+        <Text>Промышленный алюминий</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_RESOURCE_ALUMINUM_DESCRIPTION" Language="ru_RU">
+        <Text>Дает 8 единиц [ICON_RESOURCE_ALUMINUM] алюминия в ход.</Text>
+        </Replace>	
+		
+		<Replace Tag="LOC_POLICY_RESOURCE_MANAGEMENT_NAME" Language="ru_RU">
+        <Text>Перегонка нефти</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_RESOURCE_MANAGEMENT_DESCRIPTION_XP2" Language="ru_RU">
+        <Text>Дает 8 единиц [ICON_RESOURCE_OIL] нефти в ход.</Text>
+        </Replace>	
+		
+		<Replace Tag="LOC_POLICY_RESOURCE_URANIUM_NAME" Language="ru_RU">
+        <Text>Извлечение урана</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_RESOURCE_URANIUM_DESCRIPTION" Language="ru_RU">
+        <Text>Дает 8 единиц [ICON_RESOURCE_URANIUM] урана в ход.</Text>
+        </Replace>
+		
+		
+		<Replace Tag="LOC_POLICY_TRAINING_NAME" Language="ru_RU">
+            <Text>Боевая подготовка</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_TRAINING_DESCRIPTION" Language="ru_RU">
+            <Text>Все юниты получают +25% боевого опыта.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_SPECIAL_FORCES_NAME" Language="ru_RU">
+            <Text>Спецназ</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_SPECIAL_FORCES_DESCRIPTION" Language="ru_RU">
+            <Text>Все юниты получают +50% боевого опыта.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_AFTER_ACTION_REPORTS_DESCRIPTION" Language="ru_RU">
+            <Text>Все юниты получают +100% боевого опыта.</Text>
+        </Replace>
+		
+	
+	<Replace Tag="LOC_POLICY_RETINUES_DESCRIPTION" Language="ru_RU">
+      <Text>Скидка 25% [ICON_Gold] к золоту и ресурсам на все улучшения юнитов.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_PROFESSIONAL_ARMY_DESCRIPTION_XP2" Language="ru_RU">
+      <Text>Скидка 50% [ICON_Gold] к золоту и ресурсам на все улучшения юнитов.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_FORCE_MODERNIZATION_DESCRIPTION" Language="ru_RU">
+      <Text>Скидка 75% [ICON_Gold] к золоту и ресурсам на все улучшения юнитов.</Text>
+    </Replace>
+	
+	
+	
+	<Replace Tag="LOC_POLICY_LIMES_DESCRIPTION" Language="ru_RU">
+      <Text>+4 к [ICON_Strength] оборонительной мощи города. +4 к [ICON_Ranged] мощи дальнобойной атаки города. +100% [ICON_Production] к производству оборонительных зданий.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_BASTIONS_DESCRIPTION" Language="ru_RU">
+      <Text>+7 к [ICON_Strength] оборонительной мощи города. +7 к [ICON_Ranged] мощи дальнобойной атаки города. +100% [ICON_Production] к производству оборонительных зданий.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_SECOND_STRIKE_CAPABILITY_DESCRIPTION" Language="ru_RU">
+      <Text>+10 к [ICON_Strength] оборонительной мощи города. +10 к [ICON_Ranged] мощи дальнобойной атаки города. Содержание ядерных устройств снижено на 50% [ICON_Gold] золота в ход.</Text>
+    </Replace>
+	
+	
+      
+    
+	
+	<Replace Tag="LOC_POLICY_STRANDING_ARMY_NAME" Language="ru_RU">
+      <Text>РЕГУЛЯРНАЯ АРМИЯ</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_STRANDING_ARMY_DESCRIPTION" Language="ru_RU">
+      <Text>+100% к бонусу за соседства военных лагерей.</Text>
+    </Replace>
+
+	    
+	    
+		<Replace Tag="LOC_POLICY_ILKUM_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству строителей.</Text>
+        </Replace>
+	    	
+		<Replace Tag="LOC_POLICY_SERFDOM_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству строителей. Новые строители получают 1 дополнительный заряд.</Text>
+        </Replace>	
+		
+		<Replace Tag="LOC_POLICY_PUBLIC_WORKS_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству строителей. Новые строители получают 2 дополнительных заряда.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_LAND_SURVEYORS_DESCRIPTION" Language="ru_RU">
+            <Text>Снижает стоимость покупки клеток на 25%.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_EXPROPRIATION_DESCRIPTION" Language="ru_RU">
+            <Text>Снижает стоимость покупки клеток на 50%.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_MASS_MIGRATION_NAME" Language="ru_RU">
+          <Text>МАССОВАЯ МИГРАЦИЯ</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_MASS_MIGRATION_DESCRIPTION" Language="ru_RU">
+          <Text>+100% [ICON_Production] к производству поселенцев. +2 [ICON_Movement] очка перемещения поселенцам.</Text>
+        </Replace>
+	    
+		<Replace Tag="LOC_ABILITY_SETTLER_MOVEMENT_TWO_DESCRIPTION" Language="ru_RU">
+          <Text>+2 [ICON_Movement] очка перемещения поселенцам.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_COLONIZATION_DESCRIPTION" Language="ru_RU">
+          <Text>+50% [ICON_Production] к производству поселенцев. +1 [ICON_Movement] очко перемещения поселенцам.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_ABILITY_SETTLER_MOVEMENT_ONE_DESCRIPTION" Language="ru_RU">
+          <Text>+1 [ICON_Movement] очко перемещения поселенцам.</Text>
+        </Replace>
+		
+		
+		<Replace Tag="LOC_POLICY_URBAN_PLANNING_DESCRIPTION" Language="ru_RU">
+            <Text>+1 [ICON_Production] производства +2 [ICON_Gold] золота во всех городах.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_URBAN_EXPANSION_NAME" Language="ru_RU">
+            <Text>РАСШИРЕНИЕ ГОРОДОВ</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_URBAN_EXPANSION_DESCRIPTION" Language="ru_RU">
+            <Text>+2 [ICON_Production] производства +4 [ICON_Gold] золота во всех городах.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_GOD_KING_DESCRIPTION" Language="ru_RU">
+            <Text>+2 [ICON_Culture] культуры +2 [ICON_Faith] веры +2 [ICON_Gold] золота в [ICON_Capital] столице.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_FREE_TRIBE_NAME" Language="ru_RU">
+            <Text>СВОБОДНОЕ ПЛЕМЯ</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_FREE_TRIBE_DESCRIPTION" Language="ru_RU">
+            <Text>+2 [ICON_Food] пищи +2 [ICON_Science] науки +2 [ICON_Production] производства в [ICON_Capital] столице.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_COLONIAL_OFFICES_DESCRIPTION" Language="ru_RU">
+            <Text>+25% к скорости роста и 5 лояльности в ход для городов не на континенте вашей первоначальной [ICON_Capital] столицы.</Text>
+        </Replace>
+		
+		
+		<Replace Tag="LOC_POLICY_INSULAE_DESCRIPTION" Language="ru_RU">
+            <Text>+1 [ICON_Housing] жилье +1 [ICON_Amenities] довольство во всех городах, где есть как минимум 2 специализированных района.</Text>
+        </Replace>
+		
+		
+		
+		<Replace Tag="LOC_POLICY_SKYSCRAPERS_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству всех чудес света.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_GOTHIC_ARCHITECTURE_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству чудес света эпох возрождения, средневековья, античности и древнего мира.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_CORVEE_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству чудес света эпохи древнего мира и античности.</Text>
+        </Replace>
+		
+		
+		<Replace Tag="LOC_POLICY_CARAVANSARIES_DESCRIPTION" Language="ru_RU">
+            <Text>+3 [ICON_Gold] золота от всех [ICON_TradeRoute] торговых путей.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_TRIANGULAR_TRADE_DESCRIPTION" Language="ru_RU">
+            <Text>+6 [ICON_Gold] золота от всех [ICON_TradeRoute] торговых путей.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_ECOMMERCE_EXPANSION1_DESCRIPTION" Language="ru_RU">
+            <Text>+9 [ICON_Gold] золота от всех [ICON_TradeRoute] торговых путей.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_TRADE_CONFEDERATION_DESCRIPTION" Language="ru_RU">
+            <Text>+2 [ICON_Culture] культуры и +2 [ICON_Science] науки от международных [ICON_TradeRoute] торговых путей.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_MARKET_ECONOMY_DESCRIPTION" Language="ru_RU">
+            <Text>Ваши международные [ICON_TradeRoute] торговые пути получают +2 [ICON_Gold] золота за каждый редкий ресурс и +2 [ICON_Production] производства за каждый улучшенный стратегический ресурс в пункте назначения.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_DOMESTIC_FOOD_LV1_NAME" Language="ru_RU">
+            <Text>Пополнение запасов №1</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_DOMESTIC_FOOD_LV1_DESCRIPTION" Language="ru_RU">
+            <Text>+3 [ICON_Food] пиши и -3 [ICON_Gold] золота от внутренних [ICON_TradeRoute] торговых путей.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_DOMESTIC_FOOD_LV2_NAME" Language="ru_RU">
+            <Text>Пополнение запасов №2</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_DOMESTIC_FOOD_LV2_DESCRIPTION" Language="ru_RU">
+            <Text>+6 [ICON_Food] пиши и -6 [ICON_Gold] золота от внутренних [ICON_TradeRoute] торговых путей.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_DOMESTIC_FOOD_LV3_NAME" Language="ru_RU">
+            <Text>Пополнение запасов №2</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_DOMESTIC_FOOD_LV3_DESCRIPTION" Language="ru_RU">
+            <Text>+9 [ICON_Food] пиши и -9 [ICON_Gold] золота от внутренних [ICON_TradeRoute] торговых путей.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_INTERNATIONAL_FOOD_LV1_NAME" Language="ru_RU">
+            <Text>Торговля зерном №1</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_INTERNATIONAL_FOOD_LV1_DESCRIPTION" Language="ru_RU">
+            <Text>+3 [ICON_Food] пиши и -3 [ICON_Gold] золота от международных [ICON_TradeRoute] торговых путей.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_INTERNATIONAL_FOOD_LV2_NAME" Language="ru_RU">
+            <Text>Торговля зерном №2</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_INTERNATIONAL_FOOD_LV2_DESCRIPTION" Language="ru_RU">
+            <Text>+6 [ICON_Food] пиши и -6 [ICON_Gold] золота от международных [ICON_TradeRoute] торговых путей.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_INTERNATIONAL_FOOD_LV3_NAME" Language="ru_RU">
+            <Text>Торговля зерном №3</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_INTERNATIONAL_FOOD_LV3_DESCRIPTION" Language="ru_RU">
+            <Text>+9 [ICON_Food] пиши и -9 [ICON_Gold] золота от международных [ICON_TradeRoute] торговых путей.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_ONLINE_COMMUNITIES_DESCRIPTION" Language="ru_RU">
+            <Text>+100% [ICON_Tourism] туризма цивилизациям, к которым у вас есть [ICON_TradeRoute] торговый путь.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_MEDIA_TRANSMISSION_NAME" Language="ru_RU">
+            <Text>СМИ</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_MEDIA_TRANSMISSION_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Tourism] туризма цивилизациям, к которым у вас есть [ICON_TradeRoute] торговый путь.</Text>
+        </Replace>
+		
+		
+		<Replace Tag="LOC_POLICY_RELAXATION_NAME" Language="ru_RU">
+            <Text>ОТДЫХ</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_RELAXATION_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству (национальных) аквапарков и развлекательных комплексов и зданий для этих районах.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_SACRED_NAME" Language="ru_RU">
+            <Text>СВЯЩЕННОСТЬ</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_SACRED_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству (национальных) священных мест и зданий в этих районах.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_SEAFAIRING_NAME" Language="ru_RU">
+            <Text>МОРЕПЛАВАНИЕ</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_SEAFAIRING_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству (национальных) гаваней и зданий в этих районах.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_ARTS_HUMANITIES_NAME" Language="ru_RU">
+            <Text>ГУМАНИТАРНЫЕ ИСКУССТВА</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_ARTS_HUMANITIES_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству (национальных) театральных площадей и зданий в этих районах.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_MANUFACTURE_NAME" Language="ru_RU">
+            <Text>МАНУФАКТУРЫ</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_MANUFACTURE_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству (национальных) промышленных зон и зданий в этих районах.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_BUSINESS_NAME" Language="ru_RU">
+            <Text>БИЗНЕС</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_BUSINESS_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству (национальных) коммерческих центров и зданий в этих районах.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_MOTIVATION_NAME" Language="ru_RU">
+            <Text>МОТИВАЦИЯ</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_MOTIVATION_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству (национальных) кампусов и зданий в этих районах.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_VETERANCY_DESCRIPTION_XP2" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству (национальных) военных лагерей и зданий в этих районах.</Text>
+        </Replace>	
+		
+		<Replace Tag="LOC_POLICY_INSULAE_NAME" Language="ru_RU">
+            <Text>КАПИТАЛЬНОЕ СТРОИТЕЛЬСТВО</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_INSULAE_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству правительственной площади, а так же зданиям в ней и в центрах города.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_AIRFORCE_NAME" Language="ru_RU">
+            <Text>ВВС</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_AIRFORCE_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству аэродромов и космопортов, а так же зданиям в них.</Text>
+        </Replace>		
+		
+		<Replace Tag="LOC_POLICY_WATER_CONSERVANCY_NAME" Language="ru_RU">
+            <Text>ОХРАНА ВОДНЫХ РЕСУРСОВ</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_WATER_CONSERVANCY_DESCRIPTION" Language="ru_RU">
+            <Text>+50% [ICON_Production] к производству акведуков, дамб, каналов, пригородов и зданий в этих районах.</Text>
+        </Replace>		
+		
+		
+		<Replace Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION" Language="ru_RU">
+            <Text>+25% [ICON_Faith] веры от зданий в священных местах, дополнительно +25% от каждых 10 [ICON_CITIZEN] жителей в городе (максимум 150%).</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_RATIONALISM_DESCRIPTION" Language="ru_RU">
+            <Text>+25% [ICON_Science] науки от зданий в кампусах, дополнительно +25% от каждых 10 [ICON_CITIZEN] жителей в городе (максимум 150%).</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION" Language="ru_RU">
+            <Text>+25% [ICON_Culture] культуры от зданий в театральных площадях, дополнительно +25% от каждых 10 [ICON_CITIZEN] жителей в городе (максимум 150%).</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION" Language="ru_RU">
+            <Text>+25% [ICON_Gold] золота от зданий в коммерческих центрах, дополнительно +25% от каждых 10 [ICON_CITIZEN] жителей в городе (максимум 150%).</Text>
+        </Replace>
+		
+		
+		<Replace Tag="LOC_POLICY_COLLECTIVE_PRODUCTION_NAME" Language="ru_RU">
+            <Text>КОЛЛЕКТИВНОЕ ПРОИЗВОДСТВО</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_COLLECTIVE_PRODUCTION_DESCRIPTION" Language="ru_RU">
+            <Text>Бонус [ICON_Production] производства промышленной зоны от соседства дает столько же [ICON_SCIENCE] науки и [ICON_Culture] культуры.</Text>
+        </Replace>	
+		
+		<Replace Tag="LOC_POLICY_RESEARCH_FUNDING_NAME" Language="ru_RU">
+            <Text>ФИНАНСИРОВАНИЕ ИССЛЕДОВАНИЙ</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_RESEARCH_FUNDING_DESCRIPTION" Language="ru_RU">
+            <Text>Бонус [ICON_GOLD] золота коммерческого центра от соседства дает столько же [ICON_Science] науки. Бонус [ICON_Science] науки кампуса от соседства дает столько же [ICON_Culture].</Text>
+        </Replace>	
+		
+		<Replace Tag="LOC_POLICY_BIG_EXPANSION_NAME" Language="ru_RU">
+            <Text>Закоеанские экспедиции</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_BIG_EXPANSION_DESCRIPTION" Language="ru_RU">
+            <Text>Бонус [ICON_GOLD] золота гавани от соседства дает столько же [ICON_FOOD] пищи и [ICON_SCIENCE] науки.</Text>
+        </Replace>	
+		
+		<Replace Tag="LOC_POLICY_PROSPEROUS_PORT_NAME" Language="ru_RU">
+            <Text>ПРОЦВЕТАЮЩИЙ ПОРТ</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_PROSPEROUS_PORT_DESCRIPTION" Language="ru_RU">
+            <Text>Бонус [ICON_GOLD] золота гавани от соседства дает столько же [ICON_Culture] культуры и [ICON_PRODUCTION] производства.</Text>
+        </Replace>	
+		
+	    <Replace Tag="LOC_POLICY_CIVIL_PRESTIGE_DESCRIPTION" Language="ru_RU">
+        <Text>Назначенные [ICON_GOVERNOR] губернаторы с как минимум двумя повышениями дают +3 ко всем видам дохода.</Text>
+        </Replace>
+	
+	<Replace Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION_XP2" Language="ru_RU">
+      <Text>Каждый морской порт, угольная, мазутная и атомная электростанция дают +3 ко всем видам дохода.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_MARTIAL_LAW_DESCRIPTION_XP2" Language="ru_RU">
+      <Text>Все юниты получают +5 [ICON_Strength] к боевой мощи. Накапливается на 50% меньше усталости от войны, чем обычно. Города с гарнизоном получают +5 лояльности за ход. </Text>
+    </Replace>
+	    
+		<Replace Tag="LOC_POLICY_CHURCH_COMMUNITY_NAME" Language="ru_RU">
+            <Text>ЦЕРКОВНАЯ ОБЩИНА</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_CHURCH_COMMUNITY_DESCRIPTION" Language="ru_RU">
+            <Text>Бонус [ICON_SCIENCE] науки, [ICON_Culture] культуры и [ICON_Gold] золота от соседства кампусов, театральных площадей и коммерческих центров дает столько же [ICON_Faith] веры.</Text>
+        </Replace>	
+	
+	<Replace Tag="LOC_POLICY_COLLECTIVIZATION_DESCRIPTION_XP2" Language="ru_RU">
+      <Text>+5 [ICON_Production] производства +5 [ICON_Food] пищи от внутренних [ICON_TradeRoute] торговых путей.</Text>
+    </Replace>
+	
+		<Replace Tag="LOC_POLICY_MEDINA_QUARTER_DESCRIPTION" Language="ru_RU">
+            <Text>+1 [ICON_Food] пищи +1 [ICON_Production] производства за каждый район в городах.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_NEW_DEAL_DESCRIPTION_XP2" Language="ru_RU">
+            <Text>+1 [ICON_Amenities] довольства и +1 [ICON_Gold] золота за каждого [ICON_CITIZEN] жителя во всех городах.</Text>
+        </Replace>
+    
+	<Replace Tag="LOC_POLICY_WARS_OF_RELIGION_DESCRIPTION" Language="ru_RU">
+      <Text>+5 [ICON_Religion] религиозной силы в теологических баталиях. +5 [ICON_Strength] к боевой мощи, когда нерелигиозный юнит сражается с цивилизацией, исповедующей другую религию.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_ABILITY_FASCISM_LEGACY_ATTACK_BUFF_MODIFIER_DESCRIPTION" Language="ru_RU">
+      <Text>+5 от военного положения</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_PROMOTION_COMBAT_WARS_OF_RELIGION" Language="ru_RU">
+      <Text>Религиозные войны: +5 [ICON_Strength] к боевой мощи против цивилизаций, исповедующих другую религию.</Text>
+    </Replace>
+		
+		
+		<Replace Tag="LOC_POLICY_STRATEGOS_DESCRIPTION" Language="ru_RU">
+        <Text>+100% очков [ICON_GreatGeneral] великих генералов.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_NAVIGATION_DESCRIPTION" Language="ru_RU">
+        <Text>+100% очков [ICON_GreatAdmiral] великих адмиралов.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_MILITARY_ORGANIZATION_DESCRIPTION" Language="ru_RU">
+        <Text>+100% очков [ICON_GreatGeneral] великих генералов и [ICON_GreatAdmiral] великих адмиралов.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_INSPIRATION_DESCRIPTION" Language="ru_RU">
+        <Text>+100% очков [ICON_GreatScientist] великих ученых.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_REVELATION_DESCRIPTION" Language="ru_RU">
+        <Text>+100% очков [ICON_GreatProphet] великих пророков.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_TRAVELING_MERCHANTS_DESCRIPTION" Language="ru_RU">
+        <Text>+100% очков [ICON_GreatMerchant] великих торговцев.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_INVENTION_DESCRIPTION_XP2" Language="ru_RU">
+        <Text>+100% очков [ICON_GreatEngineer] великих инженеров.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_LITERARY_TRADITION_DESCRIPTION" Language="ru_RU">
+        <Text>+100% очков [ICON_GreatWriter] великих писателей.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_FRESCOES_DESCRIPTION_XP2" Language="ru_RU">
+        <Text>+100% очков [ICON_GreatArtist] великих художников.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_SYMPHONIES_DESCRIPTION_XP2" Language="ru_RU">
+        <Text>+100% очков [ICON_GreatMusician] великих музыкантов.</Text>
+        </Replace>	
+		
+		
+		
+	
+	<Replace Tag="LOC_POLICY_MUSIC_CENSORSHIP_DESCRIPTION" Language="ru_RU">
+      <Text>Рок-группы других игроков не могут находиться на вашей территории.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_PRAETORIUM_DESCRIPTION" Language="ru_RU">
+      <Text>+3 [ICON_Favor] очка мирового влияния в ход.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_DIPLOMATIC_OFFICE_NAME" Language="ru_RU">
+      <Text>Дипломатический офис</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_DIPLOMATIC_OFFICE_DESCRIPTION" Language="ru_RU">
+      <Text>+6 [ICON_Favor] очков мирового влияния в ход.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_COMMUNICATIONS_OFFICE_DESCRIPTION" Language="ru_RU">
+      <Text>+9 [ICON_Favor] очков мирового влияния в ход.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_MERCHANT_CONFEDERATION_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота +1 [ICON_Science] науки от каждого [ICON_Envoy] посла в городах-государствах.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_CULTURAL_EXCHANGE_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Faith] веры +1 [ICON_Culture] культуры от каждого [ICON_Envoy] посла в городах-государствах.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_CULTURAL_EXCHANGE_NAME" Language="ru_RU">
+      <Text>Культурный обмен</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_FUTURE_VICTORY_DIPLOMATIC_DESCRIPTION" Language="ru_RU">
+      <Text>+12 [ICON_Favor] очков мирового влияния в ход.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_RAJ_DESCRIPTION_XP2" Language="ru_RU">
+      <Text>+5 [ICON_Science] науки, [ICON_Culture] культуры, [ICON_Faith] веры и [ICON_Gold] золота в ход от городов-государств, сюзереном которых вы являетесь.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_GUNBOAT_DIPLOMACY_DESCRIPTION" Language="ru_RU">
+      <Text>Открытые границы со всеми городами-государствами и +9 очков влияния к получению [ICON_Envoy] послов в ход.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_CHARISMATIC_LEADER_DESCRIPTION" Language="ru_RU">
+      <Text>+3 очка влияния за ход для получения [ICON_Envoy] послов.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_CONCILIATION_NAME" Language="ru_RU">
+      <Text>ПРИМИРЕНИЕ</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_CONCILIATION_DESCRIPTION" Language="ru_RU">
+      <Text>Открытые границы со всеми городами-государствами и +6 очков влияния к получению [ICON_Envoy] послов в ход.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_OPTIMAL_MANAGEMENT_NAME" Language="ru_RU">
+      <Text>ОПТИМАЛЬНОЕ УПРАВЛЕНИЕ</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_OPTIMAL_MANAGEMENT_DESCRIPTION" Language="ru_RU">
+      <Text>Содержание каждого юнита снижено на 3 [ICON_Gold] золота в ход.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_LEVEE_EN_MASSE_DESCRIPTION" Language="ru_RU">
+      <Text>Содержание каждого юнита снижено на 2 [ICON_Gold] золота в ход.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_COLLECTIVE_ACTIVISM_DESCRIPTION" Language="ru_RU">
+      <Text>+3% [ICON_Culture] культуры за каждый город-государство, сюзереном которого вы являетесь.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_INTERNATIONAL_SPACE_AGENCY_DESCRIPTION" Language="ru_RU">
+      <Text>+3% [ICON_Science] науки за каждый город-государство, сюзереном которого вы являетесь.</Text>
+    </Replace>
+		
+		
+		<Replace Tag="LOC_POLICY_NATURAL_PHILOSOPHY_DESCRIPTION" Language="ru_RU">
+        <Text>+50% к бонусу [ICON_Science] науки за соседство кампуса, еще +50% если соседствует с другим кампусом.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_TOWN_CHARTERS_DESCRIPTION" Language="ru_RU">
+        <Text>+50% к бонусу [ICON_Gold] золота за соседство коммерческого центра, еще +50% если соседствует с другим коммерческим центром.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_AESTHETICS_DESCRIPTION" Language="ru_RU">
+        <Text>+50% к бонусу [ICON_Culture] культуры за соседство театральной площади, еще +50% если соседствует с другой театральной площадью.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_CRAFTSMEN_DESCRIPTION" Language="ru_RU">
+        <Text>+50% к бонусу [ICON_Production] производства за соседство промышленной зоны, еще +50% если соседствует с другой промышленной зоной.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_SCRIPTURE_DESCRIPTION" Language="ru_RU">
+        <Text>+50% к бонусу [ICON_Faith] веры за соседство священного места, еще +50% если соседствует с другим священным местом.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_POLICY_NAVAL_INFRASTRUCTURE_DESCRIPTION" Language="ru_RU">
+        <Text>+50% к бонусу [ICON_Gold] золота за соседство гавани, еще +50% если соседствует с другой гаванью.</Text>
+        </Replace>
+		
+		
+		<Replace Tag="LOC_POLICY_GA_RAPID_MARCH_NAME" Language="ru_RU">
+			<Text>Быстрый марш</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_POLICY_GA_RAPID_MARCH_DESCRIPTION" Language="ru_RU">
+			<Text>Боевые юниты получают +1 [ICON_Movement] к перемещению, а также +1 [ICON_Gold] к содержанию.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_POLICY_GA_SURROUND_NAME" Language="ru_RU">
+			<Text>Окружение и уничтожение</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_POLICY_GA_SURROUND_DESCRIPTION" Language="ru_RU">
+			<Text>+100% бонус за атаку с фланга.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_POLICY_GA_EMBATTLE_NAME" Language="ru_RU">
+			<Text>Противоборство</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_POLICY_GA_EMBATTLE_DESCRIPTION" Language="ru_RU">
+			<Text>+100% бонус поддержки.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_POLICY_GA_AMBUSH_NAME" Language="ru_RU">
+			<Text>Засада</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_POLICY_GA_AMBUSH_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Strength] боевой мощи юнитов, сражающихся на клетках джунглей или лесов.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_MODIFIER_POLICY_GA_AMBUSH_BONUS_TEXT" Language="ru_RU">
+			<Text>+{1_Amount} [ICON_Strength] боевой мощи от засады</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_POLICY_GA_GUERRILLA_NAME" Language="ru_RU">
+			<Text>Партизанская тактика</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_POLICY_GA_GUERRILLA_DESCRIPTION" Language="ru_RU">
+			<Text>+10 [ICON_Strength] к боевой мощи юнитов, сражающихся на клетках джунглей или лесов.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_MODIFIER_POLICY_GA_GUERRILLA_BONUS_TEXT" Language="ru_RU">
+			<Text>+{1_Amount} [ICON_Strength] боевой мощи от партизанской тактики</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_POLICY_GA_PROTECTION_SUIT_NAME" Language="ru_RU">
+			<Text>Защитная одежда</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_POLICY_GA_PROTECTION_SUIT_DESCRIPTION" Language="ru_RU">
+			<Text>-75% урона от радиоактивного излучения для юнитов.</Text>
+		</Replace>	
+		
+		<Replace Tag="LOC_POLICY_GA_RATIONS_NAME" Language="ru_RU">
+			<Text>Рацион</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_POLICY_GA_RATIONS_DESCRIPTION" Language="ru_RU">
+			<Text>Боевые юниты восстанавлтвают дополнительно 5 ед. здоровья, когда [ICON_FORTIFIED] укреплены.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_POLICY_GA_MILITARY_SUPPLIES_NAME" Language="ru_RU">
+			<Text>Военные поставки</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_POLICY_GA_MILITARY_SUPPLIES_DESCRIPTION" Language="ru_RU">
+			<Text>Юниты восстанавлтвают дополнительно 10 ед. здоровья, когда [ICON_FORTIFIED] укреплены.</Text>
+		</Replace>	
+	</LocalizedText>
+</GameData>

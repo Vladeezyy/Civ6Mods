@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SlavicRurik_Modifiers -->
+<!-- Author: Anton -->
+<!-- DateCreated: 2/25/2021 10:44:03 AM -->
+<GameData>
+
+	<Types>
+		<Row Type="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_LAND_RANGE" Kind="KIND_MODIFIER"/>
+	</Types>
+
+
+	
+<!--! Civ's First effect-->
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_INSTITUT_ADD_TRADER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<OwnerRequirementsetId>PLAYER_HAS_TRADE_AND_CAPITAL</OwnerRequirementsetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_INSTITUT_ADD_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<OwnerRequirementsetId>PLAYER_HAS_TRADE_AND_CAPITAL</OwnerRequirementsetId>
+		</Row>
+
+<!-- Civ's Second effect -->
+
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_BARRACKS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_BARRACKS_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_STABLE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_STABLE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_ARMORY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_ARMORY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_MILITARY_ACADEMY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_MILITARY_ACADEMY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		
+		<!-- Leader Trait Modifiers-->
+
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_RURIK_IDENTITY_FROM_DOMESTIC_TRADE_ROUTES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLAYER_IDENTITY_PER_TURN_FOR_DOMESTIC_TRADE_ROUTE_ORIGIN</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_MODIFIER_DOMESTIC_TRADING_POST_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_POST_IN_OWN_CITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_INSTITUT_ADD_TRADER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TRADER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INSTITUT_ADD_TRADER</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INSTITUT_ADD_TRADER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INSTITUT_ADD_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<!-- Civ's Second Trait -->
+		
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_BARRACKS_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_BARRACKS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_BARRACKS_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_BARRACKS_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_BARRACKS_GOLD</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_BARRACKS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_BARRACKS_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_BARRACKS_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_STABLE_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_STABLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_STABLE_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_STABLE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_STABLE_GOLD</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_STABLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_STABLE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_STABLE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_ARMORY_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_ARMORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_ARMORY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_ARMORY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_ARMORY_GOLD</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_ARMORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_ARMORY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_ARMORY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_MILITARY_ACADEMY_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MILITARY_ACADEMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_MILITARY_ACADEMY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_MILITARY_ACADEMY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_MILITARY_ACADEMY_GOLD</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MILITARY_ACADEMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_MILITARY_ACADEMY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_KREMLIN_MILITARY_ACADEMY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<!-- Leader Trait Modifiers Arguments-->
+
+		<Row>
+			<ModifierId>TRAIT_SLAVIC_RURIK_IDENTITY_FROM_DOMESTIC_TRADE_ROUTES</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_MODIFIER_DOMESTIC_TRADING_POST_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_MODIFIER_DOMESTIC_TRADING_POST_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_TRADE_AND_CAPITAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_TRADE_CIVIC</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_TRADE_AND_CAPITAL</RequirementSetId>
+			<RequirementId>REQUIRES_CAPITAL_CITY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_TRADE_AND_CAPITAL</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_TRADE_CIVIC</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_TRADE_CIVIC</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_FOREIGN_TRADE</Value>
+		</Row>
+	</RequirementArguments>
+
+	<DynamicModifiers>
+
+	</DynamicModifiers>
+</GameData>

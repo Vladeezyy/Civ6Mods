@@ -1,0 +1,9 @@
+<GameData>
+    <LocalizedText>	
+
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_XP2" Language="ru_RU">
+      <Text>+5 ко всем типам дохода для городов со зданием коммерческого центра 3-го уровня.</Text>
+    </Replace>
+
+	</LocalizedText>
+</GameData>

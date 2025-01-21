@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+	<IconTextureAtlases>
+		<Row Name="WONDER_AL_PETERS" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="WONDER_STPETER_32.dds"/>
+		<Row Name="WONDER_AL_PETERS" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="WONDER_STPETER_38.dds"/>
+		<Row Name="WONDER_AL_PETERS" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="WONDER_STPETER_50.dds"/>
+		<Row Name="WONDER_AL_PETERS" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="WONDER_STPETER_64.dds"/>
+		<Row Name="WONDER_AL_PETERS" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="WONDER_STPETER_128.dds"/>
+		<Row Name="WONDER_AL_PETERS" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="WONDER_STPETER_256.dds"/>
+
+	</IconTextureAtlases>	
+
+	<IconDefinitions>
+
+		<Row Name="ICON_BUILDING_AL_STPETERSBASILICA" Atlas="WONDER_AL_PETERS" Index="0"/>
+		<Row Name="ICON_BUILDING_AL_STPETERSBASILICA_FOW" Atlas="WONDER_AL_PETERS" Index="0"/>					
+
+	</IconDefinitions>
+</GameData>

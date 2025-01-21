@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a64e1c66-ce48-4d80-8225-47402db353aa" version="1">
+  <Properties>
+    <Name>Leugi's [COLOR:ResGoldLabelCS]Monopoly++:[ENDCOLOR] Corporation and Product Adjustments</Name>
+    <Description>[COLOR:ResGoldLabelCS]Leugi's Monopoly ++[ENDCOLOR][NEWLINE][NEWLINE]Collection of mods aimed at adding some more flavour and making some adjustments to the Monopoly mode and to Tourism+Gold interaction.[NEWLINE][NEWLINE][COLOR:ResGoldLabelCS]Corporation and Product Adjustments[ENDCOLOR][NEWLINE][NEWLINE]Adjusts Corporations so they grant Tourism based on the Gold of their tile. Products within the territory of Foreign Civilizations increase the Gold of their Corporation's til further allowing you to capitalize on Corporation Tourism. The mod also changes the distribution of Product slots between Stock Exchanges, Seaports, Factories, Shopping Malls and Food Markets.</Description>
+    <Created>1620416262</Created>
+    <Teaser>Last Update: May 2021</Teaser>
+    <Authors>Leugi</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" title="DLC: Kublai Khan and Vietnam" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="Monopolies_Mode">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <Criteria>Monopolies_Mode</Criteria>
+      <File>Core/MonopolyPlus_CorporationAdjustments.sql</File>
+      <File>Core/MonopolyPlus_ProductAdjustments.sql</File>
+      <File>Core/MonopolyPlusAdjustments_GreatPeople.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Texts">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <Criteria>Monopolies_Mode</Criteria>
+      <File>Text/MonopolyPlus_Texts.sql</File>
+      <File>Text/MonopolyPlusAdjustments_GreatPeopleTexts.sql</File>
+    </UpdateText>
+    <UpdateArt id="aRTS">
+      <File>MonopolyPlusAdjustments.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="JNRCompat">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Criteria>Monopolies_Mode</Criteria>
+      <Required mod_id="52c17bf1-d630-42c8-a2d6-f20d8e019993" action_id="GameplayModes_Corporations" />
+      <File>Core/MonopolyPlusProducts_JNRCompatibility.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/GreatPersonIndividuals.artdef</File>
+    <File>Core/MonopolyPlusAdjustments_GreatPeople.sql</File>
+    <File>Core/MonopolyPlusProducts_JNRCompatibility.sql</File>
+    <File>Core/MonopolyPlus_CorporationAdjustments.sql</File>
+    <File>Core/MonopolyPlus_ProductAdjustments.sql</File>
+    <File>MonopolyPlusAdjustments.dep</File>
+    <File>Text/MonopolyPlusAdjustments_GreatPeopleTexts.sql</File>
+    <File>Text/MonopolyPlus_Texts.sql</File>
+  </Files>
+</Mod>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_HGI_HAPPINESS" Language="ru_RU">
+			<Text>Счастье в ваших городах[newline](вызвано [ICON_AMENITIES] довольством)[newline][newline]Города в экстазе: {1}[newline]Счастливые города: {2}[newline]Удовлетворенные города: {3}[newline]Недовольные или несчастные города: {4}[newline]Города в беспорядках или восстаниях: {5}</Text>
+		</Replace>
+		<Replace Tag="LOC_HGI_GROWTH" Language="ru_RU">
+			<Text>Рост ваших городов[newline](вызван [ICON_HOUSING] жильем)[newline][newline]Города с нормальным ростом: {1}[newline]Города с замедленным ростом: {2}[newline]Города без роста[newline](включая оккупированные города): {3}</Text>
+		</Replace>
+		<Replace Tag="LOC_HGI_SPIES" Language="ru_RU">
+			<Text>Шпионы: {1}[newline]Шпионский потенциал: {2}[newline][newline]Культурные исследования - главный источник[newline]шпионского потенциала.</Text>
+		</Replace>
+		<Replace Tag="LOC_HGI_LUXURY_RESOURCES" Language="ru_RU">
+			<Text>Типы редких ресурсов: {1}[newline]Всего редких ресурсов: {2}</Text>
+		</Replace>
+		<Replace Tag="LOC_ESPIONAGEOVERVIEW_OPERATIVES_HEADER" Language="ru_RU">
+			<Text>Шпионы</Text>
+		</Replace>
+		<Replace Tag="LOC_ESPIONAGEOVERVIEW_OPERATIVES_SUBHEADER" Language="ru_RU">
+			<Text>ШПИОНЫ ({1_NumberOfSpies}/{2_SpyCapacity})</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

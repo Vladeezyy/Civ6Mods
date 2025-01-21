@@ -1,0 +1,314 @@
+<GameData>
+    <LocalizedText>
+	<!--万神殿-->		
+	
+	<Replace Tag="LOC_BELIEF_FERTILITY_RITES_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Faith] веры от ферм.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Faith] веры от улучшенных стратегических ресурсов.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Faith] веры от пастбищ.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GOD_OF_THE_SEA_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Faith] веры от рыбацких суден.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_STONE_CIRCLES_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Faith] веры от каменоломен.</Text>
+    </Replace>
+	
+	 <Replace Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Faith] веры от лагерей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GODDESS_OF_FESTIVALS_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Faith] веры от плантаций.</Text>
+    </Replace>		
+	
+	<Replace Tag="LOC_BELIEF_GODDESS_OF_THE_HARVEST_DESCRIPTION" Language="ru_RU">
+      <Text>Убирание ресурса или удаление особенности ландшафта дает [ICON_Faith] веру, равную 25% от полученного дохода.</Text>
+    </Replace>	 
+	
+	<Replace Tag="LOC_BELIEF_INITIATION_RITES_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>+200 [ICON_Faith] веры от каждого зачищенного аванпоста варваров.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Faith] веры от болот оазисом и пойм рек.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_BELIEF_ORAL_TRADITION_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Faith] веры от лесов.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Faith] веры от рудников редких и бонусных ресурсов.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_BELIEF_RIVER_GODDESS_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Faith] веры от клеток находящимся у реки в двух клетках от священного места.</Text>
+    </Replace>		
+    
+	<Replace Tag="LOC_BELIEF_SACRED_PATH_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Faith] веры от джунглей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_DEFENDER_OF_FAITH_DESCRIPTION" Language="ru_RU">
+      <Text>Боевые юниты получают +5 [ICON_Strength] к боевой мощи, когда находятся в границах дружественных городов, исповедующих эту религию. Увеличивает исцеление юнитов на +20 в вашем священном месте или его соседних клетках.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GODDESS_OF_FIRE_DESCRIPTION" Language="ru_RU">
+      <Text>+3 [ICON_Faith] веры от геотермальных полей и вулканической почвы.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GOLDEN_SEA_GODDESS_NAME" Language="ru_RU">
+      <Text>Морская богиня|морской богини|морской богине|морскую богиню|морской богиней|морской богине</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GOLDEN_SEA_GODDESS_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Faith] веры от клеток побережья и озера.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Faith] веры от клеток тундры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_DESERT_FOLKLORE_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Faith] веры от клеток пустыни.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GOLDEN_GOD_OF_MOUNTAINS_NAME" Language="ru_RU">
+      <Text>Богиня гор|богини гор|богине гор|богиню гор|богиней гор|богине гор</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GOLDEN_GOD_OF_MOUNTAINS_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Faith] веры от гор.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GOLDEN_NATURE_UNITY_NAME" Language="ru_RU">
+      <Text>Единство природы|единства природы|единству природы|единство природы|единством природы|единстве природы</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GOLDEN_NATURE_UNITY_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Faith] веры от клеток в 3 радиусах от столицы.</Text>
+    </Replace>
+	
+	
+	<Replace Tag="LOC_BELIEF_JESUIT_EDUCATION_DESCRIPTION" Language="ru_RU">
+      <Text>Можно покупать здания кампуса, священного места и театральной площади за [ICON_Faith] веру.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_DIVINE_SPARK_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>+1 очко [ICON_GreatPerson] великого человека для священного места (пророк), кампуса (ученый), театральной площади (писатель, художник, музыкант), торгового центра (торговец), промышленной зоны (инженер), военного лагеря (генерал), гавани (адмирал).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GOD_OF_WAR_DESCRIPTION" Language="ru_RU">
+      <Text>+30% [ICON_Production] к производству военных юнитов. Бонус [ICON_Faith] веры, равный 100% силы боевого юнита, убитого в пределах 8 клеток от священного места.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_RELIGIOUS_SETTLEMENTS_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Темпы роста города на 20% выше. Скорость расширения границы на 30% выше. Увеличивает исцеление ваших религиозных юнитов на +10 в священных местах городов, исповедубщих вашу религию, или в любых соседних клетках.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_HOLY_ORDER_DESCRIPTION" Language="ru_RU">
+      <Text>Покупка миссионеров, апостолов и гуру на 25% дешевле. Позволяет тратить [ICON_FAITH] веру на покупку монахов-воинов (наземный боевой юнит).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_RELIGIOUS_COLONIZATION_DESCRIPTION" Language="ru_RU">
+      <Text>Города при основании получают эту религию, если они основаны игроком, исповедующим эту религию в большинстве городов. Культурный захват соседних клеток при завершении священного места. +100% [ICON_Production] к производству районов в городах без специализированного района.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_BELIEF_SCRIPTURE_DESCRIPTION" Language="ru_RU">
+      <Text>Религиозное влияние из соседнего города на 50% сильнее. Повышается до 100% после исследования книгопечатания. Религия распространяется в города на 50% дальше. </Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_BELIEF_MISSIONARY_ZEAL_DESCRIPTION" Language="ru_RU">
+      <Text>Религиозные юниты игнорируют [ICON_Movement] стоимость перемещения местности и особенностей ландшафта. Давление вашей религии никогда не падает из-за потерь в теологических баталиях.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_SACRED_SYMBOL_NAME" Language="ru_RU">
+      <Text>Священный символ|священного символа|священному символу|священный символ|священным символом|священном символе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_SACRED_SYMBOL_DESCRIPTION" Language="ru_RU">
+      <Text>[ICON_GreatWork_Relic] Реликвии получают утроенный доход [ICON_Tourism] туризма. Чудеса света получают двойной доход [ICON_Tourism] туризма.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_SACRED_SYMBOL_HERO_DESCRIPTION" Language="ru_RU">
+      <Text>[ICON_GreatWork_Relic] Реликвии и [ICON_GreatWork_HeroRelic] героические реликвии получают утроенный доход [ICON_Tourism] туризма. Чудеса света получают двойной доход [ICON_Tourism] туризма.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_ITINERANT_PREACHERS_DESCRIPTION" Language="ru_RU">
+      <Text>Бонус [ICON_Faith] веры за соседство священного места дает столько же [ICON_Gold] золото.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_MANNA_NAME" Language="ru_RU">
+      <Text>Манна небесная|манны небесной|манне небесной|манну небесную|манной небесной|манне небесной</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_MANNA_DESCRIPTION" Language="ru_RU">
+      <Text>Бонус [ICON_Faith] веры за соседство священного места дает столько же [ICON_Food] пищи.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GOLDEN_PSALM_NAME" Language="ru_RU">
+      <Text>Psalm</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GOLDEN_PSALM_DESCRIPTION" Language="ru_RU">
+      <Text>Бонус [ICON_Faith] веры за соседство священного места дает столько же [ICON_Culture] культуры. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_ZEN_MEDITATION_DESCRIPTION" Language="ru_RU">
+      <Text>Бонус [ICON_Faith] веры за соседство священного места дает столько же [ICON_Science] науки.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_BELIEF_CATHEDRAL_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строить соборы (+6 [ICON_Faith] веры, 1 ячейка для религиозного искусства).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GURDWARA_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строить гурдвары (+6 [ICON_Faith] веры, +2 [ICON_Food] пищи, +2 [ICON_Gold] золота).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_MEETING_HOUSE_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строить дома собраний (+6 [ICON_Faith] веры, +3 [ICON_Production] производства).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_MOSQUE_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строить мечети (+6 [ICON_Faith] веры). Миссионеры и апостолы получают +1 заряд.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_PAGODA_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строить пагоды (+6 [ICON_Faith] веры, +1 [ICON_Favor] ед. мирового влияния, +1 очко влияния в ход).</Text>
+    </Replace>
+		
+	<Replace Tag="LOC_BELIEF_SYNAGOGUE_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строить синагоги (+9 [ICON_Faith] веры).</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_BELIEF_WAT_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строить ваты (+6 [ICON_Faith] веры, +3 [ICON_Science] науки).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_STUPA_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строить ступы (+6 [ICON_Faith] веры, +1 [ICON_Amenities] довольства).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_DAR_E_MEHR_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строить храмы огня (+6 [ICON_Faith] веры, еще +3 [ICON_Faith] веры от каждой эпохи с момента постройки или последнего ремонта. Не может быть разграблен стихийными бедствиями. Никаких дополнительных бонусов от электроэнергии).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_DAR_E_MEHR_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>дополнительно +3 [ICON_Faith] веры за каждую эпоху с момента постройки или последнего ремонта. Не может быть разграблен стихийными бедствиями. Никаких дополнительных бонусов от электроэнергии.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_TWELVE_APOSTLES_NAME" Language="ru_RU">
+      <Text>Двенадцать апостолов|двенадцати апостолов|двенадцати апостолам|двенадцать апостолов|двенадцатью апостолами|двенадцати апостолах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_TWELVE_APOSTLES_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Faith] веры за каждых 3 последователей этой религии.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_CHARITABLE_CONTRIBUTION_NAME" Language="ru_RU">
+      <Text>Благотворительный взос|благотворительного взноса|благотворительному взносу|благотворительный взнос|благотворительным взносом|благотворительном взносе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_CHARITABLE_CONTRIBUTION_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота за каждых 3 последователей этой религии.</Text>
+    </Replace>
+
+	
+	<Replace Tag="LOC_BELIEF_PAPAL_PRIMACY_DESCRIPTION" Language="ru_RU">
+      <Text>Когда вы отправляете посла [ICON_ENVOY] в город-государство, он производит 1000 единиц религиозного давления на этот город-государство. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_RELIGIOUS_UNITY_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Envoy] посол в каждом городе-государстве, когда он впервые принимает эту религию, в дополнение к любому послу из задания города-государства. +1 [ICON_Gold] золота，+1 [ICON_Faith] веры от каждого посла [ICON_Envoy].</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_RELIGIOUS_COMMUNITY_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>+1% [ICON_Gold] золота за каждого последователя этой религии в городе.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_DIVINE_INSPIRATION_DESCRIPTION" Language="ru_RU">
+      <Text>+1% [ICON_Faith] веры за каждого последователя этой религии в городе.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_CHORAL_MUSIC_DESCRIPTION" Language="ru_RU">
+      <Text>+1% [ICON_Culture] культуры за каждого последователя этой религии в городе.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_FEED_THE_WORLD_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>+1% [ICON_Food] пищи за каждого последователя этой религии в городе.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_MONASTIC_ISOLATION_DESCRIPTION" Language="ru_RU">
+      <Text>+1% [ICON_Production] производства за каждого последователя этой религии в городе.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_BURIAL_GROUNDS_DESCRIPTION" Language="ru_RU">
+      <Text>+1% [ICON_Science] науки за каждого последователя этой религии в городе.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_BELIEF_JUST_WAR_DESCRIPTION" Language="ru_RU">
+      <Text>Боевые юниты получают +10 [ICON_Strength] к боевой мощи, когда находятся в границах иностранных городов, исповедующих эту религию. Юнит, зачистивший аванпост варваров, восстанавливает +100 ед. здоровья.</Text>
+    </Replace>
+	
+	
+	<Replace Tag="LOC_BUILDING_PAGODA_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>+1 очко [ICON_Favor] мирового влияния, +1 влияния к получению послов в ход.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GOTHIC_CHURCH_NAME" Language="ru_RU">
+      <Text>Готическая церковь|готической церкви|готической церкви|готическую церковь|готической церковью|готической церкви</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_TAOIST_TEMPLE_NAME" Language="ru_RU">
+      <Text>Даосский храм|даосского храма|даосскому храму|даосский храм|даосским храмом|даосском храме</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GOTHIC_CHURCH_NAME" Language="ru_RU">
+      <Text>Готическая церковь|готической церкви|готической церкви|готическую церковь|готической церковью|готической церкви</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_TAOIST_TEMPLE_NAME" Language="ru_RU">
+      <Text>Даосский храм|даосского храма|даосскому храму|даосский храм|даосским храмом|даосском храме</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_GOTHIC_CHURCH_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строить готическую церковь (+6 [ICON_Faith] веры, +3 [ICON_Culture] культуры).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BELIEF_TAOIST_TEMPLE_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строить даосский храм (+6 [ICON_Faith] веры, +2 [ICON_Housing] жилья).</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

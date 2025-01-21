@@ -1,0 +1,16 @@
+<GameData>
+	<LocalizedText>	
+		
+		<Replace Tag="LOC_DIPLOACTION_DENOUNCE_NAME" Language="ru_RU">
+			<Text>Тотальная война</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_DIPLO_CHOICE_DENOUNCE" Language="ru_RU">
+			<Text>[SIZE_16]Тотальная война[NEWLINE][SIZE_12]</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_DIPLOACTION_DENOUNCE_DESCRIPTION" Language="ru_RU">
+			<Text>Никаких обвинений в режиме тотальной войны! Обвинение означает войну!</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>	

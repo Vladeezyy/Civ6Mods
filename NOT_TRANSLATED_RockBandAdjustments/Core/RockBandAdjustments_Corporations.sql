@@ -1,0 +1,105 @@
+--==========================================================================================================================
+-- PROMOTIONS
+--==========================================================================================================================
+INSERT INTO Types
+		(Type,									Kind)
+VALUES	('PROMOTION_LEU_BRAND_AMBASSADOR',		'KIND_PROMOTION');
+
+--
+
+INSERT INTO UnitPromotions
+		(UnitPromotionType,						Name,											Description,											Level,			PromotionClass,					Column)
+VALUES	('PROMOTION_LEU_BRAND_AMBASSADOR',		'LOC_PROMOTION_LEU_BRAND_AMBASSADOR_NAME',		'LOC_PROMOTION_LEU_BRAND_AMBASSADOR_DESCRIPTION',		1,				'PROMOTION_CLASS_ROCK_BAND',	0);
+
+--
+
+INSERT INTO UnitPromotionModifiers
+		(UnitPromotionType,						ModifierId)
+VALUES	('PROMOTION_LEU_BRAND_AMBASSADOR',		'LEU_BRAND_AMBASSADOR_ROCK_TOURISM_BOMB'),
+		('PROMOTION_LEU_BRAND_AMBASSADOR',		'LEU_BRAND_AMBASSADOR_ROCK_LEVEL'),
+		('PROMOTION_LEU_BRAND_AMBASSADOR',		'LEU_BRAND_AMBASSADOR_ROCK_TOURISM_BOMB_INDUSTRY'),
+		('PROMOTION_LEU_BRAND_AMBASSADOR',		'LEU_BRAND_AMBASSADOR_ROCK_LEVEL_INDUSTRY'),
+		('PROMOTION_LEU_BRAND_AMBASSADOR',		'LEU_BRAND_AMBASSADOR_ROCK_COMMERCIAL_HUB'),
+		('PROMOTION_LEU_BRAND_AMBASSADOR',		'LEU_BRAND_AMBASSADOR_ROCK_COMMERCIAL_HUB_MODIFIER');
+
+INSERT OR REPLACE INTO UnitPromotionModifiers
+		(UnitPromotionType,						ModifierId)
+SELECT	'PROMOTION_LEU_BRAND_AMBASSADOR',		'LEU_BRAND_AMBASSADOR_ROCK_'||CivUniqueDistrictType
+FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_COMMERCIAL_HUB';
+
+INSERT OR REPLACE INTO UnitPromotionModifiers
+		(UnitPromotionType,						ModifierId)
+SELECT	'PROMOTION_LEU_BRAND_AMBASSADOR',		'LEU_BRAND_AMBASSADOR_ROCK_'||CivUniqueDistrictType||'_MODIFIER'
+FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_COMMERCIAL_HUB';
+
+--
+
+INSERT INTO Modifiers 
+		(ModifierId,											ModifierType)
+VALUES	('LEU_BRAND_AMBASSADOR_ROCK_TOURISM_BOMB',				'MODIFIER_PLAYER_UNIT_ADJUST_TOURISM_BOMB_IMPROVEMENT'),
+		('LEU_BRAND_AMBASSADOR_ROCK_LEVEL',						'MODIFIER_PLAYER_UNIT_ADJUST_ROCK_BAND_LEVEL_IMPROVEMENT'),
+		('LEU_BRAND_AMBASSADOR_ROCK_TOURISM_BOMB_INDUSTRY',		'MODIFIER_PLAYER_UNIT_ADJUST_TOURISM_BOMB_IMPROVEMENT'),
+		('LEU_BRAND_AMBASSADOR_ROCK_LEVEL_INDUSTRY',			'MODIFIER_PLAYER_UNIT_ADJUST_ROCK_BAND_LEVEL_IMPROVEMENT'),
+		('LEU_BRAND_AMBASSADOR_ROCK_COMMERCIAL_HUB',			'MODIFIER_PLAYER_UNIT_ADJUST_ROCK_BAND_LEVEL_DISTRICT'),
+		('LEU_BRAND_AMBASSADOR_ROCK_COMMERCIAL_HUB_MODIFIER',	'MODIFIER_PLAYER_UNIT_ADJUST_TOURISM_BOMB_DISTRICT');
+
+INSERT INTO Modifiers 
+		(ModifierId,											ModifierType)
+SELECT	'LEU_BRAND_AMBASSADOR_ROCK_'||CivUniqueDistrictType,	'MODIFIER_PLAYER_UNIT_ADJUST_ROCK_BAND_LEVEL_DISTRICT'
+FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_COMMERCIAL_HUB';
+	
+INSERT INTO Modifiers 
+		(ModifierId,														ModifierType)
+SELECT	'LEU_BRAND_AMBASSADOR_ROCK_'||CivUniqueDistrictType||'_MODIFIER',	'MODIFIER_PLAYER_UNIT_ADJUST_TOURISM_BOMB_DISTRICT'
+FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_COMMERCIAL_HUB';
+		
+--
+
+INSERT INTO ModifierArguments
+		(ModifierId,											Name,					Value)
+VALUES	('LEU_BRAND_AMBASSADOR_ROCK_TOURISM_BOMB',				'ImprovementType',		'IMPROVEMENT_CORPORATION'),
+		('LEU_BRAND_AMBASSADOR_ROCK_TOURISM_BOMB',				'Amount',				1000),
+		('LEU_BRAND_AMBASSADOR_ROCK_LEVEL',						'ImprovementType',		'IMPROVEMENT_CORPORATION'),
+		('LEU_BRAND_AMBASSADOR_ROCK_LEVEL',						'Amount',				1),
+		--
+		('LEU_BRAND_AMBASSADOR_ROCK_TOURISM_BOMB_INDUSTRY',		'ImprovementType',		'IMPROVEMENT_INDUSTRY'),
+		('LEU_BRAND_AMBASSADOR_ROCK_TOURISM_BOMB_INDUSTRY',		'Amount',				500),
+		('LEU_BRAND_AMBASSADOR_ROCK_LEVEL_INDUSTRY',			'ImprovementType',		'IMPROVEMENT_INDUSTRY'),
+		('LEU_BRAND_AMBASSADOR_ROCK_LEVEL_INDUSTRY',			'Amount',				1),
+		--
+		('LEU_BRAND_AMBASSADOR_ROCK_COMMERCIAL_HUB',			'DistrictType',			'DISTRICT_COMMERCIAL_HUB'),
+		('LEU_BRAND_AMBASSADOR_ROCK_COMMERCIAL_HUB',			'Amount',				1),
+		('LEU_BRAND_AMBASSADOR_ROCK_COMMERCIAL_HUB_MODIFIER',	'DistrictType',			'DISTRICT_COMMERCIAL_HUB'),
+		('LEU_BRAND_AMBASSADOR_ROCK_COMMERCIAL_HUB_MODIFIER',	'Amount',				500);
+		
+
+INSERT INTO ModifierArguments
+		(ModifierId,											Name,					Value)
+SELECT	'LEU_BRAND_AMBASSADOR_ROCK_'||CivUniqueDistrictType,	'DistrictType',			CivUniqueDistrictType
+FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_COMMERCIAL_HUB';
+
+INSERT INTO ModifierArguments
+		(ModifierId,											Name,					Value)
+SELECT	'LEU_BRAND_AMBASSADOR_ROCK_'||CivUniqueDistrictType,	'Amount',				1
+FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_COMMERCIAL_HUB';
+
+INSERT INTO ModifierArguments
+		(ModifierId,														Name,					Value)
+SELECT	'LEU_BRAND_AMBASSADOR_ROCK_'||CivUniqueDistrictType||'_MODIFIER',	'DistrictType',			CivUniqueDistrictType
+FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_COMMERCIAL_HUB';
+
+
+INSERT INTO ModifierArguments
+		(ModifierId,														Name,				Value)
+SELECT	'LEU_BRAND_AMBASSADOR_ROCK_'||CivUniqueDistrictType||'_MODIFIER',	'Amount',			500
+FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_COMMERCIAL_HUB';
+				
+--
+INSERT INTO Building_TourismBombs_XP2
+		(BuildingType,					TourismBombValue)
+VALUES	('BUILDING_STOCK_EXCHANGE',		500);
+
+INSERT OR REPLACE INTO Building_TourismBombs_XP2
+		(BuildingType,					TourismBombValue)
+SELECT	CivUniqueBuildingType,			500
+FROM BuildingReplaces WHERE ReplacesBuildingType = 'BUILDING_STOCK_EXCHANGE';

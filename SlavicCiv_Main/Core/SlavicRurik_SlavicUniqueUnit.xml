@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SlavicRurik_SlavicUniqueUnit -->
+<!-- Author: Anton -->
+<!-- DateCreated: 1/31/2021 12:22:07 PM -->
+<GameData>
+	<Types>
+		<!-- Recon-->
+		<Row Type="UNIT_SLAVIC_UNIQUE" Kind="KIND_UNIT"/>
+	</Types>
+	<UnitAiInfos>
+		<!-- Recon-->
+		<Row UnitType="UNIT_SLAVIC_UNIQUE" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SLAVIC_UNIQUE" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SLAVIC_UNIQUE" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_SLAVIC_UNIQUE" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<Tags>
+		<!-- for new CLASS_  Abilities, usually defined at unitabilities.xml -->
+		<Row Tag="CLASS_UNIT_SLAVIC_UNIQUE" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<Units>
+		<Row UnitType="UNIT_SLAVIC_UNIQUE" BaseMoves="3" Maintenance="2" Cost="70"  AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SLAVIC_UNIQUE_NAME" Description="LOC_UNIT_SLAVIC_UNIQUE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Combat="35"  Range="1" StrategicResource="RESOURCE_IRON" TraitType="TRAIT_CIVILIZATION_UNIT_SLAVIC_UNIQUE" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_IRON_WORKING"/>
+	</Units>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_SLAVIC_UNIQUE" ReplacesUnitType="UNIT_SWORDSMAN"/>
+	</UnitReplaces>
+	<UnitUpgrades>
+		<Row Unit="UNIT_SLAVIC_UNIQUE" UpgradeUnit="UNIT_MAN_AT_ARMS"/>
+	</UnitUpgrades>
+	<TypeTags>
+		<Row Type="UNIT_SLAVIC_UNIQUE" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_SLAVIC_UNIQUE" Tag="CLASS_UNIT_SLAVIC_UNIQUE"/>
+		<Row Type="ABILITY_UNIT_SLAVIC_UNIQUE" Tag="CLASS_UNIT_SLAVIC_UNIQUE"/>
+	</TypeTags>
+	<Types>
+		<Row Type="ABILITY_UNIT_SLAVIC_UNIQUE" Kind="KIND_ABILITY"/>
+	</Types>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_UNIT_SLAVIC_UNIQUE" Name="LOC_ABILITY_UNIT_SLAVIC_UNIQUE" Description="LOC_ABILITY_UNIT_SLAVIC_UNIQUE_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_UNIT_SLAVIC_UNIQUE" ModifierId="UNIT_SLAVIC_UNIQUE_POST_COMBAT_CULTURE" />
+		<Row UnitAbilityType="ABILITY_UNIT_SLAVIC_UNIQUE" ModifierId="SLAVIC_UNIT_PLAINS_HILLS_BUFF" />
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row ModifierId="UNIT_SLAVIC_UNIQUE_POST_COMBAT_CULTURE" ModifierType="MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD" />
+		<Row>
+			<ModifierId>SLAVIC_UNIT_PLAINS_HILLS_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>SLAVIC_UNIT_PLAINS_HILLS_BUFF_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="UNIT_SLAVIC_UNIQUE_POST_COMBAT_CULTURE" Name="PercentDefeatedStrength" Value="20" />
+		<Row ModifierId="UNIT_SLAVIC_UNIQUE_POST_COMBAT_CULTURE" Name="YieldType" Value="YIELD_CULTURE" />
+		<Row>
+			<ModifierId>SLAVIC_UNIT_PLAINS_HILLS_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>SLAVIC_UNIT_PLAINS_HILLS_BUFF_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>SLAVIC_UNIT_PLAINS_HILLS_BUFF_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_GRASS_TERRAIN_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SLAVIC_UNIT_PLAINS_HILLS_BUFF_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_PLAINS_TERRAIN_REQUIREMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>PLOT_IS_GRASS_TERRAIN_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_PLAINS_TERRAIN_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>PLOT_IS_GRASS_TERRAIN_REQUIREMENT</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_PLAINS_TERRAIN_REQUIREMENT</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS</Value>
+		</Row>
+	</RequirementArguments>
+	<ModifierStrings>
+		<Row ModifierId="SLAVIC_UNIT_PLAINS_HILLS_BUFF" Context="Preview" Text="LOC_ABILITY_COMBAT_SLAVIC_UNIT_DESCRIPTION"/>
+	</ModifierStrings>
+</GameData>

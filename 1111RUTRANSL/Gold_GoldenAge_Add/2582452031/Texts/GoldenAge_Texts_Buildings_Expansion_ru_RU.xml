@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_WORKSHOP_DESCRIPTION" Language="ru_RU">
+			<Text>Каждая лесопилка в городе дает этому зданию +1 [ICON_Production] к производству. Еще +2 [ICON_Production] к производству, если лесопилка находится рядом с этим зданием.[NEWLINE][NEWLINE]Производство этого здания распространяется на все центры города в пределах 3 клеток, которые еще не имеют бонуса от здания промышленной зоны 1-го уровня .</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STONEMASON_DESCRIPTION" Language="ru_RU">
+			<Text>Каждая каменоломня в городе дает этому зданию +1 [ICON_Production] к производству. еще +2 [ICON_Production] к производству, если каменоломня находится рядом с этим зданием.[NEWLINE][NEWLINE]Производство этого здания распространяется на все центры города в пределах 3 клеток, которые еще не имеют бонуса от здания 1-го уровня промышленной зоны.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SMELTERY_DESCRIPTION" Language="ru_RU">
+			<Text>Каждый рудник в городе дает этому зданию +1 [ICON_Production] к производству. Еще +2 [ICON_Production] к производству, если рудник находится рядом с этим зданием.[NEWLINE][NEWLINE]Производство этого здания распространяется на все центры города в пределах 3 клеток, которые еще не имеют бонуса от здания 1-го уровня промышленной зоны.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RAWMATERIAL_DESCRIPTION" Language="ru_RU">
+			<Text>Каждый улучшенный стратегический ресурс в пределах 2 клеток от промышленной зоны дает +2 [ICON_Production] производства для всех сырьевых фабрик в империи.[NEWLINE][COLOR_FLOAT_MILITARY]Отраслевое соревнование: каждая сырьевая фабрика расходует -1 [ICON_Gold] золота за все сырьевые фабрики.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от фабрики.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION" Language="ru_RU">
+			<Text>Автоматически преобразует любое количество угля [ICON_RESOURCE_COAL] в электроэнергию [ICON_Power] для городов в пределах 5 клеток, которым она нужна каждый ход, по курсу:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_COAL] ед. угля [ICON_PowerRight] 6 [ICON_Power] ед. электроэнергии[NEWLINE][ICON_Bullet]Тяжелые выбросы CO2 в атмосферу.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры городов в пределах 5 клеток, которые еще не имеют бонуса от электростанции.[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]В режиме «Охрана окружающей среды» -1 ед. престижа для всех клеток в этом городе из-за загрязнения окружающей среды.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION" Language="ru_RU">
+			<Text>Автоматически превращает любое количество [ICON_RESOURCE_OIL] нефти в [ICON_Power] электроэнергию для городов в пределах 5 клеток, которым она нужна каждый ход, по курсу:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_OIL] ед. нефти [ICON_PowerRight] 9 [ICON_Power] ед. электроэнергии[NEWLINE][ICON_Bullet]Умеренные выбросы CO2 в атмосферу[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры городов в пределах 5 клеток, которые еще не имеют бонуса от электростанции.[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]В режиме «Охрана окружающей среды» -1 ед. престижа для всех клеток в этом городе из-за загрязнения окружающей среды.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION" Language="ru_RU">
+			<Text>Автоматически превращает любое количество [ICON_RESOURCE_URANIUM] урана в [ICON_Power] электроэнергию для городов в пределах 5 клеток, которым она нужна каждый ход, по курсу:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_URANIUM] ед. урана [ICON_PowerRight] 12 [ICON_Power] ед. электроэнергии[NEWLINE][ICON_Bullet]Минимальные выбросы CO2 в атмосферу[NEWLINE]С возрастом после постройки атомной электростанции возрастает вероятность возникновения ядерной аварии. [NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 5 клеток, которые еще не имеют бонуса от электростанции.[NEWLINE][NEWLINE][COLOR_FLOAT_CULTURE]В режиме «Охрана окружающей среды» это здание не вызывает загрязнение окружающей среды.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_DESCRIPTION" Language="ru_RU">
+			<Text>Автоматически преобразует любое количество [ICON_RESOURCE_JNR_BATTERY_CHARGE] источников возобновляемой энергии в [ICON_Power] электроэнергию для городов в пределах 5 клеток, которым она нужна каждый ход, по курсу:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_JNR_BATTERY_CHARGE] ед. источника возобновляемой энергии [ICON_PowerRight] 9 [ICON_Power] ед. электроэнергия[NEWLINE][ICON_Bullet]Нет выброса CO2 в атмосферу.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры городов в пределах 5 клеток, которые еще не имеют бонуса от электростанции.[NEWLINE][NEWLINE] [COLOR_FLOAT_CULTURE]В режиме «Охрана окружающей среды» это здание не загрязняет природу.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ASSEMBLYLINE_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Production] производства на [ICON_Citizen] горожанина в городе.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 6 клеток, которые еще не имеют бонуса от здания промышленной зоны 4-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AUTOMATED_DESCRIPTION" Language="ru_RU">
+			<Text>Специалисты обеспечивают двойное [ICON_Production] производство.[NEWLINE][NEWLINE]Базовое производство этого здания распространяется на все центры городов в пределах 6 клеток, которые еще не имеют бонуса от здания промышленной зоны 4-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_JNR_RENEWABLE_COLLECTION_DESCRIPTION" Language="ru_RU">
+			<Text>Все улучшения возобновляемой энергии в этом городе дают +1 [ICON_RESOURCE_JNR_BATTERY_CHARGE] ед. возобновляемой энергии, но -2 [ICON_Power] электроэнергии для этих улучшений. [NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 6 клеток, которые еще не имеют бонуса от здания промышленной зоны 4-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BIOLOGY_LAB_NAME" Language="ru_RU">
+			<Text>Селекционная лаборатория|селекционной лаборатории|селекционной лабораторие|селекционную лабораторию|селекционной лабораторией|селекционной лаборатории</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ANIMAL_LAB_NAME" Language="ru_RU">
+			<Text>Ветеринарная лаборатория|ветеринарной лаборатории|ветеринарной лабораторие|ветеринарную лабораторию|ветеринарной лабораторией|ветеринарной лаборатории</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LIBRARY_DESCRIPTION" Language="ru_RU">
+			<Text>+2 [ICON_Science] науки за каждую эпоху с момента постройки или последнего ремонта.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры городов в пределах 3 клеток, которые еще не имеют бонуса от здания кампуса 1-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ALCHEMY_HOUSE_DESCRIPTION" Language="ru_RU">
+			<Text>Каждая особенность ландшафта в этом городе дает +1 [ICON_Science] науки для этого здания.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 3 клеток, которые еще не имеют бонуса от здания кампуса 1-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OBSERVATORY_DESCRIPTION" Language="ru_RU">
+			<Text>Клетки гор в этом городе дают +2 [ICON_Science] к науке для этого здания.[NEWLINE][NEWLINE]Его базовый доход распространяется на все центры города в пределах 3 клеток, которые еще не имеют бонуса от здания кампуса 1-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_UNIVERSITY_DESCRIPTION" Language="ru_RU">
+			<Text>Это здание получает бонус [ICON_Science] науки, равный базовому бонусу [ICON_Science] науки от соседства кампуса.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от здание кампуса 2-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ACADEMIC_EXCHANGE_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Science] науки и -1 [ICON_Gold] золота для всех торговых путей. (Накапливается)[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от здания кампуса 2-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION" Language="ru_RU">
+			<Text>Каждый улучшенный морской ресурс (рыбацкре судно и нефтяная платформа) в пределах 3 клеток от кампуса дает +1 [ICON_Science] науки для всех морских лабораторий в империи. [NEWLINE][COLOR_FLOAT_MILITARY]Отраслевое соревнование: каждая морская лаборатория расходует -1 [ICON_Gold] золота за все морские лаборатории.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры городов в пределах 5 клеток, которые еще не имеют бонус от здания кампуса уровня 3.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BIOLOGY_LAB_DESCRIPTION" Language="ru_RU">
+			<Text>Каждый улучшенный наземный растительный ресурс (ферма и плантация) в пределах 2 клеток от кампуса дает +1 [ICON_Science] науки для всех селекционных лабораторий в империи. [NEWLINE][COLOR_FLOAT_MILITARY]Отраслевое соревнование: каждой селекционной лаборатории -1 [ICON_Gold] золота за все селекционные лаборатории.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход от этого здания распространяется на все центры городов в пределах 5 клеток, которых еще нет бонус от здания кампуса 3-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ANIMAL_LAB_DESCRIPTION" Language="ru_RU">
+			<Text>Каждый улучшенный ресурс наземных животных (ферма, пастбище, плантация и лагерь) в пределах 2 клеток от кампуса дает +1 [ICON_Science] науки для всех ветеринарных лабораторий в империи. [NEWLINE][COLOR_FLOAT_MILITARY]Отраслевое соревнование: каждой ветеринарной лабораторие - 1 [ICON_Gold] золота за все ветеринарные лаборатории.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход от этого здания распространяется на все центры города в пределах 5 клеток, которых еще нет бонус от здания кампуса уровня 3.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CHEMISTRY_LAB_DESCRIPTION" Language="ru_RU">
+			<Text>Каждый улучшенный наземный неживой ресурс (рудник, каменоломня и нефтяная скважина) в пределах 2 клеток от кампуса дает +1 [ICON_Science] науки для всех химических лабораторий в империи. [NEWLINE][COLOR_FLOAT_MILITARY]Отраслевой конкурс: каждой химической лаборатории -1 [ICON_Gold] золота за все химические лаборатории.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 5 клеток, которых еще нет бонус от здания кампуса уровня 3.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GIANT_TELESCOPE_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_Production] производства всем проектам космической гонки в вашей империи. [NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 6 клеток, которые еще не имеют бонуса от здания кампуса 4-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HADRON_COLLIDER_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_Production] производства всем проектам оружия массового поражения в вашей империи. [NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 6 клеток, которые еще не имеют бонуса от здания кампуса 4-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SUPER_COMPUTER_DESCRIPTION" Language="ru_RU">
+			<Text>+15% [ICON_Production] производства всем проектам в вашей империи. [NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 6 клеток, которые еще не имеют бонуса от здания кампуса 4-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ALCHEMICAL_SOCIETY_DESCRIPTION" Language="ru_RU">
+			<Text>Уникально для герметического ордена. Заменяет университет. Это здание получает бонус [ICON_Science] науки, равный базовому бонусу соседства [ICON_Science] науки у кампуса. Этот кампус получает бонус [ICON_Gold] золота, равный его бонусу [ICON_Science] науки за соседство.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от здания кампуса 2-го уровня</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MADRASA_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальное здание Аравии. Получает бонус [ICON_Science] науки, равный базовому бонусу соседства [ICON_Science] науки кампуса. Получает бонус [ICON_Faith] веры, равный бонусу соседства кампуса.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от здания кампуса 2-го уровня.</Text>
+		</Replace>
+		<!-- 商业中心		 -->
+		<Replace Tag="LOC_BUILDING_MINT_NAME" Language="ru_RU">
+			<Text>Монетный двор|монетного двора|монетному двору|монетный двор|монетным двором|монетном дворе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_POST_STATION_NAME" Language="ru_RU">
+			<Text>Почтовая станция|почтовой станции|почтовой станцие|почтовую станцию|почтовой станцией|почтовой станцие</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAX_BUREAU_NAME" Language="ru_RU">
+			<Text>Налоговое бюро|налогового бюро|налоговому бюро|налоговое бюро|налоговым бюро|налоговом бюро</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_COMMERCIAL_NAME" Language="ru_RU">
+			<Text>Торговая улица|торговой улицы|торговой улице|торговую улицу|торговой улицей|торговой улице</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STOCK_EXCHANGE_NAME" Language="ru_RU">
+			<Text>Корпорация недвижимости|корпорации недвижимости|корпорацие недвижимости|корпорацию недвижимости|корпорацией недвижимости|</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_URBAN_CONSTRUCTION_NAME" Language="ru_RU">
+			<Text>Строительная корпорация|строительной корпорации|строительной корпорации|строительную корпорацию|строительной корпорацией|строительной корпорации</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MILITARY_CORP_NAME" Language="ru_RU">
+			<Text>Военная корпорация|военной корпорации|военной корпорации|военную корпорацию|военной корпорацией|военной корпорации</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LUXURY_GOODS_NAME" Language="ru_RU">
+			<Text>Глобальная сеть универмагов|глобальной сети универмагов|глобальной сети универмагов|глобальную сеть универмагов|глобальной сетью универмагов|глобальной сети универмагов</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DIGITAL_CURRENCY_NAME" Language="ru_RU">
+			<Text>Высокотехнологическая компания|высокотехнологической компании|высокотехнологической компание|высокотехнологическую компанию|высокотехнологической компанией|высокотехнологической компании</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FINANCIAL_TOWER_NAME" Language="ru_RU">
+			<Text>Международная финансовая корпорация|международной финансовой корпорации|международной финансовой корпорации|международную финансовую корпорацию|международной финансовой корпорацией|международной финансовой корпорации</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MINING_GROUP_NAME" Language="ru_RU">
+			<Text>Мировая горнодобывающая группа|мировой горнодобывающей группы|мировой горнодобывающей группе|мировой горнодобывающую группу|мировой горнодобывающей группой|мировой горнодобывающей группе</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION" Language="ru_RU">
+			<Text>+2 [ICON_Gold] золота за редкие ресурсы в этом городе. [NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь, если в этом городе еще нет маяка.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 3 клеток, которые еще не имеют бонуса от здание коммерческого центра 1-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MINT_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Gold] золота всем клеткам в пределах 2 клеток от этого здания. [NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь, если в этом городе еще нет маяка.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 3 клеток, которые еще не имеют бонуса от здание коммерческого центра 1-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_POST_STATION_DESCRIPTION" Language="ru_RU">
+			<Text>Если в этом городе есть улучшенный [ICON_RESOURCE_HORSES] ресурс лошадей, +1 [ICON_TradeRoute] доступный торговый путь и -1 [ICON_RESOURCE_HORSES] ед. лошадей в ход. [NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь, если в этом городе еще нет маяка.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 3 клеток, которые еще не имеют бонуса от здание коммерческого центра 1-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BANK_DESCRIPTION" Language="ru_RU">
+			<Text>Этот коммерческий центр предоставляет еще 2 ячейки горожан [ICON_Citizen], а его специалисты предоставляют еще 2 [ICON_Gold] золота. [NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь, если в городе проживает не менее 24 [ICON_Citizen] жителей.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от здания коммерческого центра 2-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAX_BUREAU_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Gold] золота за каждого [ICON_Citizen] жителя в городе. [NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь, если в городе проживает не менее 24 жителей [ICON_Citizen].[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от здания коммерческого центра 2-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_COMMERCIAL_DESCRIPTION" Language="ru_RU">
+			<Text>Это здание получает бонус [ICON_Gold] золота, равный базовому бонусу [ICON_Gold] золота за соседство коммерческого центра. [NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь, если в городе проживает не менее 24 [ICON_Citizen] жителей.[NEWLINE][NEWLINE]Базовый доход этого  здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от здания коммерческого центра 2-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION" Language="ru_RU">
+			<Text>Клетки и районы на 5% дешевле покупать за [ICON_Faith] веру и [ICON_Gold] золото в вашей цивилизации. Этот эффект можно суммировать до 6 раз, максимум до 30%.[NEWLINE]Можно покупать районы в этом городе.[NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь, если в городе не менее 36 [ICON_Citizen] жителей.[NEWLINE] [COLOR_FLOAT_MILITARY]Коммерческий конкурс: каждая корпорация недвижимости расходует -1 [ICON_Production] производство за все корпорации недвижимости.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 5 клеток, которые еще не имеют бонус от здания коммерческого центра 3-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_URBAN_CONSTRUCTION_DESCRIPTION" Language="ru_RU">
+			<Text>Здания на 5% дешевле при пркупке за [ICON_Faith] веру и [ICON_Gold] золото в вашей империи. Этот эффект можно суммировать до 6 раз, максимум до 30%. По завершении строительства вы получите 25% [ICON_Gold] золота от стоимости [ICON_Production] производства.[NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь, если в городе не менее 36 [ICON_Citizen] жителей.[NEWLINE][COLOR_FLOAT_MILITARY]Коммерческий конкурс: Каждая городская строительная корпорация расходует -1 [ICON_Production] производство за все городские строительные корпорации.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 5 клеток, которые еще не имеют бонуса от уровня здания коммерческого центра 3-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MILITARY_CORP_DESCRIPTION" Language="ru_RU">
+			<Text>Юниты на 5% дешевле при покупке за [ICON_Faith] веру и [ICON_Gold] золото в вашей империи. Этот эффект можно суммировать до 6 раз, максимум до 30%. [NEWLINE]После создания юнита вы получите 25 % [ICON_Gold] золота от его стоимости [ICON_Production] производства.[NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь, если в городе проживает не менее 36 [ICON_Citizen] жителей.[NEWLINE][COLOR_FLOAT_MILITARY] Коммерческое соревнование: каждая военная корпорация расходует -1 [ICON_Production] производства за все военные корпорации.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход от этого здания распространяется на все центры городов в пределах 5 клеток, которые еще не имеют бонуса от здания коммерческого центра 3-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LUXURY_GOODS_DESCRIPTION" Language="ru_RU">
+			<Text>Ваши [ICON_TradeRoute] торговые пути дают +1 [ICON_Gold] за каждый специализированный район в исходном пункте.[NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь если население города не менее 48 [ICON_Citizen] жителей.[NEWLINE][COLOR_FLOAT_MILITARY]Антимонопольный закон: Каждая глобальная сеть универмагов расходует -3 [ICON_Production] производства за все глобальные сети универмагов.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 6 клеток, которые еще не имеют бонуса от коммерческого центра 4-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DIGITAL_CURRENCY_DESCRIPTION" Language="ru_RU">
+			<Text>Ваши [ICON_TradeRoute] торговые пути дают +1 [ICON_Gold] за каждый специализированный район в пункте назначения.[NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь если население города не менее 48 [ICON_Citizen] жителей.[NEWLINE][COLOR_FLOAT_MILITARY]Антимонопольный закон: Каждая высокотехнологичная компания расходует -3 [ICON_Production] производства за все высокотехнологические компании.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 6 клеток, которые еще не имеют бонуса от уровня здания коммерческого центра 4-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FINANCIAL_TOWER_DESCRIPTION" Language="ru_RU">
+			<Text>Ваши [ICON_TradeRoute] торговые посты во всех городах приносят +1 [ICON_Gold] золота к вашим [ICON_TradeRoute] торговым путям, проходящим через город или ведущим к нему.[NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь если население города не менее 48 [ICON_Citizen] жителей.[NEWLINE][COLOR_FLOAT_MILITARY]Антимонопольный закон: Каждая международная финансовая корпорация расходует -3 [ICON_Production] производства за все международные финансовые корпорации.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход от этого здания распространяется на все центры городов в пределах 6 клеток у которых еще нет бонуса от здания коммерческого центра 4-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MINING_GROUP_DESCRIPTION" Language="ru_RU">
+			<Text>Ваши [ICON_TradeRoute] торговые пути получают +2 [ICON_Gold] золота за каждый стратегический ресурс в пункте назначения.[NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь, если в городе проживает не менее 48 [ICON_Citizen] жителей.[NEWLINE][COLOR_FLOAT_MILITARY]Антимонопольный закон: Каждая мировая горнодобывающая группа расходует -3 [ICON_Production] производства за все мировые горнодобывающие группы.[ENDCOLOR][NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры городов в пределах 6 клеток, которые еще не имеют бонуса от уровня здания коммерческого центра 4-го уровня.</Text>
+		</Replace>
+		<!-- UB	 -->
+		<Replace Tag="LOC_BUILDING_SUKIENNICE_EXPANSION1_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальное здание Польши. Международные [ICON_TradeRoute] торговые пути из этого города получают +3 [ICON_Gold] золота за каждый редкий ресурс в иностранном городе. [NEWLINE]+2 [ICON_Gold] золота за редкие ресурсы в этом городе. [NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь, если в этом городе еще нет маяка.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 3 клеток, которые еще не имеют бонуса от здания коммерческого центра 1-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GRAND_BAZAAR_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальное здание османов. Накапливает 1 дополнительный стратегический ресурс за каждый другой тип стратегического ресурса, улучшенный в этом городе. +1 довольства за каждый редкий ресурс, улучшенный в этом городе. [NEWLINE]Этот коммерческий центр предоставляет еще 2 ячейки для [ICON_Citizen] горожан, а его специалисты предоставляют еще 2 [ICON_Gold] золота.[NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь, если в городе не менее 24 [ICON_Citizen] жителей.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от здания коммерческого центра 2-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GILDED_VAULT_DESCRIPTION" Language="ru_RU">
+			<Text>Это здание получает бонус [ICON_Gold] золота и [ICON_Culture] культуры, равный базовому бонусу [ICON_Gold] золота от соседства коммерческого центра. [NEWLINE]+1 [ICON_TradeRoute] доступный торговый путь, если в городе проживает не менее 24 [ICON_Citizen] жителей.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не имеют бонуса от здания коммерческого центра 2-го уровня.</Text>
+		</Replace>
+		<!-- 剧院广场	 -->
+		<Replace Tag="LOC_BUILDING_EPIC_THEATRE_NAME" Language="ru_RU">
+			<Text>Эпический театр|эпического театра|эпическому театру|эпический театр|эпическим театром|эпическом театре</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAMPLE_STAGE_NAME" Language="ru_RU">
+			<Text>Храмовая сцена|храмовой сцены|храмовой сцене|храмовую сцену|храмовой сценой|храмовой сцене</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_THERTERMUSEUM_NAME" Language="ru_RU">
+			<Text>Театральный музей|театрального музея|театральному музею|театральный музей|театральным музеем|театральном музее</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LIBRARYMUSEUM_NAME" Language="ru_RU">
+			<Text>Библиотека-музей|библиотеки-музея|библиотеке-музею|библиотеку-музей|библиотекой-музеем|библиотеке-музее</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OPERA_HOUSE_NAME" Language="ru_RU">
+			<Text>Дом оперы|дома оперы|дому оперы|дом оперы|домом оперы|доме оперы</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ART_ASSOCIATION_NAME" Language="ru_RU">
+			<Text>Ассоциация искусств|ассоциации искусств|ассоциацие искусств|ассоциацию искусств|ассоциацией искусств|ассоциации искусств</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PHOTOSTUDIO_NAME" Language="ru_RU">
+			<Text>Фотостудия|фотостудии|фотостудие|фотостудию|фотостудией|фотостудии</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CINEMA_NAME" Language="ru_RU">
+			<Text>Кинотеатр|кинотеатра|кинотеатру|кинотеатр|кинотеатром|кинотеатре</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CONCERT_HALL_NAME" Language="ru_RU">
+			<Text>Концертный зал|концертного зала|концертному залу|концертный зал|концертным залом|концертном зале</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WE_MEDIA_NAME" Language="ru_RU">
+			<Text>Медиа-платформа|медиа-платформы|медиа-платформе|медиа-платформу|медиа-платформой|медиа-платформе</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION" Language="ru_RU">
+			<Text>+0.3 [ICON_Culture] культуры за каждого [ICON_Citizen] жителя в этом городе.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 3 клеток, которые еще не получают бонуса от здания театральной площади 1-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_EPIC_THEATRE_DESCRIPTION" Language="ru_RU">
+			<Text>На две ячейки специалистов больше, чем обычно, и +2 [ICON_Culture] культуры специалистам в этом районе.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 3 клеток, которые еще не получают бонуса от здания театральной площади 1-го уровня. </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAMPLE_STAGE_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Culture] культуры и +1 [ICON_Faith] веры всем клеткам рядом с этим районом, удваивается если такие клетки соседствуют со священным местом.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 3 клеток, которые еще не получают бонуса от здания театральной площади 1-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MUSEUM_ART_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Culture] культуры всем [ICON_GreatWork_Landscape] великим шедеврам изобразительного искусства (накапливается от всех таких зданий).[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не получают бонуса от здания театральной площади 2-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Culture] культуры всем [ICON_GreatWork_Artifact] артефактам (накапливается от всех таких зданий).[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не получают бонуса от здания театральной площади 2-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_THERTERMUSEUM_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Culture] культуры всем [ICON_GreatWork_MUSIC] музыкальным шедеврам (накапливается от всех таких зданий).[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не получают бонуса от здания театральной площади 2-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LIBRARYMUSEUM_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Culture] культуры всем [ICON_GreatWork_WRITING] литературным шедеврам (накапливается от всех таких зданий).[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 4 клеток, которые еще не получают бонуса от здания театральной площади 2-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" Language="ru_RU">
+			<Text>*110% дохода [ICON_Tourism] туризма всем [ICON_GreatWork_WRITING] литературным шедеврам и [ICON_GreatWork_MUSIC] музыкальным шеедврам в вашей империи (накапливается от всех таких зданий).[NEWLINE]*110% дохода [ICON_Tourism] туризма всем [ICON_GreatWork_WRITING] литературным шедеврам и [ICON_GreatWork_MUSIC] музыкальным шеедврам в этом городе, повторяется за каждые 10 [ICON_Citizen] жителей в городе.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 5 клеток, которые еще не получают бонуса от здания театральной площади 3-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ART_ASSOCIATION_DESCRIPTION" Language="ru_RU">
+			<Text>+20% [ICON_Tourism] туризма всем [ICON_GreatWork_Landscape] шедеврам изобразительного искусства и [ICON_GreatWork_Artifact] артефактам в вашей империи (накапливается от всех таких зданий).[NEWLINE]+20% [ICON_Tourism] туризма всем [ICON_GreatWork_Landscape] шедеврам изобразительного искусства и [ICON_GreatWork_Artifact] артефактам за каждые 10 [ICON_Citizen] жителей в этом городе.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 5 клеток, которые еще не получают бонуса от здания театральной площади 3-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION" Language="ru_RU">
+			<Text>+10% [ICON_Tourism] туризма для крупных цивилизаций от ваших торговых путей (накапливается от всех таких зданий).[NEWLINE]+15% [ICON_Tourism] туризма от всех улучшений в этом городе, удваивается, если престиж театральной площади притягивающий, утраивается, если престиж театральной площади потрясающий. [NEWLINE][NEWLINE]Базовый доход этого роста измеряется во всех центрах города в пределах 5 клеток, которые еще не получают бонуса от здания театральной площади 3-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PHOTOSTUDIO_DESCRIPTION" Language="ru_RU">
+			<Text>+10% [ICON_Tourism] туризма от всех чудес света и национальных парков в империи (накапливается от всех таких зданий).[NEWLINE]+10% [ICON_Tourism] туризма от всех чудес света и национальных парков в этом городе, удваивается, если престиж театральной площади притягивающий, утраивается, если престиж театральной площади потрясающий. [NEWLINE][NEWLINE]Базовый доход этого роста измеряется во всех центрах города в пределах 5 клеток, которые еще не получают бонуса от здания театральной площади 3-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CINEMA_DESCRIPTION" Language="ru_RU">
+			<Text>+20% [ICON_Tourism] туризма (накапливается от всех таких зданий).[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 6 клеток, которые еще не получают бонуса от здания театральной площади 4-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_UNIQUE_AUTHOR_THEMED" Language="ru_RU">
+			<Text>Тематический бонус удваивается при отображении предметов разных авторов.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_AUTO_THEMED" Language="ru_RU">
+			<Text>Тематический бонус удваивается когда музей заполнен.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_THEMINGBONUS_ART" Language="ru_RU">
+			<Text>Тематический бонус удваивается при отображении предметов одинакового типа, но разных авторов.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_THEMINGBONUS_ARCHAEOLOGY" Language="ru_RU">
+			<Text>Тематический бонус удваивается при отображениии [ICON_GreatWork_Artifact] артефактов разных цивилизаций одной эпохи.</Text>
+		</Replace>
+		<!-- UB -->
+		<Replace Tag="LOC_BUILDING_FILM_STUDIO_EXPANSION2_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальное здание Америки. +100% [ICON_Tourism] туристического давления этого города на другие цивилизации в эпохе нового времени и после нее.[NEWLINE]+10% [ICON_Tourism] туризма от всех чудес света и национальных парков в вашей империи (накапливается от всех таких зданий).[NEWLINE]+10% [ICON_Tourism] туризма от всех чудес света и национальных парков в этом городе, удваивается, если престиж театральной площади притягивающий, и утраивается, если престиж театральной площади потрясающий. [NEWLINE][NEWLINE]Базовый доход этого здания распространяется  на все центры города в пределах 5 клеток, которые еще не получают бонуса от здания театральной площади 3-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MARAE_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальное здание маори. +1 [ICON_Culture] культуры и [ICON_FAITH] веры всем клеткам этого города с проходимой особенностью ландшафта или чудом природы. После исследования «Авиации» вы получите еще +1 [ICON_TOURISM] ед. туризма всем клеткам этого города с особенностью ландшафта или чудом природы. Не требует обслуживания. Не имеет ячеек для великих шедевров.[NEWLINE]+1 [ICON_Culture] культуры и +1 [ICON_Faith] веры за клетки, примыкающие к этому району, удваивается, если они также примыкают к священному месту.[NEWLINE][NEWLINE]Базовый доход этого здания распространяется на все центры города в пределах 3 клеток, которые еще не получают бонуса от здания театральной площади 1-го уровня.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

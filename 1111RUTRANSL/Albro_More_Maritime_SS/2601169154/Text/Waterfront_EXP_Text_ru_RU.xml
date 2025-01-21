@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- WATERFRONT DISTRICT -->
+
+		<Replace Tag="LOC_DISTRICT_WATERFRONT_NAME" Language="ru_RU">
+			<Text>Набережная|набережной|набережной|набережную|набережной|набережной</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>	
+
+			<Replace Tag="LOC_DISTRICT_WATERFRONT_DESCRIPTION" Language="ru_RU">
+				<Text>Район, расположенный на прибрежной территории, увеличивает рост города и количество жилья. Предоставляет +1 [ICON_Amenities] довольства, если рядом с центром города. Невозможно построить на рифе.</Text>
+			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_DISTRICT_WATERFRONT_1" Language="ru_RU">
+					<Text>В современном городском планировании набережная города относится к районам, расположенным на берегах более крупных водоемов, будь то реки, каналы, озера или море.</Text>
+				</Replace>	
+
+				<Replace Tag="LOC_PEDIA_DISTRICT_WATERFRONT_2" Language="ru_RU">
+					<Text>Начиная с начала XX века, набережные вдоль центра города постепенно устаревали, в немалой степени благодаря упадку международных пассажирских перевозок, появлению автоматизированных контейнерных терминалов и увеличению размеров специализированных судов. Таким образом, чтобы оживить эти обветшалые набережные, были выданы различные жилые проекты, большинство из которых оказались невероятно успешными, во многом благодаря потенциальной стоимости недвижимости с видом на выдающийся водоем.</Text>
+				</Replace>	
+
+				<Replace Tag="LOC_WTR_CityCenter_Food_Description" Language="ru_RU">
+					<Text>+{1_num} [ICON_FOOD] пищи от соседства с центром города {1_Num : plural 1?район; other?районы;}.</Text>
+				</Replace>	
+
+				<Replace Tag="LOC_WTR_WTR_Harbor_Food_Description" Language="ru_RU">
+					<Text>+{1_num} [ICON_FOOD] пищи от соседства с гаванью {1_Num : plural 1?район; other?районы;}.</Text>
+				</Replace>	
+
+				<Replace Tag="LOC_WTR_Reef_Food_Description" Language="ru_RU">
+					<Text>+{1_num} [ICON_FOOD] пищи от соседства с рифом {1_Num : plural 1?особенность; other?особенности;}.</Text>
+				</Replace>	
+
+				<Replace Tag="LOC_WTR_District_Food_Description" Language="ru_RU">
+					<Text>+{1_num} [ICON_FOOD] пищи от соседства с районом {1_Num : plural 1?район; other?районы;}.</Text>
+				</Replace>
+
+					<Replace Tag="LOC_WTR_Kelp_Food_Description" Language="ru_RU">
+						<Text>+{1_num} [ICON_FOOD] пищи от соседства с водорослями {1_Num : plural 1?особенность; other?особенности;}.</Text>
+					</Replace>	
+
+					<Replace Tag="LOC_WTR_Borough_A_Food_Description" Language="ru_RU">
+						<Text>+{1_num} [ICON_FOOD] пищи от соседства с городком эпохи средневековья {1_Num : plural 1?район; other?районы;}.</Text>
+					</Replace>	
+
+					<Replace Tag="LOC_WTR_Borough_B_Food_Description" Language="ru_RU">
+						<Text>+{1_num} [ICON_FOOD] пищи от соседства с городком эпохи возрождения {1_Num : plural 1?район; other?районы;}.</Text>
+					</Replace>	
+
+					<Replace Tag="LOC_WTR_Borough_C_Food_Description" Language="ru_RU">
+						<Text>+{1_num} [ICON_FOOD] пищи от соседства с городком эпохи нового времени {1_Num : plural 1?район; other?районы;}.</Text>
+					</Replace>	
+
+		<!-- WATERFRONT DISTRICT - BUILDINGS -->
+
+		<Replace Tag="LOC_BUILDING_WTR_BREAKWATER_NAME" Language="ru_RU">
+			<Text>Волнорез|волнореза|волнорезу|волнорез|волнорезом|волнорезе</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>	
+
+			<Replace Tag="LOC_BUILDING_WTR_BREAKWATER_DESCRIPTION" Language="ru_RU">
+				<Text>+1 [ICON_FOOD] пищи на всех клетках побережья этого города. +1 [ICON_SCIENCE] науки для всех рифов этого города.</Text>
+			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_BUILDING_WTR_BREAKWATER_1" Language="ru_RU">
+					<Text>Волнорезы - это сооружения, построенные вблизи побережья для защиты якорной стоянки от погодных воздействий и прибрежных течений, поскольку они снижают интенсивность воздействия волн в прибрежных водах и обеспечивают безопасную гавань. Они также довольно часто используются для защиты пляжей от береговой эрозии.</Text>
+				</Replace>	
+
+		<Replace Tag="LOC_BUILDING_WTR_BOARDWALK_NAME" Language="ru_RU">
+			<Text>Променад|променада|променаду|променад|промнадом|променаде</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>	
+
+			<Replace Tag="LOC_BUILDING_WTR_BOARDWALK_DESCRIPTION" Language="ru_RU">
+				<Text>+1 [ICON_CULTURE] культуры и +1 [ICON_FAITH] веры на всех соседних клетках. Дополнительные +1 [ICON_CULTURE] культуры, +1 [ICON_FAITH] веры и +2 [ICON_FOOD] пищи, если на клетке есть морская особенность или имеется потрясающий престиж.</Text>
+			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_BUILDING_WTR_BOARDWALK_1" Language="ru_RU">
+					<Text>Променад - это дощатая тропа вдоль набережной или пляжа. Хотя обычно они сделаны из простых деревянных досок, различные видные дощатые тротуары были расширены с учетом увеличения пешеходного движения, а в некоторых случаях даже были заменены эспланадами из более прочного материала, такого как бетон или кирпич.</Text>
+				</Replace>	
+
+		<!-- ARSENAL DISTRICT -->
+
+		<Replace Tag="LOC_DISTRICT_ARSENAL_NAME" Language="ru_RU">
+			<Text>Арсенал|арсенала|арсеналу|арсенал|арсеналом|арсенале</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>	
+
+			<Replace Tag="LOC_DISTRICT_ARSENAL_DESCRIPTION" Language="ru_RU">
+				<Text>Район военно-морских сооружений. Также снимает штраф перемещения [ICON_Movement] за посадку и высадку на эту клетку и с нее. Должен быть построен на побережье или озере, примыкающем к суше. Невозможно построить на рифе.</Text>
+			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_DISTRICT_ARSENAL_1" Language="ru_RU">
+					<Text>В первоначальном смысле этого слова арсенал - это военное учреждение, в котором военные корабли строятся, обслуживаются, ремонтируются и консервируются вместе с предоставленным им оборудованием и припасами. С XVII века термин «арсенал» утратил свое исключительное отношение к морскому миру и стал ассоциироваться с депонированием и производством военной техники.</Text>
+				</Replace>	
+
+		<!-- ARSENAL DISTRICT - BUILDINGS -->
+
+		<Replace Tag="LOC_BUILDING_ARS_WAREHOUSE_NAME" Language="ru_RU">
+			<Text>Склад|склада|складу|склад|складом|складе</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>	
+
+			<Replace Tag="LOC_BUILDING_ARS_WAREHOUSE_DESCRIPTION" Language="ru_RU">
+				<Text>+25% боевого опыта всем военно-морским юнитам, обученным в этом городе. [NEWLINE]Запасы стратегических ресурсов увеличены на +10 (при стандартной скорости).</Text>
+			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_BUILDING_ARS_WAREHOUSE_1" Language="ru_RU">
+					<Text>Военно-морские арсеналы требуют обширных складов для размещения множества единиц оборудования, необходимого для размещения, обслуживания и эксплуатации сложных боевых кораблей.</Text>
+				</Replace>	
+
+		<Replace Tag="LOC_BUILDING_ARS_DRYDOCK_NAME" Language="ru_RU">
+			<Text>Сухой док|сухого дока|сухому доку|сухой док|сухим доком|сухом доке</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>	
+
+			<Replace Tag="LOC_BUILDING_ARS_DRYDOCK_DESCRIPTION" Language="ru_RU">
+				<Text>+25% боевого опыта всем военно-морским юнитам, обученным в этом городе. +1 [ICON_PRODUCTION] производство всем неулучшенным клеткам побережья в этом городе. Дополнительно +1 [ICON_PRODUCTION] производство, если рядом с арсеналом. [NEWLINE]Запасы стратегических ресурсов увеличены на +10 (при стандартной скорости). [NEWLINE]Позволяет обучать военных инженеров в этом городе.</Text>
+			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_BUILDING_ARS_DRYDOCK_1" Language="ru_RU">
+					<Text>Сухой док - это узкий бассейн, который позволяет принимать суда и сушить их для обслуживания, ремонта, строительства и возможного демонтажа.</Text>
+				</Replace>	
+
+		<Replace Tag="LOC_BUILDING_ARS_NAVALACADEMY_NAME" Language="ru_RU">
+			<Text>Военно-морская академия|военно-морской академии|военно-морской академии|военно-морскую академию|военно-морской академией|военно-морской академии</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>	
+
+			<Replace Tag="LOC_BUILDING_ARS_NAVALACADEMY_DESCRIPTION" Language="ru_RU">
+				<Text>+25% боевого опыта всем военно-морским юнитам, обученным в этом городе. Позволяет создавать флоты и армады напрямую. Затраты на обучение флота и армады снизились на 25%. [NEWLINE]Запасы стратегических ресурсов увеличены на +10 (при стандартной скорости).</Text>
+			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_BUILDING_ARS_NAVALACADEMY_1" Language="ru_RU">
+					<Text>Военно-морская академия - это национальное учебное заведение, которое предлагает образование уровня бакалавра для будущих военно-морских офицеров. Военно-морские учения обычно проводились только на море до XX века, даже когда флот постоянно стоял на якоре. Например, и французские, и британские военно-морские школы относительно недавно построили свои учебные базы на берегу, что сильно контрастирует с их военными коллегами в армии, поскольку и французские, и британские военные академии имеют гораздо более длительную и богатую историю.</Text>
+				</Replace>				
+
+		<!-- VANILLA DISTRICTS -->
+
+		<Replace Tag="LOC_WTR_Waterfront_Gold_Description" Language="ru_RU">
+			<Text>+{1_num} [ICON_GOLD] золота от соседства с набережной {1_Num : plural 1?район; other?районы;}.</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_WTR_Arsenal_Gold_Description" Language="ru_RU">
+			<Text>+{1_num} [ICON_GOLD] золота от соседства с арсеналом {1_Num : plural 1?район; other?районы;}.</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_WTR_Arsenal_Prod_Description" Language="ru_RU">
+			<Text>+{1_num} [ICON_PRODUCTION] производства от соседства с арсеналом {1_Num : plural 1?район; other?районы;}.</Text>
+		</Replace>	
+
+		<!-- VANILLA BUILDINGS -->
+
+		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION" Language="ru_RU">
+			<Text>+2 [ICON_GOLD] золота всем улучшениям рыбацких лодок в городе. +2 [ICON_HOUSING] жилья если город расположен на побережье. +1 [ICON_TradeRoute] доступный торговый путь, если в этом городе еще нет рынка.</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION" Language="ru_RU">
+			<Text>Бонус [ICON_Production] производства равный бонусу от соседства гавани. +1 [ICON_PRODUCTION] производства всем улучшениям рыбацких лодок в городе. +6 [ICON_GOLD] золота от международных [ICON_TradeRoute] торговых путей из этого города.</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_BUILDING_SEAPORT_DESCRIPTION" Language="ru_RU">
+			<Text> +2 [ICON_GOLD] золота на всех клетках побережья этого города. Дополнительно +2 [ICON_GOLD] золота на всех клетках побережья с улучшенным ресурсом для этого города.</Text>
+		</Replace>	
+
+		<!-- VANILLA WONDERS -->
+
+		<Replace Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION" Language="ru_RU">
+			<Text>Получайте второй военно-морской юнит каждый раз, когда создаете военно-морской юнит. Должен быть построен на клетке побережья, примыкающей к району арсенала.</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="ru_RU">
+			<Text>Должен быть построен на побережье, рядом с сушей и набережной.</Text>
+		</Replace>	
+
+		<!-- VANILLA POICIES -->
+
+		<Replace Tag="LOC_POLICY_MILITARY_RESEARCH_EXPANSION1_DESCRIPTION" Language="ru_RU">
+			<Text>Военные академии, военно-морские академии и стены эпохи возрождения дают +2 [ICON_Science] к науке.</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION_XP2" Language="ru_RU">
+			<Text>+2 [ICON_Culture] культуры и +4 [ICON_Gold] золота от лабораторий, военных академий, военно-морских академий, угольных, мазутных и атомных электростанций.</Text>
+		</Replace>	
+
+	</LocalizedText>
+</GameData>
+

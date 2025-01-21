@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_SLAVIC_RURIK" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_SLAVIC_RURIK_ABILITY" Kind="KIND_TRAIT" />
+	</Types>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_SLAVIC_RURIK</LeaderType>
+			<Name>LOC_LEADER_SLAVIC_RURIK_NAME</Name>
+			<Sex>Male</Sex>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+			<SceneLayers>4</SceneLayers>
+		</Row>
+	</Leaders>
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_SLAVIC_RURIK" ForegroundImage="LEADER_SLAVIC_RURIK_NEUTRAL" BackgroundImage="LEADER_CHANDRAGUPTA_BACKGROUND" PlayDawnOfManAudio="0"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_SLAVIC_RURIK" BackgroundImage="LEADER_SLAVIC_RURIK_BACKGROUND"/>
+	</DiplomacyInfo> 
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_SLAVIC_RURIK" TraitType="TRAIT_LEADER_SLAVIC_RURIK_ABILITY"/>
+	</LeaderTraits>
+
+	<AiListTypes>
+		<Row ListType="RurikCivics"/>
+		<Row ListType="RurikTechs"/>
+		<Row ListType="RurikWonders"/>
+	</AiListTypes>
+
+	<AiLists>
+		<Row ListType="RurikCivics" LeaderType="TRAIT_LEADER_SLAVIC_RURIK_ABILITY" System="Civics"/>
+		<Row ListType="RurikTechs" LeaderType="TRAIT_LEADER_SLAVIC_RURIK_ABILITY" System="Technologies"/>
+		<Row ListType="RurikWonders" LeaderType="TRAIT_LEADER_SLAVIC_RURIK_ABILITY" System="Buildings"/>
+	</AiLists>
+
+	<AiFavoredItems>
+		<Row ListType="RurikCivics" Item="CIVIC_NATIONALISM" Favored="true"/>
+		<Row ListType="RurikCivics" Item="CIVIC_GUILDS" Favored="true"/>
+		<Row ListType="RurikCivics" Item="CIVIC_EARLY_EMPIRE" Favored="true"/>
+		<Row ListType="RurikTechs" Item="TECH_CURRENCY" Favored="true"/>
+		<Row ListType="RurikTechs" Item="TECH_IRON_WORKING" Favored="true"/>
+		<Row ListType="RurikTechs" Item="TECH_CASTLES" Favored="true"/>
+		<Row ListType="RurikWonders" Item="BUILDING_COLOSSEUM" Favored="true"/>
+	</AiFavoredItems>
+
+	<Agendas>
+		<Row AgendaType="AGENDA_SLAVIC_CULTURE" Name="LOC_SLAVIC_AGENDA_NAME" Description="LOC_AGENDA_BILLIONAIRE_DESCRIPTION"/>
+	</Agendas>
+
+	<ExclusiveAgendas>
+	</ExclusiveAgendas>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_SLAVIC_RURIK" AgendaType="AGENDA_SLAVIC_CULTURE"/>
+		<!--<Row LeaderType="LEADER_SLAVIC_RURIK" AgendaType="AGENDA_CULTURED"/>
+		<Row LeaderType="LEADER_SLAVIC_RURIK" AgendaType="AGENDA_STANDING_ARMY"/> -->
+	</HistoricalAgendas>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_SLAVIC_CULTURE" TraitType="TRAIT_AGENDA_BILLIONAIRE"/>
+	</AgendaTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_SLAVIC_RURIK_ABILITY" Name="LOC_LEADER_SLAVIC_RURIK_ABILITY_NAME" Description="LOC_LEADER_SLAVIC_RURIK_ABILITY_DESCRIPTION"/>
+	</Traits>
+	
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_SLAVIC_RURIK_ABILITY" ModifierId="TRAIT_SLAVIC_RURIK_IDENTITY_FROM_DOMESTIC_TRADE_ROUTES"/>
+
+		<Row>
+			<TraitType>TRAIT_LEADER_SLAVIC_RURIK_ABILITY</TraitType>
+			<ModifierId>TRAIT_MODIFIER_DOMESTIC_TRADING_POST_BONUS</ModifierId>
+		</Row>
+	</TraitModifiers>
+</GameData>

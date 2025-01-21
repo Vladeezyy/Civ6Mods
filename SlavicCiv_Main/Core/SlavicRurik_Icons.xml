@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SLAVIC" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SLAVIC_22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SLAVIC" IconSize="30"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SLAVIC_30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SLAVIC" IconSize="36"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SLAVIC_36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SLAVIC" IconSize="44"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SLAVIC_44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SLAVIC" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SLAVIC_45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SLAVIC" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SLAVIC_48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SLAVIC" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SLAVIC_50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SLAVIC" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SLAVIC_64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SLAVIC" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SLAVIC_80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SLAVIC" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SLAVIC_256.dds"/>
+
+		<Row Name="ICON_ATLAS_LEADER_SLAVIC_RURIK" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SLAVIC_RURIK_32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SLAVIC_RURIK" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SLAVIC_RURIK_45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SLAVIC_RURIK" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SLAVIC_RURIK_50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SLAVIC_RURIK" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SLAVIC_RURIK_55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SLAVIC_RURIK" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SLAVIC_RURIK_64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SLAVIC_RURIK" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SLAVIC_RURIK_80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SLAVIC_RURIK" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SLAVIC_RURIK_256.dds"/>
+		
+		<Row Name="ICON_ATLAS_BUILDING_SLAVIC_UNIQUE" IconSize="32" IconsPerRow="1" IconsPerColumn="1"   Filename="ICON_BUILDING_SLAVIC_UNIQUE_32.dds"/>
+		<Row Name="ICON_ATLAS_BUILDING_SLAVIC_UNIQUE" IconSize="38" IconsPerRow="1" IconsPerColumn="1"   Filename="ICON_BUILDING_SLAVIC_UNIQUE_38.dds"/>
+		<Row Name="ICON_ATLAS_BUILDING_SLAVIC_UNIQUE" IconSize="50" IconsPerRow="1" IconsPerColumn="1"   Filename="ICON_BUILDING_SLAVIC_UNIQUE_50.dds"/>
+		<Row Name="ICON_ATLAS_BUILDING_SLAVIC_UNIQUE" IconSize="80" IconsPerRow="1" IconsPerColumn="1"   Filename="ICON_BUILDING_SLAVIC_UNIQUE_80.dds"/>
+		<Row Name="ICON_ATLAS_BUILDING_SLAVIC_UNIQUE" IconSize="128" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_BUILDING_SLAVIC_UNIQUE_128.dds"/>
+		<Row Name="ICON_ATLAS_BUILDING_SLAVIC_UNIQUE" IconSize="256" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_BUILDING_SLAVIC_UNIQUE_256.dds"/>
+
+		<Row Name="ICON_ATLAS_UNIT_SLAVIC_UNIQUE" IconSize="22" IconsPerRow="1" IconsPerColumn="1"	 Filename="ICON_UNIT_SLAVIC_UNIQUE_22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_SLAVIC_UNIQUE" IconSize="32" IconsPerRow="1" IconsPerColumn="1"	 Filename="ICON_UNIT_SLAVIC_UNIQUE_32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_SLAVIC_UNIQUE" IconSize="38" IconsPerRow="1" IconsPerColumn="1"	 Filename="ICON_UNIT_SLAVIC_UNIQUE_38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_SLAVIC_UNIQUE" IconSize="50" IconsPerRow="1" IconsPerColumn="1"	 Filename="ICON_UNIT_SLAVIC_UNIQUE_50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_SLAVIC_UNIQUE" IconSize="70" IconsPerRow="1" IconsPerColumn="1"	 Filename="ICON_UNIT_SLAVIC_UNIQUE_70.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_SLAVIC_UNIQUE" IconSize="95" IconsPerRow="1" IconsPerColumn="1"	 Filename="ICON_UNIT_SLAVIC_UNIQUE_95.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_SLAVIC_UNIQUE" IconSize="200" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_UNIT_SLAVIC_UNIQUE_200.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_SLAVIC_UNIQUE" IconSize="256" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_UNIT_SLAVIC_UNIQUE_256.dds"/>
+
+		<Row Name="ICON_ATLAS_UNIT_SLAVIC_UNIQUE_PORTRAIT" IconSize="38" IconsPerRow="1" IconsPerColumn="1"	 Filename="Icon_Unit_ingame\Unit_Ingame_Icon_38.tga"/>
+		<Row Name="ICON_ATLAS_UNIT_SLAVIC_UNIQUE_PORTRAIT" IconSize="50" IconsPerRow="1" IconsPerColumn="1"	 Filename="Icon_Unit_ingame\Unit_Ingame_Icon_50.tga"/>
+		<Row Name="ICON_ATLAS_UNIT_SLAVIC_UNIQUE_PORTRAIT" IconSize="70" IconsPerRow="1" IconsPerColumn="1"	 Filename="Icon_Unit_ingame\Unit_Ingame_Icon_70.tga"/>
+		<Row Name="ICON_ATLAS_UNIT_SLAVIC_UNIQUE_PORTRAIT" IconSize="95" IconsPerRow="1" IconsPerColumn="1"	 Filename="Icon_Unit_ingame\Unit_Ingame_Icon_95.tga"/>
+		<Row Name="ICON_ATLAS_UNIT_SLAVIC_UNIQUE_PORTRAIT" IconSize="200" IconsPerRow="1" IconsPerColumn="1"  Filename="Icon_Unit_ingame\Unit_Ingame_Icon_200.tga"/>
+		<Row Name="ICON_ATLAS_UNIT_SLAVIC_UNIQUE_PORTRAIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1"  Filename="Icon_Unit_ingame\Unit_Ingame_Icon_256.tga"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_SLAVIC" Atlas="ICON_ATLAS_CIVILIZATION_SLAVIC" Index="0"/>
+		<Row Name="ICON_LEADER_SLAVIC_RURIK" Atlas="ICON_ATLAS_LEADER_SLAVIC_RURIK" Index="0"/>
+		<Row Name="ICON_BUILDING_SLAVIC_UNIQUE" Atlas="ICON_ATLAS_BUILDINGS" Index="6"/>
+		<Row Name="ICON_BUILDING_SLAVIC_UNIQUE_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="6"/>
+		<Row Name="ICON_UNIT_SLAVIC_UNIQUE" Atlas="ICON_ATLAS_UNIT_SLAVIC_UNIQUE" Index="0"/>
+		<Row Name="ICON_UNIT_SLAVIC_UNIQUE_PORTRAIT" Atlas="ICON_ATLAS_UNIT_SLAVIC_UNIQUE_PORTRAIT" Index="0"/>
+		<Row Name="ICON_DISTRICT_SLAVIC_KREMLIN" Atlas="ICON_ATLAS_DISTRICTS" Index="3"/>
+		
+	</IconDefinitions>
+</GameData>

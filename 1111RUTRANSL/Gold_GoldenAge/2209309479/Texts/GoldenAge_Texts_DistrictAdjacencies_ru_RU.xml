@@ -1,0 +1,507 @@
+<GameData>
+    <LocalizedText>	
+	<!--区域相邻-->	
+	
+	<Replace Tag="LOC_DISTRICT_COMMERICAL_HUB_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседнего коммерческого центра.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_RESOURCE_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседнего ресурса.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_LUMBER_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от соседней лесопилки.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CANAL_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседнего канала.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_SNOW_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Science] науки от {1_Num : plural 1?соседней клетки снега; other?соседних клеток снега;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_SNOWHILL_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Science] науки от {1_Num : plural 1?соседней клетки снега; other?соседних клеток снега;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_VOLCANO_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Science] науки от соседнего вулкана.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_VOLCANIC_SOIL_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Science] науки от соседней вулканической почвы.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_JUNGLE_FAITH" Language="ru_RU">
+      <Text>+{1_num} [ICON_Faith] веры от {1_Num : plural 1?соседней клетки джунглей; other?соседних клеток джунглей;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_STRATEGIC_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от соседнего ресурса.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CITY_CENTER_CULTURE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Culture] культуры от соседнего центра города.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CITY_CENTER_FAITH" Language="ru_RU">
+      <Text>+{1_num} [ICON_Faith] веры от соседнего центра города.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CITY_CENTER_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседнего центра города.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CITY_CENTER_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от соседнего центра города.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CITY_CENTER_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Science] науки от соседнего центра города.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CITY_CENTER_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседнего центра города.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNMENT_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседней правительственной площади.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от {1_Num : plural 1?соседнего района; other?соседних районов;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_DISTRICT_1_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседнего района.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_JUNGLE_2_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от соседней клетки джунглей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_JUNGLE_2_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседней клетки джунглей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NUSANTARA_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседней клетки побережья или озера.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NUSANTARA_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседней клетки побережья или озера.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_RIVER_FAITH" Language="ru_RU">
+      <Text>+{1_num} [ICON_Faith] веры от соседней реки.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_RIVER_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседней реки.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_RIVER_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседней реки.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_CAMPUS_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Science] науки от {1_Num : plural 1?соседнего кампуса; other?соседних кампусов;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_SPACE_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Science] науки от {1_Num : plural 1?соседнего космопорта; other?соседних космопортов;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CAMPUS_SCIENCE_STANDARD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Science] науки от {1_Num : plural 1?соседнего кампуса; other?соседних кампусов;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_THEATER_CULTURE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Culture] культуры от {1_Num : plural 1?соседней театральной площади; other?соседних театральнях площадей;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_NATURALWONDER_CULTURE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Culture] культуры от соседнего чуда природы</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_ANTIQUITY_CULTURE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Culture] культуры от исторического места или кораблекрушения.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_THEATER_CULTURE_STANDARD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Culture] культуры от {1_Num : plural 1?соседней театральной площади; other?соседних театральнях площадей;}.</Text>
+    </Replace>
+	
+	
+	<Replace Tag="LOC_HOLY_SITE_FAITH" Language="ru_RU">
+      <Text>+{1_num} [ICON_Faith] веры от {1_Num : plural 1?соседнего священного места; other?соседних священных мест;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_HOLY_SITE_FAITH_STANDARD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Faith] веры от {1_Num : plural 1?соседнего священного места; other?соседних священных мест;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_COMMERCIAL_HUB_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от {1_Num : plural 1?соседнего коммерческого центра; other?соседних коммерческих центров;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_COMMERCIAL_HUB_GOLD_STANDARD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от {1_Num : plural 1?соседнего коммерческого центра; other?соседних коммерческих центров;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_INDUSTRIAL_ZONE_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от {1_Num : plural 1?соседней промышленной зоны; other?соседних промышленных зон;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_INDUSTRIAL_ZONE_PRODUCTION_STANDARD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от {1_Num : plural 1?соседней промышленной зоны; other?соседних промышленных зон;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_ENCAMPMENT_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от {1_Num : plural 1?соседнего военного лагеря; other?соседних военных лагерей;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_ENCAMPMENT_FOOD_STANDARD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от {1_Num : plural 1?соседнего военного лагеря; other?соседних военных лагерей;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_HARBOR_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от {1_Num : plural 1?соседней гавани; other?соседних гаваней;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_HARBOR_GOLD_STANDARD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от {1_Num : plural 1?соседней гавани; other?соседних гаваней;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_ENTERTAINMENT_COMPLEX_CULTURE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Culture] культуры от {1_Num : plural 1?соседнего развлекательного комплекса; other?соседних развлекательных комплексов;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_ENTERTAINMENT_COMPLEX_CULTURE_STANDARD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Culture] культуры от {1_Num : plural 1?соседнего развлекательного комплекса; other?соседних развлекательных комплексов;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_WATER_ENTERTAINMENT_COMPLEX_CULTURE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Culture] культуры от {1_Num : plural 1?соседнего аквапарка; other?соседних аквапарков;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_WATER_ENTERTAINMENT_COMPLEX_CULTURE_STANDARD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Culture] культуры от {1_Num : plural 1?соседнего аквапарка; other?соседних аквапарков;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_SPACEPORT_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_Science] науки от {1_Num : plural 1?соседнего космопорта; other?соседних космопортов;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_SPACEPORT_SCIENCE_STANDARD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Science] науки от {1_Num : plural 1?соседнего космопорта; other?соседних космопортов;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_AERODROME_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от {1_Num : plural 1?соседнего аэродрома; other?соседних аэродромов;}.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_OIL_WELL_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от соседней буровой вышки.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_AERODROME_PRODUCTION_STANDARD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] призводства от {1_Num : plural 1?соседнего аэродрома; other?соседних аэродромов;}.</Text>
+    </Replace>		
+	
+	<Replace Tag="LOC_PASTURE_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседнего пастбища.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CAMP_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседнего лагеря.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_PLANTATION_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседней плантации.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_Farm_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседней фермы.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_CANAL_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от {1_Num : plural 1?соседнего канала; other?соседних каналов;}.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_AERODROME_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от {1_Num : plural 1?соседнего аэродрома; other?соседних аэродромов;}.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_NEIGHBORHOOD_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от {1_Num : plural 1?соседнего пригорода; other?соседних пригородов;}.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_SCIENCE] науки от соседнего леса.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_CULTURE" Language="ru_RU">
+      <Text>+{1_num} [ICON_CULTURE] культуры от соседнего леса.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_FAITH" Language="ru_RU">
+      <Text>+{1_num} [ICON_FAITH] веры от соседнего леса.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от соседнего леса.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседнего леса.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседнего леса.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_SCIENCE] науки от соседних джунглей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_CULTURE" Language="ru_RU">
+      <Text>+{1_num} [ICON_CULTURE] культуры от соседних джунглей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_FAITH" Language="ru_RU">
+      <Text>+{1_num} [ICON_FAITH] веры от соседних джунглей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от соседних джунглей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседних джунглей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседних джунглей.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_SCIENCE] науки от соседней горы.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_CULTURE" Language="ru_RU">
+      <Text>+{1_num} [ICON_CULTURE] культуры от соседней горы.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_FAITH" Language="ru_RU">
+      <Text>+{1_num} [ICON_FAITH] веры от соседней горы.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от соседней горы.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседней горы.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседней горы.</Text>
+    </Replace>	
+	
+	<Replace Tag="GOLDEN_LOC_TUNDRA_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_SCIENCE] науки от соседней клетки тундры.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_TUNDRA_CULTURE" Language="ru_RU">
+      <Text>+{1_num} [ICON_CULTURE] культуры от соседней клетки тундры.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_TUNDRA_FAITH" Language="ru_RU">
+      <Text>+{1_num} [ICON_FAITH] веры от соседней клетки тундры.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_TUNDRA_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от соседней клетки тундры.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_TUNDRA_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседней клетки тундры.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_TUNDRA_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседней клетки тундры.</Text>
+    </Replace>	
+	
+	<Replace Tag="GOLDEN_LOC_SNOW_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_SCIENCE] науки от соседней клетки снега.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_SNOW_CULTURE" Language="ru_RU">
+      <Text>+{1_num} [ICON_CULTURE] культуры от соседней клетки снега.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_SNOW_FAITH" Language="ru_RU">
+      <Text>+{1_num} [ICON_FAITH] веры от соседней клетки снега.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_SNOW_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от соседней клетки снега.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_SNOW_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседней клетки снега.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_SNOW_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседней клетки снега.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_DISTRICT_1_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседнего района.</Text>
+    </Replace>	
+	
+	<Replace Tag="GOLDEN_LOC_HILLS_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_SCIENCE] науки от соседних холмов.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_HILLS_CULTURE" Language="ru_RU">
+      <Text>+{1_num} [ICON_CULTURE] культуры от соседних холмов.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_HILLS_FAITH" Language="ru_RU">
+      <Text>+{1_num} [ICON_FAITH] веры от соседних холмов.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_HILLS_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от соседних холмов.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_HILLS_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседних холмов.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_HILLS_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседних холмов.</Text>
+    </Replace>	
+
+    
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_SCIENCE] науки от соседних равнин.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_CULTURE" Language="ru_RU">
+      <Text>+{1_num} [ICON_CULTURE] культуры от соседних равнин.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_FAITH" Language="ru_RU">
+      <Text>+{1_num} [ICON_FAITH] веры от соседних равнин.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от соседних равнин.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседних равнин.</Text>
+    </Replace>
+	
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседних равнин.</Text>
+    </Replace>
+	
+	
+	<Replace Tag="LOC_DISTRICT_DESERT_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от соседней клетки пустыни.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_DESERT_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседней клетки пустыни.</Text>
+    </Replace>
+	
+	
+	<Replace Tag="LOC_DISTRICT_COAST_FAITH" Language="ru_RU">
+      <Text>+{1_num} [ICON_FAITH] веры от соседней клетки побережья.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_COAST_PRODUCTION" Language="ru_RU">
+      <Text>+{1_num} [ICON_Production] производства от соседней клетки побережья.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_COAST_GOLD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Gold] золота от соседней клетки побережья.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_COAST_FOOD" Language="ru_RU">
+      <Text>+{1_num} [ICON_Food] пищи от соседней клетки побережья.</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_DISTRICT_COAST_SCIENCE" Language="ru_RU">
+      <Text>+{1_num} [ICON_SCIENCE] науки от соседней клетки побережья.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_COAST_CULTURE" Language="ru_RU">
+      <Text>+{1_num} [ICON_CULTURE] культуры от соседней клетки побережья.</Text>
+    </Replace>	
+	<!-- encampment adjacency texts -->
+	
+	<Replace Tag="LOC_Encampment_Farm_Housing" Language="ru_RU">
+      <Text>+1 [ICON_Housing] жилья от соседней фермы.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_Encampment_National_Encampment_Housing" Language="ru_RU">
+      <Text>+3 [ICON_Housing] жилья от соседнего национального военного лагеря.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_Encampment_Pasture_Housing" Language="ru_RU">
+      <Text>+1 [ICON_Housing] жилья от соседнего пастбища.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_Encampment_Plantation_Housing" Language="ru_RU">
+      <Text>+1 [ICON_Housing] жилья от соседних плантаций.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_Encampment_Camp_Housing" Language="ru_RU">
+      <Text>+1 [ICON_Housing] жилья от соседних кампусов.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_Encampment_Encampment_Housing" Language="ru_RU">
+      <Text>+1 [ICON_Housing] жилья от соседних военных лагерей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_Encampment_Government_Housing" Language="ru_RU">
+      <Text>+1 [ICON_Housing] жилья от соседней правительственной площади.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_Encampment_Aerodrome_Housing" Language="ru_RU">
+      <Text>+1 [ICON_Housing] жилья от соседних аэродромов.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_Encampment_Canal_Housing" Language="ru_RU">
+      <Text>+1 [ICON_Housing] жилья от соседних каналов.</Text>
+    </Replace>
+	<!-- Entertainment adjacency bonus -->
+	
+	<Replace Tag="LOC_ENTERTAINMENT_CITY_ENTERTAINMENT" Language="ru_RU">
+      <Text>+1 [ICON_Amenities] довольства от центров города.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_ENTERTAINMENT_NATIONAL_ENTERTAINMENT_ENTERTAINMENT" Language="ru_RU">
+      <Text>+2 [ICON_Amenities] довольства от национального военного лагеря.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_ENTERTAINMENT_ENTERTAINMENT_ENTERTAINMENT" Language="ru_RU">
+      <Text>+1 [ICON_Amenities] довольства от развлекательного комплекса.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_ENTERTAINMENT_GOVERNMENT_ENTERTAINMENT" Language="ru_RU">
+      <Text>+1 [ICON_Amenities] довольства от правительственной площади.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_ENTERTAINMENT_WATER_ENTERTAINMENT_ENTERTAINMENT" Language="ru_RU">
+      <Text>+1 [ICON_Amenities] довольства от аквапарка.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- <RulesetDomainOverrides>
+		<Row Ruleset="RULESET_EXPANSION_2" ParameterId="PlayerLeader" Domain="Players:Expansion2_Players"/>
+	</RulesetDomainOverrides>  -->
+	
+	<Players>
+
+		<Row>
+			<!-- Expansion 1 Support -->
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_SLAVIC</CivilizationType>
+			<LeaderType>LEADER_SLAVIC_RURIK</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_SLAVIC_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_SLAVIC</CivilizationIcon>
+			<LeaderName>LOC_LEADER_SLAVIC_RURIK_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_SLAVIC_RURIK</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_SLAVIC_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_SLAVIC_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_SLAVIC</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_LEADER_SLAVIC_RURIK_ABILITY_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_LEADER_SLAVIC_RURIK_ABILITY_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_SLAVIC_RURIK</LeaderAbilityIcon>
+			<Portrait>LEADER_SLAVIC_RURIK_NEUTRAL.dds</Portrait>
+			<PortraitBackground>LEADER_T_ROOSEVELT_BACKGROUND</PortraitBackground>
+		</Row>
+
+		<Row>
+			<!-- Expansion 2 Support -->
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_SLAVIC</CivilizationType>
+			<LeaderType>LEADER_SLAVIC_RURIK</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_SLAVIC_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_SLAVIC</CivilizationIcon>
+			<LeaderName>LOC_LEADER_SLAVIC_RURIK_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_SLAVIC_RURIK</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_SLAVIC_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_SLAVIC_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_SLAVIC</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_LEADER_SLAVIC_RURIK_ABILITY_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_LEADER_SLAVIC_RURIK_ABILITY_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_SLAVIC_RURIK</LeaderAbilityIcon>
+			<Portrait>LEADER_SLAVIC_RURIK_NEUTRAL.dds</Portrait>
+			<PortraitBackground>LEADER_T_ROOSEVELT_BACKGROUND</PortraitBackground>
+		</Row> 
+	</Players>
+	
+	<PlayerItems>
+
+		<!-- Expansion 1 Support -->
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_SLAVIC</CivilizationType>
+			<LeaderType>LEADER_SLAVIC_RURIK</LeaderType>
+			<Type>BUILDING_SLAVIC_UNIQUE</Type>
+			<Name>LOC_BUILDING_SLAVIC_UNIQUE_NAME</Name>
+			<Description>LOC_BUILDING_SLAVIC_UNIQUE_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_SLAVIC_UNIQUE</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_SLAVIC</CivilizationType>
+			<LeaderType>LEADER_SLAVIC_RURIK</LeaderType>
+			<Type>UNIT_SLAVIC_UNIQUE</Type>
+			<Name>LOC_UNIT_SLAVIC_UNIQUE_NAME</Name>
+			<Description>LOC_UNIT_SLAVIC_UNIQUE_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_SLAVIC_UNIQUE</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+
+		<!-- Expansion 2 Support -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_SLAVIC</CivilizationType>
+			<LeaderType>LEADER_SLAVIC_RURIK</LeaderType>
+			<Type>BUILDING_SLAVIC_UNIQUE</Type>
+			<Name>LOC_BUILDING_SLAVIC_UNIQUE_NAME</Name>
+			<Description>LOC_BUILDING_SLAVIC_UNIQUE_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_SLAVIC_UNIQUE</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_SLAVIC</CivilizationType>
+			<LeaderType>LEADER_SLAVIC_RURIK</LeaderType>
+			<Type>UNIT_SLAVIC_UNIQUE</Type>
+			<Name>LOC_UNIT_SLAVIC_UNIQUE_NAME</Name>
+			<Description>LOC_UNIT_SLAVIC_UNIQUE_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_SLAVIC_UNIQUE</Icon>
+			<SortIndex>30</SortIndex>			
+		</Row>
+	</PlayerItems>
+</GameData>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+<LocalizedText>
+	<Replace Tag="LOC_AKMH_LAUNCHBUTTON_TT" Text="История карты" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_LAUNCHBUTTON_ALERT_SINGLE_TT" Text="" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKMH_MAIN_TITLE" Text="История карты" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_BUTTON_OPTIONS_TT" Text="Настройки" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKMH_INSTRUCTIONS" Text="Наведите указатель мыши на изображение, чтобы найти возможные настройки, и щелкните левой кнопкой мыши, чтобы создать их. Объекты, отмеченные зеленым, позволяют дальнейшие улучшения." Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_INSTRUCTIONS_MULTISTYLE" Text="Щелкните правой кнопкой мыши, чтобы выбрать стили, доступные для этой программы." Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_INSTRUCTIONS_DELETEMODE" Text="Объекты, которые можно удалить, выделяются красным при наведении на них указателя мыши; дважды щелкните левой кнопкой мыши, чтобы удалить." Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_INSTRUCTIONS_DELETEMODE_HEADER" Text="[COLOR_RED]РЕЖИМ УДАЛЕНИЯ ВКЛЮЧЕН[ENDCOLOR]" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKMH_OPT_HEADER" Text="Настройки" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_OPT_GENERAL_HEADER" Text="Общее" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_BUTTON_SETTINGSCANCEL" Text="Отмена"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_BUTTON_SETTINGSRESET" Text="Сбросить"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_BUTTON_SETTINGSSAVE" Text="Сохранить"   Language="ru_RU" />
+	
+	<Replace Tag="LOC_AKMH_ENDGAME_TITLE" Text="МИР"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_THE_KNOWN_WORLD" Text="Известный мир"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_THE_DAWN_OF_TIME" Text="Начало времен"   Language="ru_RU" />
+	
+	<Replace Tag="LOC_AKMH_OPT_Overlays" Text="Режим"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_ShowOwnerOverlayRB" Text="Цивилизации"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_ShowReligionOverlayRB" Text="Религии"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_layers" Text="Слои"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_ShowCities" Text="Города"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_ShowDevelopment" Text="Районы и улучшения"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_ShowResources" Text="Ресурсы"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_ShowFeatures" Text="Особенности местности"   Language="ru_RU" />
+	
+	<Replace Tag="LOC_AKMH_OPT_Pings" Text="События"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_PingCityFounded" Text="Город основан"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_PingCityCaptured" Text="Город захвачен"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_PingCityRazed" Text="Город разрушен"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_PingWonderBuilt" Text="Построено чудо"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_PingSound" Text="Звук"   Language="ru_RU" />
+	
+	<Replace Tag="LOC_AKMH_OPT_General" Text="Общее"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_DynamicCentring" Text="Сдвигаемый центр"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_DynamicSizing" Text="Растягиваемый размер карты"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_ShowUnRevealed" Text="Неисследованная земля"   Language="ru_RU" />
+	<Replace Tag="LOC_AKMH_OPT_ShowInvisibleResources" Text="Невидимые ресурсы"   Language="ru_RU" />
+
+	<Replace Tag="LOC_AKMH_BUTTON_TOGGLEWINDOWED_TT" Text="Показать в окне" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_BUTTON_TOGGLEFULLSCREEN_TT" Text="Показать во весь экран" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKMH_BUTTON_PLAY_TT" Text="Воспроизвести[NEWLINE]Щелкните ПКМ для воспроизведения в обратном направлении" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_BUTTON_STOP_TT" Text="Пауза" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_BUTTON_SKIPTOSTART_TT" Text="В самое начало" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_BUTTON_SKIPTOEND_TT" Text="В самый конец" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_BUTTON_NEXTTURN_TT" Text="Следующий ход[NEWLINE]Щелчок ПКМ +50[ICON_TURN]" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_BUTTON_PREVTURN_TT" Text="Предыдущий ход[NEWLINE]Щелчок ПКМ -50[ICON_TURN]" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_BUTTON_SPEED_TT" Text="Изменить скорость[NEWLINE]Щелчок ЛКМ - ускорить[NEWLINE]Щелчок ПКМ - замедлить" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKMH_PING_CITYFOUNDED" Text="[COLOR_Civ6Green]{1_cityname} основан[ENDCOLOR]" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_PING_CITYRAZED" Text="[COLOR_RED]{1_cityname} разрушен[ENDCOLOR]" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_PING_CITYCAPTURED" Text="[COLOR_Civ6Yellow]{1_cityname} захвачен[ENDCOLOR]" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_PING_WONDERBUILT" Text="[COLOR_White]{1_wondername}[ENDCOLOR]" Language="ru_RU"/>
+	
+	<Replace Tag="LOC_AKMH_UPDATEFREQUENCY_INFO_HEADER" Text="Регулировка воспроизведения карты" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_UPDATEFREQUENCY_INFO_TEXT" Text="Кормбинация размера карты ({1_mapx}x{2_mapy}) и ожидаемое число ходов ({3_expectedturns}) подразумевает, что после хода {4_fullupdatecutoff}, история мира будет обновлена только каждый(-е) {5_updatefreq} шаг(-ов)" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKMH_DATASIZE_WARNING_HEADER" Text="[COLOR_RED]Предупреждение о воспроизведении карты[ENDCOLOR]" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_DATASIZE_WARNING_TEXT" Text="[COLOR_RED]История карты сейчас составляет {1_maxsafedatasize} байт [ENDCOLOR][NEWLINE]Um mögliche Spielstandsbeschädigung zu verhindern, empfiehlt es sich den Mod abszuschalten, wenn beabsichtigt ist viele Runden weiterspielen zu wollen." Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKMH_SAVESPEED_WARNING_HEADER" Text="Воспроизведение карты" Language="ru_RU"/>
+	<Replace Tag="LOC_AKMH_SAVESPEED_WARNING_TEXT" Text="[COLOR_Civ6Yellow]Сохранение карты истории заняло {1_slowsavecutoff} секунд [ENDCOLOR][NEWLINE]Сохранение, выход или перезапуск игры могут ускорить процесс." Language="ru_RU"/>
+	
+	
+	
+</LocalizedText>
+</GameData>
+

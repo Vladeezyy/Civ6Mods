@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_UNIT_SCENARIO_NORWEGIAN_LONGSHIP_DESCRIPTION" Language="ru_RU">
+      <Text>Уникальный морской юнит викингов, заменяющий галеру. Грабит прибрежные территории и захватывает соседних жителей. Лечится на нейтральной территории. Дает очки великого адмирала, уничтожая другие юниты.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

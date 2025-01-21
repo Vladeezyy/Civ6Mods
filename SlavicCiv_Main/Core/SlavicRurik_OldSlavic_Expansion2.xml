@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+	<Types>
+		<!-- Rivers -->
+
+		<Row Type="NAMED_RIVER_DNIEPR" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_RIVER_DESNA" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_RIVER_OKA" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_RIVER_VOLKHOV" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_RIVER_VELIKAYA" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_RIVER_LOVAT" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_RIVER_SEYM" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_RIVER_SOZH" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_RIVER_VILIYA" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_RIVER_PRIPYAT" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_RIVER_NAREV" Kind="KIND_NAMED_RIVER"/>
+
+		<!-- Lakes -->
+
+		<Row Type="NAMED_LAKE_AGUA_NEVO" Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_LAKE_AGUA_ONEGO" Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_LAKE_AGUA_ILMEN" Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_LAKE_AGUA_PSKOVSKOE" Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_LAKE_AGUA_SELIGER" Kind="KIND_NAMED_LAKE"/>
+	</Types>
+
+	<NamedRivers>
+		<Row NamedRiverType="NAMED_RIVER_DNIEPR" Name="LOC_NAMED_DNIEPR_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_DESNA" Name="LOC_NAMED_RIVER_DESNA_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_OKA" Name="LOC_NAMED_RIVER_OKA_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_VOLKHOV" Name="LOC_NAMED_RIVER_VOLKHOV_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_VELIKAYA" Name="LOC_NAMED_RIVER_VELIKAYA_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_LOVAT" Name="LOC_NAMED_RIVER_LOVAT_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_SEYM" Name="LOC_NAMED_RIVER_SEYM_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_SOZH" Name="LOC_NAMED_RIVER_SOZH_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_VILIYA" Name="LOC_NAMED_RIVER_VILIYA_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_PRIPYAT" Name="LOC_NAMED_RIVER_PRIPYAT_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_NAREV" Name="LOC_NAMED_RIVER_NAREV_NAME"/>
+	</NamedRivers>
+
+	<NamedLakes>
+		<Row NamedLakeType="NAMED_LAKE_NEVO" Name="LOC_NAMED_LAKE_NEVO_NAME"/>
+		<Row NamedLakeType="NAMED_LAKE_ONEGO" Name="LOC_NAMED_LAKE_ONEGO_NAME"/>
+		<Row NamedLakeType="NAMED_LAKE_ILMEN" Name="LOC_NAMED_LAKE_ILMEN_NAME"/>
+		<Row NamedLakeType="NAMED_LAKE_PSKOVSKOE" Name="LOC_NAMED_PSKOVSKOE_NAME"/>
+		<Row NamedLakeType="NAMED_LAKE_SELIGER" Name="LOC_NAMED_LAKE_SELIGER_NAME"/>
+	</NamedLakes>
+	
+	
+	<NamedRiverCivilizations>
+		<Row NamedRiverType="NAMED_RIVER_VOLGA" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedRiverType="NAMED_RIVER_DNIEPR" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedRiverType="NAMED_RIVER_DESNA" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedRiverType="NAMED_RIVER_OKA" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedRiverType="NAMED_RIVER_VOLKHOV" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedRiverType="NAMED_RIVER_VELIKAYA" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedRiverType="NAMED_RIVER_LOVAT" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedRiverType="NAMED_RIVER_SEYM" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedRiverType="NAMED_RIVER_SOZH" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedRiverType="NAMED_RIVER_VILIYA" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedRiverType="NAMED_RIVER_PRIPYAT" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedRiverType="NAMED_RIVER_NAREV" CivilizationType="CIVILIZATION_SLAVIC"/>
+	</NamedRiverCivilizations>
+
+	<NamedMountainCivilizations>
+	</NamedMountainCivilizations>
+
+	<NamedLakeCivilizations>
+		<Row NamedLakeType="NAMED_LAKE_NEVO" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedLakeType="NAMED_LAKE_ONEGO" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedLakeType="NAMED_LAKE_ILMEN" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedLakeType="NAMED_LAKE_PSKOVSKOE" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedLakeType="NAMED_LAKE_SELIGER" CivilizationType="CIVILIZATION_SLAVIC"/>
+	</NamedLakeCivilizations>
+
+	<NamedSeaCivilizations>
+		<Row NamedSeaType="NAMED_SEA_SEA_OF_AZOV" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedSeaType="NAMED_SEA_BALTIC_SEA" CivilizationType="CIVILIZATION_SLAVIC"/>
+		<Row NamedSeaType="NAMED_SEA_BLACK_SEA" CivilizationType="CIVILIZATION_SLAVIC"/>
+	</NamedSeaCivilizations>
+
+
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" TerrainType="TERRAIN_GRASS" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" TerrainType="TERRAIN_PLAINS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" TerrainType="TERRAIN_GRASS_HILLS" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_SLAVIC" TerrainType="TERRAIN_PLAINS_HILLS" Tier="1"/>
+	</StartBiasTerrains>
+</GameInfo>

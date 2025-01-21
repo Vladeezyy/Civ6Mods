@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Pedia text (historical context) about the new building. -->
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_SLAVIC_UNIQUE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A Slavic Wall (Gord) is an Early Slavic fortified settlement, sometimes known as a burgwall after the German term for such sites. Gords were built during the late Bronze and early Iron Ages by the Lusatian culture (c. 1300–500 BCE), and up to the 7th–8th centuries CE and beyond by other cultures, in what is now Central, Eastern and parts of Southern Europe. These settlements were usually founded on strategic sites such as hills, riverbanks, lake islets, or peninsulas.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_SLAVIC_UNIQUE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>As Slavic tribes united to form states, gords were also built for defensive purposes in less-populated border areas. Gords in which rulers resided or that lay on trade routes quickly expanded. Near the gord, or below it in elevation, there formed small communities of servants, merchants, artisans, and others who served the higher-ranked inhabitants of the gord. Each such community was known as a suburbium (Polish: podgrodzie). Its residents could shelter within the walls of the gord in the event of danger. Eventually the suburbium acquired its own fence or wall. In the High Middle Ages, the gord usually evolved into a castle, citadel or kremlin, and the suburbium into a town.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_SLAVIC_UNIQUE_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Some gords did not stand the test of time and were abandoned or destroyed, gradually turning into more or less discernible mounds or rings of earth (Russian gorodishche, Polish grodzisko, Ukrainian horodyshche, Slovak hradisko, Czech hradiště, and Serbian gradiška/градишка). Notable archeological sites include Groß Raden in Germany and Biskupin in Poland.</Text>
+		</Row>
+
+		<!-- Pedia text (historical context) about the new unit. -->
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SLAVIC_UNIQUE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A bogatyr or vityaz is a stock character in medieval East Slavic legends, akin to a Western European knight-errant.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SLAVIC_UNIQUE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Bogatyrs appear mainly in Rus' epic poems—bylinas. Historically, they came into existence during the reign of Vladimir the Great (Grand Prince of Kiev from 980 to 1015) as part of his elite warriors (druzhina), akin to Knights of the Round Table.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SLAVIC_UNIQUE_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Tradition describes bogatyrs as warriors of immense strength, courage and bravery, rarely using magic while fighting enemies in order to maintain the "loosely based on historical fact" aspect of bylinas. They are characterized as having resounding voices, with patriotic and religious pursuits, defending Rus' from foreign enemies. In modern Russian, the word bogatyr labels a courageous hero, an athlete or a physically strong man.</Text>
+		</Row>
+
+		<!-- Pedia text (historical context) about the new disctrict. -->
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SLAVIC_KREMLIN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A kremlin is a major fortified central complex found in historic Russian cities.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SLAVIC_KREMLIN_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The Slavs began to build fortresses to protect their lands from enemies in the ninth century. It is known that the Scandinavians called the Slavic lands the land of fortresses - "Gardariki". In ancient times, a wooden fence was built on the crest of a rampart, a palisade or zapolot (the wall made of logs, vertically one above the other, and connected with horizontally laid timbers). The way of defending the settlement was primitive; later wooden fortress walls became more preferable.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SLAVIC_KREMLIN_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>In the VIII century, the earliest known stone and wooden fortress - Lubšanská fortress near Staraya Ladoga was built. The ancient stone and wooden kremlins include a fortress on Truvorov settlement near Izborsk (IX century) and the first Stara Ladoga Kremlin (the end of IX century, later rebuilt). Single stone towers, gates and bends of walls appeared in other cities (Vladimir, Kyiv, Novgorod, Pereyaslavl): the Golden Gate of Kievan citadel and the gate of the Vladimir Kremlin bearing the same name survived.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SLAVIC_KREMLIN_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>A special type of wooden and stone Kremlins appeared under the influence of architectural traditions of Poland and Hungary. They were characterised by the juxtaposition of wooden walls and towers with vezha - high stone towers standing inside the fortress, which were used as watchtowers. Constructions, called Volyn towers, were erected, for example, in the citadels of Kholmsk, Kamenets and Gorodeni.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SLAVIC_KREMLIN_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>During the Mongol-Tatar invasion, many Russian wooden and stone-wooden fortresses were taken and destroyed by the Mongols. The long-lasting Mongol-Tatar yoke slowed down the development of Russian fortification architecture for a century and a half, as internecine wars stopped and the need to build fortresses disappeared.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SLAVIC_KREMLIN_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>The tradition of fortress construction was preserved in Novgorod and Pskov lands which were not damaged by the Mongol invasion. Here are built not only kremlins (Izborsk, Porkhov) but - for the first time in Russia - fortresses, which were not many cities in the full sense of the word, as defensive structures (Koporie, Oreshek, Yam, Korela, Ostrov, Kobyla). The strongest of the Russian fortresses was the Pskov Kremlin, which had no equal in Russia in the number of sustained sieges.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SLAVIC_KREMLIN_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text>The term Kremlin (in the variant Kremnik) is first encountered in chronicles of 1317 in accounts of the construction of the Tver Kremlin, where a wooden city-fortress was erected, which was clayed and whitewashed.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SLAVIC_KREMLIN_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text>Wooden fortresses were erected everywhere in the Russian state - from the Far East lands to the Swedish borders. They were numerous in the South, where they served as a link of fortified fortification zones cutting off the way to the central regions from Crimean Tatars. Aesthetically wooden fortresses were not inferior to stone ones - and we can regret that the towers of wooden kremlins have not survived to this day. Wooden fortresses were built quickly: in 1638 in Mtsensk fortress walls of Bolshoi Ostrog and Pletny Gorod with a total length of about 3 kilometres with 13 towers and almost one hundred meters long bridge over the River Zusha were erected in 20 days. The town of Sviyazhsk was built similarly during the Kazan campaign in the spring of 1551: fortress walls about 2.5 kilometres long, many churches and houses were erected in a month.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SLAVIC_KREMLIN_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text>Later on, many Kremlins were rebuilt and strengthened. Thus, the Moscow Kremlin under Ivan the Third was reconstructed of bricks.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SLAVIC_KREMLIN_CHAPTER_HISTORY_PARA_10" Language="en_US">
+			<Text>In the XVI-XVII centuries, about 30 stone fortresses were built in the Russian State. New Kremlins have regular geometric forms in plan (Zaraisky and Tula Kremlins). The Tula Kremlin is unique because it was built in a valley (which was possible because of undeveloped siege artillery of nomad Tatars).</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SLAVIC_KREMLIN_CHAPTER_HISTORY_PARA_11" Language="en_US">
+			<Text>Construction of the Kremlin lasted until the turn of the XVII-XVIII centuries. The last Kremlin structure was built of stone in 1699-1717 in the town of Tobolsk (the easternmost Kremlin in Russia).</Text>
+		</Row>
+
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SLAVIC_RURIK_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Rurik is open for international trade routes but prefers to establish domestic ones. His neighbours should be aware of his expansion and solid fortifications.</Text>
+		</Row>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SLAVIC_RURIK_CHAPTER_CAPSULE_BODY" Language="ru_RU">
+			<Text>Рюрик открыт для международной торговли но предпочитает устанавливать домашнии торговые пути. Его соседи должды внимательно следить за его активной экспансией в сочетании с надежными оборонительными сооружениями.</Text>
+		</Replace>
+		
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SLAVIC_RURIK_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Rurik really benefits from domestic trade routes. They enchance the cities' loyalty and get additional [ICON_Culture] culture . It means that the most effective strategy is to build new cities as fast as possible and send traders to them. Especially when there are other civilizations nearby. The unuqie district Kremlin provides additional cultural[ICON_Culture] boost and defense for the territory. Also, do not forget about Slavic Walls building and Bogatyr unit. Slavic Walls has additional defense while Bogatyr has more Strength [ICON_Strength] on the plains.</Text>
+		</Row>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SLAVIC_RURIK_CHAPTER_DETAILED_BODY" Language="ru_RU">
+			<Text>Рюрику очень выгодно прокладывать торговые пути между своими городами. Эти торгове пути увеличивают лояльность городов и дают дополнительную [ICON_Culture]культуру. Это значит что наиболее эффективной стратегией будет строить новые города как можно быстрее и отправлять к ним торговцев. Особенно если поблизости находятся другие цивилизации. Уникальный Район Кремль производит дополнительную[ICON_Culture] культуру и защиту для территории. Не забывайте так же о Кремлевских стенах и богатырях. Кремлевские стены дают дополнительную защиту в то время как Богатыри имеют дополнительную [ICON_Strength] мощь на равнинах.</Text>
+		</Replace>
+		
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SLAVIC_RURIK_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Rurik was a Varangian chieftain of the Rus' who in the year 862 was invited to reign in Ladoga or Novgorod. The three brothers—Rurik, Sineus, and Truvor—established themselves in Novgorod, Beloozero, and Izborsk, respectively. Two of the brothers died, and Rurik became the sole ruler of the territory and progenitor of the Rurik Dynasty.</Text>
+		</Row>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SLAVIC_RURIK_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Рюрик был Варяжским Вождем Русов, которого в 862 году пригласили править в Ладоге или Новгороде. Трое братьев - Рюрик, Синеус и Турвор, обосновались в Новгороде, Белоозере и Изборске соответственно. Двое братьев умерли и Рюрик стал единственным правителем всей территории и основателем династии Рюриковичей.</Text>
+		</Replace>
+
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SLAVIC_RURIK_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The Rurik Dynasty (or Rurikids) went on to rule Kievan Rus', and ultimately the Tsardom of Russia, until 1598, and numerous noble Russian and Ruthenian families claim male-line descent from Rurik. The last Rurikid to rule Russia was Tsar Vasily IV (from the House of Shuysky, cadet branch of the House of Rurik), who reigned till 1612.</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SLAVIC_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Prior to the emergence of Kievan Rus' in the 9th century AD, the lands between the Baltic Sea and the Black Sea were primarily populated by eastern Slavic tribes. In 862, the Finnic and Slavic tribes in the area of Novgorod rebelled against the Varangians, who ruled this territory, driving them "back beyond the sea and, refusing them further tribute, set out to govern themselves." "</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SLAVIC_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>And to govern themselves, Slavic tribes invited the three brothers—Rurik, Sineus, and Truvor. They established themselves in Novgorod, Beloozero, and Izborsk, respectively. Two of the brothers died, and Rurik became the sole ruler of the territory and progenitor of the Rurik Dynasty. A short time later, two of Rurik's men, Askold and Dir, asked him for permission to go to Tsargrad (Constantinople). On their way south, they discovered "a small city on a hill," Kyiv, captured it and the surrounding country from the Khazars and "established their dominion over the country of the Polyanians.""</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SLAVIC_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Rurik led the Rus' until his death in about 879, bequeathing his kingdom to his kinsman, Prince Oleg, as regent for his young son, Igor. In 880–82, Oleg led a military force south along the Dnieper river, capturing Smolensk and Lyubich before reaching Kiev, where he deposed and killed Askold and Dir, proclaimed himself prince, and declared Kyiv the "mother of Rus' cities." Oleg set about consolidating his power over the surrounding region and the riverways north to Novgorod, imposing tribute on the East Slav tribes. In 883, he conquered the Drevlians, imposing a fur tribute on them. By 885 he had subjugated the Poliane, Severiane, Vyatichi, and Radimichs, forbidding them to pay further tribute to the Khazars. Oleg continued to develop and expand a network of Rus' forts in Slav lands, begun by Rurik in the north.</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SLAVIC_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>The new Kievan state prospered due to its abundant supply of furs, beeswax, honey, and slaves for export, and because it controlled three main trade routes of Eastern Europe. In the north, Novgorod served as a commercial link between the Baltic Sea and the Volga trade route to the lands of the Volga Bulgars, the Khazars, and across the Caspian Sea as far as Baghdad, providing access to markets and products from Central Asia and the Middle East. These commercial connections enriched Rus' merchants and princes, funding military forces and the construction of churches, palaces, fortifications, and further towns. Demand for luxury goods fostered the production of expensive jewelry and religious wares, allowing their export, and advanced credit and money-lending system may have also been in place.</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SLAVIC_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>Kievan Rus', although sparsely populated compared to Western Europe, was not only the largest contemporary European state in terms of area but also culturally advanced. Literacy in Kyiv, Novgorod, and other large cities was high. As birch bark documents attest, they exchanged love letters and prepared cheat sheets for schools. Novgorod had a sewage system and wood paving not often found in other cities at the time. The Russkaya Pravda confined punishments to fines and generally did not use capital punishment. Certain rights were accorded to women, such as property and inheritance rights.</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SLAVIC_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>The economic development of Kievan Rus may be translated into demographic statistics. Around 1200, Kyiv had a population of 50,000, Novgorod and Chernigov both had around 30,000. Constantinople had a population of about 400,000 around 1180. The Soviet scholar Mikhail Tikhomirov calculated that Kievan Rus' on the eve of the Mongol invasion had around 300 urban centers.</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SLAVIC_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text>Kievan Rus' also played an important genealogical role in European politics. Yaroslav the Wise, whose stepmother belonged to the Macedonian dynasty, which ruled the Byzantine empire from 867 to 1056, married the only legitimate daughter of the king who Christianized Sweden. His daughters became queens of Hungary, France, and Norway, his sons married the daughters of a Polish king and a Byzantine emperor (not to mention a niece of the Pope), while his granddaughters were a German Empress and (according to one theory) the queen of Scotland. A grandson married the only daughter of the last Anglo-Saxon king of England. Thus the Rurikids were a well-connected royal family of the time.</Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_SLAVIC_MALE_1" Language="en_US">
+			<Text>Kazimir</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_MALE_1" Language="ru_RU">
+			<Text>Казимир|Казимира|Казимиру|Казимира|Казимиром|Казимире</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_MALE_2" Language="en_US">
+			<Text>Jaroslav</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_MALE_2" Language="ru_RU">
+			<Text>Ярослав|Ярослава|Ярославу|Ярослава|Ярославом|Ярославе</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>	
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_MALE_3" Language="en_US">
+			<Text>Jarek</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_MALE_3" Language="ru_RU">
+			<Text>Ярек|Ярека|Яреку|Ярека|Яреком|Яреке</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_MALE_4" Language="en_US">
+			<Text>Miroslaw</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_MALE_4" Language="ru_RU">
+			<Text>Мирослав|Мирослава|Мирославу|Мирослава|Мирославом|Мирославе</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_MALE_5" Language="en_US">
+			<Text>Svatomir</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_MALE_5" Language="ru_RU">
+			<Text>Святомир|Святомира|Святомиру|Святомира|Святомиром|Святомире</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_FEMALE_1" Language="en_US">
+			<Text>Jarmila</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_FEMALE_1" Language="ru_RU">
+			<Text>Ярмила|Ярмилу|Ярмиле|Ярмилу|Ярмилой|Ярмиле</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_FEMALE_2" Language="en_US">
+			<Text>Bronislawa</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_FEMALE_2" Language="ru_RU">
+			<Text>Бронислава|Брониславу|Брониславе|Брониславу|Брониславой|Брониславе</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_FEMALE_3" Language="en_US">
+			<Text>Zarya</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_FEMALE_3" Language="ru_RU">
+			<Text>Заря|Зарю|Заре|Зарю|Зарёй|Заре</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_FEMALE_4" Language="en_US">
+			<Text>Zlata</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_FEMALE_4" Language="ru_RU">
+			<Text>Злата|Злату|Злате|Злату|Златой|Злате</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_FEMALE_5" Language="en_US">
+			<Text>Milena</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_FEMALE_5" Language="ru_RU">
+			<Text>Милена|Милену|Милене|Милену|Миленой|Милене</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_MODERN_MALE_1" Language="en_US">
+			<Text>Oleg</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_MODERN_MALE_1" Language="ru_RU">
+			<Text>Олег|Олега|Олегу|Олега|Олегом|Олеге</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_MODERN_MALE_2" Language="en_US">
+			<Text>Vladislav</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_MODERN_MALE_2" Language="ru_RU">
+			<Text>Владислав|Владислава|Владиславу|Владислава|Владиславом|Владиславе</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_MODERN_MALE_3" Language="en_US">
+			<Text>Anton</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_MODERN_MALE_3" Language="ru_RU">
+			<Text>Антон|Антона|Антону|Антона|Антоном|Антоне</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_MODERN_MALE_4" Language="en_US">
+			<Text>Timofey</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_MODERN_MALE_4" Language="ru_RU">
+			<Text>Тимофей|Тимофея|Тимофею|Тимофея|Тимофеем|Тимофее</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_MODERN_MALE_5" Language="en_US">
+			<Text>Stanislav</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_MODERN_MALE_5" Language="ru_RU">
+			<Text>Станислав|Станислава|Станиславу|Станислава|Станиславом|Станиславе</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_MODERN_FEMALE_1" Language="en_US">
+			<Text>Vera</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_MODERN_FEMALE_1" Language="ru_RU">
+			<Text>Вера|Веру|Вере|Веру|Верой|Вере</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_MODERN_FEMALE_2" Language="en_US">
+			<Text>Svetlana</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_MODERN_FEMALE_2" Language="ru_RU">
+			<Text>Светлана|Светлану|Светлане|Светлану|Светланой|Светлане</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_MODERN_FEMALE_3" Language="en_US">
+			<Text>Olga</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_MODERN_FEMALE_3" Language="ru_RU">
+			<Text>Ольга|Ольгу|Ольге|Ольгу|Ольгой|Ольге</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_MODERN_FEMALE_4" Language="en_US">
+			<Text>Tatyana</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_MODERN_FEMALE_4" Language="ru_RU">
+			<Text>Татьяна|Татьяну|Татьяне|Татьяну|Татьяной|Татьяне</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CITIZEN_SLAVIC_MODERN_FEMALE_5" Language="en_US">
+			<Text>Lida</Text>
+		</Row>
+		<Replace Tag="LOC_CITIZEN_SLAVIC_MODERN_FEMALE_5" Language="ru_RU">
+			<Text>Лида|Лиду|Лиде|Лиду|Лидой|Лиде</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_1" Language="en_US">
+			<Text>Novgorod</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_1" Language="ru_RU">
+			<Text>Новгород|Новгорода|Новгороду|Новгорода|Новгородом|Новгороде</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_2" Language="en_US">
+			<Text>Izborsk</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_2" Language="ru_RU">
+			<Text>Изборск|Изборска|Изборску|Изборска|Изборском|Изборске</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_3" Language="en_US">
+			<Text>Polotsk</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_3" Language="ru_RU">
+			<Text>Полоцк|Полоцка|Полоцку|Полоцк|Полоцком|Полоцке</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_4" Language="en_US">
+			<Text>Rostov</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_4" Language="ru_RU">
+			<Text>Ростов|Ростова|Ростову|Ростов|Ростовом|Ростове</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_5" Language="en_US">
+			<Text>Murom</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_5" Language="ru_RU">
+			<Text>Муром|Мурома|Мурому|Муром|Муромом|Муроме</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_6" Language="en_US">
+			<Text>Ladoga</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_6" Language="ru_RU">
+			<Text>Ладога|Ладоги|Ладоге|Ладогу|Ладогой|Ладоге</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_7" Language="en_US">
+			<Text>Belozersk</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_7" Language="ru_RU">
+			<Text>Белозерск|Белозерска|Белозерска|Белозерск|Белозерское|Белозерске</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_8" Language="en_US">
+			<Text>Smolensk</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_8" Language="ru_RU">
+			<Text>Смоленск|Смоленска|Смоленску|Смоленск|Смоленском|Смоленске</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_9" Language="en_US">
+			<Text>Kiev</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_9" Language="ru_RU">
+			<Text>Киев|Киева|Киеву|Киев|Киевом|Киеве</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_10" Language="en_US">
+			<Text>Liubech</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_10" Language="ru_RU">
+			<Text>Любеч|Любеча|Любечу|Любеч|Любечем|Любече</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_11" Language="en_US">
+			<Text>Pereiaslav</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_11" Language="ru_RU">
+			<Text>Переяслав|Переяслава|Переяславу|Переяслав|Переяславом|Переяславе</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_12" Language="en_US">
+			<Text>Pleskov</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_12" Language="ru_RU">
+			<Text>Плесков|Плескова|Плескову|Плесков|Плесковом|Плескове</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_13" Language="en_US">
+			<Text>Chernihiv</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_13" Language="ru_RU">
+			<Text>Чернигов|Чернигова|Чернигову|Чернигов|Черниговом|Чернигове</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_14" Language="en_US">
+			<Text>Peresechen’</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_14" Language="ru_RU">
+			<Text>Пересечень|Перечечени|Пересечени|Пересечень|Пересеченью|Пересечени</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_15" Language="en_US">
+			<Text>Uglich</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_15" Language="ru_RU">
+			<Text>Углич|Углича|Угличу|Углич|Угличем|Угличе</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_16" Language="en_US">
+			<Text>Vyshhorod</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_16" Language="ru_RU">
+			<Text>Вышгород|Вышгорода|Вышгороду|Вышгород|Вышгородом|Вышгороде</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_17" Language="en_US">
+			<Text>Iskorosten’</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_17" Language="ru_RU">
+			<Text>Искоростень|Искоростеня|Искоростеню|Искоростень|Искоростенем|Искоростене</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_18" Language="en_US">
+			<Text>Vitebsk</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_18" Language="ru_RU">
+			<Text>Витебск|Витебска|Витебску|Витебск|Витебском|Витебске</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_19" Language="en_US">
+			<Text>Vrychi’</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_19" Language="ru_RU">
+			<Text>Вручий|Вручия|Вручию|Вручий|Вручием|Вручие</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_20" Language="en_US">
+			<Text>Turaw</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY20" Language="ru_RU">
+			<Text>Туров|Турова|Турову|Туров|Туровом|Турове</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_21" Language="en_US">
+			<Text>Roden’</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_21" Language="ru_RU">
+			<Text>Родень|Родня|Родню|Родень|Роднем|Родне</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_22" Language="en_US">
+			<Text>Peremishl’</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_22" Language="ru_RU">
+			<Text>Перемышль|Перемышля|Перемышлю|Перемышль|Перемышлем|Перемышле</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_23" Language="en_US">
+			<Text>Czerwień</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_23" Language="ru_RU">
+			<Text>Червень|Червеня|Червеню|Червень|Червенем|Червене</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_24" Language="en_US">
+			<Text>Vladimir</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_24" Language="ru_RU">
+			<Text>Владимир|Владимира|Владимиру|Владимир|Владимиром|Владимире</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_25" Language="en_US">
+			<Text>Vasylkiv</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_25" Language="ru_RU">
+			<Text>Васильков|Василькова|Василькову|Васильков|Высильковым|Василькове</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_26" Language="en_US">
+			<Text>Belgorod</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_26" Language="ru_RU">
+			<Text>Белгород|Белгорода|Белгороду|Белгород|Белгородом|Белгороде</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_27" Language="en_US">
+			<Text>Suzdal’</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_27" Language="ru_RU">
+			<Text>Суздаль|Суздаля|Суздалю|Суздальо|Суздалем|Суздале</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_28" Language="en_US">
+			<Text>Lviv</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_28" Language="ru_RU">
+			<Text>Львов|Львова|Львову|Львов|Львовом|Львове</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_29" Language="en_US">
+			<Text>Minsk</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_29" Language="ru_RU">
+			<Text>Минск|Минска|Минску|Минск|Минском|Минске</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_CIVLIZATION_SLAVIC_CITY_30" Language="en_US">
+			<Text>Perm</Text>
+		</Row>
+		<Replace Tag="LOC_CIVLIZATION_SLAVIC_CITY_30" Language="ru_RU">
+			<Text>Пермь|Перми|Перми|Пермь|Пермью|Перми</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+
+		<!--Civilization Factoids -->
+
+		<!-- Leader Quotes -->
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_SLAVIC_RURIK" Language="en_US">
+			<Text>This legendary figure was considered by later rulers to be the founder of the Rurik dynasty, which ruled the Kievan Rus' and its successor states, including the Kingdom of Ruthenia, the Principality of Tver, Grand Duchy of Vladimir, the Grand Duchy of Moscow, the Novgorod Republic and the Tsardom of Russia, until the 17th century.</Text>
+		</Row>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SLAVIC_RURIK" Language="ru_RU">
+			<Text>Эта историческая личность считается основателем династии Рюриковичей, которая правила Киевской Русью и государствами что были после нее, такими как Галицко-Волынское Княжество, Княжество Тверское, Великое Княжество Владимирское, Великое княжество Московское, Новгородская республика и позже Царство Российское вплоть до 17 века.</Text>
+		</Replace>
+    <!-- Leader Dialog -->
+
+	<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>We would gladly recognize the strong friendship between our nations.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+			<Text>Мы очень признательны крепкой друбжы между нашими странами.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>Now I am not ready to call you as a friend of my people.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>В данный момент я не готов назвать Вас другом нашего народа</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>Kievan Rus' needs a strong and fearless ally. I think you are the one who will be!</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Киевской Руси нужен сильный и бесстрашный союзник. Вы отлично подходите на такую роль!</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>I appreciate everything you've done.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Ваши поступки для нас ценны.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>An unwelcome turn.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Непростительно.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>People of the Slavic Land will not brook such an act of disrespect!</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Славяне не потерпят столь грязного поступка!</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>Only the war will show the truth.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Только война покажет нам истину.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>Kievan Rus' has warmly welcomed the visitors you sent.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Народ Киевской Руси радостно привествуют Вашу делегацию.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>We disagree with that.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Мы не согласны.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>Please welcome our staffette as a gesture of our trading cooperation.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Прошу поприветствовать от нас гонца как знак начала наших торговых отношений.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>Your act will be remembered and it will not help you in the future.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Эти действия только навредят Вашему будущему.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>Your dsisrespect to Kievan Rus' will not be hidden from our neighbors!</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Ваш знак неуважение к Киевской Руси не будет скрыто от наших соседей!</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>Knyaz Rurik, the ruler of the Land which we call Kievan Rus'. We are here for new trading paths, expanding our boundaries and enriching of our culture!</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Князь Рюрик, правитель земель Киевской Руси. Мы здесь ради торговли, новых земель и обогащение нашей культуры!</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>We want to invite you to visit our nearest city and share some bylinas from our past.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Мы хотим пригласить Вас в гости, да поделиться былинами о наших предках.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>Totally agree.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Абсолютно верно.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>I believe an exchange of the stories of our capitals would be a great boon to our budding friendship.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Я уверен, что обмен историями о наших столицах, поможет закрепить дружбу между нашими странами.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_GREETING_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>I am really glad to see you!</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_GREETING_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Я искрнее рад Вас видеть!</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>I commend your perseverance. Staying in peace helps in the next war.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Я признателен Вашей выдержке. Оставаясь в мире поможет лучше подготовиться к войне.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>War is a part of Slavic people but we lost it.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Война - это неотъемлемая часть Славянского народа, которую мы потеряли.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>We ask you to fight together with us.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Мы зовем Вас сражаться под одним знаменем.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>We would welcome a lasting peace between our nations.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Мы рады провозгласить мир между нашими странами.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>It is not what Knyaz would accept.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Ни один Князь на такое не согласиться.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>People of Slavic Lands have never seen such strength. Would you show clemency on us?</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Славяне ранее не видели такой мощи. Быть может Вы сжалитесь над нами?</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>We accept you walking on our land as long as it is with peaceful intentions.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Мы рада видеть Вас на нашей земле, если Вы пришли с миром.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>Foreigners are not welocme in the Slavic lands.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Чужеземцем не место на Славянских землях.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>With open borders we can increase our strength!</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Открыв границы, мы станем сильнее!</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>We see your plans and we want to give a chance to move back and avoid the blood on the ground.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Мы видим Вас на сквозь, поэтому даем шанс одуматься и избежать кровопролития.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>You was a good enemy on the battlefied.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Вы сражались достойна.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>An unwelcome turn.</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>Непростительно.</Text>
+	</Replace>
+	<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="en_US">
+		<Text>Then we're agreed!</Text>
+	</Row>
+	<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SLAVIC_RURIK_ANY" Language="ru_RU">
+		<Text>На этом и согласились!</Text>
+	</Replace>
+
+	<Replace Tag="LOC_DIPLO_MODIFIER_ON_GUARD_LIBERATE" Language="en_US">
+		<Text>Knyaz Rurik is pleased that you liberated a city.</Text>
+	</Replace>
+	<Replace Tag="LOC_DIPLO_MODIFIER_ON_GUARD_LIBERATE" Language="ru_RU">
+		<Text>Князю Рюрику нравится, что вы освободили город.</Text>
+	</Replace>
+	<Replace Tag="LOC_DIPLO_MODIFIER_ON_GUARD_OCCUPY" Language="en_US">
+		<Text>Knyaz Rurik is unhappy you are occupying enemy cities</Text>
+	</Replace>
+	<Replace Tag="LOC_DIPLO_MODIFIER_ON_GUARD_OCCUPY" Language="ru_RU">
+		<Text>Князю Рюрику не нравится, что вы захватываете вражеские города.</Text>
+	</Replace>
+	<!-- Leader's History Info-->
+
+	<Row Tag="LOC_CIVINFO_SLAVIC_LOCATION" Language="en_US">
+		<Text>The East Europe</Text>
+	</Row>
+	<Replace Tag="LOC_CIVINFO_SLAVIC_LOCATION" Language="ru_RU">
+			<Text>Восточная Европа</Text>
+	</Replace>
+	<Row Tag="LOC_CIVINFO_SLAVIC_SIZE" Language="en_US">
+		<Text>Around 510,000 square miles (1,330,000 square km)</Text>
+	</Row>
+	<Replace Tag="LOC_CIVINFO_SLAVIC_SIZE" Language="en_US">
+			<Text>Примерно 1,330,000 квадратных км (510,000 квадратных миль)</Text>
+	</Replace>
+			
+	<Row Tag="LOC_CIVINFO_SLAVIC_POPULATION" Language="en_US">
+		<Text>5,400,000 (estimated in 1000AD)</Text>
+	</Row>
+	<Replace Tag="LOC_CIVINFO_SLAVIC_POPULATION" Language="ru_RU">
+			<Text>5,400,000 (примерно в 1000г н.э.)</Text>
+	</Replace>
+		
+	<Row Tag="LOC_CIVINFO_SLAVIC_CAPITAL" Language="en_US">
+		<Text>
+			Novgorod (879–882), Kiev (882–1240)
+		</Text>
+	</Row>
+	<Replace Tag="LOC_CIVINFO_SLAVIC_CAPITAL" Language="ru_RU">
+			<Text>
+				Новгород (879–882), Киев (882–1240)
+			</Text>
+	</Replace>
+
+	<!-- Kremlin history info -->
+
+
+	<!-- Named Places texts -->
+
+	<!-- Rivers-->
+
+	<Row Tag="LOC_NAMED_RIVER_DNIEPR_NAME" Language="en_US">
+		<Text>Dniepr</Text>
+	</Row>
+	<Replace Tag="LOC_NAMED_RIVER_DNIEPR_NAME" Language="ru_RU">
+			<Text>Днепр|Днепра|Днепру|Днепр|Днепром|Днепре</Text>
+			<Gender>masculinee</Gender>
+			<Plurality>1</Plurality>
+	</Replace>
+
+	<Row Tag="LOC_NAMED_RIVER_DESNA_NAME" Language="en_US">
+		<Text>Desna</Text>
+	</Row>
+	<Replace Tag="LOC_NAMED_RIVER_DESNA_NAME" Language="ru_RU">
+			<Text>Десна|Десны|Десне|Десну|Десной|Десне</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+	</Replace>
+
+	<Row Tag="LOC_NAMED_RIVER_OKA_NAME" Language="en_US">
+		<Text>Oka</Text>
+	</Row>
+	<Replace Tag="LOC_NAMED_RIVER_OKA_NAME" Language="ru_RU">
+			<Text>Ока|Оки|Оке|Оку|Окой|Оке</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+	</Replace>
+
+	<Row Tag="LOC_NAMED_RIVER_VOLKHOV_NAME" Language="en_US">
+		<Text>Volkhov</Text>
+	</Row>
+	<Replace Tag="LOC_NAMED_RIVER_VOLKHOV_NAMEE" Language="ru_RU">
+			<Text>Волхов|Волхова|Волхову|Волхов|Волховом|Волхове</Text>
+			<Gender>masculinee</Gender>
+			<Plurality>1</Plurality>
+	</Replace>
+
+	<Row Tag="LOC_NAMED_RIVER_VELIKAYA_NAME" Language="en_US">
+		<Text>The Great River</Text>
+	</Row>
+	<Replace Tag="LOC_NAMED_RIVER_VELIKAYA_NAME" Language="ru_RU">
+			<Text>Великая Река|Великой Реки|Великой Реке|Великую Реку|Великой Рекой|Великой Реке</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+	</Replace>
+		
+	<Row Tag="LOC_NAMED_RIVER_PRIPYAT_NAME" Language="en_US">
+		<Text>Pripyat</Text>
+	</Row>
+	<Replace Tag="LOC_NAMED_RIVER_PRIPYAT_NAME" Language="ru_RU">
+			<Text>Припять|Припяти|Припяти|Припять|Припятью|Припяти</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+	</Replace>	
+
+	<Row Tag="LOC_NAMED_RIVER_NAREV_NAME" Language="en_US">
+		<Text>Narev</Text>
+	</Row>
+	<Replace Tag="LOC_NAMED_RIVER_NAREV_NAME" Language="ru_RU">
+			<Text>Нарев|Нарева|Нареву|Нарев|Наревом|Нареве</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+	</Replace>
+
+	<!-- Lakes -->
+
+	<Row Tag="LOC_NAMED_LAKE_NEVO_NAME" Language="en_US">
+		<Text>Nevo</Text>
+	</Row>
+	<Replace Tag="LOC_NAMED_LAKE_NEVO_NAME" Language="ru_RU">
+			<Text>Нево</Text>
+	</Replace>
+	<Row Tag="LOC_NAMED_LAKE_ONEGO_NAME" Language="en_US">
+		<Text>Onego</Text>
+	</Row>
+	<Replace Tag="LOC_NAMED_LAKE_ONEGO_NAME" Language="ru_RU">
+			<Text>Онего</Text>
+	</Replace>
+
+	<Row Tag="LOC_NAMED_LAKE_ILMEN_NAME" Language="en_US">
+		<Text>Ilmen</Text>
+	</Row>
+	<Replace Tag="LOC_NAMED_LAKE_ILMEN_NAME" Language="ru_RU">
+		<Text>Ильмень|Ильменя|Ильменю|Ильмень|Ильменем|Ильмене</Text>
+		<Gender>masculine</Gender>
+		<Plurality>1</Plurality>
+	</Replace>
+
+	<Row Tag="LOC_NAMED_LAKE_PSKOVSKOE_NAME" Language="en_US">
+		<Text>Pskovskoe</Text>
+	</Row>
+	<Replace Tag="LOC_NAMED_LAKE_PSKOVSKOE_NAME" Language="ru_RU">
+		<Text>Псковское|Псковского|Псковскому|Псковское|Псковским|Псковском</Text>
+		<Gender>neutral</Gender>
+		<Plurality>1</Plurality>
+	</Replace>
+	<Row Tag="LOC_NAMED_LAKE_SELIGER_NAME" Language="en_US">
+		<Text>Seliger</Text>
+	</Row>
+	<Replace Tag="LOC_NAMED_LAKE_SELIGER_NAME" Language="ru_RU">
+		<Text>Селигер|Селигера|Селигеру|Селигер|Селигером|Селигере</Text>
+		<Gender>masculine</Gender>
+		<Plurality>1</Plurality>
+	</Replace>	
+</LocalizedText>
+</GameData>

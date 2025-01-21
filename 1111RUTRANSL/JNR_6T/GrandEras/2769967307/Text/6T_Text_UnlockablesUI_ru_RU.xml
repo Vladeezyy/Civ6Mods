@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Better Tech Tree -->
+<!-- Author: Infixo -->
+<!-- 2019-04-11: Created -->
+<GameData>
+
+<LocalizedText>
+
+<Replace Language="ru_RU" Tag="LOC_BTT_CAPACITY">
+		<Text>количество.</Text>
+	</Replace>
+	
+	<!-- Custom unlock item descriptions -->
+	
+	<Replace Language="ru_RU" Tag="LOC_BTT_URBAN_DEFENSES">
+		<Text>Открывает городские укрепления, автоматически дающие всем вашим городам по 400 ед. мощи при обороне и способность к дальнобойной атаке. Все предыдущие улучшения стен и осадные юниты поддержки становятся неэффективными.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_FORMATIONS">
+		<Text>Дает бонусы за атаку с фланга и поддержку всем боевым юнитам.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_DIPLO_VISIBILITY"> 
+		<Text>+1 уровень дипломатической видимости.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_EXTRA_AGENDA"> 
+		<Text>Открывает дополнительную тайную цель.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_CARBON_UNITS_REDUCTION">
+		<Text>Выбросы CO2 от юнитов сокращаются на 50%.</Text>
+	</Replace>
+	<!-- Embark and Naval Movement -->
+	<Replace Language="ru_RU" Tag="LOC_BTT_EMBARK_ALL_UNITS">
+		<Text>Позволяет погрузиться на борт всем юнитам.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_EMBARKED_MOVEMENT">
+		<Text>+{1_Num} [ICON_Movement] ОП погруженным на борт юнитам.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_ALL_NAVAL_UNITS_MOVEMENT">
+		<Text>+{1_Num} [ICON_Movement] ОП всем морским юнитам.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_VALID_OCEAN">
+		<Text>Все морские и погруженные на борт юниты могут перемещаться по клеткам океана.</Text>
+	</Replace>
+	<!-- Improvements -->
+	<Replace Language="ru_RU" Tag="LOC_BTT_PLANT_FOREST">
+		<Text>Позволяет рабочим сажать лес (вторичный). Леса на вашей территории, которые никогда не вырубались (девственные), получает +1 престижа.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TRADE_ROUTE">
+		<Text>Позволяет создавать [ICON_TradeRoute] торговые пути. +1 [ICON_TradeRoute] торговый путь.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_HILL_FARMS">
+		<Text>Можно строить фермы на лугах с холмами и равнинах с холмами.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_JUNGLE_LUMBER_MILL">
+		<Text>Можно строить лесопилки в джунглях.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_JNR_CLOTHIER_LATE_GAME_BONUS">
+		<Text>+1 [ICON_Gold] золота пастбищам в городах с Портным.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_JNR_BREWERY_LATE_GAME_BONUS">
+		<Text>+1 [ICON_Gold] золота фермам на ресурсах в городах с Пивоварней.</Text>
+	</Replace>
+	<!-- Victory -->
+	<Replace Language="ru_RU" Tag="LOC_BTT_DIPLO_VP">
+		<Text>Дает 1 очко дипломатической победы.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_SCORE">
+		<Text>Можно завершить несколько раз, что увеличит ваши очки победы.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_PROJECT_PRODUCTION_BONUS">
+		<Text>После каждого завершения дает всем городам +5% [ICON_Production] к производству при выполнении городских проектов.</Text>
+	</Replace>
+	<!-- Giant Death Robot upgrades --> 
+	<Replace Language="ru_RU" Tag="LOC_BTT_GDR_ARMOR">
+		<Text>Открывает улучшение ОБР: улучшенная броня[NEWLINE]+10 [ICON_Strength] к боевой мощи в обороне против наземных и морских юнитов.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_GDR_SIEGE_LASER">
+		<Text>Выбросы CO2 от юнитов снижаются на 50%. Открывает улучшение ОБР: лучевое осадное орудие[NEWLINE]Эффективность дальнобойных атак против городов и военных лагерей равна 100%, +30 [ICON_Ranged] к мощи дальнего боя.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_GDR_AA_DEFENSE">
+		<Text>Открывает улучшение ОБР: дроны ПВО[NEWLINE]+100 [ICON_AntiAir_Large] к боевой мощи против воздушных целей.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_GDR_MOVEMENT">
+		<Text>Открывает улучшение ОБР: повышенная мобильность[NEWLINE]+3 [ICON_Movement] ОП. Может совершать прыжок для перехода через горы.</Text>
+	</Replace>
+	<!-- Tourism --> 
+	<Replace Language="ru_RU" Tag="LOC_BTT_TOURISM_WRITING">
+		<Text>Все [ICON_GreatWork_Writing] шедевры литературы дают в 2 раза больше очков [ICON_Tourism] туризма.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TOURISM_IMPROVEMENTS">
+		<Text>Бонус [ICON_Tourism] к туризму от всех улучшений, повышающих [ICON_Culture] культуру. Количество производимых [ICON_Tourism] ед. туризма равно количеству [ICON_Culture] ед. культуры, производимых данным улучшением.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TOURISM_100">
+		<Text>+100% [ICON_Tourism] туризма вашей империи.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TOURISM_25">
+		<Text>+25% [ICON_Tourism] туризма вашей империи.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TOURISM_RELIGIOUS">
+		<Text>Эффекты религиозного [ICON_Tourism] туризма по отношению к вашей цивилизации уменьшаются в два раза.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TOURISM_WALLS">
+		<Text>Стены дают [ICON_TOURISM] очки туризма.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TOURISM_ARENA">
+		<Text>Арены дают [ICON_TOURISM] очки туризма.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TOURISM_IMPROVEMENTS_KURGAN">
+		<Text>Курганы дают столько же [ICON_Tourism] очков туризма, сколько и [ICON_Faith] веры.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TOURISM_IMPROVEMENTS_KAMPUNG">
+		<Text>Кампонги дают столько же [ICON_Tourism] очков туризма, сколько и [ICON_Food] веры.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TOURISM_IMPROVEMENTS_ROCK_HEWN_CHURCH">
+		<Text>Скальные храмы дают столько же [ICON_Tourism] очков туризма, сколько и [ICON_Food] веры.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TOURISM_BUILDING_PRASAT">
+		<Text>Города с Прасатом получают +10 [ICON_Tourism] туризма, если [ICON_CITIZEN] население города выше 10 и +20 [ICON_Tourism] туризма если  [ICON_CITIZEN] население города выше 20.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TOURISM_BUILDING_MARAE">
+		<Text>Города с Мараэ получают +1 [ICON_TOURISM] туризма на всех клетках города с особенностями ландшафта или чудесами природы.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TOURISM_DISTRICT_THANH">
+		<Text>Районы Тань получают [ICON_Tourism] столько же туризма, сколько [ICON_Culture] культуры.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TOURISM_LEADER_TOKUGAWA">
+		<Text>Города в пределах 6 клеток от [ICON_Capital] столицы Токугавы получают +1 [ICON_Tourism] туризм за каждый район.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TOURISM_LEADER_LUDWIG">
+		<Text>Все бонусы соседства [ICON_CULTURE] культуры также дают [ICON_TOURISM] туризм для Людвига II.</Text>
+	</Replace>
+	<!-- Monopolies Mode -->
+	<Replace Language="ru_RU" Tag="LOC_BTT_RESOURCE_REPORT">
+		<Text>Дает возможность видеть количество всех ресурсов в мире.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_CORPORATION_REQ">
+		<Text>Требуется для строительства корпорации.</Text>
+	</Replace>
+	<!-- UnitOperations --> 
+	<Replace Language="ru_RU" Tag="LOC_BTT_CORPS_FLEET">
+		<Text>Позволяет создавать корпуса или флота из двух одинаковых юнитов.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_ARMY_ARMADA">
+		<Text>Позволяет создавать армии или армады из трех одинаковых юнитов.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_AIRLIFT">
+		<Text>Перебазироваться: Позволяет перебрасывать наземные юниты между районами аэродромов? в которых имеются все здания.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TREASURE_FLEET_NAVAL_CORPS_EARLY">
+		<Text>Позволяет Испании создавать флота из двух одинаковых морских юнитов.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_TREASURE_FLEET_NAVAL_ARMIES_EARLY">
+		<Text>Позволяет Испании создавать армады из трех одинаковых морских юнитов.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_AMABUTHO_LAND_CORPS_EARLY">
+		<Text>Позволяет Зулусам создавать корпуса из двух одинаковых наземных юнитов.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_AMABUTHO_LAND_ARMIES_EARLY">
+		<Text>Позволяет Зулусам создавать армии из двух одинаковых наземных юнитов.</Text>
+	</Replace>
+	<!-- Casus Belli -->
+	<Replace Language="ru_RU" Tag="LOC_BTT_ARTHASHASTRA_TERRITORIAL_WAR_PREREQ">
+		<Text>{LOC_DIPLOACTION_DECLARE_TERRITORIAL_WAR_NAME} ({LOC_TRAIT_LEADER_ARTHASHASTRA_NAME})[NEWLINE][NEWLINE]{LOC_DIPLOACTION_DECLARE_TERRITORIAL_WAR_DESCRIPTION}</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_BANNOCKBURN_LIBERATION_WAR_PREREQ">
+		<Text>{LOC_DIPLOACTION_DECLARE_LIBERATION_WAR_NAME} ({LOC_TRAIT_LEADER_BANNOCKBURN_NAME})[NEWLINE][NEWLINE]{LOC_DIPLOACTION_DECLARE_LIBERATION_WAR_DESCRIPTION}</Text>
+	</Replace>
+	<!-- Misc Uniques -->
+	<Replace Language="ru_RU" Tag="LOC_BTT_BUILDING_ELECTRONICS_FACTORY">
+		<Text>Фабрики электроники дают дополнительно +4 [ICON_Culture] культуры своим городам.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_FLYING_SQUADRON_FREE_SPY">
+		<Text>Екатерина Медичи (Черная Королева) получает +1 шпиона и ячейку шпиона.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_GOLD_CAPTURED">
+		<Text>Юлий Цезарь получает +500 [ICON_GOLD] золота (на стандартной скорости) когда завоевывет город в первый раз или когда разграбляет [ICON_GOLD]  золото из аванпоста варваров (вместо прежних наград).</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_WU_ZETIAN_FREE_SPY">
+		<Text>У Цзэтянь получает +1 шпиона и ячейку шпиона.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_SATRAPIES_TRADE_ROUTE">
+		<Text>Персия получает +1 [ICON_TradeRoute] доступный торговый путь.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_CREE_TRADE_ROUTE">
+		<Text>Кри получает +1 [ICON_TradeRoute] доступный торговый путь и одного торговца.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_PORTUGAL_TRADE_EMBARK">
+		<Text>{LOC_UNITOPERATION_EMBARK_DESCRIPTION}: {LOC_UNIT_TRADER_NAME}</Text>
+	</Replace>
+	<!-- Maori Mana -->
+	<Replace Language="ru_RU" Tag="LOC_BTT_MANA_WOODS_MERCANTILISM">
+		<Text>Маори получает дополнительно +1 [ICON_PRODUCTION] производство на лесах без улучшений.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_MANA_RAINFOREST_MERCANTILISM">
+		<Text>Маори получает дополнительно +1 [ICON_PRODUCTION] производство на джунглях без улучшений.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_MANA_WOODS_CONSERVATION">
+		<Text>Маори получает дополнительно +2 [ICON_PRODUCTION] производства на лесах без улучшений.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_MANA_RAINFOREST_CONSERVATION">
+		<Text>Маори получает дополнительно +2 [ICON_PRODUCTION] производства на джунглях без улучшений.</Text>
+	</Replace>
+	<!-- MOD: Commerce District Expansion -->
+	<Replace Language="ru_RU" Tag="LOC_JNR_FISHING_DOCK_LATE_GAME_BONUS">
+		<Text>Завершение верфи в городе дает +1 [ICON_FOOD] пищи всем его клеткам океана.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_JNR_HAVEN_LATE_GAME_BONUS">
+		<Text>Гавани дают +1 [ICON_GOLD] золота всем клеткам океана для своих городов. Удваивается, если город расположен на не на том же континенте, где ваша столица.</Text>
+	</Replace>
+	<!-- MOD: Power Progression -->
+	<Replace Language="ru_RU" Tag="LOC_PPC_TECH_ITEM_CC_1">
+		<Text>Города потребляют 1 [ICON_Power] энергии по умолчанию.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_PPC_TECH_ITEM_CC_2">
+		<Text>Города потребляют на 1 ед. [ICON_Power] энергии больше по умолчанию. Открывает Энергопотребление и получение дохода от зданий второго уровнях в районах.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_PPC_TECH_ITEM_AQ">
+		<Text>Акведуки и пригороды потребляют 1 ед. [ICON_Power] энергии и дают +2 [ICON_Production] производства, если подключены к энергии.</Text>
+	</Replace>
+	<!-- MOD: Silk & Spice: Trade Route Rework -->
+	<Replace Language="ru_RU" Tag="LOC_BTT_SILK_TRADE_ROUTE_RANGE_4">
+		<Text>Увеличивает дальность [Icon_SEARANGE] торговых путей на 4 клетки.</Text>
+	</Replace>
+	<Replace Language="ru_RU" Tag="LOC_BTT_SILK_TRADE_ROUTE_RANGE_6">
+		<Text>Увеличивает дальность [Icon_SEARANGE] торговых путей на 6 клеток.</Text>
+	</Replace>
+
+
+</LocalizedText>
+
+</GameData>

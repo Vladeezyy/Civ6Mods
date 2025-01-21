@@ -1,0 +1,181 @@
+<GameData>
+	<LocalizedText>
+		<!-- BOOST -->
+		<Replace Tag="LOC_BOOST_TRIGGER_BANKING" Language="ru_RU">
+			<Text>Постройте каждый тип здания коммерческого центра 1-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ECONOMICS" Language="ru_RU">
+			<Text>Постройте каждый тип здания коммерческого центра 2-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_PRINTING" Language="ru_RU">
+			<Text>Постройте каждый тип здания театральной площади 1-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_RADIO" Language="ru_RU">
+			<Text>Постройте каждый тип здания театральной площади 2-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SATELLITES" Language="ru_RU">
+			<Text>Постройте каждый тип здания театральной площади 3-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_EDUCATION" Language="ru_RU">
+			<Text>Постройте каждый тип здания кампуса 1-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SANITATION" Language="ru_RU">
+			<Text>Постройте каждый тип здания кампуса 2-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ROCKETRY" Language="ru_RU">
+			<Text>Постройте каждый тип здания кампуса 3-го уровня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CAPITALISM" Language="ru_RU">
+			<Text>постройте 5 коммерческих районов.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MASS_MEDIA" Language="ru_RU">
+			<Text>Получите великого музыканта.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_HUMANISM" Language="ru_RU">
+			<Text>Получите великого писателя.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_OPERA_BALLET" Language="ru_RU">
+			<Text>Получите великого художника.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SCIENTIFIC_THEORY" Language="ru_RU">
+			<Text>Получите великого ученого.</Text>
+		</Replace>
+		<!-- TECH & CIVIC -->
+		<Replace Tag="LOC_CIVIC_SCORCHED_EARTH_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Production] производства клеткам леса, примыкающим к другим лесам. +1 [ICON_Food] пищи клеток джунглей, примыкающим к другим джунглям. </Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_URBANIZATION_DESCRIPTION" Language="ru_RU">
+			<Text>Еще +1 соответствующего дохода от соседства с районом такого же типа.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION" Language="ru_RU">
+			<Text>Позволяет заключать союзы. Еще +1 соответствующего дохода от соседства с районом такого же типа.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SEASTEADS_DESCRIPTION" Language="ru_RU">
+			<Text>Открывает повышение авианосца: СУПЕР АВИАНОСЕЦ.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_GLOBAL_WARMING_MITIGATION_DESCRIPTION" Language="ru_RU">
+			<Text/>
+		</Replace>
+		<Replace Tag="LOC_TECH_ADVANCED_FLIGHT_DESCRIPTION" Language="ru_RU">
+			<Text/>
+		</Replace>
+		<Replace Tag="LOC_TECH_SQUARE_RIGGING_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Movement] к перемещению всем погруженным на борт юнитам.[NEWLINE][NEWLINE]Рыбный промысел дает +1 [ICON_Gold] золота за каждые 2 соседних рыбных промысла.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ELECTRICITY_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Production] производства рыбацим суднам. [NEWLINE][NEWLINE]Рыбный промысел дает +1 [ICON_Gold] золота за каждые 2 соседних рыбных промысла.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_IRON_WORKING_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Science] науки рудникам. [NEWLINE][NEWLINE]Открывает и позволяет убирать [ICON_RESOURCE_IRON] железо. </Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_COMPOSITES_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Science] науки рудникам.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_METAL_CASTING_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Science] науки и производства рудникам.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CONSTRUCTION_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Culture] культуры каменоломням.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_LASERS_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Culture] культуры каменоломням.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_GUNPOWDER_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Culture] культуры каменоломням.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_REFINING_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Production] производства рудникам и каменоломням. [NEWLINE][NEWLINE]Открывает и позволяет убирать [ICON_RESOURCE_OIL] нефть.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_APPRENTICESHIP_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Production] производства рудникам за каждые 2 соседних рудника.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_INDUSTRIALIZATION_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Production] производства рудникам за каждый соседний рудник. [NEWLINE][NEWLINE]Открывает и позволяет убирать [ICON_RESOURCE_COAL] уголь.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CASTLES_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Production] производства каменоломням за каждые 2 соседние каменоломни.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_MILITARY_SCIENCE_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Production] производства каменоломням за каждую соседнюю каменоломню.[NEWLINE][NEWLINE]+1 заряд строителям.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_STIRRUPS_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Food] пищи фермам за каждый соседний лагерь, пастбище или плантацию. [NEWLINE][NEWLINE]+1 [ICON_Food] пищи пастбищам за каждые соседние 2 пастбища.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_RIFLING_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Food] пищи пастбищам за каждое соседнее пастбище.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_EDUCATION_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Gold] золота лагерям за каждые 2 соседних лагеря.[NEWLINE][NEWLINE]+1 [ICON_Gold] золота плантациям за каждые 2 соседние плантации.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SANITATION_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Gold] золота лагерям за каждый соседний лагерь.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ECONOMICS_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Gold] золота коммерчемским центрам и гаваням ка заждый соседний ресурс.[NEWLINE][NEWLINE]+1 [ICON_Gold] золота плантациям за каждую соседнюю плантацию.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_HORSEBACK_RIDING_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Production] производства пастбищам.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_RADIO_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Production] производства пастбищам.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ROBOTICS_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Production] производства пастбищам.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CHEMISTRY_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Gold] золота плантациям. [NEWLINE][NEWLINE]Открывает и позволяет убирать [ICON_RESOURCE_ALUMINUM] алюминий.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CARTOGRAPHY_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Food] пищи рыбацким судам. Все морские и погруженные на борт юниты могут перемещаться по клеткам океана.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_TELECOMMUNICATIONS_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Food] пищи рыбацким судам. </Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_BUTTRESS_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Food] пищи рыбацким судам за каждые 2 соседних рыбацких судна.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_STEAM_POWER_DESCRIPTION" Language="ru_RU">
+			<Text>+2 [ICON_Movement] к перемещению погруженным на борт юнитам. [NEWLINE][NEWLINE]+1 [ICON_Food] пищи рыбацким судам за каждое соседнее рыбацкое судно.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SIEGE_TACTICS_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Production] производства лесопилкам за каждые 2 соседние лесопилки.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Production] производства лесопилкам за каждую соседнюю лесопилку.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SCIENTIFIC_THEORY_DESCRIPTION" Language="ru_RU">
+			<Text>Кампус получает бонус [ICON_Science] науки за соседство с геотермальными полями, рифами, вулканами и вулканической почвой.[NEWLINE][NEWLINE]+1 [ICON_Food] Food пищи фермам за каждую соседнюю ферму.</Text>
+		</Replace>
+		<!-- MILESTONE -->
+		<Replace Tag="LOC_ANCIENT_MILESTONE_NAME" Language="ru_RU">
+			<Text>Веха древнего мира</Text>
+		</Replace>
+		<Replace Tag="LOC_CLASSICAL_MILESTONE_NAME" Language="ru_RU">
+			<Text>Веха античности</Text>
+		</Replace>
+		<Replace Tag="LOC_MEDIEVAL_MILESTONE_NAME" Language="ru_RU">
+			<Text>Веха средневековья</Text>
+		</Replace>
+		<Replace Tag="LOC_RENAISSANCE_MILESTONE_NAME" Language="ru_RU">
+			<Text>Веха возрождения</Text>
+		</Replace>
+		<Replace Tag="LOC_INDUSTRIAL_MILESTONE_NAME" Language="ru_RU">
+			<Text>Веха промышленной эры</Text>
+		</Replace>
+		<Replace Tag="LOC_MODERN_MILESTONE_NAME" Language="ru_RU">
+			<Text>Веха нового времени</Text>
+		</Replace>
+		<Replace Tag="LOC_ATOMIC_MILESTONE_NAME" Language="ru_RU">
+			<Text>Веха эпохи атома</Text>
+		</Replace>
+		<Replace Tag="LOC_INFORMATION_MILESTONE_NAME" Language="ru_RU">
+			<Text>Веха информационной эры</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_MILESTONE_DESCRIPTION" Language="ru_RU">
+			<Text>Дает [ICON_Science] науку равную ее стоимости после завершения.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MILESTONE_DESCRIPTION" Language="ru_RU">
+			<Text>Дает [ICON_Culture] культуру равную ее стоимости после завершения.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>	

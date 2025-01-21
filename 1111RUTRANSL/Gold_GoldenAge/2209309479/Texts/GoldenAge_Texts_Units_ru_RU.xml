@@ -1,0 +1,402 @@
+<GameData>
+	<LocalizedText>
+	<!--单位-->	
+		
+	<Replace Tag="GOLDEN_LOC_COMBAT_SCALING" Language="ru_RU">
+      <Text>+{Amount} [ICON_Strength] бонус к боевой мощи из-за сложности.</Text>
+    </Replace>
+		
+	<Replace Tag="LOC_ABILITY_ENHANCED_SIGHT_MODIFIER_DESCRIPTION" Language="ru_RU">
+      <Text>Базовый обзор равен 1. Дополнительный обзор +1 на холме.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_UNIT_MILITARY_ENGINEER_ALT_DESCRIPTION" Language="ru_RU">
+      <Text>Юнит поддержки средневековья. Для производства требуется оружейная. [NEWLINE][NEWLINE]Соседние дружественные юниты ближнего боя и антикавалерийские юниты наносят полный урон обороне города.[NEWLINE][NEWLINE]Может строить дороги, железные дороги, форты, взлетно-посадочные полосы, ракетные шахты и горные туннели. Один из строительных зарядов также можно использовать для ускорения строительства акведука, канала, дамбы, районов и городских стен.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_UNIT_MEDIC_DESCRIPTION" Language="ru_RU">
+      <Text>Юнит поддержки средневековья. Может лечить соседние юниты.</Text>
+    </Replace>
+	   
+	  <Replace Tag="LOC_UNIT_OBSERVATION_BALLOON_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит поддержки, обеспечивающее широкий обзор (5 клеток) вне зависимости от рельефа местности.</Text>
+	  </Replace>
+	  
+	  <Replace Tag="LOC_UNIT_DRONE_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит поддержки, обеспечивающее широкий обзор (7 клеток) вне зависимости от рельефа местности.</Text>
+	  </Replace>
+	  
+	
+    
+    
+    
+	<Replace Tag="LOC_ABILITY_RANGED_ATTACK_DISTRICT_DEBUFF_DESCRIPTION" Language="ru_RU">
+      <Text>[COLOR_RED]–20 [ICON_Ranged][ENDCOLOR] силы дальнобойной атаки против районов и морских юнитов.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_BOMBARD_ATTACK_UNIT_DEBUFF_DESCRIPTION" Language="ru_RU">
+      <Text>[COLOR_RED]-20 [ICON_Bombard][ENDCOLOR]силы обстрела против юнитов.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_AIR_FIGHTER_ATTACK_DISTRICT_DEBUFF_DESCRIPTION" Language="ru_RU">
+      <Text>[COLOR_RED]-20 [ICON_Ranged][ENDCOLOR]силы дальнобойной атаки против районов.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_AIR_BOMBER_ATTACK_UNIT_DEBUFF_DESCRIPTION" Language="ru_RU">
+      <Text>[COLOR_RED]-20 [ICON_Bombard][ENDCOLOR]силы обстрела против юнитов.</Text>
+    </Replace>
+	 
+	  <Replace Tag="LOC_ABILITY_CAVALRY_SIEGE_DESCRIPTION" Language="ru_RU">
+			<Text>+15 [ICON_Strength] боевой мощи против осадних юнитов.</Text>
+	  </Replace>			  
+	  		  
+	  <Replace Tag="LOC_ABILITY_CAVALRY_SIEGE_MODIFIER_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевой мощи против осадних юнитов.</Text>
+	  </Replace>
+	
+    <Replace Tag="LOC_ABILITY_RANGE_MELEE_DESCRIPTION" Language="ru_RU">
+      <Text>+15 [ICON_Strength] боевой мощи против юнитов ближнего боя.</Text>
+    </Replace>																		 
+		
+	<Replace Tag="LOC_ABILITY_RANGE_MELEE_MODIFIER_DESCRIPTION" Language="ru_RU">
+		<Text>+{1_Amount} боевой мощи против юнитов ближнего боя.</Text>
+	</Replace>   
+	  
+	  <Replace Tag="LOC_ABILITY_HEAVYCAVALRY_RANGE_DESCRIPTION" Language="ru_RU">
+			<Text>+15 [ICON_Strength] боевой мощи против дальнобойных юнитов.</Text>
+	  </Replace>
+	  
+	  <Replace Tag="LOC_ABILITY_HEAVYCAVALRY_RANGE_MODIFIER_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевой мощи против дальнобойных юнитов.</Text>
+	  </Replace>	  
+	  
+	  <Replace Tag="LOC_ABILITY_ANIT_SPEAR_MODIFIER_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевой мощи против антикавалерийских юнитов.</Text>
+	  </Replace>
+	  
+	  <Replace Tag="LOC_ABILITY_ANTI_CAVALRY_MODIFIER_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевой мощи против юнитов кавалерии.</Text>
+	  </Replace>	  
+	     
+	<Replace Tag="LOC_ABILITY_ANTI_CAVALRY_DESCRIPTION" Language="ru_RU">
+      <Text>+15 [ICON_Strength] боевой мощи против юнитов тяжелой и легкой кавалерии.</Text>
+    </Replace>
+	
+    <Replace Tag="LOC_ABILITY_ANTI_SPEAR_DESCRIPTION" Language="ru_RU">
+      <Text>+15 [ICON_Strength] боевой мощи против антикавалерийских юнитов.</Text>
+    </Replace>
+	  
+	   
+	    <Replace Tag="LOC_UNIT_SCOUT_DESCRIPTION" Language="ru_RU">
+            <Text>Разведывательный юнит эпохи древнего мира. обзор: 2</Text>
+        </Replace>
+	
+	<Replace Tag="LOC_UNIT_SKIRMISHER_DESCRIPTION" Language="ru_RU">
+      <Text>Разведывательный юнит эпохи средневековья. Обзор: 3</Text>
+    </Replace>
+	
+    <Replace Tag="LOC_UNIT_RANGER_DESCRIPTION" Language="ru_RU">
+      <Text>Разведывательный юнит промышленной эры. Обзор: 4</Text>
+    </Replace>						
+	    
+	    <Replace Tag="LOC_UNIT_SPEC_OPS_DESCRIPTION" Language="ru_RU">
+            <Text>Разведывательный юнит эпохи атома. Обзор: 5 [NEWLINE][NEWLINE]Способность десантироваться позволяет перемещаться с дружественной клетки на 7 клеток (12, если стартовать с аэродрома или взлетно-посадочной полосы). Может атаковать юниты поддержки напрямую, без необходимости сначала уничтожать боевой отряд.</Text>
+        </Replace>
+	<!--AIRCRAFT_CARRIER-->
+	
+	<Replace Tag="LOC_UNIT_AIRCRAFT_CARRIER_DESCRIPTION" Language="ru_RU">
+      <Text>Морской юнит, который может перевозить военно-воздушные юниты. Не может получать опыт. Получает повышения, по мере исследования дерева технолгий.</Text>
+    </Replace>	   
+	</LocalizedText>
+	
+	<!--单位晋升-->   
+	<BaseGameText>
+	<!--Melee-->
+	<Replace Tag="LOC_PROMOTION_BATTLECRY_NAME">
+      <Text>Ярость</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_BATTLECRY_DESCRIPTION">
+      <Text>+10 [ICON_Strength] к боевой мощи при атаке, но -5 [ICON_Strength] к боевой мощи при обороне. </Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_COMMANDO_DESCRIPTION">
+      <Text>+1 [ICON_Movement] перемещение. +1 дальность обзора.</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_AMPHIBIOUS_DESCRIPTION">
+      <Text>Нет штрафа к [ICON_Strength] боевой мощи и [ICON_Movement] перемещению при атаке с моря или через реку. Может взбираться через утесы.</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_ZWEIHANDER_NAME">
+      <Text>Линия снабжения</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_ZWEIHANDER_DESCRIPTION">
+      <Text>Восстанавливает 10 ед. здоровья в конце каждого хода, даже после перемещения или атаки. </Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_URBAN_WARFARE_NAME">
+      <Text>Корпус</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_URBAN_WARFARE_DESCRIPTION">
+      <Text>+10 [ICON_Strength] огневой мощи в боевом построении. </Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_ELITE_GUARD_DESCRIPTION">
+      <Text>+1 дополнительная атака за ход, если позволяют очки перемещения [ICON_Movement]. Может двигаться после атаки.</Text>
+    </Replace>
+	<!--Ranged-->
+	<Replace Tag="LOC_PROMOTION_VOLLEY_DESCRIPTION">
+	  <Text>+5 [ICON_Ranged] дальнобойной боевой мощи против наземных юнитов.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_GARRISON_DESCRIPTION">
+	  <Text>+10 [ICON_Strength] к боевой мощи при занятии района или улучшения, дающего [ICON_Strength] силу обороны.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_ARReplace_STORM_DESCRIPTION">
+	  <Text>+10 [ICON_Ranged] дальнобойной боевой мощи против морских и погруженных на корабли юнитов.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_INCENDIARIES_DESCRIPTION">
+	  <Text>+5 [ICON_Strength] боевой мощи на дружественной территории. </Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_SUPPRESSION_DESCRIPTION">
+	  <Text>Получает зону контроля.+5 [ICON_Ranged] дальнобойной боевой мощи.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_EMPLACEMENT_DESCRIPTION">
+	  <Text>-1 [ICON_Movement] очко перемещения. +1 дальность обзора. +10 [ICON_Ranged] огневая мощь в дальнем бою.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_EXPERT_MARKSMAN_DESCRIPTION">
+	  <Text>+1 дополнительная атака за ход, если юнит не двигался.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_INCENDIARIES_NAME">
+	  <Text>Защита Родины</Text>
+	</Replace>	
+	<!--Siege-->
+	<Replace Tag="LOC_PROMOTION_GRAPE_SHOT_DESCRIPTION">
+	  <Text>+10 [ICON_Strength] боевой мощи при обороне.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_CREW_WEAPONS_NAME">
+	  <Text>Больше транспорта</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_CREW_WEAPONS_DESCRIPTION">
+	  <Text>+1 [ICON_Movement] очко перемещения.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_SHRAPNEL_DESCRIPTION">
+	  <Text>100% эффективности против наземных боевых юнитов.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_SHELLS_DESCRIPTION">
+	  <Text>+10 [ICON_Strength] боевой мощи против обороны районов.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_ADVANCED_RANGEFINDING_DESCRIPTION">
+	  <Text>+1 [ICON_Range] к дальности атаки.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_EXPERT_CREW_DESCRIPTION">
+	  <Text>Может атаковать после перемещения. Может двигаться после атаки.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_FORWARD_OBSERVERS_NAME">
+	  <Text>Двойная бомбардировка</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_FORWARD_OBSERVERS_DESCRIPTION">
+	  <Text>+1 дополнительная атака в ход, есои югть не двигался.</Text>
+	</Replace>
+	<!--Anti-Cavalry-->
+	<Replace Tag="LOC_PROMOTION_ECHELON_DESCRIPTION">
+	  <Text>-5 [ICON_Strength] боевой мощи при атаке, но +10 [ICON_Strength] боевой мощи при защите.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_THRUST_DESCRIPTION">
+	  <Text>+10 [ICON_Strength] боевой мощи против неповрежденных юнитов.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_SQUARE_DESCRIPTION">
+	  <Text>Удвоенный бонус поддержки.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_SCHILTRON_NAME">
+	  <Text>Не падать духом</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_SCHILTRON_DESCRIPTION">
+	  <Text>Нет боевых штрафов, когда ранен.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_REDEPLOY_DESCRIPTION">
+	  <Text>+5 [ICON_Strength] боевой мощи соседних антикавалерийских юнитов.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_CHOKE_POINTS_DESCRIPTION">
+	  <Text>+10 [ICON_Strength] боевой мощи при обороне в лесах и джунглях, на болотах и холмах.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_HOLD_THE_LINE_DESCRIPTION">
+	  <Text>+10 [ICON_Strength] к боевой мощи при соседстве с юнитами другого класса.</Text>
+	</Replace>
+	<!--Light Cavalry-->
+	<Replace Tag="LOC_PROMOTION_CAPARISON_DESCRIPTION">
+	  <Text>+1 [ICON_Movement] очко перемещения. Игнорирует зону контроля.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_COURSERS_NAME">
+	  <Text>Прорыв</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_COURSERS_DESCRIPTION">
+	  <Text>+10 [ICON_Strength] боевой мощи за атаку с фланга. </Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_DEPREDATION_DESCRIPTION">
+	  <Text>Грабеж стоит всего 1 [ICON_Movement] очко перемещения.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_DOUBLE_ENVELOPMENT_DESCRIPTION">
+	  <Text>Двукратный бонус за атаку с фланга.</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_SPIKING_THE_GUNS_NAME">
+	  <Text>Натиск</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_SPIKING_THE_GUNS_DESCRIPTION">
+	  <Text>+10 [ICON_Strength] к боевой мощи при атаке на ровной и доступной местности.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_PURSUIT_NAME">
+	  <Text>Мобильность сопровождения</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_PURSUIT_DESCRIPTION">
+	  <Text>Все боевые юниты в сопровождении перемещаются со [ICON_Movement] скоростью сопровождающего юнита.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_ESCORT_MOBILITY_NAME">
+	  <Text>Изо всех сил</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_ESCORT_MOBILITY_DESCRIPTION">
+	  <Text>+2 [ICON_Strength] боевой мощи за каждое неиспльзованное очко [ICON_Movement] перемещения.</Text>
+	</Replace>	
+	<!--Heavy Cavalry-->
+	<Replace Tag="LOC_PROMOTION_CHARGE_DESCRIPTION">
+	  <Text>Игнорирует зону контроля.+10 [ICON_Strength] боевой мощи против укрепленных защитников.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_BARDING_DESCRIPTION">
+	  <Text>+10 [ICON_Strength] боевой мощи против антикавалерийских юнитов.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_MARAUDING_NAME">
+	  <Text>Побег из тюрьмы</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_MARAUDING_DESCRIPTION">
+	  <Text>Отталкивает обороняющиеся юниты противника с их клетки в любом сражении, где они наносят больше урона. Юниты, которые не могут отступить, получают дополнительный урон. </Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_ROUT_DESCRIPTION">
+	  <Text>+5 [ICON_Strength] боевой мощи против поврежденных юнитов.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_ARMOR_PIERCING_NAME">
+	  <Text>Утяжеленная броня</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_ARMOR_PIERCING_DESCRIPTION">
+	  <Text>+5 [ICON_Strength] боевой мощи.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_REACTIVE_ARMOR_DESCRIPTION">
+	  <Text>Соседние вражеские юниты теряют -5 [ICON_Strength] боевой мощи.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_BREAKTHROUGH_DESCRIPTION">
+	  <Text>+3 [ICON_Strength] боевой мощи за каждое неиспользованное очко [ICON_Movement] перемещения.</Text>
+	</Replace>
+	<!-- Automatic Gun-->
+	<Replace Tag="LOC_PROMOTION_LK_FUSILLADE_DESCRIPTION">
+	  <Text>+5 [ICON_Strength] боевой мощи против неповрежденных юнитов.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_LK_COUNTER_FIRE_DESCRIPTION">
+	  <Text>+5 [ICON_Strength] боевой мощи на вражеской территории. </Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_LK_MANTLET_NAME">
+	  <Text>Огонь и маневр</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_LK_MANTLET_DESCRIPTION">
+	  <Text>+1 [ICON_Movement] очко перемещение. Может перемещаться после атаки.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_LK_ENTRENCH_DESCRIPTION">
+	  <Text>Получает зону контроля.+5 [ICON_Strength] боевой мощи в ближнем бою. </Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_LK_MARKSMAN_NAME">
+	  <Text>В боевой готовности</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_LK_MARKSMAN_DESCRIPTION">
+	  <Text>+5 [ICON_Ranged] огневой мощи дальнего боя для соседних автоматных юнитов.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_LK_OVERWATCH_NAME">
+	  <Text>Зажигательные патроны</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_LK_OVERWATCH_DESCRIPTION">
+	  <Text>100% эффективности против городов и военных лагерей. </Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_LK_FIRE_AND_MANEUVER_NAME">
+	  <Text>Опытный стрелок</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_LK_FIRE_AND_MANEUVER_DESCRIPTION">
+	  <Text>+1 дополнительная атака в ход, если юнит не двигался.</Text>
+	</Replace>
+	<!--Melee-->
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_BATTLECRY_ATTACK_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_BATTLECRY_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_BATTLECRY_DEFEND_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_BATTLECRY_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_ZWEIHANDER_MELEE_BUFF_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_ZWEIHANDER_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_URBAN_WARFARE_IN_FORMATION_BUFF_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_URBAN_WARFARE_NAME}</Text>
+    </Row>
+	<!--Ranged-->
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_ARROW_STORM_COMBAT_BONUS_IN_WATER_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_ARROW_STORM_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_SUPPRESSION_ATTACK_BONUS_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_SUPPRESSION_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_INCENDIARIES_HOME_BONUS_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_INCENDIARIES_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_EMPLACEMENT_ATTACK_BONUS_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_EMPLACEMENT_NAME}</Text>
+    </Row>
+	<!--Anti-Cavalry-->	
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_THRUST_COMBAT_UNWOUNDED_BONUS_TEXT">
+		<Text>{1_num} {LOC_PROMOTION_THRUST_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_ECHELON_ATTACK_TEXT">
+		<Text>{1_num} {LOC_PROMOTION_ECHELON_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_ECHELON_DEFEND_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_ECHELON_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_REDEPLOY_ANTI_CAVALRY_BUFF_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_REDEPLOY_NAME}</Text>
+    </Row>
+	<!-- <Row Tag="LOC_MODIFIER_GA_PROMOTION_SCHILTRON_DEFEND_BONUS_IN_DISTRICT_TEXT"> -->
+		<!-- <Text>+{1_num} {LOC_PROMOTION_SCHILTRON_NAME}</Text> -->
+    <!-- </Row> -->
+	<!--Heavy Cavalry-->
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_ARMOR_PIERCING_COMBAT_BONUS_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_ARMOR_PIERCING_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_BARDING_COMBAT_BONUS_VS_ANTI_CAVALRY_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_BARDING_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_REACTIVE_ARMOR_ENEMY_DEBUFF_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_REACTIVE_ARMOR_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_BREAKTHROUGH_COMBAT_BONUS_FROM_UNUSE_MOVEMENT_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_BREAKTHROUGH_NAME}</Text>
+    </Row>
+	<!--Light Cavalry-->
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_SPIKING_THE_GUNS_ATTACK_BONUS_ON_CLEAR_AREA_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_SPIKING_THE_GUNS_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_COURSERS_FLANKED_BONUS_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_COURSERS_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_ESCORT_MOBILITY_COMBAT_BONUS_FROM_UNUSE_MOVEMENT_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_ESCORT_MOBILITY_NAME}</Text>
+    </Row>
+	<!--Siege-->
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_GRAPE_SHOT_DEFEND_BONUS_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_GRAPE_SHOT_NAME}</Text>
+    </Row>
+	<!-- Automatic Gun-->
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_LK_FUSILLADE_COMBAT_UNWOUNDED_BONUS_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_LK_FUSILLADE_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_LK_MARKSMAN_AUTOMATIC_GUN_BUFF_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_LK_MARKSMAN_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_LK_COUNTER_FIRE_COMBAT_BONUS_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_LK_COUNTER_FIRE_NAME}</Text>
+    </Row>
+	<Row Tag="LOC_MODIFIER_GA_PROMOTION_LK_COUNTER_FIRE_DEFEND_MELEE_TEXT">
+		<Text>+{1_num} {LOC_PROMOTION_LK_ENTRENCH_NAME}</Text>
+    </Row>
+	</BaseGameText>
+	<LocalizedText>
+
+	
+	
+	
+	</LocalizedText>
+</GameData>

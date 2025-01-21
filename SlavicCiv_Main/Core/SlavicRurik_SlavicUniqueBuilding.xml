@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_SLAVIC_UNIQUE" Kind="KIND_BUILDING" />
+	</Types>
+
+	<Buildings>
+		<Row BuildingType="BUILDING_SLAVIC_UNIQUE" Name="LOC_BUILDING_SLAVIC_UNIQUE_NAME" Description="LOC_BUILDING_SLAVIC_UNIQUE_DESCRIPTION" PrereqTech="TECH_MASONRY" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="100" AdvisorType="ADVISOR_GENERIC" OuterDefenseHitPoints="150" OuterDefenseStrength="5" TraitType="TRAIT_CIVILIZATION_BUILDING_SLAVIC_UNIQUE"/>
+	</Buildings>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_SLAVIC_UNIQUE" ReplacesBuildingType="BUILDING_WALLS"/>
+		<Row CivUniqueBuildingType="BUILDING_SLAVIC_UNIQUE" ReplacesBuildingType="BUILDING_CASTLE"/>
+	</BuildingReplaces>
+	<BuildingPrereqs>
+	</BuildingPrereqs>
+	<Building_ValidTerrains>
+	</Building_ValidTerrains>
+	<Building_YieldChanges>
+	</Building_YieldChanges>
+	<BuildingModifiers>
+	</BuildingModifiers>
+	<Modifiers>
+	</Modifiers>
+	<ModifierArguments>
+	</ModifierArguments>
+</GameData>

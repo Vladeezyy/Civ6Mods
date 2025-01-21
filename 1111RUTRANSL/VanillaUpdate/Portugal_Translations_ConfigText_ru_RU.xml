@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_BUILDING_NAVIGATION_SCHOOL_DESCRIPTION" Language="ru_RU">
+      <Text>Уникальное здание Португалии. +25% к [ICON_PRODUCTION] производству при обучении морских юнитов в городе. +1 [ICON_SCiENCE] науки за каждые две клетки побережья или озера в этом городе. +1 очко [ICON_GreatAdmiral] великого адмирала и +1 очко [ICON_GreatScientist] великого ученого за ход.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

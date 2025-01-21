@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- QuarterText -->
+<!-- Author: Furion -->
+<!-- DateCreated: 2/8/2021 9:13:33 PM -->
+<GameData>
+	<LocalizedText>
+		<!--Quarters-->
+		<Replace Tag="LOC_DISTRICT_FARMERS_QUARTER_NAME" Language="ru_RU">
+			<Text>Фермерский квартал|фермерского квартала|фермерскому кварталу|фермерский квартал|фермерским кварталом|фермерском квартале</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FARMERS_QUARTER_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Food] пищи, еще +1 [ICON_Food] пищи на равнинах, +2 [ICON_Food] пищи на лугах.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MAKERS_QUARTER_NAME" Language="ru_RU">
+			<Text>Рабочий квартал|рабочего квартала|рабочему кварталу|рабочий квартал|рабочим кварталом|рабочем квартале</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MAKERS_QUARTER_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Production] производства, еще +2 [ICON_Production] производства на холмах. [NEWLINE]Промышленная зона получает +1 [ICON_Production] производства от соседства с каждым рабочим кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TRADERS_QUARTER_NAME" Language="ru_RU">
+			<Text>Торговый квартал|торгового квартала|торговому кварталу|торговый квартал|торговым кварталом|торговом квартале</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TRADERS_QUARTER_DESCRIPTION" Language="ru_RU">
+			<Text>+2 [ICON_Gold] золота. [NEWLINE]Коммерческий район получает +2 [ICON_Gold] золота от соседства с каждым торговым кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_PRAYERS_QUARTER_NAME" Language="ru_RU">
+			<Text>Молитвенный квартал|молитвенного квартала|молитвенному кварталу|молитвенный квартал|молитвенным кварталом|молитвенном квартале</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_PRAYERS_QUARTER_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Faith] веры. [NEWLINE]Священное место получает +1 [ICON_Faith] веры от соседства с каждым молитвенным кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_GARRISON_NAME" Language="ru_RU">
+			<Text>Застава|заставы|заставе|заставу|заставой|заставе</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_GARRISON_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Production] производства. [NEWLINE]Имеет 50 прочности и получает городскую защиту. Не имеет городской атаки.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_RESEARCH_QUARTER_NAME" Language="ru_RU">
+			<Text>Научный квартал|научного квартала|научному кварталу|научный квартал|научным кварталом|научном квартале</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_RESEARCH_QUARTER_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Science] науки. [NEWLINE]Кампус получает +1 [ICON_Science] науки от соседства с каждым научным кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMONS_QUARTER_NAME" Language="ru_RU">
+			<Text>Общественный квартал|общественного квартала|общественному кварталу|общественный квартал квартал|общественным кварталом|общественном квартале</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMONS_QUARTER_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Culture] культуры, +1 [ICON_Amenities] довольства. [NEWLINE]Театральная площадь получает +1 [ICON_Culture] культуры от соседства с каждым общественным кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FISHERS_QUARTER_NAME" Language="ru_RU">
+			<Text>Рыбацкий квартал|рыбацкого квартала|рыбацкому кварталу|рыбацкий квартал|рыбацким кварталом|рыбацком квартале</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FISHERS_QUARTER_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Food] пищи. [NEWLINE]Гавань получает +1 [ICON_Food] пищи от соседства с каждым рыбацким кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HAMLET_NAME" Language="ru_RU">
+			<Text>Деревня|деревни|деревне|деревню|деревней|деревне</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HAMLET_DESCRIPTION" Language="ru_RU">
+			<Text>+2 [ICON_Science] науки, +2 [ICON_Culture] культуры. [NEWLINE]Нет [ICON_Housing] жилья на клетке с отвратительным или невзрачным престижем; +1 [ICON_Housing] жилья на клетке среднего престижа; +2 [ICON_Housing] жилья на клетке с притягивающим престижем; +3 [ICON_Housing] жилья на клетке с потрясающим престижем.</Text>
+		</Replace>
+		<!--Buildings-->
+		<Replace Tag="LOC_BUILDING_FLOOD_IRRAGATION_NAME" Language="ru_RU">
+			<Text>Ирригация|ирригации|ирригацие|ирригацию|ирригацией|ирригации</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FLOOD_IRRAGATION_DESCRIPTION" Language="ru_RU">
+			<Text>Все фермерские кварталы у реки получают +1 [ICON_Food] пищи.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LUMBER_YARD_NAME" Language="ru_RU">
+			<Text>Лесной склад|лесного склада|лесному складу|лесной склад|лесным складом|лесном складе</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LUMBER_YARD_DESCRIPTION" Language="ru_RU">
+			<Text>Леса и тропические леса дают +1 [ICON_Production] производства. [NEWLINE]+10% полученной продукции от удаления ресурсов и ландшафта города. [NEWLINE]Работающие [ICON_Citizen] горожане дают +2 очка [ICON_GreatEngineer] великих инженеров каждый ход.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ALTAR_NAME" Language="ru_RU">
+			<Text>Алтарь|алтаря|алтарю|алтарь|алтарем|алтаре</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ALTAR_DESCRIPTION" Language="ru_RU">
+			<Text>Молитвенные кварталы города дают +1 [ICON_Faith] веры, +1 очко [ICON_GreatProphet] великого пророка в ход. [NEWLINE]Работающие [ICON_Citizen] горожане дают +2 очка [ICON_GreatProphet] великого пророка за ход.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FARMERS_MARKET_NAME" Language="ru_RU">
+			<Text>Базар|базара|базару|базар|базаром|базаре</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FARMERS_MARKET_DESCRIPTION" Language="ru_RU">
+			<Text>Торговые кварталы города получают +4 [ICON_Gold] от соседства с фермерскими кварталами. [NEWLINE]Работающие [ICON_Citizen] горожане дают +2 очка [ICON_GreatMerchant] великого торговца в ход.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SEAFOOD_MARKET_NAME" Language="ru_RU">
+			<Text>Рыбный рынок|рыбного рынка|рыбному рынку|рыбный рынок|рыбным рынком|рыбном рынке</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SEAFOOD_MARKET_DESCRIPTION" Language="ru_RU">
+			<Text>Рыбацкие суда города дают +1 [ICON_Culture] культуры и +2 [ICON_Gold] золота.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HOUSE_OF_SCRIBES_NAME" Language="ru_RU">
+			<Text>Книжный дом|книжного дома|книжному дому|книжный дом|книжным домом|книжном доме</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HOUSE_OF_SCRIBES_DESCRIPTION" Language="ru_RU">
+			<Text>+3% [ICON_Science] науки в городе. [NEWLINE]Работающие [ICON_Citizen] горожане дают +2 очка [ICON_GreatScientist] великих ученых в ход.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PUBLIC_FOUNTAIN_NAME" Language="ru_RU">
+			<Text>Городской фонтан|городского фонтана|городскому фонтану|городской фонтан|городским фантаном|городском фонтане</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PUBLIC_FOUNTAIN_DESCRIPTION" Language="ru_RU">
+			<Text>Общественные кварталы города получают +1 [ICON_Amenities] довольства и +1 ед. лояльности.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WATCHTOWER_NAME" Language="ru_RU">
+			<Text>Сторожевая башня|сторожевой башни|сторожевой башни|сторожевую башню|сторожевой башней|сторожевой башне</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WATCHTOWER_DESCRIPTION" Language="ru_RU">
+			<Text>+1[ICON_Range] дальность атаки занявшим заставы города дальнобойным юнитам древнего мира, античности, средневековья и возрождения.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TOWN_HALL_NAME" Language="ru_RU">
+			<Text>Ратуша|ратуши|ратушей|ратушу|ратушей|ратуше</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TOWN_HALL_DESCRIPTION" Language="ru_RU">
+			<Text>+2 ед. лояльности. [NEWLINE]Деревни города получают +2 [ICON_Production] производства и +3 [ICON_Gold] золота на участках с притягивающим престижем. Эффект удаваеивается если престиж потрясающий.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FOOD_MANUFACTURER_NAME" Language="ru_RU">
+			<Text>Пищевое производство|пищевого производства|пищевому производству|пищевое производство|пищевым производством|пищевом производстве</Text>
+			<Gender>neuter</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FOOD_MANUFACTURER_DESCRIPTION" Language="ru_RU">
+			<Text>Фермерские кварталы города получают +4 [ICON_Gold] золота. +20% [ICON_Food] пищи в городе.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FISHERMANS_WHARF_NAME" Language="ru_RU">
+			<Text>Рыбацкая пристань|рыбацкой пристани|рыбацкой пристани|рыбацкую пристань|рыбацкой прситанью|рыбацкой пристани</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FISHERMANS_WHARF_DESCRIPTION" Language="ru_RU">
+			<Text>Рыбацкие кварталы города получают +4 [ICON_Gold] золота. Рыбацкие кварталы привлекают [ICON_TOURISM] туризм равный их [ICON_Food] доходу пищи.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STEELWORKS_NAME" Language="ru_RU">
+			<Text>Сталелитейный завод|сталелитейного заводу|сталелитейному заводу|сталелитейный завод|сталелитейным заводом|сталелитейном заводе</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STEELWORKS_DESCRIPTION" Language="ru_RU">
+			<Text>Рабочие кварталы города получают +4 [ICON_Gold] золота, +20% [ICON_Production] производства в городе, если город [ICON_Power] электрифицирован и если в империи имеются запасы [ICON_RESOURCE_IRON] железа и [ICON_RESOURCE_COAL] угля. [NEWLINE]Перерабатывает 1 единицу [ICON_RESOURCE_IRON] железа и [ICON_RESOURCE_COAL] угля в 2 единицы [ICON_RESOURCE_STEEL] стали. [NEWLINE]Работабщие [ICON_Citizen] горожане дают +2 очка [ICON_GreatEngineer] великих инженеров в ход.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_INQUISITION_NAME" Language="ru_RU">
+			<Text>Дворец инквизиции|дворца инквизиции|дворцу инквизиции|дворец инквизиции|дворцом инквизиции|дворце инквизиции</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_INQUISITION_DESCRIPTION" Language="ru_RU">
+			<Text>Дает 1 инквизитора.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OUTLETS_NAME" Language="ru_RU">
+			<Text>Торговые точки|торговых точек|торговым точкам|торговые точки|торговыми точками|торговых точках</Text>
+			<Gender>feminine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OUTLETS_DESCRIPTION" Language="ru_RU">
+			<Text>Торговые кварталы города получают +8 [ICON_Gold] золота. [NEWLINE]Работающие [ICON_Citizen] горожане дают +2 очка [ICON_GreatMerchant] великих торговцев в ход. </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PUBLIC_SCHOOL_NAME" Language="ru_RU">
+			<Text>Средняя школа|средней школы|средней школе|среднюю школу|средней школой|средней школе</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PUBLIC_SCHOOL_DESCRIPTION" Language="ru_RU">
+			<Text>+0.5 [ICON_Science] науки за каждого [ICON_Citizen] жителя города. Еще +0.5 [ICON_Science] науки за каждого [ICON_Citizen] жителя, если [ICON_Citizen] население города 15 и выше.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OPERA_HOUSE_NAME" Language="ru_RU">
+			<Text>Оперный театр|оперного театра|оперному театру|оперный театр|оперным театром|оперном театре</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" Language="ru_RU">
+			<Text>+0.5 [ICON_Culture] культуры за каждого [ICON_Citizen] жителя города. Еще +0.5 [ICON_Culture] культуры за каждого [ICON_Citizen] жителя, если [ICON_Citizen] население города 15 или выше.[NEWLINE]Работающие [ICON_Citizen] горожане дают +2 очка [ICON_GreatMusician] великих музыканта в ход.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PANZER_FACTORY_NAME" Language="ru_RU">
+			<Text>Танковый завод|танкового завода|танковому заводу|танковый завод|танковым заводом|такновом заводе</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PANZER_FACTORY_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_Production] производства юнитам кавалерии эпохи нового времени и дальше, включая боевых роботов.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TOURIST_CENTER_NAME" Language="ru_RU">
+			<Text>Туристический центр|туристического центра|туристическому центру|туристический центр|туристическим центром|туристическом центре</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TOURIST_CENTER_DESCRIPTION" Language="ru_RU">
+			<Text>+2 [ICON_TOURISM] туризма. [NEWLINE]Деревни города получают +4 [ICON_TOURISM] туризма на участках с притягивающим престижем. Эффект удваивается если престиж потрясающий.</Text>
+		</Replace>
+		<!--New Resources-->
+		<Replace Tag="LOC_RESOURCE_STEEL_NAME" Language="ru_RU">
+			<Text>Сталь|стали|стали|сталь|сталью|стали</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<!--Custom Unit Commands-->
+		<Replace Tag="LOC_UNITCOMMAND_DEMOLISH_NAME" Language="ru_RU">
+			<Text>Снести квартал</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_DEMOLISH_DESCRIPTION" Language="ru_RU">
+			<Text>Снести квартал на этом участке местности. Можно снести следующие кварталы: фермерский, рабочий, торговый, молитвенный, научный, общественный, рыбацкий, а так же заставу.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_DEMOLISH_DISABLED_TT" Language="ru_RU">
+			<Text>На текущем участке нет подходящего квартала.</Text>
+		</Replace>
+		<Replace Tag="LOC_FLYOVER_DEMOLISH_QUARTER" Language="ru_RU">
+			<Text>Квартал снесен.</Text>
+		</Replace>
+		<!--Update Civic Description-->
+		<Replace Tag="LOC_CIVIC_CIVIL_ENGINEERING_DESCRIPTION" Language="ru_RU">
+			<Text>Позволяет сторить фермы на лугах и равнинах с холмами. [NEWLINE]Позволяет строителям и военным инженерам сносить кварталы.</Text>
+		</Replace>
+		<!--District Bonus-->
+		<Replace Tag="LOC_QUARTER_RESEARCH_SCIENCE" Language="ru_RU">
+			<Text>+{1_num} [ICON_Science] науки от соседства с научным кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_PRAYER_FAITH" Language="ru_RU">
+			<Text>+{1_num} [ICON_Faith] веры от соседства с молитвенным кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_TRADER_GOLD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] золота от соседства с торговым кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_FISHER_FOOD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] пищи от соседства с рыбацким кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_COMMONS_CULTURE" Language="ru_RU">
+			<Text>+{1_num} [ICON_Culture] культуры от соседства с общественным кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_MAKER_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] производства от соседства с производственным кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_FARM_GOLD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] золота от соседства с {1_Num : plural 1?фермой; other?фермами;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_PASTURE_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] производства от соседства с {1_Num : plural 1?пастбищем; other?пастбищами;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_PLANTATION_GOLD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] золота от соседства с {1_Num : plural 1?плантацией; other?плантациями;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_CAMP_GOLD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] золота от соседства с {1_Num : plural 1?лагерем; other?лагерями;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_FISHINGBOAT_GOLD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] золота от соседства с {1_Num : plural 1?рыбацким судном; other?рыбацкими судами;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_FOOD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] пищи.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] производства.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_GOLD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] золота.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_SCIENCE" Language="ru_RU">
+			<Text>+{1_num} [ICON_Science] науки.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_CULTURE" Language="ru_RU">
+			<Text>+{1_num} [ICON_Culture] культуры.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_FAITH" Language="ru_RU">
+			<Text>+{1_num} [ICON_Faith] веры.</Text>
+		</Replace>
+		<!--Unit Abilities-->
+		<Replace Tag="LOC_ABILITY_WATCHTOWER_ATTACK_RANGE_NAME" Language="ru_RU">
+			<Text>Взор сторожевой башни</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WATCHTOWER_ATTACK_RANGE_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Range] дальность атаки заставы со сторожевой башней.</Text>
+		</Replace>
+		<!--Adjacency-->
+		<Replace Tag="LOC_QUARTER_FISHINGBOAT_FOOD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] пищи от соседства {1_Num : plural 1?с рыбацкой лодкой; other?с рыбацкими лодками;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_FARMER_ADJ_DISTRICT_FOOD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] пищи от соседства с фермерским кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_MAKER_ADJ_DISTRICT_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] производства от соседства с рабочим кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_TRADER_ADJ_DISTRICT_GOLD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] золота от соседства с торговым кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_RESEARCH_ADJ_DISTRICT_SCIENCE" Language="ru_RU">
+			<Text>+{1_num} [ICON_Science] науки от соседства с научным кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_PRAYER_ADJ_DISTRICT_FAITH" Language="ru_RU">
+			<Text>+{1_num} [ICON_Faith] веры от соседства с молитвенным кварталом.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_FISHER_ADJ_DISTRICT_FOOD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] пищи от соседства с рыбацким кварталом.</Text>
+		</Replace>
+		<!--Pedia-->
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_FARMERS_QUARTER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Земледелие зародилось независимо в разных частях мира, поскольку общества охотников-собирателей перешли к производству продуктов питания, а не к их добыче. Это могло начаться около 12000 лет назад с одомашнивания домашнего скота в Плодородном полумесяце в Западной Азии, за которым вскоре последовало выращивание сельскохозяйственных культур. Современные подразделения, как правило, специализируются на культурах или животноводстве, наиболее подходящих для данного региона, при этом их готовая продукция продается на розничный рынок или для дальнейшей переработки, а сельскохозяйственная продукция продается по всему миру.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_MAKERS_QUARTER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Ремесленник - это квалифицированный рабочий, который частично или полностью вручную изготавливает или создает материальные предметы. Эти объекты могут быть функциональными или строго декоративными, например, мебель, предметы декоративного искусства, скульптура, одежда, продукты питания, предметы домашнего обихода, инструменты и механизмы, такие как часовой механизм ручной работы часовщика. Ремесленники занимаются ремеслом и могут благодаря опыту и способностям достичь выразительного уровня художника.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_TRADERS_QUARTER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Купец - это человек, который торгует товарами, произведенными другими людьми, особенно торговцем с зарубежными странами. Исторически торговец - это любой, кто занимается бизнесом или торговлей. Торговцы действовали столько, сколько существовали промышленность, коммерция и торговля. В Европе XVI века возникли два разных термина для купцов: meerseniers относились к местным торговцам (таким как пекари и бакалейщики), а koopman (голландский: koopman) относились к торговцам, которые действовали на мировой арене, импортируя и экспортируя товары на огромные расстояния и предлагая дополнительные услуги, такие как кредиты и финансы.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_PRAYERS_QUARTER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Молитва - это призыв или действие, направленное на установление взаимопонимания с объектом поклонения посредством целенаправленного общения. В узком смысле этот термин относится к акту мольбы или ходатайства, направленного к божеству (богу) или обожествленному предку. В более общем плане молитва также может иметь цель благодарения или хвалы и в сравнительной религии тесно связана с более абстрактными формами медитации, а также с чарами или заклинаниями. Молитва может принимать различные формы: она может быть частью установленной литургии или ритуала, и ее можно совершать в одиночку или в группах. Молитва может принимать форму гимна, заклинания, официального утверждения веры или спонтанного произнесения молящегося.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_GARRISON_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Гарнизон - это собирательный термин для обозначения любой группы войск, дислоцированной в определенном месте, первоначально для ее охраны, но теперь часто использующей ее просто как базовую базу. Застава или воинская часть обычно находится в городе, поселке, форте, замке, корабле или подобном. «Гарнизонный город» - обычное выражение для любого города, рядом с которым есть военная база.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_RESEARCH_QUARTER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Исследования - это «творческая и систематическая работа, направленная на увеличение объема знаний». Она включает в себя сбор, организацию и анализ информации для лучшего понимания темы или проблемы. Исследовательский проект может быть расширением прошлой работы в этой области. Чтобы проверить достоверность инструментов, процедур или экспериментов, исследование может воспроизводить элементы предыдущих проектов или проекта в целом.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_COMMONS_QUARTER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Городская площадь (или площадь, площадь, общественная площадь, городская площадь, городская площадь или площадь) - это открытое общественное пространство, обычно находящееся в центре традиционного города, используемое для общественных собраний. Связанные понятия - это общественный центр, рыночная площадь и деревенская зелень. Большинство площадей представляют собой сложные ландшафты, подходящие для открытых рынков, концертов, политических митингов и других мероприятий, требующих твердой почвы. Поскольку городские площади расположены в центре города, они обычно окружены небольшими магазинами, такими как пекарни, мясные рынки, магазины сыра и магазины одежды. В их центре часто находится колодец, памятник, статуя или другой объект. Те, у которых есть фонтаны, иногда называют площадями фонтанов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_FISHERS_QUARTER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Рыбацкая деревня - это деревня, обычно расположенная недалеко от рыбацких угодий, с экономикой, основанной на ловле рыбы и добыче морепродуктов. Береговая линия континентов и островов по всему миру составляет около 356 000 километров (221 000 миль). Со времен неолита эти береговые линии, а также береговые линии внутренних озер и берегов рек были изрезаны рыбацкими деревнями. Большинство сохранившихся рыбацких деревень - традиционные.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_HAMLET_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Деревня - это небольшое человеческое поселение. В разных юрисдикциях и географических регионах деревня может быть размером с город, деревню или волость, или может считаться меньшим поселением или подразделением или дочерней структурой более крупного поселения. Слово и концепция деревушки уходят корнями в англо-нормандское поселение в Англии, где старая французская деревня стала применяться к маленьким человеческим поселениям. В британской географии деревня считается меньше, чем деревня, и явно не имеет церкви или другого места поклонения (например, одной дороги или перекрестка с домами по обе стороны).</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FLOOD_IRRIGATION_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Археологические исследования обнаружили свидетельства орошения в районах, где не было достаточного количества естественных осадков, чтобы поддержать посевы для богарного земледелия. Самое раннее известное использование технологии относится к 6 тысячелетию до нашей эры в Хузистане на юго-западе современного Ирана. Древние нубийцы разработали форму орошения, используя устройство, похожее на водяное колесо, которое называется сакия. Орошение началось в Нубии где-то между третьим и вторым тысячелетиями до нашей эры. Это во многом зависело от паводковых вод, которые текли через реку Нил и другие реки на территории нынешнего Судана.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LUMBER_YARD_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Лесной склад - это место, где обрабатываются или хранятся пиломатериалы и изделия из древесины, используемые в строительстве и / или проектах по благоустройству дома. Некоторые лесные склады предлагают потребителям розничные продажи, а некоторые из них могут также предоставлять такие услуги, как использование строгальных станков, пил и других крупных станков. Как правило, лесные склады - это места, где обрабатываются и хранятся необработанные бревна и другие древесные или лесные продукты. Термины «склад пиломатериалов» и «склад древесины» иногда используются как синонимы, и склады древесины могут включать дополнительные аспекты, которые охватывают склады пиломатериалов, и наоборот.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_ALTAR_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Алтарь - это структура, на которой совершаются жертвы в религиозных целях. Алтари находятся в святынях, храмах, церквях и других местах поклонения. Они особенно используются в язычестве, христианстве, буддизме, индуизме, иудаизме (до разрушения Второго Храма) и в современном язычестве. Многие исторические религии также использовали их, включая римскую, греческую и норвежскую религии.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FARMERS_MARKET_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Нынешняя концепция фермерского рынка аналогична прошлым концепциям, но отличается от других форм - поскольку аспекты розничной торговли потребителями в целом продолжают меняться с течением времени. Подобные формы существовали и до индустриальной эпохи, но часто являлись частью более широких рынков, где собирались поставщики продуктов питания и других товаров, чтобы продавать свои товары в розницу. Торговые посты начались в 1930-х годах, когда произошел сдвиг в сторону розничных торговцев, которые продавали чужую продукцию больше, чем свою собственную. Универсальные магазины и продуктовые магазины продолжили эту тенденцию к специализации в розничной торговле, оптимизируя потребительский опыт, в то же время абстрагируясь от производства и от растущих сложностей производства.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_SEAFOOD_MARKET_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Рыбные рынки были известны еще в древности. Они служили общественным пространством, где большое количество людей могло собираться и обсуждать текущие события и местную политику. Поскольку морепродукты быстро портятся, рыбные рынки исторически чаще всего встречаются в приморских городах. Когда стали доступны лед или другие простые методы охлаждения, некоторые из них были также внедрены в крупных внутренних городах, у которых были хорошие торговые пути к побережью.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HOUSE_OF_SCRIBES_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Писец - это человек, который работает профессиональным переписчиком, особенно тот, кто делал копии рукописей до изобретения автоматической печати. Профессия писца, ранее широко распространенная в разных культурах, потеряла большую часть своей известности и статуса с появлением печатного станка. Работа писцов может включать копирование рукописей и других текстов, а также секретарские и административные обязанности, такие как снятие под диктовку и ведение деловых, судебных и исторических записей для королей, знати, храмов и городов. Эта профессия превратилась в государственных служащих, журналистов, бухгалтеров, бухгалтеров, машинисток и юристов. В обществах с низким уровнем грамотности можно найти уличных писцов (и читателей), оказывающих услуги писцов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PUBLIC_FOUNTAIN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Первоначально фонтаны были чисто функциональными, подключенными к источникам или акведукам и использовались для обеспечения питьевой водой и водой для купания и мытья жителей городов, поселков и деревень. До конца 19 века большинство фонтанов работали под действием силы тяжести и нуждались в источнике воды выше фонтана, таком как резервуар или акведук, чтобы заставить воду течь или струю в воздух. Помимо обеспечения питьевой водой, фонтаны использовались для украшения и празднования своих строителей. Римские фонтаны украшали бронзовыми или каменными масками животных или героев. В средние века мавританские и мусульманские дизайнеры садов использовали фонтаны для создания миниатюрных версий райских садов. Король Франции Людовик XIV использовал фонтаны в садах Версаля, чтобы продемонстрировать свою власть над природой. Декоративные фонтаны Рима в стиле барокко 17 и 18 веков обозначили точку прибытия восстановленных римских акведуков и прославили римских пап, построивших их.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_WATCHTOWER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Сторожевая башня - это тип укрепления, используемого во многих частях мира. Она отличается от обычной башни тем, что она используется в основном в военных целях, а от башни - тем, что обычно представляет собой отдельно стоящую конструкцию. Его основная цель - обеспечить высокое безопасное место, с которого дозорный или охранник может наблюдать за окружающей местностью. В некоторых случаях невоенные башни, такие как религиозные башни, также могут использоваться в качестве сторожевых вышек.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TOWN_HALL_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>В местном самоуправлении мэрия, ратуша, общественный центр (в Великобритании или Австралии), ратуша гильдии или (реже) муниципальное здание является главным административным зданием города, поселка или другого муниципалитета. Обычно в нем размещается городской совет, связанные с ним департаменты и их сотрудники. Он также обычно функционирует как база мэра города, поселка, района, округа или графства. Другие термины на языках, отличных от английского: Mairie (Франция) и Rathaus (Германия).</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FOOD_MANUFACTURER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Пищевая промышленность - это переработка сельскохозяйственных продуктов в продукты питания или одного вида продуктов питания в другие формы. Пищевая промышленность включает в себя множество форм обработки пищевых продуктов, от измельчения зерна для производства сырой муки до домашней кухни и сложных промышленных методов, используемых для приготовления полуфабрикатов. Некоторые методы обработки пищевых продуктов играют важную роль в сокращении пищевых отходов и улучшении сохранности пищевых продуктов, тем самым снижая общее воздействие сельского хозяйства на окружающую среду и повышая продовольственную безопасность.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FISHERMANS_WHARF_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Рыбацкая пристань Сан-Франциско получила свое название и характеристики района с первых дней города с середины до конца 1800-х годов, когда итальянские рыбаки-иммигранты приехали в город, чтобы воспользоваться притоком населения из-за золотой лихорадки. Большинство итальянских рыбаков-иммигрантов поселились в районе Северного пляжа недалеко от пристани и ловили рыбу для местных деликатесов и крабов. С тех пор и по сей день пристань остается центром рыболовного флота Сан-Франциско. Несмотря на перестройку в туристическую достопримечательность в 1970-х и 1980-х годах, этот район по-прежнему является домом для многих активных рыбаков и их флотов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_STEELWORKS_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Металлургический комбинат или сталелитейный завод - это промышленное предприятие по производству стали. Это может быть металлургический комбинат, выполняющий все этапы производства стали от выплавки железной руды до проката, но также может быть завод, где стальные полуфабрикаты отливки производятся из расплавленного чугуна или из лома.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_INQUISITION_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Инквизиция, в исторической церковной терминологии, также называемая «Святая инквизиция», была группой институтов католической церкви, целью которых была борьба с ересью. Пытки и насилие использовались инквизицией для получения признаний от еретиков. Инквизиция началась во Франции XII века для борьбы с религиозным инакомыслием, особенно среди катаров и вальденсов. Инквизиторские суды с этого времени до середины 15 века вместе известны как средневековая инквизиция. Другие группы исследовали во время средневековой инквизиции, которая в основном имела место во Франции и Италии, включая духовных францисканцев, гуситов (последователей Яна Гуса) и бегинов. Начиная с 1250-х годов, инквизиторы обычно выбирались из членов Доминиканского Ордена, что заменило более раннюю практику использования местного духовенства в качестве судей.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_OUTLETS_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Аутлет, заводской магазин или заводской магазин - это обычный или интернет-магазин, в котором производители продают свои товары напрямую населению. Традиционно заводская торговая точка представляла собой магазин, примыкающий к фабрике или складу, что иногда позволяло покупателям наблюдать за производственным процессом, например, в оригинальном магазине L.L. Bean. В современном использовании торговые точки обычно представляют собой магазины под маркой производителя, такие как Gap или Bon Worth, сгруппированные в торговые центры. Изобретение фирменного магазина аутлета часто приписывают Гарольду Альфонду, основателю Dexter Shoe Company.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PUBLIC_SCHOOL_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Государственные школы, как правило, являются начальными или средними школами, которые обязаны предлагать образование всем детям бесплатно, и они полностью или частично финансируются за счет налогов. Хотя такие школы существуют практически во всех странах мира, существуют значительные различия в их структуре и образовательных программах. Государственное образование обычно включает начальное и среднее образование (от 4 до 18 лет). В контексте высшего образования (после 18 лет) его можно использовать для отделения государственных школ от других учебных заведений, таких как университеты, колледжи и технические школы, которые финансируются и контролируются государством, а не частными организациями или религиозными группами.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_OPERA_HOUSE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Оперный театр - это здание театра, используемое для постановки оперы. Обычно он включает в себя сцену, оркестровую яму, места для зрителей и помещения за кулисами для костюмов и строительных декораций. В то время как некоторые площадки построены специально для оперных театров, другие оперные театры являются частью более крупных центров исполнительского искусства. Действительно, термин «оперный театр» часто используется как престижный термин для обозначения любого крупного центра исполнительских искусств.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PANZER_FACTORY_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Производство танков в Германии началось в 1934 году. Из-за включения нацистской партии в процесс закупок и политических соображений, не имевших ничего общего с целью поставки вооружений для военных, компании, которые в конечном итоге получили контракты на поставку танков. Производство имело ограниченный реальный опыт массового производства. Ford и Opel, два производителя, обладающие значительными знаниями и способностями в области сборочных конвейеров, не были допущены к участию в процессе торгов. Германия в целом и немецкая танкостроительная промышленность в частности не были готовы к тотальной войне, в которую Германия вступила в 1939 году. В отличие от истребителя Messerschmitt 109, который был спроектирован Вилли Мессершмиттом с производством большого количества самолетов в 1939 году. Ум, проектирование и производство танков в Германии в 1939 году было делом рук мастеров. Немецкая промышленность рассчитывала поддержать армию в кратких конфликтах. Полная приверженность военному производству не была сделана до середины конфликта. Удивительно, но производство гражданских автомобилей не откладывалось до 1943 года. В отличие от этого британские автомобильные компании перешли на военное производство (производство военных транспортных средств, самолетов и танков) в начале войны, а Соединенные Штаты прекратили производство гражданских автомобилей в течение двух месяцев после начала войны. вступление в войну в конце 1941 года, когда автомобильные заводы были переведены на производство только военного оружия, боеприпасов, грузовиков, танков и самолетов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TOURIST_CENTER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Туристический центр у конкретной достопримечательности или в интересном месте, таком как национальный парк, национальный лес или государственный парк, предоставляющий информацию (например, карты маршрутов и информацию о кемпингах, контактах с персоналом, туалетах и т. Д.) И -глубокие образовательные экспонаты и экспонаты экспонатов (например, о естественной или культурной истории). Часто используется пленка или другой мультимедийный дисплей. Если на объекте есть требования о разрешении или экскурсии, центр для посетителей часто является местом, где они согласовываются.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

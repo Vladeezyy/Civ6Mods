@@ -1,0 +1,126 @@
+<GameData>
+    <LocalizedText>	
+	<!--着力点-->
+	
+	<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE" Language="ru_RU">
+      <Text>Вольнодумство золотого века:[NEWLINE][ICON_TechBoosted] Озарения обеспечивают дополнительные 10% затрат на технологии. Каждый город получает +1 [ICON_Science] науки за каждый специализированный район.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="ru_RU">
+      <Text>монументальность золотого века:[NEWLINE]+2 очка [ICON_Movement] перемещения для всех строителей. Можно покупать гражданские юниты за [ICON_Faith] веру. +1 заряд строителям.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE" Language="ru_RU">
+      <Text>Исход евангелистов золотого века:[NEWLINE]+2 очка [ICON_Movement] перемещения для всех миссионеров, апостолов и инквизиторов. Такие юниты созданные недавно получают +2 заряда. Миссионеры и апостолы на 20% дешевле при покупке за [ICON_FAITH] веру.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE" Language="ru_RU">
+      <Text>Пульс паровой машины золотого века:[NEWLINE] Региональный бонус [ICON_Production] производства зданий не ограничен для всех городов. Бонус [ICON_SCIENCE] науки от соседство кампуса дает столько же [ICON_PRODUCTION] производство.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE" Language="ru_RU">
+      <Text>Жаль, что тебя здесь нет в золотом веке:[NEWLINE]+100% [ICON_Tourism] туризма от чудес света. +100% [ICON_Tourism] туризма во всех национальных парках.</Text>
+    </Replace>
+	<!--政体-->
+	
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_SYNTHETIC_TECHNOCRACY" Language="ru_RU">
+      <Text>+7 ко всем видам дохода для городов в пределах 8 клеток от правительственной площади.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY" Language="ru_RU">
+      <Text>+25% к [ICON_PRODUCTION] производству всех проектов. -20% [ICON_Tourism] туризма.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_DIGITAL_DEMOCRACY" Language="ru_RU">
+      <Text>+7 ко всем видам дохода для городов с населением не менее 30 [ICON_CITIZEN].</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DIGITAL_DEMOCRACY" Language="ru_RU">
+      <Text>+25% [ICON_Tourism] туризма. Все юниты теряют -5 [ICON_Strength] боевой мощи.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_CORPORATE_LIBERTARIANISM" Language="ru_RU">
+      <Text>+7 ко всем видам дохода для городов без назначенного [КУГЕРА ГУБЕРНАТОРА] губернатора.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CORPORATE_LIBERTARIANISM" Language="ru_RU">
+      <Text>+1 очко [ICON_FAVOR] мирового влияния в ход за каждую дипломатическую и универсальную ячейку в правительстве. -20% очков великих людей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_XP1" Language="ru_RU">
+      <Text>+2 всем видам дохода для правительственной площади, каждого ее здания, и дворца в городе. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_ETHIOPIA" Language="ru_RU">
+      <Text>+2 всем видам дохода для дворца, правительственной площади и дипломатического квартала, и их зданий в городе. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_XP1" Language="ru_RU">
+      <Text>+25% [ICON_Production] к производству чудес света.  -15% к росту городов.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_XP1" Language="ru_RU">
+      <Text>Захват новых клеток в городе на 50% быстрее. -15% [ICON_Production] производства при строительстве районов.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_CLASSREP_XP1" Language="ru_RU">
+      <Text>+2 всем видам дохода городам с монументом и как минимум 1 районом. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_XP1" Language="ru_RU">
+      <Text>+25% очков великих людей. -15% [ICON_Production] производства при создании юнитов.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY_XP1" Language="ru_RU">
+      <Text>+2 всем видам дохода городам на континенте со столицей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_XP1" Language="ru_RU">
+      <Text>+50% очков влияния к получению послов. -8 лояльности всем городам на отличном от столицы континенте.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_XP1" Language="ru_RU">
+      <Text>+25% [ICON_Production] к производству районов. -10% [ICON_Faith] веры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_XP1" Language="ru_RU">
+      <Text>Скидка 20% на покупки за [ICON_Faith] веру. -10% [ICON_Science] науки.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_MERCHREP_XP1" Language="ru_RU">
+      <Text>+3 всем видам дохода городам, расположенным на отличном от столице континенте.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_FASCISM_XP1" Language="ru_RU">
+      <Text>+5 всем видам дохода городам с военной академией.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_XP1" Language="ru_RU">
+      <Text>+25% [ICON_Production] к производству юнитов. -10% [ICON_Culture] культуры.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1" Language="ru_RU">
+      <Text>+5 всем видам дохода городам со зданием 2 уровня в промышленной зоне.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_XP2" Language="ru_RU">
+      <Text>+25% [ICON_Production] к производству зданий в городах. -10% [ICON_Gold] золота.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_XP2" Language="ru_RU">
+      <Text>+5 всем видам дохода городам с биржей.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_XP1" Language="ru_RU">
+      <Text>20% скидка на покупки за [ICON_Gold] золото. -10% [ICON_Production] производства.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_XP1" Language="ru_RU">
+      <Text>+1 всем видам дохода во всех городах. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_THEOCRACY_XP1" Language="ru_RU">
+      <Text>+3 всем видам дохода городам, исповедующим религию.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

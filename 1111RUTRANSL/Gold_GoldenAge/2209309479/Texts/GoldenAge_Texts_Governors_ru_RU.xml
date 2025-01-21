@@ -1,0 +1,257 @@
+<GameData>
+    <LocalizedText>		
+	<!--总督-->
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION" Language="ru_RU">
+      <Text>+100% к скорости роста города в городе.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_DESCRIPTION" Language="ru_RU">
+      <Text>+100% [ICON_PRODUCTION] к производству поселенцев в этом городе. Поселенцы, обученные в городе, не уменьшают население [ICON_Citizen].</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION" Language="ru_RU">
+      <Text>+ 100% дохода от убирания ресурсов и удаления особенностей ландшафта в городе.</Text>
+    </Replace>		
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_DESCRIPTION" Language="ru_RU">
+      <Text>100% увеличение [ICON_Production] производства для всех проектов космической гонки в городе. +100% увеличение [ICON_Production] производства всех ядерных вооружений в городе.</Text>
+    </Replace>
+	
+    
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_DESCRIPTION" Language="ru_RU">
+      <Text>+0,7 [ICON_CULTURE] культуры в ход за каждого [ICON_Citizen] горожанина в городе. Удваивается после исследования социального института «Гуманизм».</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_DESCRIPTION" Language="ru_RU">
+      <Text>+0,7 [ICON_SCIENCE] науки в ход за каждого [ICON_Citizen] горожанина в городе. Удваивается после исследования социального института «Книгопечатание».</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION" Language="ru_RU">
+      <Text>20% увеличение [ICON_Science] науки и [ICON_Culture] культуры, генерируемых городом.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CURATOR_DESCRIPTION" Language="ru_RU">
+      <Text>+200% [ICON Tourism] туризма от великих шедевров изобразительного искусства, артефактов, музыкальных и литературных шедевров в городе.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_TALENT_NAME" Language="ru_RU">
+      <Text>Талантливое планирование|талантливого планирования|талантливому планированию|талантливое планирование|талантливым планированием|талантливом планировании</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_TALENT_DESCRIPTION" Language="ru_RU">
+      <Text>Получите [ICON_Science] науку и [ICON_Culture] культуру в размере 20% от стоимости строительства при завершении построек (включая чудеса).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION" Language="ru_RU">
+      <Text>Город приобретает новые клетки на 100% быстрее.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Gold] золота в ход за каждого [ICON_Citizen] горожанина в городе, +1 [ICON_Gold] золота после разблокировки банковского дела</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ICON_Gold] золота за каждую неулучшенную особенность ландшафта в пределах 4 клеток от этого города. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_NAME" Language="ru_RU">
+      <Text>Инвестор|инвестора|инвестору|инвестора|инвестором|инвесторе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_DESCRIPTION" Language="ru_RU">
+      <Text>Получите [ICON_Gold] золото в размере 40% от стоимости строительства при завершении построек (включая чудеса).</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_SUSTAINABLE_DEVELOPMENT_NAME" Language="ru_RU">
+      <Text>Устойчивая экономика|устойчивой экономики|устойчивой экономике|устойчивую экономику|устойчивой экономикой|устойчивой экономике</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_SUSTAINABLE_DEVELOPMENT_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_TOURISM] ед. туризма ко всем клеткам этого города с особенностью ландшафта или чудом природы, дополнительно +1 [ICON_TOURISM] ед. туризма после исследования «Авиации». Клетки, примыкающие к неулучшенным особенностям ландшафта, получают +2 ед. престижа в этом городе.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_VETERAN_NAME" Language="ru_RU">
+      <Text>Ветеран|ветерана|ветерану|ветерана|ветераном|ветеране</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_VETERAN_DESCRIPTION" Language="ru_RU">
+      <Text>Военные юниты, созданные в этом городе, начинают с бесплатного повышения, если не имеют другого бесплатного повышения.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_DESCRIPTION" Language="ru_RU">
+      <Text>Город получает дополнительную [ICON_Ranged] дальнобойную атаку в ход. Другие ваши города в пределах 9 клеток получают +6 [ICON_PressureUp] лояльности в ход по отношению к вашей цивилизации. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_DESCRIPTION" Language="ru_RU">
+      <Text>Стоимость стратегических ресурсов при создании юнитов снижена на 80%.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION" Language="ru_RU">
+      <Text>Юниты, обороняющиеся на территории города, получают +5 [ICON_Strength] к боевой мощи. Накопление стратегических ресурсов в городе увеличивается на +2 в ход.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_DESCRIPTION" Language="ru_RU">
+      <Text>[ICON_Strength] Боевая мощь гарнизона увеличивается на +5. Город нельзя взять в осаду. Назначается в 2 хода.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_NAME" Language="ru_RU">
+      <Text>Генерал|генерала|генералу|генерала|генералом|генерале</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_DESCRIPTION" Language="ru_RU">
+      <Text>+5 [ICON_Strength] к боевой мощи и +1 [ICON_Movement] к перемещению юнитов в пределах 4 клеток от этого города.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_NAME" Language="ru_RU">
+      <Text>Сторонник гонки вооружений|сторонника гонки вооружений|стороннику гонки вооружений|сторонника гонки вооружений|сторонником гонки вооружений|стороннике гонки вооружений</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет создавать корпуса и армии, флота и армады сразу после исследования необходимых социальных институтов. Затраты на их создание снижены на 25%. +25 [ICON_Strength] боевой мощи юнитам противовоздушной обороны на территории города при защите от авиации и МБР. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_DESCRIPTION" Language="ru_RU">
+      <Text>Может быть назначен в город-государство, где действует как 3 посла [ICON_Envoy]. Также может быть назначен в столицу [ICON_Capital] другой цивилизации.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_DESCRIPTION" Language="ru_RU">
+      <Text>Другие города в пределах 9 клеток, не принадлежащие вам, теряют 3 [ICON_PressureDown] лояльности в ход. +3 [ICON_Gold] золота в ход от каждого иностранного [ICON_TradeRoute] торгового пути, проходящего через город.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_LOCAL_INFORMANTS_DESCRIPTION" Language="ru_RU">
+      <Text>При назначении в иностранной столице [ICON_Capital] ни один из городов владельца не оказывает давления на ваши города с точки зрения лояльности. -25% времени работы наступательных операций для шпионов в радиусе 9 клеток. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_DIPLOMACY_NAME" Language="ru_RU">
+      <Text>Дипломатия|дипломатии|дипломатие|дипломатию|дипломатией|дипломатии</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_DIPLOMACY_DESCRIPTION" Language="ru_RU">
+      <Text>При назначении в чужой [ICON_Capital] столице [ICON_STAT_GRIEVANCE] претензии владельца города к вам уменьшается еще на 1 ед. в ход. Если это союзная иностранная столица [ICON_Capital], ваши очки союза с владельцем увеличиваются на 0,5 за ход.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE_DESCRIPTION" Language="ru_RU">
+      <Text>Находясь в городе-государстве, предоставляет вам копию своих рекдикх ресурсов. Действует как еще 1 посол [ICON_Envoy].</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_FOREIGN_INVESTOR_DESCRIPTION" Language="ru_RU">
+      <Text>Назначае в городе-государстве, накапливайте его стратегические ресурсы. Когда город ваш сюзерен получайте двойное количество накопляемых стратегических ресурсов. Действует как еще 1 посол [ICON_Envoy].</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_PATRON_SAINT_DESCRIPTION" Language="ru_RU">
+      <Text>Апостолы и монахи-воины, обученные в городе, получают 1 дополнительное повышение при получении своего первого повышения. Созданные здесь миссионеры и апостолы имеют +1 к распространению религии.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_DESCRIPTION" Language="ru_RU">
+      <Text>Все юниты полностью восстанавливаются за один ход на клетках этого города. [ICON_GreatWork_Relic] Реликвия в этом городе обеспечивает двойной [ICON_Tourism] туризм.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_GRAND_INQUISITOR_DESCRIPTION" Language="ru_RU">
+      <Text>+10 [ICON_Religion] религиозной силы в теологических баталиях на клетках этого города. Город игнорирует религиозное давление со стороны религий, основанных не игроком владеющим губернатором [ICON_Governor].</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_DESCRIPTION" Language="ru_RU">
+      <Text>Получите [ICON_FAITH] веру, равную 40% стоимости строительства, при завершении построек (включая чудеса).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION" Language="ru_RU">
+      <Text>Религиозное давление на соседние города из этого города сильнее на 100%. +2 очка [ICON_GreatProphet] великого пророка за священное место.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_DIVINE_MISSION_NAME" Language="ru_RU">
+      <Text>Священный город|священного города|священному городу|священный город|священным городом|священном городе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_DIVINE_MISSION_DESCRIPTION" Language="ru_RU">
+      <Text>+50% [ICON_Faith] к бонусу соседства веры для всех священных мест в пределах 3 клеток от этого города. </Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_GOLDEN_CITIES_NAME" Language="ru_RU">
+      <Text>Золотые города|золотых городов|золотым городам|золотые города|золотыми городами|золотых городах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_GOLDEN_CITIES_DESCRIPTION" Language="ru_RU">
+      <Text>Города, расположенные в 4 клетках от этого города, получают [ICON_Production] производство и [ICON_Gold] золото от всех близлежащих зданий с региональными бонусами, а не только от первого.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_DESCRIPTION" Language="ru_RU">
+      <Text>+2 [ИЗГОТОВЛЕНИЕ ЗНАЧКОВ] производства для всех стратегических ресурсов и +2 [Золото ЗНАЧКА] для всех редких ресурсов в пределах 3 клеток от этого города.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_DESCRIPTION" Language="ru_RU">
+      <Text>Увеличивает электроэнергию [ICON_POWER], обеспечиваемую каждым ресурсом электростанции, на 2. +5 [ICON_RESOURCE_COAL] угля и [ICON_RESOURCE_OIL] нефти в ход (на стандартной скорости) после исследования технологии, открывающей эти ресурсы.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION_DESCRIPTION" Language="ru_RU">
+      <Text>Этот город получает [ICON_PRODUCTION] производство, [ICON_Science] науку, [ICON_Culture] культуру и [ICON_Gold] золото от всех близлежащих зданий с региональными бонусами, а не только от первого.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_MASTER_CONSTRUCTION_NAME" Language="ru_RU">
+      <Text>Мастер строительства|мастера строительства|мастеру строительства|мастера строительства|мастером строительства|мастере строительства</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_MASTER_CONSTRUCTION_DESCRIPTION" Language="ru_RU">
+      <Text>+50% к соответствующему бонусу за соседство с районами для всех специализированных районов в этом городе.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION" Language="ru_RU">
+      <Text>+50% [ICON_Production] к производству при строительстве районов в городе. В этом городе можно построить на один район больше, чем обычно (превышая нормальный предел, основанный на населении [ICON_Citizen]).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_NAME" Language="ru_RU">
+      <Text>Великая архитектура|великой архитектуры|великой архитектуре|великую архитектуру|великой архитектурой|великой архитектуре</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_DESCRIPTION" Language="ru_RU">
+      <Text>Все чудеса света в этом городе дают +3 ко всем типам дохода.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_NAME" Language="ru_RU">
+      <Text>Курорт|курорта|курорту|курорт|курортом|курорте</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION" Language="ru_RU">
+      <Text>Этот город обеспечивает двойной [ICON_Tourism] туризм.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_REINFORCED_INFRASTRUCTURE_DESCRIPTION" Language="ru_RU">
+      <Text>Улучшения, здания и районы этого города не могут быть повреждены природными катаклизмами. Этот город имеет 100% лояльность.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_AMENITIES] довольства и +1 [ICON_Housing] жилья за каждый квартал, акведук, канал и плотину в этом городе. Получите 10 [ICON_POWER] ед. электроэнергии после исследования технологии «Электричество».</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_ABILITY_THE_DEFENDER_COMBAT_DESCRIPTION" Language="ru_RU">
+      <Text>+5 [ICON_Strength] боевой мощи (защитник).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_ABILITY_THE_DEFENDER_MOVEMENT_DESCRIPTION" Language="ru_RU">
+      <Text>+1 [ICON_Movement] к перемещению (защитник).</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

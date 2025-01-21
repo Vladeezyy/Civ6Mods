@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_SLAVIC_NAME" Language="en_US">
+			<Text>Kievan Rus'</Text>
+		</Row>
+		<Replace Tag="LOC_CIVILIZATION_SLAVIC_NAME" Language="ru_RU">
+			<Text>Киевская Русь|Киeвской Руси|Киевской Руси|Киевскую Русь|Киевской Русью|Киевской Руси</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+
+		<Row Tag="LOC_CIVILIZATION_SLAVIC_DESCRIPTION" Language="en_US">
+			<Text>Kievan Rus'</Text>
+		</Row>
+		<Replace Tag="LOC_CIVILIZATION_SLAVIC_DESCRIPTION" Language="ru_RU">
+			<Text>Киевская Русь|Киeвской Руси|Киевской Руси|Киевскую Русь|Киевской Русью|Киевской Руси</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		
+		<Row Tag="LOC_LEADER_SLAVIC_RURIK_NAME" Language="en_US">
+			<Text>Rurik</Text>
+		</Row>
+		<Replace Tag="LOC_LEADER_SLAVIC_RURIK_NAME" Language="ru_RU">
+			<Text>Рюрик|Рюрика|Рюрику|Рюрика|Рюриком|Рюрике</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SLAVIC_NAME" Language="en_US">
+			<Text>From the Varans to the Greeks</Text>
+		</Row>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SLAVIC_NAME" Language="ru_RU">
+			<Text>Из Варяг в Греки</Text>
+		</Replace>
+		
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SLAVIC_DESCRIPTION" Language="en_US">
+			<Text>Additional [ICON_TradeRoute] trader slot and one free [ICON_TradeRoute] trader after unlocking "International trade".</Text>
+		</Row>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SLAVIC_DESCRIPTION" Language="ru_RU">
+			<Text>Дополнительная ячейка [ICON_TradeRoute]торговца и бесплатный 1[ICON_TradeRoute] торговец после открытия соц. института “Международная торговля”.</Text>
+		</Replace>
+	
+		<Row Tag="LOC_TRAIT_BUILDING_SLAVIC_UNIQUE_NAME" Language="en_US">
+			<Text>Unique building: Slavic Walls</Text>
+		</Row>
+		<Replace Tag="LOC_TRAIT_BUILDING_SLAVIC_UNIQUE_NAME" Language="ru_RU">
+			<Text>Уникальное зданние Киевской Руси: Кремлевские Стены</Text>
+		</Replace>
+		<Row Tag="LOC_TRAIT_BUILDING_SLAVIC_UNIQUE_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Kievan Rus'. Lower [ICON_Production] Production cost than Ancient Walls but can not build Medieval walls.</Text>
+		</Row>
+		<Replace Tag="LOC_TRAIT_BUILDING_SLAVIC_UNIQUE_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальное зданине Киевской Руси. Более низкая стоимость [ICON_Production] Производства чем у Древних стен, но нельзя строить Средневековые стены.</Text>
+		</Replace>
+
+		<Row Tag="LOC_TRAIT_UNIT_SLAVIC_UNIQUE_NAME" Language="en_US">
+			<Text>Unique unit: Bogatyr</Text>
+		</Row>
+		<Replace Tag="LOC_TRAIT_UNIT_SLAVIC_UNIQUE_NAME" Language="ru_RU">
+			<Text>Уникальный юнит Киевской Руси: Богатыри</Text>
+		</Replace>
+	
+		<Row Tag="LOC_TRAIT_LEADER_SLAVIC_RURIK_DESCRIPTION" Language="en_US">
+			<Text>[ICON_TradeRoute]Trade route to your civ adds +2 loyalty in the city of [ICON_TradeRoute] trade route origin. [ICON_TradeRoute] Trade Routes generate +1[ICON_Culture] Culture from domestic Kievan Rus' [ICON_TradingPost] Trading Posts they pass through </Text>
+		</Row>
+		<Replace Tag="LOC_TRAIT_LEADER_SLAVIC_RURIK_DESCRIPTION" Language="ru_RU">
+			<Text>[ICON_TradeRoute]Тогровый пост в Вашу Цивилизацию добавляе +2 лояльности в городе из которого отправился [ICON_TradeRoute] торговый путь. [ICON_TradeRoute] Торговые пути генерируют +1[ICON_Culture] Культуру за каждый домашний [ICON_TradingPost] Торговый пост Киевской Руси через который они проходят. </Text>
+		</Replace>
+
+		<!-- BUildings names and descriptions. -->
+		<Row Tag="LOC_BUILDING_SLAVIC_UNIQUE_NAME" Language="en_US">
+			<Text>Slavic Walls</Text>
+		</Row>
+		<Replace Tag="LOC_BUILDING_SLAVIC_UNIQUE_NAME" Language="ru_RU">
+			<Text>Кремлевские Стены</Text>
+		</Replace>
+		<Row Tag="LOC_BUILDING_SLAVIC_UNIQUE_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Kievan Rus'. Lower [ICON_Production] Production cost than Ancient Walls but can not build Medieval walls.</Text>
+		</Row>
+		<Replace Tag="LOC_BUILDING_SLAVIC_UNIQUE_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальное здание Киевской Руси. Более низкая стоимость [ICON_Production] Производства чем у древних стен, но нельзя строить Срендевековые стены.</Text>
+		</Replace>
+
+		<Row Tag="LOC_DISTRICT_SLAVIC_KREMLIN_NAME" Language="en_US">
+			<Text>Kremlin</Text>
+		</Row>
+		<Replace Tag="LOC_DISTRICT_SLAVIC_KREMLIN_NAME" Language="ru_RU">
+			<Text>Кремль|Кремля|Кремлю|Кремль|Кремлем|Кремле</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+
+		<Row Tag="LOC_DISTRICT_SLAVIC_KREMLIN_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Kievan Rus'. Cheaper to build. Generates +1[ICON_Gold] gold and +2[ICON_Culture] culture for each building in the district.</Text>
+		</Row>
+		<Replace Tag="LOC_DISTRICT_SLAVIC_KREMLIN_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный для Киевской Руси район. Дешевле в производстве. Генерирует +1[ICON_Gold] золото и +2[ICON_Culture] культуру за каждое здание в районе.</Text>
+		</Replace>
+
+		<!-- Unit name and descriptions. -->
+		<Row Tag="LOC_UNIT_SLAVIC_UNIQUE_NAME" Language="en_US">
+			<Text>Bogatyr</Text>
+		</Row>
+		<Replace Tag="LOC_UNIT_SLAVIC_UNIQUE_NAME" Language="ru_RU">
+			<Text>Богатыри|Богатырей|Богатырям|Богатырей|Богатырями|Богатырях</Text>
+			<Gender>masculine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+
+		<Row Tag="LOC_UNIT_SLAVIC_UNIQUE_DESCRIPTION" Language="en_US">
+			<Text>Unique Classic Era unit that replaces the Swordsman. +5 [ICON_Strength] Combat Strength bonus when fighting in Grassland and Plain terrains. Gain [ICON_Culture] Culture per each defeated unit.</Text>
+		</Row>
+		<Replace Tag="LOC_UNIT_SLAVIC_UNIQUE_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный юнит Киевской Руси из Классической Эпохи. Заменяет Мечника. +5 [ICON_Strength] бонус Боевой Мощи на Лугах и Равнинах. За каждого побежденного врага получает очки Культуры [ICON_Culture].</Text>
+		</Replace>
+
+		<Row Tag="LOC_ABILITY_COMBAT_SLAVIC_UNIT_DESCRIPTION" Language="en_US">
+			<Text>+{5_Amount} Combat Strength against units on grassland and plains.</Text>
+		</Row>
+		<Replace Tag="LOC_ABILITY_COMBAT_SLAVIC_UNIT_DESCRIPTION" Language="ru_RU">
+			<Text>+{5_Amount} Боевой мощи против юнитов на равнинах и лугах.</Text>
+		</Replace>
+
+		<!-- Leader Trait-->
+		<Row Tag="LOC_LEADER_SLAVIC_RURIK_ABILITY_NAME" Language="en_US">
+			<Text>Slavic Lands</Text>
+		</Row>
+		<Replace Tag="LOC_LEADER_SLAVIC_RURIK_ABILITY_NAME" Language="ru_RU">
+			<Text>Земли Славян</Text>
+		</Replace>
+
+		<Row Tag="LOC_LEADER_SLAVIC_RURIK_ABILITY_DESCRIPTION" Language="en_US">
+			<Text>+2 loyalty to the city of trade route origin. Trade Routes generate +1 [ICON_CULTURE] Culture from domestic Slavic [ICON_TradingPost] Trading Posts they pass through.</Text>
+		</Row>
+		<Replace Tag="LOC_LEADER_SLAVIC_RURIK_ABILITY_DESCRIPTION" Language="ru_RU">
+			<Text>+2 лояльности в городе из которого проложен торговый путь. Торговые пути генерируют +1 [ICON_CULTURE] культуру за каждый домашний [ICON_TradingPost] торговый пост Киевской Руси через который они проходят.</Text>
+		</Replace>
+
+		<!-- Civ Agenda-->
+
+		<Row Tag="LOC_SLAVIC_AGENDA_NAME" Language="en_US">
+			<Text>from the Varans to the Greeks</Text>
+		</Row>
+		<Replace Tag="LOC_SLAVIC_AGENDA_NAME" Language="ru_RU">
+			<Text>Из Варяг в Греки</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

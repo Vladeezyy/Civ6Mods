@@ -1,0 +1,8 @@
+<GameData>
+    <LocalizedText>	
+
+	<Replace Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION" Language="ru_RU">
+      <Text>Позволяет строителям строить рыбный промысел. Можно построить только рядом с морскими ресурсами.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

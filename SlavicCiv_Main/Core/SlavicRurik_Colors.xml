@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SlavicRurik_Colors -->
+<!-- Author: Anton -->
+<!-- DateCreated: 5/1/2021 12:31:42 PM -->
+<GameInfo>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_SLAVIC_A_PRIMARY</Type>
+			<Color>165,0,0,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_SLAVIC_A_SECONDARY</Type>
+			<Color>255,163,0,255</Color>
+		</Row>
+	</Colors>
+
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_SLAVIC_RURIK</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_SLAVIC_A_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_SLAVIC_A_SECONDARY</SecondaryColor>
+		</Row>
+	</PlayerColors>
+</GameInfo>

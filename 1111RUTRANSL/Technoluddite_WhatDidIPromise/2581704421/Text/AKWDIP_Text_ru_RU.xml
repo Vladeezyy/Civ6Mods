@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+<LocalizedText>
+	<Replace Tag="LOC_AKWDIP_PROMISE_ACCPETED_HEADER" Text="Мы дали обещание:" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_PROMISE_REFUSED_HEADER" Text="Мы отказали:" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_PROMISE_UNKNOWN_HEADER" Text="Они просили нас:" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKWDIP_ACCEPTED_DONT_SETTLE_NEAR_ME" Text="[ICON_AKWDIP_GREEN_DONT_SETTLE_NEAR_ME] Не селиться рядом ({1_turnsleft}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_ACCEPTED_DONT_DIG_UP_MY_ARTIFACTS" Text="[ICON_AKWDIP_GREEN_DONT_DIG_UP_MY_ARTIFACTS] Не раскапывать их артефакты ({1_turnsleft}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_ACCEPTED_DONT_SPY_ON_ME" Text="[ICON_AKWDIP_GREEN_DONT_SPY_ON_ME] Прекратить шпионить ({1_turnsleft}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME" Text="[ICON_AKWDIP_GREEN_KEEP_TROOPS_AWAY_FROM_ME] Держать наши войска подальше ({1_turnsleft}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_ACCEPTED_DONT_CONVERT_MY_CITIES" Text="[ICON_AKWDIP_GREEN_DONT_CONVERT_MY_CITIES] Прекратить насаждать религию ({1_turnsleft}[ICON_TURN])" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKWDIP_REFUSED_DONT_SETTLE_NEAR_ME" Text="[ICON_AKWDIP_RED_DONT_SETTLE_NEAR_ME] Не селиться рядом ({1_turnsleft}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_REFUSED_DONT_DIG_UP_MY_ARTIFACTS" Text="[ICON_AKWDIP_RED_DONT_DIG_UP_MY_ARTIFACTS] Не раскапывать их артефакты ({1_turnsleft}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_REFUSED_DONT_SPY_ON_ME" Text="[ICON_AKWDIP_RED_DONT_SPY_ON_ME] Прекратить шпионить ({1_turnsleft}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_REFUSED_KEEP_TROOPS_AWAY_FROM_ME" Text="[ICON_AKWDIP_RED_KEEP_TROOPS_AWAY_FROM_ME] Держать наши войска подальше ({1_turnsleft}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_REFUSED_DONT_CONVERT_MY_CITIES" Text="[ICON_AKWDIP_RED_DONT_CONVERT_MY_CITIES] Прекратить насаждать религию ({1_turnsleft}[ICON_TURN])" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_SETTLE_NEAR_ME" Text="[ICON_AKWDIP_BLUE_DONT_SETTLE_NEAR_ME] Не селиться рядом ({1_turnsleft}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS" Text="[ICON_AKWDIP_BLUE_DONT_DIG_UP_MY_ARTIFACTS] Не раскапывать их артефакты ({1_turnsleft}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_SPY_ON_ME" Text="[ICON_AKWDIP_BLUE_DONT_SPY_ON_ME] Прекратить шпионить ({1_turnsleft}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME" Text="[ICON_AKWDIP_BLUE_KEEP_TROOPS_AWAY_FROM_ME] Держать наши войска подальше ({1_turnsleft}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_CONVERT_MY_CITIES" Text="[ICON_AKWDIP_BLUE_DONT_CONVERT_MY_CITIES] Прекратить насаждать религию ({1_turnsleft}[ICON_TURN])" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_SETTLE_NEAR_ME_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_SETTLE_NEAR_ME] Не селиться рядом" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_DIG_UP_MY_ARTIFACTS] Не раскапывать их артефакты" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_SPY_ON_ME_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_SPY_ON_ME] Прекратить шпионить за ними" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME_NODATE" Text="[ICON_AKWDIP_BLUE_KEEP_TROOPS_AWAY_FROM_ME] Держать наши войска подальше" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_REQUESTED_DONT_CONVERT_MY_CITIES_NODATE" Text="[ICON_AKWDIP_BLUE_DONT_CONVERT_MY_CITIES] Прекратить насаждать религию" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKWDIP_HUD_SETTLEPROMISE_LENS_LEGEND" Text="Это нарушит данное обещание" Language="ru_RU"/>
+
+
+	<Replace Tag="LOC_AKWDIP_HUD_TROOPSPROMISE_LENS" Text="Военные обещания" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_HUD_TROOPSPROMISE_LENS_TOOLTIP" Text="Выделяет территорию, от которой мы обещали держать наши войска подальше" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_HUD_TROOPSPROMISE_LENS_LEGEND" Text="Мы обещали отвести войска отсюда" Language="ru_RU"/>
+
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_HEADER" Text="Дипломатический брифинг" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_SETTLE_NEAR_ME" Text="Мы пообещали {1_civname} что не будем селиться рядом с ними ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_SETTLE_NEAR_ME" Text="{1_civname} просит нас не селиться рядом с ними ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_SETTLE_NEAR_ME" Text="{1_civname} просит нас не селиться рядом с ними" Language="ru_RU"/>
+										  
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_DIG_UP_MY_ARTIFACTS" Text="Мы пообещали {1_civname} что не будем проводить раскопки на их территории ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} просили нас не проводить раскопки на их территории ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} просили нас не проводить раскопки на их территории" Language="ru_RU"/>
+										  
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_SPY_ON_ME" Text="Мы пообещали {1_civname} что больше не будем шпионить за ними ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_SPY_ON_ME" Text="{1_civname} попросили нас не шпионить за ними ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_SPY_ON_ME" Text="{1_civname} попросили нас не шпионить за ними " Language="ru_RU"/>
+										  
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME" Text="Мы пообещали {1_civname} что будем держать наши войска подальше от их границы ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} попросили нас жержать подальше наши войска от их границ ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} попросили нас жержать подальше наши войска от их границ" Language="ru_RU"/>
+										  
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_ACCEPTED_DONT_CONVERT_MY_CITIES" Text="Мы пообещали {1_civname} что не будем отправлять миссионеров в их города ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REFUSED_DONT_CONVERT_MY_CITIES" Text="{1_civname} попросили нас не распространять религию среди их жителей ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_REQUESTED_DONT_CONVERT_MY_CITIES" Text="{1_civname} попросили нас не распространять религию среди их жителей" Language="ru_RU"/>
+
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_SETTLE_NEAR_ME" Text="Основание города в этом месте нарушит наше обещание данное {1_civname} ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_SETTLE_NEAR_ME" Text="{1_civname} попросили нас не селиться здесь ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_SETTLE_NEAR_ME" Text="{1_civname} попросили нас не селиться здесь" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_DIG_UP_MY_ARTIFACTS" Text="Произведя раскопки здесь мы нарушим обещание данное {1_civname} ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} просили нас не производить здесь раскопки ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_DIG_UP_MY_ARTIFACTS" Text="{1_civname} просили нас не производить здесь раскопки" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_SPY_ON_ME" Text="Мы пообещали что больше не будем шпионить за {1_civname} ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_SPY_ON_ME" Text="{1_civname} попросили нас прекратить шпионить за ними ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_SPY_ON_ME" Text="{1_civname} попросили нас прекратить шпионить за ними" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME_PAST" Text="{1_civname} могут рассматривать наше обещание держаться подальше от их границ как уже нарушенное" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME_NOW" Text="Мы должны отвести наши войска от границ {1_civadj} НЕМЕДЛЕННО, если мы не хотим нарушить наше обещание ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME_IMMINENT" Text="Мы должны отвести наши войска от границ {1_civadj} в течение {3_turns}[ICON_TURN]ходов иначе мы нарушим наше обещание ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_KEEP_TROOPS_AWAY_FROM_ME" Text="Мы пообещали {1_civname} что будем держать наши войска подальше от их границ ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} попросили нас держать наши войска подальше отсюда ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_KEEP_TROOPS_AWAY_FROM_ME" Text="{1_civname} попросили нас держать наши войска подальше отсюда" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_ACCEPTED_DONT_CONVERT_MY_CITIES" Text="Распространение нашей религии здесь приведет к нарушению нашего обещания данному {1_civname} ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REFUSED_DONT_CONVERT_MY_CITIES" Text="{1_civname} попросили нас не распространять здесь нашу религию ({2_turns}[ICON_TURN])" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_UNITPANELWARNING_NEARBY_REQUESTED_DONT_CONVERT_MY_CITIES" Text="{1_civname} попросили нас не распространять здесь нашу религию" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKWDIP_IMMINENT_DMZ_BREACH_NOTIFICATION_HEADER" Text="Неизбежное нарушение обещания демилитаризационной зоны" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_NOTIFICATION_DMZ_BREACH_IMMINENT_TEXT" Text="Мы анрушим наше обещание данное {1_civname} если не овтедем часть войск в течение {2_turns}[ICON_TURN]ходов!" Language="ru_RU"/> 
+	<Replace Tag="LOC_AKWDIP_NOTIFICATION_DMZ_BREACH_NOW_TEXT" Text="Мы анрушим наше обещание данное {1_civname} если не овтедем часть войск в течение НЕМЕДЛЕННО!" Language="ru_RU"/>
+
+	<Replace Tag="LOC_AKWDIP_TOPBARBUTTON" Text="" Language="ru_RU"/>
+	<Replace Tag="LOC_AKWDIP_TOPBARBUTTON_TT" Text="Настройки Что я пообещал?" Language="ru_RU"/>
+</LocalizedText>
+
+</GameData>
+
+
+

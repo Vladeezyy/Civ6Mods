@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_GOVERNOR_PROMOTION_HERMETIC_ORDER_3_DESCRIPTION" Language="ru_RU">
+      <Text>Открывается в Промышленную эру. За каждого полученного [ICON_GreatPerson] великого человека лей-линии получают +1 ко всем видам продукции в районе этого [ICON_GreatPerson] великого человека. [ICON_GreatAdmiral] Великие адмиралы и [ICON_GreatGeneral] великие полководцы получают +1 к [ICON_Science] науке.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

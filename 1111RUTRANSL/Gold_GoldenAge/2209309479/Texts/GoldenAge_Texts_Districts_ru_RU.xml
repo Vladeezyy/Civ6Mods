@@ -1,0 +1,62 @@
+<GameData>
+    <LocalizedText>	
+	
+	<Replace Tag="LOC_PROJECT_TERRESTRIAL_LASER_SHORT_NAME" Language="ru_RU">
+      <Text>Наземная лазерная станция или повседневные нужды людей</Text>
+    </Replace>
+	<!--区域-->		
+	
+	<Replace Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION" Language="ru_RU">
+      <Text>Скорость роста города увеличивается на 30%, +1 [ICON_Food] пищи для ферм в этом городе. Обеспечивает этот город источником пресной воды из соседней реки, озера, оазиса или горы. Города, в которых еще нет пресной воды, получают до 8 [ICON_Housing] жилья. Вместо этого города, в которых уже есть пресная вода, получат +3 [ICON_Housing] жилья. Предотвращает [ICON_Food] потерю пищи во время засухи. Должен быть построен рядом с центром города.[NEWLINE]+1 ед. престижа.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_NEIGHBORHOOD_DESCRIPTION" Language="ru_RU">
+      <Text>Скорость роста города увеличивается на 10%. Предоставляюет жилье в зависимости от престижа клетки:[NEWLINE]Потрясающий: +4 [ICON_Housing] жилья.[NEWLINE]Притягивающий: +2 [ICON_Housing] жилья.[NEWLINE]Средний: +0 [ICON_Housing] жилья.[NEWLINE]Невзрачный: -2 [ICON_Housing] жилья.[NEWLINE]Отвратительный: -4 [ICON_Housing] жилья.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_DAM_DESCRIPTION" Language="ru_RU">
+      <Text>Район, строящийся на клетке поймы, который дает +1 [ICON_Food] пищи соседним клеткам, +1 дополнительное [ICON_Production] производство после исследования технологии «Электричество». Обеспечивает этот город источником пресной воды из соседней реки, озера, оазиса или горы. Города, в которых еще нет пресной воды, получают до 8 [ICON_Housing] жилья. Вместо этого города, в которых уже есть пресная вода, получат +3 [ICON_Housing] жилья. Предотвращает ущерб от затопления этой реки (хотя урожай от затопления падает на 50%). Предотвращает [ICON_Food] потерю пищи во время засухи. В пойме каждой реки может быть построена только одна дамба (в зависимости от того, какой игрок завершит строительство первым), и река должна пересекать как минимум две стороны клетки дамбы.[NEWLINE]+1 ед. престижа. </Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_DISTRICT_CANAL_DESCRIPTION" Language="ru_RU">
+      <Text>Район, строящийся на равнине для соединения двух водоемов или водоема с центром города. Дает +1 [ICON_Gold] золота соседним клеткам, +2 дополнительных [ICON_Gold] золота после исследования технологии «Электричество». Обеспечивает этот город источником пресной воды из соседней реки, озера, оазиса или горы. Города, в которых еще нет пресной воды, получают до 8 [ICON_Housing] жилья. Вместо этого города, в которых уже есть пресная вода, получат +3 [ICON_Housing] жилья. [ICON_TradeRoute] Торговые пути, проходящие через него, могут увеличить количество [ICON_Gold] золота, которое они получают от районов в пункте назначения. Каналы могут проходить прямо через клетку или изгибаться на 60 градусов. Однако трехсторонние соединения каналов не допускаются, и у каналов должна быть клетка суши с каждой стороны водного пути, который они создают.[NEWLINE]+1 ед. престижа. </Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_DESCRIPTION" Language="ru_RU">
+      <Text>Район, предназначенный для того, чтобы ваши жители были счастливы, увеличивая [ICON_Amenities] довольство. Привлекает иностранных туристов, увеличивая [ICON_Tourism] туризм.[NEWLINE][NEWLINE]+1 [ICON_Amenities] доволсьтва, если находится рядом с центром города.[NEWLINE]+1 [ICON_Amenities] довольства рядом с правительственной площадью.[NEWLINE]+1 [ICON_Amenities] довольства рядом с аквапарком.[NEWLINE]+1 [ICON_Amenities] довольства рядом с развлекательным комплексом. (Требуется режим игры «Город-гигант»)[NEWLINE]+2 [ICON_Amenities] довольсва рядом с национальным развлекательным комплексом.[NEWLINE][NEWLINE]+1 ед. престижа.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_DESCRIPTION" Language="ru_RU">
+      <Text>Район, расположенный на прибрежной клетке, предназначенный для того, чтобы ваши люди были счастливы, увеличивая [ICON_Amenities] довольство. Привлекает иностранных туристов, увеличивая [ICON_Tourism] туризм. Нельзя построить в городе с развлекательным комплексом. Нельзя построить на рифе.[NEWLINE][NEWLINE]+1 [ICON_Amenities] довольства рядом с развлекательным комплексом.[NEWLINE]+1 [ICON_Amenities] довольства рядом с центром города.[NEWLINE]+1 [ICON_Amenities] довольства рядом с правительственной площадью.[NEWLINE]+1 [ICON_Amenities] довольства рядом с аквапарком. (Требуется игровой режим «Город-гигант»).[NEWLINE]+2 [ICON_Amenities] довольства рядом с национальным развлекательным комплексом.[NEWLINE][NEWLINE]+1 ед. престижа.</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="ru_RU">
+      <Text>Район военно-морской деятельности в вашем городе, дальность атаки обороны равна 1. Также убирает штраф [ICON_Movement] к перемещению за посадку и высадку на эту клетку и с нее. Должна быть построена на побережье или озере, прилегающем к суше. Нельзя построить на рифе.[NEWLINE]-2 ед. престижа.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_DESCRIPTION" Language="ru_RU">
+      <Text>Район в вашем городе для промышленной деятельности.[NEWLINE]-2 ед. престижа.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_ENCAMPMENT_DESCRIPTION" Language="ru_RU">
+      <Text>Район в вашем городе для военных объектов, дальность атаки обороны равна 1.[NEWLINE][NEWLINE]+1 [ICON_Housing] жилье, если примыкает к ферме.[NEWLINE]+1 [ICON_Housing] жилье, если примыкает к пастбищу.[NEWLINE] +1 [ICON_Housing] жилье рядом с плантацией.[NEWLINE]+1 [ICON_Housing] жилье рядом с лагерем.[NEWLINE]+1 [ICON_Housing] жилье рядом с каналом.[NEWLINE]+1 [ICON_Housing] жилье рядом с аэродромом.[NEWLINE]+1 [ICON_Housing] жилье рядом с правительственной площадью.[NEWLINE]+1 [ICON_Housing] жилье рядом с военным лагерем. (Требуется игровой режим «город-гигант»)[NEWLINE]+3 [ICON_Housing] жилья рядом с национальным военным лагерем.[NEWLINE][NEWLINE]-2 ед. престижа.</Text>
+    </Replace>
+    
+	<Replace Tag="LOC_DISTRICT_AERODROME_DESCRIPTION" Language="ru_RU">
+      <Text>Район, позволяющий строить и размещать самолеты. Нельзя строить на холмах.[NEWLINE]-2 ед. престижа.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_SPACEPORT_DESCRIPTION_XP2" Language="ru_RU">
+      <Text>Район, необходимый для строительства проектов научной победы. Сюда входят {LOC_PROJECT_LAUNCH_EARTH_SATELLITE_NAME}, {LOC_PROJECT_LAUNCH_MOON_LANDING_NAME}, {LOC_PROJECT_LAUNCH_MARS_BASE_NAME} и {LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME}. Нельзя строить на холмах.[NEWLINE]-2 ед. престижа.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_CITY_CENTER_DESCRIPTION" Language="ru_RU">
+      <Text>С ростом населения [ICON_CITIZEN] городу потребуется больше [ICON_Amenities] довольства (из городских сооружений) и больше [ICON_PowerInsufficient] электроэнергии для удовлетворения повседневных потребностей:[NEWLINE][ICON_Bullet]Если [ICON_Citizen] население не менее 10, -1 [ICON_Amenities] довольства, [ICON_PowerInsufficient] энергонагрузка +1;[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] не менее 20, -2 [ICON_Amenities] довольства, [ICON_PowerInsufficient] энергонагрузка +2;[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] не менее 30 человек, -3 [ICON_Amenities] довольства, [ICON_PowerInsufficient] энергонагрузка +3;[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] не менее 40 человек , -4 [ICON_Amenities] довольства, [ICON_PowerInsufficient] энергонагрузка +4;[NEWLINE][ICON_Bullet]Если население [ICON_Citizen] не менее 50, -5 [ICON_Amenities] довольства, [ICON_PowerInsufficient] энергонагрузка +5.[NEWLINE][NEWLINE]Прирост населения:[NEWLINE]Дополнительно [ICON_Bullet]+0,01 [ICON_SCIENCE] науки, [ICON_Culture] культуры и [ICON_Production] производство на жителя, когда население в этом городе увеличивается на 1.</Text>
+    </Replace>
+	
+	
+	<Replace Tag="LOC_DISTRICT_DIPLOMATIC_QUARTER_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Ваша цивилизация получает +1 [ICON_FAVOR] ед. мирового влияния за каждую делегацию или посольство иностранной цивилизации посредством дипломатии. Вражеские шпионы действуют на 2 уровня ниже обычного, нацеливаясь на этот и соседние районы. В вашей империи может существовать только 1 дипломатический кватал.[NEWLINE]Дает +2 [ICON_ENVOY] посла.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

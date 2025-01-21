@@ -1,0 +1,249 @@
+<GameData>
+    <LocalizedText>	
+	<!--项目-->
+	
+    
+    
+    
+    
+    
+	<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_ENCAMPMENT_DESCRIPTION" Language="ru_RU">
+      <Text>Районный проект, который дает [ICON_Gold] золото в размере 20% от [ICON_Production] производства в этом городе каждый ход и очки [ICON_GreatGeneral] великих генералов после завершения.</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_HARBOR_DESCRIPTION" Language="ru_RU">
+      <Text>Районный проект, который дает [ICON_Gold] золото в размере 20% от [ICON_Production] производства в этом городе каждый ход и очки [ICON_GreatAdmiral] великих адмиралов после завершения.</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_COMMERCIAL_HUB_DESCRIPTION" Language="ru_RU">
+      <Text>Районный проект, который дает [ICON_Gold] золото в размере 20% от [ICON_Production] производства в этом городе каждый ход и очки [ICON_GreatMerchant] великих торговцев после завершения.</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_HOLY_SITE_EXPANSION2_DESCRIPTION" Language="ru_RU">
+      <Text>Районный проект, который дает [ICON_Faith] веру в размере 20% от [ICON_Production] производства в этом городе и +100% религиозного давления каждый ход. Дает очки [ICON_GreatProphet] великого пророка после завершения.</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_CAMPUS_DESCRIPTION" Language="ru_RU">
+      <Text>Районный проект, который дает [ICON_Science] науку в размере 20% от [ICON_Production] производства в этом городе каждый ход и очки [ICON_GreatScientist] великих ученых после завершения.</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_THEATER_DESCRIPTION" Language="ru_RU">
+      <Text>Районный проект, который дает [ICON_Culture] культуру в размере 20% от [ICON_Production] производства в этом городе каждый ход и небольшое количество очков [ICON_GreatWriter] великих писателей, [ICON_GreatArtist] художников и [ICON_GreatMusician] музыкантов после завершения.</Text>
+    </Replace>
+	
+		
+		<Replace Tag="LOC_PROJECT_HORSES_GOLD_NAME" Language="ru_RU">
+			<Text>Обменять лошадей на золото</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_HORSES_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>Преобразует 30 [ICON_RESOURCE_HORSES] лошадей в 200 [ICON_GOLD] золота. Требуется наличие рынка в коммерческом центре.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_IRON_GOLD_NAME" Language="ru_RU">
+			<Text>Обменять железо на золото</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_IRON_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>Преобразует 30 [ICON_RESOURCE_IRON] ед. железа в 400 [ICON_GOLD] золота. Требуется наличие рынка в коммерческом центре.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_NITER_GOLD_NAME" Language="ru_RU">
+			<Text>Обменять селитру на золото</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_NITER_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>Преобразует 30 [ICON_RESOURCE_NITER] селитры в 600 [ICON_GOLD] золота. Требуется наличие банка в коммерческом центре.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_COAL_GOLD_NAME" Language="ru_RU">
+			<Text>Обменять уголь на золото</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_COAL_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>Преобразует 30 [ICON_RESOURCE_COAL] ед. угля в 800 [ICON_GOLD] золота. Требуется наличие банка в коммерческом центре.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_OIL_GOLD_NAME" Language="ru_RU">
+			<Text>Обменять нефть на золото</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_OIL_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>Преобразует 30 [ICON_RESOURCE_OIL] нефти в 1000 [ICON_GOLD] золота. Требуется наличие биржи в коммерческом центре.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_ALUMINUM_GOLD_NAME" Language="ru_RU">
+			<Text>Обменять алюминий на золото</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_ALUMINUM_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>Преобразует 30 [ICON_RESOURCE_ALUMINUM] алюминия в 1200 [ICON_GOLD] золота. Требуется наличие биржи в коммерческом центре.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_URANIUM_GOLD_NAME" Language="ru_RU">
+			<Text>Обменять уран на золото</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_URANIUM_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>Преобразует 30 [ICON_RESOURCE_URANIUM] ед. урана в 1400 [ICON_GOLD] золота. Требуется наличие биржи в коммерческом центре.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_MOVE_CAPITAL_NAME" Language="ru_RU">
+			<Text>Перенести столицу</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_MOVE_CAPITAL_SHORT_NAME" Language="ru_RU">
+			<Text>Перенести столицу</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_MOVE_CAPITAL_DESCRIPTION" Language="ru_RU">
+			<Text>Перенести столицу в этот город после завершения данного проекта.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_CLOSE_COAL_POWER_PLANT_NAME" Language="ru_RU">
+      <Text>Консервация угольной электростанции</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_CLOSE_COAL_POWER_PLANT_SHORT_NAME" Language="ru_RU">
+      <Text>Консервация угольной электростанции</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_CLOSE_COAL_POWER_PLANT_DESCRIPTION" Language="ru_RU">
+			<Text>Убирает угольную электростанцию и все ее эффекты из этого города.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_CLOSE_OIL_POWER_PLANT_NAME" Language="ru_RU">
+      <Text>Консервация мазутной электростанции</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_CLOSE_OIL_POWER_PLANT_SHORT_NAME" Language="ru_RU">
+      <Text>Консервация мазутной электростанции</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_CLOSE_OIL_POWER_PLANT_DESCRIPTION" Language="ru_RU">
+			<Text>Убирает мазутную электростанцию и все ее эффекты из этого города.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_CLOSE_NUCLEAR_POWER_PLANT_NAME" Language="ru_RU">
+      <Text>Консервация атомной электростанции</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_CLOSE_NUCLEAR_POWER_PLANT_SHORT_NAME" Language="ru_RU">
+      <Text>Консервация атомной электростанции</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_CLOSE_NUCLEAR_POWER_PLANT_DESCRIPTION" Language="ru_RU">
+			<Text>Убирает атомную электростанцию и все ее эффекты из этого города.</Text>
+		</Replace>
+		
+		
+	    	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_BROADCAST_NAME" Language="ru_RU">
+			<Text>Запуск вещательного спутника</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+	  </Replace>
+	    	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_BROADCAST_DESCRIPTION" Language="ru_RU">
+			<Text>Космический проект, который запускает вещательный спутник на орбиту.[NEWLINE][NEWLINE]+25% [ICON_Tourism] туризма всей вашей империи.[NEWLINE][NEWLINE]Требуется завершение проекта "Запуск искусственного спутника".</Text>
+	  </Replace>
+	    	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_BROADCAST_POPUP" Language="ru_RU">
+			<Text>+25% [ICON_Tourism] туризма всей вашей империи.</Text>
+	  </Replace>
+	
+	    	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_WEATHER_POPUP" Language="ru_RU">
+			<Text>Из-за наличия прогноза погоды и принимаемых мер предосторожности улучшения, здания и районы во всех городах не могут быть повреждены природными катаклизмами.</Text>
+	  </Replace>
+	  
+		<Replace Tag="LOC_PROJECT_SATELLITE_ESPIONAGE_NAME" Language="ru_RU">
+			<Text>Запуск шпионского спутника</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+	    	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_ESPIONAGE_DESCRIPTION" Language="ru_RU">
+			<Text>Космический проект, который запускает спутниковую группировку на орбиту.[NEWLINE][NEWLINE]+1 уровень дипломатической видимости со всеми другими цивилизациями.[NEWLINE]Ваш уровень шпиона повышается на 1 при проведении шпионских операций.[NEWLINE][NEWLINE]Требуется завершение проекта «Запуск искусственного спутника».</Text>
+	  </Replace>
+	     	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_ESPIONAGE_POPUP" Language="ru_RU">
+			<Text>+1 уровень дипломатической видимости со всеми другими цивилизациями. Ваш уровень шпиона повышается на 1 при проведении шпионских операций.</Text>
+	  </Replace>
+	  
+		<Replace Tag="LOC_PROJECT_SATELLITE_MILITARY_NAME" Language="ru_RU">
+			<Text>Запуск военного спутника</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+	    	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_MILITARY_DESCRIPTION" Language="ru_RU">
+			<Text>Космический проект, который запускает спутниковую группировку на орбиту.[NEWLINE][NEWLINE]Все юниты получают +5 [ICON_Strength] к боевой мощи.[NEWLINE][NEWLINE]Требуется завершение проекта "Запуск искусственного спутника".</Text>
+	  </Replace>
+	    	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_MILITARY_POPUP" Language="ru_RU">
+			<Text>Все юниты получают +5 к [ICON_Strength] боевой мощи.</Text>
+	  </Replace>
+	  
+		<Replace Tag="LOC_PROJECT_SATELLITE_NAVIGATION_NAME" Language="ru_RU">
+			<Text>Запуск навигационного спутника</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+	    	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_NAVIGATION_DESCRIPTION" Language="ru_RU">
+			<Text>Космический проект, который запускает спутниковую группировку на орбиту.[NEWLINE][NEWLINE]+1 [ICON_Movement] перемещение морским и погруженным на борт юнитам.[NEWLINE]Ваши [ICON_TradeRoute] торговые пути между несколькими континентами получают +4 [ICON_Gold] золота если ведут к другим цивилизациям и +2 [ICON_Production] производства если ведут к вашими городами.[NEWLINE][NEWLINE]Требуется завершение проекта "Запуск искусственного спутника".</Text>
+	  </Replace>
+	    	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_NAVIGATION_POPUP" Language="ru_RU">
+			<Text>+1 к [ICON_Movement] перемещению всем морским и погруженным на борт юнитам.[NEWLINE]Ваши [ICON_TradeRoute] торговые пути между несколькими континентами получают +4 [ICON_Gold] золота если ведут к другим цивилизациям и +2 [ICON_Production] производства если ведут к вашими городами.</Text>
+	  </Replace>
+	  
+		<Replace Tag="LOC_PROJECT_SATELLITE_COMMUNICATION_NAME" Language="ru_RU">
+			<Text>Запуск спутника связи</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+	    	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_COMMUNICATION_DESCRIPTION" Language="ru_RU">
+			<Text>Космический проект, который запускает спутник на орбиту.[NEWLINE][NEWLINE]+6 [ICON_ENVOY] послов после завершения.[NEWLINE][NEWLINE]Требуется завершение проекта "Запуск искусственного спутника".</Text>
+	  </Replace>
+	    	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_COMMUNICATION_POPUP" Language="ru_RU">
+			<Text>+6 [ICON_ENVOY] послов.</Text>
+	  </Replace>
+	  
+		<Replace Tag="LOC_PROJECT_SATELLITE_SOLAR_POWER_NAME" Language="ru_RU">
+			<Text>Запуск спутника солнечной энергии</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+		</Replace>
+	    	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_SOLAR_POWER_DESCRIPTION" Language="ru_RU">
+			<Text>Космический проект, который запускает спутник на орбиту.[NEWLINE][NEWLINE]Обеспечивает все города вашей империи +8 [ICON_Power] ед. электроэнергии от возобновляемых солнечных источников.[NEWLINE][NEWLINE]Требуется завершение проекта "Запуск искусственного спутника".</Text>
+	  </Replace>
+	    	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_SOLAR_POWER_POPUP" Language="ru_RU">
+			<Text>Обеспечивает все города вашей империи +8 [ICON_Power] ед. электроэнергии от возобновляемых солнечных источников.</Text>
+	  </Replace>
+        
+		<Replace Tag="LOC_ABILITY_SAT_MILITARY_COMBAT_STRENGTH_BUFF_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Strength] боевой мощи (Военная спутниковая сеть).</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_ABILITY_SAT_NAVIGATION_SEA_MOVEMENT_BUFF_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Movement] к перемещению (Навигационный спутник).</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_ABILITY_SAT_NAVIGATION_EMBARKED_BUFF_DESCRIPTION" Language="ru_RU">
+			<Text>+1 к [ICON_Movement] перемещению погруженным на борт юнитам (Навигационный спутник).</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
