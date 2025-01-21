@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c82bb934-e4c5-4669-a11c-610934cc2f0c" version="4">
+  <Properties>
+    <Name>[COLOR:ResFaithLabelCS]6T[ENDCOLOR] - Unit Expansion: Naval</Name>
+    <Description>Adds six new naval units.[NEWLINE]The Naval Melee promotion class gains the Post-Classical-era Cog, the Industrial-era Frigate (old "Frigate" unit renamed to "Galleon"), and the Information-era Stealth Destroyer. The Ironclad is changed to Cruiser.[NEWLINE]The Naval Ranged promotion class gains the Medieval-era Hulk and the Modern-era Ironclad (Battleship moved to Atomic era).[NEWLINE]The Naval Raider promotion class gains the Modern-era Monitor (Submarine moved to Atomic era).</Description>
+    <Teaser>6 new naval units for Project 6T.</Teaser>
+    <Authors>JNR</Authors>
+	<SpecialThanks>Deliverator, KrumStrashni, Wolfdog for the great 3D models and icons.</SpecialThanks>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0" title="6T - Grand Eras" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="GameplayBase">
+      <Properties>
+        <LoadOrder>16000</LoadOrder>
+      </Properties>
+      <File>Core/6TUE_Naval_Units.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_ModSupport_ST_UU">
+      <Properties>
+        <LoadOrder>16050</LoadOrder>
+      </Properties>
+      <File>Core/6TUE_Naval_ST_UU.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="TextBase">
+      <Properties>
+        <LoadOrder>16000</LoadOrder>
+      </Properties>
+      <File>Core/6TUE_Naval_Text.sql</File>
+    </UpdateText>
+    <UpdateArt id="ArtDependency">
+      <Properties>
+        <LoadOrder>16000</LoadOrder>
+      </Properties>
+      <File>Unit_Expansion_Naval.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>16000</LoadOrder>
+      </Properties>
+      <File>Core/6TUE_Naval_Icons.sql</File>
+      <File>Core/6TUE_Naval_Icons_Portraits.sql</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Core/6TUE_Naval_Icons.sql</File>
+    <File>Core/6TUE_Naval_Icons_Portraits.sql</File>
+    <File>Core/6TUE_Naval_ST_UU.sql</File>
+    <File>Core/6TUE_Naval_Text.sql</File>
+    <File>Core/6TUE_Naval_Units.sql</File>
+    <File>Unit_Expansion_Naval.dep</File>
+  </Files>
+</Mod>

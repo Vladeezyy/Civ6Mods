@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+ <Types>
+ <Row Type="BUILDING_TEMPLEOFSOLOMON" Kind="KIND_BUILDING" />
+ </Types>
+ <Buildings>
+	<Row BuildingType="BUILDING_TEMPLEOFSOLOMON" Name="LOC_BUILDING_TEMPLEOFSOLOMON_NAME" Description="LOC_BUILDING_TEMPLEOFSOLOMON_DESCRIPTION" PrereqDistrict="DISTRICT_HOLY_SITE" PrereqCivic="CIVIC_MYSTICISM" Cost="290" AdvisorType="ADVISOR_RELIGIOUS" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_MEDIEVAL" Quote="LOC_BUILDING_TEMPLEOFSOLOMON_QUOTE" QuoteAudio=""/>
+	</Buildings>
+ <Building_YieldChanges>
+	 <Row BuildingType="BUILDING_TEMPLEOFSOLOMON" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	 <Row BuildingType="BUILDING_TEMPLEOFSOLOMON" YieldType="YIELD_FAITH" YieldChange="2"/>
+ </Building_YieldChanges>
+<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_TEMPLEOFSOLOMON" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_TEMPLEOFSOLOMON" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+</Building_GreatPersonPoints>
+ <Building_ValidTerrains>
+	<Row BuildingType="BUILDING_TEMPLEOFSOLOMON" TerrainType="TERRAIN_PLAINS"/>
+	<Row BuildingType="BUILDING_TEMPLEOFSOLOMON" TerrainType="TERRAIN_DESERT"/>
+ </Building_ValidTerrains>
+<Building_GreatWorks>
+	<Row BuildingType="BUILDING_TEMPLEOFSOLOMON" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="2"/>
+</Building_GreatWorks>
+</GameData>

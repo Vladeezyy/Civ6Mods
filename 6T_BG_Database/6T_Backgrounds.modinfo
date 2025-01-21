@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a61e744e-147d-43a5-8042-c521a48e7a46" version="1">
+  <Properties>
+    <Name>6T - Era Background Art: Monochrome</Name>
+    <Description>Custom era-specific background art for the tech and civics trees. Scenes taken from Civ cinematic trailers. Style: monochrome (greyscale without further modification).</Description>
+    <Teaser>Era-specific monochrome background art for tech and civics trees.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0" title="6T - Era Expansion" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="AssignBackgrounds">
+      <Properties>
+        <LoadOrder>20</LoadOrder>
+      </Properties>
+      <File>6T_BG_Database.sql</File>
+    </UpdateDatabase>
+	<ImportFiles id="ImportBackgroundArt">
+	  <Properties>
+		<LoadOrder>20</LoadOrder>
+	  </Properties>
+      <Items>
+		<File>Textures/TechBG_Grey_01_Ancient.dds</File>
+		<File>Textures/TechBG_Grey_02_Classical.dds</File>
+		<File>Textures/TechBG_Grey_03_PostClassical.dds</File>
+		<File>Textures/TechBG_Grey_04_Medieval.dds</File>
+		<File>Textures/TechBG_Grey_05_Renaissance.dds</File>
+		<File>Textures/TechBG_Grey_06_Industrial.dds</File>
+		<File>Textures/TechBG_Grey_07_Modern.dds</File>
+		<File>Textures/TechBG_Grey_08_Atomic.dds</File>
+		<File>Textures/TechBG_Grey_09_Information.dds</File>
+		<File>Textures/TechBG_Grey_10_Future.dds</File>
+		<File>Textures/CivicBG_Grey_01_Ancient.dds</File>
+		<File>Textures/CivicBG_Grey_02_Classical.dds</File>
+		<File>Textures/CivicBG_Grey_03_PostClassical.dds</File>
+		<File>Textures/CivicBG_Grey_04_Medieval.dds</File>
+		<File>Textures/CivicBG_Grey_05_Renaissance.dds</File>
+		<File>Textures/CivicBG_Grey_06_Industrial.dds</File>
+		<File>Textures/CivicBG_Grey_07_Modern.dds</File>
+		<File>Textures/CivicBG_Grey_08_Atomic.dds</File>
+		<File>Textures/CivicBG_Grey_09_Information.dds</File>
+		<File>Textures/CivicBG_Grey_10_Future.dds</File>
+      </Items>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+	<File>6T_BG_Database.sql</File>
+	<File>Textures/TechBG_Grey_01_Ancient.dds</File>
+	<File>Textures/TechBG_Grey_02_Classical.dds</File>
+	<File>Textures/TechBG_Grey_03_PostClassical.dds</File>
+	<File>Textures/TechBG_Grey_04_Medieval.dds</File>
+	<File>Textures/TechBG_Grey_05_Renaissance.dds</File>
+	<File>Textures/TechBG_Grey_06_Industrial.dds</File>
+	<File>Textures/TechBG_Grey_07_Modern.dds</File>
+	<File>Textures/TechBG_Grey_08_Atomic.dds</File>
+	<File>Textures/TechBG_Grey_09_Information.dds</File>
+	<File>Textures/TechBG_Grey_10_Future.dds</File>
+	<File>Textures/CivicBG_Grey_01_Ancient.dds</File>
+	<File>Textures/CivicBG_Grey_02_Classical.dds</File>
+	<File>Textures/CivicBG_Grey_03_PostClassical.dds</File>
+	<File>Textures/CivicBG_Grey_04_Medieval.dds</File>
+	<File>Textures/CivicBG_Grey_05_Renaissance.dds</File>
+	<File>Textures/CivicBG_Grey_06_Industrial.dds</File>
+	<File>Textures/CivicBG_Grey_07_Modern.dds</File>
+	<File>Textures/CivicBG_Grey_08_Atomic.dds</File>
+	<File>Textures/CivicBG_Grey_09_Information.dds</File>
+	<File>Textures/CivicBG_Grey_10_Future.dds</File>
+  </Files>
+</Mod>

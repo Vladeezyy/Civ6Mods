@@ -1,0 +1,3 @@
+
+UPDATE Buildings
+SET PrereqCivic = 'CIVIC_6T_ROMANTICISM' WHERE BuildingType = 'BUILDING_SANCTUARY';

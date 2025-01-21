@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_TEMPLEOFSOLOMON_ICON" IconSize="32" Filename="Icon_TempleOfSolomon_32"/>
+		<Row Name="ATLAS_TEMPLEOFSOLOMON_ICON" IconSize="38" Filename="Icon_TempleOfSolomon_38"/>
+		<Row Name="ATLAS_TEMPLEOFSOLOMON_ICON" IconSize="50" Filename="Icon_TempleOfSolomon_50"/>
+		<Row Name="ATLAS_TEMPLEOFSOLOMON_ICON" IconSize="64" Filename="Icon_TempleOfSolomon_64"/>
+		<Row Name="ATLAS_TEMPLEOFSOLOMON_ICON" IconSize="128" Filename="Icon_TempleOfSolomon_128"/>
+		<Row Name="ATLAS_TEMPLEOFSOLOMON_ICON" IconSize="256" Filename="Icon_TempleOfSolomon_256"/>
+
+		<Row Name="ATLAS_TEMPLEOFSOLOMON_ICON_SACRIFICE" IconSize="38" Filename="ICON_IMPROVEMENT_TEMPLEOFSOLOMON_SACRIFICE_38"/>
+		<Row Name="ATLAS_TEMPLEOFSOLOMON_ICON_SACRIFICE" IconSize="50" Filename="ICON_IMPROVEMENT_TEMPLEOFSOLOMON_SACRIFICE_50"/>
+		<Row Name="ATLAS_TEMPLEOFSOLOMON_ICON_SACRIFICE" IconSize="80" Filename="ICON_IMPROVEMENT_TEMPLEOFSOLOMON_SACRIFICE_80"/>
+		<Row Name="ATLAS_TEMPLEOFSOLOMON_ICON_SACRIFICE" IconSize="256" Filename="ICON_IMPROVEMENT_TEMPLEOFSOLOMON_SACRIFICE_256"/>
+
+
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_TEMPLEOFSOLOMON" Atlas="ATLAS_TEMPLEOFSOLOMON_ICON" index="0"/>
+		<Row Name="ICON_IMPROVEMENT_TEMPLEOFSOLOMON_SACRIFICE" Atlas="ATLAS_TEMPLEOFSOLOMON_ICON_SACRIFICE" index="0"/>
+	</IconDefinitions>
+</GameData>

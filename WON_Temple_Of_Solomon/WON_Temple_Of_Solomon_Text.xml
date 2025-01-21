@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_NAME" Language="ru_RU">
+			<Text>Храм Соломона</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_DESCRIPTION" Language="ru_RU">
+			<Text>Позволяет приобретать апостолов за [ICON_Faith] веру. Апостолы могут приносить в жертву наземные ресурсы в городах, где есть как чудо, так и Священное место, чтобы создать [ICON_GreatWork_Relic] реликвию и увеличить население этого города на +1 [ICON_Citizen]. Должен быть построен на холмах рядом со Священным местом с храмом.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_QUOTE" Language="ru_RU">
+			<Text>«Поистине, будет ли Бог жить на земле? Небеса и небеса небес не вмещают Тебя, тем более этот храм, который я построил!»[NEWLINE]– 3-я Книга Царств, 8:27</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TEMPLEOFSOLOMON_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Храм Соломона, также известный как Первый храм, представляет собой храм в Иерусалиме, который, как считается, существовал между X и VI веками до н. э. Его предполагаемое существование в значительной степени основывается на рассказах в еврейской Библии, где утверждается, что он был построен библейским царем Соломоном и разрушен во время осады Иерусалима царем Навуходоносором II из Нововавилонского царства в 587 году до н. э. Хотя большинство современных ученых соглашаются с тем, что Первый храм существовал на Храмовой горе в Иерусалиме к моменту вавилонской осады, существует значительная дискуссия относительно даты его постройки и личности его строителя.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TEMPLEOFSOLOMON_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Еврейская Библия, в частности Книга Царств, содержит подробное описание того, как Соломон, предпоследний правитель объединенных Израиля и Иудеи, приказал построить храм. Ему также приписывается размещение Ковчега Завета в Святом Святых, закрытом внутреннем святилище храма. Вход в Святое Святых был строго ограничен: только первосвященник Израиля мог входить в святилище, и только в Йом-Киппур, принося кровь жертвенного ягненка и воскуряя благовония. Помимо религиозной функции, Первый храм также служил местом собрания израильтян. Разрушение Первого храма и последующий Вавилонский плен были восприняты как исполнение библейских пророчеств и значительно повлияли на иудейские религиозные убеждения, способствуя переходу израильтян от политеизма или монолатрии (как в случае с яхвизмом) к строгому иудейскому монотеизму.</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_TEMPLEOFSOLOMON_SACRIFICE_NAME" Language="ru_RU">
+			<Text>Принести ресурс в жертву</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_TEMPLEOFSOLOMON_SACRIFICE_DESCRIPTION" Language="ru_RU">
+			<Text>Апостолы могут приносить ресурсы в жертву в городах, где есть как чудо, так и Священное место, чтобы создать [ICON_GreatWork_Relic] реликвию и увеличить население этого города на +1 [ICON_Citizen].</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_DESCRIPTION_ALTAR" Language="ru_RU">
+			<Text>Позволяет приобретать апостолов за [ICON_Faith] веру. Апостолы могут приносить в жертву наземные ресурсы в городах, где есть как чудо, так и Священное место, чтобы создать [ICON_GreatWork_Relic] реликвию и увеличить население этого города на +1 [ICON_Citizen]. Должен быть построен на холмах рядом со Священным местом с храмом или алтарем.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_NAME" Language="zh_Hans_CN">
+			<Text>所罗门圣殿</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可使用 [ICON_Faith] 信仰值购买使徒。使徒可以在拥有奇观和圣地的城市牺牲陆上资源，以创造 [ICON_GreatWork_Relic]遗物并令城市+1 [ICON_Citizen] 人口。必须建在邻近圣地区域（须建有神社）的丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_QUOTE" Language="zh_Hans_CN">
+			<Text>神果真住在地上吗？看哪，天和天上的天，尚且不足你居住的，何况我所建的这殿呢？[NEWLINE]——《列王纪上》8章27节</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TEMPLEOFSOLOMON_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>所罗门圣殿，又称第一圣殿，是据说存在于公元前10至6世纪耶路撒冷的一座圣殿。对这座圣殿的推定主要基于希伯来圣经中的叙述，它由圣经中的国王所罗门下令建造，在公元前587年被新巴比伦帝国国王尼布甲尼撒二世围攻耶路撒冷期间被摧毁。尽管大多数现代学者都认为，在巴比伦围攻耶路撒冷时，第一圣殿已经存在于圣殿山，但对于它的建造日期和建造者的身份却有很大争议。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TEMPLEOFSOLOMON_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>希伯来圣经，特别是在《列王纪》中，详细叙述了所罗门——以色列统一王国时期倒数第二名统治者——下令建造圣殿的过程。它还记载所罗门将约柜放置在圣所——一个没有窗户的内殿。进入圣所受到严格限制；以色列的大祭司是唯一被允许进入圣所的权威人物，而且只有在赎罪日才被允许携带祭品羊羔的血和燃烧的薰香进入其中。除了作为崇拜的宗教建筑，第一圣殿还发挥作为以色列人的集会场所的作用。第一圣殿被毁和随后的巴比伦被掳都被视为圣经预言的实现，从而影响了犹太教的宗教信仰，促使以色列人从多神教或拜一神教（信仰耶和华）过渡为坚定的犹太一神教。</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_TEMPLEOFSOLOMON_SACRIFICE_NAME" Language="zh_Hans_CN">
+			<Text>牺牲资源</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_TEMPLEOFSOLOMON_SACRIFICE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使徒可以在拥有奇观和圣地的城市牺牲陆上资源，以创造 [ICON_GreatWork_Relic]遗物并令城市+1 [ICON_Citizen] 人口。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_DESCRIPTION_ALTAR" Language="zh_Hans_CN">
+			<Text>可使用 [ICON_Faith] 信仰值购买使徒。使徒可以在拥有奇观和圣地的城市牺牲陆上资源，以创造 [ICON_GreatWork_Relic]遗物并令城市+1 [ICON_Citizen] 人口。必须建在邻近圣地区域（须建有神社或祭坛）的丘陵上。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_NAME" Language="zh_Hant_HK">
+			<Text>所羅門聖殿</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>可使用 [ICON_Faith] 信仰值購買使徒。使徒可以在擁有奇觀和聖地的城市犧牲陸上資源，以創造 [ICON_GreatWork_Relic]遺物並令城市+1 [ICON_Citizen] 人口。必須建在鄰近聖地區域（須建有神社）的丘陵上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_QUOTE" Language="zh_Hant_HK">
+			<Text>「神果真住在地上嗎？看哪，天和天上的天，尚且不足你居住的，何況我所建的這殿呢？」[NEWLINE]——《列王紀上》8章27節</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TEMPLEOFSOLOMON_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>所羅門聖殿，又稱第一聖殿，是據說存在於公元前10至6世紀耶路撒冷的一座聖殿。對這座聖殿的推定主要基於希伯來聖經中的敘述，它由聖經中的國王所羅門下令建造，在公元前587年被新巴比倫帝國國王尼布甲尼撒二世圍攻耶路撒冷期間被摧毀。盡管大多數現代學者都認為，在巴比倫圍攻耶路撒冷時，第一聖殿已經存在於聖殿山，但對於它的建造日期和建造者的身份卻有很大爭議。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TEMPLEOFSOLOMON_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>希伯來聖經，特別是在《列王紀》中，詳細敘述了所羅門——以色列統一王國時期倒數第二名統治者——下令建造聖殿的過程。它還記載所羅門將約櫃放置在聖所——一個沒有窗戶的內殿。進入聖所受到嚴格限制；以色列的大祭司是唯一被允許進入聖所的權威人物，而且只有在贖罪日才被允許攜帶祭品羊羔的血和燃燒的薰香進入其中。除了作為崇拜的宗教建築，第一聖殿還發揮作為以色列人的集會場所的作用。第一聖殿被毀和隨後的巴比倫被擄都被視為聖經預言的實現，從而影響了猶太教的宗教信仰，促使以色列人從多神教或拜一神教（信仰耶和華）過渡為堅定的猶太一神教。</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_TEMPLEOFSOLOMON_SACRIFICE_NAME" Language="zh_Hant_HK">
+			<Text>犧牲資源</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_TEMPLEOFSOLOMON_SACRIFICE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>使徒可以在擁有奇觀和聖地的城市犧牲陸上資源，以創造 [ICON_GreatWork_Relic]遺物並令城市+1 [ICON_Citizen] 人口。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_DESCRIPTION_ALTAR" Language="zh_Hant_HK">
+			<Text>可使用 [ICON_Faith] 信仰值購買使徒。使徒可以在擁有奇觀和聖地的城市犧牲陸上資源，以創造 [ICON_GreatWork_Relic]遺物並令城市+1 [ICON_Citizen] 人口。必須建在鄰近聖地區域（須建有神社或祭壇）的丘陵上。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_NAME" Language="ja_JP">
+			<Text>ソロモン神殿</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Faith] 信仰力で使徒の購入が可能になる。使徒は遺産と聖地の両方を持つ都市で陸上資源を犠牲にして [ICON_GreatWork_Relic] 遺物を作り、その都市の [ICON_Citizen] 人口+1することができる。社が存在する聖地区域に隣接した丘陵の上にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_QUOTE" Language="ja_JP">
+			<Text>「神は果たして地上にお住まいになるでしょうか。天も、天の天もあなたをお納めすることができません。わたしが建てたこの神殿など、なおふさわしくありません。 」[NEWLINE]– 『列王記上』8章27節</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TEMPLEOFSOLOMON_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ソロモン神殿は、第一神殿とも呼ばれ、紀元前10世紀から6世紀にかけてエルサレムに存在したとされる神殿である。この神殿を支持する推定は、ヘブライ語聖書の物語に大きく基づいている。聖書のソロモン王の命により建てられ、紀元前587年に新バビロニア王ネブカドネザル2世がエルサレムを包囲した際に破壊されました。バビロニアによるエルサレム包囲の際、第一神殿はすでに神殿の丘に存在していたというのが現代の学者の大方の見解だが、その建設時期や建設者が誰なのかについてはかなりの議論がある。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TEMPLEOFSOLOMON_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>ヘブライ語聖書、特に列王記には、統一王国時代のイスラエルの最後から二番目の支配者であったソロモンが命じた神殿の建設が詳細に記されている。また、ソロモンが契約の箱を窓のない内部の聖域である至聖所に置いたことも記されている。至聖所への立ち入りは厳しく制限され、イスラエルの大祭司だけ贖罪の日に犠牲の子羊の血と焼香を持ち込んで至聖所に入ることが許された。第一神殿は、礼拝のための宗教的な建物であると同時に、イスラエル人の集会所としても機能した。第一神殿の破壊とそれに続くバビロン捕囚は、いずれも聖書の予言の成就とみなされ、ユダヤ人の宗教観に影響を与え、多神教や拝一神教（ヤハウェ信仰）から確固たるユダヤ一神教へと移行するきっかけとなった。</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_TEMPLEOFSOLOMON_SACRIFICE_NAME" Language="ja_JP">
+			<Text>資源を犠牲にする</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_TEMPLEOFSOLOMON_SACRIFICE_DESCRIPTION" Language="ja_JP">
+			<Text>使徒は遺産と聖地の両方を持つ都市で陸上資源を犠牲にして [ICON_GreatWork_Relic] 遺物を作り、その都市の [ICON_Citizen] 人口+1することができる。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TEMPLEOFSOLOMON_DESCRIPTION_ALTAR" Language="ja_JP">
+			<Text>[ICON_Faith] 信仰力で使徒の購入が可能になる。使徒は遺産と聖地の両方を持つ都市で陸上資源を犠牲にして [ICON_GreatWork_Relic] 遺物を作り、その都市の [ICON_Citizen] 人口+1することができる。社または祭壇が存在する聖地区域に隣接した丘陵の上にのみ建設可能。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>
