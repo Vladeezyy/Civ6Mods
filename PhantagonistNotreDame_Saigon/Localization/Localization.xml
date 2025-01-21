@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_BUILDING_PHANTA_NOTRE_DAME_SAIGON_NAME" Language="ru_RU">
+			<Text>Собор Нотр-Дам Сайгона</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NOTRE_DAME_SAIGON_DESCRIPTION" Language="ru_RU">
+			<Text>Даёт разовый бонус [ICON_Faith] Веры, равный десятикратному значению текущего прироста [ICON_Culture] Культуры в ход, при завершении строительства. В городах с назначенным [ICON_Governor] губернатором можно приобретать районы за [ICON_Faith] Веру. Должен быть построен на лесах, тропических лесах, болотах или поймах рядом с районом Священного места.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NOTRE_DAME_SAIGON_QUOTE" Language="ru_RU">
+			<Text>«Архитектура — из всех искусств то, которое воздействует на душу медленнее всего, но при этом наиболее надёжно.»[NEWLINE]– Эрнест Димне</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_NOTRE_DAME_SAIGON_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Когда французские колонисты взяли под контроль Сайгон (ныне известный как Хошимин), они обнаружили, что деревянная церковь не может выдерживать повреждения, наносимые термитами. Таким образом, Собор Нотр-Дам Сайгона был заказан в 1863 году и завершён в 1880 году. Собор был построен из красного кирпича, импортированного из Франции, и украшен 56 витражами, привезёнными из Шартра (знаменитого своим Шартрским собором). Даже после окончания французского колониального правления собор Нотр-Дам Сайгона остался религиозным центром для католиков Вьетнама и туристической достопримечательностью для гостей со всего мира.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_NOTRE_DAME_SAIGON_NAME" Language="zh_Hans_CN">
+			<Text>西贡圣母大教堂</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NOTRE_DAME_SAIGON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建成时赠予一次等同于每回合 [ICON_Culture] 文化值10倍的 [ICON_Faith] 信仰值加成。 [ICON_Governor] 总督就职的城市可使用 [ICON_Faith] 信仰值购买区域。必须建造在邻近圣地区域的森林、雨林、沼泽或泛滥平原上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NOTRE_DAME_SAIGON_QUOTE" Language="zh_Hans_CN">
+			<Text>在所有艺术中，建筑对灵魂的影响最为缓慢，但也最为确实。[NEWLINE]——欧内斯特·迪姆内</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_NOTRE_DAME_SAIGON_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>当法国殖民者控制了西贡（现在的胡志明市）后，他们发现木制教堂无法承受白蚁的破坏。因此，他们于1863年开始建设西贡圣母大教堂，于1880年竣工。这座大教堂由从法国进口的红砖建成，装饰着56扇从沙特尔（因沙特尔大教堂而闻名）进口的彩色玻璃窗。即使在法国殖民统治结束后，西贡圣母大教堂仍然屹立不倒，既是越南天主教徒的宗教中心，也是吸引世界各地游客的旅游胜地。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_NOTRE_DAME_SAIGON_NAME" Language="zh_Hant_HK">
+			<Text>西貢聖母大教堂</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NOTRE_DAME_SAIGON_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>建成時贈予一次等同於每回合 [ICON_Culture] 文化值10倍的 [ICON_Faith] 信仰值加成。 [ICON_Governor] 行政長官就職的城市可使用 [ICON_Faith] 信仰值購買區域。必須建造在鄰近聖地區域的森林、雨林、沼澤或氾濫平原上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NOTRE_DAME_SAIGON_QUOTE" Language="zh_Hant_HK">
+			<Text>「在所有藝術中，建築對靈魂的影響最為緩慢，但也最為確實。」[NEWLINE]——歐內斯特·迪姆內</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_NOTRE_DAME_SAIGON_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>當法國殖民者控制了西貢（現在的胡志明市）後，他們發現木製教堂無法承受白蟻的破壞。因此，他們於1863年開始建設西貢聖母大教堂，於1880年竣工。這座大教堂由從法國進口的紅磚建成，裝飾著56扇從夏特（因夏特大教堂而聞名）進口的彩色玻璃窗。即使在法國殖民統治結束後，西貢聖母大教堂仍然屹立不倒，既是越南天主教徒的宗教中心，也是吸引世界各地遊客的旅遊勝地。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_NOTRE_DAME_SAIGON_NAME" Language="ja_JP">
+			<Text>サイゴン聖母大聖堂</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NOTRE_DAME_SAIGON_DESCRIPTION" Language="ja_JP">
+			<Text>建設後すぐに1ターンで得られる [ICON_Culture] 文化力の10倍に相当する [ICON_Faith] 信仰力ボーナスが発生する(1回のみ)。総督が着任した都市が [ICON_Faith] 信仰力を使って区域を購入できる。聖地区域に隣接した森、熱帯雨林、湿原または氾濫原にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_NOTRE_DAME_SAIGON_QUOTE" Language="ja_JP">
+			<Text>「建築はあらゆる芸術の中で、最もゆっくりと、しかし最も確実に魂に作用する。」[NEWLINE]– エルネスト・ディムネ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_NOTRE_DAME_SAIGON_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>サイゴン（現在のホーチミン市）を支配するようになったフランス人植民者たちは、木造の教会ではシロアリの被害に耐えられないことを知らされた。こうして1863年にサイゴン聖母大聖堂が着工され、1880年に落成した。フランスから輸入した赤レンガで造られた大聖堂は、シャルトル（シャルトル大聖堂で有名）から輸入した56枚のステンドグラスで飾られている。フランスの植民地支配が終わった後も、サイゴン聖母大聖堂はベトナムのカトリック信者の宗教的中心地として、また世界中から観光客が訪れる観光名所として佇んでいた。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

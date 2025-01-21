@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_PHANTA_OSAKA_CASTLE_NAME" Language="ru_RU">
+			<Text>Замок Осака</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_OSAKA_CASTLE_DESCRIPTION" Language="ru_RU">
+			<Text>Даёт 5 ронинов, дополнительные ронины могут быть куплены за [ICON_Gold] Золото в этом городе. Обеспечивает те же защитные бонусы, что и улучшение Форт. Должен быть построен рядом с Центром города.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_OSAKA_CASTLE_QUOTE" Language="ru_RU">
+			<Text>«Теперь, когда всё поднебесное под моей властью, наш народ процветает, а имперская столица достигла невиданного процветания. Так как никто ещё не прожил более ста лет в нашей истории, как я могу ограничить свои завоевания только этой землёй?»[NEWLINE]– Тоётоми Хидэёси</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_OSAKA_CASTLE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Укрепив своё господство над Японией, Тоётоми Хидэёси начал строительство замка Осака в 1583 году. Великолепный замок был построен с использованием всевозможных роскошеств, включая, как говорили, чайный домик из чистого золота. Однако после смерти Тоётоми Хидэёси клан Тоётоми пришёл в упадок, и замок Осака был атакован Токугавой Иэясу. Несмотря на то, что клан Тоётоми собрал даймё, верных им, и нанял ронинов (самураев без господина), защитники замка были окончательно разбиты силами Токугава. Это привело к падению клана Тоётоми и объединению Японии под властью сёгуната Токугава. Токугава Хидэтада, преемник Иэясу, восстановил замок Осака. Реконструированный замок пережил множество разрушений и реставраций и теперь является самым известным достопримечательным местом Осаки.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PHANTA_RONIN_NAME" Language="ru_RU">
+			<Text>Ронин</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PHANTA_RONIN_DESCRIPTION" Language="ru_RU">
+			<Text>Боевой юнит ближнего боя, уникальный для цивилизации с чудом Замок Осака. Может быть куплен только за [ICON_Gold] Золото. Не получает штрафов за урон. +10 [ICON_Strength] боевой мощи против юнитов с более высокой базовой [ICON_Strength] боевой мощью.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHANTA_RONIN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>В феодальной Японии самураев без господина называли ронинами (сначала «тюремные люди», а позже «бродячие люди»). Изгнанные из дворянского общества, основанного на родословной и верности, ронины сражались как бандиты, наёмники или, в некоторых случаях, мстили за свои кланы или искали способ возвратить долги чести. В эпоху Сэнгоку даймё нанимали ронинов для своих армий, а некоторые ронины видели в этом шанс стать новыми феодальными лордами. Во время осады замка Осака клан Тоётоми собрал ронинов для защиты последнего оплота. Санаду Нобусигэ, также известный как Санаду Юкимура, был одним из ронинов на стороне Тоётоми, и его отважные действия принесли ему славу как «величайшего воина Японии».</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_RONIN_BUSHIDO_DESCRIPTION" Language="ru_RU">
+			<Text>Не получает штрафов за урон.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_RONIN_CHALLENGE_DESCRIPTION" Language="ru_RU">
+			<Text>+10 [ICON_Strength] боевой мощи против юнитов с более высокой базовой [ICON_Strength] боевой мощью.</Text>
+		</Row>
+		<Row Tag="LOC_MODFEAT_PHANTA_RONIN_STRENGTH_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} против более сильного юнита</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_OSAKA_CASTLE_NAME" Language="zh_Hans_CN">
+			<Text>大坂城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_OSAKA_CASTLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得5个浪人，并可在此城市以 [ICON_Gold] 金币购买额外的浪人。提供同堡垒改良设施一样的防御加成。必须建造在相邻城市中心的单元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_OSAKA_CASTLE_QUOTE" Language="zh_Hans_CN">
+			<Text>今海内既治，民富财足，帝京之盛，前古无比。夫人之居世，自古不满百岁，安能郁郁久居此乎？[NEWLINE]——丰臣秀吉</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_OSAKA_CASTLE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>1583年，逐渐称霸日本的丰臣秀吉开始建造大坂城。这座金碧辉煌的城堡极尽奢华之能事，据说有纯金打造的茶室。然而，丰臣秀吉死后，丰臣氏衰落，德川家康率军攻击大坂城。虽然丰臣氏召集了仍然忠于丰臣氏的大名并招募浪人，但守军最终还是被德川军击溃。这宣告了丰臣氏的灭亡，日本统一于德川政权之下。德川家康的继承者德川秀忠重建了大坂城。重建后的大坂城经受多次的损毁和重建，如今是大阪市最显著的地标和旅游圣地。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PHANTA_RONIN_NAME" Language="zh_Hans_CN">
+			<Text>浪人</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PHANTA_RONIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>专属于拥有大坂城奇观的文明的特色近战单位。必须以 [ICON_Gold] 金币购买。受伤后不会蒙受战斗力减益。与基础 [ICON_Strength] 战斗力更高的单位作战时+10 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHANTA_RONIN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>在封建时期的日本，没有主君的武士被称为“牢人”，后来称为“浪人”。浪人被逐出以血统和忠诚为基础的贵族社会，有人作为强盗和佣兵谋财，亦有人为了复仇或报恩而战。在战国时代，各地大名招募浪人加入自己的阵营，而一些浪人则看到了崛起为新领主的机会。在大坂之役中，丰臣家召集浪人保卫最后的阵地。真田信繁（以真田幸村之名更广为人知）作为丰臣氏一方的浪人而战，他的英勇战斗为他赢得了“日本第一勇士”的赞誉。德川幕府统治下的江户时代相对和平。许多浪人坚持传统的武士之道，如在赤穗事件中为主公复仇的四十七士，但亦有浪士寻求新的生活方式。近松门左卫门和松尾芭蕉用笔而非刀剑表现了他们的才华。一些浪人则漂洋过海，成为活跃于东南亚的佣兵。其中，山田长政在大城王国富有影响力，并被授予握雅社那披穆的称号。江户时代末期，坂本龙马等武士甚至脱藩成为浪人，以更自由的身份参与政治运动。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_RONIN_BUSHIDO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>受伤后不会蒙受战斗力减益。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_RONIN_CHALLENGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与基础 [ICON_Strength] 战斗力更高的单位作战时+10 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_MODFEAT_PHANTA_RONIN_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+10 与更强单位作战</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_OSAKA_CASTLE_NAME" Language="zh_Hant_HK">
+			<Text>大坂城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_OSAKA_CASTLE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>獲得5個浪人，並可在此城市以 [ICON_Gold] 金幣購買額外的浪人。提供同堡壘改良設施一樣的防禦加成。必須建造在相鄰城市中心的單元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_OSAKA_CASTLE_QUOTE" Language="zh_Hant_HK">
+			<Text>「今海內既治，民富財足，帝京之盛，前古無比。夫人之居世，自古不滿百歲，安能鬱鬱久居此乎？」[NEWLINE]——豐臣秀吉</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_OSAKA_CASTLE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>1583年，逐漸稱霸日本的豐臣秀吉開始建造大阪城。這座金碧輝煌的城堡極盡奢華之能事，據說有純金打造的茶室。然而，豐臣秀吉死後，豐臣氏衰落，德川家康率軍攻擊大阪城。雖然豐臣氏召集了仍然忠於豐臣氏的大名並招募浪人，但守軍最終還是被德川軍擊潰。這宣告了豐臣氏的滅亡，日本統一於德川政權之下。德川家康的繼承者德川秀忠重建了大坂城。重建後的大坂城經受多次的損毀和重建，如今是大阪市最顯著的地標和旅遊聖地。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PHANTA_RONIN_NAME" Language="zh_Hant_HK">
+			<Text>浪人</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PHANTA_RONIN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>專屬於擁有大坂城奇觀的文明的特色近戰單位。必須以 [ICON_Gold] 金幣購買。受傷後不會蒙受戰鬥力減益。與基礎 [ICON_Strength] 戰鬥力更高的單位作戰時+10 [ICON_Strength] 戰鬥力。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHANTA_RONIN_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>在封建時期的日本，沒有主君的武士被稱為「牢人」，後來稱為「浪人」。浪人被逐出以血統和忠誠為基礎的貴族社會，有人作為強盜和傭兵謀財，亦有人為了復仇或報恩而戰。在戰國時代，各地大名招募浪人加入自己的陣營，而一些浪人則看到了崛起為新領主的機會。在大阪之役中，豐臣家召集浪人保衛最後的陣地。真田信繁（以真田幸村之名更廣為人知）作為豐臣氏一方的浪人而戰，他的英勇戰鬥為他贏得了「日本第一勇士」的讚譽。德川幕府統治下的江戶時代相對和平。許多浪人堅持傳統的武士之道，如在赤穗事件中為主公復仇的四十七士，但亦有浪士尋求新的生活方式。近松門左衛門和松尾芭蕉用筆而非刀劍表現了他們的才華。一些浪人則漂洋過海，成為活躍於東南亞的傭兵。其中，山田長政在大城王國富有影響力，並被授予握雅社那披穆的稱號。江戶時代末期，甚至有以坂本龍馬為首的武士脫藩成為浪人，以更自由的身份參與政治運動。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_RONIN_BUSHIDO_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>受傷後不會蒙受戰鬥力減益。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_RONIN_CHALLENGE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>與基礎 [ICON_Strength] 戰鬥力更高的單位作戰時+10 [ICON_Strength] 戰鬥力。</Text>
+		</Row>
+		<Row Tag="LOC_MODFEAT_PHANTA_RONIN_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+10 與更強單位作戰</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_OSAKA_CASTLE_NAME" Language="ja_JP">
+			<Text>大坂城</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_OSAKA_CASTLE_DESCRIPTION" Language="ja_JP">
+			<Text>浪人を5つ得る。この都市において [ICON_Gold] ゴールドで追加の浪人を購入できるようになる。要塞と同じ防御力ボーナスを得る。都心に隣接した土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_OSAKA_CASTLE_QUOTE" Language="ja_JP">
+			<Text>「今海内既に治まり、民富みて財足る。帝京此れ盛んなる事、前古にも比ぶる者無し。夫れ人の居る世、古より百歳に満たず。焉んぞ鬱々として久しく此に在らんや。」[NEWLINE]– 豊臣秀吉</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_OSAKA_CASTLE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>1583年、豊臣秀吉が日本支配を強めたとき、彼は大坂城の築城に着手した。この豪華絢爛な城は様々な贅沢品で埋め尽くされ、黄金の茶室があったといわれている。しかし、豊臣秀吉の死後、豊臣氏は衰退し、徳川家康は大坂城に侵攻した。豊臣氏はまだ忠誠を誓う大名を集め、浪人（主君を持たない武士）を召集したが、最終的には徳川軍に圧倒され、豊臣氏の滅亡と徳川政権による日本の統一を告げた。徳川家康の後継者である徳川秀忠は、大坂城を再建した。再建された大阪城は、多くの破壊を耐え、多くの修復を経て、現在では大阪を代表するランドマークであり、観光名所となっている。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PHANTA_RONIN_NAME" Language="ja_JP">
+			<Text>浪人</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PHANTA_RONIN_DESCRIPTION" Language="ja_JP">
+			<Text>大坂城固有の近接戦闘ユニット。 [ICON_Gold] ゴールドを使って購入できる。ダメージを受けても戦闘ペナルティが生じない。自分より基本 [ICON_Strength] 戦闘力が高いユニットに対して [ICON_Strength] 戦闘力+10。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHANTA_RONIN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>封建時代の日本では、主君を持たない武士は「牢人」、のちに「浪人」と呼ばれた。血統と忠誠に基づく貴族社会からはじき出された浪人たちの中には、盗賊や傭兵として戦う者もいれば、場合によっては復讐や恩返しのために戦う者もいた。戦国時代の大名たちは、浪人を登用して自分たちの側で戦わせた一方、浪人の中には新しい大名になる機会を狙っていた者もいた。大坂の陣では、豊臣氏は最後の砦である大坂城を守るため、浪人を招集した。真田信繁（真田幸村の名で広く知られている）は豊臣方の浪人の一人として戦い、その武勇は「日本一の兵」と賞賛された。徳川幕府の治める江戸時代は比較的平和だった。赤穂事件で主君の仇を討った四十七士のように、多くの浪人が伝統的な武の道に固執したが、新しい生き方を模索する浪人もいた。近松門左衛門や松尾芭蕉は、刀の代わりに筆でその才能を表現した。海を渡り、東南アジアで傭兵として活躍した浪人もいた。その筆頭である山田長政はアユタヤ王国で大きな影響力を持ち、オークヤー・セーナーピムックの称号を与えられた。幕末になると、坂本龍馬のように脱藩して浪人となり、自由な立場で政治運動に参加する武士もいた。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_RONIN_BUSHIDO_DESCRIPTION" Language="ja_JP">
+			<Text>ダメージを受けても戦闘ペナルティが生じない。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PHANTA_RONIN_CHALLENGE_DESCRIPTION" Language="ja_JP">
+			<Text>自分より基本 [ICON_Strength] 戦闘力が高いユニットに対して [ICON_Strength] 戦闘力+10。</Text>
+		</Row>
+		<Row Tag="LOC_MODFEAT_PHANTA_RONIN_STRENGTH_DESCRIPTION" Language="ja_JP">
+			<Text>+10 自分より強いユニットとの戦闘</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

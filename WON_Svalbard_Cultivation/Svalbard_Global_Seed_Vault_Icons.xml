@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_SVALBARD_ICON" IconSize="32" Filename="SvalbardAtlas32"/>
+		<Row Name="ATLAS_SVALBARD_ICON" IconSize="38" Filename="SvalbardAtlas38"/>
+		<Row Name="ATLAS_SVALBARD_ICON" IconSize="50" Filename="SvalbardAtlas50"/>
+		<Row Name="ATLAS_SVALBARD_ICON" IconSize="80" Filename="SvalbardAtlas80"/>
+		<Row Name="ATLAS_SVALBARD_ICON" IconSize="128" Filename="SvalbardAtlas128"/>
+		<Row Name="ATLAS_SVALBARD_ICON" IconSize="256" Filename="SvalbardAtlas256"/>
+		<Row Name="ATLAS_SVALBARD_CULTIVATE_ICON" IconSize="38" Filename="ICON_IMPROVEMENT_SVALBARD_CULTIVATE_38"/>
+		<Row Name="ATLAS_SVALBARD_CULTIVATE_ICON" IconSize="50" Filename="ICON_IMPROVEMENT_SVALBARD_CULTIVATE_50"/>
+		<Row Name="ATLAS_SVALBARD_CULTIVATE_ICON" IconSize="80" Filename="ICON_IMPROVEMENT_SVALBARD_CULTIVATE_80"/>
+		<Row Name="ATLAS_SVALBARD_CULTIVATE_ICON" IconSize="256" Filename="ICON_IMPROVEMENT_SVALBARD_CULTIVATE_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_IMPROVEMENT_SVALBARD_CULTIVATE" Atlas="ATLAS_SVALBARD_CULTIVATE_ICON" index="0"/>
+		<Row Name="ICON_BUILDING_SVALBARD" Atlas="ATLAS_SVALBARD_ICON" Index="0"/>
+	</IconDefinitions>
+</GameData>

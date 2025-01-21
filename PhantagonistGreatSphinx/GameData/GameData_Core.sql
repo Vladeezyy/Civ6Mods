@@ -1,0 +1,126 @@
+--------------------
+-- Basics
+--------------------
+
+INSERT INTO Types
+		(Type,									Kind)
+VALUES	('BUILDING_PHANTA_GREAT_SPHINX',	'KIND_BUILDING');
+
+INSERT INTO Buildings
+		(BuildingType,
+		Name,
+		Description,
+		PrereqTech,
+		Cost,
+		AdvisorType,
+		MaxWorldInstances,
+		IsWonder,
+		RequiresPlacement,
+		AdjacentImprovement,
+		ObsoleteEra,
+		Quote)
+VALUES	('BUILDING_PHANTA_GREAT_SPHINX',
+		'LOC_BUILDING_PHANTA_GREAT_SPHINX_NAME',
+		'LOC_BUILDING_PHANTA_GREAT_SPHINX_DESCRIPTION',
+		'TECH_MASONRY',
+		220,
+		'ADVISOR_GENERIC',
+		1,
+		1,
+		1,
+		'IMPROVEMENT_QUARRY',
+		'ERA_MEDIEVAL',
+		'LOC_BUILDING_PHANTA_GREAT_SPHINX_QUOTE');
+
+INSERT INTO Building_GreatWorks
+		(BuildingType,						GreatWorkSlotType,			NumSlots)
+VALUES	('BUILDING_PHANTA_GREAT_SPHINX',	'GREATWORKSLOT_RELIC',		1);
+
+--INSERT INTO Building_ValidTerrains
+--		(BuildingType,						TerrainType)
+--VALUES	('BUILDING_PHANTA_GREAT_SPHINX',	'TERRAIN_DESERT');
+
+--INSERT INTO Building_ValidFeatures
+--		(BuildingType,						FeatureType)
+--VALUES	('BUILDING_PHANTA_GREAT_SPHINX',	'FEATURE_FLOODPLAINS');
+
+--------------------
+-- Bonuses
+--------------------
+
+--==== 0: ModifierType and Requirements
+
+-- Custom ModifierType
+
+INSERT INTO Types (Type, Kind) VALUES 
+('MODTYPE_PHANTA_GREAT_SPHINX_PLAYER_CITIES_ADJUST_WONDER_YIELD_CHANGE', 'KIND_MODIFIER');
+
+INSERT INTO DynamicModifiers (ModifierType, CollectionType, EffectType) VALUES 
+('MODTYPE_PHANTA_GREAT_SPHINX_PLAYER_CITIES_ADJUST_WONDER_YIELD_CHANGE', 'COLLECTION_PLAYER_CITIES', 'EFFECT_ADJUST_WONDER_YIELD_CHANGE');
+
+--==== 1.1 Wonder Culture
+
+INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES 
+('BUILDING_PHANTA_GREAT_SPHINX', 'MODFEAT_PHANTA_GREAT_SPHINX_WONDER_CULTURE');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_PHANTA_GREAT_SPHINX_WONDER_CULTURE', 'MODTYPE_PHANTA_GREAT_SPHINX_PLAYER_CITIES_ADJUST_WONDER_YIELD_CHANGE', 0, 0, 0, NULL, NULL);
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_PHANTA_GREAT_SPHINX_WONDER_CULTURE', 'Amount', '2'), 
+('MODFEAT_PHANTA_GREAT_SPHINX_WONDER_CULTURE', 'YieldType', 'YIELD_CULTURE');
+
+--==== 1.2 Wonder Faith
+
+INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES 
+('BUILDING_PHANTA_GREAT_SPHINX', 'MODFEAT_PHANTA_GREAT_SPHINX_WONDER_FAITH');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_PHANTA_GREAT_SPHINX_WONDER_FAITH', 'MODTYPE_PHANTA_GREAT_SPHINX_PLAYER_CITIES_ADJUST_WONDER_YIELD_CHANGE', 0, 0, 0, NULL, NULL);
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_PHANTA_GREAT_SPHINX_WONDER_FAITH', 'Amount', '2'), 
+('MODFEAT_PHANTA_GREAT_SPHINX_WONDER_FAITH', 'YieldType', 'YIELD_FAITH');
+
+--==== 2 Quarry Faith
+
+INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES 
+('BUILDING_PHANTA_GREAT_SPHINX', 'MODFEAT_PHANTA_GREAT_SPHINX_QUARRY_FAITH');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_PHANTA_GREAT_SPHINX_QUARRY_FAITH', 'MODIFIER_PLAYER_ADJUST_PLOT_YIELD', 0, 0, 0, NULL, 'PLOT_HAS_QUARRY_REQUIREMENTS');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_PHANTA_GREAT_SPHINX_QUARRY_FAITH', 'Amount', '2'), 
+('MODFEAT_PHANTA_GREAT_SPHINX_QUARRY_FAITH', 'YieldType', 'YIELD_FAITH');
+
+--==== 3.1 Builder purchase
+
+INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES 
+('BUILDING_PHANTA_GREAT_SPHINX', 'MODFEAT_PHANTA_GREAT_SPHINX_BUILDER_FAITH_PURCHASE');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_PHANTA_GREAT_SPHINX_BUILDER_FAITH_PURCHASE', 'MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE', 0, 0, 0, NULL, NULL);
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_PHANTA_GREAT_SPHINX_BUILDER_FAITH_PURCHASE', 'Tag', 'CLASS_BUILDER');
+
+--==== 3.2 Monument purchase
+
+INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES 
+('BUILDING_PHANTA_GREAT_SPHINX', 'MODFEAT_PHANTA_GREAT_SPHINX_MONUMENT_PURCHASE');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES 
+('MODFEAT_PHANTA_GREAT_SPHINX_MONUMENT_PURCHASE', 'MODTYPE_PHANTA_GREAT_SPHINX_PLAYER_CITIES_ENABLE_SPECIFIC_BUILDING_FAITH_PURCHASE', 0, 0, 0, NULL, NULL);
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+('MODFEAT_PHANTA_GREAT_SPHINX_MONUMENT_PURCHASE', 'BuildingType', 'BUILDING_MONUMENT');
+
+-- Custom ModifierType
+
+INSERT INTO Types (Type, Kind) VALUES 
+('MODTYPE_PHANTA_GREAT_SPHINX_PLAYER_CITIES_ENABLE_SPECIFIC_BUILDING_FAITH_PURCHASE', 'KIND_MODIFIER');
+
+INSERT INTO DynamicModifiers (ModifierType, CollectionType, EffectType) VALUES 
+('MODTYPE_PHANTA_GREAT_SPHINX_PLAYER_CITIES_ENABLE_SPECIFIC_BUILDING_FAITH_PURCHASE', 'COLLECTION_PLAYER_CITIES', 'EFFECT_ENABLE_SPECIFIC_BUILDING_FAITH_PURCHASE');
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_NAME" Language="ru_RU">
+			<Text>Храм Христа Спасителя</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_DESCRIPTION" Language="ru_RU">
+			<Text>Все юниты полностью излечиваются при постройке этого чуда. Военные и религиозные юниты не страдают от штрафов в бою при получении ранений и восстанавливают до 25 очков здоровья после уничтожения вражеского юнита. Должен быть построен на ровной местности в тундре или снегу.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_QUOTE" Language="ru_RU">
+			<Text>«Боль и страдания всегда неизбежны для большой интеллигентности и глубокого сердца.»[NEWLINE]– Фёдор Достоевский</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Когда армии Наполеона отступили из России, император Александр I поручил строительство собора в знак благодарности за божественную помощь, спасшую страну. Так началось строительство Храма Христа Спасителя в 1812 году, однако Александр I не дожил до его завершения и освящения в 1883 году. За год до завершения строительства выдающийся музыкант Пётр Чайковский впервые исполнил своё знаменитое произведение «Увертюра 1812 года» перед недостроенным храмом. Купол собора был позолочен с использованием новой техники электрохимического золочения (вместо традиционного амальгамного метода), а внутреннее убранство храма украшали изящные иллюстрации известных русских художников. В советское время по приказу Иосифа Сталина Храм Христа Спасителя был снесён, чтобы освободить место для Дворца Советов. Однако строительство Дворца Советов было остановлено из-за нехватки средств, затопления реки Москвы и начала Второй мировой войны. После падения Советского Союза на оригинальном месте был восстановлен новый Храм Христа Спасителя.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_CATHEDRAL_CHRIST_SAVIOUR_DESCRIPTION" Language="ru_RU">
+			<Text>Не страдают от штрафов в бою при получении ранений и восстанавливают до 25 очков здоровья после уничтожения вражеского юнита. (Храм Христа Спасителя)</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_NAME" Language="zh_Hans_CN">
+			<Text>基督救世主大教堂</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>完成此奇观时所有单位的生命值将完全恢復。军事单位和宗教单位受伤后不会蒙受战斗力减益，消灭一个单位时恢復25生命值。必须建造在平坦的冻土或雪地上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_QUOTE" Language="zh_Hans_CN">
+			<Text>痛跟苦难对智慧与心量的养成，是无可避免的。[NEWLINE]——费奥多尔‧陀思妥耶夫斯基</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>当拿破仑的入侵部队从俄罗斯撤退时，沙皇亚历山大一世下令建造一座大教堂，以表示对神明施恩拯救国家的感激之情。于是，基督救世主大教堂在1812年开始建造，但亚历山大一世没有活到1883年见证它的竣工和祝圣。在完工前一年，著名音乐家柴可夫斯基在未完成的大教堂外首次发表了他的代表作《1812序曲》。大教堂的圆顶采用了当时崭新的电镀黄金技术（而不是传统的水银镀金），而大教堂的内部则放置了俄罗斯著名画家的精美绘画。苏联时期，斯大林下令拆除基督救世主大教堂，以便为拟议的苏维埃宫腾出空间。由于缺乏资金、莫斯科河氾滥和第二次世界大战的爆发，苏维埃宫的建设最终未能建成。苏联时代终结后，第二座基督救世主大教堂在原址重建。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_CATHEDRAL_CHRIST_SAVIOUR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>受伤后不会蒙受战斗力减益，消灭一个单位时恢復25生命值。（基督救世主大教堂）</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_NAME" Language="zh_Hant_HK">
+			<Text>基督救世主大教堂</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>完成此奇觀時所有單位的生命值將完全恢復。軍事單位和宗教單位受傷後不會蒙受戰鬥力減益，消滅一個單位時恢復25生命值。必須建造在平坦的凍土或雪地上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_QUOTE" Language="zh_Hant_HK">
+			<Text>「痛跟苦難對智慧與心量的養成，是無可避免的。」[NEWLINE]——費奧多爾‧陀思妥耶夫斯基</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>當拿破崙的入侵部隊從俄羅斯撤退時，沙皇亞歷山大一世下令建造一座大教堂，以表示對神明施恩拯救國家的感激之情。於是，基督救世主大教堂在1812年開始建造，但亞歷山大一世沒有活到1883年見證它的竣工和祝聖。在完工前一年，著名音樂家柴可夫斯基在未完成的教堂外首次發表了他的代表作《1812序曲》。大教堂的圓頂采用了當時嶄新的電鍍黃金技術（而不是傳統的水銀鍍金），而大教堂的內部則放置了俄羅斯著名畫家的精美繪畫。蘇聯時期，斯大林下令拆除基督救世主大教堂，以便為擬議的蘇維埃宮騰出空間。由於缺乏資金、莫斯科河氾濫和第二次世界大戰的爆發，蘇維埃宮的建設最終未能建成。蘇聯時代終結後，第二座基督救世主大教堂在原址重建。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_CATHEDRAL_CHRIST_SAVIOUR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>受傷後不會蒙受戰鬥力減益，消滅一個單位時恢復25生命值。（基督救世主大教堂）</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_NAME" Language="ja_JP">
+			<Text>救世主ハリストス大聖堂</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_DESCRIPTION" Language="ja_JP">
+			<Text>この遺産を完成させた時、すべてのユニットが完全に回復する。軍事ユニットと宗教ユニットはダメージを受けても戦闘ペナルティが生じないし、敵ユニットを撃破するとヒットポイントが25回復する。平らなツンドラまたは雪原にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_QUOTE" Language="ja_JP">
+			<Text>「苦しみと悩みは、偉大な自覚と深い心情の持ち主にとって、常に必然的なものである。」[NEWLINE]– フョードル・ドストエフスキー</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_CATHEDRAL_CHRIST_SAVIOUR_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ナポレオンの侵攻部隊の撤退に伴い、ロシア皇帝アレクサンドル1世は国を救った神の恩恵に感謝するため、大聖堂の建設を命じた。こうして1812年に救世主ハリストス大聖堂の建設が始まったが、アレクサンドル1世は長生きできず、1883年の完成と聖別式に立ち会うことができなかった。完成の1年前、著名な音楽家チャイコフスキーは、未完成の大聖堂の外で傑作『序曲1812年』を初演した。大聖堂のドームには、従来の水銀による金メッキではなく、新しい技術である金電気めっきが施され、大聖堂の内部には、ロシアの有名画家による繊細な絵が描かれている。ソ連時代、スターリンはソビエト宮殿建設のため、救世主ハリストス大聖堂の取り壊しを命じた。しかし、資金不足、モスクワ川の氾濫、そして第二次世界大戦の勃発により、ソビエト宮殿の建設は中止された。ソビエト連邦の統治が終わり、元の場所に第二の救世主ハリストス大聖堂が再建された。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_CATHEDRAL_CHRIST_SAVIOUR_DESCRIPTION" Language="ja_JP">
+			<Text>ダメージを受けても戦闘ペナルティが生じないし、敵ユニットを撃破するとヒットポイントが25回復する。（救世主ハリストス大聖堂）</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

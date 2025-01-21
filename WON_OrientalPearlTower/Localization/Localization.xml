@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_ORIENTAL_PEARL_TOWER_NAME" Language="ru_RU">
+			<Text>Телебашня Восточная Жемчужина</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ORIENTAL_PEARL_TOWER_DESCRIPTION" Language="ru_RU">
+			<Text>Даёт 50000 [ICON_Gold] золота (на стандартной скорости) при завершении. Все города могут строить любое количество районов и покупать районы за [ICON_Gold] золото. Театральные площади, коммерческие центры и гавани дают +10 [ICON_Tourism] туризма. Должна быть построена рядом с рекой, рядом с театральной площадью с радиовышкой.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ORIENTAL_PEARL_TOWER_QUOTE" Language="ru_RU">
+			<Text>«Толстые струны громыхают, как проливной дождь,[NEWLINE]тонкие струны шепчут, как приглушённые вздохи.[NEWLINE]Грохот и шёпот — струны перемешались,[NEWLINE]как большие и маленькие жемчужины падают на нефритовое блюдо.»[NEWLINE]– Бо Цзюйи</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ORIENTAL_PEARL_TOWER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Телебашня Восточная Жемчужина, великолепный символ современного Шанхая, расположена на берегу реки Хуанпу напротив Бунда. Так как старая телебашня не могла соответствовать стремительному росту Шанхая, как по численности населения, так и по высоте зданий, была построена новая, более высокая башня, завершённая в 1994 году. Телебашня Восточная Жемчужина получила своё название из-за одиннадцати сферических конструкций различных размеров, поддерживаемых тремя вертикальными колоннами и тремя опорными столбами. Помимо своей функции телевизионной передачи и туристической достопримечательности (как и другие огромные башни в мире), Телебашня Восточная Жемчужина удивительно многофункциональна: она включает вращающийся ресторан, отель с номерами в сферах, музей истории, крытые американские горки и многое другое. Башня также является местом проведения ряда глобальных и местных событий, включая новогодний забег на вершину башни.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_ORIENTAL_PEARL_TOWER_NAME" Language="zh_Hans_CN">
+			<Text>东方明珠电视塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ORIENTAL_PEARL_TOWER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建成时提供50000 [ICON_Gold] 金币（标准速度下）。所有城市可以建造任何数量的区域，并可使用 [ICON_Gold] 金币购买区域。剧院广场、商业中心和港口提供+10 [ICON_Tourism] 旅游业绩。必须建造在邻近剧院广场区域（须建有广播中心）的河流旁。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ORIENTAL_PEARL_TOWER_QUOTE" Language="zh_Hans_CN">
+			<Text>大弦嘈嘈如急雨，小弦切切如私语。[NEWLINE]嘈嘈切切错杂弹，大珠小珠落玉盘。[NEWLINE]——白居易</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ORIENTAL_PEARL_TOWER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>东方明珠电视塔是现代上海的辉煌地标，坐落在黄浦江畔，与外滩隔河相对。由于旧的电视发射塔无法满足上海在人口和建筑高度层面的快速发展，一座更加高耸的电视发射塔取而代之，在1994年竣工。东方明珠电视塔得名于十一个大小不一的球形结构，由三根立柱和三根斜撑连接结合。除了作为电视塔和（与世界上其他巨型高塔一样）作为旅游景点的功能外，东方明珠塔有令人惊讶的多功能性，包括一个旋转餐厅、一个使用球体客房的酒店、一个历史博物馆、一座室内过山车和更多设施。东方明珠塔还举办了许多全球和本地活动，包括元旦登高健身跑活动，吸引众多当地居民参加。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_ORIENTAL_PEARL_TOWER_NAME" Language="zh_Hant_HK">
+			<Text>東方明珠電視塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ORIENTAL_PEARL_TOWER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>建成時提供50000 [ICON_Gold] 金幣（標準速度下）。所有城市可以建造任何數量的區域，並可使用 [ICON_Gold] 金幣購買區域。劇院廣場、商業中心和港口提供+10 [ICON_Tourism] 旅遊業績。必須建造在鄰近劇院廣場區域（須建有廣播中心）的河流旁。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ORIENTAL_PEARL_TOWER_QUOTE" Language="zh_Hant_HK">
+			<Text>「大弦嘈嘈如急雨，小弦切切如私語。[NEWLINE]嘈嘈切切錯雜彈，大珠小珠落玉盤。」[NEWLINE]——白居易</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ORIENTAL_PEARL_TOWER_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>東方明珠電視塔是現代上海的輝煌地標，坐落在黃浦江畔，與外灘隔河相對。由於舊的電視發射塔無法滿足上海在人口和建築高度層面的快速發展，一座更加高聳的電視發射塔取而代之，在1994年竣工。東方明珠電視塔得名於十一個大小不一的球形結構，由三根立柱和三根斜撐連接結合。除了作為電視塔和（與世界上其他巨型高塔一樣）作為旅遊景點的功能外，東方明珠塔有令人驚訝的多功能性，包括一個旋轉餐廳、一個使用球體客房的酒店、一個歷史博物館、一座室內過山車和更多設施。東方明珠塔還舉辦了許多全球和本地活動，包括元旦登高健身跑活動，吸引眾多當地居民參加。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_ORIENTAL_PEARL_TOWER_NAME" Language="ja_JP">
+			<Text>東方明珠電視塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ORIENTAL_PEARL_TOWER_DESCRIPTION" Language="ja_JP">
+			<Text>建設後すぐに [ICON_Gold] ゴールド+50000(標準のスピードで)。各都市に好きな数の区域を建設できる、さらに [ICON_Gold] ゴールドで区域を購入できるようになる。劇場広場、商業ハブと港の [ICON_Tourism] 観光力+10。放送センターが存在する劇場広場区域に隣接した川沿いにのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ORIENTAL_PEARL_TOWER_QUOTE" Language="ja_JP">
+			<Text>「大絃は嘈嘈として急雨の如く、[NEWLINE]小絃は切切として私語の如し。[NEWLINE]嘈嘈切切、錯雜して弾き、[NEWLINE]大珠小珠、玉盤に落つ。」[NEWLINE]– 白居易</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_ORIENTAL_PEARL_TOWER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>黄浦江沿いの外灘対岸に位置する東方明珠電視塔は、現代上海のきらびやかな名所である。古いテレビ送信塔は、上海の人口と建物の高さの両面で急速な成長に追いつかなかったため、新しい巨大な送信塔が建設され、1994年に完成した。東方明珠電視塔は、大小合わせて11個の球体からその名がついた、それらが3本の垂直柱と3本の支柱で支えて繋がっている。テレビ送信塔としての機能と（世界の他の巨塔と同様）観光名所としての機能に加え、東方明珠電視塔は驚くほど多機能で、回転レストラン、球体の客室を利用したホテル、歴史博物館、屋内ジェットコースターなど、さまざまな施設から構成されている。また、東方明珠電視塔は、世界的なイベントや地元のイベントも数多く開催され、元旦に行われる塔登りのフィットネスランのイベントには多くの市民が参加する。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

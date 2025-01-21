@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_BUILDING_PHANTA_SANXINGDUI_NAME" Language="ru_RU">
+			<Text>Саньсиндуй</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SANXINGDUI_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет [ICON_GreatWork_Relic] Реликвию и случайный одноразовый бонус. Может быть построен трижды в одном городе, и случайные одноразовые бонусы усиливаются с каждым уже построенным чудом Саньсиндуй. Первое чудо Саньсиндуй должно быть построено рядом с [ICON_Resource_Copper] Медью.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SANXINGDUI_QUOTE" Language="ru_RU">
+			<Text>«Когда Чжоу потеряли свой мандат, Шу первыми провозгласили королевство. Цаньцун, маркиз Шу, имел выпуклые глаза и первым провозгласил себя королем.»[NEWLINE]– Чжан Цюй, "Хроники Хуаяна"</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_SANXINGDUI_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Долгое время древнее царство Шу в Сычуаньской котловине оставалось загадкой в китайских исторических текстах, если не вызывало насмешек как нелепый миф, — пока не было обнаружено Саньсиндуй (букв. «Три Звездных Кургана»). В 1929 году крестьянин в Гуанхане нашел сотни артефактов из нефрита, расчищая оросительный канал. Это привлекло внимание археологов. Со временем были найдены артефакты из бронзы, золота и нефрита, демонстрирующие увлекательную культуру и мастерство древнего царства Шу.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_SANXINGDUI_NAME" Language="zh_Hans_CN">
+			<Text>三星堆</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SANXINGDUI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得一件 [ICON_GreatWork_Relic] 遗物和一次性随机奖励。可以在相同城市建造三次，随机奖励根据建造三星堆奇观次数上升。首次建造三星堆时必须建造在与 [ICON_RESOURCE_COPPER] 铜资源相邻的单元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SANXINGDUI_QUOTE" Language="zh_Hans_CN">
+			<Text>周失纪纲，蜀先称王。有蜀侯蚕丛，其目纵，始称王。[NEWLINE]——常璩，《华阳国志》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_SANXINGDUI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>长久以来，四川盆地的古蜀国被视为中国史书上的一个谜团，甚至纯属荒唐无稽的神话——直到三星堆的文物重见天日。在1929年，一个广汉的农民在淘沟时发现数百件玉器，这吸引了考古学家的注意。时光飞逝，更多青铜器、金器和玉器出土，向世人展示古蜀国令人叹为观止的文化与技艺。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_SANXINGDUI_NAME" Language="zh_Hant_HK">
+			<Text>三星堆</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SANXINGDUI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>獲得一件 [ICON_GreatWork_Relic] 遺物和一次性隨機獎勵。可以在相同城市建造三次，隨機獎勵根據建造三星堆奇觀次數上升。首次建造三星堆時必須建造在與 [ICON_RESOURCE_COPPER] 銅資源相鄰的單元格上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SANXINGDUI_QUOTE" Language="zh_Hant_HK">
+			<Text>「周失紀綱，蜀先稱王。有蜀侯蠶叢，其目縱，始稱王。」[NEWLINE]——常璩，《華陽國志》</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_SANXINGDUI_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>長久以來，四川盆地的古蜀國被視為中國史書上的一個謎團，甚至純屬荒唐無稽的神話——直到三星堆的文物重見天日。在1929年，一個廣漢的農民在淘溝時發現數百件玉器，這吸引了考古學家的注意。時光飛逝，更多青銅器、金器和玉器出土，向世人展示古蜀國令人歎為觀止的文化與技藝。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_PHANTA_SANXINGDUI_NAME" Language="ja_JP">
+			<Text>三星堆</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SANXINGDUI_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_GreatWork_Relic] 遺物とランダムなボーナスを与える。同じ都市に3回建設することができ、ランダムボーナスは既に建設された三星堆世界遺産ごとに増加する。最初の三星堆世界遺産は [ICON_RESOURCE_COPPER] 銅に隣接した土地にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_SANXINGDUI_QUOTE" Language="ja_JP">
+			<Text>「周はその紀綱を失い、蜀が真っ先に王を称した。蜀侯蚕叢が有り、其の目が縦で、初めて王を称した。」[NEWLINE]– 常璩、『華陽国志』</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_SANXINGDUI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>長い間、四川盆地にあった古蜀国は、中国の歴史書では得体の知れない謎、ただの荒唐無稽な神話とさえみなされていた——三星堆の出土品が日の目を見るそのまで。1929年、広漢の農民が溝を掘っているときに数百もの玉器を発見し、考古学者の注目を集めた。時が経つにつれ、さらに多くの青銅器、金器、玉器が発掘され、古蜀国の素晴らしい文化と技術を世界に知らしめた。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

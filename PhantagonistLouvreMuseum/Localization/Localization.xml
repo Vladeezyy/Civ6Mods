@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_NAME" Language="ru_RU">
+			<Text>Лувр</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_DESCRIPTION" Language="ru_RU">
+			<Text>Открывает строителям возможность возводить второй Театральный район и Лагерь в городах, где они уже есть (вторичные районы являются стандартными, и здания в них строить нельзя). Каждый Театральный район и Лагерь на восхитительных клетках дают +3 [ICON_Culture] культуры и позволяют строить дополнительный специализированный район в своих городах. Открывает доступ к проекту "Грандиозный Лувр", который преобразует это чудо света в Луврский музей после исследования социальной политики "Культурное наследие". Должен быть построен на реке рядом с Театральным районом.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_QUOTE" Language="ru_RU">
+			<Text>«Люди, знаменитые в искусстве, обретают бессмертие наравне с принцами, и находятся с ними на равных.»[NEWLINE]– Франциск I</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_LOUVRE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Расположенный на берегу Сены, Лувр является одним из самых известных памятников в центре Парижа. Изначально построенный как оборонительный замок Филиппом II в 1190 году, Лувр позже был перестроен и расширен многими французскими королями, превратившись в великолепную королевскую резиденцию. Они также собирали великие произведения искусства со всего мира, как, например, Франциск I приобрёл "Мону Лизу". После Французской революции революционное правительство открыло Лувр для публики как музей искусств. После восхождения Наполеона на трон он добавил военные трофеи из наполеоновских войн для выставки в Лувре. В 1981 году французское правительство начало проект реконструкции "Грандиозный Лувр", включающий стеклянную пирамиду на центральной площади, спроектированную И. М. Пеем. Сегодня Луврский музей является самым посещаемым художественным музеем в мире, поражая посетителей своей коллекцией шедевров искусства и архитектуры.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_NAME" Language="ru_RU">
+			<Text>Луврский музей</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_DESCRIPTION" Language="ru_RU">
+			<Text>Это чудо света автоматически тематизируется, когда все слоты для произведений искусства заполнены. Каждый Театральный район и Лагерь дают +1 [ICON_Amenities] уровня благополучия и увеличивают [ICON_Tourism] туризм чудес света, [ICON_GreatWork_Landscape] произведений искусства и [ICON_GreatWork_Artifact_Ancient] артефактов в своём городе на 25%.[NEWLINE][NEWLINE]Сохраняет изначальные бонусы Лувра: открывает строителям возможность возводить второй Театральный район и Лагерь в городах, где они уже есть (вторичные районы являются стандартными, и здания в них строить нельзя). Каждый Театральный район и Лагерь на восхитительных клетках дают +3 [ICON_Culture] культуры и позволяют строить дополнительный специализированный район в своих городах.[NEWLINE][NEWLINE]Должен быть построен реконструкцией чуда света "Лувр" через проект "Грандиозный Лувр".</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_QUOTE" Language="ru_RU">
+			<Text>«Архитектура — это самое настоящее зеркало жизни. Достаточно взглянуть на здания, чтобы почувствовать присутствие прошлого, дух места; они являются отражением общества.»[NEWLINE]– И. М. Пей</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_LOUVRE_MUSEUM_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Расположенный на берегу Сены, Лувр является одним из самых известных памятников в центре Парижа. Изначально построенный как оборонительный замок Филиппом II в 1190 году, Лувр позже был перестроен и расширен многими французскими королями, превратившись в великолепную королевскую резиденцию. Они также собирали великие произведения искусства со всего мира, как, например, Франциск I приобрёл "Мону Лизу". После Французской революции революционное правительство открыло Лувр для публики как музей искусств. После восхождения Наполеона на трон он добавил военные трофеи из наполеоновских войн для выставки в Лувре. В 1981 году французское правительство начало проект реконструкции "Грандиозный Лувр", включающий стеклянную пирамиду на центральной площади, спроектированную И. М. Пеем. Сегодня Луврский музей является самым посещаемым художественным музеем в мире, поражая посетителей своей коллекцией шедевров искусства и архитектуры.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_GRANDE_LOUVRE_NAME" Language="ru_RU">
+			<Text>Грандиозный Лувр</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_GRANDE_LOUVRE_DESCRIPTION" Language="ru_RU">
+			<Text>Преобразует Лувр в Луврский музей. Луврский музей имеет 6 слотов для великих произведений, которые могут содержать любой тип произведений, и автоматически тематизируется, когда все слоты заполнены. Каждый Театральный район и Лагерь дают +1 [ICON_Amenities] уровня благополучия и увеличивают [ICON_Tourism] туризм чудес света, [ICON_GreatWork_Landscape] произведений искусства и [ICON_GreatWork_Artifact_Ancient] артефактов в своём городе на 25%. Сохраняет изначальные бонусы Лувра.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PHANTA_LOUVRE_SECOND_THEATER_NAME" Language="ru_RU">
+			<Text>Второй Театральный район</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PHANTA_LOUVRE_SECOND_ENCAMPMENT_NAME" Language="ru_RU">
+			<Text>Второй Лагерь</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_THEMING_BONUS" Language="ru_RU">
+			<Text>Бонус тематизации удваивает выход, если музей заполнен.</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_NAME" Language="zh_Hans_CN">
+			<Text>卢浮宫</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者在建有第一座剧院广场和军营的城市建造第二座剧院广场和军营的能力（第二座区域为泛用区域，也不能建造建筑）。每座建造在魅力值为“惊艳”的单元格的剧院广场和军营提供+3 [ICON_Culture] 文化值，并令城市能建造额外一座专业化区域。研究“文化遗产”市政后可进行大卢浮宫重建工程项目。必须建在相邻剧院广场区域的河流旁。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_QUOTE" Language="zh_Hans_CN">
+			<Text>艺术名家与王公贵族一般永垂不朽，与他们平起平坐。[NEWLINE]——法国国王弗朗索瓦一世</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_LOUVRE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>卢浮宫位于塞纳河畔，是巴黎市中心最著名的地标（之一）。卢浮宫原为腓力二世在1190年修建的防御城堡，后来有多任法国国王对卢浮宫进行重建和扩建，令卢浮宫成为一座华美的王室居所，更增添了来自各地的艺术巨作，例如弗朗索瓦一世购入的《蒙娜丽莎》。在法国大革命后，革命政府将卢浮宫开放作为艺术博物馆向公众开放。拿破仑登基后，将战争中掠夺的战利品亦送到卢浮宫展出。在1981年，法国政府决定进行大卢浮宫重建工程，并在中央广场上增添了由贝聿铭设计的玻璃金字塔。今日，卢浮宫博物馆是世上参观人数最多的博物馆，向来自世界各地的游客展示艺术大师和建筑大师的代表作。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_NAME" Language="zh_Hans_CN">
+			<Text>卢浮宫博物馆</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此奇观在所有巨作槽位填满后自动获得主题化奖励。每座剧院广场和军营获得+1 [ICON_Amenities] 宜居度，并为该城市的奇观、 [ICON_GreatWork_Landscape] 艺术巨作和 [ICON_GreatWork_Artifact_Ancient] 文物获得+25% [ICON_Tourism] 旅游业绩。[NEWLINE][NEWLINE]保留卢浮宫的原有加成：解锁建造者在建有第一座剧院广场和军营的城市建造第二座剧院广场和军营的能力（第二座区域为泛用区域，也不能建造建筑）。每座建造在魅力值为“惊艳”的单元格的剧院广场和军营提供+3 [ICON_Culture] 文化值，并令城市能建造额外一座专业化区域。[NEWLINE][NEWLINE]必须通过大卢浮宫重建工程从卢浮宫重建而成。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_QUOTE" Language="zh_Hans_CN">
+			<Text>建筑物是人生的镜子。你只需看着建筑物就能感受到过往，感受一个地方的灵魂；它们就是社会的倒影。[NEWLINE]——贝聿铭</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_LOUVRE_MUSEUM_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>卢浮宫位于塞纳河畔，是巴黎市中心最著名的地标（之一）。卢浮宫原为腓力二世在1190年修建的防御城堡，后来有多任法国国王对卢浮宫进行重建和扩建，令卢浮宫成为一座华美的王室居所，更增添了来自各地的艺术巨作，例如弗朗索瓦一世购入的《蒙娜丽莎》。在法国大革命后，革命政府将卢浮宫开放作为艺术博物馆向公众开放。拿破仑登基后，将战争中掠夺的战利品亦送到卢浮宫展出。在1981年，法国政府决定进行大卢浮宫重建工程，并在中央广场上增添了由贝聿铭设计的玻璃金字塔。今日，卢浮宫博物馆是世上参观人数最多的博物馆，向来自世界各地的游客展示艺术大师和建筑大师的代表作。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_GRANDE_LOUVRE_NAME" Language="zh_Hans_CN">
+			<Text>大卢浮宫重建工程</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_GRANDE_LOUVRE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将卢浮宫重建为卢浮宫博物馆。卢浮宫博物馆有6个巨作槽位（任意类型），在所有巨作槽位填满后自动获得主题化奖励。每座剧院广场和军营获得+1 [ICON_Amenities] 宜居度，并为该城市的奇观、 [ICON_GreatWork_Landscape] 艺术巨作和 [ICON_GreatWork_Artifact_Ancient] 文物获得+25% [ICON_Tourism] 旅游业绩。保留卢浮宫的原有加成。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PHANTA_LOUVRE_SECOND_THEATER_NAME" Language="zh_Hans_CN">
+			<Text>第二座剧院广场</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PHANTA_LOUVRE_SECOND_ENCAMPMENT_NAME" Language="zh_Hans_CN">
+			<Text>第二座军营</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_THEMING_BONUS" Language="zh_Hans_CN">
+			<Text>博物馆装满时，主题加成的产量翻倍。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_NAME" Language="zh_Hant_HK">
+			<Text>羅浮宮</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>解鎖建造者在建有第一座劇院廣場和營地的城市建造第二座劇院廣場和營地的能力（第二座區域為泛用區域，也不能建造建築）。每座建造在極大魅力地塊的劇院廣場和營地提供+3 [ICON_Culture] 文化值，並令城市能建造額外一座專業化區域。研發完「文化遺產」市政後可進行大羅浮宮重建工程項目。必須建在相鄰劇院廣場區域的河流旁。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_QUOTE" Language="zh_Hant_HK">
+			<Text>「藝術名家與王公貴族一般永垂不朽，與他們平起平坐。」[NEWLINE]——法國國王弗朗索瓦一世</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_LOUVRE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>羅浮宮位於塞納河畔，是巴黎市中心最著名的地標（之一）。羅浮宮原為腓力二世在1190年修建的防禦城堡，後來有多任法國國王對羅浮宮進行重建和擴建，令羅浮宮成為一座華美的王室居所，更增添了來自各地的藝術巨作，例如弗朗索瓦一世購入的《蒙娜麗莎》。在法國大革命後，革命政府將羅浮宮開放作為藝術博物館向公眾開放。拿破崙登基後，將戰爭中掠奪的戰利品亦送到羅浮宮展出。在1981年，法國政府決定進行大羅浮宮重建工程，並在中央廣場上增添了由貝聿銘設計的玻璃金字塔。今日，羅浮宮博物館是世上參觀人數最多的博物館，向來自世界各地的遊客展示藝術大師和建築大師的代表作。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_NAME" Language="zh_Hant_HK">
+			<Text>羅浮宮博物館</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>此奇觀在所有巨作槽位填滿後自動獲得主題化獎勵。每座劇院廣場和營地獲得+1 [ICON_Amenities] 滿意度，並為該城市的奇觀、 [ICON_GreatWork_Landscape] 藝術巨作和 [ICON_GreatWork_Artifact_Ancient] 文物獲得+25% [ICON_Tourism] 旅遊業績。[NEWLINE][NEWLINE]保留羅浮宮的原有加成：解鎖建造者在建有第一座劇院廣場和營地的城市建造第二座劇院廣場和營地的能力（第二座區域為泛用區域，也不能建造建築）。每座建造在極大魅力地塊的劇院廣場和營地提供+3 [ICON_Culture] 文化值，並令城市能建造額外一座專業化區域。[NEWLINE][NEWLINE]必須通過大羅浮宮重建工程從羅浮宮重建而成。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_QUOTE" Language="zh_Hant_HK">
+			<Text>「建築物是人生的鏡子。你只需看着建築物就能感受到過往，感受一個地方的靈魂；它們就是社會的倒影。」[NEWLINE]——貝聿銘</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_LOUVRE_MUSEUM_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>羅浮宮位於塞納河畔，是巴黎市中心最著名的地標（之一）。羅浮宮原為腓力二世在1190年修建的防禦城堡，後來有多任法國國王對羅浮宮進行重建和擴建，令羅浮宮成為一座華美的王室居所，更增添了來自各地的藝術巨作，例如弗朗索瓦一世購入的《蒙娜麗莎》。在法國大革命後，革命政府將羅浮宮開放作為藝術博物館向公眾開放。拿破崙登基後，將戰爭中掠奪的戰利品亦送到羅浮宮展出。在1981年，法國政府決定進行大羅浮宮重建工程，並在中央廣場上增添了由貝聿銘設計的玻璃金字塔。今日，羅浮宮博物館是世上參觀人數最多的博物館，向來自世界各地的遊客展示藝術大師和建築大師的代表作。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_GRANDE_LOUVRE_NAME" Language="zh_Hant_HK">
+			<Text>大羅浮宮重建工程</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_GRANDE_LOUVRE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>將羅浮宮重建為羅浮宮博物館。羅浮宮博物館有6個巨作槽位（任意類型），在所有巨作槽位填滿後自動獲得主題化獎勵。每座劇院廣場和營地獲得+1 [ICON_Amenities] 滿意度，並為該城市的奇觀、 [ICON_GreatWork_Landscape] 藝術巨作和 [ICON_GreatWork_Artifact_Ancient] 文物獲得+25% [ICON_Tourism] 旅遊業績。保留羅浮宮的原有加成。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PHANTA_LOUVRE_SECOND_THEATER_NAME" Language="zh_Hant_HK">
+			<Text>第二座劇院廣場</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PHANTA_LOUVRE_SECOND_ENCAMPMENT_NAME" Language="zh_Hant_HK">
+			<Text>第二座營地</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_THEMING_BONUS" Language="zh_Hant_HK">
+			<Text>博物館裝滿時，主題加成的產量翻倍。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_NAME" Language="ja_JP">
+			<Text>ルーヴル</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_DESCRIPTION" Language="ja_JP">
+			<Text>労働者が劇場広場や兵営を建設した都市に二つ目の劇場広場と兵営を建設できるようになる（二つ目の区域は通常区域であり、建造物を建てることはできない）。アピールが「最高」の劇場広場や兵営の [ICON_Culture] 文化力+3、さらに1つ多く区域を建設できる。社会制度「文化遺産」を発見すると、「大ルーヴル再建」プロジェクトを開始できる。劇場広場区域に隣接した川沿いにのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_QUOTE" Language="ja_JP">
+			<Text>「芸術の名人は王侯の不朽を帯び、彼らと並び立つ。」[NEWLINE]– フランス王フランソワ1世</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_LOUVRE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>セーヌ川のほとりに位置するルーブル美術館は、パリ中心部で最も有名なランドマークのひとつである。ルーヴルは1190年にフィリップ2世によって要塞として建てられただが、その後多くのフランス王によって建てし拡張され、壮麗な王宮へと変貌を遂げ。また、フランソワ1世が購入したモナ・リザなど、世界中から集められた美術品が展示されている。フランス革命後、革命政府はルーブル美術館を美術館として一般市民に公開した。ナポレオンの即位後は、戦利品をルーヴル美術館に送って展示した。1981年、フランス政府は大ルーヴルの再建を決定し、I.M.ペイの設計のもと、中央広場にガラスのピラミッドを増築した。そして現在、ルーブル美術館は世界で最も多くの人が訪れる美術博物館として、世界中からやってくる観光客に芸術家と建築家の傑作を披露している。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_NAME" Language="ja_JP">
+			<Text>ルーヴル美術館</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_DESCRIPTION" Language="ja_JP">
+			<Text>この世界遺産の傑作スロットをすべて埋めると、自動的にテーマ化される。劇場広場や兵営の [ICON_Amenities] 快適性+1、その都市の遺産、 [ICON_GreatWork_Landscape] 傑作 (芸術)と [ICON_GreatWork_Artifact_Ancient] 秘宝による [ICON_Tourism] 観光力+25%。[NEWLINE][NEWLINE]ルーヴルの本来の効果を保つ：労働者が劇場広場や兵営を建設した都市に二つ目の劇場広場と兵営を建設できるようになる（二つ目の区域は通常区域であり、建造物を建てることはできない）。アピールが「最高」の劇場広場や兵営の [ICON_Culture] 文化力+3、さらに1つ多く区域を建設できる。[NEWLINE][NEWLINE]「大ルーヴル再建」プロジェクトによって、ルーヴルからのみ再建可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_QUOTE" Language="ja_JP">
+			<Text>「建築はまさに人生の鏡である。建築物に目を向けるだけで、過去の存在や、その場所の精神を感じることができる；まさに社会の反映だ。」[NEWLINE]– I.M.ペイ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_LOUVRE_MUSEUM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>セーヌ川のほとりに位置するルーブル美術館は、パリ中心部で最も有名なランドマークのひとつである。ルーヴルは1190年にフィリップ2世によって要塞として建てられただが、その後多くのフランス王によって建てし拡張され、壮麗な王宮へと変貌を遂げ。また、フランソワ1世が購入したモナ・リザなど、世界中から集められた美術品が展示されている。フランス革命後、革命政府はルーブル美術館を美術館として一般市民に公開した。ナポレオンの即位後は、戦利品をルーヴル美術館に送って展示した。1981年、フランス政府は大ルーヴルの再建を決定し、I.M.ペイの設計のもと、中央広場にガラスのピラミッドを増築した。そして現在、ルーブル美術館は世界で最も多くの人が訪れる美術博物館として、世界中からやってくる観光客に芸術家と建築家の傑作を披露している。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_GRANDE_LOUVRE_NAME" Language="ja_JP">
+			<Text>大ルーヴル再建</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PHANTA_GRANDE_LOUVRE_DESCRIPTION" Language="ja_JP">
+			<Text>ルーヴルがルーヴル美術館として再建される。ルーヴル美術館は傑作スロット(タイプは不問)を6つ持ち、傑作スロットをすべて埋めると、自動的にテーマ化される。劇場広場や兵営の [ICON_Amenities] 快適性+1、その都市の遺産、 [ICON_GreatWork_Landscape] 傑作 (芸術)と [ICON_GreatWork_Artifact_Ancient] 秘宝による [ICON_Tourism] 観光力+25%。ルーヴルの本来の効果を保つ。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PHANTA_LOUVRE_SECOND_THEATER_NAME" Language="ja_JP">
+			<Text>二つ目の劇場広場</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PHANTA_LOUVRE_SECOND_ENCAMPMENT_NAME" Language="ja_JP">
+			<Text>二つ目の兵営</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_LOUVRE_MUSEUM_THEMING_BONUS" Language="ja_JP">
+			<Text>ルーヴル美術館がいっぱいになるとテーマ化ボーナスが2倍になる。</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

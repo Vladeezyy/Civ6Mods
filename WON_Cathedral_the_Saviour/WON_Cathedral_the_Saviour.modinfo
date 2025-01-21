@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e43a3349-2e10-4221-bbe7-49053dccb698" version="2">
+  <Properties>
+    <Name>Cathedral of Christ the Saviour (World Wonder)</Name>
+    <Description>Adds Cathedral of Christ the Saviour as a World Wonder.</Description>
+    <Created>1700974925</Created>
+    <Teaser>Adds Cathedral of Christ the Saviour as a World Wonder.</Teaser>
+    <Authors>JohnLeGreat, Phantagonist</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>GameData/GameData_Core.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="NewAction">
+      <File>Cathedral of Christ the Saviour (World Wonder).dep</File>
+    </UpdateArt>
+    <UpdateIcons id="NewAction">
+      <File>GameData/GameData_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>Localization/Localization.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Cathedral of Christ the Saviour (World Wonder).dep</File>
+    <File>GameData/GameData_Core.sql</File>
+    <File>GameData/GameData_Icons.sql</File>
+    <File>Localization/Localization.xml</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cathedral_Windows_Emit</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_PartA_Basecolor_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_PartB_Basecolor_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_PartC_Basecolor_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/StrategicView_Sprite.blp</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cathedral_Windows_Emit</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_PartA_Basecolor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_PartB_Basecolor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_PartC_Basecolor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/StrategicView_Sprite.blp</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+  </Files>
+</Mod>
