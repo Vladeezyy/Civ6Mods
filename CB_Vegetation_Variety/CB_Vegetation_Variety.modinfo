@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="093f382d-39fb-4871-aa84-79fdfc35c7b6" version="8">
+  <Properties>
+    <Name>[COLOR_Green]BD[ENDCOLOR] - Denser Vegetation (Standalone)</Name>
+    <Description>Changes the looks of Forest and Jungle. Forests are now much denser and vary depending on the terrain underneath so you can still identify it. Forest in flat land is dense and composed mostly of broaleaf trees, while forest in hills is more spare an composed mostly of coniferous trees. Flat land jungle is darker, with tall trees. Hill jungle is brighter with more undergrowth and shrubs. Oases have a bit more vegetation, too.</Description>
+    <Created>1592617989</Created>
+    <Teaser>Denser Forests with terrain-based variation.</Teaser>
+    <Authors>JNR</Authors>
+    <SpecialThanks>Brian Busatti and Team</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+	<AffectsSavedGames>0</AffectsSavedGames>
+  </Properties>
+  <ActionCriteria>
+	<Criteria id="No_Civ_V_Skin">
+	  <ModInUse inverse="1">382d13b3-bd75-4535-badc-e1ecf188b969</ModInUse>
+	</Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateArt id="Dependency" criteria="No_Civ_V_Skin">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>CB_Vegetation_Variety.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>CB_Vegetation_Variety.dep</File>
+  </Files>
+</Mod>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="IMP_Trawler_Flagship_Classical"/>
+			<m_ObjectName text="IMP_Trawler_Flagship_Classical"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Trawler_Flagship_Modern"/>
+			<m_ObjectName text="IMP_Trawler_Flagship_Modern"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Trawler_IND"/>
+			<m_ObjectName text="IMP_Trawler_IND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Trawler_CLA"/>
+			<m_ObjectName text="IMP_Trawler_CLA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Trawler_Crane_IND"/>
+			<m_ObjectName text="IMP_Trawler_Crane_IND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Trawler_Crane_CLA"/>
+			<m_ObjectName text="IMP_Trawler_Crane_CLA"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

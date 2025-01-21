@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Icon_Trawler_256"/>
+			<m_ObjectName text="Icon_Trawler_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Trawler_38"/>
+			<m_ObjectName text="Icon_Trawler_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Trawler_50"/>
+			<m_ObjectName text="Icon_Trawler_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Trawler_80"/>
+			<m_ObjectName text="Icon_Trawler_80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="73b1478a-73bf-4907-8914-b1b5acca388b" version="12">
+  <Properties>
+    <Name>[COLOR_Green]BD[ENDCOLOR] - Wetlands</Name>
+    <Description>Floodplains can now appear on Tundra.[NEWLINE]New Floodplains feature: Swamp. +1 Production but slows down units. Can be removed.[NEWLINE]New Bonus Resource for more Production in wet regions: Peat.[NEWLINE]New Improvements: Oasis Garden (Oasis), Irrigation Farm (Desert Floodplains), Reed Home (Swamp, Marsh, Grass+Plains+Tundra Floodplains).</Description>
+    <Teaser>Adds more flavor to Wetlands with Swamps, Peat deposits, Tundra Floodplains, and new improvements for Oases, Marshes, and all Floodplains.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+	<Criteria id="Vietnam">
+	  <ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>	<!-- Kublai Khan and Vietnam Pack -->
+	</Criteria>
+	<Criteria id="Ptolemaic">
+	  <ModInUse>82AE6F24-930F-4640-833C-FCDFD4845757</ModInUse>	<!-- Rulers of the Sahara -->
+	</Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateText id="Config_Text">
+      <Properties>
+        <LoadOrder>19000</LoadOrder>
+      </Properties>
+      <File>Text/Wetlands_Text_Config.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>2</LoadOrder>
+      </Properties>
+      <File>Data/Wetlands_Resources.sql</File>
+      <File>Data/Wetlands_Features.sql</File>
+      <File>Data/Wetlands_Improvements.sql</File>
+      <File>Data/Wetlands_Wonders.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_Vietnam" criteria="Vietnam">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Data/Wetlands_Vietnam.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_Ptolemaic" criteria="Ptolemaic">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Data/Wetlands_Ptolemaic.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="ModSupport">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Data/Wetlands_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="Dependency">
+      <Properties>
+        <LoadOrder>14</LoadOrder>
+      </Properties>
+      <File>Vegetation_Wetlands.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Icons">
+      <File>Icons/Wetlands_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>Text/Wetlands_Text.sql</File>
+      <File>Text/Wetlands_Text_Config.sql</File>
+    </UpdateText>
+    <AddGameplayScripts id="SpawnSwamp">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Maps/Utility/Wetlands_FeatureGenerator.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Vegetation_Wetlands.dep</File>
+    <File>Data/Wetlands_Features.sql</File>
+    <File>Data/Wetlands_Improvements.sql</File>
+    <File>Data/Wetlands_ModSupport.sql</File>
+    <File>Data/Wetlands_Ptolemaic.sql</File>
+    <File>Data/Wetlands_Resources.sql</File>
+    <File>Data/Wetlands_Vietnam.sql</File>
+    <File>Data/Wetlands_Wonders.sql</File>
+    <File>Icons/Wetlands_Icons.sql</File>
+    <File>Maps/Utility/Wetlands_FeatureGenerator.lua</File>
+    <File>Text/Wetlands_Text.sql</File>
+    <File>Text/Wetlands_Text_Config.sql</File>
+  </Files>
+</Mod>

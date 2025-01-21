@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_WON_CL_BUILDING_ARECIBO_NAME" Language="en_US">
+			<Text>Обсерватория Аресибо</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WON_CL_BUILDING_ARECIBO_DESCRIPTION" Language="en_US">
+			<Text>Горные клетки предоставляют дополнительный стандартный бонус за соседство для районов кампусов в любых городах. Награждает случайно выбранной технологией. Получите бонус к случайной технологии за каждый завершенный проект Космической гонки.[NEWLINE][NEWLINE]Должен быть построен в дождевом лесу.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_WON_CL_BUILDING_ARECIBO_QUOTE" Language="en_US">
+			<Text>"Когда Аресибо не слушает ничего другого, он слышит голос сотворения."[NEWLINE]–Тед Чианг</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ARECIBO_MOUNTAINS_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Науки от соседней горы {1_Num : plural 1?клетка; other?клеток;}. (Обсерватория Аресибо)</Text>
+		</Replace>
+
+
+	</LocalizedText>
+</GameData>
+

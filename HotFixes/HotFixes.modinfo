@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6956cfab-2ad0-4d33-8ade-08e35861884b" version="1">
+  <Properties>
+    <Name>HotFixes</Name>
+    <Description>This mod using CPL files for fix bags in vanilla gameplay.</Description>
+    <Created>1589905769</Created>
+    <Teaser>This mod using CPL files for fix bags in vanilla gameplay.</Teaser>
+    <Authors>CPL Remade</Authors>
+    <SpecialThanks>Kachecka</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <InGameActions>
+    <ImportFiles id="bbg_import_files">
+      <File>Exploits/PantheonChooser.lua</File>
+    </ImportFiles>
+    <AddGameplayScripts id="NewAction">
+      <File>Exploits/culture_fix.lua</File>
+      <File>Exploits/gg_fix.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Exploits/culture_fix.lua</File>
+    <File>Exploits/gg_fix.lua</File>
+    <File>Exploits/PantheonChooser.lua</File>
+  </Files>
+</Mod>
