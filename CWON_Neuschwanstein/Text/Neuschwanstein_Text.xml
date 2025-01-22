@@ -37,5 +37,23 @@
 		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_NEUSCHWANSTEIN_CHAPTER_HISTORY_PARA_2" Language="de_DE">
 			<Text>Neuschwanstein ist das berühmteste der Schlösser Ludwigs II. und eine der bekanntesten Sehenswürdigkeiten Deutschlands. Es wird jährlich von etwa 1,5 Millionen Touristen besucht. Das oftmals als „Märchenschloss“ bezeichnete Neuschwanstein ist nahezu ganzjährig für Besucher geöffnet. Die Architektur und Innenausstattung sind vom romantischen Eklektizismus des 19. Jahrhunderts geprägt; das Schloss gilt als ein Hauptwerk des Historismus.</Text>
 		</Replace>
+		<Row Tag="LOC_BUILDING_NEUSCHWANSTEIN_NAME" Language="ru_RU">
+			<Text>Замок Нойшванштайн</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_NEUSCHWANSTEIN_DESCRIPTION" Language="ru_RU">
+			<Text>Каждый город с средневековыми или ренессансными стенами приносит +2 [ICON_Culture] Культуры, +2 [ICON_Gold] Золота, +1 [ICON_Amenities] Довольства. Замок должен быть построен на холме, прилегающем к горе.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_NEUSCHWANSTEIN_QUOTE" Language="ru_RU">
+			<Text>"Место одно из самых красивых, святое и недосягаемое, достойный храм для божественного друга, который принес спасение и истинное благословение миру." – Король Людвиг II Баварский</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_NEUSCHWANSTEIN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Замок Нойшванштайн — дворец в романском стиле 19 века, расположенный на скалистом холме над деревней Хоэншвангау близ города Фюссен на юго-западе Баварии, Германия. Дворец был заказан Людвигом II Баварским как уединение и в честь композитора Рихарда Вагнера. Людвиг оплатил строительство дворца за счет своего личного состояния и через значительные заимствования, а не за счет общественных средств Баварии. Замок был предназначен как дом для короля, пока он не скончался в 1886 году. Он был открыт для публики вскоре после его смерти. С тех пор замок Нойшванштайн посетили более 61 миллиона человек. Ежегодно его посещают более 1,3 миллиона человек, в том числе до 6000 в день летом.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_NEUSCHWANSTEIN_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_NEUSCHWANSTEIN_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text></Text>
+		</Row>
 	</LocalizedText>
 </GameData>

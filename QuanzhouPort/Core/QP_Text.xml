@@ -4,27 +4,27 @@
 <!-- DateCreated: 2/23/2024 2:37:16 PM -->
 <GameData>
 	<BaseGameText>
-    <Replace Tag="LOC_BUILDING_QUANZHOU_PORT_NAME" Language="ru_RU">
-        <Text>Порт Цзайтун</Text>
-    </Replace>
-    <Replace Tag="LOC_BUILDING_QUANZHOU_PORT_DESCRIPTION" Language="ru_RU">
-        <Text>Купцы получают +100% к дальности на водных маршрутах, а ваши [ICON_TradeRoute] Торговые пути генерируют +1 [ICON_Gold] Золото за каждые 10 клеток пути (за каждое религиозное здание вы удваиваете количество золота). Купцы, обученные в этом городе, невосприимчивы к грабежам на водных клетках.[NEWLINE][NEWLINE]Должен быть построен на побережье, рядом с сушей и районом Гавани.</Text>
-    </Replace>
-    <Replace Tag="LOC_BUILDING_QUANZHOU_PORT_QUOTE" Language="ru_RU">
-        <Text>"Острова, о которых я упоминал, населены купцами, которые ведут торговлю со многими народами; их порты содержат больше иностранных судов, чем в любой другой части мира. Один лишь порт Цзайтун, который является одним из лучших и самых известных на Востоке, ежегодно отправляет более ста кораблей, нагруженных перцем, не говоря уже о других, которые возвращаются с грузами всевозможных специй." [NEWLINE]- Паоло дель Позцо Тосканелли</Text>
-    </Replace>
-    <Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_QUANZHOU_PORT_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
-        <Text>Порт бухты Мэйчжоу был создан в 2012 году путем объединения портов Цюаньчжоу, острова Мэйчжоу и Путиань, в рамках рационализации портов провинции Фуцзянь, что сократило количество портов в провинции до трех крупных консолидированных портов (Сямынь, бухта Мэйчжоу и Фучжоу). В 2012 году порт бухты Мэйчжоу имел 147 причалов, 24 из которых были рассчитаны на 10,000 DWT, и имел общий грузооборот в 114 миллионов тонн.</Text>
-    </Replace>
-    <Replace Tag="LOC_ABILITY_QUANZHOU_PORT_NAME" Language="ru_RU">
-        <Text>{LOC_BUILDING_QUANZHOU_PORT_NAME}</Text>
-    </Replace>
-    <Replace Tag="LOC_ABILITY_QUANZHOU_PORT_DESCRIPTION" Language="ru_RU">
-        <Text>Невосприимчив к грабежам на водных клетках</Text>
-    </Replace>
-</BaseGameText>
+		<Replace Tag="LOC_BUILDING_QUANZHOU_PORT_NAME" Language="ru_RU">
+			<Text>Порт Цзайтун</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_QUANZHOU_PORT_DESCRIPTION" Language="ru_RU">
+			<Text>Купцы получают +100% к дальности на водных маршрутах, а ваши [ICON_TradeRoute] Торговые пути генерируют +1 [ICON_Gold] Золото за каждые 10 клеток пути (за каждое религиозное здание вы удваиваете количество золота). Купцы, обученные в этом городе, невосприимчивы к грабежам на водных клетках.[NEWLINE][NEWLINE]Должен быть построен на побережье, рядом с сушей и районом Гавани.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_QUANZHOU_PORT_QUOTE" Language="ru_RU">
+			<Text>"Острова, о которых я упоминал, населены купцами, которые ведут торговлю со многими народами; их порты содержат больше иностранных судов, чем в любой другой части мира. Один лишь порт Цзайтун, который является одним из лучших и самых известных на Востоке, ежегодно отправляет более ста кораблей, нагруженных перцем, не говоря уже о других, которые возвращаются с грузами всевозможных специй." [NEWLINE]- Паоло дель Позцо Тосканелли</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_QUANZHOU_PORT_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Порт бухты Мэйчжоу был создан в 2012 году путем объединения портов Цюаньчжоу, острова Мэйчжоу и Путиань, в рамках рационализации портов провинции Фуцзянь, что сократило количество портов в провинции до трех крупных консолидированных портов (Сямынь, бухта Мэйчжоу и Фучжоу). В 2012 году порт бухты Мэйчжоу имел 147 причалов, 24 из которых были рассчитаны на 10,000 DWT, и имел общий грузооборот в 114 миллионов тонн.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QUANZHOU_PORT_NAME" Language="ru_RU">
+			<Text>{LOC_BUILDING_QUANZHOU_PORT_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QUANZHOU_PORT_DESCRIPTION" Language="ru_RU">
+			<Text>Невосприимчив к грабежам на водных клетках</Text>
+		</Replace>
+	</BaseGameText>
 
-	
+
 	<LocalizedText>
 		<Replace Tag="LOC_BUILDING_QUANZHOU_PORT_NAME" Language="zh_Hant_HK">
 			<Text>刺桐港</Text>
@@ -41,7 +41,24 @@
 		<Replace Tag="LOC_ABILITY_QUANZHOU_PORT_DESCRIPTION" Language="zh_Hant_HK">
 			<Text>不會在水域單元格被掠奪。</Text>
 		</Replace>
-
+		<Replace Tag="LOC_BUILDING_QUANZHOU_PORT_NAME" Language="ru_RU">
+			<Text>Порт Цзайтун</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_QUANZHOU_PORT_DESCRIPTION" Language="ru_RU">
+			<Text>Купцы получают +100% к дальности на водных маршрутах, а ваши [ICON_TradeRoute] Торговые пути генерируют +1 [ICON_Gold] Золото за каждые 10 клеток пути (за каждое религиозное здание вы удваиваете количество золота). Купцы, обученные в этом городе, невосприимчивы к грабежам на водных клетках.[NEWLINE][NEWLINE]Должен быть построен на побережье, рядом с сушей и районом Гавани.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_QUANZHOU_PORT_QUOTE" Language="ru_RU">
+			<Text>"Острова, о которых я упоминал, населены купцами, которые ведут торговлю со многими народами; их порты содержат больше иностранных судов, чем в любой другой части мира. Один лишь порт Цзайтун, который является одним из лучших и самых известных на Востоке, ежегодно отправляет более ста кораблей, нагруженных перцем, не говоря уже о других, которые возвращаются с грузами всевозможных специй." [NEWLINE]- Паоло дель Позцо Тосканелли</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_QUANZHOU_PORT_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Порт бухты Мэйчжоу был создан в 2012 году путем объединения портов Цюаньчжоу, острова Мэйчжоу и Путиань, в рамках рационализации портов провинции Фуцзянь, что сократило количество портов в провинции до трех крупных консолидированных портов (Сямынь, бухта Мэйчжоу и Фучжоу). В 2012 году порт бухты Мэйчжоу имел 147 причалов, 24 из которых были рассчитаны на 10,000 DWT, и имел общий грузооборот в 114 миллионов тонн.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QUANZHOU_PORT_NAME" Language="ru_RU">
+			<Text>{LOC_BUILDING_QUANZHOU_PORT_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QUANZHOU_PORT_DESCRIPTION" Language="ru_RU">
+			<Text>Невосприимчив к грабежам на водных клетках</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_QUANZHOU_PORT_NAME" Language="zh_Hans_CN">
 			<Text>刺桐港</Text>
 		</Replace>

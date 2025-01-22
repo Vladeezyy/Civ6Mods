@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<EnglishText>
+	<LocalizedText>
 		<Row Tag="LOC_BUILDING_UFFIZI_NAME" Language="ru_RU">
 			<Text>Уффици</Text>
 		</Row>
@@ -83,5 +83,5 @@
 			<Text>Неуверенность святого Фомы</Text>
 		</Row>
 
-	</EnglishText>
+	</LocalizedText>
 </GameData>

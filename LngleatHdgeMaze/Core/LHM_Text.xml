@@ -31,6 +31,30 @@
 
 	</BaseGameText>
 	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_NAME" Language="ru_RU">
+			<Text>Живая изгородь Лонглитского лабиринта</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_DESCRIPTION" Language="ru_RU">
+			<Text>Чудеса и улучшение «Лабиринт из живой изгороди» в этом городе дают двойное количество [ICON_Tourism] Туризма, а все клетки получают +2 привлекательности. [NEWLINE]Соседние вражеские юниты теряют 2 [ICON_Movement] очка передвижения. Открывает улучшение «Лабиринт из живой изгороди». [NEWLINE]Должен быть построен на равнинах или травянистых ландшафтах.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_QUOTE" Language="ru_RU">
+			<Text>«Нельзя упускать шанс, что однажды, где-то, в каком-то месте появится выход. Мы не можем сдаваться. Никогда.» [NEWLINE] - Томас, «Бегущий в лабиринте»</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LNGLEAT_HDGE_MAZE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Лонглитский лабиринт из живой изгороди расположен в Уилтшире, Англия, и был разработан Грегом Брайтом. Он открылся для публики в 1975 году. Лабиринт состоит как минимум из 16,000 деревьев тиса и занимает площадь около 0,6 гектара.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LNGLEAT_HDGE_MAZE_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Отличительной чертой Лонглитского лабиринта из живой изгороди является его трёхмерная структура с шестью деревянными мостами внутри. Посетители могут стоять на мостах и смотреть на смотровую башню в центре лабиринта. Тем не менее, добраться до смотровой башни от выхода не так уж просто. Согласно статистике, среднее время, необходимое посетителям для успешного достижения смотровой башни, составляет 45 минут, самый быстрый посетитель справился за 25 минут, а некоторым так и не удалось достичь цели.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HDGE_MAZE_NAME" Language="ru_RU">
+			<Text>Лабиринт из живой изгороди</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HDGE_MAZE_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальное улучшение для цивилизации с чудом «Лонглитский лабиринт из живой изгороди».[NEWLINE][NEWLINE]+1 [ICON_Culture] Культуры, +2 привлекательности. Даёт дополнительную [ICON_Culture] Культуру, равную 50% привлекательности клетки. Соседние вражеские юниты теряют 1 [ICON_Movement] очко передвижения. Одно улучшение на город. Нельзя строить рядом с другим «Лабиринтом из живой изгороди».</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HDGE_MAZE_DESCRIPTION_ZOMBIE" Language="ru_RU">
+			<Text>{LOC_IMPROVEMENT_HDGE_MAZE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_DESCRIPTION_ADDENDUM_WEAK_TRAP}</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_LNGLEAT_HDGE_MAZE_NAME" Language="zh_Hant_HK">
 			<Text>朗利特樹籬迷宮</Text>
 		</Replace>
