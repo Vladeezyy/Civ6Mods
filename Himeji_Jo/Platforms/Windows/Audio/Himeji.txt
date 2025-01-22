@@ -1,7 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	112135724	Stop_Wonder_Music_Himeji			\Default Work Unit\Stop_Wonder_Music_Himeji	
-	730361430	Play_Wonder_Music_Himeji			\Default Work Unit\Play_Wonder_Music_Himeji	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	723044903	Himeji	C:\Users\Carola\Desktop\Wwise\BURG HIMEJI\.cache\Windows\SFX\Himeji_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Himeji\Himeji		2889132
-
