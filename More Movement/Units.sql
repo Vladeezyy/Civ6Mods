@@ -1,0 +1,1 @@
+UPDATE Units SET BaseMoves = BaseMoves+1 WHERE NOT (UnitType = 'UNIT_TRADER' OR UnitType = 'UNIT_SPY');
