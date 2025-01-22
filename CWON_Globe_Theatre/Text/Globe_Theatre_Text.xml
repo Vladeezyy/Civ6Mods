@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<EnglishText>
-		<Row Tag="LOC_BUILDING_GLOBE_THEATRE_NAME" Language="ru_RU">
+		<Row Tag="LOC_BUILDING_GLOBE_THEATRE_NAME" Language="en_US">
 			<Text>Глобус</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_GLOBE_THEATRE_DESCRIPTION" Language="ru_RU">
+		<Row Tag="LOC_BUILDING_GLOBE_THEATRE_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Amenities] Довольства во всех городах, где есть Амфитеатр. Содержит 2 слота для Великих Работ Писательства [ICON_GreatWork_Writing]. 1 бесплатный Великий Писатель появляется рядом с городом, где построено чудо (если доступен). Должно быть построено на травяном поле, равнине или тундре рядом с Центром Города.</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_GLOBE_THEATRE_QUOTE" Language="ru_RU">
+		<Row Tag="LOC_BUILDING_GLOBE_THEATRE_QUOTE" Language="en_US">
 			<Text>"Хорошо, мой лорд, увидите ли вы, как хорошо устроены актёры? Слушайте, пусть их используют хорошо; ибо они — абстрактные и краткие хроники времени: после вашей смерти вам будет лучше иметь плохую эпитафию, чем их дурную репутацию, пока вы живы."[NEWLINE]–Гамлет, Акт II, Сцена 2.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GLOBE_THEATRE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GLOBE_THEATRE_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Построенный в 1599 году на улице Мейден Лейн в Лондоне по заказу «Лорда Chamberlain’s Men» — театральной компании, в которой Уильям Шекспир был акционером, Глобус стал одним из самых известных театров в мире, вобрав в себя несколько инноваций в дизайне.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GLOBE_THEATRE_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GLOBE_THEATRE_CHAPTER_HISTORY_PARA_2" Language="en_US">
 			<Text>В 1613 году Глобус сгорел до основания, когда соломенная крыша загорелась от пушечных выстрелов во время постановки "Генриха VIII"; его восстановили на том же месте в 1614 году, и он продолжал работать до 1642 года, когда был закрыт пуританами. Несмотря на то, что точные размеры театра неизвестны, известно, что Глобус был трёхэтажным, круглым амфитеатром с открытым небом, диаметром около 30 метров (100 футов) и вмещал около 300 зрителей.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GLOBE_THEATRE_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GLOBE_THEATRE_CHAPTER_HISTORY_PARA_3" Language="en_US">
 			<Text>Сцена была шириной 13 метров (43 фута), глубиной 8 метров (27 футов) и возвышалась на пять футов над землёй, позволяя использовать потайные двери.</Text>
 		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_CWON_DANTE_NAME" Language="ru_RU">
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_CWON_DANTE_NAME" Language="en_US">
 			<Text>Данте Алигьери</Text>
 		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_CWON_JOHN_DONNE_NAME" Language="ru_RU">
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_CWON_JOHN_DONNE_NAME" Language="en_US">
 			<Text>Джон Донн</Text>
 		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_CWON_MOLIERE_NAME" Language="ru_RU">
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_CWON_MOLIERE_NAME" Language="en_US">
 			<Text>Мольер</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_JOHN_DONNE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_JOHN_DONNE_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Джон Донн (22 января 1572 – 31 марта 1631) был английским поэтом и священником в Церкви Англии. Он считается выдающимся представителем метафизической поэзии. Его произведения известны своей сильной, чувственной манерой и включают сонеты, любовные стихотворения, религиозные стихи, латинские переводы, эпиграммы, элегии, песни, сатиры и проповеди. Его поэзия отмечена живостью языка и изобретательностью метафор, особенно по сравнению с его современниками. Стиль Донна характеризуется резкими началами, парадоксами, ирониями и нарушениями логики. Эти черты, а также его частые драматические или повседневные ритмы речи, напряжённая синтаксис и суровая красноречивость были как реакцией против гладкости традиционной елизаветинской поэзии, так и адаптацией в английском языке европейских барочных и маньеристских техник. Раннее творчество Донна было отмечено глубокими познаниями английского общества, которые он подвергал острой критике. Еще одной важной темой в его поэзии является идея истинной религии, о которой он много размышлял и о которой часто теоретизировал. Он писал как светские стихи, так и эротические и любовные. Он особенно известен своим мастерством метафизических сравнений. Несмотря на своё великое образование и поэтические таланты, Донн несколько лет жил в бедности, сильно полагаясь на состоятельных друзей. Он потратил большую часть унаследованных денег на женщин, литературу, развлечения и путешествия. В 1601 году Донн тайно женился на Анне Мур, с которой у него было двенадцать детей. В 1615 году он был рукоположён в диаконы, а затем в священники Англиканской церкви, хотя не хотел принимать священный сан и сделал это только по приказу короля. В 1621 году он был назначен деканом собора Святого Павла в Лондоне. Он также был членом Парламента в 1601 и 1614 годах.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_DANTE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_DANTE_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Джованни ди Алигьери, обычно известный под своим псевдонимом Данте Алигьери (около 1265 – 1321), был итальянским поэтом конца Средневековья. Его «Божественная комедия», первоначально называвшаяся «Комедия» и позже получившая название «Божественная» от Джованни Боккаччо, считается самым важным стихотворением Средневековья и величайшим литературным произведением на итальянском языке. В позднее Средневековье большинство поэзии писалось на латыни, что делало её доступной лишь для самых образованных читателей. Однако в «О благозвучии в народном языке» Данте отстаивал использование народного языка в литературе. Он даже писал на тосканском диалекте, таких произведений как «Новая жизнь» (1295) и «Божественная комедия»; этот весьма необычный выбор стал предвестием того, что важные последующие итальянские писатели, такие как Петрарка и Боккаччо, будут следовать этому примеру.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_MOLIERE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_MOLIERE_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Жан-Баптист По́клен, известный под сценическим псевдонимом Мольер (15 января 1622 – 17 февраля 1673), был французским драматургом, актёром и поэтом, широко признанным одним из величайших писателей на французском языке и в мировой литературе. Его сохранившиеся произведения включают комедии, фарсы, трагикомедии, комедийные балеты и другие. Его пьесы были переведены на все основные живые языки и ставятся в Комеди-Франсез чаще, чем пьесы любого другого драматурга. Его влияние так велико, что французский язык часто называют «языком Мольера».</Text>
 		</Row>
-		<Row Tag="LOC_GREATWORK_CWON_JOHN_DONNE_1_NAME" Language="ru_RU">
+		<Row Tag="LOC_GREATWORK_CWON_JOHN_DONNE_1_NAME" Language="en_US">
 			<Text>Девotions upon Emergent Occasions</Text>
 		</Row>
-		<Row Tag="LOC_GREATWORK_CWON_JOHN_DONNE_2_NAME" Language="ru_RU">
+		<Row Tag="LOC_GREATWORK_CWON_JOHN_DONNE_2_NAME" Language="en_US">
 			<Text>Песни и сонеты</Text>
 		</Row>
-		<Row Tag="LOC_GREATWORK_CWON_DANTE_2_NAME" Language="ru_RU">
+		<Row Tag="LOC_GREATWORK_CWON_DANTE_2_NAME" Language="en_US">
 			<Text>Парадиж</Text>
 		</Row>
-		<Row Tag="LOC_GREATWORK_CWON_DANTE_1_NAME" Language="ru_RU">
+		<Row Tag="LOC_GREATWORK_CWON_DANTE_1_NAME" Language="en_US">
 			<Text>Ад</Text>
 		</Row>
-		<Row Tag="LOC_GREATWORK_CWON_MOLIERE_1_NAME" Language="ru_RU">
+		<Row Tag="LOC_GREATWORK_CWON_MOLIERE_1_NAME" Language="en_US">
 			<Text>Мизантроп</Text>
 		</Row>
-		<Row Tag="LOC_GREATWORK_CWON_MOLIERE_2_NAME" Language="ru_RU">
+		<Row Tag="LOC_GREATWORK_CWON_MOLIERE_2_NAME" Language="en_US">
 			<Text>Тартюф</Text>
 		</Row>
 
-		<Row Tag="LOC_GREATWORK_CWON_JOHN_DONNE_1_QUOTE" Language="ru_RU">
+		<Row Tag="LOC_GREATWORK_CWON_JOHN_DONNE_1_QUOTE" Language="en_US">
 			<Text>Ни один человек не является островом, целым сам по себе; каждый человек — часть континента, часть целого; смерть любого человека уменьшает меня, потому что я связан с человечеством. И поэтому никогда не спрашивай, для кого звонит колокол; он звонит для тебя.</Text>
 		</Row>
-		<Row Tag="LOC_GREATWORK_CWON_JOHN_DONNE_2_QUOTE" Language="ru_RU">
+		<Row Tag="LOC_GREATWORK_CWON_JOHN_DONNE_2_QUOTE" Language="en_US">
 			<Text>Мы можем умереть от этого, если не жить ради любви, и если нам не место в могилах и катафалках, наша легенда будет достойна стихов; и если мы не будем частью хроник, мы построим в сонетах уютные комнаты; так же, как хорошо сделанная урна становится для величайших прахов, как и полугектарные могилы, и по этим гимнам все одобрят нас как канонизированных за любовь.</Text>
 		</Row>
-		<Row Tag="LOC_GREATWORK_CWON_DANTE_2_QUOTE" Language="ru_RU">
+		<Row Tag="LOC_GREATWORK_CWON_DANTE_2_QUOTE" Language="en_US">
 			<Text>Здесь силы моего воображения иссякли: но к тому времени моё желание и воля были обращены, как сбалансированное колесо, вращающееся равномерно, Любовью, которая движет солнцем и другими звездами.</Text>
 		</Row>
-		<Row Tag="LOC_GREATWORK_CWON_DANTE_1_QUOTE" Language="ru_RU">
+		<Row Tag="LOC_GREATWORK_CWON_DANTE_1_QUOTE" Language="en_US">
 			<Text>Как маленькие цветы, которые холод ночи согнул и склонил, когда белое солнце ударяет, они растут прямо и полностью раскрываются на своих стеблях, так и я, тоже, с моей исчерпанной силой.</Text>
 		</Row>
-		<Row Tag="LOC_GREATWORK_CWON_MOLIERE_1_QUOTE" Language="ru_RU">
+		<Row Tag="LOC_GREATWORK_CWON_MOLIERE_1_QUOTE" Language="en_US">
 			<Text>Если бы все были одеты в честность, если бы каждое сердце было справедливым, откровенным, добрым, другие добродетели были бы почти бесполезными, так как их главная цель — заставить нас терпеливо переносить несправедливость наших ближних.</Text>
 		</Row>
-		<Row Tag="LOC_GREATWORK_CWON_MOLIERE_2_QUOTE" Language="ru_RU">
+		<Row Tag="LOC_GREATWORK_CWON_MOLIERE_2_QUOTE" Language="en_US">
 			<Text>Те, чье поведение даёт повод для разговоров, всегда первыми нападают на своих соседей.</Text>
 		</Row>
 

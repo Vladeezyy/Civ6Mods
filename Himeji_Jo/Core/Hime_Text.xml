@@ -4,38 +4,37 @@
 <!-- DateCreated: 2/23/2024 2:37:16 PM -->
 <GameData>
 	<BaseGameText>
-		<Replace Tag="LOC_BUILDING_HIMEJI_JO_NAME" Language="ru_RU">
+		<Replace Tag="LOC_BUILDING_HIMEJI_JO_NAME" Language="en_US">
 			<Text>Замок Химэдзи</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_HIMEJI_JO_DESCRIPTION" Language="ru_RU">
+		<Replace Tag="LOC_BUILDING_HIMEJI_JO_DESCRIPTION" Language="en_US">
 			<Text>Боевые юниты получают +5 [ICON_Strength] к боевой мощи и +1 [ICON_Movement] к передвижению при сражении на своей территории. Мгновенно строит все уровни стен в этом городе.[NEWLINE][NEWLINE]Должен быть построен на равнинной местности, прилегающей к центру города.</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_HIMEJI_JO_QUOTE" Language="ru_RU">
+		<Replace Tag="LOC_BUILDING_HIMEJI_JO_QUOTE" Language="en_US">
 			<Text>"Бусидо осознается в присутствии смерти. Это значит выбирать смерть, когда есть выбор между жизнью и смертью. Другого рассуждения не существует."[NEWLINE]– Ямамото Цунэтомо</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HIMEJI_JO_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_HIMEJI_JO_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Замок Химэдзи — выдающийся японский замок и одно из самых красивых сооружений в мире. Построенный в XIV веке и значительно перестроенный и расширенный в конце XVI — начале XVII века Курода Ёситака и Икэда Тэрумаса, замок Химэдзи представляет собой высокую, внушительную многоэтажную конструкцию из камня и дерева с ослепительно белым фасадом и изящно изогнутыми крышами. Замок получил прозвище «Замок Белой Цапли».[NEWLINE][NEWLINE]Замок Химэдзи окружен запутанным лабиринтом тропинок, ведущих к главной башне. Стены и ворота были спроектированы так, чтобы заставить армию захватчиков двигаться по серии концентрических кругов с множеством тупиков, прежде чем добраться до главных ворот. Это растягивало нападающих, позволяя защитникам много раз обстреливать передовой отряд по пути. Эта гениальная система так и не была испытана, так как замок никогда не подвергался нападению в средневековую эпоху.[NEWLINE][NEWLINE]Хотя окружающая территория была сильно повреждена во время бомбардировок союзников во Второй мировой войне, сам замок почти не пострадал. В настоящее время он проходит масштабную реставрацию и остается одной из самых популярных туристических достопримечательностей Японии.</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_HIMEJI_WALL_NAME" Language="ru_RU">
+		<Replace Tag="LOC_BUILDING_HIMEJI_WALL_NAME" Language="en_US">
 			<Text>Широшиккуй сонури комэ дзукури</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_HIMEJI_WALL_DESCRIPTION" Language="ru_RU">
+		<Replace Tag="LOC_BUILDING_HIMEJI_WALL_DESCRIPTION" Language="en_US">
 			<Text>Здание, уникальное для замка Химэдзи. Требует меньше [ICON_Production] производства и обеспечивает более высокую внешнюю защиту, чем Ренессансные стены. Город получает дополнительный [ICON_Ranged] выстрел в ход.</Text>
 		</Replace>
-		<Replace Tag="LOC_ABILITY_HIMEJI_STR_DESCRIPTION" Language="ru_RU">
+		<Replace Tag="LOC_ABILITY_HIMEJI_STR_DESCRIPTION" Language="en_US">
 			<Text>+5 [ICON_Strength] к боевой мощи при сражении на своей территории.</Text>
 		</Replace>
-		<Replace Tag="LOC_MODFEAT_HIMEJI_STR" Language="ru_RU">
+		<Replace Tag="LOC_MODFEAT_HIMEJI_STR" Language="en_US">
 			<Text>От замка Химэдзи [ICON_Strength] Боевая мощь +5。</Text>
 		</Replace>
-		<Replace Tag="LOC_ABILITY_HIMEJI_MOV_DESCRIPTION" Language="ru_RU">
+		<Replace Tag="LOC_ABILITY_HIMEJI_MOV_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Movement] к передвижению на своей территории.</Text>
 		</Replace>
-
 	</BaseGameText>
 
 	<LocalizedText>
-	<Replace Tag="LOC_BUILDING_HIMEJI_JO_NAME" Language="ru_RU">
+		<Replace Tag="LOC_BUILDING_HIMEJI_JO_NAME" Language="ru_RU">
 			<Text>Замок Химэдзи</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HIMEJI_JO_DESCRIPTION" Language="ru_RU">
