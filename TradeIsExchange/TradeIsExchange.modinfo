@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c468d41d-7975-45b8-8459-58da843d9ae1" version="1">
+  <Properties>
+    <Name>Leugi's [COLOR:ResGoldLabelCS]Caravans &amp; Pilgrims:[ENDCOLOR] Religious Pressure from Trade</Name>
+    <Description>C&amp;P tweaks the amount of Religious Pressure exerted by trade. However in order to make this make sense it also changes some aspects of Trade itself and of Religious Units. It also adds a font icon for Religious Pressure. Also includes reworks for University of Sankore, Chichen Itza and Arabia to play more with Religious Pressure from Trade.</Description>
+    <Created>1724976358</Created>
+    <Teaser>Last Update: August 2024</Teaser>
+    <Authors>Leugi,</Authors>
+    <SpecialThanks>Sukritact</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="BetterTradeScreenMod">
+      <ModInUse>8d4fa23a-ef43-440c-8422-2bec11f8f5d7</ModInUse>
+    </Criteria>
+    <Criteria id="SettingsDisableArabiaRework">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LEU_CARAVANS_SETUP_ARABIA</ConfigurationId>
+        <Group>Game</Group>
+        <Value>0</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="SettingsDisableChichenItzaRework">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LEU_CARAVANS_SETUP_CHICHEN_ITZA</ConfigurationId>
+        <Group>Game</Group>
+        <Value>0</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="SettingsDisableSankoreRework">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LEU_CARAVANS_SETUP_SANKORE</ConfigurationId>
+        <Group>Game</Group>
+        <Value>0</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateText id="Tuxt">
+      <Properties>
+        <LoadOrder>51000</LoadOrder>
+      </Properties>
+      <File>ArabiaRework/ArabiaRework_Texts.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Cuns">
+      <File>ReligiousPressure/TradeTweaksIcons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="Urt">
+      <File>TradeIsExchange.dep</File>
+    </UpdateArt>
+    <UpdateText id="TextReplacer">
+      <Properties>
+        <LoadOrder>50000</LoadOrder>
+      </Properties>
+      <File>ReligiousPressure/TradeTweaksTexts.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="CPSetup">
+      <File>Settings/CaravansAndPilgrims_Configuration.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="CPSetupText">
+      <File>Settings/CaravansAndPilgrims_ConfigurationTexts.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="BasePressureTweaks">
+      <Properties>
+        <LoadOrder>50000</LoadOrder>
+      </Properties>
+      <File>ReligiousPressure/TradeTweaks.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="BasePressureTweaksText">
+      <Properties>
+        <LoadOrder>50000</LoadOrder>
+      </Properties>
+      <File>ReligiousPressure/TradeTweaksTexts.sql</File>
+    </UpdateText>
+    <UpdateIcons id="BasePressureFontIcon">
+      <File>ReligiousPressure/TradeTweaksIcons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="BasePressureFontIconArts">
+      <File>TradeIsExchange.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="ChichenItzaRework">
+      <Properties>
+        <LoadOrder>51000</LoadOrder>
+      </Properties>
+      <File>ChichenItzaRework/ChichenItzaRework_Database.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ChichenItzaReworkText">
+      <Properties>
+        <LoadOrder>51000</LoadOrder>
+      </Properties>
+      <File>ChichenItzaRework/ChichenItzaRework_Texts.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="InculturationBelief">
+      <Properties>
+        <LoadOrder>51000</LoadOrder>
+      </Properties>
+      <File>InculturationBelief/InculturationBelief_Database.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="InculturationBeliefIcons">
+      <File>InculturationBelief/InculturationBelief_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="InculturationTexts">
+      <Properties>
+        <LoadOrder>51000</LoadOrder>
+      </Properties>
+      <File>InculturationBelief/Inculutarion_Texts.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="TradePolicies">
+      <Properties>
+        <LoadOrder>51000</LoadOrder>
+      </Properties>
+      <File>Policies/TradePolicies_Database.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="TradePoliciesText">
+      <Properties>
+        <LoadOrder>51000</LoadOrder>
+      </Properties>
+      <File>Policies/TradePolicies_Texts.sql</File>
+    </UpdateText>
+    <UpdateIcons id="TradePoliciesIcons">
+      <File>Policies/TradePolicies_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateDatabase id="SankoreRework">
+      <Properties>
+        <LoadOrder>51000</LoadOrder>
+      </Properties>
+      <File>SankoreRework/SankoreRework.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="SankoreReworkText">
+      <Properties>
+        <LoadOrder>51000</LoadOrder>
+      </Properties>
+      <File>SankoreRework/SankoreRework_Texts.sql</File>
+    </UpdateText>
+    <AddGameplayScripts id="SankoreReworkScripts">
+      <File>SankoreRework/Lua/SankoreBinaryMagiks.lua</File>
+    </AddGameplayScripts>
+    <AddGameplayScripts id="PressureBurstScript">
+      <File>ReligiousPressure/Lua/PressureOnTradePass_Gameplay.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="PressureBurstUIScript">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>ReligiousPressure/Lua/PressureOnTradePass_UI.xml</File>
+    </AddUserInterfaces>
+    <AddGameplayScripts id="ChichenItzaReworkScripts">
+      <File>ChichenItzaRework/Lua/TradeFromNaturalWonder.lua</File>
+    </AddGameplayScripts>
+    <UpdateDatabase id="ArabiaRework">
+      <Properties>
+        <LoadOrder>51000</LoadOrder>
+      </Properties>
+      <File>ArabiaRework/ArabiaRework_Database.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ArabiaReworkTexts">
+      <Properties>
+        <LoadOrder>51000</LoadOrder>
+      </Properties>
+      <File>ArabiaRework/ArabiaRework_Texts.sql</File>
+    </UpdateText>
+    <ImportFiles id="TradeScreenFix">
+      <Properties>
+        <LoadOrder>50000</LoadOrder>
+      </Properties>
+      <Criteria>BetterTradeScreenMod</Criteria>
+      <File>Replacements/TradeSupport.lua</File>
+      <File>Replacements/TradeRouteChooser.lua</File>
+      <File>Replacements/TradeOverview.lua</File>
+    </ImportFiles>
+    <DoNothing id="DisableArabiaRework">
+      <Criteria>SettingsDisableArabiaRework</Criteria>
+      <Exclude mod_id="c468d41d-7975-45b8-8459-58da843d9ae1" action_id="ArabiaRework" />
+      <Exclude mod_id="c468d41d-7975-45b8-8459-58da843d9ae1" action_id="ArabiaReworkTexts" />
+    </DoNothing>
+    <DoNothing id="DisableChichenItzaRework">
+      <Criteria>SettingsDisableChichenItzaRework</Criteria>
+      <Exclude mod_id="c468d41d-7975-45b8-8459-58da843d9ae1" action_id="ChichenItzaRework" />
+      <Exclude mod_id="c468d41d-7975-45b8-8459-58da843d9ae1" action_id="ChichenItzaReworkText" />
+      <Exclude mod_id="c468d41d-7975-45b8-8459-58da843d9ae1" action_id="ChichenItzaReworkScripts" />
+    </DoNothing>
+    <DoNothing id="DisableSankoreRework">
+      <Criteria>SettingsDisableSankoreRework</Criteria>
+      <Exclude mod_id="c468d41d-7975-45b8-8459-58da843d9ae1" action_id="SankoreRework" />
+      <Exclude mod_id="c468d41d-7975-45b8-8459-58da843d9ae1" action_id="SankoreReworkText" />
+      <Exclude mod_id="c468d41d-7975-45b8-8459-58da843d9ae1" action_id="SankoreReworkScripts" />
+    </DoNothing>
+  </InGameActions>
+  <Files>
+    <File>ArabiaRework/ArabiaRework_Database.sql</File>
+    <File>ArabiaRework/ArabiaRework_Texts.sql</File>
+    <File>ArtDefs/Lenses.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/UI.artdef</File>
+    <File>ChichenItzaRework/ChichenItzaRework_Database.sql</File>
+    <File>ChichenItzaRework/ChichenItzaRework_Texts.sql</File>
+    <File>ChichenItzaRework/Lua/TradeFromNaturalWonder.lua</File>
+    <File>InculturationBelief/InculturationBelief_Database.sql</File>
+    <File>InculturationBelief/InculturationBelief_Icons.sql</File>
+    <File>InculturationBelief/Inculutarion_Texts.sql</File>
+    <File>Platforms/MacOS/BLPs/OverlayTexture.blp</File>
+    <File>Platforms/MacOS/BLPs/UILensAsset.blp</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/OverlayTexture.blp</File>
+    <File>Platforms/Windows/BLPs/UILensAsset.blp</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Policies/TradePolicies_Database.sql</File>
+    <File>Policies/TradePolicies_Icons.sql</File>
+    <File>Policies/TradePolicies_Texts.sql</File>
+    <File>ReligiousPressure/Lua/PressureOnTradePass_Gameplay.lua</File>
+    <File>ReligiousPressure/Lua/PressureOnTradePass_UI.lua</File>
+    <File>ReligiousPressure/Lua/PressureOnTradePass_UI.xml</File>
+    <File>ReligiousPressure/TradeTweaks.sql</File>
+    <File>ReligiousPressure/TradeTweaksIcons.sql</File>
+    <File>ReligiousPressure/TradeTweaksTexts.sql</File>
+    <File>Replacements/TradeOverview.lua</File>
+    <File>Replacements/TradeRouteChooser.lua</File>
+    <File>Replacements/TradeRouteChooser.xml</File>
+    <File>Replacements/TradeSupport.lua</File>
+    <File>ReynaRework/Lua/ReynaTradingPostCounting_UI.xml</File>
+    <File>ReynaRework/ReynaRework_Database.sql</File>
+    <File>ReynaRework/ReynaRework_Texts.sql</File>
+    <File>SankoreRework/Lua/SankoreBinaryMagiks.lua</File>
+    <File>SankoreRework/SankoreRework.sql</File>
+    <File>SankoreRework/SankoreRework_Texts.sql</File>
+    <File>Settings/CaravansAndPilgrims_Configuration.sql</File>
+    <File>Settings/CaravansAndPilgrims_ConfigurationTexts.sql</File>
+    <File>Textures/Leu_ReligiousPressure_22.dds</File>
+    <File>TradeIsExchange.Art.xml</File>
+    <File>TradeIsExchange.dep</File>
+  </Files>
+</Mod>
