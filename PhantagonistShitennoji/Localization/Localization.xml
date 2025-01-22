@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <GameData>
 	<LocalizedText>
-		
-		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_NAME" Language="en_US">
-			<Text>Shitennō-ji</Text>
+
+		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_NAME" Language="ru_RU">
+			<Text>Ситэннодзи</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_DESCRIPTION" Language="en_US">
-			<Text>Grants an Apostle, a Missionary, an Inquisitor and a Warrior Monk. Religious units and Warrior Monks receive +50% flanking bonus and do not suffer combat penalties when damaged. Must be built adjacent to a Holy Site district with a Temple, and you must have founded a Religion.</Text>
+		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет Апостола, Миссионера, Инквизитора и Воина-монаха. Религиозные юниты и Воины-монахи получают бонус фланговой атаки +50% и не испытывают боевых штрафов при повреждениях. Должен быть построен рядом с районом Святилище, где есть Храм, и вы должны основать Религию.</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_QUOTE" Language="en_US">
-			<Text>“Sincerely reverence the three treasures. The three treasures, viz. Buddha, the Law and the Priesthood, are the final refuge of the four generated beings, and are the supreme objects of faith in all countries.”[NEWLINE]– Prince Shōtoku, Seventeen-article Constitution</Text>
+		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_QUOTE" Language="ru_RU">
+			<Text>«Искренне почитайте три сокровища. Три сокровища — Будда, Закон и Духовенство — являются конечным убежищем для всех живых существ и высшими объектами веры во всех странах.»[NEWLINE]– Принц Сётоку, Конституция из семнадцати статей</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_SHITENNOJI_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Shitennō-ji was built in 593 as the oldest officially-administered Buddhist temple in Japan. According to Nihon Shoki, when Prince Shōtoku, a supporter of Buddhism, fought against the anti-Buddhist Mononobe clan, he carved statues of the Four Heavenly Kings of Buddhism out of nurude (nutgall wood), and made a vow to build a temple to house the Four Heavenly Kings if he could defeat the Mononobe clan. The temple that was built after the victory was Shitennō-ji, literally Temple of the Four Heavenly Kings. Shitennō-ji was not only a symbol of the rooting of Buddhism in Japan as the state religion, but its symmetrical architectural pattern also profoundly influenced the architectural style of Buddhist temples in Japan. Shitennō-ji has been destroyed and rebuilt in many natural and man-made disasters over the years, and now the temple has been reconstructed, in steel and concrete, to recreate the architecture of the Asuka Period.</Text>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_SHITENNOJI_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Ситэннодзи был построен в 593 году как первый официально управляемый буддийский храм в Японии. Согласно Нихон Сёки, когда принц Сётоку, сторонник буддизма, сражался против антибуддийского клана Мононобэ, он вырезал статуи Четырёх Небесных Царей буддизма из дерева нуруде (орехового дерева) и дал обет построить храм для этих статуй, если сможет победить клан Мононобэ. Храм, построенный после победы, получил название Ситэннодзи, что буквально означает «Храм Четырёх Небесных Царей». Ситэннодзи стал не только символом укоренения буддизма в Японии как государственной религии, но и его симметричная архитектурная планировка глубоко повлияла на стиль буддийских храмов в Японии. Ситэннодзи был разрушен и восстановлен много раз из-за природных и рукотворных катастроф, и теперь храм реконструирован из стали и бетона для воссоздания архитектуры периода Асука.</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_PHANTA_SHITENNOJI_DESCRIPTION" Language="en_US">
-			<Text>+50% flanking bonus and do not suffer combat penalties when damaged. (Shitennō-ji)</Text>
+		<Row Tag="LOC_ABILITY_PHANTA_SHITENNOJI_DESCRIPTION" Language="ru_RU">
+			<Text>+50% бонус фланговой атаки и отсутствие боевых штрафов при повреждениях. (Ситэннодзи)</Text>
 		</Row>
-			
+
+
 		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_NAME" Language="zh_Hans_CN">
 			<Text>四天王寺</Text>
 		</Row>
@@ -33,8 +34,8 @@
 		<Row Tag="LOC_ABILITY_PHANTA_SHITENNOJI_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+50%夹击加成，且受伤后不会蒙受战斗力减益。（四天王寺）</Text>
 		</Row>
-		
-		
+
+
 		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_NAME" Language="zh_Hant_HK">
 			<Text>四天王寺</Text>
 		</Row>
@@ -50,7 +51,7 @@
 		<Row Tag="LOC_ABILITY_PHANTA_SHITENNOJI_DESCRIPTION" Language="zh_Hant_HK">
 			<Text>+50%側翼攻擊加成，且受傷後不會蒙受戰鬥力減益。（四天王寺）</Text>
 		</Row>
-		
+
 		<Row Tag="LOC_BUILDING_PHANTA_SHITENNOJI_NAME" Language="ja_JP">
 			<Text>四天王寺</Text>
 		</Row>
