@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_BUILDING_STOCKHOLM_C_NAME" Language="ru_RU">
+			<Text>Стокгольмская ратуша</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STOCKHOLM_C_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_GreatPerson] очков Великих Личностей всех типов в каждом городе с тайлом тундры в пределах 3 тайлов от его центра. Должна быть построена рядом с рекой, рядом с центром города и на тайле тундры или снега.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STOCKHOLM_C_QUOTE" Language="ru_RU">
+			<Text>«Она вывела меня, дочь господина, к Агнафиту на берег океана; и оказалось правдой то, что она тогда сказала: что никогда больше я не вернусь.» [NEWLINE]- Сага об Орваре Одде</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_STOCKHOLM_C_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>На вершине пепелища после Пожара Века возвышается Стокгольмская ратуша, с видом на озеро Меларен. Внутри нее расположены десятки конференц-залов и церемониальных комнат. И каждую ночь 10 декабря здесь проводится Нобелевский банкет.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BUILDING_STOCKHOLM_C_NAME" Language="zh_Hans_CN">
+			<Text>斯德哥尔摩市政厅</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STOCKHOLM_C_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有3单元格内有冻土的城市+50% [ICON_GreatPerson] 伟人点数。必须建造在邻近河流和市中心的冻土或雪地上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STOCKHOLM_C_QUOTE" Language="zh_Hans_CN">
+			<Text>「她，领主的女儿，领我到海边的阿格那菲特；她如此真切地告诉我，我将永无归期。」[NEWLINE]——奥尔瓦·奥德的萨迦</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_STOCKHOLM_C_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>在斯德哥尔摩世纪大火的灰烬之上，坐落着斯德哥尔摩市政厅，正面对着梅拉伦湖。这座建筑有几十个会议室和仪式大厅。每年12月10日晚上，这里都会举行诺贝尔奖晚宴。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_STOCKHOLM_C_NAME" Language="zh_Hant_HK">
+			<Text>斯德哥爾摩市政廳</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STOCKHOLM_C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>所有3單元格內有凍土的城市+50% [ICON_GreatPerson] 偉人點數。必須建造在鄰近河流和市中心的凍土或雪地上。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STOCKHOLM_C_QUOTE" Language="zh_Hant_HK">
+			<Text>「她，領主的女兒，領我到海邊的阿格那菲特；她如此真切地告訴我，我將永無歸期。」[NEWLINE]——奧爾瓦·奧德的薩迦</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_STOCKHOLM_C_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>在斯德哥爾摩世紀大火的灰燼之上，坐落著斯德哥爾摩市政廳，正面對著梅拉倫湖。這座建築有幾十個會議室和儀式大廳。每年12月10日晚上，這裡都會舉行諾貝爾獎晚宴。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_STOCKHOLM_C_NAME" Language="ja_JP">
+			<Text>ストックホルム市庁舎</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STOCKHOLM_C_DESCRIPTION" Language="ja_JP">
+			<Text>都心から3タイル以内にツンドラがあるすべての都市のターン毎の [ICON_GreatPerson] 偉人ポイント+100%。都心に隣接する川沿いのツンドラまたは雪原にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STOCKHOLM_C_QUOTE" Language="ja_JP">
+			<Text>「彼女、主の娘は私を海辺のアグナフィットに導いてくれた。あの時、彼女は、私はもう二度と戻ってこれないと告げた言葉は、あまりにも真実だった。」[NEWLINE]– オルヴァール・オッドのサガ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_STOCKHOLM_C_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ストックホルム世紀の大火の灰の上に、メーラレン湖の方角を向いて建つストックホルム市庁舎。その中には、何十もの会議室やセレモニーホールがある。そして、毎晩12月10日には、ノーベル賞の晩餐会が開かれる。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

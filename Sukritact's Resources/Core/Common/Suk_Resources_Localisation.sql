@@ -1,59 +1,48 @@
 --========================================================================================================================
--- Текст для локализации
+-- LocalizedText
 --========================================================================================================================
 INSERT OR REPLACE INTO BaseGameText
 		(Tag,					Text)
 VALUES
 --========================================================================================================================
--- Сыр
+-- Cheese
 --========================================================================================================================
-		("ru_RU", "LOC_RESOURCE_SUK_CHEESE_NAME",
-		"Сыр"),
-
-		("ru_RU", "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SUK_CHEESE_CHAPTER_HISTORY_PARA_1",
-		"Сыр — это продукт питания, получаемый из молока, который производится в широком ассортименте вкусов, текстур и форм. Существует сотни типов сыра, производимых в разных странах. Их стиль, текстура и вкус зависят от происхождения молока (включая диету животного), было ли оно пастеризовано, содержания жира, бактерий и плесени, способа обработки и выдержки. В качестве ароматизаторов могут использоваться травы, специи или дым от дерева. Желтый и красный цвет многих сыров, таких как Ред Лестер, получается за счет добавления аннато. В некоторые сыры могут добавляться такие ингредиенты, как черный перец, чеснок, зелёный лук или клюква."),
-
+		("LOC_RESOURCE_SUK_CHEESE_NAME",
+		"Cheese"	),
+		("LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SUK_CHEESE_CHAPTER_HISTORY_PARA_1",
+		"Cheese is a food derived from milk that is produced in a wide range of flavors, textures, and forms. Hundreds of types of cheese from various countries are produced. Their styles, textures and flavors depend on the origin of the milk (including the animal's diet), whether they have been pasteurized, the butterfat content, the bacteria and mold, the processing, and aging. Herbs, spices, or wood smoke may be used as flavoring agents. The yellow to red color of many cheeses, such as Red Leicester, is produced by adding annatto. Other ingredients may be added to some cheeses, such as black pepper, garlic, chives or cranberries."),
 --========================================================================================================================
--- Верблюды
+-- Camels
 --========================================================================================================================
-		("ru_RU", "LOC_RESOURCE_SUK_CAMEL_NAME",
-		"Верблюды"),
-
-		("ru_RU", "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SUK_CAMEL_CHAPTER_HISTORY_PARA_1",
-		"Арабские верблюды были одомашнены примерно 3 500 лет назад и долгое время ценились как вьючные животные. Они могут переносить большие грузы на расстояние до 40 километров в день. В некоторых культурах богатство человека оценивается по количеству верблюдов, которые ему принадлежат. Сегодня почти все верблюды в мире являются домашними животными. Они обитают в Северной Африке и Южно-Западной Азии, а также были введены в Австралию."),
-
+		("LOC_RESOURCE_SUK_CAMEL_NAME",
+		"Camels"	),
+		("LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SUK_CAMEL_CHAPTER_HISTORY_PARA_1",
+		"Arabian camels have been domesticated for approximately 3,500 years and have been long valued as pack animals. They can carry large loads for up to 25 miles a day. Some cultures judge a person's wealth based on the number of camels they own. Today, nearly all of the world's camels are domestic animals. They are found in northern Africa and southwestern Asia, and have been introduced to Australia."),
 --========================================================================================================================
--- Обсидиан
+-- Obsidian
 --========================================================================================================================
-		("ru_RU", "LOC_RESOURCE_SUK_OBSIDIAN_NAME",
-		"Обсидиан"),
-
-		("ru_RU", "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SUK_OBSIDIAN_CHAPTER_HISTORY_PARA_1",
-		"Обсидиан — это вид стекла, образующийся во время вулканических извержений, и он обладает всеми основными физическими свойствами обычного стекла. Обсидиан был важной частью повседневной и ритуальной жизни Мезоамерики, и его широкое и разнообразное использование может быть значительным фактором в отсутствии металлургии в регионе. Этот материал высоко ценился и использовался для всего, от оружия до ювелирных изделий."),
-
+		("LOC_RESOURCE_SUK_OBSIDIAN_NAME",
+		"Obsidian"	),
+		("LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SUK_OBSIDIAN_CHAPTER_HISTORY_PARA_1",
+		"Obsidian is a kind of glass formed during volcanic eruptions, and it shares all of the basic physical properties of ordinary glass. Obsidian was a highly integrated part of the daily and ritual life of Mesoamerica, and its widespread and varied use may be a significant contributor to the region's lack of metallurgy. The material was highly valued, and was used for everything from weaponry to jewelry."),
 --========================================================================================================================
--- Золото
+-- Gold
 --========================================================================================================================
-		("ru_RU", "LOC_RESOURCE_GOLD_NAME",
-		"Золото"),
-
-		("ru_RU", "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_GOLD_CHAPTER_HISTORY_PARA_1",
-		"Золото — мягкий, блестящий и пластичный металл, который ценился людьми на протяжении всей истории. Это редкий металл, и его редкость значительно повышает его ценность. Несмотря на то, что золото имеет некоторые промышленное и медицинские применения, в первую очередь оно используется в качестве монет или для декоративных целей, украшая ювелирные изделия, чаши, столовые приборы и унитазы супербогатых и могущественных."),
-
+		("LOC_RESOURCE_GOLD_NAME",
+		"Gold"	),
+		("LOC_PEDIA_RESOURCES_PAGE_RESOURCE_GOLD_CHAPTER_HISTORY_PARA_1",
+		"Gold is a soft, shiny and malleable metal, and it has been prized by men and women throughout history. It is a rare metal, and its rarity greatly adds to its value. Although it has some industrial and medicinal purposes, gold is used primarily as coinage or for decorative purposes, adorning jewelry, cups, utensils and the commodes of the super-rich and powerful."),
 --========================================================================================================================
--- Акулы
+-- Shark
 --========================================================================================================================
-		("ru_RU", "LOC_RESOURCE_SUK_SHARK_NAME",
-		"Акулы"),
-
-		("ru_RU", "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SUK_SHARK_CHAPTER_HISTORY_PARA_1",
-		"От Юкатана до Тихоокеанских островов акулы играют ведущую роль в мифах о происхождении многих прибрежных обществ. Когда люди начали выходить в море для торговли и исследования, встречи с акулами стали частью морских легенд. На самом деле именно акулы нуждаются в отпугивателе: люди гораздо более склонны съесть их, чем наоборот. В Китае суп из акульих плавников долгое время считался символом статуса. В Исландии хакарл — национальное блюдо, приготовленное из зелёной акулы. Мясо акул популярно в Австралии, где оно известно как флейк. В Восточной Африке и на островах Индийского океана мясо акул торговалось и служило значительным источником белка на протяжении многих веков."),
-
+		("LOC_RESOURCE_SUK_SHARK_NAME",
+		"Sharks"	),
+		("LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SUK_SHARK_CHAPTER_HISTORY_PARA_1",
+		"From the Yucatan to the Pacific Islands, sharks play a leading role in the origin myths of many coastal societies. As humans took to the sea for trade and exploration, deadly shark encounters became a part of seafaring lore. In reality, sharks are the ones who need a repellent: humans are much more likely to devour them than vice versa. In China, a meal of shark fin soup has long served as a status symbol. In Iceland, hákarl is a national dish prepared using Greenland shark. Shark meat is popular in Australia, where it is known as flake. And in Eastern Africa and islands in the Indian Ocean, shark meat has been traded and has been a significant source of protein for centuries."),
 --========================================================================================================================
--- Бизоны
+-- Bison
 --========================================================================================================================
-		("ru_RU", "LOC_RESOURCE_DLV_BISON_NAME",
-		"Бизоны"),
-
-		("ru_RU", "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_DLV_BISON_CHAPTER_HISTORY_PARA_1",
-		"Североамериканский бизон, который когда-то заполнял Великие равнины огромными стадами, был основным источником мяса, сухожилий, шкуры и костей, необходимых для выживания многих коренных племён. Почти до исчезновения в конце 1800-х годов, в последние десятилетия бизоны восстановились благодаря федеральным и государственным природоохранным программам.")
+		("LOC_RESOURCE_DLV_BISON_NAME",
+		"Bison"	),
+		("LOC_PEDIA_RESOURCES_PAGE_RESOURCE_DLV_BISON_CHAPTER_HISTORY_PARA_1",
+		"The North American bison, which once covered the Great Plains in massive herds, was the primary source for the meat, sinew, hide and bone necessary for survival by many native tribes. Hunted to near extinction by Americans in the late 1800s, in recent decades the buffalo has made a comeback due to federal and state wildlife programs.");

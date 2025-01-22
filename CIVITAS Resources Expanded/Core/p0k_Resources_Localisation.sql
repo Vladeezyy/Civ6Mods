@@ -5,71 +5,57 @@ INSERT OR REPLACE INTO BaseGameText
 		(Tag,					Text)
 VALUES
 --========================================================================================================================
--- Обновления пантеона
+-- Pantheon Updates
 --========================================================================================================================
-("en_US", "LOC_BELIEF_GODDESS_OF_FESTIVALS_DESCRIPTION",
-"+1 [ICON_Food] Еда с [ICON_RESOURCE_WINE] Вина, [ICON_RESOURCE_INCENSE] Ладан, [ICON_RESOURCE_P0K_PAPYRUS] Папирус, [ICON_RESOURCE_P0K_MAPLE] Клён, [ICON_RESOURCE_COCOA] Какао, [ICON_RESOURCE_TOBACCO] Табак, [ICON_RESOURCE_COFFEE] Кофе, и [ICON_RESOURCE_TEA] Чайные плантации."),
-
-("en_US", "LOC_BELIEF_ORAL_TRADITION_DESCRIPTION",
-"+1 [ICON_Culture] Культура с [ICON_RESOURCE_BANANAS] Бананов, [ICON_RESOURCE_CITRUS] Цитрусовых, [ICON_RESOURCE_CVS_POMEGRANATES] Гранатов, [ICON_RESOURCE_P0K_PLUMS] Слив, [ICON_RESOURCE_COTTON] Хлопка, [ICON_RESOURCE_DYES] Красителей, [ICON_RESOURCE_SILK] Шёлка, [ICON_RESOURCE_SPICES] Специй, и [ICON_RESOURCE_SUGAR] Сахарных плантаций."),
-
+		("LOC_BELIEF_GODDESS_OF_FESTIVALS_DESCRIPTION",
+		"+1 [ICON_Food] Food from [ICON_RESOURCE_WINE] Wine, [ICON_RESOURCE_INCENSE] Incense, [ICON_RESOURCE_P0K_PAPYRUS] Papyrus, [ICON_RESOURCE_P0K_MAPLE] Maple, [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_TOBACCO] Tobacco, [ICON_RESOURCE_COFFEE] Coffee,  and [ICON_RESOURCE_TEA] Tea Plantations."),
+		("LOC_BELIEF_ORAL_TRADITION_DESCRIPTION",
+		"+1 [ICON_Culture] Culture from [ICON_RESOURCE_BANANAS] Banana, [ICON_RESOURCE_CITRUS] Citrus, [ICON_RESOURCE_CVS_POMEGRANATES] Pomegranates, [ICON_RESOURCE_P0K_PLUMS] Plums, [ICON_RESOURCE_COTTON] Cotton, [ICON_RESOURCE_DYES] Dyes, [ICON_RESOURCE_SILK] Silk, [ICON_RESOURCE_SPICES] Spices, and [ICON_RESOURCE_SUGAR] Sugar Plantations."),
 --========================================================================================================================
--- Пингвины
+-- Penguins
 --========================================================================================================================
-("en_US", "LOC_RESOURCE_P0K_PENGUINS_NAME",  
-"Пингвины"),
-
-("en_US", "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_P0K_PENGUINS_CHAPTER_HISTORY_PARA_1",
-"Пингвины широко любимы по всему миру, в первую очередь за их необычную прямостоящую походку, впечатляющие способности к плаванию и (по сравнению с другими птицами) отсутствие страха перед людьми. Их яркое чёрно-белое оперение часто сравнивают с костюмом с белым галстуком. Ошибочно некоторые художники и писатели размещали пингвинов на Северном полюсе. Хотя почти все виды пингвинов являются коренными жителями Южного полушария, они не встречаются только в холодных климатах, таких как Антарктида. На самом деле, лишь несколько видов пингвинов живут так далеко на юге. Несколько видов встречаются в умеренном климате, а один вид, галапагосский пингвин, живёт рядом с экватором. Большинство пингвинов питаются крилем, рыбой, кальмарами и другими формами морской жизни, которые они ловят, плавя под водой. Они проводят около половины своей жизни на суше и половину — в океанах."),
-
+		("LOC_RESOURCE_P0K_PENGUINS_NAME",  
+		"Penguins"	),
+		("LOC_PEDIA_RESOURCES_PAGE_RESOURCE_P0K_PENGUINS_CHAPTER_HISTORY_PARA_1",
+		"Penguins are popularly loved around the world, primarily for their unusually upright, waddling gait, impressive swimming ability and (compared to other birds) lack of fear of humans. Their striking black-and-white plumage is often likened to a white tie suit. Mistakenly, some artists and writers have penguins based at the North Pole. Although almost all penguin species are native to the Southern Hemisphere, they are not found only in cold climates, such as Antarctica. In fact, only a few species of penguin live so far south. Several species are found in the temperate zone, and one species, the Galapagos penguin, lives near the equator. Most penguins feed on krill, fish, squid and other forms of sea life caught while swimming underwater. They spend about half of their lives on land and half in the oceans."),
 --========================================================================================================================
--- Гранаты
+-- Pomegranates
 --========================================================================================================================	
-("en_US", "LOC_RESOURCE_CVS_POMEGRANATES_NAME",  
-"Гранаты"),
-
-("en_US", "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_CVS_POMEGRANATES_CHAPTER_HISTORY_PARA_1",
-"Древние египтяне считали гранат символом процветания и амбиций. Согласно Эберсовому папирусу, одному из старейших медицинских текстов около 1500 года до нашей эры, египтяне использовали гранат для лечения ленточных червей и других инфекций. Греки были знакомы с этим фруктом задолго до того, как он был введён в Рим через Карфаген, и он фигурирует в нескольких мифах и произведениях искусства. В древнегреческой мифологии гранат был известен как 'плод мёртвых' и считался выросшим из крови Адониса."),
-
+		("LOC_RESOURCE_CVS_POMEGRANATES_NAME",  
+		"Pomegranates"	),
+		("LOC_PEDIA_RESOURCES_PAGE_RESOURCE_CVS_POMEGRANATES_CHAPTER_HISTORY_PARA_1",
+		"Ancient Egyptians regarded the pomegranate as a symbol of prosperity and ambition. According to the Ebers Papyrus, one of the oldest medical writings from around 1500 BC, Egyptians used the pomegranate for treatment of tapeworm and other infections. The Greeks were familiar with the fruit far before it was introduced to Rome via Carthage, and it figures in multiple myths and artworks. In Ancient Greek mythology, the pomegranate was known as the 'fruit of the dead' and believed to have sprung from the blood of Adonis."),
 --========================================================================================================================
--- Папирус
+-- Papyrus
 --========================================================================================================================		
-("en_US", "LOC_RESOURCE_P0K_PAPYRUS_NAME",
-"Папирус"),
-
-("en_US", "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_P0K_PAPYRUS_CHAPTER_HISTORY_PARA_1",
-"Как письменный материал, папирус использовался для гимнов, религиозных текстов, духовных наставлений, писем, официальных документов, провозглашений, любовных стихов, медицинских текстов, научных или технических руководств, учёта, магических трактатов и литературы. Сохранившиеся свитки варьируются от фрагментов до целых страниц, таких как знаменитый Эберсов папирус, который насчитывает 110 страниц на свитке длиной 20 метров. Эберсов папирус — это медицинский текст, который часто цитируется как доказательство того, как медицина и магия были взаимосвязаны в Древнем Египте. Вместе с другими папирусами, такими как Кахунский гинекологический папирус, Лондонский медицинский папирус и папирус Эдвина Смита, эти работы свидетельствуют о гигантском медицинском знании и мастерстве древних египтян и о том, как они лечили различные травмы, болезни и серьёзные состояния, такие как рак и болезни сердца. В медицинских текстах Египта также рассматриваются случаи тревожности, депрессии и травм, а также такие темы, как аборты, контрацепция, менструальные боли и бесплодие."),
-
+		("LOC_RESOURCE_P0K_PAPYRUS_NAME",
+		"Papyrus"		),
+		("LOC_PEDIA_RESOURCES_PAGE_RESOURCE_P0K_PAPYRUS_CHAPTER_HISTORY_PARA_1",
+		"As a writing material, papyrus was used for hymns, religious texts, spiritual admonitions, letters, official documents, proclamations, love poems, medical texts, scientific or technical manuals, record-keeping, magical treatises, and literature. Extant scrolls range from fragments to one page to the famous Ebers Papyrus which is 110 pages long on a scroll sixty-five feet (20 metres) long. The Ebers Papyrus is a medical text which is routinely cited as evidence of how medicine and magic were interrelated in ancient Egypt. Along with other papyrus scrolls like the Kahun Gynaecological Papyrus, the London Medical Papyrus, and the Edwin Smith Papyrus, to name only a few, these works attest to the vast medical knowledge and skill of the ancient Egyptians and how they went about addressing major and minor injuries, various ailments, and serious conditions such as cancer and heart disease. Cases of anxiety, depression, and trauma are also dealt with in the medical texts of Egypt as are subjects like abortion, birth control, menstrual cramps, and infertility."),
 --========================================================================================================================
--- Клён
+-- Maple
 --========================================================================================================================		
-("en_US", "LOC_RESOURCE_P0K_MAPLE_NAME",
-"Клён"),
-
-("en_US", "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_P0K_MAPLE_CHAPTER_HISTORY_PARA_1",
-"Первые французские и английские поселенцы в Северной Америке быстро научились от восточных коренных американских племён пользоваться дарами кленов. Эти пионеры вскоре начали делать свой собственный кленовый сахар и сироп из сладкого сока сахарного клёна. С красного клена они научились делать чернила и красители. Поселенец Джон Смит был одним из первых, кто описал процесс производства сахара, используемого коренными американцами. Он также отметил другие интересные способы использования кленовых деревьев, например, тот факт, что коренные американцы варили лекарство от кашля из внутренней коры. И сегодня, как и в древности, кленовое дерево является популярным выбором для изготовления мебели, шкафов, полов и хозяйственных предметов."),
-
+		("LOC_RESOURCE_P0K_MAPLE_NAME",
+		"Maple"		),
+		("LOC_PEDIA_RESOURCES_PAGE_RESOURCE_P0K_MAPLE_CHAPTER_HISTORY_PARA_1",
+		"The earliest French and English settlers in North America were quick to learn the bounty of maples from the eastern Native American tribes. These pioneers were soon making their own maple sugar and syrup from the sweet sap of the sugar maple. From the red maple, they learned to make ink and dyes. Settler John Smith was one of the first to describe the sugar-making process used by Native Americans. He noted other interesting maple tree uses, like the fact Native Americans brewed cough medicine from the inner bark. And today as in early times, maple wood is a favorite choice for fine furniture, cabinetry, flooring, and household utensils."),
 --========================================================================================================================
--- Опал
+-- Opal
 --========================================================================================================================		
-("en_US", "LOC_RESOURCE_P0K_OPAL_NAME",
-"Опал"),
-
-("en_US", "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_P0K_OPAL_CHAPTER_HISTORY_PARA_1",
-"Писатели сравнивают опалы с вулканами, галактиками и фейерверками. Поклонники даровали исключительным опалам поэтические имена, такие как Пандора, Свет мира и Императрица. В Древнем Риме этот камень символизировал любовь и надежду. Многие культуры приписывают опалу сверхъестественное происхождение и силы. По арабским легендам, он падает с небес в вспышках молний. Древние греки верили, что опалы дают их владельцам дар пророчества и защищают их от болезней. Европейцы давно считают этот камень символом надежды, чистоты и правды."),
-
+		("LOC_RESOURCE_P0K_OPAL_NAME",
+		"Opal"		),
+		("LOC_PEDIA_RESOURCES_PAGE_RESOURCE_P0K_OPAL_CHAPTER_HISTORY_PARA_1",
+		"Writers have compared opals to volcanoes, galaxies, and fireworks. Admirers gave extraordinary opals poetic names like Pandora, Light of the World, and Empress. In ancient Rome, this gem symbolized love and hope. Many cultures have credited opal with supernatural origins and powers. Arabic legends say it falls from the heavens in flashes of lightning. The ancient Greeks believed opals gave their owners the gift of prophecy and guarded them from disease. Europeans have long considered the gem a symbol of hope, purity, and truth."),
 --========================================================================================================================
--- Сливы
+-- Plums
 --========================================================================================================================		
-("en_US", "LOC_RESOURCE_P0K_PLUMS_NAME",
-"Сливы"),
-
-("en_US", "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_P0K_PLUMS_CHAPTER_HISTORY_PARA_1",
-"Вероятно, что сливы были одними из первых фруктов, одомашненных человеком. Записанная история сливы уходит в Древнюю Грецию, когда культивация таких фруктов уже была установлена в Европе и Западной Азии. На самом деле сливы предположительно входили в число множества растений, выращиваемых в Висячих садах Вавилона. Древние римляне были знакомы более чем с 300 сортами этого сочного фрукта."),
-
+		("LOC_RESOURCE_P0K_PLUMS_NAME",
+		"Plums"		),
+		("LOC_PEDIA_RESOURCES_PAGE_RESOURCE_P0K_PLUMS_CHAPTER_HISTORY_PARA_1",
+		"It is likely that plums were among the first fruits domesticated by man. The recorded history of the plum family goes back to ancient Greece, when the cultivation of such fruit had already been established for centuries in Europe and western Asia. Indeed, plums were supposedly among the many plants grown in the Hanging Gardens of Babylon. The ancient Romans were familiar with over 300 varieties of this succulent fruit.");
 --========================================================================================================================
--- Совместимость с R&F
+-- R&F Compatibility
 --========================================================================================================================		
 INSERT OR REPLACE INTO BaseGameText
 		(Tag,					Text)
-SELECT	'LOC_BELIEF_GODDESS_OF_FESTIVALS_DESCRIPTION',	'+1 [ICON_Food] Еда с [ICON_RESOURCE_WINE] Вина, [ICON_RESOURCE_INCENSE] Ладана, [ICON_RESOURCE_P0K_PAPYRUS] Папируса, [ICON_RESOURCE_P0K_MAPLE] Клёна, [ICON_RESOURCE_COCOA] Какао, [ICON_RESOURCE_TOBACCO] Табака, [ICON_RESOURCE_OLIVES] Олив, [ICON_RESOURCE_COFFEE] Кофе, и [ICON_RESOURCE_TEA] Чайных плантаций.' FROM BaseGameText WHERE Tag='LOC_RESOURCE_OLIVES_NAME';
+SELECT	'LOC_BELIEF_GODDESS_OF_FESTIVALS_DESCRIPTION',	'+1 [ICON_Food] Food from [ICON_RESOURCE_WINE] Wine, [ICON_RESOURCE_INCENSE] Incense, [ICON_RESOURCE_P0K_PAPYRUS] Papyrus, [ICON_RESOURCE_P0K_MAPLE] Maple, [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_TOBACCO] Tobacco, [ICON_RESOURCE_OLIVES] Olives, [ICON_RESOURCE_COFFEE] Coffee, and [ICON_RESOURCE_TEA] Tea Plantations.' FROM BaseGameText WHERE Tag='LOC_RESOURCE_OLIVES_NAME';

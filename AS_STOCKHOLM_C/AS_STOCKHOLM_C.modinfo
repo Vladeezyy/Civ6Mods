@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7f54fa10-4311-45c7-9d99-97ed344ad658" version="1">
+  <Properties>
+    <Name>Bastrod's - Stockholm City Hall (World Wonder)</Name>
+    <Description>This mod adds the Stockholm City Hall as a Wonder.</Description>
+    <Created>1683452179</Created>
+    <Teaser>Custom Wonder, Stockholm City Hall</Teaser>
+    <Authors>Bastrod</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>AS_STOCKHOLM_C_Gameplay.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>AS_STOCKHOLM_C_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>AS_STOCKHOLM_C_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <File>AS_STOCKHOLM_C.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Animations/WON_Stockholm_Movie.anm</File>
+    <File>Animations/WON_Stockholm_Movie.fgx</File>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Assets/BUILDING_STOCKHOLM_C.ast</File>
+    <File>Assets/WON_Stockholm.ast</File>
+    <File>AS_STOCKHOLM_C.Art.xml</File>
+    <File>AS_STOCKHOLM_C.dep</File>
+    <File>AS_STOCKHOLM_C_Gameplay.xml</File>
+    <File>AS_STOCKHOLM_C_Icons.xml</File>
+    <File>AS_STOCKHOLM_C_Text.xml</File>
+    <File>Geometries/stadshusCIV.fgx</File>
+    <File>Geometries/stadshusCIV.geo</File>
+    <File>Geometries/WON_Stockholm_Movie_Camera.fgx</File>
+    <File>Geometries/WON_Stockholm_Movie_Camera.geo</File>
+    <File>Materials/Stockholm_Built.mtl</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AO</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Base Color_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Emmisiison</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Metalness</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/UITextures.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Base Color_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Emmisiison</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>Textures/AO.dds</File>
+    <File>Textures/AO.tex</File>
+    <File>Textures/Base Color.dds</File>
+    <File>Textures/Base Color.tex</File>
+    <File>Textures/emission.dds</File>
+    <File>Textures/emission.tex</File>
+    <File>Textures/emissionies.dds</File>
+    <File>Textures/emissionies.tex</File>
+    <File>Textures/Emmisiison.dds</File>
+    <File>Textures/Emmisiison.tex</File>
+    <File>Textures/Gloss.dds</File>
+    <File>Textures/Gloss.tex</File>
+    <File>Textures/Icon_Stockholm_C_128.dds</File>
+    <File>Textures/Icon_Stockholm_C_128.tex</File>
+    <File>Textures/Icon_Stockholm_C_256.dds</File>
+    <File>Textures/Icon_Stockholm_C_256.tex</File>
+    <File>Textures/Icon_Stockholm_C_32.dds</File>
+    <File>Textures/Icon_Stockholm_C_32.tex</File>
+    <File>Textures/Icon_Stockholm_C_38.dds</File>
+    <File>Textures/Icon_Stockholm_C_38.tex</File>
+    <File>Textures/Icon_Stockholm_C_50.dds</File>
+    <File>Textures/Icon_Stockholm_C_50.tex</File>
+    <File>Textures/Icon_Stockholm_C_64.dds</File>
+    <File>Textures/Icon_Stockholm_C_64.tex</File>
+    <File>Textures/Metalness.dds</File>
+    <File>Textures/Metalness.tex</File>
+    <File>Textures/Normal.dds</File>
+    <File>Textures/Normal.tex</File>
+  </Files>
+</Mod>

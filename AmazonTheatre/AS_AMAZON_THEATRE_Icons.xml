@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AS_AMAZON_THEATRE_Icons -->
+<!-- Author: bastrod -->
+<!-- DateCreated: 1/13/2024 7:24:16 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_AMAZON_THEATRE_ICON" IconSize="32" Filename="Icon_Amazon_32"/>
+		<Row Name="ATLAS_AMAZON_THEATRE_ICON" IconSize="38" Filename="Icon_Amazon_38"/>
+		<Row Name="ATLAS_AMAZON_THEATRE_ICON" IconSize="50" Filename="Icon_Amazon_50"/>
+		<Row Name="ATLAS_AMAZON_THEATRE_ICON" IconSize="80" Filename="Icon_Amazon_80"/>
+		<Row Name="ATLAS_AMAZON_THEATRE_ICON" IconSize="128" Filename="Icon_Amazon_128"/>
+		<Row Name="ATLAS_AMAZON_THEATRE_ICON" IconSize="256" Filename="Icon_Amazon_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_AMAZON_THEATRE" Atlas="ATLAS_AMAZON_THEATRE_ICON" Index="0"/>
+	</IconDefinitions>
+</GameData>

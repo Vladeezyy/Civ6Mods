@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Real Governor Inspector
+	Author: Infixo       
+	2020-06-03: Created
+-->
+
+<GameData>
+
+<LocalizedText>
+
+	<Replace Tag="LOC_RGI_WINDOW_TITLE" Language="ru_RU"><!-- skalozubio lang weren't indicate-->
+		<Text>Инспектор губернаторов</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_BUTTON_LABEL" Language="ru_RU">
+		<Text>Губернаторы</Text>
+	</Replace>
+	<!--
+	<Replace Tag="LOC_GOVERNOR_ASSIGNMENT_CONFIRM_REPLACEMENT">
+			<Text>REPLACE GOVERNOR? Slotting this governor will replace the governor in this city.</Text>
+	</Replace>
+		<Replace Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ASSIGN_TO">
+			<Text>Assign {1_GovernorName} to:</Text>
+		</Replace>
+	-->
+	<!-- VICTOR -->
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT" Language="ru_RU">
+		<Text>Проект ядерного оружия в городе[NEWLINE][COLOR_Gray]Прирост производства основан на общем производстве в городе, и, поскольку другие модификаторы уже включены, он может быть больше фактического прироста.[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS" Language="ru_RU">
+		<Text>Улучшенные стратегические ресурсы в городе.</Text>
+	</Replace>
+	<!-- MAGNUS -->
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER" Language="ru_RU">
+		<Text>Количество особенностей и ресурсов, которые можно убрать или собрать, с разбивкой по урожайности, которую они могут принести в городе.</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS" Language="ru_RU">
+		<Text>Количество ваших торговых маршрутов [ICON_TradeRoute], заканчивающихся в городе.</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST" Language="ru_RU">
+		<Text>Тип электростанции в городе.</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION" Language="ru_RU">
+		<Text>Количество дополнительных зданий промышленной зоны, которые могут обеспечить городу бонусное производство.</Text>
+	</Replace>
+	<!-- LIANG -->
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_AQUACULTURE" Language="ru_RU">
+		<Text>Количество рыбных промыслов в городе.</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_PARKS_RECREATION" Language="ru_RU">
+		<Text>Количество городских парков в городе</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_WATER_WORKS" Language="ru_RU">
+		<Text>Количество районов в городе, предоставляющих бонусы (разбитые на доовльство / жилье).</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_ZONING_COMMISSIONER" Language="ru_RU">
+		<Text>Район, производимый в городе. [NEWLINE][COLOR_Gray] Прирост производства основан на общем производстве в городе, и, поскольку другие модификаторы уже включены, он может быть больше фактического прироста.[ENDCOLOR]</Text>
+	</Replace>
+	<!-- PINGALA -->
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN" Language="ru_RU">
+		<Text>[COLOR_Gray]Прирост пищи основан на общем урожае города, и, поскольку другие модификаторы уже включены, он может быть больше фактического прироста.[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR" Language="ru_RU">
+		<Text>Количество [ICON_Citizen] горожан в городе.</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER" Language="ru_RU">
+		<Text>Количество [ICON_Citizen] горожан в городе</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_GRANTS" Language="ru_RU">
+		<Text>Дополнительные очки [ICON_GreatPerson] великих людей, генерируемые за ход в городе. [NEWLINE][COLOR_Gray] Сюда входят только базовые очки великих людей из районов и зданий. [ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_CURATOR" Language="ru_RU">
+		<Text>Количество великих произведений искусства, музыки и письменности в городе.</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE" Language="ru_RU">
+		<Text>Проект космической программы в городе. [NEWLINE][COLOR_Gray] Прирост производства основан на общем производстве в городе, и, поскольку другие модификаторы уже включены, он может быть больше фактического прироста. [ENDCOLOR]</Text>
+	</Replace>
+	<!-- REYNA -->
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION" Language="ru_RU">
+		<Text>Количество иностранных [ICON_TradeRoute] торговых путей, проходящих через город.</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT" Language="ru_RU">
+		<Text>Количество неулучненных клеток в городе.</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY" Language="ru_RU">
+		<Text>Количество подходящих возобновляемых источников энергии в городе.</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR" Language="ru_RU">
+		<Text>Количество [ICON_Citizen] горожан в городе.</Text>
+	</Replace>
+
+</LocalizedText>
+
+</GameData>
