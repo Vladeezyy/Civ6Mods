@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e0d75451-a653-44e6-852d-d6b9bdf46398" version="1">
+  <Properties>
+    <Name>Terra Mirabilis (Russian Translation)</Name>
+    <Description>Russian translation for Terra Mirabilis.</Description>
+    <Created>1591110812</Created>
+    <Teaser>Russian translation for Terra Mirabilis.</Teaser>
+    <Authors>Portland Trail Blazers</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateText id="TM_Translation_Russian">
+      <Properties>
+        <LoadOrder>5</LoadOrder>
+      </Properties>
+      <File>Translation/TM_Localisation_ru_RU.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Translation/TM_Localisation_ru_RU.sql</File>
+  </Files>
+</Mod>
