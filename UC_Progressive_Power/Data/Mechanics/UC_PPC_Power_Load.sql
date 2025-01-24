@@ -1,0 +1,141 @@
+-- UC_PPC_Power_Load
+-- Author: JNR
+--------------------------------------------------------------
+
+-- Buildings_XP2
+--------------------------------------------------------------
+UPDATE Buildings_XP2 SET
+							RequiredPower=1
+WHERE BuildingType IN (SELECT BuildingType FROM Buildings_JNRUCPPC_PowerTierYields WHERE Tier=3 AND Yield<>'HAPPINESS');
+
+UPDATE Buildings_XP2 SET
+							RequiredPower=2
+WHERE BuildingType IN (SELECT BuildingType FROM Buildings_JNRUCPPC_PowerTierYields WHERE Tier=3 AND Yield='HAPPINESS');
+
+INSERT OR IGNORE INTO Buildings_XP2
+		(BuildingType,		RequiredPower)
+SELECT	BuildingType,		1
+FROM Buildings_JNRUCPPC_PowerTierYields WHERE Tier=3 AND Yield<>'HAPPINESS';
+
+INSERT OR IGNORE INTO Buildings_XP2
+		(BuildingType,		RequiredPower)
+SELECT	BuildingType,		2
+FROM Buildings_JNRUCPPC_PowerTierYields WHERE Tier=3 AND Yield='HAPPINESS';
+--------------------------------------------------------------
+
+-- RequirementSets
+--------------------------------------------------------------
+INSERT OR IGNORE INTO RequirementSets
+		(RequirementSetId,						RequirementSetType)
+VALUES	('PLAYER_HAS_INDUSTRIALIZATION_JNR',	'REQUIREMENTSET_TEST_ALL'),
+		('PLAYER_HAS_ELECTRICITY_JNR',			'REQUIREMENTSET_TEST_ALL'),
+		('PLAYER_HAS_COMPUTERS_JNR',			'REQUIREMENTSET_TEST_ALL'),
+		('PLAYER_IS_AI_IS_MODERN_ERA_JNR',		'REQUIREMENTSET_TEST_ALL'),
+		('PLAYER_IS_AI_IS_ATOMIC_ERA_JNR',		'REQUIREMENTSET_TEST_ALL'),
+		('PLAYER_IS_AI_IS_INFORMATION_ERA_JNR',	'REQUIREMENTSET_TEST_ALL'),
+		('PLAYER_IS_AI_IS_FUTURE_ERA_JNR',		'REQUIREMENTSET_TEST_ALL');
+--------------------------------------------------------------
+
+-- RequirementSetRequirements
+--------------------------------------------------------------
+INSERT OR IGNORE INTO RequirementSetRequirements
+		(RequirementSetId,						RequirementId)
+VALUES	('PLAYER_HAS_INDUSTRIALIZATION_JNR',	'PLAYER_HAS_TECH_INDUSTRIALIZATION'),
+		('PLAYER_HAS_ELECTRICITY_JNR',			'REQUIRES_PLAYER_HAS_ELECTRICITYTECHNOLOGY'),
+		('PLAYER_HAS_COMPUTERS_JNR',			'PLAYER_HAS_TECH_COMPUTERS'),
+		('PLAYER_IS_AI_IS_MODERN_ERA_JNR',		'REQUIRES_PLAYER_IS_AI'),
+		('PLAYER_IS_AI_IS_MODERN_ERA_JNR',		'REQUIRES_PLAYER_IS_MODERN_ERA_JNR'),
+		('PLAYER_IS_AI_IS_ATOMIC_ERA_JNR',		'REQUIRES_PLAYER_IS_AI'),
+		('PLAYER_IS_AI_IS_ATOMIC_ERA_JNR',		'REQUIRES_PLAYER_IS_ATOMIC_ERA_JNR'),
+		('PLAYER_IS_AI_IS_INFORMATION_ERA_JNR',	'REQUIRES_PLAYER_IS_AI'),
+		('PLAYER_IS_AI_IS_INFORMATION_ERA_JNR',	'REQUIRES_PLAYER_IS_INFORMATION_ERA_JNR'),
+		('PLAYER_IS_AI_IS_FUTURE_ERA_JNR',		'REQUIRES_PLAYER_IS_AI'),
+		('PLAYER_IS_AI_IS_FUTURE_ERA_JNR',		'REQUIRES_PLAYER_IS_FUTURE_ERA_JNR');
+--------------------------------------------------------------
+
+-- Modifiers
+--------------------------------------------------------------
+INSERT OR IGNORE INTO Modifiers
+		(ModifierId,									ModifierType,									SubjectRequirementSetId)
+VALUES	('JNR_POWER_CONSUMPTION_INDUSTRIALIZATION',		'MODIFIER_SINGLE_CITY_ADJUST_REQUIRED_POWER',	'PLAYER_HAS_INDUSTRIALIZATION_JNR'),
+		('JNR_POWER_CONSUMPTION_ELECTRICITY',			'MODIFIER_SINGLE_CITY_ADJUST_REQUIRED_POWER',	'PLAYER_HAS_ELECTRICITY_JNR'),
+		('JNR_POWER_CONSUMPTION_COMPUTERS',				'MODIFIER_SINGLE_CITY_ADJUST_REQUIRED_POWER',	'PLAYER_HAS_COMPUTERS_JNR'),
+		('JNR_POWER_CONSUMPTION_ATOMIC_TECH',			'MODIFIER_SINGLE_CITY_ADJUST_REQUIRED_POWER',	'PLAYER_HAS_ATOMIC_TECH'),
+		('JNR_POWER_CONSUMPTION_INFORMATION_TECH',		'MODIFIER_SINGLE_CITY_ADJUST_REQUIRED_POWER',	'PLAYER_HAS_INFORMATION_TECH'),
+		('JNR_POWER_CONSUMPTION_FUTURE_TECH',			'MODIFIER_SINGLE_CITY_ADJUST_REQUIRED_POWER',	'PLAYER_HAS_FUTURE_TECH'),
+		('JNR_POWER_CONSUMPTION_AI_FREE_POWER_MODERN',	'MODIFIER_PLAYER_CITIES_ADJUST_FREE_POWER',		'PLAYER_IS_AI_IS_MODERN_ERA_JNR'),
+		('JNR_POWER_CONSUMPTION_AI_FREE_POWER_ATOMIC',	'MODIFIER_PLAYER_CITIES_ADJUST_FREE_POWER',		'PLAYER_IS_AI_IS_ATOMIC_ERA_JNR'),
+		('JNR_POWER_CONSUMPTION_AI_FREE_POWER_INFORM',	'MODIFIER_PLAYER_CITIES_ADJUST_FREE_POWER',		'PLAYER_IS_AI_IS_INFORMATION_ERA_JNR'),
+		('JNR_POWER_CONSUMPTION_AI_FREE_POWER_FUTURE',	'MODIFIER_PLAYER_CITIES_ADJUST_FREE_POWER',		'PLAYER_IS_AI_IS_FUTURE_ERA_JNR');
+--------------------------------------------------------------
+
+-- ModifierArguments
+--------------------------------------------------------------
+INSERT OR IGNORE INTO ModifierArguments
+		(ModifierId,									Name,			Value)
+VALUES	('JNR_POWER_CONSUMPTION_INDUSTRIALIZATION',		'Amount',		1),
+		('JNR_POWER_CONSUMPTION_ELECTRICITY',			'Amount',		1),	
+		('JNR_POWER_CONSUMPTION_COMPUTERS',				'Amount',		1),	
+		('JNR_POWER_CONSUMPTION_ATOMIC_TECH',			'Amount',		1),	
+		('JNR_POWER_CONSUMPTION_INFORMATION_TECH',		'Amount',		1),	
+		('JNR_POWER_CONSUMPTION_FUTURE_TECH',			'Amount',		1),
+		('JNR_POWER_CONSUMPTION_AI_FREE_POWER_MODERN',	'Amount',		1),
+		('JNR_POWER_CONSUMPTION_AI_FREE_POWER_MODERN',	'SourceType',	'FREE_POWER_SOURCE_MISC'),
+		('JNR_POWER_CONSUMPTION_AI_FREE_POWER_ATOMIC',	'Amount',		1),
+		('JNR_POWER_CONSUMPTION_AI_FREE_POWER_ATOMIC',	'SourceType',	'FREE_POWER_SOURCE_MISC'),
+		('JNR_POWER_CONSUMPTION_AI_FREE_POWER_INFORM',	'Amount',		1),
+		('JNR_POWER_CONSUMPTION_AI_FREE_POWER_INFORM',	'SourceType',	'FREE_POWER_SOURCE_MISC'),
+		('JNR_POWER_CONSUMPTION_AI_FREE_POWER_FUTURE',	'Amount',		1),
+		('JNR_POWER_CONSUMPTION_AI_FREE_POWER_FUTURE',	'SourceType',	'FREE_POWER_SOURCE_MISC');
+--------------------------------------------------------------
+
+-- BuildingModifiers
+--------------------------------------------------------------
+INSERT OR IGNORE INTO BuildingModifiers
+		(BuildingType,	ModifierId)
+SELECT	 BuildingType,	'JNR_POWER_CONSUMPTION_ELECTRICITY'			FROM Buildings_JNRUCPPC_PowerTierYields WHERE Tier=2;
+
+INSERT OR IGNORE INTO BuildingModifiers
+		(BuildingType,	ModifierId)
+SELECT	 BuildingType,	'JNR_POWER_CONSUMPTION_ATOMIC_TECH'			FROM Buildings_JNRUCPPC_PowerTierYields WHERE Tier=3 AND Yield<>'HAPPINESS';
+
+INSERT OR IGNORE INTO BuildingModifiers
+		(BuildingType,	ModifierId)
+SELECT	 BuildingType,	'JNR_POWER_CONSUMPTION_INFORMATION_TECH'	FROM Buildings_JNRUCPPC_PowerTierYields WHERE Tier=3;
+
+INSERT OR IGNORE INTO BuildingModifiers
+		(BuildingType,	ModifierId)
+SELECT	 BuildingType,	'JNR_POWER_CONSUMPTION_FUTURE_TECH'			FROM Buildings_JNRUCPPC_PowerTierYields WHERE Tier=3;
+--------------------------------------------------------------
+
+-- DistrictModifiers
+--------------------------------------------------------------
+INSERT OR IGNORE INTO DistrictModifiers
+		(DistrictType,					ModifierId)
+VALUES	('DISTRICT_CITY_CENTER',		'JNR_POWER_CONSUMPTION_INDUSTRIALIZATION'),
+		('DISTRICT_CITY_CENTER',		'JNR_POWER_CONSUMPTION_ELECTRICITY'),
+		('DISTRICT_AQUEDUCT',			'JNR_POWER_CONSUMPTION_COMPUTERS'),
+		('DISTRICT_NEIGHBORHOOD',		'JNR_POWER_CONSUMPTION_COMPUTERS');
+
+INSERT OR IGNORE INTO DistrictModifiers
+		(DistrictType,					ModifierId)
+SELECT	 CivUniqueDistrictType,			'JNR_POWER_CONSUMPTION_COMPUTERS'			FROM DistrictReplaces WHERE ReplacesDistrictType='DISTRICT_AQUEDUCT';
+
+INSERT OR IGNORE INTO DistrictModifiers
+		(DistrictType,					ModifierId)
+SELECT	 CivUniqueDistrictType,			'JNR_POWER_CONSUMPTION_COMPUTERS'			FROM DistrictReplaces WHERE ReplacesDistrictType='DISTRICT_NEIGHBORHOOD';
+--------------------------------------------------------------
+
+-- TraitModifiers
+--------------------------------------------------------------
+INSERT OR IGNORE INTO TraitModifiers
+		(TraitType,					ModifierId)
+VALUES	('TRAIT_LEADER_MAJOR_CIV',	'JNR_POWER_CONSUMPTION_AI_FREE_POWER_MODERN'),
+		('TRAIT_LEADER_MAJOR_CIV',	'JNR_POWER_CONSUMPTION_AI_FREE_POWER_ATOMIC'),
+		('TRAIT_LEADER_MAJOR_CIV',	'JNR_POWER_CONSUMPTION_AI_FREE_POWER_INFORM'),
+		('TRAIT_LEADER_MAJOR_CIV',	'JNR_POWER_CONSUMPTION_AI_FREE_POWER_FUTURE'),
+		('MINOR_CIV_DEFAULT_TRAIT',	'JNR_POWER_CONSUMPTION_AI_FREE_POWER_MODERN'),
+		('MINOR_CIV_DEFAULT_TRAIT',	'JNR_POWER_CONSUMPTION_AI_FREE_POWER_ATOMIC'),
+		('MINOR_CIV_DEFAULT_TRAIT',	'JNR_POWER_CONSUMPTION_AI_FREE_POWER_INFORM'),
+		('MINOR_CIV_DEFAULT_TRAIT',	'JNR_POWER_CONSUMPTION_AI_FREE_POWER_FUTURE');
+--------------------------------------------------------------

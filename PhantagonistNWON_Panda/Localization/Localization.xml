@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_FEATURE_PHANTA_WOLONG_NAME" Language="ru_RU">
+			<Text>Волун</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_PHANTA_WOLONG_DESCRIPTION" Language="ru_RU">
+			<Text>Одноплиточное непреодолимое природное чудо. Обеспечивает +1 [ICON_Science] Науку и +1 [ICON_Faith] Веру для прилегающих клеток. Предоставляет копию ресурса роскоши [ICON_RESOURCE_PHANTA_WOLONG_GIANT_PANDA] Гигантская панда цивилизации, владеющей этой клеткой, и её объявленным друзьям. Этот ресурс нельзя получить никаким другим способом в игре и он даёт 12 [ICON_Amenities] Довольства.</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_PHANTA_WOLONG_QUOTE" Language="ru_RU">
+			<Text>«Гигантская панда — это не только драгоценное сокровище китайского народа, но и природное историческое наследие, вызывающее озабоченность во всем мире. Она живет не только в густых лесах и бамбуковых зарослях гор, но и в самых глубоких уголках наших умов.»[NEWLINE]– Ху Цзинчу</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_PHANTA_WOLONG_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Горные хребты и густые леса центрального Китая являются природными средами обитания ценных видов, таких как гигантская панда, носатые обезьяны и такины, которые оказались под угрозой из-за вырубки лесов и браконьерства. В 1963 году был создан Национальный природный заповедник Волун в восточной части гор Цюнлай (Волун буквально означает «скрытый дракон»). Его первоначальный размер составлял 20 000 гектаров, позже он был увеличен до 200 000 гектаров, что делает его третьим по величине заповедником Китая. Национальный природный заповедник Волун был создан для защиты эндемичных видов, находящихся под угрозой исчезновения, таких как гигантская панда, с целью обеспечения их сохранения как in-situ, так и ex-situ.</Text>
+		</Row>
+		<Row Tag="LOC_RESOURCE_PHANTA_WOLONG_GIANT_PANDA_NAME" Language="ru_RU">
+			<Text>Гигантская панда</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PHANTA_WOLONG_GIANT_PANDA_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Гигантская панда хорошо известна и любима за свою культовую чёрно-белую окраску и округлое тело. Несмотря на хищное происхождение и пищеварительную систему, гигантская панда питается преимущественно травяной пищей, главным образом бамбуком. Гигантские панды обитают в горных хребтах и густых лесах центрального Китая и считаются национальным сокровищем страны. Существует также дипломатическая практика отправки гигантских панд из Китая в другие страны, известная как «панда-дипломатия». Хотя гигантские панды были под угрозой исчезновения из-за сочетания вырубки лесов и браконьерства, были предприняты большие усилия для их защиты, включая создание заповедников, таких как Национальный природный заповедник Волун. Несмотря на то что численность диких гигантских панд продолжает расти благодаря десятилетиям законодательства по защите среды обитания, мероприятиям по сохранению in-situ и ex-situ, предстоит ещё многое сделать для их сохранения и защиты других находящихся под угрозой видов.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_FEATURE_PHANTA_WOLONG_NAME" Language="zh_Hans_CN">
+			<Text>卧龙</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_PHANTA_WOLONG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占据1个单元格，不可通行的自然奇观。为相邻单元格提供+1 [ICON_Science] 科技值和+1 [ICON_Faith] 信仰值。此单元格的拥有者及与其宣布友好的文明获得 [ICON_RESOURCE_PHANTA_WOLONG_GIANT_PANDA] 大熊猫奢侈品资源，在游戏里不能通过其他方式获得，提供12 [ICON_Amenities] 宜居度。</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_PHANTA_WOLONG_QUOTE" Language="zh_Hans_CN">
+			<Text>大熊猫不仅是中国人民的宝贵财富，也是全世界关注的自然历史遗产。它不仅生活在山野密林竹丛之中，也同时扎根于人们的心灵里。[NEWLINE]——胡锦矗</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_PHANTA_WOLONG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>中国中部的高山密林是大熊猫、金丝猴和羚牛等珍稀物种的自然栖息地，牠们因伐林和偷猎等因素而濒危。卧龙国家级自然保护区在1963成立于四川邛崍山脈东部，面积2万公顷，后来扩大至20万公顷，是中国第三大的自然保护区。卧龙国家级自然保护区旨在保护包括大熊猫在内的当地珍稀物种，以原地保育和异地保育等方式确保这些物种得以延续。</Text>
+		</Row>
+		<Row Tag="LOC_RESOURCE_PHANTA_WOLONG_GIANT_PANDA_NAME" Language="zh_Hans_CN">
+			<Text>大熊猫</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PHANTA_WOLONG_GIANT_PANDA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>大熊猫以黑白相间的皮毛和圆滚滚的体型而广为人知，人见人爱。尽管大熊猫有食肉动物的起源和消化系统，牠们主要以竹子为食。大熊猫生活在中国中部的高山密林中，被视为这个国家的国宝。中国还有将大熊猫派出国外推进国际关系的外交方式，被称为“熊猫外交”。虽然大熊猫曾因森林砍伐和偷猎而濒临灭绝，但人们为保护牠们做出巨大努力，包括建立卧龙国家级自然保护区等自然保护区。虽然得益于数十年的栖息地保护法例、原地保育和异地保育工作，野生大熊猫的数量持续上升，但对大熊猫与其他濒危物种的保育工作依然任重而道远。</Text>
+		</Row>
+
+		<Row Tag="LOC_FEATURE_PHANTA_WOLONG_NAME" Language="zh_Hant_HK">
+			<Text>臥龍</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_PHANTA_WOLONG_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>佔據1個單元格，不可通行的自然奇觀。為相鄰單元格提供+1 [ICON_Science] 科技值和+1 [ICON_Faith] 信仰值。此單元格的擁有者及與其宣布友好的文明獲得 [ICON_RESOURCE_PHANTA_WOLONG_GIANT_PANDA] 大熊貓奢侈品資源，在遊戲里不能通過其他方式獲得，提供12 [ICON_Amenities] 滿意度。</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_PHANTA_WOLONG_QUOTE" Language="zh_Hant_HK">
+			<Text>「大熊貓不僅是中國人民的寶貴財富，也是全世界關注的自然歷史遺產。它不僅生活在山野密林竹叢之中，也同時紮根於人們的心靈里。」[NEWLINE]——胡錦矗</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_PHANTA_WOLONG_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>中國中部的高山密林是大熊貓、金絲猴和羚牛等珍稀物種的自然棲息地，牠們因伐林和偷獵等因素而瀕危。臥龍國家級自然保護區在1963成立於四川邛崍山脈東部，面積2萬公頃，後來擴大至20萬公頃，是中國第三大的自然保護區。臥龍國家級自然保護區旨在保護包括大熊貓在內的當地珍稀物種，以原地保育和異地保育等方式確保這些物種得以延續。</Text>
+		</Row>
+		<Row Tag="LOC_RESOURCE_PHANTA_WOLONG_GIANT_PANDA_NAME" Language="zh_Hant_HK">
+			<Text>大熊貓</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PHANTA_WOLONG_GIANT_PANDA_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>大熊貓以黑白相間的皮毛和圓滾滾的體型而廣為人知，人見人愛。儘管大熊貓有食肉動物的起源和消化系統，牠們主要以竹子為食。大熊貓生活在中國中部的高山密林中，被視為這個國家的國寶。中國還有將大熊貓派出國外推進國際關系的外交方式，被稱為「熊貓外交」。雖然大熊貓曾因森林砍伐和偷獵而瀕臨滅絕，但人們為保護牠們做出巨大努力，包括建立臥龍國家級自然保護區等自然保護區。雖然得益於數十年的棲息地保護法例、原地保育和異地保育工作，野生大熊貓的數量持續上升，但對大熊貓與其他瀕危物種的保育工作依然任重而道遠。</Text>
+		</Row>
+
+		<Row Tag="LOC_FEATURE_PHANTA_WOLONG_NAME" Language="ja_JP">
+			<Text>臥龍</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_PHANTA_WOLONG_DESCRIPTION" Language="ja_JP">
+			<Text>1タイルの自然遺産。通行不可。隣接するタイルは [ICON_Science] 科学力+1、 [ICON_Faith] 信仰力+1。このタイルを所有する文明、およびその文明と友好宣言を行う者に、高級資源の [ICON_RESOURCE_PHANTA_WOLONG_GIANT_PANDA] ジャイアントパンダを与える。 [ICON_RESOURCE_PHANTA_WOLONG_GIANT_PANDA] ジャイアントパンダは [ICON_Amenities] 快適性12を供給する。この資源を手に入れる他の手段はゲーム内に存在しない。</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_PHANTA_WOLONG_QUOTE" Language="ja_JP">
+			<Text>「ジャイアントパンダは中国人のかけがえのない宝だけでなく、世界的に注目されている自然歴史遺産でもある。山の密林や竹藪に生息しているだけでなく、人々の心にも根付いている。」[NEWLINE]– 胡錦矗</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_PHANTA_WOLONG_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>中国中部の鬱蒼とした山林には、ジャイアントパンダ、キンシコウ、ターキンなど、森林伐採や密猟などで絶滅の危機に瀕している希少種が生息している。卧龍国家級自然保護区は、1963年に四川省の邛崍山脈の東側に設立され、面積は2万ヘクタールであったが、後に20万ヘクタールに拡張され、中国で3番目に大きな自然保護区となった。卧龍国家級自然保護区は、ジャイアントパンダを含む地域の希少種を保護し、域内保全と域外保全を通じてこれらの種の存続を保証することを目的としている。</Text>
+		</Row>
+		<Row Tag="LOC_RESOURCE_PHANTA_WOLONG_GIANT_PANDA_NAME" Language="ja_JP">
+			<Text>ジャイアントパンダ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PHANTA_WOLONG_GIANT_PANDA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ジャイアントパンダは、黒と白の毛並みと丸みのある体型で広く知られ、人々に愛されている。肉食動物としての起源と消化器系にもかかわらず、ジャイアントパンダは主に竹を食べている。ジャイアントパンダは中国中部の鬱蒼とした山林に生息しており、中国の国宝とみなされている。中国はまた、ジャイアントパンダを海外に派遣し、「パンダ外交」として知られる外交方法で国際関係を促進している。かつてジャイアントパンダは森林伐採や密猟によって絶滅の危機に瀕していたが、卧龍国家級自然保護区のような自然保護区の設立など、ジャイアントパンダを保護するために多大な努力が払われてきた。野生のジャイアントパンダの個体数は、数十年にわたる生息地保護法、域内保全および域外保全のおかげで増え続けているが、ジャイアントパンダやその他の絶滅危惧種の保全の道のりはまだ長い。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

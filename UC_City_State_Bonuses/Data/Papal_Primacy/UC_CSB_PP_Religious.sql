@@ -1,0 +1,99 @@
+-- UC_CSB_PP_Religious
+-- Author: JNR
+--------------------------------------------------------------
+
+-- Delete Old Bonuses
+--------------------------------------------------------------
+DELETE FROM TraitModifiers WHERE ModifierId='MINOR_CIV_RELIGIOUS_SMALL_INFLUENCE_BONUS_PAPAL_PRIMACY';
+DELETE FROM TraitModifiers WHERE ModifierId='MINOR_CIV_RELIGIOUS_MEDIUM_INFLUENCE_BONUS_PAPAL_PRIMACY';
+DELETE FROM TraitModifiers WHERE ModifierId='MINOR_CIV_RELIGIOUS_LARGE_INFLUENCE_BONUS_PAPAL_PRIMACY';
+
+DELETE FROM Modifiers WHERE ModifierId='MINOR_CIV_RELIGIOUS_SMALL_INFLUENCE_BONUS_PAPAL_PRIMACY';
+DELETE FROM Modifiers WHERE ModifierId='MINOR_CIV_RELIGIOUS_MEDIUM_INFLUENCE_BONUS_PAPAL_PRIMACY';
+DELETE FROM Modifiers WHERE ModifierId='MINOR_CIV_RELIGIOUS_LARGE_INFLUENCE_BONUS_PAPAL_PRIMACY';
+--------------------------------------------------------------
+
+-- Modifiers
+--------------------------------------------------------------
+INSERT OR IGNORE INTO Modifiers
+		(ModifierId,																ModifierType,														SubjectRequirementSetId)
+VALUES	('MINOR_CIV_RELIGIOUS_SMALL_INFLUENCE_ETHIOPIA_PAPAL_PRIMACY_JNR_CSB',		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',								'PLAYER_HAS_SMALL_INFLUENCE_AND_PAPAL_PRIMACY'),
+		('MINOR_CIV_RELIGIOUS_MEDIUM_INFLUENCE_TEMPLE_PAPAL_PRIMACY_JNR_CSB',		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',								'PLAYER_HAS_MEDIUM_INFLUENCE_AND_PAPAL_PRIMACY'),
+		
+		('MINOR_CIV_RELIGIOUS_YIELD_FOR_SHRINE_ETHIOPIA_PAPAL_PRIMACY_JNR_CSB',		'MODIFIER_JNR_PLAYER_CAPITAL_CITY_ADJUST_BUILDING_YIELD_CHANGE',	NULL),
+		('MINOR_CIV_RELIGIOUS_YIELD_FOR_TEMPLE_ETHIOPIA_PAPAL_PRIMACY_JNR_CSB',		'MODIFIER_JNR_PLAYER_CAPITAL_CITY_ADJUST_BUILDING_YIELD_CHANGE',	NULL);
+		
+INSERT OR IGNORE INTO Modifiers
+		(ModifierId,																					ModifierType,														SubjectRequirementSetId)		
+SELECT	'MINOR_CIV_RELIGIOUS_LARGE_INFLUENCE_' || SUBSTR(BuildingType,10) || '_PAPAL_PRIMACY_JNR_CSB',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',								'PLAYER_HAS_LARGE_INFLUENCE_AND_PAPAL_PRIMACY'
+FROM	Buildings
+WHERE	EnabledByReligion=1;
+
+INSERT OR IGNORE INTO Modifiers
+		(ModifierId,																					ModifierType,														SubjectRequirementSetId)		
+SELECT	'MINOR_CIV_RELIGIOUS_YIELD_FOR_' || SUBSTR(BuildingType,10) || '_PAPAL_PRIMACY_JNR_CSB',		'MODIFIER_JNR_PLAYER_CAPITAL_CITY_ADJUST_BUILDING_YIELD_CHANGE',	NULL
+FROM	Buildings
+WHERE	EnabledByReligion=1;
+--------------------------------------------------------------
+
+-- ModifierArguments
+--------------------------------------------------------------
+INSERT OR IGNORE INTO ModifierArguments
+		(ModifierId,											Name,				Value)
+VALUES	('MINOR_CIV_RELIGIOUS_SMALL_INFLUENCE_ETHIOPIA_PAPAL_PRIMACY_JNR_CSB',		'ModifierId',		'MINOR_CIV_RELIGIOUS_YIELD_FOR_SHRINE_ETHIOPIA_PAPAL_PRIMACY_JNR_CSB'),
+		('MINOR_CIV_RELIGIOUS_MEDIUM_INFLUENCE_TEMPLE_PAPAL_PRIMACY_JNR_CSB',		'ModifierId',		'MINOR_CIV_RELIGIOUS_YIELD_FOR_TEMPLE_ETHIOPIA_PAPAL_PRIMACY_JNR_CSB'),
+
+		('MINOR_CIV_RELIGIOUS_YIELD_FOR_SHRINE_ETHIOPIA_PAPAL_PRIMACY_JNR_CSB',		'YieldType',		'YIELD_FAITH'),
+		('MINOR_CIV_RELIGIOUS_YIELD_FOR_SHRINE_ETHIOPIA_PAPAL_PRIMACY_JNR_CSB',		'Amount',			2),
+		('MINOR_CIV_RELIGIOUS_YIELD_FOR_SHRINE_ETHIOPIA_PAPAL_PRIMACY_JNR_CSB',		'BuildingType',		'BUILDING_SHRINE'),
+		('MINOR_CIV_RELIGIOUS_YIELD_FOR_SHRINE_ETHIOPIA_PAPAL_PRIMACY_JNR_CSB',		'CityStatesOnly',	'true'),
+
+		('MINOR_CIV_RELIGIOUS_YIELD_FOR_TEMPLE_ETHIOPIA_PAPAL_PRIMACY_JNR_CSB',		'YieldType',		'YIELD_FAITH'),
+		('MINOR_CIV_RELIGIOUS_YIELD_FOR_TEMPLE_ETHIOPIA_PAPAL_PRIMACY_JNR_CSB',		'Amount',			4),
+		('MINOR_CIV_RELIGIOUS_YIELD_FOR_TEMPLE_ETHIOPIA_PAPAL_PRIMACY_JNR_CSB',		'BuildingType',		'BUILDING_TEMPLE'),
+		('MINOR_CIV_RELIGIOUS_YIELD_FOR_TEMPLE_ETHIOPIA_PAPAL_PRIMACY_JNR_CSB',		'CityStatesOnly',	'true');
+		
+INSERT OR IGNORE INTO ModifierArguments
+		(ModifierId,																					Name,				Value)
+SELECT	'MINOR_CIV_RELIGIOUS_LARGE_INFLUENCE_' || SUBSTR(BuildingType,10) || '_PAPAL_PRIMACY_JNR_CSB',	'ModifierId',		'MINOR_CIV_RELIGIOUS_YIELD_FOR_' || SUBSTR(BuildingType,10) || '_PAPAL_PRIMACY_JNR_CSB'
+FROM	Buildings
+WHERE	EnabledByReligion=1;
+
+INSERT OR IGNORE INTO ModifierArguments
+		(ModifierId,																					Name,				Value)
+SELECT	'MINOR_CIV_RELIGIOUS_YIELD_FOR_' || SUBSTR(BuildingType,10) || '_PAPAL_PRIMACY_JNR_CSB',		'YieldType',		'YIELD_FAITH'
+FROM	Buildings
+WHERE	EnabledByReligion=1;
+
+INSERT OR IGNORE INTO ModifierArguments
+		(ModifierId,																					Name,				Value)
+SELECT	'MINOR_CIV_RELIGIOUS_YIELD_FOR_' || SUBSTR(BuildingType,10) || '_PAPAL_PRIMACY_JNR_CSB',		'Amount',			6
+FROM	Buildings
+WHERE	EnabledByReligion=1;
+
+INSERT OR IGNORE INTO ModifierArguments
+		(ModifierId,																					Name,				Value)
+SELECT	'MINOR_CIV_RELIGIOUS_YIELD_FOR_' || SUBSTR(BuildingType,10) || '_PAPAL_PRIMACY_JNR_CSB',		'BuildingType',		BuildingType
+FROM	Buildings
+WHERE	EnabledByReligion=1;
+
+INSERT OR IGNORE INTO ModifierArguments
+		(ModifierId,																					Name,				Value)
+SELECT	'MINOR_CIV_RELIGIOUS_YIELD_FOR_' || SUBSTR(BuildingType,10) || '_PAPAL_PRIMACY_JNR_CSB',		'CityStatesOnly',	1
+FROM	Buildings
+WHERE	EnabledByReligion=1;
+--------------------------------------------------------------
+
+-- TraitModifiers
+--------------------------------------------------------------
+INSERT OR IGNORE INTO TraitModifiers
+		(TraitType,						ModifierId)
+VALUES	('MINOR_CIV_RELIGIOUS_TRAIT',	'MINOR_CIV_RELIGIOUS_SMALL_INFLUENCE_ETHIOPIA_PAPAL_PRIMACY_JNR_CSB'),
+		('MINOR_CIV_RELIGIOUS_TRAIT',	'MINOR_CIV_RELIGIOUS_MEDIUM_INFLUENCE_TEMPLE_PAPAL_PRIMACY_JNR_CSB');
+		
+INSERT OR IGNORE INTO TraitModifiers
+		(TraitType,						ModifierId)		
+SELECT	'MINOR_CIV_RELIGIOUS_TRAIT',	'MINOR_CIV_RELIGIOUS_LARGE_INFLUENCE_' || SUBSTR(BuildingType,10) || '_PAPAL_PRIMACY_JNR_CSB'
+FROM	Buildings
+WHERE	EnabledByReligion=1;
+--------------------------------------------------------------

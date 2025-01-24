@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="cf1615ca-1543-4c67-9da9-1d518f31c0e7" version="11">
+  <Properties>
+    <Name>[COLOR:ResProductionLabelCS]UC[ENDCOLOR] - District Expansion: [ICON_DISTRICT_GOVERNMENT] Government</Name>
+    <Description>New features for the Government Plaza district.[NEWLINE]- Three new Level 4 buildings to choose from, connected to future era governments.[NEWLINE]Future Era government legacy policies granted by these new buildings.[NEWLINE]Government Plaza allows you to move your capital via project to that city.[NEWLINE]Building a Government Plaza or Diplomatic Quarter triggers a Culture Bomb.</Description>
+    <Teaser>New features and tier 4 buildings for the Government Plaza district.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+	<Criteria id="UC">
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="CS_CSE_Ethiopia">
+	  <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_ETHIOPIA_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_CX">
+	  <ModInUse>644fa20f-0686-4195-b71a-68ff3392daa7</ModInUse>				<!-- Civilizations Expanded -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_RwF_Alternative_Gov">
+	  <ModInUse>63802b80-4c00-4267-8a15-fa61ea65f533</ModInUse>				<!-- Rule with Faith - Alternative Governments -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_No_CSE">
+	  <ModInUse inverse="1">7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>	<!-- CIVITAS CSE -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="GameplayBase" criteria="UC">
+      <Properties>
+        <LoadOrder>280</LoadOrder>
+      </Properties>
+      <File>Data/UC_GOV_Buildings.sql</File>
+      <File>Data/UC_GOV_Districts.sql</File>
+      <File>Data/UC_GOV_Requirements.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayAdvanced" criteria="UC">
+      <Properties>
+        <LoadOrder>281</LoadOrder>
+      </Properties>
+      <File>Data/UC_GOV_Bonuses_Abilities.sql</File>
+      <File>Data/UC_GOV_Bonuses.sql</File>
+      <File>Data/UC_GOV_Policies.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_Dido" criteria="MOD_No_CSE">
+      <Properties>
+        <LoadOrder>282</LoadOrder>
+      </Properties>
+      <File>Data/UC_GOV_Dido.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CSE_Ethiopia" criteria="CS_CSE_Ethiopia">
+      <Properties>
+        <LoadOrder>283</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_GOV_CSE_Ethiopia.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CX" criteria="MOD_CX">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_GOV_CX.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_RwF" criteria="MOD_RwF_Alternative_Gov">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_GOV_RwF.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="TextBase" criteria="UC">
+      <Properties>
+        <LoadOrder>280</LoadOrder>
+      </Properties>
+      <File>Text/UC_GOV_Text.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CSE_Ethiopia" criteria="CS_CSE_Ethiopia">
+      <Properties>
+        <LoadOrder>283</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_GOV_Text_CS_CSE_Ethiopia.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons" criteria="UC">
+      <Properties>
+        <LoadOrder>281</LoadOrder>
+      </Properties>
+      <File>Icons/UC_GOV_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="Dependency">
+      <Properties>
+        <LoadOrder>280</LoadOrder>
+      </Properties>
+      <File>UC_Expansion_Government.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Data/ModSupport/UC_GOV_CSE_Ethiopia.sql</File>
+    <File>Data/ModSupport/UC_GOV_CX.sql</File>
+    <File>Data/ModSupport/UC_GOV_RwF.sql</File>
+    <File>Data/UC_GOV_Bonuses.sql</File>
+    <File>Data/UC_GOV_Bonuses_Abilities.sql</File>
+    <File>Data/UC_GOV_Buildings.sql</File>
+    <File>Data/UC_GOV_Dido.sql</File>
+    <File>Data/UC_GOV_Districts.sql</File>
+    <File>Data/UC_GOV_Policies.sql</File>
+    <File>Data/UC_GOV_Requirements.sql</File>
+    <File>Icons/UC_GOV_Icons.sql</File>
+    <File>Text/ModSupport/UC_GOV_Text_CS_CSE_Ethiopia.sql</File>
+    <File>Text/UC_GOV_Text.sql</File>
+    <File>UC_Expansion_Government.dep</File>
+  </Files>
+</Mod>

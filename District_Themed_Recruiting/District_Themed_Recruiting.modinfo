@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2102ed82-213c-4c5d-82e2-54a258687d56" version="9">
+  <Properties>
+    <Name>[COLOR:ResProductionLabelCS]UC[ENDCOLOR] - District-Themed Recruiting</Name>
+    <Description>Unique districts provide production a small bonuse to specific unit types fitting their theme. See Civilopedia for details.[NEWLINE]DLC are supported but not required. Advanced version available with all of these enabled together: Gathering Storm, Ethiopia DLC, Kublai Khan - Vietnam DLC.</Description>
+    <Teaser>Districts-themed production bonuses for units.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+	<Criteria id="Vanilla" Any="1">
+	  <ModInUse inverse="1">4873eb62-8ccc-4574-b784-dda455e74e68</ModInUse>	<!-- Gathering Storm -->
+	  <ModInUse inverse="1">1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>	<!-- Ethiopia DLC -->
+	  <ModInUse inverse="1">A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>	<!-- Vietnam DLC -->
+	</Criteria>
+	<Criteria id="Anthology">
+	  <ModInUse>4873eb62-8ccc-4574-b784-dda455e74e68</ModInUse>				<!-- Gathering Storm -->
+	  <ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>				<!-- Ethiopia DLC -->
+	  <ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>				<!-- Vietnam DLC -->
+	</Criteria>
+	<Criteria id="MOD_WE">
+	  <ModInUse>38a49494-5ec4-46ac-b01b-9629d96950f3</ModInUse>				<!-- Warfare Expanded -->
+	</Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="GameplayBase">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Data/UC_UPB_Modifiers.sql</File>
+      <File>Data/UC_UPB_Pedia.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_WE" criteria="MOD_WE">
+      <Properties>
+        <LoadOrder>14</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_UPB_WarfareExpanded.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayOption_Vanilla" criteria="Vanilla">
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <File>Data/UC_UPB_Vanilla.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayOption_Anthology" criteria="Anthology">
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <File>Data/UC_UPB_Anthology.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="TextBase">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Text/UC_UPB_Text_Intro.sql</File>
+    </UpdateText>
+    <UpdateText id="TextOption_Vanilla" criteria="Vanilla">
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <File>Text/UC_UPB_Text_Vanilla.sql</File>
+    </UpdateText>
+    <UpdateText id="TextOption_Anthology" criteria="Anthology">
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <File>Text/UC_UPB_Text_Anthology.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Data/UC_UPB_Modifiers.sql</File>
+    <File>Data/UC_UPB_Pedia.sql</File>
+    <File>Data/ModSupport/UC_UPB_WarfareExpanded.sql</File>
+    <File>Data/UC_UPB_Vanilla.sql</File>
+	<File>Data/UC_UPB_Anthology.sql</File>
+	<File>Text/UC_UPB_Text_Intro.sql</File>
+	<File>Text/UC_UPB_Text_Vanilla.sql</File>
+	<File>Text/UC_UPB_Text_Anthology.sql</File>
+  </Files>
+</Mod>

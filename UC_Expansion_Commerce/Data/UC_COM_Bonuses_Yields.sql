@@ -1,0 +1,379 @@
+-- UC_COM_Bonuses_Yields
+-- Author: JNR
+--------------------------------------------------------------
+
+-- Buildings
+--------------------------------------------------------------
+UPDATE Buildings SET RegionalRange=6 WHERE BuildingType='BUILDING_AIRPORT';
+--------------------------------------------------------------
+
+-- Building_YieldChanges
+--------------------------------------------------------------
+INSERT OR IGNORE INTO Building_YieldChanges
+		(BuildingType,						YieldType,			YieldChange)
+VALUES	('BUILDING_JNR_MINT',				'YIELD_GOLD',		1),
+		('BUILDING_JNR_WAYSTATION',			'YIELD_GOLD',		1),
+		('BUILDING_JNR_GUILDHALL',			'YIELD_GOLD',		1),
+		('BUILDING_JNR_MERCHANT_QUARTER',	'YIELD_GOLD',		1),
+		('BUILDING_JNR_COMMODITY_EXCHANGE',	'YIELD_GOLD',		2),
+		('BUILDING_JNR_MARKETING_AGENCY',	'YIELD_GOLD',		2),
+		('BUILDING_JNR_WHARF_TRADE',		'YIELD_GOLD',		1),
+		('BUILDING_LIGHTHOUSE',				'YIELD_GOLD',		1),
+		('BUILDING_JNR_WHARF_FISHING',		'YIELD_FOOD',		1),
+		('BUILDING_JNR_LIGHTHOUSE_FISHING',	'YIELD_FOOD',		1),
+		('BUILDING_JNR_FISH_MARKET',		'YIELD_FOOD',		3),
+		('BUILDING_JNR_ENTREPOT',			'YIELD_GOLD',		2),
+		('BUILDING_JNR_ENTREPOT',			'YIELD_PRODUCTION',	2),
+		('BUILDING_AIRPORT',				'YIELD_GOLD',		6);
+
+DELETE FROM Building_YieldChanges				WHERE BuildingType='BUILDING_MARKET'			AND YieldType='YIELD_GOLD';
+DELETE FROM Building_YieldChanges				WHERE BuildingType='BUILDING_SUKIENNICE'		AND YieldType='YIELD_GOLD';
+DELETE FROM Building_YieldChanges				WHERE BuildingType='BUILDING_BANK'				AND YieldType='YIELD_GOLD';
+UPDATE Building_YieldChanges SET YieldChange=2	WHERE BuildingType='BUILDING_GRAND_BAZAAR'		AND YieldType='YIELD_GOLD';
+UPDATE Building_YieldChanges SET YieldChange=2	WHERE BuildingType='BUILDING_STOCK_EXCHANGE'	AND YieldType='YIELD_GOLD';
+UPDATE Building_YieldChanges SET YieldChange=1	WHERE BuildingType='BUILDING_LIGHTHOUSE'		AND YieldType='YIELD_GOLD';
+DELETE FROM Building_YieldChanges				WHERE BuildingType='BUILDING_SHIPYARD'			AND YieldType='YIELD_FOOD';
+UPDATE Building_YieldChanges SET YieldChange=2	WHERE BuildingType='BUILDING_SEAPORT'			AND YieldType='YIELD_GOLD';
+DELETE FROM Building_YieldChanges				WHERE BuildingType='BUILDING_SEAPORT'			AND YieldType='YIELD_FOOD';
+UPDATE Building_YieldChanges SET YieldChange=4	WHERE BuildingType='BUILDING_HANGAR'			AND YieldType='YIELD_PRODUCTION';
+DELETE FROM Building_YieldChanges				WHERE BuildingType='BUILDING_AIRPORT'			AND YieldType='YIELD_PRODUCTION';
+--------------------------------------------------------------
+
+-- Building_YieldDistrictCopies
+--------------------------------------------------------------
+INSERT OR IGNORE INTO Building_YieldDistrictCopies
+		(BuildingType,						OldYieldType,	NewYieldType)
+VALUES	('BUILDING_JNR_MERCHANT_QUARTER',	'YIELD_GOLD',	'YIELD_GOLD');
+
+INSERT OR IGNORE INTO Building_YieldDistrictCopies
+		(BuildingType,						OldYieldType,	NewYieldType)
+SELECT	BuildingType,						'YIELD_GOLD',	'YIELD_GOLD'
+FROM	Buildings
+WHERE	BuildingType='BUILDING_GRAND_BAZAAR';
+--------------------------------------------------------------
+
+-- Building_CitizenYieldChanges
+--------------------------------------------------------------
+DELETE FROM Building_CitizenYieldChanges 		WHERE BuildingType='BUILDING_SEAPORT'		AND YieldType='YIELD_FOOD';
+
+INSERT OR IGNORE INTO Building_CitizenYieldChanges
+		(BuildingType,						YieldType,			YieldChange)
+VALUES	('BUILDING_MARKET',					'YIELD_GOLD',		2),
+		('BUILDING_JNR_COMMODITY_EXCHANGE',	'YIELD_GOLD',		2),
+		('BUILDING_JNR_MARKETING_AGENCY',	'YIELD_GOLD',		2),
+		('BUILDING_SHIPYARD',				'YIELD_PRODUCTION',	1),
+		('BUILDING_SEAPORT',				'YIELD_GOLD',		2),
+		('BUILDING_JNR_OFFSHORE_TERMINAL',	'YIELD_PRODUCTION',	1);
+
+INSERT OR IGNORE INTO Building_CitizenYieldChanges
+		(BuildingType,						YieldType,			YieldChange)
+SELECT	BuildingType,						'YIELD_GOLD',		2
+FROM	Buildings
+WHERE	BuildingType='BUILDING_SUKIENNICE';
+--------------------------------------------------------------
+
+-- Building_YieldChangesBonusWithPower
+--------------------------------------------------------------
+INSERT OR IGNORE INTO Building_YieldChangesBonusWithPower
+		(BuildingType,						YieldType,		YieldChange)
+SELECT	'BUILDING_JNR_COMMODITY_EXCHANGE',	'YIELD_GOLD',	YieldChange
+FROM	Building_YieldChangesBonusWithPower
+WHERE	BuildingType='BUILDING_STOCK_EXCHANGE' AND YieldType='YIELD_GOLD';
+
+INSERT OR IGNORE INTO Building_YieldChangesBonusWithPower
+		(BuildingType,						YieldType,		YieldChange)
+SELECT	'BUILDING_JNR_MARKETING_AGENCY',	'YIELD_GOLD',	YieldChange
+FROM	Building_YieldChangesBonusWithPower
+WHERE	BuildingType='BUILDING_STOCK_EXCHANGE' AND YieldType='YIELD_GOLD';
+
+INSERT OR IGNORE INTO Building_YieldChangesBonusWithPower
+		(BuildingType,						YieldType,		YieldChange)
+SELECT	'BUILDING_JNR_OFFSHORE_TERMINAL',	'YIELD_GOLD',	YieldChange
+FROM	Building_YieldChangesBonusWithPower
+WHERE	BuildingType='BUILDING_SEAPORT' AND YieldType='YIELD_GOLD';
+
+INSERT OR IGNORE INTO Building_YieldChangesBonusWithPower
+		(BuildingType,						YieldType,		YieldChange)
+SELECT	'BUILDING_JNR_OFFSHORE_TERMINAL',	'YIELD_GOLD',	YieldChange*2
+FROM	Building_YieldChangesBonusWithPower
+WHERE	BuildingType='BUILDING_SEAPORT' AND YieldType='YIELD_FOOD';
+
+DELETE FROM Building_YieldChangesBonusWithPower WHERE BuildingType='BUILDING_AIRPORT';
+
+INSERT OR IGNORE INTO Building_YieldChangesBonusWithPower
+		(BuildingType,						YieldType,		YieldChange)
+SELECT	'BUILDING_AIRPORT',					'YIELD_GOLD',	YieldChange
+FROM	Building_YieldChangesBonusWithPower
+WHERE	BuildingType='BUILDING_STOCK_EXCHANGE' AND YieldType='YIELD_GOLD';
+--------------------------------------------------------------
+
+-- Requirements
+--------------------------------------------------------------
+INSERT OR IGNORE INTO Requirements
+		(RequirementId,								RequirementType)
+VALUES	('REQUIRES_CITY_HAS_1_TITLE_GOVERNOR_JNR',	'REQUIREMENT_CITY_HAS_GOVERNOR_WITH_X_TITLES'),
+		('REQUIRES_CITY_HAS_3_TITLE_GOVERNOR_JNR',	'REQUIREMENT_CITY_HAS_GOVERNOR_WITH_X_TITLES'),
+		('REQUIRES_CITY_HAS_4_TITLE_GOVERNOR_JNR',	'REQUIREMENT_CITY_HAS_GOVERNOR_WITH_X_TITLES'),
+		('REQUIRES_CITY_HAS_5_TITLE_GOVERNOR_JNR',	'REQUIREMENT_CITY_HAS_GOVERNOR_WITH_X_TITLES'),
+		('REQUIRES_CITY_HAS_6_TITLE_GOVERNOR_JNR',	'REQUIREMENT_CITY_HAS_GOVERNOR_WITH_X_TITLES'),
+		('REQUIRES_TECHNOLOGY_CARTOGRAPHY_JNR',		'REQUIREMENT_PLAYER_HAS_TECHNOLOGY'),
+		('REQUIRES_PLOT_HAS_FISHERY_JNR',			'REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES'),
+		('REQUIRES_PLOT_HAS_NO_FISHING_BOATS_JNR',	'REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES'),
+		('REQUIRES_PLOT_HAS_NO_FISHERY_JNR',		'REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES'),
+		('REQUIRES_PLOT_HAS_OFFSHORE_OIL_RIG_JNR',	'REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES'),
+		('REQUIRES_PLOT_HAS_OFFSHORE_WIND_JNR',		'REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES'),
+		('REQUIRES_PLOT_HAS_SEASTEAD_JNR',			'REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES');
+
+UPDATE Requirements SET Inverse=1 WHERE RequirementId='REQUIRES_PLOT_HAS_NO_FISHING_BOATS_JNR';
+UPDATE Requirements SET Inverse=1 WHERE RequirementId='REQUIRES_PLOT_HAS_NO_FISHERY_JNR';
+--------------------------------------------------------------
+
+-- RequirementArguments
+--------------------------------------------------------------
+INSERT OR IGNORE INTO RequirementArguments
+		(RequirementId,								Name,				Value)
+VALUES	('REQUIRES_CITY_HAS_1_TITLE_GOVERNOR_JNR',	'Established',		1),
+		('REQUIRES_CITY_HAS_1_TITLE_GOVERNOR_JNR',	'Amount',			1),
+		('REQUIRES_CITY_HAS_3_TITLE_GOVERNOR_JNR',	'Established',		1),
+		('REQUIRES_CITY_HAS_3_TITLE_GOVERNOR_JNR',	'Amount',			3),
+		('REQUIRES_CITY_HAS_4_TITLE_GOVERNOR_JNR',	'Established',		1),
+		('REQUIRES_CITY_HAS_4_TITLE_GOVERNOR_JNR',	'Amount',			4),
+		('REQUIRES_CITY_HAS_5_TITLE_GOVERNOR_JNR',	'Established',		1),
+		('REQUIRES_CITY_HAS_5_TITLE_GOVERNOR_JNR',	'Amount',			5),
+		('REQUIRES_CITY_HAS_6_TITLE_GOVERNOR_JNR',	'Established',		1),
+		('REQUIRES_CITY_HAS_6_TITLE_GOVERNOR_JNR',	'Amount',			6),
+		('REQUIRES_TECHNOLOGY_CARTOGRAPHY_JNR',		'TechnologyType',	'TECH_CARTOGRAPHY'),
+		('REQUIRES_PLOT_HAS_FISHERY_JNR',			'ImprovementType',	'IMPROVEMENT_FISHERY'),
+		('REQUIRES_PLOT_HAS_NO_FISHING_BOATS_JNR',	'ImprovementType',	'IMPROVEMENT_FISHING_BOATS'),
+		('REQUIRES_PLOT_HAS_NO_FISHERY_JNR',		'ImprovementType',	'IMPROVEMENT_FISHERY'),
+		('REQUIRES_PLOT_HAS_OFFSHORE_OIL_RIG_JNR',	'ImprovementType',	'IMPROVEMENT_OFFSHORE_OIL_RIG'),
+		('REQUIRES_PLOT_HAS_OFFSHORE_WIND_JNR',		'ImprovementType',	'IMPROVEMENT_OFFSHORE_WIND_FARM'),
+		('REQUIRES_PLOT_HAS_SEASTEAD_JNR',			'ImprovementType',	'IMPROVEMENT_SEASTEAD');
+--------------------------------------------------------------
+
+-- RequirementSets
+--------------------------------------------------------------
+INSERT OR IGNORE INTO RequirementSets
+		(RequirementSetId,									RequirementSetType)
+VALUES	('CITY_HAS_1_TITLE_GOVERNOR_REQUIREMENTS_JNR',		'REQUIREMENTSET_TEST_ALL'),
+		('CITY_HAS_3_TITLE_GOVERNOR_REQUIREMENTS_JNR',		'REQUIREMENTSET_TEST_ALL'),
+		('CITY_HAS_4_TITLE_GOVERNOR_REQUIREMENTS_JNR',		'REQUIREMENTSET_TEST_ALL'),
+		('CITY_HAS_5_TITLE_GOVERNOR_REQUIREMENTS_JNR',		'REQUIREMENTSET_TEST_ALL'),
+		('CITY_HAS_6_TITLE_GOVERNOR_REQUIREMENTS_JNR',		'REQUIREMENTSET_TEST_ALL'),
+		('PLOT_HAS_VISIBLE_RESOURCE_JNR',					'REQUIREMENTSET_TEST_ALL'),
+		('PLOT_HAS_OCEAN_CARTOGRAPHY_JNR',					'REQUIREMENTSET_TEST_ALL'),
+		('PLOT_HAS_OCEAN_ELECTRICITY_JNR',					'REQUIREMENTSET_TEST_ALL'),
+		('PLOT_HAS_FISHING_IMPROVEMENT_REQUIREMENTS_JNR',	'REQUIREMENTSET_TEST_ANY'),
+		('PLOT_HAS_COAST_NO_FISHING_IMPROVEMENT_JNR',		'REQUIREMENTSET_TEST_ALL'),
+		('PLOT_HAS_OFFSHORE_IMPROVEMENT_REQUIREMENTS_JNR',	'REQUIREMENTSET_TEST_ANY');
+--------------------------------------------------------------
+
+-- RequirementSetRequirements
+--------------------------------------------------------------
+INSERT OR IGNORE INTO RequirementSetRequirements
+		(RequirementSetId,									RequirementId)
+VALUES	('CITY_HAS_1_TITLE_GOVERNOR_REQUIREMENTS_JNR',		'REQUIRES_CITY_HAS_1_TITLE_GOVERNOR_JNR'),
+		('CITY_HAS_3_TITLE_GOVERNOR_REQUIREMENTS_JNR',		'REQUIRES_CITY_HAS_3_TITLE_GOVERNOR_JNR'),
+		('CITY_HAS_4_TITLE_GOVERNOR_REQUIREMENTS_JNR',		'REQUIRES_CITY_HAS_4_TITLE_GOVERNOR_JNR'),
+		('CITY_HAS_5_TITLE_GOVERNOR_REQUIREMENTS_JNR',		'REQUIRES_CITY_HAS_5_TITLE_GOVERNOR_JNR'),
+		('CITY_HAS_6_TITLE_GOVERNOR_REQUIREMENTS_JNR',		'REQUIRES_CITY_HAS_6_TITLE_GOVERNOR_JNR'),
+		('PLOT_HAS_VISIBLE_RESOURCE_JNR',					'REQUIRES_PLOT_HAS_VISIBLE_RESOURCE'),
+		('PLOT_HAS_OCEAN_CARTOGRAPHY_JNR',					'REQUIRES_TERRAIN_OCEAN'),
+		('PLOT_HAS_OCEAN_CARTOGRAPHY_JNR',					'REQUIRES_TECHNOLOGY_CARTOGRAPHY_JNR'),
+		('PLOT_HAS_OCEAN_ELECTRICITY_JNR',					'REQUIRES_TERRAIN_OCEAN'),
+		('PLOT_HAS_OCEAN_ELECTRICITY_JNR',					'REQUIRES_PLAYER_HAS_ELECTRICITYTECHNOLOGY'),
+		('PLOT_HAS_FISHING_IMPROVEMENT_REQUIREMENTS_JNR',	'REQUIRES_PLOT_HAS_FISHINGBOATS'),
+		('PLOT_HAS_FISHING_IMPROVEMENT_REQUIREMENTS_JNR',	'REQUIRES_PLOT_HAS_FISHERY_JNR'),
+		('PLOT_HAS_COAST_NO_FISHING_IMPROVEMENT_JNR',		'REQUIRES_PLOT_HAS_NO_FISHING_BOATS_JNR'),
+		('PLOT_HAS_COAST_NO_FISHING_IMPROVEMENT_JNR',		'REQUIRES_PLOT_HAS_NO_FISHERY_JNR'),
+		('PLOT_HAS_COAST_NO_FISHING_IMPROVEMENT_JNR',		'REQUIRES_PLOT_HAS_COAST'),
+		('PLOT_HAS_OFFSHORE_IMPROVEMENT_REQUIREMENTS_JNR',	'REQUIRES_PLOT_HAS_OFFSHORE_OIL_RIG_JNR'),
+		('PLOT_HAS_OFFSHORE_IMPROVEMENT_REQUIREMENTS_JNR',	'REQUIRES_PLOT_HAS_OFFSHORE_WIND_JNR'),
+		('PLOT_HAS_OFFSHORE_IMPROVEMENT_REQUIREMENTS_JNR',	'REQUIRES_PLOT_HAS_SEASTEAD_JNR');
+--------------------------------------------------------------
+
+-- Types
+--------------------------------------------------------------
+INSERT OR IGNORE INTO Types
+		(Type,													Kind)
+VALUES	('MODIFIER_JNR_ALLIANCE_CITIES_BUILDING_YIELD_CHANGE',	'KIND_MODIFIER');
+--------------------------------------------------------------
+
+-- DynamicModifiers
+--------------------------------------------------------------
+INSERT OR IGNORE INTO DynamicModifiers
+		(ModifierType,											CollectionType,					EffectType)
+VALUES	('MODIFIER_JNR_ALLIANCE_CITIES_BUILDING_YIELD_CHANGE',	'COLLECTION_ALLIANCE_CITIES',	'EFFECT_ADJUST_BUILDING_YIELD_CHANGE');
+--------------------------------------------------------------
+
+-- Modifiers
+--------------------------------------------------------------
+INSERT OR IGNORE INTO Modifiers
+		(ModifierId,									ModifierType,												SubjectRequirementSetId)
+VALUES	('JNR_MINT_GOLD_1_TITLE',						'MODIFIER_BUILDING_YIELD_CHANGE',							'CITY_HAS_1_TITLE_GOVERNOR_REQUIREMENTS_JNR'),
+		('JNR_MINT_GOLD_2_TITLE',						'MODIFIER_BUILDING_YIELD_CHANGE',							'CITY_HAS_2_TITLE_GOVERNOR_REQUIREMENTS'),
+		('JNR_MINT_GOLD_3_TITLE',						'MODIFIER_BUILDING_YIELD_CHANGE',							'CITY_HAS_3_TITLE_GOVERNOR_REQUIREMENTS_JNR'),
+		('JNR_MINT_GOLD_4_TITLE',						'MODIFIER_BUILDING_YIELD_CHANGE',							'CITY_HAS_4_TITLE_GOVERNOR_REQUIREMENTS_JNR'),
+		('JNR_MINT_GOLD_5_TITLE',						'MODIFIER_BUILDING_YIELD_CHANGE',							'CITY_HAS_5_TITLE_GOVERNOR_REQUIREMENTS_JNR'),
+		('JNR_MINT_GOLD_6_TITLE',						'MODIFIER_BUILDING_YIELD_CHANGE',							'CITY_HAS_6_TITLE_GOVERNOR_REQUIREMENTS_JNR'),
+		('JNR_BANK_GOLD_POPULATION',					'MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION',	NULL),
+		('JNR_GUILDHALL_GOLD_RESOURCES',				'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD',				'PLOT_HAS_VISIBLE_RESOURCE_JNR'),
+		('JNR_STOCK_EXCHANGE_GOLD',						'MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER',			NULL),
+		('JNR_MARKETING_AGENCY_GOLD_ENTERTAINMENT',		'MODIFIER_BUILDING_YIELD_CHANGE',							NULL),
+		('JNR_FISHING_DOCK_FOOD_OCEAN_CARTOGRAPHY',		'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD',				'PLOT_HAS_OCEAN_CARTOGRAPHY_JNR'),
+		('JNR_LIGHTHOUSE_PRODUCTION_FISHING',			'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD',				'PLOT_HAS_FISHING_IMPROVEMENT_REQUIREMENTS_JNR'),
+		('JNR_SHIPYARD_PRODUCTION_NO_FISHING',			'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD',				'PLOT_HAS_COAST_NO_FISHING_IMPROVEMENT_JNR'),
+		('JNR_FISH_MARKET_OCEAN_GOLD',					'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD',				'PLOT_HAS_OCEAN_ELECTRICITY_JNR'),
+		('JNR_ENTREPOT_GOLD_ALLY_TRADE',				'MODIFIER_JNR_ALLIANCE_CITIES_BUILDING_YIELD_CHANGE',		'ALLIANCE_CITY_HAS_TRADE_ROUTE_WITH_ALLY'),
+		('JNR_OFFSHORE_TERMINAL_PRODUCTION',			'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD',				'PLOT_HAS_OFFSHORE_IMPROVEMENT_REQUIREMENTS_JNR');
+
+INSERT OR IGNORE INTO Modifiers
+		(ModifierId,									ModifierType)
+SELECT	'JNR_MARKETING_AGENCY_' || GreatWorkObjectType,	'MODIFIER_SINGLE_CITY_ADJUST_GREATWORK_YIELD'
+FROM	GreatWorkObjectTypes
+WHERE	GreatWorkObjectType IS NOT NULL;
+
+INSERT OR IGNORE INTO Modifiers
+		(ModifierId,									ModifierType,												SubjectRequirementSetId)
+SELECT	'JNR_MARKETING_AGENCY_GOLD_SKI_RESORT',			'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD',				RequirementSetId
+FROM	RequirementSets
+WHERE	RequirementSetId='JNR_PLOT_IS_SKI_RESORT_REQUIREMENTS';
+--------------------------------------------------------------
+
+-- ModifierArguments
+--------------------------------------------------------------
+INSERT OR IGNORE INTO ModifierArguments
+		(ModifierId,									Name,					Value)
+VALUES	('JNR_MINT_GOLD_1_TITLE',						'BuildingType',			'BUILDING_JNR_MINT'),
+		('JNR_MINT_GOLD_1_TITLE',						'YieldType',			'YIELD_GOLD'),
+		('JNR_MINT_GOLD_1_TITLE',						'Amount',				1),
+		('JNR_MINT_GOLD_2_TITLE',						'BuildingType',			'BUILDING_JNR_MINT'),
+		('JNR_MINT_GOLD_2_TITLE',						'YieldType',			'YIELD_GOLD'),
+		('JNR_MINT_GOLD_2_TITLE',						'Amount',				1),
+		('JNR_MINT_GOLD_3_TITLE',						'BuildingType',			'BUILDING_JNR_MINT'),
+		('JNR_MINT_GOLD_3_TITLE',						'YieldType',			'YIELD_GOLD'),
+		('JNR_MINT_GOLD_3_TITLE',						'Amount',				1),
+		('JNR_MINT_GOLD_4_TITLE',						'BuildingType',			'BUILDING_JNR_MINT'),
+		('JNR_MINT_GOLD_4_TITLE',						'YieldType',			'YIELD_GOLD'),
+		('JNR_MINT_GOLD_4_TITLE',						'Amount',				1),
+		('JNR_MINT_GOLD_5_TITLE',						'BuildingType',			'BUILDING_JNR_MINT'),
+		('JNR_MINT_GOLD_5_TITLE',						'YieldType',			'YIELD_GOLD'),
+		('JNR_MINT_GOLD_5_TITLE',						'Amount',				1),
+		('JNR_MINT_GOLD_6_TITLE',						'BuildingType',			'BUILDING_JNR_MINT'),
+		('JNR_MINT_GOLD_6_TITLE',						'YieldType',			'YIELD_GOLD'),
+		('JNR_MINT_GOLD_6_TITLE',						'Amount',				1),
+		('JNR_BANK_GOLD_POPULATION',					'YieldType',			'YIELD_GOLD'),
+		('JNR_BANK_GOLD_POPULATION',					'Amount',				0.5),
+		('JNR_GUILDHALL_GOLD_RESOURCES',				'YieldType',			'YIELD_GOLD'),
+		('JNR_GUILDHALL_GOLD_RESOURCES',				'Amount',				1),
+		('JNR_STOCK_EXCHANGE_GOLD',						'YieldType',			'YIELD_GOLD'),
+		('JNR_STOCK_EXCHANGE_GOLD',						'Amount',				10),
+		('JNR_MARKETING_AGENCY_GOLD_ENTERTAINMENT',		'BuildingType',			'BUILDING_JNR_MARKETING_AGENCY'),
+		('JNR_MARKETING_AGENCY_GOLD_ENTERTAINMENT',		'YieldType',			'YIELD_GOLD'),
+		('JNR_MARKETING_AGENCY_GOLD_ENTERTAINMENT',		'Amount',				2),
+		('JNR_FISHING_DOCK_FOOD_OCEAN_CARTOGRAPHY',		'YieldType',			'YIELD_FOOD'),
+		('JNR_FISHING_DOCK_FOOD_OCEAN_CARTOGRAPHY',		'Amount',				1),
+		('JNR_LIGHTHOUSE_PRODUCTION_FISHING',			'YieldType',			'YIELD_PRODUCTION'),
+		('JNR_LIGHTHOUSE_PRODUCTION_FISHING',			'Amount',				1),
+		('JNR_SHIPYARD_PRODUCTION_NO_FISHING',			'YieldType',			'YIELD_PRODUCTION'),
+		('JNR_SHIPYARD_PRODUCTION_NO_FISHING',			'Amount',				1),
+		('JNR_FISH_MARKET_OCEAN_GOLD',					'YieldType',			'YIELD_GOLD'),
+		('JNR_FISH_MARKET_OCEAN_GOLD',					'Amount',				2),
+		('JNR_ENTREPOT_GOLD_ALLY_TRADE',				'BuildingType',			'BUILDING_JNR_ENTREPOT'),
+		('JNR_ENTREPOT_GOLD_ALLY_TRADE',				'YieldType',			'YIELD_GOLD'),
+		('JNR_ENTREPOT_GOLD_ALLY_TRADE',				'Amount',				3),
+		('JNR_OFFSHORE_TERMINAL_PRODUCTION',			'YieldType',			'YIELD_PRODUCTION'),
+		('JNR_OFFSHORE_TERMINAL_PRODUCTION',			'Amount',				2);
+
+INSERT OR IGNORE INTO ModifierArguments
+		(ModifierId,									Name,					Value)
+SELECT	'JNR_MARKETING_AGENCY_' || GreatWorkObjectType,	'GreatWorkObjectType',	GreatWorkObjectType
+FROM	GreatWorkObjectTypes
+WHERE	GreatWorkObjectType IS NOT NULL;
+
+INSERT OR IGNORE INTO ModifierArguments
+		(ModifierId,									Name,					Value)
+SELECT	'JNR_MARKETING_AGENCY_' || GreatWorkObjectType,	'YieldType',			'YIELD_GOLD'
+FROM	GreatWorkObjectTypes
+WHERE	GreatWorkObjectType IS NOT NULL;
+
+INSERT OR IGNORE INTO ModifierArguments
+		(ModifierId,									Name,					Value)
+SELECT	'JNR_MARKETING_AGENCY_' || GreatWorkObjectType,	'YieldChange',			2
+FROM	GreatWorkObjectTypes
+WHERE	GreatWorkObjectType IS NOT NULL;
+
+INSERT OR IGNORE INTO ModifierArguments
+		(ModifierId,									Name,					Value)
+SELECT	'JNR_MARKETING_AGENCY_GOLD_SKI_RESORT',			'YieldType',			'YIELD_GOLD'
+FROM	RequirementSets
+WHERE	RequirementSetId='JNR_PLOT_IS_SKI_RESORT_REQUIREMENTS';
+
+INSERT OR IGNORE INTO ModifierArguments
+		(ModifierId,									Name,					Value)
+SELECT	'JNR_MARKETING_AGENCY_GOLD_SKI_RESORT',			'Amount',				1
+FROM	RequirementSets
+WHERE	RequirementSetId='JNR_PLOT_IS_SKI_RESORT_REQUIREMENTS';
+--------------------------------------------------------------
+
+-- BuildingModifiers
+--------------------------------------------------------------
+INSERT OR IGNORE INTO BuildingModifiers
+		(BuildingType,						ModifierId)
+VALUES	('BUILDING_JNR_MINT',				'JNR_MINT_GOLD_1_TITLE'),
+		('BUILDING_JNR_MINT',				'JNR_MINT_GOLD_2_TITLE'),
+		('BUILDING_JNR_MINT',				'JNR_MINT_GOLD_3_TITLE'),
+		('BUILDING_JNR_MINT',				'JNR_MINT_GOLD_4_TITLE'),
+		('BUILDING_JNR_MINT',				'JNR_MINT_GOLD_5_TITLE'),
+		('BUILDING_JNR_MINT',				'JNR_MINT_GOLD_6_TITLE'),
+		('BUILDING_BANK',					'JNR_BANK_GOLD_POPULATION'),
+		('BUILDING_JNR_GUILDHALL',			'JNR_GUILDHALL_GOLD_RESOURCES'),
+		('BUILDING_STOCK_EXCHANGE',			'JNR_STOCK_EXCHANGE_GOLD'),
+		('BUILDING_JNR_WHARF_FISHING',		'LIGHTHOUSE_COAST_FOOD'),
+		('BUILDING_JNR_WHARF_FISHING',		'JNR_FISHING_DOCK_FOOD_OCEAN_CARTOGRAPHY'),
+		('BUILDING_JNR_LIGHTHOUSE_FISHING',	'LIGHTHOUSE_COAST_FOOD'),
+		('BUILDING_JNR_LIGHTHOUSE_FISHING',	'JNR_FISHING_DOCK_FOOD_OCEAN_CARTOGRAPHY'),
+		('BUILDING_JNR_LIGHTHOUSE_FISHING',	'JNR_LIGHTHOUSE_PRODUCTION_FISHING'),
+		('BUILDING_LIGHTHOUSE',				'JNR_LIGHTHOUSE_PRODUCTION_FISHING'),
+		('BUILDING_SHIPYARD',				'JNR_SHIPYARD_PRODUCTION_NO_FISHING'),
+		('BUILDING_JNR_FISH_MARKET',		'JNR_SHIPYARD_PRODUCTION_NO_FISHING'),
+		('BUILDING_JNR_ENTREPOT',			'JNR_SHIPYARD_PRODUCTION_NO_FISHING'),
+		('BUILDING_JNR_FISH_MARKET',		'SEAPORT_COAST_GOLD'),
+		('BUILDING_JNR_FISH_MARKET',		'JNR_FISH_MARKET_OCEAN_GOLD'),
+		('BUILDING_JNR_OFFSHORE_TERMINAL',	'JNR_OFFSHORE_TERMINAL_PRODUCTION');
+
+DELETE FROM BuildingModifiers WHERE BuildingType='BUILDING_LIGHTHOUSE'	AND ModifierId='LIGHTHOUSE_COAST_FOOD';
+DELETE FROM BuildingModifiers WHERE BuildingType='BUILDING_SHIPYARD'	AND ModifierId='SHIPYARD_UNIMPROVED_COAST_PRODUCTION';
+DELETE FROM BuildingModifiers WHERE BuildingType='BUILDING_SEAPORT'		AND ModifierId='SEAPORT_COAST_GOLD';
+
+INSERT OR IGNORE INTO BuildingModifiers
+		(BuildingType,						ModifierId)
+SELECT	'BUILDING_JNR_MARKETING_AGENCY',	'JNR_MARKETING_AGENCY_' || GreatWorkObjectType
+FROM	GreatWorkObjectTypes
+WHERE	GreatWorkObjectType IS NOT NULL;
+
+INSERT OR IGNORE INTO BuildingModifiers
+		(BuildingType,						ModifierId)
+SELECT	BuildingType,						'JNR_MARKETING_AGENCY_GOLD_ENTERTAINMENT'
+FROM	Buildings
+WHERE	PrereqDistrict='DISTRICT_ENTERTAINMENT_COMPLEX';
+
+INSERT OR IGNORE INTO BuildingModifiers
+		(BuildingType,						ModifierId)
+SELECT	'BUILDING_JNR_MARKETING_AGENCY',	'JNR_MARKETING_AGENCY_GOLD_SKI_RESORT'
+FROM	Improvement_YieldChanges
+WHERE	ImprovementType='IMPROVEMENT_SKI_RESORT';
+
+UPDATE	Buildings
+SET		Description='LOC_BUILDING_JNR_MARKETING_AGENCY_DESCRIPTION_SKI'
+WHERE	BuildingType=(SELECT BuildingType FROM BuildingModifiers WHERE BuildingType='BUILDING_JNR_MARKETING_AGENCY' AND ModifierId='JNR_MARKETING_AGENCY_GOLD_SKI_RESORT');
+--------------------------------------------------------------
+
+-- AllianceEffects
+--------------------------------------------------------------
+INSERT OR IGNORE INTO AllianceEffects
+		(LevelRequirement,	AllianceType,	ModifierID)
+SELECT	1,					AllianceType,	'JNR_ENTREPOT_GOLD_ALLY_TRADE'
+FROM	Alliances
+WHERE	AllianceType IS NOT NULL;
+--------------------------------------------------------------

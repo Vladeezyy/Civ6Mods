@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="95f89921-a4be-4cce-841d-a6a67b48a0f8" version="15">
+  <Properties>
+    <Name>[COLOR:ResScienceLabelCS]CB[ENDCOLOR] - Renewable Energy Complexity</Name>
+    <Description>Makes improvements providing green energy more powerful but also more dependent on geography. They also generate more power with advanced technologies. Battery Storage buildings allow for the transfer of renewable energy between cities and even between civilizations.</Description>
+    <Created>1594504125</Created>
+    <Teaser>Reworks renewable power and enables transferring it between cities.</Teaser>
+    <Authors>JNR</Authors>
+    <SpecialThanks>Firaxis (unused building model), Albro (Power Station model from City Lights)</SpecialThanks>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+	<Criteria id="MOD_CL">
+	  <ModInUse>95b955fc-2dd1-41c5-989e-0265d98a28bd</ModInUse>				<!-- City Lights -->
+	</Criteria>
+	<Criteria id="MOD_No_CL">
+	  <ModInUse inverse="1">95b955fc-2dd1-41c5-989e-0265d98a28bd</ModInUse>	<!-- City Lights -->
+	</Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>130</LoadOrder>
+      </Properties>
+      <File>Data/CB_REC_Buildings.sql</File>
+      <File>Data/CB_REC_Projects.sql</File>
+      <File>Data/CB_REC_Resources.sql</File>
+      <File>Data/CB_REC_Improvements.sql</File>
+      <File>Data/CB_REC_Power_Terrain.sql</File>
+      <File>Data/CB_REC_Power_Tech.sql</File>
+      <File>Data/CB_REC_Power_Governors.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_Power_Station" criteria="MOD_No_CL">
+      <Properties>
+        <LoadOrder>1301</LoadOrder>
+      </Properties>
+      <File>Data/UC_REC_Power_Station.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_Power_Station_CL" criteria="MOD_CL">
+      <Properties>
+        <LoadOrder>1301</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_REC_Power_Station_CL.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Text/CB_REC_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Icons/CB_REC_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateIcons id="Icons_Power_Station" criteria="MOD_No_CL">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Icons/CB_REC_Icons_Power_Station.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="ArtDependency">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>CB_Renewables.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+	<File>ArtDefs/Landmarks.artdef</File>
+	<File>Data/ModSupport/UC_REC_Power_Station_CL.sql</File>
+    <File>Data/CB_REC_Buildings.sql</File>
+    <File>Data/CB_REC_Improvements.sql</File>
+    <File>Data/CB_REC_Power_Governors.sql</File>
+    <File>Data/CB_REC_Power_Tech.sql</File>
+    <File>Data/CB_REC_Power_Terrain.sql</File>
+    <File>Data/CB_REC_Projects.sql</File>
+    <File>Data/CB_REC_Resources.sql</File>
+	<File>Data/UC_REC_Power_Station.sql</File>
+    <File>Icons/CB_REC_Icons.sql</File>
+    <File>Icons/CB_REC_Icons_Power_Station.sql</File>
+    <File>CB_Renewables.dep</File>
+    <File>Text/CB_REC_Text.sql</File>
+  </Files>
+</Mod>

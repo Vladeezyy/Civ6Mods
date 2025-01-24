@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="dbcb84a8-dc88-4732-a2e7-60747d263a76" version="6">
+  <Properties>
+    <Name>[COLOR:ResProductionLabelCS]UC[ENDCOLOR] - Specialist Progression</Name>
+    <Description>All district buildings upgrade Specialist yields by 1 (or 2 for Gold). Double yields for buildings in Aerodrome, Diplomatic Quarter, and Cistern (if available). Districts start with 1 extra slot. All specialty districts now have Specialist slots, including upgrades from their buildings. Specialists consume only 1 Food, except for those in Industrial Zones and Encampments.</Description>
+    <Teaser>All district buildings upgrade Specialist yields.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="Metropolis_Mode"> <!-- Project Metropolis -->
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_METROPOLIS</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="DatabaseTable">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>UC_PSY_Tier_Table.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DatabaseTableUniques">
+      <Properties>
+        <LoadOrder>1300</LoadOrder>
+      </Properties>
+      <File>UC_PSY_Tier_Table_Uniques.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Database">
+      <Properties>
+        <LoadOrder>1301</LoadOrder>
+      </Properties>
+      <File>UC_PSY_Slots.sql</File>
+      <File>UC_PSY_Yields.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Database_MOD_PM" criteria="Metropolis_Mode">
+      <Properties>
+        <LoadOrder>1302</LoadOrder>
+      </Properties>
+	  <File>UC_PSY_Slots_PM.sql</File>
+      <File>UC_PSY_Yields_PM.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>UC_PSY_Slots.sql</File>
+	<File>UC_PSY_Slots_PM.sql</File>
+    <File>UC_PSY_Tier_Table.sql</File>
+    <File>UC_PSY_Tier_Table_Uniques.sql</File>
+    <File>UC_PSY_Yields.sql</File>
+	<File>UC_PSY_Yields_PM.sql</File>
+  </Files>
+</Mod>

@@ -1,0 +1,101 @@
+-- UC_PSY_Tier_Table
+-- Author: JNR
+--------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS Buildings_JNRUC_SpecialistTiers
+	(
+	BuildingType TEXT PRIMARY KEY,
+	Yield TEXT
+	);
+
+-- Base Buildings
+--------------------------------------------------------------
+INSERT OR IGNORE INTO Buildings_JNRUC_SpecialistTiers
+		(BuildingType,					Yield)
+VALUES	('BUILDING_HANGAR',				'YIELD_PRODUCTION'),
+		('BUILDING_AIRPORT',			'YIELD_GOLD'),
+		('BUILDING_LIBRARY',			'YIELD_SCIENCE'),
+		('BUILDING_UNIVERSITY',			'YIELD_SCIENCE'),
+		('BUILDING_MARKET',				'YIELD_GOLD'),
+		('BUILDING_BANK',				'YIELD_GOLD'),
+		('BUILDING_BARRACKS',			'YIELD_PRODUCTION'),
+		('BUILDING_STABLE',				'YIELD_PRODUCTION'),
+		('BUILDING_ARMORY',				'YIELD_PRODUCTION'),
+		('BUILDING_ARENA',				'YIELD_CULTURE'),
+		('BUILDING_ZOO',				'YIELD_SCIENCE'),
+		('BUILDING_STADIUM',			'YIELD_GOLD'),
+		('BUILDING_LIGHTHOUSE',			'YIELD_GOLD'),
+		('BUILDING_SHIPYARD',			'YIELD_PRODUCTION'),
+		('BUILDING_SHRINE',				'YIELD_FAITH'),
+		('BUILDING_TEMPLE',				'YIELD_FAITH'),
+		('BUILDING_WORKSHOP',			'YIELD_PRODUCTION'),
+		('BUILDING_FACTORY',			'YIELD_PRODUCTION'),
+		('BUILDING_AMPHITHEATER',		'YIELD_CULTURE'),
+		('BUILDING_MUSEUM_ART',			'YIELD_CULTURE'),
+		('BUILDING_MUSEUM_ARTIFACT',	'YIELD_CULTURE'),
+		('BUILDING_FERRIS_WHEEL',		'YIELD_CULTURE'),
+		('BUILDING_AQUARIUM',			'YIELD_SCIENCE'),
+		('BUILDING_AQUATICS_CENTER',	'YIELD_GOLD');
+--------------------------------------------------------------
+
+-- DLC & Mods
+--------------------------------------------------------------
+INSERT OR IGNORE INTO Buildings_JNRUC_SpecialistTiers
+		(BuildingType,					Yield)
+SELECT	BuildingType,					'YIELD_FOOD'
+FROM	Buildings
+WHERE	BuildingType IN ('BUILDING_JNR_LIGHTHOUSE_FISHING', 'BUILDING_JNR_FISH_MARKET', 'BUILDING_WTR_BREAKWATER');
+
+INSERT OR IGNORE INTO Buildings_JNRUC_SpecialistTiers
+		(BuildingType,					Yield)
+SELECT	BuildingType,					'YIELD_PRODUCTION'
+FROM	Buildings
+WHERE	BuildingType IN ('BUILDING_JNR_IZ_WATER_MILL', 'BUILDING_JNR_WIND_MILL', 'BUILDING_JNR_MANUFACTURY', 'BUILDING_JNR_TARGET_RANGE', 'BUILDING_JNR_CASEMATES', 'BUILDING_JNR_DEPOT', 'BUILDING_ARS_WAREHOUSE', 'BUILDING_ARS_DRYDOCK');
+
+INSERT OR IGNORE INTO Buildings_JNRUC_SpecialistTiers
+		(BuildingType,					Yield)
+SELECT	BuildingType,					'YIELD_PRODUCTION'
+FROM	Buildings
+WHERE	BuildingType='BUILDING_SEWER' AND PrereqDistrict='DISTRICT_AQUEDUCT';
+
+INSERT OR IGNORE INTO Buildings_JNRUC_SpecialistTiers
+		(BuildingType,					Yield)
+SELECT	BuildingType,					'YIELD_GOLD'
+FROM	Buildings
+WHERE	BuildingType IN ('BUILDING_JNR_MINT', 'BUILDING_JNR_WAYSTATION', 'BUILDING_JNR_GUILDHALL', 'BUILDING_JNR_GUILDHALL', 'BUILDING_JNR_MERCHANT_QUARTER',
+						'BUILDING_JNR_ENTREPOT',
+						'BUILDING_JNR_TOURNEY', 'BUILDING_JNR_MARINA',
+						'BUILDING_GOV_JNR_MOCC', 'BUILDING_GOV_JNR_PROPAGANDA', 'BUILDING_GOV_JNR_DIPLOMACY');
+						
+INSERT OR IGNORE INTO Buildings_JNRUC_SpecialistTiers
+		(BuildingType,					Yield)
+SELECT	BuildingType,					'YIELD_GOLD'
+FROM	Buildings
+WHERE	PrereqDistrict IN ('DISTRICT_GOVERNMENT', 'DISTRICT_DIPLOMATIC_QUARTER');
+
+INSERT OR IGNORE INTO Buildings_JNRUC_SpecialistTiers
+		(BuildingType,					Yield)
+SELECT	BuildingType,					'YIELD_SCIENCE'
+FROM	Buildings
+WHERE	BuildingType IN ('BUILDING_SANCTUARY', 'BUILDING_JNR_ACADEMY', 'BUILDING_JNR_SCHOOL');
+
+INSERT OR IGNORE INTO Buildings_JNRUC_SpecialistTiers
+		(BuildingType,					Yield)
+SELECT	BuildingType,					'YIELD_CULTURE'
+FROM	Buildings
+WHERE	BuildingType IN ('BUILDING_JNR_ASSEMBLY', 'BUILDING_JNR_CABINET', 'BUILDING_JNR_MANSION');
+
+INSERT OR IGNORE INTO Buildings_JNRUC_SpecialistTiers
+		(BuildingType,					Yield)
+SELECT	BuildingType,					'YIELD_FAITH'
+FROM	Buildings
+WHERE	BuildingType IN ('BUILDING_GROVE', 'BUILDING_JNR_ALTAR', 'BUILDING_JNR_MONASTERY');
+
+DELETE FROM Buildings_JNRUC_SpecialistTiers WHERE BuildingType='BUILDING_FACTORY'			AND EXISTS (SELECT * FROM Buildings WHERE BuildingType='BUILDING_JNR_CHEMICAL');
+DELETE FROM Buildings_JNRUC_SpecialistTiers WHERE BuildingType='BUILDING_MUSEUM_ART'		AND EXISTS (SELECT * FROM Buildings WHERE BuildingType='BUILDING_JNR_MANSION');
+DELETE FROM Buildings_JNRUC_SpecialistTiers WHERE BuildingType='BUILDING_MUSEUM_ARTIFACT'	AND EXISTS (SELECT * FROM Buildings WHERE BuildingType='BUILDING_JNR_CABINET');
+DELETE FROM Buildings_JNRUC_SpecialistTiers WHERE BuildingType='BUILDING_ZOO'				AND EXISTS (SELECT * FROM Buildings WHERE BuildingType='BUILDING_JNR_BOTANICAL_GARDEN');
+DELETE FROM Buildings_JNRUC_SpecialistTiers WHERE BuildingType='BUILDING_AQUARIUM'			AND EXISTS (SELECT * FROM Buildings WHERE BuildingType='BUILDING_JNR_CASINO');
+DELETE FROM Buildings_JNRUC_SpecialistTiers WHERE BuildingType='BUILDING_STADIUM'			AND EXISTS (SELECT * FROM Buildings WHERE BuildingType='BUILDING_JNR_CONVENTION');
+DELETE FROM Buildings_JNRUC_SpecialistTiers WHERE BuildingType='BUILDING_AQUATICS_CENTER'	AND EXISTS (SELECT * FROM Buildings WHERE BuildingType='BUILDING_JNR_CRUISE_TERMINAL');
+--------------------------------------------------------------

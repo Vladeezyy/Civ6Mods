@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <IconTextureAtlases>
+    <Row Name="ICON_ATLAS_MOUNTEREBUS_FEATURES" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Baseline="0" Filename="MountErebus_Features_50" />
+    <Row Name="ICON_ATLAS_MOUNTEREBUS_FEATURES" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Baseline="0" Filename="MountErebus_Features_64" />
+    <Row Name="ICON_ATLAS_MOUNTEREBUS_FEATURES" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Baseline="0" Filename="MountErebus_Features_256" />
+  </IconTextureAtlases>
+  <IconDefinitions>
+    <Row Name="ICON_FEATURE_MOUNT_EREBUS" Atlas="ICON_ATLAS_MOUNTEREBUS_FEATURES" Index="0" />
+  </IconDefinitions>
+</GameData>
