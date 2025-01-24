@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Potato_Bld_C"/>
+			<m_ObjectName text="RES_LEU_P0K_Potato_Bld_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Potato_Bld_A"/>
+			<m_ObjectName text="RES_LEU_P0K_Potato_Bld_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Potato_Bld_B"/>
+			<m_ObjectName text="RES_LEU_P0K_Potato_Bld_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Quinoa_Bld_C"/>
+			<m_ObjectName text="RES_LEU_P0K_Quinoa_Bld_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Quinoa_Bld_A"/>
+			<m_ObjectName text="RES_LEU_P0K_Quinoa_Bld_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Quinoa_Bld_B"/>
+			<m_ObjectName text="RES_LEU_P0K_Quinoa_Bld_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Llama_01_UNWORKED"/>
+			<m_ObjectName text="RES_LEU_P0K_Llama_01_UNWORKED"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Llama_01_WORKED"/>
+			<m_ObjectName text="RES_LEU_P0K_Llama_01_WORKED"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Llama_02_UNWORKED"/>
+			<m_ObjectName text="RES_LEU_P0K_Llama_02_UNWORKED"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Llama_02_WORKED"/>
+			<m_ObjectName text="RES_LEU_P0K_Llama_02_WORKED"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Llama_03_UNWORKED"/>
+			<m_ObjectName text="RES_LEU_P0K_Llama_03_UNWORKED"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Llama_03_WORKED"/>
+			<m_ObjectName text="RES_LEU_P0K_Llama_03_WORKED"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Capybara_ANY"/>
+			<m_ObjectName text="RES_LEU_P0K_Capybara_ANY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Angled_01"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Angled_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Angled_02"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Angled_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Angled_03"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Angled_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Angled_04"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Angled_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Filler_01"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Filler_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Filler_02"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Filler_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Filler_03"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Filler_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Filler_04"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Filler_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Filler_05"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Filler_05"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Filler_06"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Filler_06"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Filler_07"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Filler_07"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Filler_08"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Filler_08"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Filler_09"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Filler_09"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Filler_10"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Filler_10"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Filler_11"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Filler_11"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Filler_12"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Filler_12"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Square_01"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Square_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Square_02"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Square_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Square_03"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Square_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Square_04"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Square_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Square_05"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Square_05"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Square_06"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Square_06"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Square_07"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Square_07"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Square_08"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Square_08"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Transition_01"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Transition_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Transition_02"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Transition_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Transition_03"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Transition_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Transition_04"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Transition_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Transition_05"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Transition_05"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Transition_06"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Transition_06"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Transition_07"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Transition_07"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Transition_08"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Transition_08"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Transition_09"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Transition_09"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Transition_10"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Transition_10"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Transition_11"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Transition_11"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Potato_Decal_Transition_12"/>
+			<m_ObjectName text="IMP_Farm_Potato_Decal_Transition_12"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Angled_01"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Angled_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Angled_02"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Angled_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Angled_03"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Angled_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Angled_04"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Angled_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Filler_01"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Filler_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Filler_02"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Filler_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Filler_03"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Filler_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Filler_04"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Filler_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Filler_05"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Filler_05"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Filler_06"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Filler_06"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Filler_07"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Filler_07"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Filler_08"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Filler_08"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Filler_09"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Filler_09"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Filler_10"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Filler_10"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Filler_11"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Filler_11"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Filler_12"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Filler_12"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Square_01"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Square_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Square_02"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Square_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Square_03"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Square_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Square_04"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Square_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Square_05"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Square_05"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Square_06"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Square_06"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Square_07"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Square_07"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Square_08"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Square_08"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Transition_01"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Transition_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Transition_02"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Transition_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Transition_03"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Transition_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Transition_04"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Transition_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Transition_05"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Transition_05"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Transition_06"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Transition_06"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Transition_07"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Transition_07"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Transition_08"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Transition_08"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Transition_09"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Transition_09"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Transition_10"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Transition_10"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Transition_11"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Transition_11"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Farm_Quinoa_Decal_Transition_12"/>
+			<m_ObjectName text="IMP_Farm_Quinoa_Decal_Transition_12"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Coca_Bld_C"/>
+			<m_ObjectName text="RES_LEU_P0K_Coca_Bld_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Coca_Bld_A"/>
+			<m_ObjectName text="RES_LEU_P0K_Coca_Bld_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Coca_Bld_B"/>
+			<m_ObjectName text="RES_LEU_P0K_Coca_Bld_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Yerbamate_Bld_A"/>
+			<m_ObjectName text="RES_LEU_P0K_Yerbamate_Bld_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Yerbamate_Bld_B"/>
+			<m_ObjectName text="RES_LEU_P0K_Yerbamate_Bld_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_LEU_P0K_Yerbamate_Bld_C"/>
+			<m_ObjectName text="RES_LEU_P0K_Yerbamate_Bld_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_LEU_p0k_Camp_AN_01"/>
+			<m_ObjectName text="IMP_LEU_p0k_Camp_AN_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_LEU_p0k_Camp_AN_02"/>
+			<m_ObjectName text="IMP_LEU_p0k_Camp_AN_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_LEU_p0k_Camp_AN_03"/>
+			<m_ObjectName text="IMP_LEU_p0k_Camp_AN_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_LEU_p0k_Camp_IND_01"/>
+			<m_ObjectName text="IMP_LEU_p0k_Camp_IND_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_LEU_p0k_Camp_IND_02"/>
+			<m_ObjectName text="IMP_LEU_p0k_Camp_IND_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_LEU_p0k_Camp_IND_03"/>
+			<m_ObjectName text="IMP_LEU_p0k_Camp_IND_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_LEU_p0k_PLNT_Ancient"/>
+			<m_ObjectName text="IMP_LEU_p0k_PLNT_Ancient"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_LEU_p0k_PLNT_Industrial"/>
+			<m_ObjectName text="IMP_LEU_p0k_PLNT_Industrial"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_LEU_p0k_Pasture_AN"/>
+			<m_ObjectName text="IMP_LEU_p0k_Pasture_AN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_LEU_p0k_Pasture_IND"/>
+			<m_ObjectName text="IMP_LEU_p0k_Pasture_IND"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
