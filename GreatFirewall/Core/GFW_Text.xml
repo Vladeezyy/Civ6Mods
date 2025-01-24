@@ -1,24 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- LHM_Text -->
 <!-- Author: Ithildin -->
 <!-- DateCreated: 2/23/2024 2:37:16 PM -->
 <GameData>
-	<BaseGameText>
-		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_NAME" Language="en_US">
-			<Text>Великий файрвол</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_DESCRIPTION" Language="en_US">
-			<Text>Уровень вражеских шпионов снижен на 2 в ваших землях. Уровень ваших шпионов повышен на 1 для наступательных операций. Уровень вражеских шпионов дополнительно снижен на 2 при попытке действий в этом городе. [ICON_Tourism] Туризм от других игроков снижен на 33% по отношению к вашей цивилизации.[NEWLINE][NEWLINE]Должен быть построен в центре города [ICON_Capital] столицы.</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_QUOTE" Language="en_US">
-			<Text>"Недоверие и осторожность — родители безопасности."[NEWLINE]– Бенджамин Франклин</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GREAT_FIREWALL_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Великий файрвол — это программа контроля и цензуры интернета, используемая для управления потоком информации, доступной населению цивилизации через интернет. Ограничивая доступ общественности к потенциально опасной информации в сети, государственные органы могут уменьшить вероятность недовольства и других форм протеста, связанных с непопулярной политикой и программами правительства.</Text>
-		</Replace>
-
-	</BaseGameText>
-
 	<LocalizedText>
 		<Replace Tag="LOC_BUILDING_GREAT_FIREWALL_NAME" Language="ru_RU">
 			<Text>Великий файрвол</Text>
